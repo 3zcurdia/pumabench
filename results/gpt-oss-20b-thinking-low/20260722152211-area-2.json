@@ -1,0 +1,63 @@
+{
+  "model": "gpt-oss-20b-thinking-low",
+  "timestamp": "20260722152211",
+  "area": 2,
+  "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+  "total": {
+    "questions": 120,
+    "correct": 97,
+    "percentage": 80.8
+  },
+  "subjects": {
+    "Biología": {
+      "questions": 13,
+      "correct": 13,
+      "percentage": 100.0
+    },
+    "Español": {
+      "questions": 18,
+      "correct": 10,
+      "percentage": 55.6
+    },
+    "Filosofía": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Física": {
+      "questions": 12,
+      "correct": 12,
+      "percentage": 100.0
+    },
+    "Geografía": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Historia Universal": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Historia de México": {
+      "questions": 10,
+      "correct": 4,
+      "percentage": 40.0
+    },
+    "Literatura": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Matemáticas": {
+      "questions": 24,
+      "correct": 19,
+      "percentage": 79.2
+    },
+    "Química": {
+      "questions": 13,
+      "correct": 11,
+      "percentage": 84.6
+    }
+  }
+}
