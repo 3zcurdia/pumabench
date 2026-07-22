@@ -1,0 +1,1449 @@
+{
+  "exam": "Examen Simulacro UNAM 2025",
+  "area": 2,
+  "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+  "total_questions": 120,
+  "source": "https://pumabecas.com/examen-de-simulacion-de-area-2-de-ingreso-a-la-unam-2025/",
+  "questions": [
+    {
+      "number": 1,
+      "subject": "Física",
+      "question": "Durante 15 segundos un motociclista se desplaza a 20 m/s, después, durante 20 segundos se mueve a 15 m/s, posteriormente se detiene durante 25 segundos y, finalmente, durante 18 segundos se traslada a 10 m/s. Con base en estos datos, la rapidez media es de",
+      "options": {
+        "A": "A) 25 m/s",
+        "B": "B) 15 m/s",
+        "C": "C) 20 m/s",
+        "D": "D) 10 m/s"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 2,
+      "subject": "Física",
+      "question": "Sobre un cuerpo se aplicaron diferentes fuerzas en dirección horizontal y con el mismo sentido provocando que el objeto experimentara distintas aceleraciones. ¿Cuál es la masa del objeto?",
+      "options": {
+        "A": "A) 1.6 kg",
+        "B": "B) 2.5 kg",
+        "C": "C) 3.2 kg",
+        "D": "D) 4.0 kg"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 3,
+      "subject": "Física",
+      "question": "La Ley de Hooke sobre la relación entre desplazamiento x del resorte y la fuerza F establece que x es",
+      "options": {
+        "A": "A) Directamente proporcional a F.",
+        "B": "B) Inversamente proporcional a F.",
+        "C": "C) Directamente proporcional al cuadrado de F.",
+        "D": "D) Inversamente proporcional al cuadrado de F."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 4,
+      "subject": "Física",
+      "question": "Un balín (x) de 200 g rueda con velocidad (V) sobre un riel recto. Otro balín (y) de 400 g rueda con velocidad (-V) en sentido contrario. Después de chocar el balín (y) queda inmóvil. ¿Cuál será la velocidad del balín (x) después del choque totalmente elástico?",
+      "options": {
+        "A": "A) 0",
+        "B": "B) (-V)(0.5)",
+        "C": "C) -V",
+        "D": "D) (-V)(0.25)"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 5,
+      "subject": "Física",
+      "question": "Un termómetro de gas a volumen constante mide temperatura. En el punto triple del agua (273.17 K), la presión es 8,500 × 10⁴ Pa. Con otro objeto, la presión es 9,650 × 10⁴ Pa. La temperatura del objeto es:",
+      "options": {
+        "A": "A) 683 K",
+        "B": "B) 310 K",
+        "C": "C) 410 K",
+        "D": "D) 241 K"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 6,
+      "subject": "Física",
+      "question": "La Teoría Cinética de los Gases predice una temperatura para la cual todas las partículas del gas cesan su movimiento aleatorio. ¿Cuál es esa temperatura?",
+      "options": {
+        "A": "A) -100°C",
+        "B": "B) 0°F",
+        "C": "C) 0 K",
+        "D": "D) 0°C"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 7,
+      "subject": "Física",
+      "question": "Una onda formada en una cuerda tiene una longitud de onda de 10 cm y un periodo de 2 s, ¿con qué velocidad se propaga?",
+      "options": {
+        "A": "A) 20.00 cm/s",
+        "B": "B) 0.25 cm/s",
+        "C": "C) 5.00 cm/s",
+        "D": "D) 2.00 cm/s"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 8,
+      "subject": "Física",
+      "question": "En uno de los lados de una esquina, dos personas tienen una conversación, una tercera la escucha a la vuelta de la misma. ¿Cómo se llama este fenómeno ondulatorio?",
+      "options": {
+        "A": "A) Interferencia",
+        "B": "B) Difracción",
+        "C": "C) Polarización",
+        "D": "D) Refracción"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 9,
+      "subject": "Física",
+      "question": "Un circuito consta de una pila con voltaje V y 4 resistores en serie con resistencia R cada uno. Si circula corriente I, ¿qué expresión calcula R?",
+      "options": {
+        "A": "A) R = 4V/I",
+        "B": "B) R = 4VI",
+        "C": "C) R = I/(4V)",
+        "D": "D) R = V/(4I)"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 10,
+      "subject": "Física",
+      "question": "El orden creciente de la longitud de onda para el color azul (z), el verde (v), el rojo (r), y la luz amarilla (a) es",
+      "options": {
+        "A": "A) r, a, v, z.",
+        "B": "B) a, v, r, z.",
+        "C": "C) v, a, z, r.",
+        "D": "D) z, v, a, r."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 11,
+      "subject": "Física",
+      "question": "La presión atmosférica en el Everest disminuye comparada con la del nivel del mar porque",
+      "options": {
+        "A": "A) la densidad del aire aumenta.",
+        "B": "B) la altura de la columna de aire soportada es menor.",
+        "C": "C) la presión hidrostática del mar influye.",
+        "D": "D) la densidad del aire soportada es mayor."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 12,
+      "subject": "Física",
+      "question": "¿En cuánto tiempo se llenará una alberca olímpica de 50 m x 25 m x 3 m, si se usa un tubo de 40 cm de diámetro por el que fluye agua a una velocidad de 4 m/s?",
+      "options": {
+        "A": "A) 0.0052 horas.",
+        "B": "B) 0.020 horas.",
+        "C": "C) 1.63 horas.",
+        "D": "D) 2.07 horas."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 13,
+      "subject": "Literatura",
+      "question": "Identifica el propósito del siguiente texto sobre los XVI Juegos Panamericanos Guadalajara 2011.",
+      "options": {
+        "A": "A) Reflexionar sobre un tema.",
+        "B": "B) Plasmar un sentimiento.",
+        "C": "C) Difundir ideas políticas.",
+        "D": "D) Informar oportunamente."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 14,
+      "subject": "Literatura",
+      "question": "Texto que se elabora para ser representado, en él aparecen fuerzas que entran en conflicto y se resuelve en el desenlace.",
+      "options": {
+        "A": "A) Novela",
+        "B": "B) Leyenda",
+        "C": "C) Drama",
+        "D": "D) Cuento"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 15,
+      "subject": "Literatura",
+      "question": "Personaje del texto dramático que realiza acciones prescindibles, pues sirven para crear ambientes y darle verosimilitud a la trama.",
+      "options": {
+        "A": "A) Principal",
+        "B": "B) Antagonista",
+        "C": "C) Incidental",
+        "D": "D) Secundario"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 16,
+      "subject": "Literatura",
+      "question": "Identifica la idea que transmite el autor en los versos de Manuel Gutiérrez Nájera: 'Quiero morir cuando decline el día, en alta mar y con la cara al cielo...'",
+      "options": {
+        "A": "A) Me rehúso a morir ahogado en el mar.",
+        "B": "B) Deseo una muerte con dignidad, en paz y sin dolor.",
+        "C": "C) Tengo miedo de morir.",
+        "D": "D) Creo que la agonía y la muerte son nada más un sueño."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 17,
+      "subject": "Literatura",
+      "question": "Género literario que es presentado en un escenario a través de diálogos.",
+      "options": {
+        "A": "A) Épico.",
+        "B": "B) Dramático.",
+        "C": "C) Narrativo.",
+        "D": "D) Lírico."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 18,
+      "subject": "Literatura",
+      "question": "Movimiento literario que surge en la segunda mitad del siglo XIX, como reacción ante el individualismo extremo y el idealismo del romanticismo.",
+      "options": {
+        "A": "A) Neoclasicismo",
+        "B": "B) Creacionismo",
+        "C": "C) Realismo",
+        "D": "D) Surrealismo"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 19,
+      "subject": "Literatura",
+      "question": "Poeta mexicano de la segunda mitad del siglo XX, ganador del premio Nobel.",
+      "options": {
+        "A": "A) Carlos Fuentes.",
+        "B": "B) Jaime Sabines.",
+        "C": "C) Octavio Paz.",
+        "D": "D) Carlos Monsiváis."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 20,
+      "subject": "Literatura",
+      "question": "El siguiente fragmento solo utiliza un espacio narrativo y pocos personajes, esto es característico de:",
+      "options": {
+        "A": "A) del mito.",
+        "B": "B) del cuento.",
+        "C": "C) de la leyenda.",
+        "D": "D) de la fábula."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 21,
+      "subject": "Literatura",
+      "question": "La novela pertenece al género ____, está escrita en ____ y suele tener una estructura ____.",
+      "options": {
+        "A": "A) narrativo – prosa – compleja",
+        "B": "B) épico – verso – complicada",
+        "C": "C) dramático – verso – escueta",
+        "D": "D) lírico – prosa – simple"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 22,
+      "subject": "Literatura",
+      "question": "La paráfrasis es un proceso de carácter",
+      "options": {
+        "A": "A) descriptivo.",
+        "B": "B) argumentativo.",
+        "C": "C) expositivo.",
+        "D": "D) interpretativo."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 23,
+      "subject": "Química",
+      "question": "En general, en la tabla periódica los elementos con mayor carácter metálico se ubican en",
+      "options": {
+        "A": "A) los periodos superiores.",
+        "B": "B) los periodos inferiores.",
+        "C": "C) las columnas de la izquierda.",
+        "D": "D) las columnas de la derecha."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 24,
+      "subject": "Química",
+      "question": "¿Cuántos gramos equivalen a 0.5 mol de ácido fosfórico, H3PO4?",
+      "options": {
+        "A": "A) 49",
+        "B": "B) 96",
+        "C": "C) 98",
+        "D": "D) 48"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 25,
+      "subject": "Química",
+      "question": "Sustancias que al estar en disolución donan protones.",
+      "options": {
+        "A": "A) Óxidos.",
+        "B": "B) Ácidos.",
+        "C": "C) Bases.",
+        "D": "D) Sales."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 26,
+      "subject": "Química",
+      "question": "La disolución Z tiene pH = 3. Presenta concentración de iones H⁺ = ___ y OH⁻ = ___.",
+      "options": {
+        "A": "A) 11 y 3",
+        "B": "B) 3 y 11",
+        "C": "C) 10⁻¹¹ y 10⁻³",
+        "D": "D) 10⁻³ y 10⁻¹¹"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 27,
+      "subject": "Química",
+      "question": "Una botella de brandy de 946 mL tiene 38% en volumen de alcohol. Los mL de alcohol presentes son",
+      "options": {
+        "A": "A) 24.84",
+        "B": "B) 38.00",
+        "C": "C) 359.48",
+        "D": "D) 586.52"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 28,
+      "subject": "Química",
+      "question": "La oxidación de un elemento no metálico genera",
+      "options": {
+        "A": "A) oxisales.",
+        "B": "B) óxidos básicos.",
+        "C": "C) hidróxidos.",
+        "D": "D) óxidos ácidos."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 29,
+      "subject": "Química",
+      "question": "¿Cuál ecuación química representa una reacción que favorece la lluvia ácida?",
+      "options": {
+        "A": "A) C + 2H₂ → CH₄",
+        "B": "B) SO₃ + H₂O → H₂SO₄",
+        "C": "C) CO₂ → C + O₂",
+        "D": "D) N₂ + 3H₂ → 2NH₃"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 30,
+      "subject": "Química",
+      "question": "Nutrimentos que se consumen en forma de almidones y azúcares.",
+      "options": {
+        "A": "A) Lípidos.",
+        "B": "B) Vitaminas.",
+        "C": "C) Carbohidratos.",
+        "D": "D) Proteínas."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 31,
+      "subject": "Química",
+      "question": "Los triglicéridos son un grupo de lípidos caracterizados por tener el grupo funcional",
+      "options": {
+        "A": "A) éter.",
+        "B": "B) éster.",
+        "C": "C) amida.",
+        "D": "D) alcohol."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 32,
+      "subject": "Química",
+      "question": "Un valor de constante de equilibrio mayor que 1 indica que",
+      "options": {
+        "A": "A) hay mayor formación de productos que de reactivos.",
+        "B": "B) hay mayor formación de reactivos que de productos.",
+        "C": "C) el equilibrio se desplaza hacia los reactivos.",
+        "D": "D) la reacción química está en equilibrio."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 33,
+      "subject": "Química",
+      "question": "La función principal de un catalizador en una reacción química es",
+      "options": {
+        "A": "A) aumentar la energía de activación.",
+        "B": "B) favorecer la pureza de los productos.",
+        "C": "C) disminuir la energía de activación.",
+        "D": "D) aumentar la temperatura de los reactivos."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 34,
+      "subject": "Química",
+      "question": "La siguiente estructura representa a un",
+      "options": {
+        "A": "A) alqueno.",
+        "B": "B) aromático.",
+        "C": "C) alquino.",
+        "D": "D) alcano."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 35,
+      "subject": "Química",
+      "question": "¿Cuál de los siguientes compuestos es un ácido carboxílico?",
+      "options": {
+        "A": "A) Opción A",
+        "B": "B) Opción B",
+        "C": "C) Opción C",
+        "D": "D) Opción D"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 36,
+      "subject": "Geografía",
+      "question": "Es un ejemplo de la relación hombre – naturaleza como objeto de estudio de la Geografía.",
+      "options": {
+        "A": "A) Los husos horarios son divisiones de la Tierra.",
+        "B": "B) El clima se define por el promedio de condiciones medias.",
+        "C": "C) La corriente de Humboldt tiene relación con la riqueza pesquera de Perú.",
+        "D": "D) Las migraciones de especies por cambio climático."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 37,
+      "subject": "Geografía",
+      "question": "El estado de Chihuahua está recorrido por la Sierra",
+      "options": {
+        "A": "A) Madre Oriental.",
+        "B": "B) Volcánica Transversal.",
+        "C": "C) de San Pedro Mártir.",
+        "D": "D) Madre Occidental."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 38,
+      "subject": "Geografía",
+      "question": "Es el río que ocupa el cuarto lugar en extensión en el mundo y se localiza en uno de los países económicamente más poderosos.",
+      "options": {
+        "A": "A) Misisipi – Estados Unidos.",
+        "B": "B) Yangtsé – China.",
+        "C": "C) Rin – Alemania.",
+        "D": "D) Volga – Rusia."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 39,
+      "subject": "Geografía",
+      "question": "Las corrientes frías se relacionan con los grandes bancos pesqueros de especies como",
+      "options": {
+        "A": "A) camarón y jaiba.",
+        "B": "B) jaiba y salmón.",
+        "C": "C) salmón y bacalao.",
+        "D": "D) bacalao y camarón."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 40,
+      "subject": "Geografía",
+      "question": "La taiga es una región natural que se localiza en el",
+      "options": {
+        "A": "A) sur de E.U.A., centro de Europa y Malasia.",
+        "B": "B) norte de Chile, norte de Suráfrica y Australia.",
+        "C": "C) norte de México, sur de Italia y sur de India.",
+        "D": "D) centro de Canadá, norte de Europa y Siberia."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 41,
+      "subject": "Geografía",
+      "question": "Es la causa principal que genera hundimientos en áreas de la Ciudad de México.",
+      "options": {
+        "A": "A) Fractura del subsuelo.",
+        "B": "B) Aumento del asentamiento humano.",
+        "C": "C) Ubicación en zona sísmica.",
+        "D": "D) Sobreexplotación de mantos acuíferos."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 42,
+      "subject": "Geografía",
+      "question": "Las dos áreas de mayor concentración de población en el mundo son",
+      "options": {
+        "A": "A) Asia Oriental y Europa Occidental.",
+        "B": "B) Asia Occidental y Europa Occidental.",
+        "C": "C) Asia Meridional y Europa Occidental.",
+        "D": "D) Asia Meridional y Europa Meridional."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 43,
+      "subject": "Geografía",
+      "question": "Una de las principales causas de la separación de Ucrania de la URSS fue",
+      "options": {
+        "A": "A) la explosión de Chernóbil.",
+        "B": "B) el conflicto en Chechenia.",
+        "C": "C) la reestructuración económica de Gorbachov.",
+        "D": "D) el enfrentamiento en la Guerra Fría."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 44,
+      "subject": "Geografía",
+      "question": "Una causa de la formación de nuevos países en Europa es la",
+      "options": {
+        "A": "A) caída de La Unión Soviética.",
+        "B": "B) dependencia económica.",
+        "C": "C) regionalización económica.",
+        "D": "D) expansión de la Unión Soviética."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 45,
+      "subject": "Geografía",
+      "question": "La cría de ganado bovino en el estado de ____ tiene como objetivo principal su exportación.",
+      "options": {
+        "A": "A) Sonora.",
+        "B": "B) Tlaxcala.",
+        "C": "C) Veracruz.",
+        "D": "D) Tabasco."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 46,
+      "subject": "Matemáticas",
+      "question": "Simplifica la expresión (a² + b)^(3/2) / (a² + b)",
+      "options": {
+        "A": "A) √((a² + b)⁶)",
+        "B": "B) (a² + b)^(-1/2)",
+        "C": "C) √(a² + b)",
+        "D": "D) (a² + b)³"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 47,
+      "subject": "Matemáticas",
+      "question": "Factoriza: n⁶ - 3n³ - 18",
+      "options": {
+        "A": "A) (n³ + 3)(n³ - 6)",
+        "B": "B) (n³ - 3)(n³ + 6)",
+        "C": "C) (n³ - 3)(n³ - 6)",
+        "D": "D) (n³ + 3)(n³ + 6)"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 48,
+      "subject": "Matemáticas",
+      "question": "Selecciona la expresión que corresponde a una ecuación",
+      "options": {
+        "A": "A) sen(x) = 1/2",
+        "B": "B) sen(x)csc(x) = 1",
+        "C": "C) sen²(x) + cos²(x) = 1",
+        "D": "D) sec²(x) - tan²(x) = 1"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 49,
+      "subject": "Matemáticas",
+      "question": "Los valores 0 y -2 son las raíces de la ecuación",
+      "options": {
+        "A": "A) x(x - 2) = 0",
+        "B": "B) (x + 2)(x - 2) = 0",
+        "C": "C) x(x + 2) = 0",
+        "D": "D) x² - 4 = 0"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 50,
+      "subject": "Matemáticas",
+      "question": "Selecciona la desigualdad que tiene por solución [1/3, ∞)",
+      "options": {
+        "A": "A) 3x - 1 ≥ 0",
+        "B": "B) 3x - 1 ≤ 0",
+        "C": "C) -3x + 1 ≥ 0",
+        "D": "D) -3x + 1 ≤ 0"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 51,
+      "subject": "Matemáticas",
+      "question": "Obtén el valor de x del sistema: 5x = 4y + 19 / 7x + 3y = 18",
+      "options": {
+        "A": "A) x = -3",
+        "B": "B) x = -1",
+        "C": "C) x = 1",
+        "D": "D) x = 3"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 52,
+      "subject": "Matemáticas",
+      "question": "La función de la gráfica es",
+      "options": {
+        "A": "A) f(x) = -√(8x - 16)",
+        "B": "B) f(x) = +√(8x - 16)",
+        "C": "C) f(x) = -√(-8x + 16)",
+        "D": "D) f(x) = +√(-8x + 16)"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 53,
+      "subject": "Matemáticas",
+      "question": "En términos de senΘ y cosΘ, tanΘ es igual a",
+      "options": {
+        "A": "A) senΘ/cosΘ",
+        "B": "B) cosΘ/senΘ",
+        "C": "C) 2senΘ/cosΘ",
+        "D": "D) 2cosΘ/senΘ"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 54,
+      "subject": "Matemáticas",
+      "question": "Para encontrar ángulos internos de un triángulo oblicuángulo cuando se conocen sus lados se utiliza",
+      "options": {
+        "A": "A) la ley de los cosenos.",
+        "B": "B) la ley de los senos.",
+        "C": "C) el teorema de Pitágoras.",
+        "D": "D) la razón trigonométrica tangente."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 55,
+      "subject": "Matemáticas",
+      "question": "Calcula el rango de y = e^(5x - 1/5) + 5",
+      "options": {
+        "A": "A) [1/5, ∞)",
+        "B": "B) (5, ∞)",
+        "C": "C) (-5, ∞)",
+        "D": "D) [-1/5, ∞)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 56,
+      "subject": "Matemáticas",
+      "question": "¿Cuál es la distancia entre P (2, 5) y Q (4, -1)?",
+      "options": {
+        "A": "A) 4√5",
+        "B": "B) 2√5",
+        "C": "C) 4√10",
+        "D": "D) 2√10"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 57,
+      "subject": "Matemáticas",
+      "question": "Determina el centro de la circunferencia cuyo diámetro es A (-3, 2), B (7, 8)",
+      "options": {
+        "A": "A) P (2, 5)",
+        "B": "B) P (5, 5)",
+        "C": "C) P (5, 3)",
+        "D": "D) P (-2, 3)"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "La ecuación ordinaria de la mediatriz del triángulo trazada desde el lado AB es",
+      "options": {
+        "A": "A) y = -3x + 6",
+        "B": "B) y = -3x + 7",
+        "C": "C) y = -2x + 5",
+        "D": "D) y = -2x + 6"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 59,
+      "subject": "Matemáticas",
+      "question": "Coordenadas del centro de 3x² + 3y² + 12x + 30y + 6 = 0",
+      "options": {
+        "A": "A) C (–4, –10)",
+        "B": "B) C (–2, –5)",
+        "C": "C) C (4, 10)",
+        "D": "D) C (2, 5)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 60,
+      "subject": "Matemáticas",
+      "question": "Ecuación de parábola con foco F (1, 0), P = 1 y eje focal paralelo al eje Y",
+      "options": {
+        "A": "A) x² + 4y = 0",
+        "B": "B) y² - 4x = 0",
+        "C": "C) x² - 4y = 0",
+        "D": "D) y² + 4x = 0"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 61,
+      "subject": "Matemáticas",
+      "question": "Ecuación general de x²/16 + y²/4 = 1",
+      "options": {
+        "A": "A) 4x² + y² - 16 = 0",
+        "B": "B) x² + 4y² + 16 = 0",
+        "C": "C) x² + 4y² - 16 = 0",
+        "D": "D) 4x² + 4y² + 16 = 0"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 62,
+      "subject": "Matemáticas",
+      "question": "Si c = 41 en x²/a² - y²/9² = 1, ¿cuánto vale a?",
+      "options": {
+        "A": "A) a = 1024",
+        "B": "B) a = 1600",
+        "C": "C) a = 32",
+        "D": "D) a = 40"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 63,
+      "subject": "Matemáticas",
+      "question": "Si B² - 4AC es positivo, la ecuación representa una",
+      "options": {
+        "A": "A) circunferencia.",
+        "B": "B) parábola.",
+        "C": "C) elipse.",
+        "D": "D) hipérbola."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 64,
+      "subject": "Matemáticas",
+      "question": "La condición que debe cumplir x cuando se aproxima a b para que exista el límite L es que",
+      "options": {
+        "A": "A) x ≠ b",
+        "B": "B) x ≤ b",
+        "C": "C) x = b",
+        "D": "D) x ≥ b"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 65,
+      "subject": "Matemáticas",
+      "question": "La derivada de y = (2x³ + 5)⁴ es",
+      "options": {
+        "A": "A) y' = 12x²(2x³ + 5)²",
+        "B": "B) y' = 6x²(2x³ + 5)³",
+        "C": "C) y' = 8x²(2x³ + 5)²",
+        "D": "D) y' = 24x²(2x³ + 5)³"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 66,
+      "subject": "Matemáticas",
+      "question": "f(t) = t³ - t + 1. Considerando t = 3, ¿cuál es su aceleración?",
+      "options": {
+        "A": "A) 24 u/s²",
+        "B": "B) 26 u/s²",
+        "C": "C) 17 u/s²",
+        "D": "D) 18 u/s²"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 67,
+      "subject": "Matemáticas",
+      "question": "La expresión para la aceleración de f(t) = cos(2t + 3) es",
+      "options": {
+        "A": "A) a(t) = –4cos(2t – 3)",
+        "B": "B) a(t) = cos(2t + 3)",
+        "C": "C) a(t) = –cos(2t + 3)",
+        "D": "D) a(t) = –4cos(2t + 3)"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 68,
+      "subject": "Matemáticas",
+      "question": "¿Qué características determinan si una función es integrable?",
+      "options": {
+        "A": "A) No es integrable porque tiene discontinuidades infinitas.",
+        "B": "B) Sí es integrable porque tiene discontinuidades infinitas.",
+        "C": "C) Sí es integrable porque está acotada y tiene discontinuidades finitas.",
+        "D": "D) No es integrable porque no está acotada."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 69,
+      "subject": "Matemáticas",
+      "question": "La integral ∫(2sen x + 3cos x)dx es",
+      "options": {
+        "A": "A) 2sen x + cos x + C",
+        "B": "B) 2sen x – cos x + C",
+        "C": "C) 2cos x + 3sen x + C",
+        "D": "D) –2cos x + 3sen x + C"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 70,
+      "subject": "Español",
+      "question": "Identifica la función de la lengua: 'Oye, escucha bien lo que he de decirte, no pierdas una sola palabra...'",
+      "options": {
+        "A": "A) Poética.",
+        "B": "B) Emotiva.",
+        "C": "C) Referencial.",
+        "D": "D) Apelativa."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 71,
+      "subject": "Español",
+      "question": "Selecciona el enunciado con predominio de la función poética.",
+      "options": {
+        "A": "A) Ese verso muestra su vocación de poeta.",
+        "B": "B) La literatura incluye al género poético.",
+        "C": "C) Manifestación de la belleza o del sentimiento estético.",
+        "D": "D) ¿Qué es poesía? ¿Y tú me lo Preguntas? / Poesía… eres tú."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 72,
+      "subject": "Español",
+      "question": "Identifica la forma del discurso: 'Los primeros prototipos de los platos biodegradables eran de piedra caliza...'",
+      "options": {
+        "A": "A) Argumentativa.",
+        "B": "B) Narrativa.",
+        "C": "C) Demostrativa.",
+        "D": "D) Descriptiva."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 73,
+      "subject": "Español",
+      "question": "Identifica la forma del discurso: 'Hablamos porque tenemos necesidad de nombrarnos, de afirmar nuestra libertad...'",
+      "options": {
+        "A": "A) Argumentación.",
+        "B": "B) Descripción.",
+        "C": "C) Narración.",
+        "D": "D) Exposición."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 74,
+      "subject": "Español",
+      "question": "En el texto 'Tiempo libre' de Guillermo Samperio, el clímax se da cuando",
+      "options": {
+        "A": "A) la esposa toma el periódico.",
+        "B": "B) el personaje corrió hacia la puerta.",
+        "C": "C) el personaje cayó estrepitosamente.",
+        "D": "D) el personaje llamó a las oficinas del periódico."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 75,
+      "subject": "Español",
+      "question": "El término apeñuscadas se refiere a que las letras",
+      "options": {
+        "A": "A) eran muchas y muy pequeñas.",
+        "B": "B) tenían color muy oscuro.",
+        "C": "C) eran pequeñas y negra.",
+        "D": "D) quedaban amontonadas."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 76,
+      "subject": "Español",
+      "question": "El personaje hizo una llamada telefónica para",
+      "options": {
+        "A": "A) protestar porque una mujer fue descortés.",
+        "B": "B) exigir un diagnóstico a su médico.",
+        "C": "C) quejarse de que el periódico le causó daño en la piel.",
+        "D": "D) expresar su preocupación al periódico."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "El personaje sintió un gran alivio al",
+      "options": {
+        "A": "A) escuchar que su mujer abría la puerta.",
+        "B": "B) regresar al sillón.",
+        "C": "C) llamar a su médico.",
+        "D": "D) sentir que su mujer lo levantaba."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 78,
+      "subject": "Español",
+      "question": "Con el texto, el autor intenta",
+      "options": {
+        "A": "A) denunciar los efectos nocivos del papel periódico.",
+        "B": "B) narrar la despersonalización de un individuo obsesionado con las noticias.",
+        "C": "C) describir los síntomas de la intoxicación por tinta.",
+        "D": "D) mostrar el malestar de un individuo al leer el periódico."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 79,
+      "subject": "Español",
+      "question": "Elige la oración principal del fragmento sobre el FDN.",
+      "options": {
+        "A": "A) Nunca terminaron de integrarse.",
+        "B": "B) Siempre fue mucho mayor la fuerza societaria.",
+        "C": "C) Desde que fuimos Corriente Democrática...",
+        "D": "D) En el vasto frente opositor que tomó el nombre de FDN había fuerzas distintas."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 80,
+      "subject": "Español",
+      "question": "Selecciona la opción que contenga sujeto tácito.",
+      "options": {
+        "A": "A) No hay posibilidades de cambio.",
+        "B": "B) Un rincón cerca del cielo.",
+        "C": "C) Así es todos los días.",
+        "D": "D) Cada noche camina dormida."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 81,
+      "subject": "Español",
+      "question": "Elige el párrafo con la mejor redacción.",
+      "options": {
+        "A": "A) En este orden, la posibilidad y el origen del conocimiento...",
+        "B": "B) Así, la posibilidad y el origen del conocimiento...",
+        "C": "C) El conocimiento, en el inicio, ofrece una vertiente filosófica...",
+        "D": "D) El conocimiento, en principio, ofrece una vertiente filosófica... En este orden, la posibilidad y el origen del conocimiento son algunos problemas clave."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 82,
+      "subject": "Español",
+      "question": "Elige el párrafo con la redacción adecuada.",
+      "options": {
+        "A": "A) Cuentan que en este año hubieron muchos damnificados...",
+        "B": "B) Afirmaron que este año habían muchos damnificados...",
+        "C": "C) Se afirmó que en este año hubieron muchos damnificados...",
+        "D": "D) Según los últimos datos, en este año ha habido muchos damnificados..."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 83,
+      "subject": "Español",
+      "question": "Son las propiedades textuales de un párrafo.",
+      "options": {
+        "A": "A) Concordancia, ortografía y tema.",
+        "B": "B) Inicio, desarrollo y conclusión.",
+        "C": "C) Sentido, ortografía y estructura.",
+        "D": "D) Cohesión, coherencia y adecuación."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 84,
+      "subject": "Español",
+      "question": "Relación de analogía: discurso barroco → aburrimiento / bostezo.",
+      "options": {
+        "A": "A) Ira – agresión.",
+        "B": "B) Diversión – sonrisa.",
+        "C": "C) Distracción – error.",
+        "D": "D) Impaciencia – fastidio."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 85,
+      "subject": "Español",
+      "question": "Selecciona la opción con palabras homófonas.",
+      "options": {
+        "A": "A) ay – hay – ahí.",
+        "B": "B) este – esté.",
+        "C": "C) hacía – Asia.",
+        "D": "D) a – ha – ah."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 86,
+      "subject": "Español",
+      "question": "Completa: Recuerda que los ____ plásticos no son ____ fácilmente por las máquinas trituradoras.",
+      "options": {
+        "A": "A) deshechos – deshechos",
+        "B": "B) desechos – desechos",
+        "C": "C) desechos – deshechos",
+        "D": "D) deshechos – desechos"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 87,
+      "subject": "Español",
+      "question": "Selecciona la opción que usa correctamente las letras mayúsculas.",
+      "options": {
+        "A": "A) Ante los Príncipes... la Muestra... la Arquitecta... la Galería.",
+        "B": "B) Ante los príncipes... la muestra... la Arquitecta... la galería.",
+        "C": "C) Ante los príncipes... la muestra... la arquitecta... la Galería.",
+        "D": "D) Ante los Príncipes... la muestra... El Trabajo... la galería."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 88,
+      "subject": "Biología",
+      "question": "Estructura que protege y da soporte a las células vegetales.",
+      "options": {
+        "A": "A) Complejo de Golgi.",
+        "B": "B) Pared celular.",
+        "C": "C) Matriz extracelular.",
+        "D": "D) Membrana plasmática."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 89,
+      "subject": "Biología",
+      "question": "La principal ventaja evolutiva de los organismos eucariontes con respecto a los procariontes es la",
+      "options": {
+        "A": "A) compartimentalización del citoplasma.",
+        "B": "B) respiración anaerobia.",
+        "C": "C) presencia de nutrición quimioautótrofa.",
+        "D": "D) síntesis de proteínas."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 90,
+      "subject": "Biología",
+      "question": "Cuando se hidroliza el ATP se forma",
+      "options": {
+        "A": "A) AMD",
+        "B": "B) ADP",
+        "C": "C) GTP",
+        "D": "D) UTP"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 91,
+      "subject": "Biología",
+      "question": "¿Cuáles compuestos se utilizan para la fijación del CO₂ en la fase oscura de la fotosíntesis?",
+      "options": {
+        "A": "A) FADH2 y H2O",
+        "B": "B) ATP Y NADPH",
+        "C": "C) FADH2 y ATP",
+        "D": "D) C6H12O6 y O2"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 92,
+      "subject": "Biología",
+      "question": "La información genética codificada en el ADN está en",
+      "options": {
+        "A": "A) el número de nucleótidos.",
+        "B": "B) la secuencia de las bases nitrogenadas.",
+        "C": "C) los enlaces entre las bases nitrogenadas.",
+        "D": "D) la unión entre nucleótidos."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 93,
+      "subject": "Biología",
+      "question": "Tipos de gametos producidos por un progenitor con genotipo Aa Bb.",
+      "options": {
+        "A": "A) AA – BB – aa – bb",
+        "B": "B) AB – Ab – aB – ab",
+        "C": "C) AA – Aa – BB – Bb",
+        "D": "D) Aa – Bb – aa – bb"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 94,
+      "subject": "Biología",
+      "question": "Si encontramos un cuerpo de Barr, se trata de un cromosoma",
+      "options": {
+        "A": "A) de un individuo masculino.",
+        "B": "B) metacéntrico.",
+        "C": "C) acrocéntrico.",
+        "D": "D) de un individuo femenino."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 95,
+      "subject": "Biología",
+      "question": "Primera proteína humana realizada con la tecnología del ADN recombinante.",
+      "options": {
+        "A": "A) Miosina.",
+        "B": "B) Hemoglobina.",
+        "C": "C) Queratina.",
+        "D": "D) Insulina."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 96,
+      "subject": "Biología",
+      "question": "La Teoría Quimiosintética de Oparin y Haldane propone un origen ____ de la vida.",
+      "options": {
+        "A": "A) biótico",
+        "B": "B) abiótico",
+        "C": "C) espontáneo",
+        "D": "D) panspérmico"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 97,
+      "subject": "Biología",
+      "question": "La barrera reproductiva al cruzar un burro con una yegua se llama",
+      "options": {
+        "A": "A) esterilidad gamética.",
+        "B": "B) aislamiento gamético.",
+        "C": "C) inviabilidad híbrida.",
+        "D": "D) esterilidad híbrida."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 98,
+      "subject": "Biología",
+      "question": "Organismos de diferentes especies que viven juntos y interactúan en un área particular.",
+      "options": {
+        "A": "A) Colonia.",
+        "B": "B) Bioma.",
+        "C": "C) Población.",
+        "D": "D) Comunidad."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 99,
+      "subject": "Biología",
+      "question": "Conjunto de organismos que interactúan entre sí y con el medio, dentro de un proceso de flujo y ciclaje de materia y energía.",
+      "options": {
+        "A": "A) Metagenoma.",
+        "B": "B) Población.",
+        "C": "C) Comunidad.",
+        "D": "D) Ecosistema."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 100,
+      "subject": "Biología",
+      "question": "En un ecosistema en equilibrio dinámico",
+      "options": {
+        "A": "A) la energía fluye en una dirección y los nutrimentos se reciclan.",
+        "B": "B) la energía entra en forma de calor metabólico.",
+        "C": "C) se recicla la energía pero no la materia.",
+        "D": "D) la energía y los nutrientes fluyen en diferentes direcciones."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 101,
+      "subject": "Historia Universal",
+      "question": "Los historiadores construyen los procesos históricos mediante la",
+      "options": {
+        "A": "A) intervención de los restos materiales antiguos.",
+        "B": "B) interpretación de las fuentes.",
+        "C": "C) explicación subjetiva de los datos.",
+        "D": "D) omisión de las fuentes secundarias."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 102,
+      "subject": "Historia Universal",
+      "question": "La creencia en la razón humana, la crítica a la religión y la búsqueda del conocimiento enciclopédico fueron características",
+      "options": {
+        "A": "A) de la Revolución Científica.",
+        "B": "B) del Positivismo.",
+        "C": "C) del Racionalismo.",
+        "D": "D) de la Ilustración."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 103,
+      "subject": "Historia Universal",
+      "question": "La lucha a favor del liberalismo y el nacionalismo representa las revoluciones de",
+      "options": {
+        "A": "A) 1820, 1830, 1848",
+        "B": "B) 1649, 1776, 1793",
+        "C": "C) 1789, 1804, 1820",
+        "D": "D) 1808, 1839, 1936"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 104,
+      "subject": "Historia Universal",
+      "question": "El automóvil, el aeroplano, el teléfono y la comida enlatada fueron inventos de la",
+      "options": {
+        "A": "A) Primera Revolución Industrial.",
+        "B": "B) Segunda Revolución Industrial.",
+        "C": "C) Primera Guerra Mundial.",
+        "D": "D) Segunda Guerra Mundial."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 105,
+      "subject": "Historia Universal",
+      "question": "La crisis en los Balcanes, alianzas diplomáticas y competencia económica fueron causas de la",
+      "options": {
+        "A": "A) Primera Guerra Mundial.",
+        "B": "B) Guerra de los Balcanes.",
+        "C": "C) Guerra de Crimea.",
+        "D": "D) Segunda Guerra Mundial."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 106,
+      "subject": "Historia Universal",
+      "question": "La sobreproducción y el liberalismo económico fueron causas de la crisis de",
+      "options": {
+        "A": "A) 1908",
+        "B": "B) 1929",
+        "C": "C) 1973",
+        "D": "D) 1914"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 107,
+      "subject": "Historia Universal",
+      "question": "Ordena cronológicamente: I. Hitler invade Polonia. II. Desembarco en Normandía. III. Bombas atómicas. IV. Alemanes toman París. V. Ataque a Pearl Harbor.",
+      "options": {
+        "A": "A) I, IV, V, II y III",
+        "B": "B) II, V, I, III y IV",
+        "C": "C) III, I, IV, V y II",
+        "D": "D) IV, III, I, II y V"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 108,
+      "subject": "Historia Universal",
+      "question": "Periodo de enfrentamientos indirectos entre URSS y EUA se conoce como",
+      "options": {
+        "A": "A) Luchas de liberación Nacional.",
+        "B": "B) Guerra Fría.",
+        "C": "C) Era Neoliberal.",
+        "D": "D) Neoimperialismo Nacionalista."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 109,
+      "subject": "Historia Universal",
+      "question": "Factor importante de la crisis político-militar en el Medio Oriente es",
+      "options": {
+        "A": "A) la creación del Estado de Israel.",
+        "B": "B) la opresión turca de Palestina.",
+        "C": "C) la independencia de Irán.",
+        "D": "D) la disputa religiosa en Líbano."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 110,
+      "subject": "Historia Universal",
+      "question": "Una característica del mundo unipolar es",
+      "options": {
+        "A": "A) el establecimiento del sistema socialista.",
+        "B": "B) la globalización de los sectores productivos.",
+        "C": "C) la estabilidad económica en el mundo.",
+        "D": "D) el fortalecimiento de las identidades nacionales."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 111,
+      "subject": "Historia de México",
+      "question": "¿Cuál fue la principal actividad económica que promovió la corona española en la Nueva España?",
+      "options": {
+        "A": "A) Agricultura.",
+        "B": "B) Minería.",
+        "C": "C) Ganadería.",
+        "D": "D) Comercio."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 112,
+      "subject": "Historia de México",
+      "question": "¿En qué momento se promulgó la Constitución de Apatzingán?",
+      "options": {
+        "A": "A) La organización.",
+        "B": "B) El inicio.",
+        "C": "C) La consumación.",
+        "D": "D) La guerrilla insurgente."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 113,
+      "subject": "Historia de México",
+      "question": "El gobierno de Anastasio Bustamante para mejorar la economía",
+      "options": {
+        "A": "A) estableció el impuesto por puertas y ventanas y fraccionó latifundios.",
+        "B": "B) suspendió el diezmo y subastó propiedades del clero.",
+        "C": "C) promulgó el Banco del Avío.",
+        "D": "D) estimuló la agricultura."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 114,
+      "subject": "Historia de México",
+      "question": "El objetivo principal del gobierno juarista durante la Restauración de la República fue",
+      "options": {
+        "A": "A) limitar la democracia.",
+        "B": "B) evitar la ruptura con Francia.",
+        "C": "C) reorganizar al país bajo el positivismo.",
+        "D": "D) establecer una oligarquía."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 115,
+      "subject": "Historia de México",
+      "question": "El Partido Liberal Mexicano fue encabezado por",
+      "options": {
+        "A": "A) Ricardo Flores Magón.",
+        "B": "B) Gustavo Madero.",
+        "C": "C) Emiliano Zapata.",
+        "D": "D) Pascual Orozco Vázquez."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 116,
+      "subject": "Historia de México",
+      "question": "Documento que reconoce derechos sociales como educación, trabajo digno, libertad de culto.",
+      "options": {
+        "A": "A) Constitución de 1917.",
+        "B": "B) Constitución de 1857.",
+        "C": "C) Constitución de 1824.",
+        "D": "D) Constitución de Apatzingán."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 117,
+      "subject": "Historia de México",
+      "question": "La inauguración de Bellas Artes, el PNR y la autonomía universitaria fueron acciones del periodo",
+      "options": {
+        "A": "A) Maximato.",
+        "B": "B) Unidad Nacional.",
+        "C": "C) Desarrollo Compartido.",
+        "D": "D) Cardenismo."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 118,
+      "subject": "Historia de México",
+      "question": "La trascendencia histórica del Plan Sexenal se debe a que",
+      "options": {
+        "A": "A) suscribió la paz entre facciones.",
+        "B": "B) dio voz a obreros y campesinos.",
+        "C": "C) estableció un modelo de desarrollo económico.",
+        "D": "D) permitió la reelección de Obregón."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 119,
+      "subject": "Historia de México",
+      "question": "El impulso a la petrolización y apertura turística a capitales privados fueron acciones de",
+      "options": {
+        "A": "A) Luis Echeverría.",
+        "B": "B) José López Portillo.",
+        "C": "C) Miguel de la Madrid.",
+        "D": "D) Carlos Salinas de Gortari."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 120,
+      "subject": "Historia de México",
+      "question": "La implementación de políticas neoliberales en México inició con el gobierno de",
+      "options": {
+        "A": "A) Luis Echeverría.",
+        "B": "B) José López Portillo.",
+        "C": "C) Miguel de la Madrid.",
+        "D": "D) Ernesto Zedillo."
+      },
+      "correct_answer": "C"
+    }
+  ]
+}

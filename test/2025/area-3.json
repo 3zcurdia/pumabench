@@ -1,0 +1,1449 @@
+{
+  "exam": "Examen Simulacro UNAM 2025",
+  "area": 3,
+  "area_name": "Ciencias Sociales",
+  "total_questions": 120,
+  "source": "https://pumabecas.com/examen-de-simulacion-de-area-3-de-ingreso-a-la-unam-2025/",
+  "questions": [
+    {
+      "number": 1,
+      "subject": "Física",
+      "question": "¿Qué representa la siguiente gráfica?",
+      "options": {
+        "A": "A) La caída libre de un cuerpo desde el reposo.",
+        "B": "B) Un lanzamiento vertical hacia abajo.",
+        "C": "C) Un movimiento con aceleración positiva.",
+        "D": "D) Un movimiento con aceleración negativa."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 2,
+      "subject": "Física",
+      "question": "La magnitud de la fuerza resultante de dos fuerzas perpendiculares es ________ que la suma algebraica de las componentes.",
+      "options": {
+        "A": "A) menor",
+        "B": "B) igual",
+        "C": "C) mayor",
+        "D": "D) inversa"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 3,
+      "subject": "Física",
+      "question": "Sobre un cuerpo se aplicaron fuerzas horizontales provocando distintas aceleraciones. ¿Cuál es la masa del objeto?",
+      "options": {
+        "A": "A) 1.6 kg.",
+        "B": "B) 2.5 kg",
+        "C": "C) 3.2 kg",
+        "D": "D) 4.0 kg"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 4,
+      "subject": "Física",
+      "question": "Una bala de 7.0 kg se dispara a 120 m/s. ¿Cuánta Ec tiene al salir y Ep en el punto más alto?",
+      "options": {
+        "A": "A) Ec = 50,400 J y Ep = 50,400 J",
+        "B": "B) Ec = 420 J y Ep = 420 J",
+        "C": "C) Ec = 50,400 J y Ep = 0 J",
+        "D": "D) Ec = 420 J y Ep = 0 J"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 5,
+      "subject": "Física",
+      "question": "La bola A impacta a 6 m/s a bola B en reposo (el doble de masa). Choque elástico. ¿Velocidades después del impacto?",
+      "options": {
+        "A": "A) U_A = -2 m/s; U_B = 4 m/s",
+        "B": "B) U_A = 4 m/s; U_B = 2 m/s",
+        "C": "C) U_A = 4 m/s; U_B = -2 m/s",
+        "D": "D) U_A = 2 m/s; U_B = 4 m/s"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 6,
+      "subject": "Física",
+      "question": "¿A qué temperatura en °F equivale 220 °C?",
+      "options": {
+        "A": "A) 454 °F",
+        "B": "B) 493 °F",
+        "C": "C) 428 °F",
+        "D": "D) 104 °F"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 7,
+      "subject": "Física",
+      "question": "Las olas de mayor tamaño en la playa se deben a que las olas se",
+      "options": {
+        "A": "A) refractan.",
+        "B": "B) polarizan.",
+        "C": "C) reflejan.",
+        "D": "D) superponen."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 8,
+      "subject": "Física",
+      "question": "¿Cuál es la longitud de onda de la onda estacionaria?",
+      "options": {
+        "A": "A) 4.5 cm/ciclo",
+        "B": "B) 90 cm/ciclo",
+        "C": "C) 9 cm/ciclo",
+        "D": "D) 18 cm/ciclo"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 9,
+      "subject": "Física",
+      "question": "Si R y V cambian al doble simultáneamente, el valor de la corriente se",
+      "options": {
+        "A": "A) reduce a la mitad.",
+        "B": "B) mantiene sin cambio.",
+        "C": "C) incrementa al doble.",
+        "D": "D) incrementa al cuádruple."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 10,
+      "subject": "Física",
+      "question": "Circuito con resistores R y 2R. Si circula 3I en una sección, ¿qué corriente circula por 2R?",
+      "options": {
+        "A": "A) 3I amperes.",
+        "B": "B) 0 amperes.",
+        "C": "C) I amperes.",
+        "D": "D) 2I amperes."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 11,
+      "subject": "Literatura",
+      "question": "Los textos periodísticos que informan son, además de la noticia,",
+      "options": {
+        "A": "A) el artículo y la crónica.",
+        "B": "B) la caricatura y la entrevista.",
+        "C": "C) el reportaje y la entrevista.",
+        "D": "D) la crónica y la editorial."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 12,
+      "subject": "Literatura",
+      "question": "Obra que se ha concebido para ser representada.",
+      "options": {
+        "A": "A) Texto dramático.",
+        "B": "B) Ensayo.",
+        "C": "C) Texto épico.",
+        "D": "D) Novela."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 13,
+      "subject": "Literatura",
+      "question": "Selecciona la opción que resume las características de la comedia.",
+      "options": {
+        "A": "A) Forma dramática con temática variada y desenlace alternativo.",
+        "B": "B) Forma dramática cuyos personajes viven adversidades cotidianas; su desenlace es feliz.",
+        "C": "C) Género con origen en rituales dionisíacos, personajes aristócratas, final funesto.",
+        "D": "D) Género que representa conflicto entre dioses y hombres; final puede ser feliz."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 14,
+      "subject": "Literatura",
+      "question": "¿Qué figura retórica representa: 'Ayer naciste y morirás mañana'?",
+      "options": {
+        "A": "A) Sinestesia.",
+        "B": "B) Paralelismo.",
+        "C": "C) Prosopopeya.",
+        "D": "D) Antítesis."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 15,
+      "subject": "Literatura",
+      "question": "¿A qué género corresponde el fragmento sobre Arturo, rey de Bretaña?",
+      "options": {
+        "A": "A) Épico.",
+        "B": "B) Lírico.",
+        "C": "C) Tragedia.",
+        "D": "D) Comedia."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 16,
+      "subject": "Literatura",
+      "question": "Corriente literaria con objetividad del narrador y descripción, segunda mitad del siglo XIX.",
+      "options": {
+        "A": "A) Romanticismo.",
+        "B": "B) Clasicismo.",
+        "C": "C) Realismo.",
+        "D": "D) Expresionismo."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 17,
+      "subject": "Literatura",
+      "question": "Características de la literatura contemporánea.",
+      "options": {
+        "A": "A) Alto sentido del mundo interior y otro sentido de realidad y tiempo.",
+        "B": "B) Dos vertientes: liberadora y melancólica.",
+        "C": "C) Reacción contra corrientes académicas y románticas.",
+        "D": "D) Énfasis en lo moral y social."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 18,
+      "subject": "Literatura",
+      "question": "Un cuento se diferencia de una novela porque tiene",
+      "options": {
+        "A": "A) personajes complejos y diversos clímax.",
+        "B": "B) desarrollo elaborado y varios personajes.",
+        "C": "C) brevedad y rápido desenlace.",
+        "D": "D) intensidad y múltiples hilos narrativos."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 19,
+      "subject": "Literatura",
+      "question": "La novela pertenece al género __________, está escrita en __________ y tiene estructura __________.",
+      "options": {
+        "A": "A) narrativo — prosa — compleja",
+        "B": "B) épico — verso — complicada",
+        "C": "C) dramático — verso — escueta",
+        "D": "D) lírico — prosa — simple"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 20,
+      "subject": "Literatura",
+      "question": "El fragmento de Fromm es un ejemplo de ficha",
+      "options": {
+        "A": "A) hemerográfica.",
+        "B": "B) de síntesis.",
+        "C": "C) bibliográfica.",
+        "D": "D) de cita textual."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 21,
+      "subject": "Química",
+      "question": "La estructura interna de la materia se encuentra constituida por",
+      "options": {
+        "A": "A) mezclas, elementos y compuestos.",
+        "B": "B) iones, moléculas y átomos.",
+        "C": "C) mezclas, átomos y compuestos.",
+        "D": "D) átomos, moléculas y coloides."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 22,
+      "subject": "Química",
+      "question": "¿Qué postulado de Dalton prevalece en nuestros días?",
+      "options": {
+        "A": "A) Los átomos permanecen indivisibles.",
+        "B": "B) Los elementos están formados por átomos diminutos.",
+        "C": "C) Los átomos de un mismo elemento son iguales en masa.",
+        "D": "D) Los átomos de dos elementos se combinan en distintas proporciones."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 23,
+      "subject": "Química",
+      "question": "La clasificación de Mendeleev se basó en",
+      "options": {
+        "A": "A) números atómicos crecientes.",
+        "B": "B) reactividad frente al agua.",
+        "C": "C) facilidad de oxidarse.",
+        "D": "D) masas atómicas crecientes."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 24,
+      "subject": "Química",
+      "question": "¿Qué familia de elementos es menos reactiva?",
+      "options": {
+        "A": "A) Metales alcalinos.",
+        "B": "B) Halógenos.",
+        "C": "C) Gases nobles.",
+        "D": "D) Metales alcalinotérreos."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 25,
+      "subject": "Química",
+      "question": "Número de moléculas en 3 mol de agua.",
+      "options": {
+        "A": "A) 3.18 × 10²³",
+        "B": "B) 3.18 × 10²⁴",
+        "C": "C) 1.8066 × 10²⁴",
+        "D": "D) 1.8066 × 10²³"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 26,
+      "subject": "Química",
+      "question": "La estructura angular del agua ayuda a que",
+      "options": {
+        "A": "A) sea menos densa en líquido que en sólido.",
+        "B": "B) su capacidad calorífica sea baja.",
+        "C": "C) sea buen disolvente de compuestos no polares.",
+        "D": "D) se formen puentes de hidrógeno."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 27,
+      "subject": "Química",
+      "question": "HCl enciende foco intensamente; CH3COOH lo hace débil. ¿Qué se puede decir?",
+      "options": {
+        "A": "A) CH3COOH es ácido débil, se ioniza completamente.",
+        "B": "B) HCl es ácido débil, se ioniza parcialmente.",
+        "C": "C) CH3COOH es ácido fuerte, se ioniza parcialmente.",
+        "D": "D) HCl es ácido fuerte, se ioniza completamente."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 28,
+      "subject": "Química",
+      "question": "Cuando un átomo pierde electrones se ________ su número de oxidación.",
+      "options": {
+        "A": "A) oxida y disminuye",
+        "B": "B) reduce y disminuye",
+        "C": "C) oxida y aumenta",
+        "D": "D) reduce y aumenta"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 29,
+      "subject": "Química",
+      "question": "Nutrimento antioxidante cuyo exceso ocasiona sangrados.",
+      "options": {
+        "A": "A) Vitamina E.",
+        "B": "B) Vitamina D.",
+        "C": "C) Tirosina.",
+        "D": "D) Triptófano."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 30,
+      "subject": "Química",
+      "question": "La ecuación que representa una reacción exotérmica es",
+      "options": {
+        "A": "A) Cu₂S + 2O₂ → 2Cu + SO₂; ΔH < 0",
+        "B": "B) Cu₂S + Energía → 2Cu + S",
+        "C": "C) Ca(OH)₂ → CaO + H₂O; ΔH > 0",
+        "D": "D) CaO + H₂O + Energía → Ca(OH)₂"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 31,
+      "subject": "Geografía",
+      "question": "Las coordenadas geográficas ________ y ________ constituyen las bases para la ubicación espacial.",
+      "options": {
+        "A": "A) altura — latitud",
+        "B": "B) latitud — longitud",
+        "C": "C) longitud — nutación",
+        "D": "D) altura — longitud"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 32,
+      "subject": "Geografía",
+      "question": "La geografía física estudia",
+      "options": {
+        "A": "A) el relieve y actividades agrícolas.",
+        "B": "B) tipos de vegetación y zonas rurales.",
+        "C": "C) el clima y las regiones naturales.",
+        "D": "D) la hidrografía y asentamientos humanos."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 33,
+      "subject": "Geografía",
+      "question": "Al viajar de Morelos a Guerrero, qué sierra se recorre.",
+      "options": {
+        "A": "A) Madre del Sur.",
+        "B": "B) Madre Occidental.",
+        "C": "C) Madre Oriental.",
+        "D": "D) de Guadalupe."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 34,
+      "subject": "Geografía",
+      "question": "Movimiento de agua oceánica que regula temperatura y favorece pesca.",
+      "options": {
+        "A": "A) Olas de oscilación.",
+        "B": "B) Corrientes frías.",
+        "C": "C) Olas de traslación.",
+        "D": "D) Mareas vivas."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 35,
+      "subject": "Geografía",
+      "question": "El aumento de CO₂ en la atmósfera es ocasionado principalmente por",
+      "options": {
+        "A": "A) combustión del petróleo.",
+        "B": "B) utilización de aerosoles.",
+        "C": "C) destrucción de la capa de ozono.",
+        "D": "D) presencia de lluvia ácida."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 36,
+      "subject": "Geografía",
+      "question": "Es una causa principal de la contaminación del agua.",
+      "options": {
+        "A": "A) Los desechos orgánicos.",
+        "B": "B) La polución agroquímica.",
+        "C": "C) Los derrames de petróleo.",
+        "D": "D) La deforestación."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 37,
+      "subject": "Geografía",
+      "question": "Región más poblada de México y más atrayente para la migración rural-urbana.",
+      "options": {
+        "A": "A) Centro Occidente.",
+        "B": "B) Noroeste.",
+        "C": "C) Centro Sur.",
+        "D": "D) Sureste."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 38,
+      "subject": "Geografía",
+      "question": "Políticamente la República Mexicana está integrada por",
+      "options": {
+        "A": "A) 28 entidades.",
+        "B": "B) 29 entidades.",
+        "C": "C) 31 entidades.",
+        "D": "D) 32 entidades."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 39,
+      "subject": "Geografía",
+      "question": "La principal zona de producción de petróleo en México es la",
+      "options": {
+        "A": "A) costa del Pacífico norte.",
+        "B": "B) región del noreste.",
+        "C": "C) costa del Golfo.",
+        "D": "D) región del Pacífico sur."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 40,
+      "subject": "Geografía",
+      "question": "El corredor del Bajío es la principal área industrial __________ en México.",
+      "options": {
+        "A": "A) automotriz",
+        "B": "B) petroquímica",
+        "C": "C) maquiladora",
+        "D": "D) metalúrgica"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 41,
+      "subject": "Matemáticas",
+      "question": "Un auto viaja 50.4 km con 6.3 litros. ¿Rendimiento en km/L?",
+      "options": {
+        "A": "A) 8 km/L",
+        "B": "B) 9 km/L",
+        "C": "C) 8.5 km/L",
+        "D": "D) 9.5 km/L"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 42,
+      "subject": "Matemáticas",
+      "question": "Simplifica ³√(8x³y⁶)",
+      "options": {
+        "A": "A) 8xy²",
+        "B": "B) 2x⁶y⁹",
+        "C": "C) 2xy²",
+        "D": "D) 8x⁹y¹⁸"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 43,
+      "subject": "Matemáticas",
+      "question": "Resultado de (y – 1)(y + 2)",
+      "options": {
+        "A": "A) y² + y - 2",
+        "B": "B) y² - 2",
+        "C": "C) y² + 1",
+        "D": "D) y² + 2y - 1"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 44,
+      "subject": "Matemáticas",
+      "question": "Factoriza (x² - 7x + 12) / [(x² - 16)(x - 3)]",
+      "options": {
+        "A": "A) 1/(x - 3)",
+        "B": "B) 1/(x + 4)",
+        "C": "C) (x - 3)/(x + 4)",
+        "D": "D) (x - 4)/(x - 3)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 45,
+      "subject": "Matemáticas",
+      "question": "Resuelve: 2x - 4 = (5x + 6)/2",
+      "options": {
+        "A": "A) x = 14",
+        "B": "B) x = -14/9",
+        "C": "C) x = 14/9",
+        "D": "D) x = -14"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 46,
+      "subject": "Matemáticas",
+      "question": "Resuelve: 3 - x/(x + 2) = 7",
+      "options": {
+        "A": "A) – 8/5",
+        "B": "B) – 5/8",
+        "C": "C) 5/8",
+        "D": "D) 8/5"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 47,
+      "subject": "Matemáticas",
+      "question": "En 'cuando mucho tengo $50.00', si x = pesos, ¿qué expresión satisface x?",
+      "options": {
+        "A": "A) x = 50",
+        "B": "B) x > 50",
+        "C": "C) x ≤ 50",
+        "D": "D) x < 50"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 48,
+      "subject": "Matemáticas",
+      "question": "¿Cuántos conejos (C) y gallinas (G) hay si hacen 61 cabezas y 196 patas?",
+      "options": {
+        "A": "A) C = 47, G = 14",
+        "B": "B) C = 40, G = 21",
+        "C": "C) C = 37, G = 24",
+        "D": "D) C = 35, G = 26"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 49,
+      "subject": "Matemáticas",
+      "question": "Soluciones de: y = x – 3 / 4x + y = 32",
+      "options": {
+        "A": "A) x = 5; y = 12",
+        "B": "B) x = 4; y = 16",
+        "C": "C) x = 8; y = 5",
+        "D": "D) x = 7; y = 4"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 50,
+      "subject": "Matemáticas",
+      "question": "Utiliza y = 3x² + 4x - 10 para determinar los valores de la tabla.",
+      "options": {
+        "A": "A) 3, 4",
+        "B": "B) –10, –3",
+        "C": "C) 3, 10",
+        "D": "D) –10, –12"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 51,
+      "subject": "Matemáticas",
+      "question": "¿Cuáles gráficas son crecientes en todo su dominio?",
+      "options": {
+        "A": "A) I y II",
+        "B": "B) I y IV",
+        "C": "C) II y IV",
+        "D": "D) I y III"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 52,
+      "subject": "Matemáticas",
+      "question": "¿Cuál es el valor de y en x = 1 si y = 5x⁴ + 3x?",
+      "options": {
+        "A": "A) 23",
+        "B": "B) 9",
+        "C": "C) 12",
+        "D": "D) 8"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 53,
+      "subject": "Matemáticas",
+      "question": "Si 2π rad = 360°, ¿cuánto equivale 7/8π rad?",
+      "options": {
+        "A": "A) 315°",
+        "B": "B) 145.5°",
+        "C": "C) 270°",
+        "D": "D) 157.5°"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 54,
+      "subject": "Matemáticas",
+      "question": "¿Cuál expresión representa la ley de senos?",
+      "options": {
+        "A": "A) sen A/a = sen B/b",
+        "B": "B) sen A/b = sen B/a",
+        "C": "C) sen A/c = sen B/a",
+        "D": "D) sen B/c = sen A/b"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 55,
+      "subject": "Matemáticas",
+      "question": "¿Qué número pertenece al dominio de f(x) = log(x)?",
+      "options": {
+        "A": "A) 0",
+        "B": "B) –log2",
+        "C": "C) –2⁻¹",
+        "D": "D) 2"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 56,
+      "subject": "Matemáticas",
+      "question": "¿Cuál es la distancia entre A (–7, –2) y B (2, 7)?",
+      "options": {
+        "A": "A) 162",
+        "B": "B) √50",
+        "C": "C) √162",
+        "D": "D) 50"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 57,
+      "subject": "Matemáticas",
+      "question": "¿Cuáles son las coordenadas del punto medio entre P (8, –4) y Q (–9, 7)?",
+      "options": {
+        "A": "A) (–1/2, 3/2)",
+        "B": "B) (1/2, 3/2)",
+        "C": "C) (–3/2, 1/2)",
+        "D": "D) (–3/2, –1/2)"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "¿Qué ecuación describe la siguiente gráfica?",
+      "options": {
+        "A": "A) y = x - 1/2",
+        "B": "B) y = 3/2 x - 1/2",
+        "C": "C) y = -3/2 x + 1/2",
+        "D": "D) y = x/2 - 1"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 59,
+      "subject": "Matemáticas",
+      "question": "¿Cuál ecuación corresponde a circunferencia de radio √2 y centro C (0, 0)?",
+      "options": {
+        "A": "A) x² - y² = 2√2",
+        "B": "B) x² + y² = √2",
+        "C": "C) x² + y² = 4",
+        "D": "D) x² + y² = 2"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 60,
+      "subject": "Matemáticas",
+      "question": "Determina centro y radio de (x + 4)² + (y - 6)² = 49",
+      "options": {
+        "A": "A) C (–4, 6); r = 7",
+        "B": "B) C (4, –6); r = 7",
+        "C": "C) C (–4, 6); r = 49",
+        "D": "D) C (4, –6); r = 49"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 61,
+      "subject": "Matemáticas",
+      "question": "La expresión x = 4y² + 8y + 2 geométricamente representa una",
+      "options": {
+        "A": "A) circunferencia.",
+        "B": "B) hipérbola.",
+        "C": "C) elipse.",
+        "D": "D) parábola."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 62,
+      "subject": "Matemáticas",
+      "question": "¿Cuál es el centro de (x - 2)²/144 + (y - 1)²/64 = 1?",
+      "options": {
+        "A": "A) (–2, –1)",
+        "B": "B) (2, 1)",
+        "C": "C) (1, 2)",
+        "D": "D) (–1, –2)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 63,
+      "subject": "Matemáticas",
+      "question": "Calcula la excentricidad de (x - 1)²/25 - (y + 4)²/9 = 1",
+      "options": {
+        "A": "A) √34/5",
+        "B": "B) √34/3",
+        "C": "C) 4/3",
+        "D": "D) 4/5"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 64,
+      "subject": "Matemáticas",
+      "question": "¿Cuáles opciones cumplen las condiciones de ecuación general de segundo grado? I. Línea recta. II. Triángulo. III. Cono. IV. Parábola.",
+      "options": {
+        "A": "A) I y II",
+        "B": "B) II y III",
+        "C": "C) II y IV",
+        "D": "D) I y IV"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 65,
+      "subject": "Español",
+      "question": "Elige la función de la lengua: 'Nuestras madres eran muy amigas. Nos llevaban juntas a la Alameda y a Chapultepec.'",
+      "options": {
+        "A": "A) Fática.",
+        "B": "B) Apelativa.",
+        "C": "C) Poética.",
+        "D": "D) Referencial."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 66,
+      "subject": "Español",
+      "question": "Elige la función de la lengua: 'Luisa, ¿puedes limpiar la mesa y lavar los trastes por favor?'",
+      "options": {
+        "A": "A) Metalingüística.",
+        "B": "B) Apelativa.",
+        "C": "C) Referencial.",
+        "D": "D) Sintomática."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 67,
+      "subject": "Español",
+      "question": "Identifica la forma del discurso: 'En verdad, el aspecto externo de Momo era un poco extraño...'",
+      "options": {
+        "A": "A) Argumentativa.",
+        "B": "B) Descriptiva.",
+        "C": "C) Narrativa.",
+        "D": "D) Expositiva."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 68,
+      "subject": "Español",
+      "question": "Identifica el texto con forma del discurso argumentativa.",
+      "options": {
+        "A": "A) 'Aprende, viaja, estudia...'",
+        "B": "B) 'Despiértese, que es tarde...'",
+        "C": "C) 'Quien no quiere pensar es un fanático...'",
+        "D": "D) 'En Español, lo contrario de IN...'"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 69,
+      "subject": "Español",
+      "question": "La idea principal del texto sobre joyas de concha es que",
+      "options": {
+        "A": "A) la concha fue un material precioso y lujoso para las culturas prehispánicas.",
+        "B": "B) el taller ha trabajado con distintas muestras de conchas.",
+        "C": "C) la arqueología estudia manifestaciones culturales antiguas.",
+        "D": "D) el trabajo de estudiantes ha contribuido a obtener información veraz."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 70,
+      "subject": "Español",
+      "question": "La frase 'inframundo acuático' se refiere a que ________ en el mundo de los muertos.",
+      "options": {
+        "A": "A) el elemento fuego no es predominante",
+        "B": "B) el ser es sagrado",
+        "C": "C) existe el agua como expresión de vida",
+        "D": "D) hay ríos y lagos"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 71,
+      "subject": "Español",
+      "question": "A partir del texto se infiere que la concha de mar tiene las siguientes características.",
+      "options": {
+        "A": "A) Moldeables y duraderas.",
+        "B": "B) Maleables y efímeras.",
+        "C": "C) Lujosas y endebles.",
+        "D": "D) Exóticas e inefables."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 72,
+      "subject": "Español",
+      "question": "¿Cuál es el interés del arqueólogo Adrián Velázquez Castro al crear el taller?",
+      "options": {
+        "A": "A) Dar a conocer los oficios prehispánicos.",
+        "B": "B) Continuar con la tradición mexica.",
+        "C": "C) Perfeccionar el trabajo manual indígena.",
+        "D": "D) Rescatar la manufactura precolombina."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 73,
+      "subject": "Español",
+      "question": "¿Cuál es la intención del autor al escribir este texto?",
+      "options": {
+        "A": "A) Comparar los materiales usados por las culturas prehispánicas.",
+        "B": "B) Crear un taller para la fabricación de la concha.",
+        "C": "C) Divulgar los avances arqueológicos sobre las culturas prehispánicas.",
+        "D": "D) Revelar el misterio de las joyas de la concha de mar."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 74,
+      "subject": "Español",
+      "question": "Identifica la oración principal: 'Aquella noche, en la hora de la rata, el emperador soñó que había salido de su palacio...'",
+      "options": {
+        "A": "A) Aquella noche, en la hora de la rata, el emperador soñó que había salido de su palacio.",
+        "B": "B) El emperador soñó que había salido de su palacio y caminaba por el jardín.",
+        "C": "C) En la hora de la rata, el emperador soñó.",
+        "D": "D) El emperador soñó que había salido de su palacio."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 75,
+      "subject": "Español",
+      "question": "Identifica los objetos circunstanciales: 'Anoche, la luna llena brillaba esplendorosamente.'",
+      "options": {
+        "A": "A) anoche — llena.",
+        "B": "B) anoche — esplendorosamente.",
+        "C": "C) llena — esplendorosamente.",
+        "D": "D) luna — llena."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 76,
+      "subject": "Español",
+      "question": "¿Cuál enunciado está redactado correctamente?",
+      "options": {
+        "A": "A) Los papás no lo dejan que haga sólo las cosas.",
+        "B": "B) Los papás no dejan hacer solo sus actividades.",
+        "C": "C) Los papás no dejan que haga solo sus actividades.",
+        "D": "D) Los papás no lo dejan que haga las cosas sólo."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "¿Cuál párrafo está escrito correctamente?",
+      "options": {
+        "A": "A) Los personajes de la jarcha son principalmente la muchacha...",
+        "B": "B) Los personajes de la jarcha son: principalmente la muchacha...",
+        "C": "C) Los personajes de la jarcha son: principalmente la muchacha y el habib o amigo, —cómo se denomina al amante—; también aparece...",
+        "D": "D) Los personajes de la jarcha son, principalmente, la muchacha y el habib o amigo (cómo se denomina al amante)..."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 78,
+      "subject": "Español",
+      "question": "Selecciona: Tiene afición ________ las ciencias.",
+      "options": {
+        "A": "A) por",
+        "B": "B) para",
+        "C": "C) hacia",
+        "D": "D) sobre"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 79,
+      "subject": "Español",
+      "question": "Antónimo de VOCIFERAR.",
+      "options": {
+        "A": "A) Omitir.",
+        "B": "B) Silenciar.",
+        "C": "C) Gruñir.",
+        "D": "D) Roncar."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 80,
+      "subject": "Español",
+      "question": "Selecciona la opción que contenga HOMÓFONOS.",
+      "options": {
+        "A": "A) Sebo — cebo",
+        "B": "B) Copiar — copear",
+        "C": "C) Arriar — arrear",
+        "D": "D) Trivial — tribal"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 81,
+      "subject": "Español",
+      "question": "Completa: Más ________ de la ________ metálica vimos ________.",
+      "options": {
+        "A": "A) ayá — malla — hienas",
+        "B": "B) ayá — malla — yenas",
+        "C": "C) allá — malla — hienas",
+        "D": "D) allá — maya — llenas"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 82,
+      "subject": "Español",
+      "question": "¿Cuál enunciado está escrito correctamente?",
+      "options": {
+        "A": "A) Cubre el prerequisito y llegarás al puesto de vicerrector.",
+        "B": "B) Cubre el prerrequisito y llegarás al puesto de vicerrector.",
+        "C": "C) Cubre el prerrequisito y llegarás al puesto de vicerector.",
+        "D": "D) Cubre el prerequisito y llegarás al puesto de vicerector."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 83,
+      "subject": "Biología",
+      "question": "Los investigadores que cristalizaron los principios de la teoría celular fueron",
+      "options": {
+        "A": "A) Mendel y Morgan.",
+        "B": "B) Darwin y Wallace.",
+        "C": "C) Oparin y Haldane.",
+        "D": "D) Schleiden y Schwann."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 84,
+      "subject": "Biología",
+      "question": "Estructura alargada constituida por doble membrana, que interviene en la síntesis del ATP.",
+      "options": {
+        "A": "A) Lisosoma.",
+        "B": "B) Citoesqueleto.",
+        "C": "C) Ribosoma.",
+        "D": "D) Mitocondria."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 85,
+      "subject": "Biología",
+      "question": "Producto energético elaborado por las plantas en la fotosíntesis, que parte de moléculas orgánicas de carbono.",
+      "options": {
+        "A": "A) Clorofila.",
+        "B": "B) Glucosa.",
+        "C": "C) Luz.",
+        "D": "D) CO2."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 86,
+      "subject": "Biología",
+      "question": "Función biológica que permite la transformación de materia inorgánica en orgánica:",
+      "options": {
+        "A": "A) Fotólisis.",
+        "B": "B) Fotosíntesis.",
+        "C": "C) Digestión.",
+        "D": "D) Absorción."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 87,
+      "subject": "Biología",
+      "question": "Saccharomyces cerevisiae es una levadura cuya reproducción asexual se efectúa por medio de",
+      "options": {
+        "A": "A) gemación.",
+        "B": "B) conjugación.",
+        "C": "C) bipartición.",
+        "D": "D) esporulación."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 88,
+      "subject": "Biología",
+      "question": "Una consecuencia de la distribución independiente es la producción de gametos",
+      "options": {
+        "A": "A) iguales.",
+        "B": "B) equivalentes.",
+        "C": "C) idénticos.",
+        "D": "D) diferentes."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 89,
+      "subject": "Biología",
+      "question": "A cualquier cambio en la secuencia del DNA se le denomina",
+      "options": {
+        "A": "A) transcripción.",
+        "B": "B) mutación.",
+        "C": "C) traducción.",
+        "D": "D) adaptación."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 90,
+      "subject": "Biología",
+      "question": "En la actualidad, es la teoría más aceptada sobre el origen de los seres vivos.",
+      "options": {
+        "A": "A) Creacionista.",
+        "B": "B) Endosimbiótica.",
+        "C": "C) Vitalista.",
+        "D": "D) Quimiosintética."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 91,
+      "subject": "Biología",
+      "question": "Es el resultado de la selección natural y la recombinación genética.",
+      "options": {
+        "A": "A) Coevolución.",
+        "B": "B) Adaptación.",
+        "C": "C) Mutación.",
+        "D": "D) Clonación."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 92,
+      "subject": "Biología",
+      "question": "El primer paso del flujo de energía en un ecosistema lo realizan organismos como",
+      "options": {
+        "A": "A) bacterias y hongos.",
+        "B": "B) hongos y algas.",
+        "C": "C) pastos y hongos.",
+        "D": "D) pastos y algas."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 93,
+      "subject": "Historia Universal",
+      "question": "La caída de Constantinopla en 1453 dio inicio a la Edad",
+      "options": {
+        "A": "A) Media.",
+        "B": "B) Moderna.",
+        "C": "C) Antigua.",
+        "D": "D) Contemporánea."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 94,
+      "subject": "Historia Universal",
+      "question": "Los impuestos al té y la Guerra de los Siete Años fueron causas externas de la",
+      "options": {
+        "A": "A) Revolución Gloriosa.",
+        "B": "B) Revolución Francesa.",
+        "C": "C) Guerra de Secesión.",
+        "D": "D) Independencia de las Trece Colonias."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 95,
+      "subject": "Historia Universal",
+      "question": "Un efecto de la Revolución Industrial es",
+      "options": {
+        "A": "A) el ascenso de la burguesía al poder político.",
+        "B": "B) la conciliación entre clases sociales.",
+        "C": "C) la permanencia de talleres artesanales.",
+        "D": "D) el monopolio del poder absoluto en el monarca."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 96,
+      "subject": "Historia Universal",
+      "question": "¿Qué movimiento obrero planteó al parlamento inglés los derechos de los trabajadores?",
+      "options": {
+        "A": "A) Ludismo.",
+        "B": "B) Socialismo.",
+        "C": "C) Cartismo.",
+        "D": "D) Sindicalismo."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 97,
+      "subject": "Historia Universal",
+      "question": "El crecimiento de capitales industriales, nacionalismo y materias primas en Asia y África fueron causas del",
+      "options": {
+        "A": "A) Militarismo.",
+        "B": "B) Comunismo.",
+        "C": "C) Imperialismo.",
+        "D": "D) Sionismo."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 98,
+      "subject": "Historia Universal",
+      "question": "Región europea donde fue el asesinato de Francisco Fernando que provocó la Primera Guerra Mundial.",
+      "options": {
+        "A": "A) La frontera Franco—Alemana.",
+        "B": "B) Los Balcanes.",
+        "C": "C) Las Repúblicas Bálticas.",
+        "D": "D) El estrecho de Gibraltar."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 99,
+      "subject": "Historia Universal",
+      "question": "País en el que colapsó el orden económico internacional en 1929.",
+      "options": {
+        "A": "A) Gran Bretaña.",
+        "B": "B) Estados Unidos.",
+        "C": "C) Alemania.",
+        "D": "D) Francia."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 100,
+      "subject": "Historia Universal",
+      "question": "La ideología nacionalsocialista se fortaleció en Alemania porque",
+      "options": {
+        "A": "A) fomentó la superioridad de la raza aria.",
+        "B": "B) planteó alianzas con países sionistas.",
+        "C": "C) limitó la intervención militar en el gobierno.",
+        "D": "D) estableció un gobierno democrático."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 101,
+      "subject": "Historia Universal",
+      "question": "En la conferencia de Yalta se acordó la desmilitarización de Alemania como resultado de la",
+      "options": {
+        "A": "A) Segunda Guerra Mundial.",
+        "B": "B) Guerra Fría.",
+        "C": "C) Primera Guerra Mundial.",
+        "D": "D) Guerra de los Balcanes."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 102,
+      "subject": "Historia Universal",
+      "question": "La economía planificada, partido único y control de medios de producción son características del bloque",
+      "options": {
+        "A": "A) capitalista.",
+        "B": "B) neoliberal.",
+        "C": "C) socialista.",
+        "D": "D) anarquista."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 103,
+      "subject": "Historia Universal",
+      "question": "Una característica de la Guerra Fría fue",
+      "options": {
+        "A": "A) conflicto entre dos países sin repercusiones.",
+        "B": "B) propiciar la carrera armamentista entre EUA y URSS.",
+        "C": "C) fomentar economía global capitalista.",
+        "D": "D) legalizar armas nucleares."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 104,
+      "subject": "Historia Universal",
+      "question": "Países asiáticos que se independizaron a mediados del siglo XX.",
+      "options": {
+        "A": "A) India e Irán.",
+        "B": "B) Timor y Angola.",
+        "C": "C) Kenia e Irak.",
+        "D": "D) Congo y Siria."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 105,
+      "subject": "Historia Universal",
+      "question": "La Perestroika y reestructuración política fueron causas para la",
+      "options": {
+        "A": "A) caída del Bloque Occidental.",
+        "B": "B) caída del Bloque Soviético.",
+        "C": "C) formación de la URSS.",
+        "D": "D) formación del Neoliberalismo."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 106,
+      "subject": "Historia Universal",
+      "question": "Fenómeno económico que acelera la integración de economías nacionales.",
+      "options": {
+        "A": "A) Neocapitalismo.",
+        "B": "B) Socialismo.",
+        "C": "C) Globalización.",
+        "D": "D) Nacionalismo."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 107,
+      "subject": "Historia de México",
+      "question": "La conquista militar culminó con la captura del tlatoani llamado",
+      "options": {
+        "A": "A) Netzahualcóyotl.",
+        "B": "B) Cuauhtémoc.",
+        "C": "C) Cuitláhuac.",
+        "D": "D) Moctezuma."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 108,
+      "subject": "Historia de México",
+      "question": "Son dos causas externas de la Independencia de la Nueva España.",
+      "options": {
+        "A": "A) Invasión napoleónica y difusión de revoluciones liberales.",
+        "B": "B) Reformas Borbónicas y abolición de la esclavitud.",
+        "C": "C) Invasión napoleónica e Independencia de las Trece Colonias.",
+        "D": "D) Difusión de revoluciones liberales y abolición de la esclavitud."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 109,
+      "subject": "Historia de México",
+      "question": "Acontecimientos importantes de la Independencia en Guadalajara.",
+      "options": {
+        "A": "A) El sitio de Cuautla y el estandarte de Guadalupe.",
+        "B": "B) El grito de Dolores y la Constitución de Apatzingán.",
+        "C": "C) La abolición de la esclavitud y el 'Despertador Americano'.",
+        "D": "D) La organización en Querétaro y la toma del Cerro de los Remedios."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 110,
+      "subject": "Historia de México",
+      "question": "Característica que distingue a la Constitución de 1824.",
+      "options": {
+        "A": "A) La adopción del sistema federal.",
+        "B": "B) El establecimiento del centralismo.",
+        "C": "C) El fortalecimiento del totalitarismo.",
+        "D": "D) La creación del presidencialismo."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 111,
+      "subject": "Historia de México",
+      "question": "La importancia de la Revolución de Ayutla radica en la",
+      "options": {
+        "A": "A) caída de la dictadura de Santa Anna.",
+        "B": "B) promulgación del Plan de Tacubaya.",
+        "C": "C) firma del tratado Mc Lane—Ocampo.",
+        "D": "D) consolidación del centralismo."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 112,
+      "subject": "Historia de México",
+      "question": "El primer gobierno de Benito Juárez se caracterizó por",
+      "options": {
+        "A": "A) exonerar a los opositores.",
+        "B": "B) fortalecer el liberalismo.",
+        "C": "C) fomentar la inversión extranjera.",
+        "D": "D) favorecer a la iglesia católica."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 113,
+      "subject": "Historia de México",
+      "question": "El Círculo Liberal de Camilo Arriaga en 1901 tuvo como finalidad",
+      "options": {
+        "A": "A) fundar oposición a la dictadura de Díaz.",
+        "B": "B) limitar la participación maderista.",
+        "C": "C) impulsar la reelección de Díaz.",
+        "D": "D) construir movimiento favorable a Madero."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 114,
+      "subject": "Historia de México",
+      "question": "La instauración del Congreso Constituyente, la Constitución de 1917 y el Colegio de Ingenieros fueron acciones de",
+      "options": {
+        "A": "A) Venustiano Carranza.",
+        "B": "B) Emiliano Zapata.",
+        "C": "C) Francisco I. Madero.",
+        "D": "D) Francisco Villa."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 115,
+      "subject": "Historia de México",
+      "question": "La creación de la SEP y los Acuerdos de Bucareli fueron acciones de",
+      "options": {
+        "A": "A) Adolfo de la Huerta.",
+        "B": "B) Abelardo L. Rodríguez.",
+        "C": "C) Venustiano Carranza.",
+        "D": "D) Álvaro Obregón."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 116,
+      "subject": "Historia de México",
+      "question": "Una acción del periodo conocido como el Maximato fue la",
+      "options": {
+        "A": "A) Universidad obtuvo su autonomía.",
+        "B": "B) creación del PRI.",
+        "C": "C) creación del Banco de México.",
+        "D": "D) concesión del voto a la mujer."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 117,
+      "subject": "Historia de México",
+      "question": "Documento que proyectó apoyo a los ejidos y respeto al salario mínimo.",
+      "options": {
+        "A": "A) Acuerdos de Bucareli.",
+        "B": "B) Pacto de la Ciudadela.",
+        "C": "C) Plan Sexenal.",
+        "D": "D) Plan de la Acción Campesina."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 118,
+      "subject": "Historia de México",
+      "question": "La construcción de Ciudad Universitaria y carreteras a Acapulco fueron acciones de",
+      "options": {
+        "A": "A) Miguel Alemán Valdés.",
+        "B": "B) Manuel Ávila Camacho.",
+        "C": "C) Adolfo Ruiz Cortines.",
+        "D": "D) Adolfo López Mateos."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 119,
+      "subject": "Historia de México",
+      "question": "Al crecimiento económico después de la Segunda Guerra Mundial se le conoce como el",
+      "options": {
+        "A": "A) liberalismo económico.",
+        "B": "B) estado de bienestar.",
+        "C": "C) desarrollo compartido.",
+        "D": "D) milagro mexicano."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 120,
+      "subject": "Historia de México",
+      "question": "Política económica de 1970 a 1982.",
+      "options": {
+        "A": "A) Sustitución de importaciones.",
+        "B": "B) Estado de Bienestar.",
+        "C": "C) Desarrollo estabilizador.",
+        "D": "D) Desarrollo compartido."
+      },
+      "correct_answer": "D"
+    }
+  ]
+}

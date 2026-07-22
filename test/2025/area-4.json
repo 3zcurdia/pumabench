@@ -1,0 +1,1449 @@
+{
+  "exam": "Examen Simulacro UNAM 2025",
+  "area": 4,
+  "area_name": "Humanidades y de las Artes",
+  "total_questions": 120,
+  "source": "https://pumabecas.com/examen-de-simulacion-de-area-4-de-ingreso-a-la-unam-2025/",
+  "questions": [
+    {
+      "number": 1,
+      "subject": "Física",
+      "question": "La tripulación del Apolo XI recorrió 3.8 × 10¹⁵ km en tres días. ¿Rapidez promedio?",
+      "options": {
+        "A": "A) 53 × 10¹³ km/día",
+        "B": "B) 53 × 10¹³ km/h",
+        "C": "C) 53 × 10¹¹ km/h",
+        "D": "D) 53 × 10¹³ km/min"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 2,
+      "subject": "Física",
+      "question": "Un velocista pasa de 0 a 1.6 m/s, luego a 3.2 m/s y luego a 4.8 m/s, cada zancada en 0.8 s. ¿Aceleración media?",
+      "options": {
+        "A": "A) 1 m/s²",
+        "B": "B) 4 m/s²",
+        "C": "C) 6 m/s²",
+        "D": "D) 2 m/s²"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 3,
+      "subject": "Física",
+      "question": "Sobre un objeto de 100 kg se aplican fuerzas de 20 N y 30 N en sentidos contrarios. ¿Aceleración?",
+      "options": {
+        "A": "A) 0.1 m/s²",
+        "B": "B) 0.2 m/s²",
+        "C": "C) 0.3 m/s²",
+        "D": "D) 0.5 m/s²"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 4,
+      "subject": "Física",
+      "question": "Una caja de 50 kg está en un elevador que cae. ¿Fuerza que el piso ejerce sobre la caja? (g=10 m/s²)",
+      "options": {
+        "A": "A) 5,000 N",
+        "B": "B) 50 N",
+        "C": "C) 5 N",
+        "D": "D) 0 N"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 5,
+      "subject": "Física",
+      "question": "Un niño de 30 kg salta a 2 m/s y el carrito sale a 12 m/s. ¿Masa del carrito?",
+      "options": {
+        "A": "A) 6.0 kg",
+        "B": "B) 5.0 kg",
+        "C": "C) 2.5 kg",
+        "D": "D) 0.8 kg"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 6,
+      "subject": "Física",
+      "question": "Para convertir Celsius a Kelvin se usa la expresión",
+      "options": {
+        "A": "A) Tk = (Tc - 32) / 1.8",
+        "B": "B) Tk = Tc + 273",
+        "C": "C) Tk = Tc - 273",
+        "D": "D) Tk = 1.8(Tc + 273)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 7,
+      "subject": "Física",
+      "question": "La cantidad de calor que necesita un gramo para elevar su temperatura un grado Celsius se conoce como",
+      "options": {
+        "A": "A) capacidad térmica.",
+        "B": "B) calor latente de fusión.",
+        "C": "C) calor latente de vaporización.",
+        "D": "D) capacidad térmica específica."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 8,
+      "subject": "Física",
+      "question": "Para explicar la interferencia constructiva o destructiva de dos ondas se debe considerar",
+      "options": {
+        "A": "A) la amplitud de ambas ondas.",
+        "B": "B) la superposición entre ambas ondas.",
+        "C": "C) que ambas sean longitudinales.",
+        "D": "D) que ambas sean transversales."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 9,
+      "subject": "Física",
+      "question": "El campo eléctrico es una cantidad vectorial y su magnitud se mide en",
+      "options": {
+        "A": "A) N/kg",
+        "B": "B) N/C",
+        "C": "C) N/s",
+        "D": "D) J/s"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 10,
+      "subject": "Física",
+      "question": "El Principio de Arquímedes se refiere a",
+      "options": {
+        "A": "A) la ganancia en fuerza entre dos émbolos.",
+        "B": "B) el aumento de velocidad de un fluido por conducto.",
+        "C": "C) la fuerza de empuje que recibe todo objeto sumergido en un fluido.",
+        "D": "D) la fuerza que se distribuye uniformemente en un fluido."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 11,
+      "subject": "Literatura",
+      "question": "¿Cómo se denomina el enunciado subrayado en: 'ESTE MIÉRCOLES SE ESPERAN VARIAS MARCHAS EN LA CDMX'?",
+      "options": {
+        "A": "A) Antetítulo o epígrafe.",
+        "B": "B) Encabezado o titular.",
+        "C": "C) Entrada o lead.",
+        "D": "D) Balazo o bajad."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 12,
+      "subject": "Literatura",
+      "question": "Además del diálogo, dos características del texto dramático son",
+      "options": {
+        "A": "A) acotaciones y prescindir de narrador.",
+        "B": "B) descripción y escenografías.",
+        "C": "C) actos y necesitar un narrador.",
+        "D": "D) vestuario y personajes."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 13,
+      "subject": "Literatura",
+      "question": "El texto poético tiene como característica que",
+      "options": {
+        "A": "A) describe una noticia sentimental e impactante.",
+        "B": "B) plasma un sentimiento o pensamiento por medio de figuras retóricas.",
+        "C": "C) relata hechos en forma objetiva y con un mensaje sensible.",
+        "D": "D) persuade al lector de tomar una actitud positiva."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 14,
+      "subject": "Literatura",
+      "question": "Identifica el metro: 'Yo sé los nombres extraños.'",
+      "options": {
+        "A": "A) Endecasílabo.",
+        "B": "B) Octosílabo.",
+        "C": "C) Decasílabo.",
+        "D": "D) Heptasílabo."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 15,
+      "subject": "Literatura",
+      "question": "Género literario que aborda asuntos heroicos con personajes inspirados en figuras históricas.",
+      "options": {
+        "A": "A) Lírico.",
+        "B": "B) Épico.",
+        "C": "C) Dramático.",
+        "D": "D) Narrativo."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 16,
+      "subject": "Literatura",
+      "question": "Escritor representativo del Realismo español.",
+      "options": {
+        "A": "A) Camilo José Cela.",
+        "B": "B) Miguel de Unamuno.",
+        "C": "C) Juan Valera.",
+        "D": "D) Antonio Machado."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 17,
+      "subject": "Literatura",
+      "question": "Son autores representativos de la literatura contemporánea.",
+      "options": {
+        "A": "A) Mary Shelley y Pedro Calderón de la Barca.",
+        "B": "B) Juana Inés de la Cruz y Fiódor Dostoyevski.",
+        "C": "C) Jorge Ibargüengoitia y José Saramago.",
+        "D": "D) Gustave Flaubert y Oscar Wilde."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 18,
+      "subject": "Literatura",
+      "question": "Narración breve que da forma a las fantasías del ser humano.",
+      "options": {
+        "A": "A) Crónica.",
+        "B": "B) Comedia.",
+        "C": "C) Ensayo.",
+        "D": "D) Cuento."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 19,
+      "subject": "Literatura",
+      "question": "La novela pertenece al género __________, está escrita en __________ y tiene estructura __________.",
+      "options": {
+        "A": "A) narrativo — prosa — compleja",
+        "B": "B) épico — verso — complicada",
+        "C": "C) dramático — verso — escueta",
+        "D": "D) lírico — prosa — simple"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 20,
+      "subject": "Literatura",
+      "question": "Elige la opción con datos en formato APA de una ficha bibliográfica.",
+      "options": {
+        "A": "A) DOSAL, Ma. Rosario. et al. Lengua Española... 2009, 410 pp.",
+        "B": "B) Dosal Gómez, Ma. Rosario. et al. (2009). Lengua Española... Publicaciones cultural, México, pp. 410.",
+        "C": "C) Lengua Española. Español IV. (2009). DOSAL, M. R. et al. pp. 410. México.",
+        "D": "D) M. R., Dosal Gómez, et al. Publicaciones cultural... pp. 410. México, 2009."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 21,
+      "subject": "Química",
+      "question": "Una medalla de bronce es un ejemplo de",
+      "options": {
+        "A": "A) mezcla heterogénea.",
+        "B": "B) mezcla homogénea.",
+        "C": "C) compuesto.",
+        "D": "D) elemento."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 22,
+      "subject": "Química",
+      "question": "¿Qué propiedad utilizó Mendeleev para organizar los elementos?",
+      "options": {
+        "A": "A) Punto de ebullición.",
+        "B": "B) Masa atómica.",
+        "C": "C) Número atómico.",
+        "D": "D) Punto de fusión."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 23,
+      "subject": "Química",
+      "question": "Enlace que se forma entre dos átomos con igual valor de electronegatividad.",
+      "options": {
+        "A": "A) Iónico.",
+        "B": "B) Metálico.",
+        "C": "C) Puente de hidrógeno.",
+        "D": "D) Covalente no polar."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 24,
+      "subject": "Química",
+      "question": "¿Cuál óxido al reaccionar con agua da un producto con características ácidas?",
+      "options": {
+        "A": "A) Na2O.",
+        "B": "B) MgO.",
+        "C": "C) FeO.",
+        "D": "D) CO2."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 25,
+      "subject": "Química",
+      "question": "¿Cuántos gramos de KCl hay en 0.1 mol?",
+      "options": {
+        "A": "A) 0.75",
+        "B": "B) 7.5",
+        "C": "C) 75",
+        "D": "D) 0.075"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 26,
+      "subject": "Química",
+      "question": "El poder disolvente del agua se debe a los",
+      "options": {
+        "A": "A) electrones compartidos y su polaridad.",
+        "B": "B) puentes de hidrógeno y electrones compartidos.",
+        "C": "C) puentes de hidrógeno y su polaridad.",
+        "D": "D) electrones compartidos y distancia entre enlaces."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 27,
+      "subject": "Química",
+      "question": "¿Cuál valor de pH corresponde a la mayor concentración de iones OH?",
+      "options": {
+        "A": "A) 2",
+        "B": "B) 7",
+        "C": "C) 8",
+        "D": "D) 13"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 28,
+      "subject": "Química",
+      "question": "Entre los contaminantes primarios del aire se encuentran los óxidos de",
+      "options": {
+        "A": "A) Ca y Pb",
+        "B": "B) Hg y N",
+        "C": "C) C y N",
+        "D": "D) N y Pb"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 29,
+      "subject": "Química",
+      "question": "El enlace peptídico se forma al reaccionar un grupo amino con un grupo ________ de otro aminoácido.",
+      "options": {
+        "A": "A) –OH",
+        "B": "B) –OR",
+        "C": "C) –COOH",
+        "D": "D) –CHO"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 30,
+      "subject": "Química",
+      "question": "¿Cuál valor de entalpía representa el mayor desprendimiento de energía?",
+      "options": {
+        "A": "A) ΔH° = -110.5 kJ/mol",
+        "B": "B) ΔH° = +33.2 kJ/mol",
+        "C": "C) ΔH° = +52.5 kJ/mol",
+        "D": "D) ΔH° = -395.7 kJ/mol"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 31,
+      "subject": "Geografía",
+      "question": "En la actualidad, la principal finalidad de la Geografía es",
+      "options": {
+        "A": "A) diferenciar causas y efectos de hechos geográficos.",
+        "B": "B) conocer efectos terrestres provocados por fenómenos naturales.",
+        "C": "C) explicar la relación entre elementos naturales y sociales.",
+        "D": "D) localizar elementos naturales y sociales sobre la superficie."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 32,
+      "subject": "Geografía",
+      "question": "¿Qué proyección cartográfica se utiliza para representar a México?",
+      "options": {
+        "A": "A) Polar.",
+        "B": "B) Cilíndrica.",
+        "C": "C) Cónica.",
+        "D": "D) Azimutal."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 33,
+      "subject": "Geografía",
+      "question": "La Sierra Madre del Sur atraviesa las entidades de",
+      "options": {
+        "A": "A) Chiapas y Veracruz.",
+        "B": "B) Veracruz y Tlaxcala.",
+        "C": "C) Tlaxcala y Oaxaca.",
+        "D": "D) Oaxaca y Guerrero."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 34,
+      "subject": "Geografía",
+      "question": "Sonora ocupa el primer lugar en la extracción de",
+      "options": {
+        "A": "A) uranio.",
+        "B": "B) hierro.",
+        "C": "C) cobre.",
+        "D": "D) plata."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 35,
+      "subject": "Geografía",
+      "question": "La taiga o bosque boreal se localiza en el",
+      "options": {
+        "A": "A) norte de Europa y norte de Asia.",
+        "B": "B) sur de Europa y sur de Asia.",
+        "C": "C) norte de África y norte de Asia.",
+        "D": "D) sur de América y norte de Oceanía."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 36,
+      "subject": "Geografía",
+      "question": "Estados de la República con baja densidad de población.",
+      "options": {
+        "A": "A) Veracruz y Oaxaca.",
+        "B": "B) Oaxaca y Morelos.",
+        "C": "C) Morelos y Baja California Sur.",
+        "D": "D) Baja California Sur y Quintana Roo."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 37,
+      "subject": "Geografía",
+      "question": "Indicadores para calcular el Índice de Desarrollo Humano son",
+      "options": {
+        "A": "A) ingreso per cápita, alfabetismo y esperanza de vida.",
+        "B": "B) poder adquisitivo, inversión directa y deuda externa.",
+        "C": "C) natalidad, alfabetización y acceso a internet.",
+        "D": "D) mortalidad, nivel de inflación y servicios médicos."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 38,
+      "subject": "Geografía",
+      "question": "El sector terciario es el más importante de la economía mexicana porque",
+      "options": {
+        "A": "A) favorece el desarrollo de la industria.",
+        "B": "B) requiere mano de obra calificada.",
+        "C": "C) emplea mayor número de personas.",
+        "D": "D) está regulada por el gobierno."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 39,
+      "subject": "Geografía",
+      "question": "En México, la zona más propicia para la cría de cerdos es el ________ por ser la primera zona de ________.",
+      "options": {
+        "A": "A) Norte — forrajes",
+        "B": "B) Bajío — cereales",
+        "C": "C) Noroeste — cereales",
+        "D": "D) Balsas — pastos"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 40,
+      "subject": "Geografía",
+      "question": "Zona marítima donde se obtiene petróleo y gas.",
+      "options": {
+        "A": "A) Poza Rica.",
+        "B": "B) Ciudad Madero.",
+        "C": "C) Sonda de Tuxpan.",
+        "D": "D) Sonda de Campeche."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 41,
+      "subject": "Matemáticas",
+      "question": "Un estudiante tiene 7.2, 8.5 y 7.9. ¿Qué calificación mínima necesita para promedio 8?",
+      "options": {
+        "A": "A) 8.1",
+        "B": "B) 8.2",
+        "C": "C) 8.4",
+        "D": "D) 8.9"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 42,
+      "subject": "Matemáticas",
+      "question": "Al multiplicar √2 × √2 se obtiene",
+      "options": {
+        "A": "A) √2",
+        "B": "B) 2",
+        "C": "C) 4",
+        "D": "D) 2√2"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 43,
+      "subject": "Matemáticas",
+      "question": "Desarrolla (x - y)²",
+      "options": {
+        "A": "A) x² - y²",
+        "B": "B) x² + y²",
+        "C": "C) x² - 2xy + y²",
+        "D": "D) x² + 2xy + y²"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 44,
+      "subject": "Matemáticas",
+      "question": "Al simplificar (x² - 5x + 6)/(2ax - 6a) se obtiene",
+      "options": {
+        "A": "A) (x - 2)(x - 3)/2a",
+        "B": "B) (x - 3)/2a",
+        "C": "C) (x - 2)/2a",
+        "D": "D) (x - 2)(x + 3)/2a"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 45,
+      "subject": "Matemáticas",
+      "question": "¿Cuál es la solución de x/2 + 5 = x + 3?",
+      "options": {
+        "A": "A) x = -4",
+        "B": "B) x = -2",
+        "C": "C) x = 2",
+        "D": "D) x = 4"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 46,
+      "subject": "Matemáticas",
+      "question": "¿Cuál es el intervalo de -x ≥ 5?",
+      "options": {
+        "A": "A) [-5, ∞)",
+        "B": "B) [-∞, -5)",
+        "C": "C) (-∞, -5]",
+        "D": "D) (-5, ∞)"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 47,
+      "subject": "Matemáticas",
+      "question": "5 cuadernos + 8 lapiceros = $115; 3 cuadernos + 5 lapiceros = $70. ¿Precio de cada cuaderno?",
+      "options": {
+        "A": "A) $15",
+        "B": "B) $10",
+        "C": "C) $13",
+        "D": "D) $12"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 48,
+      "subject": "Matemáticas",
+      "question": "¿Cuál es el dominio de f(x) = x³ + 2x² - 3x + 1?",
+      "options": {
+        "A": "A) [-∞, ∞]",
+        "B": "B) (-∞, 1)",
+        "C": "C) (-∞, ∞)",
+        "D": "D) (-1, ∞)"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 49,
+      "subject": "Matemáticas",
+      "question": "La gráfica de x² - 1 = y corresponde a una",
+      "options": {
+        "A": "A) recta.",
+        "B": "B) elipse.",
+        "C": "C) parábola.",
+        "D": "D) hipérbola."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 50,
+      "subject": "Matemáticas",
+      "question": "Si f(x) = 1/(x² - 1) y g(x) = x + 2, entonces (f o g)(x) es",
+      "options": {
+        "A": "A) 1/(x² + 2)",
+        "B": "B) 1/(x² + 4x + 5)",
+        "C": "C) 1/(x² + 5)",
+        "D": "D) 1/(x² + 4x + 3)"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 51,
+      "subject": "Matemáticas",
+      "question": "El seno del ángulo P en el triángulo rectángulo es igual a",
+      "options": {
+        "A": "A) 3/5",
+        "B": "B) 4/5",
+        "C": "C) 5/3",
+        "D": "D) 5/4"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 52,
+      "subject": "Matemáticas",
+      "question": "Un terreno rectangular de 12m y 20m. ¿Valor de su diagonal?",
+      "options": {
+        "A": "A) √32",
+        "B": "B) √544",
+        "C": "C) 32",
+        "D": "D) 544"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 53,
+      "subject": "Matemáticas",
+      "question": "Determina el dominio de y = log(x - 2)",
+      "options": {
+        "A": "A) (2, ∞)",
+        "B": "B) [2, ∞)",
+        "C": "C) (-∞, 2)",
+        "D": "D) (-∞, 2]"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 54,
+      "subject": "Matemáticas",
+      "question": "¿Cuál es la asíntota vertical de f(x) = 2log(x - 3)?",
+      "options": {
+        "A": "A) x = 3",
+        "B": "B) y = -3",
+        "C": "C) x = -3",
+        "D": "D) y = 3"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 55,
+      "subject": "Matemáticas",
+      "question": "¿Cuál es la distancia entre A (1, 1) y B (-1, -1)?",
+      "options": {
+        "A": "A) 2√2",
+        "B": "B) 4√2",
+        "C": "C) 2",
+        "D": "D) 4"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 56,
+      "subject": "Matemáticas",
+      "question": "Calcula la pendiente de 2y - 4x + 3 = 0",
+      "options": {
+        "A": "A) -2",
+        "B": "B) -1/2",
+        "C": "C) 3/2",
+        "D": "D) 2"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 57,
+      "subject": "Matemáticas",
+      "question": "¿Cuál es la ecuación de circunferencia con centro en origen y radio 4?",
+      "options": {
+        "A": "A) x² + y² + 16 = 0",
+        "B": "B) x² + y² - 16 = 0",
+        "C": "C) x² + y² - 4 = 0",
+        "D": "D) x² + y² + 4 = 0"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "¿Centro y radio de (x + 3)² + (y - 2)² = 36?",
+      "options": {
+        "A": "A) C (3, 2); r = 6",
+        "B": "B) C (3, 2); r = 36",
+        "C": "C) C (-3, 2); r = 6",
+        "D": "D) C (-3, 2); r = 36"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 59,
+      "subject": "Matemáticas",
+      "question": "Parábola (x - 4)² = 12(y - 3). ¿Coordenadas de vértice y foco?",
+      "options": {
+        "A": "A) V (-4, -3); F (-4, -6)",
+        "B": "B) V (3, 4); F (6, 4)",
+        "C": "C) V (4, 3); F (4, 6)",
+        "D": "D) V (-3, -4); F (-6, -4)"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 60,
+      "subject": "Matemáticas",
+      "question": "¿Coordenadas de los focos de 9x² + y² = 9?",
+      "options": {
+        "A": "A) F₁=(-√8,0); F₂=(√8,0)",
+        "B": "B) F₁=(-√10,0); F₂=(√10,0)",
+        "C": "C) F₁=(0,-√8); F₂=(0,√8)",
+        "D": "D) F₁=(0,-√10); F₂=(0,√10)"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 61,
+      "subject": "Matemáticas",
+      "question": "La hipérbola es el lugar geométrico de puntos tales que la",
+      "options": {
+        "A": "A) suma de distancias a dos puntos fijos es variable.",
+        "B": "B) diferencia de distancias a dos puntos fijos es constante.",
+        "C": "C) suma de distancias a dos puntos fijos es constante.",
+        "D": "D) diferencia de distancias a dos puntos fijos es variable."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 62,
+      "subject": "Matemáticas",
+      "question": "Al trasladar x² + y² - 36 = 0 al centro C (-2, 4), ¿cuál es su ecuación?",
+      "options": {
+        "A": "A) (x - 4)² + (y + 16)² = 36",
+        "B": "B) (x + 4)² + (y - 16)² = 36",
+        "C": "C) (x + 2)² + (y - 4)² = 36",
+        "D": "D) (x - 2)² + (y + 4)² = 36"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 63,
+      "subject": "Español",
+      "question": "Enunciado que ejemplifica la función referencial.",
+      "options": {
+        "A": "A) ¡Qué lata con esta lluvia!",
+        "B": "B) Seguirán las lluvias en el noreste del país.",
+        "C": "C) Hoy llueve mucho, pareciera que están lavando el mundo.",
+        "D": "D) Los maleantes fueron repelidos por otra lluvia de piedras."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 64,
+      "subject": "Español",
+      "question": "Identifica la función de la lengua: 'La lengua del amor, a quien no sabe lo que es amor ¡qué bárbara parece!'",
+      "options": {
+        "A": "A) Metalingüística.",
+        "B": "B) Apelativa.",
+        "C": "C) Poética.",
+        "D": "D) Fática."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 65,
+      "subject": "Español",
+      "question": "Identifica la forma del discurso: 'Frisaba la edad de este excelente joven en los treinta y cuatro años...'",
+      "options": {
+        "A": "A) Expositiva.",
+        "B": "B) Descriptiva.",
+        "C": "C) Explicativa.",
+        "D": "D) Argumentativa."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 66,
+      "subject": "Español",
+      "question": "Señala la forma del discurso: 'Después de la Conquista, Hernán Cortés ordenó traer frailes dominicos...'",
+      "options": {
+        "A": "A) Narrativa.",
+        "B": "B) Descriptiva.",
+        "C": "C) Expositiva.",
+        "D": "D) Argumentativa."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 67,
+      "subject": "Español",
+      "question": "La estructura general del texto 'La mente colectiva' comprende",
+      "options": {
+        "A": "A) planteamiento, argumentos, desarrollo y opinión.",
+        "B": "B) introducción, tesis, argumentos y conclusión.",
+        "C": "C) introducción, planteamiento, desarrollo y opinión.",
+        "D": "D) planteamiento, tesis, desarrollo y conclusión."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 68,
+      "subject": "Español",
+      "question": "Idea principal del segundo párrafo del texto 'La mente colectiva'.",
+      "options": {
+        "A": "A) En la naturaleza existen 'organismos colectivos'.",
+        "B": "B) Muchos escritores han soñado que la humanidad podría formar un 'superorganismo'.",
+        "C": "C) Muchos escritores han soñado que la humanidad podría conectarse por telepatía.",
+        "D": "D) Las hormigas y abejas son 'organismos colectivos'."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 69,
+      "subject": "Español",
+      "question": "La expresión 'prótesis mentales y culturales' refiriéndose a innovaciones tecnológicas implica que",
+      "options": {
+        "A": "A) elevan posibilidades de acción y supervivencia.",
+        "B": "B) han permitido elevar la capacidad de comunicar y vivir mejor.",
+        "C": "C) son extensión del cerebro que pueden generar destrucción.",
+        "D": "D) han sido creadas como extensión de capacidades comunicativas para vivir mejor."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 70,
+      "subject": "Español",
+      "question": "Son temas que aborda el autor del texto 'La mente colectiva'.",
+      "options": {
+        "A": "A) Lenguaje, industria y literatura de ficción.",
+        "B": "B) Lenguaje, productos culturales y tecnología.",
+        "C": "C) Organismos colectivos, democracia y literatura.",
+        "D": "D) Organismos colectivos, computadoras y productos culturales."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 71,
+      "subject": "Español",
+      "question": "La intención principal del autor del texto 'La mente colectiva' es",
+      "options": {
+        "A": "A) narrar cómo el hombre piensa colectivamente.",
+        "B": "B) informar sobre la cultura y el pensamiento colectivo.",
+        "C": "C) argumentar que el hombre piensa colectivamente.",
+        "D": "D) describir aspectos del pensamiento colectivo."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 72,
+      "subject": "Español",
+      "question": "Identifica el sujeto: 'Los científicos hallaron los huesos de un dinosaurio y algunos restos de otras especies.'",
+      "options": {
+        "A": "A) Los huesos.",
+        "B": "B) Los científicos.",
+        "C": "C) Los restos.",
+        "D": "D) El dinosaurio."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 73,
+      "subject": "Español",
+      "question": "Elige el objeto directo del predicado.",
+      "options": {
+        "A": "A) Compró la computadora.",
+        "B": "B) Las pirámides de Teotihuacán.",
+        "C": "C) Hoy, mañana y siempre.",
+        "D": "D) Las cuentas del gran capitán."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 74,
+      "subject": "Español",
+      "question": "¿Cuál párrafo está redactado correctamente?",
+      "options": {
+        "A": "A) En la reunión se abordarán tres asuntos: el diseño... el seguimiento... buscar proveedores... también se harán propuestas...",
+        "B": "B) En la reunión se abordarán tres asuntos: el diseño... el seguimiento... y la búsqueda... También se harán propuestas...",
+        "C": "C) En la reunión se abordarán tres asuntos: diseñar... el seguimiento... y buscar... También se harán propuestas...",
+        "D": "D) En la reunión se abordarán tres asuntos: cómo diseñar... el seguimiento... y la búsqueda... Finalmente, se harán propuestas..."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 75,
+      "subject": "Español",
+      "question": "Completa: Quisieron colaborar con una obra magistral, ________ no guardaban los requisitos; ________, tuvieron que resignarse ________ la realización de una presentación más sencilla.",
+      "options": {
+        "A": "A) sin embargo — no obstante — a",
+        "B": "B) mas — por tanto — a",
+        "C": "C) más — en conclusión — con",
+        "D": "D) pero — en consecuencia — con"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 76,
+      "subject": "Español",
+      "question": "Identifica el párrafo con redacción adecuada.",
+      "options": {
+        "A": "A) El inca extranjero apresó a Inkarri su igual no sabemos dónde...",
+        "B": "B) Dicen que ahora Inkarri está en el Cuzco. Ignoramos quién lo habrá llevado...",
+        "C": "C) Todo fue puesto por nuestro señor Inkarri: las montañas, los animales...",
+        "D": "D) La carretera convirtió a Puquio, de una pequeña ciudad de terratenientes e indios, en un centro comercial activo."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "Sinónimo de destello",
+      "options": {
+        "A": "A) Luminoso.",
+        "B": "B) Fulgor.",
+        "C": "C) Claridad.",
+        "D": "D) Diáfano."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 78,
+      "subject": "Español",
+      "question": "Antónimo de DISPERSO.",
+      "options": {
+        "A": "A) Esparcido.",
+        "B": "B) Agrupado.",
+        "C": "C) Diseminado.",
+        "D": "D) Mezclado."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 79,
+      "subject": "Español",
+      "question": "¿Cuál enunciado tiene la ortografía CORRECTA?",
+      "options": {
+        "A": "A) Notó que aquel beso era de un extraño.",
+        "B": "B) Los animales se detenian allí a contemplarlo.",
+        "C": "C) Pronto adquirio la costumbre de desvelarse.",
+        "D": "D) El muchacho vivía cómo un salvaje en la soledad."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 80,
+      "subject": "Español",
+      "question": "Elige el párrafo con puntuación apropiada.",
+      "options": {
+        "A": "A) El Coronel Juan Morales, se apodera de un cañón montado en uno de los ángulos...",
+        "B": "B) El Coronel Juan Morales se apodera de un cañón montado, en uno de los ángulos y aprovechándose, de la confusión...",
+        "C": "C) El Coronel Juan Morales se apodera de un cañón montado en uno de los ángulos y aprovechándose de la confusión...",
+        "D": "D) El Coronel Juan Morales se apodera de un cañón, montado en uno de los ángulos y aprovechándose de la confusión..."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 81,
+      "subject": "Biología",
+      "question": "Organelo celular cuya principal función es la síntesis de proteínas.",
+      "options": {
+        "A": "A) Aparato de Golgi.",
+        "B": "B) Mitocondria.",
+        "C": "C) Lisosoma.",
+        "D": "D) Ribosoma."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 82,
+      "subject": "Biología",
+      "question": "Biocatalizadores que aceleran o retardan velocidades de reacciones químicas.",
+      "options": {
+        "A": "A) Enzimas.",
+        "B": "B) Lípidos.",
+        "C": "C) Vitaminas.",
+        "D": "D) Carbohidratos."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 83,
+      "subject": "Biología",
+      "question": "Monosacárido que se obtiene al final de la fase oscura de la fotosíntesis.",
+      "options": {
+        "A": "A) Celulosa.",
+        "B": "B) Glucosa.",
+        "C": "C) Xilobiosa.",
+        "D": "D) Almidón."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 84,
+      "subject": "Biología",
+      "question": "Según Mendel, los caracteres recesivos se representan en letras",
+      "options": {
+        "A": "A) minúsculas (b).",
+        "B": "B) mayúsculas y minúsculas (Bb).",
+        "C": "C) minúsculas y mayúsculas (bB).",
+        "D": "D) minúsculas, mayúsculas y minúsculas (bBb)."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 85,
+      "subject": "Biología",
+      "question": "A la información codificada en el ADN de un organismo se le denomina",
+      "options": {
+        "A": "A) genotipo.",
+        "B": "B) gameto.",
+        "C": "C) fenotipo.",
+        "D": "D) cariotipo."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 86,
+      "subject": "Biología",
+      "question": "¿Cuál alteración genética muestra patrón de herencia ligada al sexo?",
+      "options": {
+        "A": "A) Ataxia.",
+        "B": "B) Discinesia.",
+        "C": "C) Hemofilia.",
+        "D": "D) Alemorfia."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 87,
+      "subject": "Biología",
+      "question": "Las mutaciones son importantes porque",
+      "options": {
+        "A": "A) eliminan organismos débiles.",
+        "B": "B) producen la variabilidad sobre la que opera la selección natural.",
+        "C": "C) originan variabilidad no heredable.",
+        "D": "D) se producen en los individuos menos aptos."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 88,
+      "subject": "Biología",
+      "question": "Proteína producida por tecnología del ADN recombinante.",
+      "options": {
+        "A": "A) Histona.",
+        "B": "B) Hemoglobina.",
+        "C": "C) Insulina.",
+        "D": "D) Miosina."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 89,
+      "subject": "Biología",
+      "question": "El siguiente organismo pertenece al reino protista.",
+      "options": {
+        "A": "A) Helecho.",
+        "B": "B) Alga.",
+        "C": "C) Levadura.",
+        "D": "D) Esponja."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 90,
+      "subject": "Biología",
+      "question": "Conjunto de organismos de la misma especie que comparten un área y se reproducen entre sí.",
+      "options": {
+        "A": "A) Población.",
+        "B": "B) Ecosistema.",
+        "C": "C) Bioma.",
+        "D": "D) Comunidad."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 91,
+      "subject": "Historia Universal",
+      "question": "Ciencia que investiga y sistematiza los acontecimientos más relevantes de la humanidad.",
+      "options": {
+        "A": "A) Historia.",
+        "B": "B) Antropología.",
+        "C": "C) Sociología.",
+        "D": "D) Filosofía."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 92,
+      "subject": "Historia Universal",
+      "question": "Un factor que propició el origen de la Revolución Industrial en Inglaterra fue que",
+      "options": {
+        "A": "A) desarrolló la industria textil.",
+        "B": "B) aplicó la 'Riqueza de las Naciones'.",
+        "C": "C) triunfó en la Guerra de Siete Años.",
+        "D": "D) diseñó y construyó el ferrocarril."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 93,
+      "subject": "Historia Universal",
+      "question": "Como consecuencia de la Revolución Liberal de 1830, ________ y Víctor Manuel II lideraron una guerra contra ________.",
+      "options": {
+        "A": "A) Carlos Alberto — Prusia",
+        "B": "B) José Garibaldi — Austria",
+        "C": "C) Napoleón III — Inglaterra",
+        "D": "D) Carlos X — Francia"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 94,
+      "subject": "Historia Universal",
+      "question": "Durante el siglo XIX, la búsqueda de materias primas y expansión del mercado mundial impulsaron",
+      "options": {
+        "A": "A) el imperialismo europeo.",
+        "B": "B) el movimiento obrero.",
+        "C": "C) la Revolución Industrial.",
+        "D": "D) la Revolución Agrícola."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 95,
+      "subject": "Historia Universal",
+      "question": "El incidente que desencadenó la Primera Guerra Mundial fue",
+      "options": {
+        "A": "A) el asesinato del heredero al trono austro-húngaro.",
+        "B": "B) la integración de la Triple Alianza.",
+        "C": "C) la invasión alemana a Francia.",
+        "D": "D) la crisis de 1929."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 96,
+      "subject": "Historia Universal",
+      "question": "La crisis de 1929 en EUA se produjo debido a",
+      "options": {
+        "A": "A) el auge del sistema keynesiano.",
+        "B": "B) la caída de la Bolsa de Valores.",
+        "C": "C) la rivalidad con Alemania.",
+        "D": "D) el surgimiento del fascismo."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 97,
+      "subject": "Historia Universal",
+      "question": "La invasión de Polonia, Dinamarca, Noruega y la Operación Barbarroja fueron acciones de",
+      "options": {
+        "A": "A) la Triple Alianza.",
+        "B": "B) el Eje Berlín—Roma—Tokio.",
+        "C": "C) la Unión Soviética.",
+        "D": "D) Estados Unidos."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 98,
+      "subject": "Historia Universal",
+      "question": "El enfrentamiento indirecto entre URSS y EUA se conoce como la Guerra",
+      "options": {
+        "A": "A) del Golfo Pérsico.",
+        "B": "B) árabe-israelí.",
+        "C": "C) de los Seis Días.",
+        "D": "D) Fría."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 99,
+      "subject": "Historia Universal",
+      "question": "El desembarco de armamento en Cuba provocó la",
+      "options": {
+        "A": "A) Revolución Sandinista.",
+        "B": "B) Crisis de los Misiles.",
+        "C": "C) Dictadura de Duvalier.",
+        "D": "D) Iniciativa de Defensa Estratégica."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 100,
+      "subject": "Historia Universal",
+      "question": "Facilita el comercio mundial, se asocia con crisis económicas y genera cultura unificada.",
+      "options": {
+        "A": "A) Socialismo.",
+        "B": "B) Neoliberalismo.",
+        "C": "C) Globalización.",
+        "D": "D) Comunismo."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 101,
+      "subject": "Historia de México",
+      "question": "La principal actividad económica de los pueblos de Mesoamérica fue la",
+      "options": {
+        "A": "A) caza.",
+        "B": "B) pesca.",
+        "C": "C) agricultura.",
+        "D": "D) recolección."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 102,
+      "subject": "Historia de México",
+      "question": "Causa interna de la independencia de la Nueva España",
+      "options": {
+        "A": "A) Invasión francesa a España.",
+        "B": "B) Independencia de las Trece Colonias.",
+        "C": "C) Consolidación de Vales Reales.",
+        "D": "D) Adopción de las ideas de la Ilustración."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 103,
+      "subject": "Historia de México",
+      "question": "Primer conflicto externo durante el gobierno de Santa Ana",
+      "options": {
+        "A": "A) Expedición española.",
+        "B": "B) Venta de la Mesilla.",
+        "C": "C) Guerra de los pasteles.",
+        "D": "D) Guerra de Texas."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 104,
+      "subject": "Historia de México",
+      "question": "Proclamó libertad de enseñanza y prensa, prohibió a la Iglesia poseer bienes raíces y decretó régimen republicano federal.",
+      "options": {
+        "A": "A) Constitución de 1824.",
+        "B": "B) Constitución de 1857.",
+        "C": "C) Constitución de 1822.",
+        "D": "D) Constitución de 1814."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 105,
+      "subject": "Historia de México",
+      "question": "En materia económica, el gobierno de Porfirio Díaz se caracterizó por",
+      "options": {
+        "A": "A) políticas de nacionalización en la minería.",
+        "B": "B) la crisis que se generó.",
+        "C": "C) la prohibición a la inversión privada.",
+        "D": "D) las concesiones a inversionistas extranjeros."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 106,
+      "subject": "Historia de México",
+      "question": "Las constantes reelecciones de Díaz y la opresión a grupos sociales fueron detonantes de",
+      "options": {
+        "A": "A) el Maximato.",
+        "B": "B) la Revolución Mexicana.",
+        "C": "C) el Milagro Mexicano.",
+        "D": "D) la Unidad Nacional."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 107,
+      "subject": "Historia de México",
+      "question": "Los Acuerdos de Bucareli y la creación de la SEP fueron acciones de",
+      "options": {
+        "A": "A) Álvaro Obregón.",
+        "B": "B) Adolfo de la Huerta.",
+        "C": "C) Plutarco Elías Calles.",
+        "D": "D) Venustiano Carranza."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 108,
+      "subject": "Historia de México",
+      "question": "La creación del IPN, el Plan Sexenal, el reparto ejidal y la nacionalización del petróleo fueron acciones de",
+      "options": {
+        "A": "A) Emilio Portes Gil.",
+        "B": "B) Plutarco Elías Calles.",
+        "C": "C) Álvaro Obregón.",
+        "D": "D) Lázaro Cárdenas."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 109,
+      "subject": "Historia de México",
+      "question": "La principal característica económica del gobierno de Manuel Ávila Camacho fue",
+      "options": {
+        "A": "A) la sustitución de importaciones.",
+        "B": "B) el apoyo a reclamos sindicales.",
+        "C": "C) el equilibrio de la balanza comercial.",
+        "D": "D) la expansión del mercado externo."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 110,
+      "subject": "Historia de México",
+      "question": "Fue una acción del gobierno de Luis Echeverría como parte del Desarrollo Compartido.",
+      "options": {
+        "A": "A) Disminución de importaciones.",
+        "B": "B) Nacionalización de la banca.",
+        "C": "C) Privatización de la educación.",
+        "D": "D) Fomento a la participación de empresas privadas."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 111,
+      "subject": "Filosofía",
+      "question": "¿A qué tipo de función del lenguaje corresponde: 'No debes saquear, vender o maltratar el patrimonio artístico'?",
+      "options": {
+        "A": "A) Directiva.",
+        "B": "B) Expresiva.",
+        "C": "C) Exclamativa.",
+        "D": "D) Declarativa."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 112,
+      "subject": "Filosofía",
+      "question": "¿Cómo se simboliza: 'Si la llevo al cine, entonces, le pago el boleto y la llevo a su casa'?",
+      "options": {
+        "A": "A) R ∨ (P⋅Q)",
+        "B": "B) P→ (Q ⋅ R)",
+        "C": "C) (P→Q) ⋅ R",
+        "D": "D) (Q ∨ R) ⋅ P"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 113,
+      "subject": "Filosofía",
+      "question": "¿Cuál argumento contiene razonamiento deductivo?",
+      "options": {
+        "A": "A) Todos los seres humanos requieren alimentos; si no te alimentas morirás.",
+        "B": "B) En esa zapatería he encontrado calzado excelente, compraré ahí.",
+        "C": "C) Juan está enfermo, seguro por eso no me hizo caso.",
+        "D": "D) La mayoría de votantes tiene entre 18 y 30 años, son los jóvenes los que eligieron."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 114,
+      "subject": "Filosofía",
+      "question": "¿Cuáles son actos morales? I. Comprar escultura vs pintura. II. Elegir iniciar trámites de divorcio. III. Elegir denunciar acto ilícito. IV. Decidir plan alimenticio. V. Decidir fecha de examen.",
+      "options": {
+        "A": "A) II y III",
+        "B": "B) I y II",
+        "C": "C) IV y V",
+        "D": "D) III y V"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 115,
+      "subject": "Filosofía",
+      "question": "¿Cuál caso implica responsabilidad moral?",
+      "options": {
+        "A": "A) María enfermera cae enferma por contagio.",
+        "B": "B) Juan encuentra billete ganador.",
+        "C": "C) Rocío decide limpiar su armario.",
+        "D": "D) Pedro busca trabajo, se prepara pero no consigue la plaza."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 116,
+      "subject": "Filosofía",
+      "question": "¿Qué debe hacer el médico para actuar autónomamente ante un paciente que rechaza transfusión por creencias religiosas?",
+      "options": {
+        "A": "A) No realizar la transfusión para evitar problemas legales.",
+        "B": "B) Realizarla para ser héroe ante colegas.",
+        "C": "C) Realizarla para salvar la vida a pesar de consecuencias.",
+        "D": "D) No realizarla para conservar su trabajo."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 117,
+      "subject": "Filosofía",
+      "question": "¿Qué postura sobre los valores representa: 'El valor de la vida depende de quién está vivo'?",
+      "options": {
+        "A": "A) Objetivista.",
+        "B": "B) Pragmatista.",
+        "C": "C) Subjetivista.",
+        "D": "D) Utilitarista."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 118,
+      "subject": "Filosofía",
+      "question": "¿Con cuál concepto estético puede valorarse contemplar una tormenta en el mar en una noche oscura?",
+      "options": {
+        "A": "A) Bello.",
+        "B": "B) Sublime.",
+        "C": "C) Cómico.",
+        "D": "D) Trágico."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 119,
+      "subject": "Filosofía",
+      "question": "En el fragmento de Sartre, el problema central es de carácter",
+      "options": {
+        "A": "A) estético.",
+        "B": "B) ontológico.",
+        "C": "C) axiológico.",
+        "D": "D) político."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 120,
+      "subject": "Filosofía",
+      "question": "¿Qué disciplina filosófica tiene como objeto de estudio el conocimiento?",
+      "options": {
+        "A": "A) Epistemología.",
+        "B": "B) Lógica.",
+        "C": "C) Ontología.",
+        "D": "D) Metafísica."
+      },
+      "correct_answer": "A"
+    }
+  ]
+}
