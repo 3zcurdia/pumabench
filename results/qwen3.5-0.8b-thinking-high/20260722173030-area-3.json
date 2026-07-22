@@ -1,18 +1,18 @@
 {
-  "model": "phi-4",
-  "timestamp": "20260722105445",
+  "model": "qwen3.5-0.8b-thinking-high",
+  "timestamp": "20260722173030",
   "area": 3,
   "area_name": "Ciencias Sociales",
   "total": {
     "questions": 120,
-    "correct": 92,
-    "percentage": 76.7
+    "correct": 59,
+    "percentage": 49.2
   },
   "subjects": {
     "Biología": {
       "questions": 10,
-      "correct": 9,
-      "percentage": 90.0
+      "correct": 6,
+      "percentage": 60.0
     },
     "Español": {
       "questions": 18,
@@ -26,38 +26,38 @@
     },
     "Física": {
       "questions": 10,
-      "correct": 5,
-      "percentage": 50.0
+      "correct": 1,
+      "percentage": 10.0
     },
     "Geografía": {
       "questions": 10,
-      "correct": 7,
-      "percentage": 70.0
+      "correct": 5,
+      "percentage": 50.0
     },
     "Historia Universal": {
       "questions": 14,
-      "correct": 14,
-      "percentage": 100.0
+      "correct": 10,
+      "percentage": 71.4
     },
     "Historia de México": {
       "questions": 14,
-      "correct": 11,
-      "percentage": 78.6
+      "correct": 4,
+      "percentage": 28.6
     },
     "Literatura": {
       "questions": 10,
-      "correct": 9,
-      "percentage": 90.0
+      "correct": 6,
+      "percentage": 60.0
     },
     "Matemáticas": {
       "questions": 24,
-      "correct": 16,
-      "percentage": 66.7
+      "correct": 8,
+      "percentage": 33.3
     },
     "Química": {
       "questions": 10,
-      "correct": 9,
-      "percentage": 90.0
+      "correct": 7,
+      "percentage": 70.0
     }
   }
 }
