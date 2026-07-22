@@ -1,0 +1,63 @@
+{
+  "model": "qwen3.5-9b",
+  "timestamp": "20260722115548",
+  "area": 4,
+  "area_name": "Humanidades y de las Artes",
+  "total": {
+    "questions": 120,
+    "correct": 97,
+    "percentage": 80.8
+  },
+  "subjects": {
+    "Biología": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Español": {
+      "questions": 18,
+      "correct": 13,
+      "percentage": 72.2
+    },
+    "Filosofía": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Física": {
+      "questions": 10,
+      "correct": 7,
+      "percentage": 70.0
+    },
+    "Geografía": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Historia Universal": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Historia de México": {
+      "questions": 10,
+      "correct": 6,
+      "percentage": 60.0
+    },
+    "Literatura": {
+      "questions": 10,
+      "correct": 8,
+      "percentage": 80.0
+    },
+    "Matemáticas": {
+      "questions": 22,
+      "correct": 16,
+      "percentage": 72.7
+    },
+    "Química": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    }
+  }
+}
