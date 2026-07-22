@@ -19,10 +19,11 @@ ANSWER_RETRIES = 2
 ANSWER_RETRY_BASE_DELAY = 0.5
 
 class Responder
-  attr_reader :model
+  attr_reader :model, :effort
 
-  def initialize(model: "qwen/qwen3.5-9b", api_base: OLLAMA_API_BASE, api_key: "dummy-key")
+  def initialize(model: "qwen/qwen3.5-9b", api_base: OLLAMA_API_BASE, api_key: "dummy-key", effort: :none)
     @model = model
+    @effort = effort
     RubyLLM.configure do |config|
       config.ollama_api_base = api_base
       config.ollama_api_key  = api_key
@@ -35,7 +36,7 @@ class Responder
     attempts = 0
     begin
       attempts += 1
-      chat = RubyLLM.chat(model: model, provider: :ollama).with_temperature(0)
+      chat = RubyLLM.chat(model: model, provider: :ollama).with_temperature(0).with_thinking(effort: effort)
       content = chat.ask(prompt).content.to_s.strip
       return extract_answer_letter(content) unless content.empty?
       warn "⚠️  Empty response (attempt #{attempts}) for model #{model}"
@@ -83,17 +84,17 @@ class Responder
   end
 end
 
-def sanitize_model_name(name)
-  name.to_s.split("/").last
+def sanitize_model_name(name, effort)
+  name.to_s.split("/").last + (effort ? "-thinking-#{effort}" : "")
 end
 
-def run_benchmark(model_name)
-  sanitized = sanitize_model_name(model_name)
+def run_benchmark(model_name, effort:)
+  sanitized = sanitize_model_name(model_name, effort)
   answers_dir = File.join("answers", sanitized)
   FileUtils.mkdir_p(answers_dir)
 
   timestamp = Time.now.strftime("%Y%m%d%H%M%S")
-  responder = Responder.new(model: model_name, api_base: OLLAMA_API_BASE, api_key: "dummy-key")
+  responder = Responder.new(model: model_name, api_base: OLLAMA_API_BASE, api_key: "dummy-key", effort: effort)
 
   area_files = Dir.glob("test/2025/area-*.json").sort
 
@@ -138,7 +139,8 @@ rescue StandardError => e
 end
 
 if ARGV[0]
-  run_benchmark(ARGV[0])
+	effort = ARGV[1] ? ARGV[1].to_sym : nil
+  run_benchmark(ARGV[0], effort: effort)
 else
   fetch_local_models.each do |m|
     model_id = m[:id] || m["id"]
