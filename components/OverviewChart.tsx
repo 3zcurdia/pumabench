@@ -94,7 +94,7 @@ export default function OverviewChart({
               position="right"
               formatter={(v: number, entry: any) =>
                 isPoints
-                  ? `${v}/${entry?.questions ?? ""}`
+                  ? `${v}`
                   : `${v.toFixed(1)}%`
               }
               fontSize={12}

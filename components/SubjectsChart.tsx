@@ -30,7 +30,7 @@ function ChartTooltip({ active, payload }: any) {
         Score: <strong>{row.percentage.toFixed(1)}%</strong>
       </div>
       <div>
-        Points: {row.correct}/{row.questions}
+        Points: {row.correct}
       </div>
     </div>
   );
@@ -95,7 +95,7 @@ export default function SubjectsChart({
               position="right"
               formatter={(v: number, entry: any) =>
                 isPoints
-                  ? `${v}/${entry?.questions ?? ""}`
+                  ? `${v}`
                   : `${v.toFixed(1)}%`
               }
               fontSize={12}
