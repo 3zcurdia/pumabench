@@ -9,6 +9,8 @@ require "set"
 TEST_DIR    = "test/2025".freeze
 ANSWERS_DIR = "answers".freeze
 RESULTS_DIR = "results".freeze
+RESULTS_CSV = "results.csv".freeze
+NUM_AREAS   = 4
 
 def pct(c, t) = t.zero? ? 0.0 : (100.0 * c / t).round(1)
 
@@ -59,6 +61,13 @@ end
 
 ALL_SUBJECTS = all_subjects
 
+aggregates = Hash.new do |h, model|
+  h[model] = {
+    areas: Hash.new { |ah, n| ah[n] = { correct: 0, questions: 0, runs: 0 } },
+    subjects: Hash.new { |sh, subj| sh[subj] = { correct: 0, questions: 0 } }
+  }
+end
+
 Dir.glob(File.join(TEST_DIR, "area-*.json")).sort.each do |area_file|
   area_number = File.basename(area_file, ".json").split("-").last
   area_data   = JSON.parse(File.read(area_file))
@@ -72,5 +81,47 @@ Dir.glob(File.join(TEST_DIR, "area-*.json")).sort.each do |area_file|
     out = File.join(RESULTS_DIR, model, "#{timestamp}-area-#{area_number}.json")
     write_json(out, payload)
     puts "Model #{model} area #{area_number} (#{timestamp}): #{correct}/#{total}"
+
+    agg = aggregates[model]
+    area_agg = agg[:areas][area_number.to_i]
+    area_agg[:correct]   += correct
+    area_agg[:questions] += total
+    area_agg[:runs]      += 1
+    subjects.each do |name, st|
+      next if st[:questions].zero?
+      agg[:subjects][name][:correct]   += st[:correct]
+      agg[:subjects][name][:questions] += st[:questions]
+    end
   end
 end
+
+subject_cols = ALL_SUBJECTS.sort
+header = ["model", "score", "avg points"]
+header.concat((1..NUM_AREAS).map { |n| "area #{n}" })
+header.concat(subject_cols)
+
+CSV.open(RESULTS_CSV, "w") do |csv|
+  csv << header
+  aggregates.keys.sort.each do |model|
+    agg = aggregates[model]
+    areas_with_data = (1..NUM_AREAS).select { |n| agg[:areas][n][:questions] > 0 }
+    if areas_with_data.empty?
+      score      = 0.0
+      avg_points = 0.0
+      area_avgs  = Array.new(NUM_AREAS, 0.0)
+    else
+      area_avgs = (1..NUM_AREAS).map do |n|
+        a = agg[:areas][n]
+        a[:runs].zero? ? 0.0 : (a[:correct].to_f / a[:runs]).round(2)
+      end
+      score      = (areas_with_data.sum { |n| pct(agg[:areas][n][:correct], agg[:areas][n][:questions]) } / areas_with_data.size.to_f).round(2)
+      avg_points = (area_avgs.sum / NUM_AREAS.to_f).round(2)
+    end
+    row = [model, score, avg_points]
+    row.concat(area_avgs)
+    row.concat(subject_cols.map { |s| pct(agg[:subjects][s][:correct], agg[:subjects][s][:questions]) })
+    csv << row
+  end
+end
+
+puts "Wrote #{RESULTS_CSV}"
