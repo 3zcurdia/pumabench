@@ -11,12 +11,22 @@ export function generateStaticParams() {
 
 export const dynamicParams = false;
 
-export function generateMetadata({ params }: { params: { model: string } }) {
-  return { title: `${params.model} — Pumabench Results` };
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ model: string }>;
+}) {
+  const { model } = await params;
+  return { title: `${model} — Pumabench Results` };
 }
 
-export default function ModelPage({ params }: { params: { model: string } }) {
-  const summary = getModel(params.model);
+export default async function ModelPage({
+  params,
+}: {
+  params: Promise<{ model: string }>;
+}) {
+  const { model } = await params;
+  const summary = getModel(model);
   if (!summary) notFound();
 
   const areaRows = summary.areas.map((a) => ({
