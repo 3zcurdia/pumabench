@@ -30,7 +30,7 @@ function ChartTooltip({ active, payload }: any) {
         Average score: <strong>{row.percentage.toFixed(1)}%</strong>
       </div>
       <div>
-        Points: {row.correct}/{row.questions}
+        Points: {row.correct}
       </div>
       <div className="muted">Mean of the 4 area scores</div>
     </div>
