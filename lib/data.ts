@@ -15,6 +15,7 @@ const CSV_PATH = path.join(process.cwd(), "data", "results.csv");
 
 interface CsvRow {
   model: string;
+  effort: string;
   score: number;
   avgPoints: number;
   areaPoints: number[];
@@ -26,18 +27,19 @@ function parseCsv(): CsvRow[] {
   const lines = raw.trim().split("\n");
   const header = lines[0].split(",");
 
-  const subjectCols = header.slice(7);
+  const subjectCols = header.slice(8);
   const areaCount = 4;
 
   return lines.slice(1).map((line) => {
     const cols = line.split(",");
     return {
       model: cols[0],
-      score: parseFloat(cols[1]),
-      avgPoints: parseFloat(cols[2]),
-      areaPoints: cols.slice(3, 3 + areaCount).map(Number),
+      effort: cols[1],
+      score: parseFloat(cols[2]),
+      avgPoints: parseFloat(cols[3]),
+      areaPoints: cols.slice(4, 4 + areaCount).map(Number),
       subjectPercentages: Object.fromEntries(
-        subjectCols.map((name, i) => [name, parseFloat(cols[7 + i])]),
+        subjectCols.map((name, i) => [name, parseFloat(cols[8 + i])]),
       ),
     };
   });
@@ -70,6 +72,7 @@ function csvRowToModelSummary(row: CsvRow): ModelSummary {
 
   return {
     model: row.model,
+    effort: row.effort,
     runCount: 1,
     overallPercentage: row.score,
     totalCorrect: Math.round(totalCorrect * 10) / 10,

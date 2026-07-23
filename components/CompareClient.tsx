@@ -12,6 +12,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import EffortBadge from "./EffortBadge";
 import ViewToggle, { type ViewMode } from "./ViewToggle";
 
 export interface CompareArea {
@@ -23,7 +24,9 @@ export interface CompareArea {
 }
 
 export interface CompareModel {
+  modelKey: string;
   model: string;
+  effort: string;
   overallPercentage: number;
   overallCorrect: number;
   overallQuestions: number;
@@ -52,7 +55,8 @@ function CompareTooltip({ active, payload, label }: any) {
       const pct = row[`k${idx}`];
       const correct = row[`p${idx}`];
       const questions = row[`q${idx}`];
-      return { p, pct, correct, questions };
+      const effort = row[`e${idx}`];
+      return { p, pct, correct, questions, effort };
     })
     .filter((e: any) => e.pct !== undefined)
     .sort((a: any, b: any) => Number(b.pct) - Number(a.pct));
@@ -64,7 +68,9 @@ function CompareTooltip({ active, payload, label }: any) {
       </div>
       {entries.map((e: any) => (
         <div key={String(e.p.dataKey)} style={{ color: e.p.fill }}>
-          {e.p.name}: <strong>{Number(e.pct).toFixed(1)}%</strong> (
+          {e.p.name}
+          {e.effort ? <EffortBadge effort={e.effort} /> : null}:{" "}
+          <strong>{Number(e.pct).toFixed(1)}%</strong> (
           {e.correct}/{e.questions})
         </div>
       ))}
@@ -75,7 +81,10 @@ function CompareTooltip({ active, payload, label }: any) {
 function SubjectCompareTooltip({ active, payload, label }: any) {
   if (!active || !payload?.length) return null;
   const entries = [...payload]
-    .map((p: any) => ({ p, pct: Number(p.value) }))
+    .map((p: any) => {
+      const idx = Number(String(p.dataKey).slice(1));
+      return { p, pct: Number(p.value), effort: payload[0]?.payload?.[`e${idx}`] };
+    })
     .filter((e: any) => !Number.isNaN(e.pct))
     .sort((a: any, b: any) => b.pct - a.pct);
   return (
@@ -83,7 +92,9 @@ function SubjectCompareTooltip({ active, payload, label }: any) {
       <div className="chart-tooltip-title">{label}</div>
       {entries.map((e: any) => (
         <div key={String(e.p.dataKey)} style={{ color: e.p.fill }}>
-          {e.p.name}: <strong>{e.pct.toFixed(1)}%</strong>
+          {e.p.name}
+          {e.effort ? <EffortBadge effort={e.effort} /> : null}:{" "}
+          <strong>{e.pct.toFixed(1)}%</strong>
         </div>
       ))}
     </div>
@@ -97,25 +108,25 @@ function CompareInner({ models }: { models: CompareModel[] }) {
   const [mode, setMode] = useState<ViewMode>("percentage");
   const isPoints = mode === "points";
 
-  const byName = useMemo(
-    () => new Map(models.map((m) => [m.model, m])),
+  const byKey = useMemo(
+    () => new Map(models.map((m) => [m.modelKey, m])),
     [models],
   );
 
   const param = searchParams.get("models");
-  const selectedNames =
+  const selectedKeys =
     param === null
-      ? models.slice(0, 3).map((m) => m.model)
+      ? models.slice(0, 3).map((m) => m.modelKey)
       : param.split(",").filter(Boolean);
-  const selected = selectedNames
-    .map((name) => byName.get(name))
+  const selected = selectedKeys
+    .map((key) => byKey.get(key))
     .filter((m): m is CompareModel => Boolean(m));
 
-  const toggle = (name: string) => {
-    const names = new Set(selected.map((m) => m.model));
-    if (names.has(name)) names.delete(name);
-    else names.add(name);
-    const query = [...names].join(",");
+  const toggle = (key: string) => {
+    const keys = new Set(selected.map((m) => m.modelKey));
+    if (keys.has(key)) keys.delete(key);
+    else keys.add(key);
+    const query = [...keys].join(",");
     router.replace(
       query ? `${pathname}?models=${encodeURIComponent(query)}` : pathname,
       { scroll: false },
@@ -140,6 +151,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
         row[`k${i}`] = a.percentage;
         row[`p${i}`] = a.correct;
         row[`q${i}`] = a.questions;
+        row[`e${i}`] = m.effort;
       }
     });
     return row;
@@ -170,7 +182,10 @@ function CompareInner({ models }: { models: CompareModel[] }) {
     const row: Record<string, string | number> = { subject };
     selected.forEach((m, i) => {
       const pct = m.subjects[subject];
-      if (pct !== undefined) row[`k${i}`] = pct;
+      if (pct !== undefined) {
+        row[`k${i}`] = pct;
+        row[`e${i}`] = m.effort;
+      }
     });
     return row;
   });
@@ -186,17 +201,17 @@ function CompareInner({ models }: { models: CompareModel[] }) {
         <h2 className="card-title">Models</h2>
         <div className="selector-grid">
           {models.map((m) => {
-            const idx = selected.findIndex((s) => s.model === m.model);
+            const idx = selected.findIndex((s) => s.modelKey === m.modelKey);
             const checked = idx >= 0;
             return (
               <label
-                key={m.model}
+                key={m.modelKey}
                 className={`checkbox-item${checked ? " checked" : ""}`}
               >
                 <input
                   type="checkbox"
                   checked={checked}
-                  onChange={() => toggle(m.model)}
+                  onChange={() => toggle(m.modelKey)}
                 />
                 {checked && (
                   <span
@@ -205,6 +220,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                   />
                 )}
                 <span className="checkbox-name">{m.model}</span>
+                <EffortBadge effort={m.effort} />
                 <span className="muted">{m.overallPercentage.toFixed(1)}%</span>
               </label>
             );
@@ -258,9 +274,9 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                   />
                   {selected.map((m, i) => (
                     <Bar
-                      key={m.model}
+                      key={m.modelKey}
                       dataKey={isPoints ? `p${i}` : `k${i}`}
-                      name={m.model}
+                      name={`${m.model} [${m.effort}]`}
                       fill={PALETTE[i % PALETTE.length]}
                       radius={[3, 3, 0, 0]}
                     />
@@ -278,7 +294,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                   <tr>
                     <th>Area</th>
                     {selected.map((m, i) => (
-                      <th key={m.model} className="num">
+                      <th key={m.modelKey} className="num">
                         <span
                           className="color-dot"
                           style={{
@@ -286,6 +302,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                           }}
                         />
                         {m.model}
+                        <EffortBadge effort={m.effort} />
                       </th>
                     ))}
                   </tr>
@@ -306,11 +323,11 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                         </td>
                         {selected.map((m) => {
                           const a = m.areas.find((x) => x.area === area);
-                          if (!a) return <td key={m.model} className="num">—</td>;
+                          if (!a) return <td key={m.modelKey} className="num">—</td>;
                           const isBest = a.percentage === best;
                           return (
                             <td
-                              key={m.model}
+                              key={m.modelKey}
                               className={`num${isBest ? " best" : ""}`}
                             >
                               {a.percentage.toFixed(1)}% ({a.correct}/
@@ -332,7 +349,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                       const isBest = m.overallPercentage === best;
                       return (
                         <td
-                          key={m.model}
+                          key={m.modelKey}
                           className={`num${isBest ? " best" : ""}`}
                         >
                           <strong>{m.overallPercentage.toFixed(1)}%</strong> (
@@ -384,9 +401,9 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                   />
                   {selected.map((m, i) => (
                     <Bar
-                      key={m.model}
+                      key={m.modelKey}
                       dataKey={`k${i}`}
-                      name={m.model}
+                      name={`${m.model} [${m.effort}]`}
                       fill={PALETTE[i % PALETTE.length]}
                       radius={[3, 3, 0, 0]}
                     />
@@ -404,7 +421,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                   <tr>
                     <th>Subject</th>
                     {selected.map((m, i) => (
-                      <th key={m.model} className="num">
+                      <th key={m.modelKey} className="num">
                         <span
                           className="color-dot"
                           style={{
@@ -412,6 +429,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                           }}
                         />
                         {m.model}
+                        <EffortBadge effort={m.effort} />
                       </th>
                     ))}
                   </tr>
@@ -427,11 +445,11 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                         {selected.map((m) => {
                           const pct = m.subjects[subject];
                           if (pct === undefined)
-                            return <td key={m.model} className="num">—</td>;
+                            return <td key={m.modelKey} className="num">—</td>;
                           const isBest = pct === best;
                           return (
                             <td
-                              key={m.model}
+                              key={m.modelKey}
                               className={`num${isBest ? " best" : ""}`}
                             >
                               {pct.toFixed(1)}%

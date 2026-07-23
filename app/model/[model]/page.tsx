@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import AreasChart from "@/components/AreasChart";
+import EffortBadge from "@/components/EffortBadge";
 import SubjectsChart from "@/components/SubjectsChart";
 import { getAllModels, getModel } from "@/lib/data";
 
@@ -42,7 +43,10 @@ export default function ModelPage({ params }: { params: { model: string } }) {
       </Link>
 
       <div className="page-head">
-        <h1 className="model-name">{summary.model}</h1>
+        <h1 className="model-name">
+          {summary.model}
+          <EffortBadge effort={summary.effort} />
+        </h1>
         <div className="chips">
           <span className="chip chip-primary">
             Average score: {summary.overallPercentage.toFixed(1)}%

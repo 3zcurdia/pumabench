@@ -10,9 +10,11 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import EffortBadge from "./EffortBadge";
 
 export interface AreaRankRow {
   model: string;
+  effort: string;
   percentage: number;
   correct: number;
   questions: number;
@@ -31,7 +33,10 @@ function ChartTooltip({
   const row: AreaRankRow = payload[0].payload;
   return (
     <div className="chart-tooltip">
-      <div className="chart-tooltip-title">{row.model}</div>
+      <div className="chart-tooltip-title">
+        {row.model}
+        <EffortBadge effort={row.effort} />
+      </div>
       <div>
         Score: <strong>{row.percentage.toFixed(1)}%</strong>
       </div>

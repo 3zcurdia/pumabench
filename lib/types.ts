@@ -17,6 +17,7 @@ export interface AggregatedArea {
 
 export interface ModelSummary {
   model: string;
+  effort: string;
   runCount: number;
   overallPercentage: number;
   totalCorrect: number;

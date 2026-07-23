@@ -10,7 +10,9 @@ export const metadata = {
 
 export default function ComparePage() {
   const models: CompareModel[] = getAllModels().map((m) => ({
+    modelKey: `${m.model}::${m.effort}`,
     model: m.model,
+    effort: m.effort,
     overallPercentage: m.overallPercentage,
     overallCorrect: m.totalCorrect,
     overallQuestions: m.totalQuestions,

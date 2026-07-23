@@ -11,13 +11,31 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import EffortBadge from "./EffortBadge";
 import ViewToggle, { type ViewMode } from "./ViewToggle";
 
 export interface OverviewRow {
   model: string;
+  effort: string;
   percentage: number;
   correct: number;
   questions: number;
+}
+
+function ModelTick({ x, y, payload }: any) {
+  const row = payload?.payload;
+  return (
+    <text
+      x={x}
+      y={y}
+      dy={4}
+      textAnchor="end"
+      fontSize={12}
+      fill="#0f172a"
+    >
+      {row?.model}
+    </text>
+  );
 }
 
 function ChartTooltip({ active, payload }: any) {
@@ -25,7 +43,10 @@ function ChartTooltip({ active, payload }: any) {
   const row: OverviewRow = payload[0].payload;
   return (
     <div className="chart-tooltip">
-      <div className="chart-tooltip-title">{row.model}</div>
+      <div className="chart-tooltip-title">
+        {row.model}
+        <EffortBadge effort={row.effort} />
+      </div>
       <div>
         Average score: <strong>{row.percentage.toFixed(1)}%</strong>
       </div>

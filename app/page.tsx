@@ -1,5 +1,6 @@
 import Link from "next/link";
 import AreaRankingsChart from "@/components/AreaRankingsChart";
+import EffortBadge from "@/components/EffortBadge";
 import OverviewChart from "@/components/OverviewChart";
 import SubjectRankingsChart from "@/components/SubjectRankingsChart";
 import { getAllModels } from "@/lib/data";
@@ -9,6 +10,7 @@ export default function HomePage() {
 
   const chartData = models.map((m) => ({
     model: m.model,
+    effort: m.effort,
     percentage: m.overallPercentage,
     correct: m.totalCorrect,
     questions: m.totalQuestions,
@@ -24,6 +26,7 @@ export default function HomePage() {
       const area = m.areas.find((x) => x.area === a.area);
       return {
         model: m.model,
+        effort: m.effort,
         percentage: area?.total.percentage ?? 0,
         correct: area?.total.correct ?? 0,
         questions: area?.total.questions ?? 0,
@@ -35,6 +38,7 @@ export default function HomePage() {
     subject,
     rows: models.map((m) => ({
       model: m.model,
+      effort: m.effort,
       percentage: m.subjects[subject]?.percentage ?? 0,
     })),
   }));
@@ -86,6 +90,7 @@ export default function HomePage() {
                     <Link href={`/model/${encodeURIComponent(m.model)}`}>
                       {m.model}
                     </Link>
+                    <EffortBadge effort={m.effort} />
                   </td>
                   <td className="num">
                     <strong>{m.overallPercentage.toFixed(1)}%</strong> (
