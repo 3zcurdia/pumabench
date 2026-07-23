@@ -1,0 +1,63 @@
+{
+  "model": "minimax-m3-thinking-medium",
+  "timestamp": "20260723125202",
+  "area": 1,
+  "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+  "total": {
+    "questions": 120,
+    "correct": 105,
+    "percentage": 87.5
+  },
+  "subjects": {
+    "Biología": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Español": {
+      "questions": 18,
+      "correct": 15,
+      "percentage": 83.3
+    },
+    "Filosofía": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Física": {
+      "questions": 16,
+      "correct": 12,
+      "percentage": 75.0
+    },
+    "Geografía": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Historia Universal": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Historia de México": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Literatura": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Matemáticas": {
+      "questions": 26,
+      "correct": 22,
+      "percentage": 84.6
+    },
+    "Química": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    }
+  }
+}
