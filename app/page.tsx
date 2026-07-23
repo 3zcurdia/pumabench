@@ -1,5 +1,7 @@
 import Link from "next/link";
+import AreaRankingsChart from "@/components/AreaRankingsChart";
 import OverviewChart from "@/components/OverviewChart";
+import SubjectRankingsChart from "@/components/SubjectRankingsChart";
 import { getAllModels } from "@/lib/data";
 
 export default function HomePage() {
@@ -10,6 +12,31 @@ export default function HomePage() {
     percentage: m.overallPercentage,
     correct: m.totalCorrect,
     questions: m.totalQuestions,
+  }));
+
+  const areas = models[0]?.areas ?? [];
+  const subjects = Object.keys(models[0]?.subjects ?? {});
+
+  const areaChartData = areas.map((a) => ({
+    area: a.area,
+    areaName: a.area_name,
+    rows: models.map((m) => {
+      const area = m.areas.find((x) => x.area === a.area);
+      return {
+        model: m.model,
+        percentage: area?.total.percentage ?? 0,
+        correct: area?.total.correct ?? 0,
+        questions: area?.total.questions ?? 0,
+      };
+    }),
+  }));
+
+  const subjectChartData = subjects.map((subject) => ({
+    subject,
+    rows: models.map((m) => ({
+      model: m.model,
+      percentage: m.subjects[subject]?.percentage ?? 0,
+    })),
   }));
 
   return (
@@ -70,6 +97,36 @@ export default function HomePage() {
           </table>
         </div>
       </section>
+
+      <div className="page-head">
+        <h2 className="section-heading">Rankings by area</h2>
+      </div>
+      {areaChartData.map(({ area, areaName, rows }) => (
+        <section className="card" key={area}>
+          <AreaRankingsChart
+            data={rows}
+            areaName={areaName}
+            title={`Área ${area}`}
+          />
+        </section>
+      ))}
+
+      <div className="page-head">
+        <h2 className="section-heading">Rankings by subject</h2>
+      </div>
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(420px, 1fr))",
+          gap: 20,
+        }}
+      >
+        {subjectChartData.map(({ subject, rows }) => (
+          <section className="card" key={subject} style={{ marginBottom: 0 }}>
+            <SubjectRankingsChart data={rows} title={subject} />
+          </section>
+        ))}
+      </div>
     </>
   );
 }

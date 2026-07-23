@@ -21,6 +21,9 @@ export default function ComparePage() {
       correct: a.total.correct,
       questions: a.total.questions,
     })),
+    subjects: Object.fromEntries(
+      Object.entries(m.subjects).map(([name, s]) => [name, s.percentage]),
+    ),
   }));
 
   return (
@@ -32,9 +35,9 @@ export default function ComparePage() {
       <div className="page-head">
         <h1>Compare models</h1>
         <p className="muted">
-          Select two or more models to compare their average score per area.
-          Each area is a knowledge area of the same test with different subject
-          weights.
+          Select two or more models to compare their average score per area and
+          per subject. Each area is a knowledge area of the same test with
+          different subject weights.
         </p>
       </div>
 

@@ -88,7 +88,7 @@ export default function SubjectsChart({
             dataKey={isPoints ? "correct" : "percentage"}
             fill="#7c3aed"
             radius={[0, 4, 4, 0]}
-            barSize={18}
+            barSize={28}
           >
             <LabelList
               dataKey={isPoints ? "correct" : "percentage"}

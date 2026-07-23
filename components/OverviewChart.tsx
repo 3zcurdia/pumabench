@@ -87,7 +87,7 @@ export default function OverviewChart({
             dataKey={isPoints ? "correct" : "percentage"}
             fill="#2563eb"
             radius={[0, 4, 4, 0]}
-            barSize={22}
+            barSize={32}
           >
             <LabelList
               dataKey={isPoints ? "correct" : "percentage"}

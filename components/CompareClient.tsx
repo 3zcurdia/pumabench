@@ -28,6 +28,7 @@ export interface CompareModel {
   overallCorrect: number;
   overallQuestions: number;
   areas: CompareArea[];
+  subjects: Record<string, number>;
 }
 
 const PALETTE = [
@@ -65,6 +66,24 @@ function CompareTooltip({ active, payload, label }: any) {
         <div key={String(e.p.dataKey)} style={{ color: e.p.fill }}>
           {e.p.name}: <strong>{Number(e.pct).toFixed(1)}%</strong> (
           {e.correct}/{e.questions})
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function SubjectCompareTooltip({ active, payload, label }: any) {
+  if (!active || !payload?.length) return null;
+  const entries = [...payload]
+    .map((p: any) => ({ p, pct: Number(p.value) }))
+    .filter((e: any) => !Number.isNaN(e.pct))
+    .sort((a: any, b: any) => b.pct - a.pct);
+  return (
+    <div className="chart-tooltip">
+      <div className="chart-tooltip-title">{label}</div>
+      {entries.map((e: any) => (
+        <div key={String(e.p.dataKey)} style={{ color: e.p.fill }}>
+          {e.p.name}: <strong>{e.pct.toFixed(1)}%</strong>
         </div>
       ))}
     </div>
@@ -141,6 +160,24 @@ function CompareInner({ models }: { models: CompareModel[] }) {
       ...selected.map(
         (m) => m.areas.find((a) => a.area === area)?.percentage ?? -1,
       ),
+    );
+
+  const subjectNames = [
+    ...new Set(selected.flatMap((m) => Object.keys(m.subjects))),
+  ];
+
+  const subjectChartRows = subjectNames.map((subject) => {
+    const row: Record<string, string | number> = { subject };
+    selected.forEach((m, i) => {
+      const pct = m.subjects[subject];
+      if (pct !== undefined) row[`k${i}`] = pct;
+    });
+    return row;
+  });
+
+  const subjectRowBest = (subject: string) =>
+    Math.max(
+      ...selected.map((m) => m.subjects[subject] ?? -1),
     );
 
   return (
@@ -304,6 +341,106 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                       );
                     })}
                   </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section className="card">
+            <h2 className="card-title">Score per subject</h2>
+            <div style={{ width: "100%", height: 380 }}>
+              <ResponsiveContainer>
+                <BarChart
+                  data={subjectChartRows}
+                  margin={{ top: 16, right: 16, bottom: 8, left: 0 }}
+                  barCategoryGap="24%"
+                  barGap={3}
+                >
+                  <CartesianGrid vertical={false} stroke="#e2e8f0" />
+                  <XAxis
+                    dataKey="subject"
+                    fontSize={12}
+                    stroke="#0f172a"
+                    tickLine={false}
+                    interval={0}
+                    angle={-20}
+                    textAnchor="end"
+                    height={70}
+                  />
+                  <YAxis
+                    domain={[0, 100]}
+                    tickFormatter={(v: number) => `${v}%`}
+                    fontSize={12}
+                    stroke="#64748b"
+                    width={48}
+                  />
+                  <Tooltip
+                    content={<SubjectCompareTooltip />}
+                    cursor={{ fill: "rgba(15, 23, 42, 0.04)" }}
+                  />
+                  <Legend
+                    verticalAlign="bottom"
+                    wrapperStyle={{ fontSize: 12, paddingTop: 12 }}
+                  />
+                  {selected.map((m, i) => (
+                    <Bar
+                      key={m.model}
+                      dataKey={`k${i}`}
+                      name={m.model}
+                      fill={PALETTE[i % PALETTE.length]}
+                      radius={[3, 3, 0, 0]}
+                    />
+                  ))}
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
+          </section>
+
+          <section className="card">
+            <h2 className="card-title">Side-by-side table (per subject)</h2>
+            <div className="table-wrap">
+              <table className="compare-table">
+                <thead>
+                  <tr>
+                    <th>Subject</th>
+                    {selected.map((m, i) => (
+                      <th key={m.model} className="num">
+                        <span
+                          className="color-dot"
+                          style={{
+                            background: PALETTE[i % PALETTE.length],
+                          }}
+                        />
+                        {m.model}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {subjectNames.map((subject) => {
+                    const best = subjectRowBest(subject);
+                    return (
+                      <tr key={subject}>
+                        <td>
+                          <strong>{subject}</strong>
+                        </td>
+                        {selected.map((m) => {
+                          const pct = m.subjects[subject];
+                          if (pct === undefined)
+                            return <td key={m.model} className="num">—</td>;
+                          const isBest = pct === best;
+                          return (
+                            <td
+                              key={m.model}
+                              className={`num${isBest ? " best" : ""}`}
+                            >
+                              {pct.toFixed(1)}%
+                            </td>
+                          );
+                        })}
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
             </div>

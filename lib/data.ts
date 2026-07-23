@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { AggregatedArea, ModelSummary } from "./types";
+import type { AggregatedArea, ModelSummary, SubjectScore } from "./types";
 
 const QUESTIONS_PER_AREA = 120;
 
@@ -58,6 +58,13 @@ function csvRowToModelSummary(row: CsvRow): ModelSummary {
     };
   });
 
+  const subjects: Record<string, SubjectScore> = Object.fromEntries(
+    Object.entries(row.subjectPercentages).map(([name, percentage]) => [
+      name,
+      { percentage },
+    ]),
+  );
+
   const totalCorrect = row.avgPoints * areas.length;
   const totalQuestions = QUESTIONS_PER_AREA * areas.length;
 
@@ -68,6 +75,7 @@ function csvRowToModelSummary(row: CsvRow): ModelSummary {
     totalCorrect: Math.round(totalCorrect * 10) / 10,
     totalQuestions,
     areas,
+    subjects,
   };
 }
 

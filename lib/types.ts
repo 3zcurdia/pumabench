@@ -4,6 +4,10 @@ export interface ScoreStats {
   percentage: number;
 }
 
+export interface SubjectScore {
+  percentage: number;
+}
+
 export interface AggregatedArea {
   area: number;
   area_name: string;
@@ -18,4 +22,5 @@ export interface ModelSummary {
   totalCorrect: number;
   totalQuestions: number;
   areas: AggregatedArea[];
+  subjects: Record<string, SubjectScore>;
 }

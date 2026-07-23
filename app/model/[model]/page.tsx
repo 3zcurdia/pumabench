@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import AreasChart from "@/components/AreasChart";
+import SubjectsChart from "@/components/SubjectsChart";
 import { getAllModels, getModel } from "@/lib/data";
 
 export function generateStaticParams() {
@@ -24,6 +25,15 @@ export default function ModelPage({ params }: { params: { model: string } }) {
     correct: a.total.correct,
     questions: a.total.questions,
   }));
+
+  const subjectRows = Object.entries(summary.subjects)
+    .map(([subject, s]) => ({
+      subject,
+      percentage: s.percentage,
+      correct: 0,
+      questions: 0,
+    }))
+    .sort((a, b) => b.percentage - a.percentage);
 
   return (
     <>
@@ -81,6 +91,10 @@ export default function ModelPage({ params }: { params: { model: string } }) {
             </tbody>
           </table>
         </div>
+      </section>
+
+      <section className="card">
+        <SubjectsChart data={subjectRows} title="Score per subject" />
       </section>
     </>
   );

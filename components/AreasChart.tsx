@@ -87,7 +87,7 @@ export default function AreasChart({
             dataKey={isPoints ? "correct" : "percentage"}
             fill="#0d9488"
             radius={[0, 4, 4, 0]}
-            barSize={26}
+            barSize={36}
           >
             <LabelList
               dataKey={isPoints ? "correct" : "percentage"}

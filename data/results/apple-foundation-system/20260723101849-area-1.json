@@ -1,0 +1,63 @@
+{
+  "model": "apple-foundation-system",
+  "timestamp": "20260723101849",
+  "area": 1,
+  "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+  "total": {
+    "questions": 120,
+    "correct": 71,
+    "percentage": 59.2
+  },
+  "subjects": {
+    "Biología": {
+      "questions": 10,
+      "correct": 8,
+      "percentage": 80.0
+    },
+    "Español": {
+      "questions": 18,
+      "correct": 8,
+      "percentage": 44.4
+    },
+    "Filosofía": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Física": {
+      "questions": 16,
+      "correct": 8,
+      "percentage": 50.0
+    },
+    "Geografía": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Historia Universal": {
+      "questions": 10,
+      "correct": 7,
+      "percentage": 70.0
+    },
+    "Historia de México": {
+      "questions": 10,
+      "correct": 7,
+      "percentage": 70.0
+    },
+    "Literatura": {
+      "questions": 10,
+      "correct": 7,
+      "percentage": 70.0
+    },
+    "Matemáticas": {
+      "questions": 26,
+      "correct": 10,
+      "percentage": 38.5
+    },
+    "Química": {
+      "questions": 10,
+      "correct": 7,
+      "percentage": 70.0
+    }
+  }
+}
