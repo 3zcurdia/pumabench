@@ -12,22 +12,41 @@ require "net/http"
 require "json"
 require "fileutils"
 require "uri"
+require "optparse"
 
-OLLAMA_API_BASE = "http://localhost:11434/v1".freeze
-VALID_OPTIONS = ("A".."D").freeze
-ANSWER_RETRIES = 2
+OLLAMA_API_BASE     = "http://localhost:11434/v1".freeze
+OPENROUTER_API_BASE = "https://openrouter.ai/api/v1".freeze
+VALID_OPTIONS       = ("A".."D").freeze
+ANSWER_RETRIES      = 2
 ANSWER_RETRY_BASE_DELAY = 0.5
 
 class Responder
-  attr_reader :model, :effort
+  attr_reader :model, :effort, :provider
 
-  def initialize(model: "qwen/qwen3.5-9b", api_base: OLLAMA_API_BASE, api_key: "dummy-key", effort: :none)
-    @model = model
-    @effort = effort
+  def initialize(model:, provider: :ollama, effort: nil)
+    @model    = model
+    @effort   = effort
+    @provider = provider
+    configure_ruby_llm!
+  end
+
+  def configure_ruby_llm!
     RubyLLM.configure do |config|
-      config.ollama_api_base = api_base
-      config.ollama_api_key  = api_key
-      config.default_model   = @model
+      case @provider
+      when :openrouter
+        api_key = ENV["OPENROUTER_API_KEY"]
+        if api_key.nil? || api_key.empty?
+          abort "Error: OPENROUTER_API_KEY is required for provider openrouter"
+        end
+        config.openrouter_api_key  = api_key
+        config.openrouter_api_base = OPENROUTER_API_BASE
+      when :ollama
+        config.ollama_api_base = OLLAMA_API_BASE
+        config.ollama_api_key  = "dummy-key"
+      else
+        abort "Error: unknown provider #{@provider.inspect}"
+      end
+      config.default_model = @model
     end
   end
 
@@ -36,7 +55,7 @@ class Responder
     attempts = 0
     begin
       attempts += 1
-      chat = RubyLLM.chat(model: model, provider: :ollama).with_temperature(0).with_thinking(effort: effort)
+      chat = RubyLLM.chat(model: model, provider: provider).with_temperature(0).with_thinking(effort: effort)
       content = chat.ask(prompt).content.to_s.strip
       return extract_answer_letter(content) unless content.empty?
       warn "⚠️  Empty response (attempt #{attempts}) for model #{model}"
@@ -85,16 +104,17 @@ class Responder
 end
 
 def sanitize_model_name(name, effort)
-  name.to_s.split("/").last + (effort ? "-thinking-#{effort}" : "")
+  model_name = name.to_s.split("/").last.sub(":free", "")
+  model_name + (effort ? "-thinking-#{effort}" : "")
 end
 
-def run_benchmark(model_name, effort:)
+def run_benchmark(model_name, provider: :ollama, effort: nil)
   sanitized = sanitize_model_name(model_name, effort)
   answers_dir = File.join("answers", sanitized)
   FileUtils.mkdir_p(answers_dir)
 
   timestamp = Time.now.strftime("%Y%m%d%H%M%S")
-  responder = Responder.new(model: model_name, api_base: OLLAMA_API_BASE, api_key: "dummy-key", effort: effort)
+  responder = Responder.new(model: model_name, provider: provider, effort: effort)
 
   area_files = Dir.glob("test/2025/area-*.json").sort
 
@@ -138,14 +158,41 @@ rescue StandardError => e
   []
 end
 
+cli_options = { provider: nil, effort: nil }
+OptionParser.new do |opts|
+  opts.banner = "Usage: ruby benchmark.rb <model> [--provider=ollama|openrouter] [--effort=low|medium|high]"
+  opts.on("--provider=NAME", %i[ollama openrouter], "Provider to use (auto-detected from model name if omitted)") { |v| cli_options[:provider] = v }
+  opts.on("--effort=LEVEL",  "Thinking effort: low|medium|high|none") { |v| cli_options[:effort] = v.to_sym }
+  opts.on("-h", "--help", "Show this help") { puts opts; exit }
+end.parse!
+
 if ARGV[0]
-	effort = ARGV[1] ? ARGV[1].to_sym : nil
-  run_benchmark(ARGV[0], effort: effort)
+  model    = ARGV[0]
+  provider = cli_options[:provider] || :ollama
+  RubyLLM.models.refresh! if provider != :ollama
+  effort   = cli_options[:effort]
+  run_benchmark(model, provider: provider, effort: effort)
 else
-  fetch_local_models.each do |m|
-    model_id = m[:id] || m["id"]
-    next unless model_id
-    puts "Running benchmark for model: #{model_id}"
-    run_benchmark(model_id)
+  models = fetch_local_models
+  if models.empty?
+    puts "No local Ollama models found at #{OLLAMA_API_BASE}."
+    puts "Start Ollama and pull a model first, e.g.: ollama pull qwen3.5-9b"
+  else
+    puts "Available local Ollama models at #{OLLAMA_API_BASE}:"
+    models.each do |m|
+      model_id = m[:id] || m["id"]
+      puts "  - #{model_id}"
+    end
+    puts
+    puts "Run the benchmark for one of them with:"
+    puts "  ruby benchmark.rb <model-id> --provider=ollama"
+    puts
+    puts "Examples:"
+    sample = models.first[:id] || models.first["id"]
+    puts "  ruby benchmark.rb #{sample} --provider=ollama"
+    puts "  ruby benchmark.rb #{sample} --provider=ollama --effort=medium"
+    puts
+    puts "For OpenRouter models (auth via OPENROUTER_API_KEY env var):"
+    puts "  ruby benchmark.rb qwen/qwen-3.6-27b"
   end
 end
