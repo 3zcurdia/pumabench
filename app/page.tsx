@@ -84,7 +84,7 @@ export default function HomePage() {
             </thead>
             <tbody>
               {models.map((m, i) => (
-                <tr key={m.model}>
+                <tr key={`${m.model}::${m.effort}`}>
                   <td className="muted">{i + 1}</td>
                   <td>
                     <Link href={`/model/${encodeURIComponent(m.model)}`}>
