@@ -10,7 +10,6 @@ export default function HomePage() {
     percentage: m.overallPercentage,
     correct: m.totalCorrect,
     questions: m.totalQuestions,
-    runs: m.runCount,
   }));
 
   return (
@@ -50,7 +49,6 @@ export default function HomePage() {
                 <th>#</th>
                 <th>Model</th>
                 <th className="num">Average score</th>
-                <th className="num">Runs</th>
               </tr>
             </thead>
             <tbody>
@@ -65,10 +63,6 @@ export default function HomePage() {
                   <td className="num">
                     <strong>{m.overallPercentage.toFixed(1)}%</strong> (
                     {m.totalCorrect}/{m.totalQuestions})
-                  </td>
-                  <td className="num">
-                    {m.runCount}
-                    {m.runCount > 1 && <span className="muted"> (avg)</span>}
                   </td>
                 </tr>
               ))}

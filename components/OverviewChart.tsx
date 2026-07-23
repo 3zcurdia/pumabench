@@ -18,7 +18,6 @@ export interface OverviewRow {
   percentage: number;
   correct: number;
   questions: number;
-  runs: number;
 }
 
 function ChartTooltip({ active, payload }: any) {
@@ -34,7 +33,6 @@ function ChartTooltip({ active, payload }: any) {
         Points: {row.correct}/{row.questions}
       </div>
       <div className="muted">Mean of the 4 area scores</div>
-      {row.runs > 1 && <div>Averaged over {row.runs} runs</div>}
     </div>
   );
 }

@@ -14,7 +14,6 @@ export default function ComparePage() {
     overallPercentage: m.overallPercentage,
     overallCorrect: m.totalCorrect,
     overallQuestions: m.totalQuestions,
-    runCount: m.runCount,
     areas: m.areas.map((a) => ({
       area: a.area,
       area_name: a.area_name,

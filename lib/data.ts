@@ -1,98 +1,91 @@
 import fs from "node:fs";
 import path from "node:path";
-import type {
-  AggregatedArea,
-  AreaResult,
-  ModelSummary,
-  ScoreStats,
-} from "./types";
+import type { AggregatedArea, ModelSummary } from "./types";
 
-const RESULTS_DIR = path.join(process.cwd(), "results");
-const FILE_RE = /^(\d+)-area-(\d+)\.json$/;
+const QUESTIONS_PER_AREA = 120;
 
-const round1 = (n: number) => Math.round(n * 10) / 10;
+const AREA_NAMES: Record<number, string> = {
+  1: "Ciencias Físico-Matemáticas y de las Ingenierías",
+  2: "Ciencias Biológicas, Químicas y de la Salud",
+  3: "Ciencias Sociales",
+  4: "Humanidades y de las Artes",
+};
 
-function averageStats(list: ScoreStats[]): ScoreStats {
-  const n = list.length;
-  const avg = (get: (s: ScoreStats) => number) =>
-    list.reduce((sum, s) => sum + get(s), 0) / n;
-  return {
-    questions: Math.round(avg((s) => s.questions)),
-    correct: round1(avg((s) => s.correct)),
-    percentage: round1(avg((s) => s.percentage)),
-  };
+const CSV_PATH = path.join(process.cwd(), "data", "results.csv");
+
+interface CsvRow {
+  model: string;
+  score: number;
+  avgPoints: number;
+  areaPoints: number[];
+  subjectPercentages: Record<string, number>;
 }
 
-/** Read every results/<model>/<timestamp>-area-<n>.json, grouped per model. */
-function loadRuns(modelDir: string): AreaResult[] {
-  const dir = path.join(RESULTS_DIR, modelDir);
-  return fs
-    .readdirSync(dir)
-    .filter((f) => FILE_RE.test(f))
-    .map((f) =>
-      JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")),
-    ) as AreaResult[];
+function parseCsv(): CsvRow[] {
+  const raw = fs.readFileSync(CSV_PATH, "utf8");
+  const lines = raw.trim().split("\n");
+  const header = lines[0].split(",");
+
+  const subjectCols = header.slice(7);
+  const areaCount = 4;
+
+  return lines.slice(1).map((line) => {
+    const cols = line.split(",");
+    return {
+      model: cols[0],
+      score: parseFloat(cols[1]),
+      avgPoints: parseFloat(cols[2]),
+      areaPoints: cols.slice(3, 3 + areaCount).map(Number),
+      subjectPercentages: Object.fromEntries(
+        subjectCols.map((name, i) => [name, parseFloat(cols[7 + i])]),
+      ),
+    };
+  });
 }
 
-function aggregateModel(model: string, results: AreaResult[]): ModelSummary {
-  const timestamps = new Set(results.map((r) => r.timestamp));
-  const areaNumbers = [...new Set(results.map((r) => r.area))].sort(
-    (a, b) => a - b,
-  );
-
-  const areas: AggregatedArea[] = areaNumbers.map((areaNum) => {
-    const runs = results.filter((r) => r.area === areaNum);
-    const subjectNames = [
-      ...new Set(runs.flatMap((r) => Object.keys(r.subjects))),
-    ];
-
-    const subjects: Record<string, ScoreStats> = {};
-    for (const name of subjectNames) {
-      const perRun = runs
-        .map((r) => r.subjects[name])
-        .filter((s): s is ScoreStats => Boolean(s));
-      subjects[name] = averageStats(perRun);
-    }
-
+function csvRowToModelSummary(row: CsvRow): ModelSummary {
+  const areas: AggregatedArea[] = row.areaPoints.map((points, i) => {
+    const areaNum = i + 1;
     return {
       area: areaNum,
-      area_name: runs[0]?.area_name ?? `Área ${areaNum}`,
-      total: averageStats(runs.map((r) => r.total)),
-      subjects,
+      area_name: AREA_NAMES[areaNum] ?? `Área ${areaNum}`,
+      total: {
+        questions: QUESTIONS_PER_AREA,
+        correct: points,
+        percentage: Math.round((points / QUESTIONS_PER_AREA) * 1000) / 10,
+      },
+      subjects: {},
     };
   });
 
-  const overall = round1(
-    areas.reduce((sum, a) => sum + a.total.percentage, 0) / areas.length,
-  );
+  const totalCorrect = row.avgPoints * areas.length;
+  const totalQuestions = QUESTIONS_PER_AREA * areas.length;
 
   return {
-    model,
-    runCount: timestamps.size,
-    overallPercentage: overall,
-    totalCorrect: round1(areas.reduce((sum, a) => sum + a.total.correct, 0)),
-    totalQuestions: areas.reduce((sum, a) => sum + a.total.questions, 0),
+    model: row.model,
+    runCount: 1,
+    overallPercentage: row.score,
+    totalCorrect: Math.round(totalCorrect * 10) / 10,
+    totalQuestions,
     areas,
   };
 }
 
-/** All models, sorted by overall percentage (best first). */
+let cachedModels: ModelSummary[] | null = null;
+
+function getModels(): ModelSummary[] {
+  if (!cachedModels) {
+    cachedModels = parseCsv()
+      .map(csvRowToModelSummary)
+      .sort((a, b) => b.overallPercentage - a.overallPercentage);
+  }
+  return cachedModels;
+}
+
 export function getAllModels(): ModelSummary[] {
-  return fs
-    .readdirSync(RESULTS_DIR, { withFileTypes: true })
-    .filter((d) => d.isDirectory())
-    .map((d) => aggregateModel(d.name, loadRuns(d.name)))
-    .sort((a, b) => b.overallPercentage - a.overallPercentage);
+  return getModels();
 }
 
 export function getModel(name: string): ModelSummary | null {
-  const dir = path.join(RESULTS_DIR, name);
-  if (!fs.existsSync(dir) || !fs.statSync(dir).isDirectory()) return null;
-  return aggregateModel(name, loadRuns(name));
-}
-
-export function formatTimestamp(ts: string): string {
-  // "20260722105445" -> "2026-07-22 10:54"
-  if (ts.length !== 14) return ts;
-  return `${ts.slice(0, 4)}-${ts.slice(4, 6)}-${ts.slice(6, 8)} ${ts.slice(8, 10)}:${ts.slice(10, 12)}`;
+  return getModels().find((m) => m.model === name) ?? null;
 }

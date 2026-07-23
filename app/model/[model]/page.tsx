@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import AreasChart from "@/components/AreasChart";
-import SubjectsChart, { type SubjectRow } from "@/components/SubjectsChart";
 import { getAllModels, getModel } from "@/lib/data";
 
 export function generateStaticParams() {
@@ -39,10 +38,6 @@ export default function ModelPage({ params }: { params: { model: string } }) {
             Average score: {summary.overallPercentage.toFixed(1)}%
           </span>
           <span className="chip">Average of {summary.areas.length} areas</span>
-          <span className="chip">
-            {summary.runCount} run{summary.runCount === 1 ? "" : "s"}
-            {summary.runCount > 1 ? " (averaged)" : ""}
-          </span>
         </div>
       </div>
 
@@ -57,62 +52,36 @@ export default function ModelPage({ params }: { params: { model: string } }) {
         </ul>
       </section>
 
-      {summary.areas.map((area) => {
-        const subjects: SubjectRow[] = Object.entries(area.subjects)
-          .filter(([, s]) => s.questions > 0)
-          .map(([subject, s]) => ({
-            subject,
-            percentage: s.percentage,
-            correct: s.correct,
-            questions: s.questions,
-          }))
-          .sort((a, b) => b.percentage - a.percentage);
-
-        return (
-          <section className="card" key={area.area}>
-            <SubjectsChart
-              data={subjects}
-              title={
-                <>
-                  Área {area.area} — {area.area_name}
-                </>
-              }
-              chip={
-                <span className="chip chip-primary">
-                  {area.total.percentage.toFixed(1)}% · {area.total.correct}/
-                  {area.total.questions}
-                </span>
-              }
-            />
-
-            <div className="table-wrap">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Subject</th>
-                    <th className="num">Questions</th>
-                    <th className="num">Correct</th>
-                    <th className="num">Score</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {subjects.map((s) => (
-                    <tr key={s.subject}>
-                      <td>{s.subject}</td>
-                      <td className="num">{s.questions}</td>
-                      <td className="num">{s.correct}</td>
-                      <td className="num">
-                        <strong>{s.percentage.toFixed(1)}%</strong> ({s.correct}
-                        /{s.questions})
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </section>
-        );
-      })}
+      <section className="card">
+        <h2 className="card-title">Area breakdown</h2>
+        <div className="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Area</th>
+                <th className="num">Questions</th>
+                <th className="num">Correct</th>
+                <th className="num">Score</th>
+              </tr>
+            </thead>
+            <tbody>
+              {summary.areas.map((a) => (
+                <tr key={a.area}>
+                  <td>
+                    Área {a.area} — {a.area_name}
+                  </td>
+                  <td className="num">{a.total.questions}</td>
+                  <td className="num">{a.total.correct}</td>
+                  <td className="num">
+                    <strong>{a.total.percentage.toFixed(1)}%</strong> (
+                    {a.total.correct}/{a.total.questions})
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
     </>
   );
 }

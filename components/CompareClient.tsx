@@ -27,7 +27,6 @@ export interface CompareModel {
   overallPercentage: number;
   overallCorrect: number;
   overallQuestions: number;
-  runCount: number;
   areas: CompareArea[];
 }
 
