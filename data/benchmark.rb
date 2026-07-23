@@ -19,7 +19,7 @@ require "optparse"
 require "csv"
 require "set"
 
-OLLAMA_API_BASE          = "http://localhost:1976/v1".freeze
+OLLAMA_API_BASE          = "http://localhost:11434/v1".freeze
 OPENROUTER_API_BASE      = "https://openrouter.ai/api/v1".freeze
 VALID_OPTIONS            = ("A".."D").freeze
 ANSWER_RETRIES           = 2
