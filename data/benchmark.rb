@@ -276,14 +276,15 @@ def aggregates_to_row(model, agg, subject_cols)
     score      = (areas_with_data.sum { |n| pct(agg[:areas][n][:correct], agg[:areas][n][:questions]) } / areas_with_data.size.to_f).round(2)
     avg_points = (area_avgs.sum / NUM_AREAS.to_f).round(2)
   end
-  row = [model, score, avg_points]
+  model_split = model.split("-thinking-")
+  row = [model_split[0], model_split[1].nil? ? "none" : model_split[1], score, avg_points]
   row.concat(area_avgs)
   row.concat(subject_cols.map { |s| pct(agg[:subjects][s][:correct], agg[:subjects][s][:questions]) })
   row
 end
 
 def build_results_csv_header(subject_cols)
-  header = ["model", "score", "avg points"]
+  header = ["model", "effort", "score", "avg points"]
   header.concat((1..NUM_AREAS).map { |n| "area #{n}" })
   header.concat(subject_cols)
 end
