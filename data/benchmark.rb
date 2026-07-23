@@ -374,12 +374,12 @@ else
     end
     puts
     puts "Run the benchmark for one of them with:"
-    puts "  ruby benchmark.rb <model-id> --provider=ollama"
+    puts "  ruby benchmark.rb <model-id> --provider=openrouter"
     puts
     puts "Examples:"
     sample = models.first[:id] || models.first["id"]
-    puts "  ruby benchmark.rb #{sample} --provider=ollama"
-    puts "  ruby benchmark.rb #{sample} --provider=ollama --effort=medium"
+    puts "  ruby benchmark.rb #{sample} --provider=openrouter"
+    puts "  ruby benchmark.rb #{sample} --provider=openrouter --effort=medium"
     puts
     puts "Or re-evaluate all existing answer CSVs without running a benchmark:"
     puts "  ruby benchmark.rb --evaluate-only"
