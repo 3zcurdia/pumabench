@@ -1,0 +1,63 @@
+{
+  "model": "laguna-s-2.1-thinking-medium",
+  "timestamp": "20260722220813",
+  "area": 3,
+  "area_name": "Ciencias Sociales",
+  "total": {
+    "questions": 120,
+    "correct": 102,
+    "percentage": 85.0
+  },
+  "subjects": {
+    "Biología": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Español": {
+      "questions": 18,
+      "correct": 13,
+      "percentage": 72.2
+    },
+    "Filosofía": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Física": {
+      "questions": 10,
+      "correct": 6,
+      "percentage": 60.0
+    },
+    "Geografía": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Historia Universal": {
+      "questions": 14,
+      "correct": 13,
+      "percentage": 92.9
+    },
+    "Historia de México": {
+      "questions": 14,
+      "correct": 8,
+      "percentage": 57.1
+    },
+    "Literatura": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Matemáticas": {
+      "questions": 24,
+      "correct": 23,
+      "percentage": 95.8
+    },
+    "Química": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    }
+  }
+}
