@@ -209,7 +209,7 @@ def fetch_local_models(api_base)
   body = Net::HTTP.get(URI("#{api_base}/models"))
   JSON.parse(body, symbolize_names: true)[:data] || []
 rescue StandardError => e
-  warn "Error: could not fetch models from #{OPENAI_API_BASE}: #{e.message}"
+  warn "Error: could not fetch models from #{api_base}: #{e.message}"
   []
 end
 
