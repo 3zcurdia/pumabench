@@ -1,5 +1,7 @@
 {
+  "id": "microsoft/phi-4",
   "model": "phi-4-thinking-high",
+  "effort": "high",
   "timestamp": "20260722172244",
   "area": 3,
   "area_name": "Ciencias Sociales",

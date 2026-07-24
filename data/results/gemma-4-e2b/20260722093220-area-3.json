@@ -1,5 +1,7 @@
 {
+  "id": "google/gemma-4-e2b",
   "model": "gemma-4-e2b",
+  "effort": "none",
   "timestamp": "20260722093220",
   "area": 3,
   "area_name": "Ciencias Sociales",

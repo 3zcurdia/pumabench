@@ -1,5 +1,7 @@
 {
+  "id": "tencent/hy3-preview",
   "model": "hy3-preview-thinking-medium",
+  "effort": "medium",
   "timestamp": "20260722221537",
   "area": 4,
   "area_name": "Humanidades y de las Artes",

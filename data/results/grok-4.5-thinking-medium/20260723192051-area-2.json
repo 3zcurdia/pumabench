@@ -1,5 +1,7 @@
 {
+  "id": "x-ai/grok-4.5",
   "model": "grok-4.5-thinking-medium",
+  "effort": "medium",
   "timestamp": "20260723192051",
   "area": 2,
   "area_name": "Ciencias Biológicas, Químicas y de la Salud",

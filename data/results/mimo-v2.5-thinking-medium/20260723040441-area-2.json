@@ -1,5 +1,7 @@
 {
+  "id": "xiaomi/mimo-v2.5",
   "model": "mimo-v2.5-thinking-medium",
+  "effort": "medium",
   "timestamp": "20260723040441",
   "area": 2,
   "area_name": "Ciencias Biológicas, Químicas y de la Salud",

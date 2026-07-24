@@ -1,5 +1,7 @@
 {
+  "id": "openai/gpt-oss-120b",
   "model": "gpt-oss-120b-thinking-medium",
+  "effort": "medium",
   "timestamp": "20260722223323",
   "area": 1,
   "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",

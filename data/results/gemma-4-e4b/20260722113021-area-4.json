@@ -1,5 +1,7 @@
 {
+  "id": "google/gemma-4-e4b",
   "model": "gemma-4-e4b",
+  "effort": "none",
   "timestamp": "20260722113021",
   "area": 4,
   "area_name": "Humanidades y de las Artes",

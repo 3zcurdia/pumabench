@@ -1,5 +1,7 @@
 {
+  "id": "minimax/minimax-m3",
   "model": "minimax-m3-thinking-medium",
+  "effort": "medium",
   "timestamp": "20260723125202",
   "area": 1,
   "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",

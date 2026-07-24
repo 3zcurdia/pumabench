@@ -1,5 +1,7 @@
 {
+  "id": "meta/llama-3-8b-instruct-32k-v0.1",
   "model": "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+  "effort": "medium",
   "timestamp": "20260722173532",
   "area": 3,
   "area_name": "Ciencias Sociales",

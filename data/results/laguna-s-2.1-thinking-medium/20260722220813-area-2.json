@@ -1,5 +1,7 @@
 {
+  "id": "poolside/laguna-s-2.1",
   "model": "laguna-s-2.1-thinking-medium",
+  "effort": "medium",
   "timestamp": "20260722220813",
   "area": 2,
   "area_name": "Ciencias Biológicas, Químicas y de la Salud",

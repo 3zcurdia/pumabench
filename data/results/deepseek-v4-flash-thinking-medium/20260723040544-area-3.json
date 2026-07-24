@@ -1,5 +1,7 @@
 {
+  "id": "deepseek/deepseek-v4-flash",
   "model": "deepseek-v4-flash-thinking-medium",
+  "effort": "medium",
   "timestamp": "20260723040544",
   "area": 3,
   "area_name": "Ciencias Sociales",

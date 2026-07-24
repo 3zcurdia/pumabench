@@ -1,5 +1,7 @@
 {
+  "id": "apple/foundation",
   "model": "apple-foundation-system",
+  "effort": "none",
   "timestamp": "20260723101849",
   "area": 1,
   "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",

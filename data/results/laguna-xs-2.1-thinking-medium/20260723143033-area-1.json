@@ -1,5 +1,7 @@
 {
+  "id": "poolside/laguna-xs-2.1",
   "model": "laguna-xs-2.1-thinking-medium",
+  "effort": "medium",
   "timestamp": "20260723143033",
   "area": 1,
   "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
