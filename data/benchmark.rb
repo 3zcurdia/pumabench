@@ -61,7 +61,15 @@ class Responder
     attempts = 0
     begin
       attempts += 1
-      chat = RubyLLM.chat(model: model, provider: provider, assume_model_exists: true).with_temperature(0)
+      chat = RubyLLM.chat(model: model, provider: provider).with_temperature(0)
+      chat =
+        if effort == "none"
+          chat.with_thinking(effort: nil)
+        elsif effort.present?
+          chat.with_thinking(effort: effort)
+        else
+          chat
+        end
       content = chat.ask(prompt).content.to_s.strip
       return extract_answer_letter(content) unless content.empty?
       warn "⚠️  Empty response (attempt #{attempts}) for model #{model}"
