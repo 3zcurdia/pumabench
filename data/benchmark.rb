@@ -119,7 +119,30 @@ def run_benchmark(model_name, **options)
   answers_dir = File.join(ANSWERS_DIR, sanitized)
   FileUtils.mkdir_p(answers_dir)
 
-  timestamp = Time.now.strftime("%Y%m%d%H%M%S")
+  resume_start_time = Time.now
+  if options[:resume]
+    existing = Dir.glob(File.join(answers_dir, "*-area-*.csv"))
+    timestamp = if existing.empty?
+                  resume_start_time.strftime("%Y%m%d%H%M%S")
+                else
+                  File.basename(existing.sort.last, ".csv").sub(/-area-\d+\z/, "")
+                end
+  else
+    timestamp = resume_start_time.strftime("%Y%m%d%H%M%S")
+  end
+
+  if options[:resume]
+    existing_counts = (1..NUM_AREAS).each_with_object({}) do |n, h|
+      path = File.join(answers_dir, "#{timestamp}-area-#{n}.csv")
+      next unless File.exist?(path)
+      h[n] = File.foreach(path).count - 1
+    end
+    unless existing_counts.empty?
+      puts "Resuming run #{timestamp} for #{model_name}:"
+      existing_counts.each { |n, c| puts "  area #{n}: #{c} answers already recorded" }
+    end
+  end
+
   responder = Responder.new(**options.merge(model: model_name))
 
   area_files = Dir.glob(File.join(TEST_DIR, "area-*.json")).sort
@@ -135,19 +158,35 @@ def run_benchmark(model_name, **options)
       next
     end
     questions = data["questions"]
+    expected_rows = data["total_questions"] + 1
 
-    File.open(csv_path, "w") do |csv|
+    if File.exist?(csv_path) && File.foreach(csv_path).count >= expected_rows
+      puts "Skipping area #{area_number} for model #{model_name} (already complete: #{timestamp})"
+      next
+    end
+
+    already_answered = {}
+    if File.exist?(csv_path)
+      CSV.foreach(csv_path, headers: true) do |row|
+        already_answered[row["number"].to_i] = row["answer"]
+      end
+    end
+
+    File.open(csv_path, "a") do |csv|
       csv.sync = true
-      csv.puts "number,answer"
+      csv.puts "number,answer" if already_answered.empty?
 
       questions.each do |q|
+        n = q["number"]
+        next if already_answered.key?(n)
+
         option = responder.answer(q)
 
         if option.nil? || !VALID_OPTIONS.include?(option)
-          warn "Error: empty/invalid response for model #{model_name}, area #{area_number}, question #{q["number"]}"
-          csv.puts "#{q["number"]},ERROR"
+          warn "Error: empty/invalid response for model #{model_name}, area #{area_number}, question #{n}"
+          csv.puts "#{n},ERROR"
         else
-          csv.puts "#{q["number"]},#{option}"
+          csv.puts "#{n},#{option}"
         end
       end
     end
@@ -155,7 +194,7 @@ def run_benchmark(model_name, **options)
     puts "Finished area #{area_number} for model #{model_name}"
   end
 
-  run_evaluate(sanitized)
+  run_evaluate(sanitized, resume_ts: options[:resume] ? resume_start_time.strftime("%Y%m%d%H%M%S") : nil)
 end
 
 def fetch_local_models(api_base)
@@ -198,14 +237,14 @@ def all_subjects
   end
 end
 
-def build_area_payload(area_data, model, timestamp, correct, total, subjects, subjects_set)
+def build_area_payload(area_data, model, timestamp, correct, total, subjects, subjects_set, timestamp_override = nil)
   subjects_out = subjects_set.sort.to_h do |name|
     st = subjects[name] || { questions: 0, correct: 0 }
     [name, st.merge(percentage: pct(st[:correct], st[:questions]))]
   end
   {
     "model"     => model,
-    "timestamp" => timestamp,
+    "timestamp" => timestamp_override || timestamp,
     "area"      => area_data["area"],
     "area_name" => area_data["area_name"],
     "total"     => { "questions" => total, "correct" => correct, "percentage" => pct(correct, total) },
@@ -213,7 +252,7 @@ def build_area_payload(area_data, model, timestamp, correct, total, subjects, su
   }
 end
 
-def build_aggregates(model_filter, subjects_set)
+def build_aggregates(model_filter, subjects_set, timestamp_override: nil)
   aggregates = Hash.new do |h, model|
     h[model] = {
       areas: Hash.new { |ah, n| ah[n] = { correct: 0, questions: 0, runs: 0 } },
@@ -236,7 +275,7 @@ def build_aggregates(model_filter, subjects_set)
       model     = File.basename(File.dirname(csv_path))
       timestamp = File.basename(csv_path, ".csv").sub(/-area-\d+\z/, "")
       correct, total, subjects = score_csv(q_by_number, csv_path)
-      payload = build_area_payload(area_data, model, timestamp, correct, total, subjects, subjects_set)
+      payload = build_area_payload(area_data, model, timestamp, correct, total, subjects, subjects_set, timestamp_override)
       out = File.join(RESULTS_DIR, model, "#{timestamp}-area-#{area_number}.json")
       write_json(out, payload)
       puts "Model #{model} area #{area_number} (#{timestamp}): #{correct}/#{total}"
@@ -321,10 +360,10 @@ def write_results_csv_single(model, agg, subject_cols)
   end
 end
 
-def run_evaluate(model_filter = nil)
+def run_evaluate(model_filter = nil, resume_ts: nil)
   subject_cols = all_subjects.sort
   if model_filter
-    aggregates = build_aggregates(model_filter, subject_cols)
+    aggregates = build_aggregates(model_filter, subject_cols, timestamp_override: resume_ts)
     if aggregates.empty?
       warn "No answer CSVs found for model #{model_filter}; skipping evaluation."
       return
@@ -339,15 +378,16 @@ def run_evaluate(model_filter = nil)
 end
 
 # Default api base set to local ollama instance
-cli_options = { provider: nil, effort: nil, api_base: "http://localhost:1234/v1", api_key: "dummy-key", evaluate_only: false }
+cli_options = { provider: nil, effort: nil, api_base: "http://localhost:1234/v1", api_key: "dummy-key", evaluate_only: false, resume: false }
 OptionParser.new do |opts|
-  opts.banner = "Usage: ruby benchmark.rb <model> [--provider=openai|openrouter] [--effort=low|medium|high]\n" \
+  opts.banner = "Usage: ruby benchmark.rb <model> [--provider=openai|openrouter] [--effort=low|medium|high] [--resume]\n" \
                 "       ruby benchmark.rb --evaluate-only"
   opts.on("--provider=NAME", %i[openai openrouter], "Provider to use (auto-detected from model name if omitted)") { |v| cli_options[:provider] = v }
   opts.on("--effort=LEVEL",  "Thinking effort: low|medium|high|none") { |v| cli_options[:effort] = v.to_sym }
   opts.on("--api_base=URL", "OpenAI-compatible API base URL") { |v| cli_options[:api_base] = v }
   opts.on("--api_key=KEY", "OpenAI-compatible API key") { |v| cli_options[:api_key] = v }
   opts.on("--evaluate-only", "Skip the benchmark; re-evaluate every model in answers/") { cli_options[:evaluate_only] = true }
+  opts.on("--resume", "Continue the latest in-progress run for this model instead of starting a new one") { cli_options[:resume] = true }
   opts.on("-h", "--help", "Show this help") { puts opts; exit }
 end.parse!
 

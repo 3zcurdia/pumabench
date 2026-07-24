@@ -6,6 +6,23 @@ Next.js app that visualizes benchmark results from `results/<model>/<timestamp>-
 - **Model detail (`/model/<model>`)** — per-area bar chart plus, for each area, a per-subject bar chart and table (questions / correct / percentage).
 - Models with multiple runs (several timestamps in the same folder) are shown as the **average across runs**.
 
+## Run a benchmark
+
+From the `data/` directory:
+
+```bash
+# Run all 4 areas for a single model
+ruby benchmark.rb <model-id> --provider=openrouter [--effort=low|medium|high]
+
+# Continue an interrupted run instead of starting over with a new timestamp
+ruby benchmark.rb <model-id> --provider=openrouter --effort=high --resume
+
+# Re-score every existing CSV in data/answers/ (no LLM calls)
+ruby benchmark.rb --evaluate-only
+```
+
+When `--resume` is passed, the script finds the latest in-progress answer CSV for the model, reuses its timestamp, skips already-answered questions (including `ERROR` rows), and only asks the LLM for the missing ones. The `timestamp` field inside each per-area result JSON is updated to the resume time.
+
 ## Run locally
 
 ```bash
