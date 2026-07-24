@@ -27,19 +27,35 @@ function parseCsv(): CsvRow[] {
   const lines = raw.trim().split("\n");
   const header = lines[0].split(",");
 
-  const subjectCols = header.slice(8);
+  const colIndex = (name: string): number => {
+    const idx = header.indexOf(name);
+    if (idx === -1) {
+      throw new Error(`results.csv is missing required column "${name}"`);
+    }
+    return idx;
+  };
+
+  const modelIdx = colIndex("model");
+  const effortIdx = colIndex("effort");
+  const scoreIdx = colIndex("score");
+  const avgPointsIdx = colIndex("avg points");
   const areaCount = 4;
+  const areaStart = avgPointsIdx + 1;
+  const subjectCols = header.slice(areaStart + areaCount);
 
   return lines.slice(1).map((line) => {
     const cols = line.split(",");
     return {
-      model: cols[0],
-      effort: cols[1],
-      score: parseFloat(cols[2]),
-      avgPoints: parseFloat(cols[3]),
-      areaPoints: cols.slice(4, 4 + areaCount).map(Number),
+      model: cols[modelIdx],
+      effort: cols[effortIdx],
+      score: parseFloat(cols[scoreIdx]),
+      avgPoints: parseFloat(cols[avgPointsIdx]),
+      areaPoints: cols.slice(areaStart, areaStart + areaCount).map(Number),
       subjectPercentages: Object.fromEntries(
-        subjectCols.map((name, i) => [name, parseFloat(cols[8 + i])]),
+        subjectCols.map((name, i) => [
+          name,
+          parseFloat(cols[areaStart + areaCount + i]),
+        ]),
       ),
     };
   });

@@ -159,7 +159,7 @@
     "name": "qwen3.5-0.8b-mlx",
     "provider": "qwen3",
     "type": "dense",
-    "parameters": null,
+    "parameters": 800000000,
     "pricing": null
   },
   {

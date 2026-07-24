@@ -8,18 +8,18 @@
   "total": {
     "questions": 120,
     "correct": 74,
-    "percentage": 61.7
+    "percentage": 61.67
   },
   "subjects": {
     "Biología": {
       "questions": 13,
       "correct": 11,
-      "percentage": 84.6
+      "percentage": 84.62
     },
     "Español": {
       "questions": 18,
       "correct": 11,
-      "percentage": 61.1
+      "percentage": 61.11
     },
     "Filosofía": {
       "questions": 0,
@@ -29,7 +29,7 @@
     "Física": {
       "questions": 12,
       "correct": 7,
-      "percentage": 58.3
+      "percentage": 58.33
     },
     "Geografía": {
       "questions": 10,
@@ -59,7 +59,7 @@
     "Química": {
       "questions": 13,
       "correct": 8,
-      "percentage": 61.5
+      "percentage": 61.54
     }
   }
 }

@@ -20,15 +20,21 @@ require "csv"
 require "set"
 
 OPENROUTER_API_BASE      = "https://openrouter.ai/api/v1".freeze
+HF_API                   = "https://huggingface.co/api/models".freeze
+HTTP_TIMEOUT             = 30
 VALID_OPTIONS            = ("A".."D").freeze
 ANSWER_RETRIES           = 2
 ANSWER_RETRY_BASE_DELAY  = 0.5
 
-TEST_DIR    = "test/2025".freeze
-ANSWERS_DIR = "answers".freeze
-RESULTS_DIR = "results".freeze
-RESULTS_CSV = "results.csv".freeze
-NUM_AREAS   = 4
+TEST_DIR     = "test/2025".freeze
+ANSWERS_DIR  = "answers".freeze
+RESULTS_DIR  = "results".freeze
+RESULTS_CSV  = "results.csv".freeze
+MODELS_JSON  = "models.json".freeze
+NUM_AREAS    = 4
+ALL_SUBJECTS = Dir.glob(File.join(TEST_DIR, "area-*.json")).each_with_object(Set.new) do |f, set|
+  JSON.parse(File.read(f))["questions"].each { |q| set << q["subject"] if q["subject"] }
+end.sort.freeze
 
 class Responder
   attr_reader :model, :effort, :provider, :api_base, :api_key
@@ -117,14 +123,16 @@ class Responder
   end
 end
 
-def sanitize_model_name(name, effort)
+def model_answers_path_name(name, effort)
   model_name = name.to_s.split("/").last.sub(":free", "")
   model_name + (effort ? "-thinking-#{effort}" : "")
 end
 
 def run_benchmark(model_name, **options)
 	RubyLLM.models.refresh! unless options[:dry_run]
-  sanitized = sanitize_model_name(model_name, options[:effort])
+  record   = register_model(model_name) unless options[:dry_run]
+  model_id = record && record["id"]
+  sanitized = model_answers_path_name(model_name, options[:effort])
   answers_dir = File.join(ANSWERS_DIR, sanitized)
   FileUtils.mkdir_p(answers_dir)
 
@@ -187,6 +195,7 @@ def run_benchmark(model_name, **options)
         puts "---"
       end
     else
+      puts "Writing to answers to #{csv_path}"
       File.open(csv_path, "a") do |csv|
         csv.sync = true
         csv.puts "number,answer" if already_answered.empty?
@@ -203,14 +212,15 @@ def run_benchmark(model_name, **options)
           else
             csv.puts "#{n},#{option}"
           end
+          print "."
         end
       end
     end
 
-    puts "Finished area #{area_number} for model #{model_name}"
+    puts "\nFinished area #{area_number} for model #{model_name}"
   end
 
-  run_evaluate(sanitized, resume_ts: options[:resume] ? resume_start_time.strftime("%Y%m%d%H%M%S") : nil) unless options[:dry_run]
+  run_evaluate(model_filter: sanitized, model_id: model_id, resume_ts: options[:resume] ? resume_start_time.strftime("%Y%m%d%H%M%S") : nil) unless options[:dry_run]
 end
 
 def fetch_local_models(api_base)
@@ -221,7 +231,147 @@ rescue StandardError => e
   []
 end
 
-def pct(c, t) = t.zero? ? 0.0 : (100.0 * c / t).round(1)
+def http_get_json(url, redirects_remaining: 5)
+  uri = URI(url)
+  response = Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == "https", open_timeout: HTTP_TIMEOUT, read_timeout: HTTP_TIMEOUT) do |http|
+    http.get(uri.request_uri)
+  end
+  if response.is_a?(Net::HTTPRedirection) && redirects_remaining.positive? && response["location"]
+    next_uri = URI(response["location"])
+    next_uri = uri + next_uri if next_uri.relative?
+    return http_get_json(next_uri.to_s, redirects_remaining: redirects_remaining - 1)
+  end
+  return nil unless response.is_a?(Net::HTTPSuccess)
+  JSON.parse(response.body)
+rescue StandardError => e
+  warn "⚠️  GET #{url} failed: #{e.message}"
+  nil
+end
+
+def fetch_openrouter_index
+  data = http_get_json("#{OPENROUTER_API_BASE}/models")
+  return [{}, {}] unless data.is_a?(Hash)
+  by_id   = {}
+  by_name = {}
+  Array(data["data"]).each do |m|
+    next unless m.is_a?(Hash)
+    id = m["id"]
+    next if id.nil? || id.empty?
+    by_id[id] = m
+    name = id.split("/", 2).last
+    by_name[name] ||= m
+  end
+  [by_id, by_name]
+end
+
+def hf_lookup(hf_id)
+  return nil if hf_id.nil? || hf_id.to_s.strip.empty?
+  http_get_json("#{HF_API}/#{hf_id}")
+end
+
+def parameters_from_description(text)
+  return nil unless text.is_a?(String) || text.is_a?(Symbol)
+  text = text.to_s
+  return nil if text.empty?
+  patterns = [
+    [/(\d+(?:\.\d+)?)\s*trillion\s+param/i, 1_000_000_000_000],
+    [/(\d+(?:\.\d+)?)\s*billion\s+param/i,  1_000_000_000],
+    [/(\d+(?:\.\d+)?)\s*[Bb]\s*[-–—]?\s*param/i, 1_000_000_000],
+  ]
+  patterns.each do |re, multiplier|
+    m = text.match(re)
+    return (m[1].to_f * multiplier).round if m
+  end
+  nil
+end
+
+def parameters_from_tensor_info(data)
+  per_dtype = data.dig("safetensors", "parameters")
+  if per_dtype.is_a?(Hash) && !per_dtype.empty?
+    return per_dtype.values.map(&:to_i).sum
+  end
+  total_bytes = data.dig("safetensors", "total")
+  return nil unless total_bytes.is_a?(Integer) && total_bytes.positive?
+  total_bytes / 2
+end
+
+def detect_moe_type(hf_data, or_entry, id)
+  config = (hf_data && hf_data["config"]) || {}
+  model_type = config["model_type"].to_s.downcase
+  if model_type.include?("moe") || model_type.include?("mixtral") || model_type.include?("gpt_oss")
+    return "moe"
+  end
+  if config.any? { |k, _| k.is_a?(String) && k.match?(/num_experts|num_local_experts|n_routed_experts|n_shared_experts|expert_count|moe_config/i) }
+    return "moe"
+  end
+  desc = or_entry && or_entry["description"].to_s.downcase
+  if desc && (desc.include?("mixture-of-experts") || desc.include?("sparse expert") || desc.match?(/\bmoe\b/))
+    return "moe"
+  end
+  return "moe" if id.match?(/\d+[bm](?:-\d+[bm])+/)
+  "dense"
+end
+
+def build_model_record(id, or_entry)
+  org      = id.split("/", 2).first
+  name     = id.split("/", 2).last
+  hf_id    = or_entry && or_entry["hugging_face_id"]
+  hf_id    = nil if hf_id.nil? || hf_id.to_s.strip.empty?
+  hf_data  = hf_id ? hf_lookup(hf_id) : nil
+  hf_data ||= hf_lookup(id)
+
+  parameters = nil
+  parameters = parameters_from_description(or_entry["description"]) if or_entry
+  parameters = parameters_from_tensor_info(hf_data) if parameters.nil? && hf_data
+
+  {
+    "id"         => id,
+    "name"       => (or_entry && or_entry["name"]) || name,
+    "provider"   => org,
+    "type"       => detect_moe_type(hf_data, or_entry, id),
+    "parameters" => parameters,
+    "pricing"    => or_entry && or_entry["pricing"]
+  }
+end
+
+def load_model_registry
+  return [] unless File.exist?(MODELS_JSON)
+  data = JSON.parse(File.read(MODELS_JSON))
+  data.is_a?(Array) ? data : []
+rescue JSON::ParserError => e
+  warn "⚠️  Could not parse #{MODELS_JSON}: #{e.message}; using empty registry"
+  []
+end
+
+def save_model_registry(records)
+  records.sort_by! { |r| r["id"].to_s }
+  File.write(MODELS_JSON, JSON.pretty_generate(records))
+end
+
+def find_model_record_by_slug(records, slug)
+  records.find { |r| r["id"].to_s.split("/", 2).last.sub(":free", "") == slug } ||
+    records.find { |r| r["name"] == slug }
+end
+
+def register_model(id)
+  registry = load_model_registry
+  existing = registry.find { |r| r["id"] == id }
+  return existing if existing
+
+  or_by_id, or_by_name = fetch_openrouter_index
+  or_entry = or_by_id[id] || or_by_name[id.split("/", 2).last]
+  record = build_model_record(id, or_entry)
+  registry << record
+  save_model_registry(registry)
+  if or_entry
+    puts "Registered #{id} in #{MODELS_JSON}"
+  else
+    puts "Registered #{id} in #{MODELS_JSON} (not found on OpenRouter; minimal record)"
+  end
+  record
+end
+
+def pct(c, t) = t.zero? ? 0.0 : (100.0 * c / t).round(2)
 
 def score_csv(q_by_number, csv_path)
   correct = total = 0
@@ -247,19 +397,15 @@ def write_json(path, payload)
   File.write(path, "#{JSON.pretty_generate(payload)}\n")
 end
 
-def all_subjects
-  Dir.glob(File.join(TEST_DIR, "area-*.json")).each_with_object(Set.new) do |f, set|
-    JSON.parse(File.read(f))["questions"].each { |q| set << q["subject"] if q["subject"] }
-  end
-end
-
-def build_area_payload(area_data, model, timestamp, correct, total, subjects, subjects_set, timestamp_override = nil)
-  subjects_out = subjects_set.sort.to_h do |name|
+def build_area_payload(area_data, model, timestamp, correct, total, subjects, effort, id: nil, timestamp_override: nil)
+  subjects_out = ALL_SUBJECTS.to_h do |name|
     st = subjects[name] || { questions: 0, correct: 0 }
     [name, st.merge(percentage: pct(st[:correct], st[:questions]))]
   end
   {
+    "id"        => id,
     "model"     => model,
+    "effort"    => effort.nil? ? "none" : effort.to_s,
     "timestamp" => timestamp_override || timestamp,
     "area"      => area_data["area"],
     "area_name" => area_data["area_name"],
@@ -268,9 +414,11 @@ def build_area_payload(area_data, model, timestamp, correct, total, subjects, su
   }
 end
 
-def build_aggregates(model_filter, subjects_set, timestamp_override: nil)
+def build_aggregates(model_filter: nil, timestamp_override: nil, model_id: nil)
+  registry = load_model_registry
   aggregates = Hash.new do |h, model|
     h[model] = {
+      id: nil,
       areas: Hash.new { |ah, n| ah[n] = { correct: 0, questions: 0, runs: 0 } },
       subjects: Hash.new { |sh, subj| sh[subj] = { correct: 0, questions: 0 } }
     }
@@ -289,14 +437,23 @@ def build_aggregates(model_filter, subjects_set, timestamp_override: nil)
 
     Dir.glob(csv_glob).sort.each do |csv_path|
       model     = File.basename(File.dirname(csv_path))
+      _, effort = model.split("-thinking-", 2)
       timestamp = File.basename(csv_path, ".csv").sub(/-area-\d+\z/, "")
       correct, total, subjects = score_csv(q_by_number, csv_path)
-      payload = build_area_payload(area_data, model, timestamp, correct, total, subjects, subjects_set, timestamp_override)
+
+      id = model_id
+      if id.nil?
+        record = find_model_record_by_slug(registry, model.split("-thinking-", 2).first)
+        id = record && record["id"]
+      end
+
+      payload = build_area_payload(area_data, model, timestamp, correct, total, subjects, effort, id: id, timestamp_override: timestamp_override)
       out = File.join(RESULTS_DIR, model, "#{timestamp}-area-#{area_number}.json")
       write_json(out, payload)
       puts "Model #{model} area #{area_number} (#{timestamp}): #{correct}/#{total}"
 
       agg = aggregates[model]
+      agg[:id] ||= id
       area_agg = agg[:areas][area_number.to_i]
       area_agg[:correct]   += correct
       area_agg[:questions] += total
@@ -312,7 +469,7 @@ def build_aggregates(model_filter, subjects_set, timestamp_override: nil)
   aggregates
 end
 
-def aggregates_to_row(model, agg, subject_cols)
+def aggregates_to_row(model, agg)
   areas_with_data = (1..NUM_AREAS).select { |n| agg[:areas][n][:questions] > 0 }
   if areas_with_data.empty?
     score      = 0.0
@@ -326,30 +483,30 @@ def aggregates_to_row(model, agg, subject_cols)
     score      = (areas_with_data.sum { |n| pct(agg[:areas][n][:correct], agg[:areas][n][:questions]) } / areas_with_data.size.to_f).round(2)
     avg_points = (area_avgs.sum / NUM_AREAS.to_f).round(2)
   end
-  model_split = model.split("-thinking-")
-  row = [model_split[0], model_split[1].nil? ? "none" : model_split[1], score, avg_points]
+  model_split = model.split("-thinking-", 2)
+  row = [agg[:id], model_split[0], model_split[1].nil? ? "none" : model_split[1], score, avg_points]
   row.concat(area_avgs)
-  row.concat(subject_cols.map { |s| pct(agg[:subjects][s][:correct], agg[:subjects][s][:questions]) })
+  row.concat(ALL_SUBJECTS.map { |s| pct(agg[:subjects][s][:correct], agg[:subjects][s][:questions]) })
   row
 end
 
-def build_results_csv_header(subject_cols)
-  header = ["model", "effort", "score", "avg points"]
+def build_results_csv_header()
+  header = ["id", "model", "effort", "score", "avg points"]
   header.concat((1..NUM_AREAS).map { |n| "area #{n}" })
-  header.concat(subject_cols)
+  header.concat(ALL_SUBJECTS)
 end
 
-def write_results_csv_full(aggregates, subject_cols)
+def write_results_csv_full(aggregates)
   CSV.open(RESULTS_CSV, "w") do |csv|
-    csv << build_results_csv_header(subject_cols)
+    csv << build_results_csv_header()
     aggregates.keys.sort.each do |model|
-      csv << aggregates_to_row(model, aggregates[model], subject_cols)
+      csv << aggregates_to_row(model, aggregates[model])
     end
   end
 end
 
-def write_results_csv_single(model, agg, subject_cols)
-  header = build_results_csv_header(subject_cols)
+def write_results_csv_single(model, agg)
+  header = build_results_csv_header()
   existing_rows = []
   if File.exist?(RESULTS_CSV)
     CSV.foreach(RESULTS_CSV, headers: true) do |row|
@@ -359,15 +516,14 @@ def write_results_csv_single(model, agg, subject_cols)
 
   if !existing_rows.empty? && existing_rows.first.keys != header
     warn "Warning: existing #{RESULTS_CSV} header does not match current schema; performing full rebuild."
-    aggregates_all = build_aggregates(nil, all_subjects)
-    write_results_csv_full(aggregates_all, subject_cols)
+    write_results_csv_full(build_aggregates())
     puts "Wrote #{RESULTS_CSV} (full rebuild)"
     return
   end
 
-  new_row_arr  = aggregates_to_row(model, agg, subject_cols)
+  new_row_arr  = aggregates_to_row(model, agg)
   new_row_hash = header.each_with_index.to_h { |h, i| [h, new_row_arr[i]] }
-  preserved    = existing_rows.reject { |r| r["model"] == model }
+  preserved    = existing_rows.reject { |r| r["model"] == new_row_hash["model"] && r["effort"] == new_row_hash["effort"] }
   all_rows     = (preserved + [new_row_hash]).sort_by { |r| r["model"].to_s }
 
   CSV.open(RESULTS_CSV, "w") do |csv|
@@ -376,19 +532,17 @@ def write_results_csv_single(model, agg, subject_cols)
   end
 end
 
-def run_evaluate(model_filter = nil, resume_ts: nil)
-  subject_cols = all_subjects.sort
+def run_evaluate(model_filter: nil, resume_ts: nil, model_id: nil)
   if model_filter
-    aggregates = build_aggregates(model_filter, subject_cols, timestamp_override: resume_ts)
+    aggregates = build_aggregates(model_filter: model_filter, timestamp_override: resume_ts, model_id: model_id)
     if aggregates.empty?
       warn "No answer CSVs found for model #{model_filter}; skipping evaluation."
       return
     end
-    write_results_csv_single(model_filter, aggregates[model_filter], subject_cols)
+    write_results_csv_single(model_filter, aggregates[model_filter])
     puts "Wrote #{RESULTS_CSV} (updated model #{model_filter})"
   else
-    aggregates = build_aggregates(nil, subject_cols)
-    write_results_csv_full(aggregates, subject_cols)
+    write_results_csv_full(build_aggregates())
     puts "Wrote #{RESULTS_CSV}"
   end
 end
@@ -410,7 +564,7 @@ OptionParser.new do |opts|
 end.parse!
 
 if cli_options[:evaluate_only]
-  run_evaluate
+  run_evaluate()
 elsif ARGV[0]
   model    = ARGV[0]
   cli_options[:provider] ||= :openai

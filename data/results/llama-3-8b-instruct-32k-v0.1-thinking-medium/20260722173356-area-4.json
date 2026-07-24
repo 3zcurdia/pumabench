@@ -19,7 +19,7 @@
     "Español": {
       "questions": 18,
       "correct": 10,
-      "percentage": 55.6
+      "percentage": 55.56
     },
     "Filosofía": {
       "questions": 10,
@@ -54,7 +54,7 @@
     "Matemáticas": {
       "questions": 22,
       "correct": 6,
-      "percentage": 27.3
+      "percentage": 27.27
     },
     "Química": {
       "questions": 10,

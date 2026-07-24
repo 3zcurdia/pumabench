@@ -8,7 +8,7 @@
   "total": {
     "questions": 120,
     "correct": 73,
-    "percentage": 60.8
+    "percentage": 60.83
   },
   "subjects": {
     "Biología": {
@@ -19,7 +19,7 @@
     "Español": {
       "questions": 18,
       "correct": 12,
-      "percentage": 66.7
+      "percentage": 66.67
     },
     "Filosofía": {
       "questions": 0,
@@ -39,12 +39,12 @@
     "Historia Universal": {
       "questions": 14,
       "correct": 13,
-      "percentage": 92.9
+      "percentage": 92.86
     },
     "Historia de México": {
       "questions": 14,
       "correct": 6,
-      "percentage": 42.9
+      "percentage": 42.86
     },
     "Literatura": {
       "questions": 10,

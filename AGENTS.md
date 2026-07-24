@@ -23,7 +23,6 @@ No lint, typecheck, test, or formatter scripts are configured. After changes, ve
 ruby benchmark.rb <model-id> --provider=openrouter [--effort=low|medium|high]
 ruby benchmark.rb <model-id> --provider=openrouter --effort=high --resume   # continue interrupted run
 ruby benchmark.rb --evaluate-only                                            # re-score existing CSVs, no LLM calls
-ruby export_models.rb                                                        # refresh data/models.json with HF param counts
 ```
 
 Benchmark requires `OPENROUTER_API_KEY` in `.env`.
@@ -34,7 +33,7 @@ Benchmark requires `OPENROUTER_API_KEY` in `.env`.
 2. `data/answers/<model>/` — raw LLM answer CSVs per model
 3. `data/results/<model>/<timestamp>-area-<n>.json` — per-area scored results
 4. **`data/results.csv`** — aggregated scores; **the single source of truth the dashboard reads**
-5. `data/models.json` — model metadata (provider info, parameter counts from HuggingFace)
+5. `data/models.json` — model registry (id → name, provider, type, parameter counts from HuggingFace, pricing); maintained automatically by `benchmark.rb`, which registers new models on first run (enriched from OpenRouter, minimal record when not found) and uses it to fill the `id` column in results
 
 After running benchmarks or modifying result JSONs, `results.csv` must be regenerated (via `--evaluate-only`) for the dashboard to reflect changes. The dashboard does **not** read individual result JSONs.
 

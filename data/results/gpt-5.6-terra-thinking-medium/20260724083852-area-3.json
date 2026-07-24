@@ -8,7 +8,7 @@
   "total": {
     "questions": 120,
     "correct": 110,
-    "percentage": 91.7
+    "percentage": 91.67
   },
   "subjects": {
     "Biología": {
@@ -19,7 +19,7 @@
     "Español": {
       "questions": 18,
       "correct": 16,
-      "percentage": 88.9
+      "percentage": 88.89
     },
     "Filosofía": {
       "questions": 0,

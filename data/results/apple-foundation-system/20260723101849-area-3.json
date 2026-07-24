@@ -19,7 +19,7 @@
     "Español": {
       "questions": 18,
       "correct": 15,
-      "percentage": 83.3
+      "percentage": 83.33
     },
     "Filosofía": {
       "questions": 0,
@@ -39,12 +39,12 @@
     "Historia Universal": {
       "questions": 14,
       "correct": 13,
-      "percentage": 92.9
+      "percentage": 92.86
     },
     "Historia de México": {
       "questions": 14,
       "correct": 5,
-      "percentage": 35.7
+      "percentage": 35.71
     },
     "Literatura": {
       "questions": 10,
@@ -54,7 +54,7 @@
     "Matemáticas": {
       "questions": 24,
       "correct": 13,
-      "percentage": 54.2
+      "percentage": 54.17
     },
     "Química": {
       "questions": 10,

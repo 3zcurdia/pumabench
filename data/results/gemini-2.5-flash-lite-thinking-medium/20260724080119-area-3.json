@@ -8,7 +8,7 @@
   "total": {
     "questions": 120,
     "correct": 100,
-    "percentage": 83.3
+    "percentage": 83.33
   },
   "subjects": {
     "Biología": {
@@ -19,7 +19,7 @@
     "Español": {
       "questions": 18,
       "correct": 15,
-      "percentage": 83.3
+      "percentage": 83.33
     },
     "Filosofía": {
       "questions": 0,
@@ -44,7 +44,7 @@
     "Historia de México": {
       "questions": 14,
       "correct": 13,
-      "percentage": 92.9
+      "percentage": 92.86
     },
     "Literatura": {
       "questions": 10,
@@ -54,7 +54,7 @@
     "Matemáticas": {
       "questions": 24,
       "correct": 16,
-      "percentage": 66.7
+      "percentage": 66.67
     },
     "Química": {
       "questions": 10,

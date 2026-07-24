@@ -19,7 +19,7 @@
     "Español": {
       "questions": 18,
       "correct": 15,
-      "percentage": 83.3
+      "percentage": 83.33
     },
     "Filosofía": {
       "questions": 0,
@@ -29,7 +29,7 @@
     "Física": {
       "questions": 12,
       "correct": 11,
-      "percentage": 91.7
+      "percentage": 91.67
     },
     "Geografía": {
       "questions": 10,
@@ -59,7 +59,7 @@
     "Química": {
       "questions": 13,
       "correct": 12,
-      "percentage": 92.3
+      "percentage": 92.31
     }
   }
 }
