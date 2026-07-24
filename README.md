@@ -1,4 +1,10 @@
-# Pumabench Results Dashboard
+# PumaBench
+
+**What happens when an LLM takes the UNAM admission test?**
+
+PumaBench is an academic exercise that evaluates open and closed LLMs against the UNAM admission test — Mexico's most selective public university entrance exam. The 480 questions (4 areas × 120 questions each) were scraped from [pumabecas.com](https://pumabecas.com/), which hosts a simulation of the 2025 evaluation. This project serves as a reference benchmark for LLM capabilities in Spanish.
+
+## Dashboard
 
 Next.js app that visualizes benchmark results from `results/<model>/<timestamp>-area-<n>.json`.
 
