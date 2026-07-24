@@ -1,0 +1,232 @@
+[
+  {
+    "id": "apple/foundation",
+    "name": "apple-foundation-system",
+    "provider": "apple",
+    "type": "dense",
+    "parameters": null,
+    "pricing": null
+  },
+  {
+    "id": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek: DeepSeek V4 Flash",
+    "provider": "deepseek",
+    "type": "moe",
+    "parameters": 158069433298,
+    "pricing": {
+      "prompt": "0.000000098",
+      "completion": "0.000000196",
+      "input_cache_read": "0.0000000196"
+    }
+  },
+  {
+    "id": "google/gemini-2.5-flash-lite",
+    "name": "Google: Gemini 2.5 Flash Lite",
+    "provider": "google",
+    "type": "dense",
+    "parameters": null,
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000004",
+      "image": "0.0000001",
+      "audio": "0.0000003",
+      "input_audio_cache": "0.00000003",
+      "web_search": "0.014",
+      "internal_reasoning": "0.0000004",
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.00000008333333333333334"
+    }
+  },
+  {
+    "id": "google/gemma-4-e2b",
+    "name": "gemma-4-e2b",
+    "provider": "google",
+    "type": "dense",
+    "parameters": 5123178051,
+    "pricing": null
+  },
+  {
+    "id": "google/gemma-4-e4b",
+    "name": "gemma-4-e4b",
+    "provider": "google",
+    "type": "dense",
+    "parameters": 7996156490,
+    "pricing": null
+  },
+  {
+    "id": "meta/llama-3-8b-instruct-32k-v0.1",
+    "name": "llama-3-8b-instruct-32k-v0.1",
+    "provider": "meta",
+    "type": "dense",
+    "parameters": null,
+    "pricing": null
+  },
+  {
+    "id": "microsoft/phi-4",
+    "name": "Microsoft: Phi 4",
+    "provider": "microsoft",
+    "type": "dense",
+    "parameters": 14659507200,
+    "pricing": {
+      "prompt": "0.00000007",
+      "completion": "0.00000014"
+    }
+  },
+  {
+    "id": "minimax/minimax-m3",
+    "name": "MiniMax: MiniMax M3",
+    "provider": "minimax",
+    "type": "dense",
+    "parameters": 427040140160,
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "input_cache_read": "0.00000006"
+    }
+  },
+  {
+    "id": "openai/gpt-5.6-terra",
+    "name": "OpenAI: GPT-5.6 Terra",
+    "provider": "openai",
+    "type": "dense",
+    "parameters": null,
+    "pricing": {
+      "prompt": "0.0000025",
+      "completion": "0.000015",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000025",
+      "input_cache_write": "0.000003125",
+      "overrides": [
+        {
+          "min_prompt_tokens": 272000,
+          "prompt": "0.000005",
+          "completion": "0.0000225",
+          "input_cache_read": "0.0000005",
+          "input_cache_write": "0.00000625"
+        }
+      ]
+    }
+  },
+  {
+    "id": "openai/gpt-oss-120b",
+    "name": "OpenAI: gpt-oss-120b",
+    "provider": "openai",
+    "type": "moe",
+    "parameters": 117000000000,
+    "pricing": {
+      "prompt": "0.000000037",
+      "completion": "0.00000017"
+    }
+  },
+  {
+    "id": "openai/gpt-oss-20b",
+    "name": "OpenAI: gpt-oss-20b",
+    "provider": "openai",
+    "type": "moe",
+    "parameters": 21000000000,
+    "pricing": {
+      "prompt": "0.00000003",
+      "completion": "0.00000013",
+      "input_cache_read": "0.00000003"
+    }
+  },
+  {
+    "id": "poolside/laguna-s-2.1",
+    "name": "Poolside: Laguna S 2.1",
+    "provider": "poolside",
+    "type": "moe",
+    "parameters": 117561977600,
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000002",
+      "input_cache_read": "0.00000001"
+    }
+  },
+  {
+    "id": "poolside/laguna-xs-2.1",
+    "name": "Poolside: Laguna XS 2.1",
+    "provider": "poolside",
+    "type": "moe",
+    "parameters": 33442617088,
+    "pricing": {
+      "prompt": "0.00000006",
+      "completion": "0.00000012",
+      "input_cache_read": "0.00000003"
+    }
+  },
+  {
+    "id": "qwen3/qwen3.5-0.8b",
+    "name": "qwen3.5-0.8b-mlx",
+    "provider": "qwen3",
+    "type": "dense",
+    "parameters": null,
+    "pricing": null
+  },
+  {
+    "id": "qwen3/qwen3.5-9b",
+    "name": "Qwen: Qwen3.5-9B",
+    "provider": "qwen3",
+    "type": "dense",
+    "parameters": 9000000000,
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.00000015"
+    }
+  },
+  {
+    "id": "qwen3/qwen3.6-35b-a3b",
+    "name": "Qwen: Qwen3.6 35B A3B",
+    "provider": "qwen3",
+    "type": "moe",
+    "parameters": 35951822704,
+    "pricing": {
+      "prompt": "0.00000014",
+      "completion": "0.000001"
+    }
+  },
+  {
+    "id": "tencent/hy3-preview",
+    "name": "Tencent: Hy3 preview",
+    "provider": "tencent",
+    "type": "moe",
+    "parameters": 298786155776,
+    "pricing": {
+      "prompt": "0.000000063",
+      "completion": "0.00000021",
+      "input_cache_read": "0.000000021"
+    }
+  },
+  {
+    "id": "x-ai/grok-4.5",
+    "name": "xAI: Grok 4.5",
+    "provider": "x-ai",
+    "type": "dense",
+    "parameters": null,
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.000006",
+      "web_search": "0.005",
+      "input_cache_read": "0.0000003",
+      "overrides": [
+        {
+          "min_prompt_tokens": 200000,
+          "prompt": "0.000004",
+          "completion": "0.000012",
+          "input_cache_read": "0.0000006"
+        }
+      ]
+    }
+  },
+  {
+    "id": "xiaomi/mimo-v2.5",
+    "name": "Xiaomi: MiMo-V2.5",
+    "provider": "xiaomi",
+    "type": "moe",
+    "parameters": 310775040000,
+    "pricing": {
+      "prompt": "0.00000014",
+      "completion": "0.00000028",
+      "input_cache_read": "0.0000000028"
+    }
+  }
+]
