@@ -39,7 +39,8 @@ class Responder
     @provider = opts[:provider]
     @api_base = opts[:api_base]
     @api_key  = opts[:api_key]
-    configure_ruby_llm!
+    @dry_run  = opts[:dry_run]
+    configure_ruby_llm! unless @dry_run
   end
 
   def configure_ruby_llm!
@@ -114,7 +115,7 @@ def sanitize_model_name(name, effort)
 end
 
 def run_benchmark(model_name, **options)
-	RubyLLM.models.refresh!
+	RubyLLM.models.refresh! unless options[:dry_run]
   sanitized = sanitize_model_name(model_name, options[:effort])
   answers_dir = File.join(ANSWERS_DIR, sanitized)
   FileUtils.mkdir_p(answers_dir)
@@ -160,7 +161,7 @@ def run_benchmark(model_name, **options)
     questions = data["questions"]
     expected_rows = data["total_questions"] + 1
 
-    if File.exist?(csv_path) && File.foreach(csv_path).count >= expected_rows
+    if !options[:dry_run] && File.exist?(csv_path) && File.foreach(csv_path).count >= expected_rows
       puts "Skipping area #{area_number} for model #{model_name} (already complete: #{timestamp})"
       next
     end
@@ -172,21 +173,28 @@ def run_benchmark(model_name, **options)
       end
     end
 
-    File.open(csv_path, "a") do |csv|
-      csv.sync = true
-      csv.puts "number,answer" if already_answered.empty?
-
+    if options[:dry_run]
       questions.each do |q|
-        n = q["number"]
-        next if already_answered.key?(n)
+        puts responder.build_prompt(q)
+        puts "---"
+      end
+    else
+      File.open(csv_path, "a") do |csv|
+        csv.sync = true
+        csv.puts "number,answer" if already_answered.empty?
 
-        option = responder.answer(q)
+        questions.each do |q|
+          n = q["number"]
+          next if already_answered.key?(n)
 
-        if option.nil? || !VALID_OPTIONS.include?(option)
-          warn "Error: empty/invalid response for model #{model_name}, area #{area_number}, question #{n}"
-          csv.puts "#{n},ERROR"
-        else
-          csv.puts "#{n},#{option}"
+          option = responder.answer(q)
+
+          if option.nil? || !VALID_OPTIONS.include?(option)
+            warn "Error: empty/invalid response for model #{model_name}, area #{area_number}, question #{n}"
+            csv.puts "#{n},ERROR"
+          else
+            csv.puts "#{n},#{option}"
+          end
         end
       end
     end
@@ -194,7 +202,7 @@ def run_benchmark(model_name, **options)
     puts "Finished area #{area_number} for model #{model_name}"
   end
 
-  run_evaluate(sanitized, resume_ts: options[:resume] ? resume_start_time.strftime("%Y%m%d%H%M%S") : nil)
+  run_evaluate(sanitized, resume_ts: options[:resume] ? resume_start_time.strftime("%Y%m%d%H%M%S") : nil) unless options[:dry_run]
 end
 
 def fetch_local_models(api_base)
@@ -378,16 +386,18 @@ def run_evaluate(model_filter = nil, resume_ts: nil)
 end
 
 # Default api base set to local ollama instance
-cli_options = { provider: nil, effort: nil, api_base: "http://localhost:1234/v1", api_key: "dummy-key", evaluate_only: false, resume: false }
+cli_options = { provider: nil, effort: nil, api_base: "http://localhost:1234/v1", api_key: "dummy-key", evaluate_only: false, resume: false, dry_run: false }
 OptionParser.new do |opts|
-  opts.banner = "Usage: ruby benchmark.rb <model> [--provider=openai|openrouter] [--effort=low|medium|high] [--resume]\n" \
-                "       ruby benchmark.rb --evaluate-only"
+  opts.banner = "Usage: ruby benchmark.rb <model> [--provider=openai|openrouter] [--effort=low|medium|high] [--resume] [--dry-run]\n" \
+                "       ruby benchmark.rb --evaluate-only\n" \
+                "       ruby benchmark.rb -h, --help"
   opts.on("--provider=NAME", %i[openai openrouter], "Provider to use (auto-detected from model name if omitted)") { |v| cli_options[:provider] = v }
   opts.on("--effort=LEVEL",  "Thinking effort: low|medium|high|none") { |v| cli_options[:effort] = v.to_sym }
   opts.on("--api_base=URL", "OpenAI-compatible API base URL") { |v| cli_options[:api_base] = v }
   opts.on("--api_key=KEY", "OpenAI-compatible API key") { |v| cli_options[:api_key] = v }
   opts.on("--evaluate-only", "Skip the benchmark; re-evaluate every model in answers/") { cli_options[:evaluate_only] = true }
   opts.on("--resume", "Continue the latest in-progress run for this model instead of starting a new one") { cli_options[:resume] = true }
+  opts.on("--dry-run", "Print prompts without calling the LLM or writing files") { cli_options[:dry_run] = true }
   opts.on("-h", "--help", "Show this help") { puts opts; exit }
 end.parse!
 
