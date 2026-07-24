@@ -19,7 +19,6 @@ require "optparse"
 require "csv"
 require "set"
 
-OLLAMA_API_BASE          = "http://localhost:11434/v1".freeze
 OPENROUTER_API_BASE      = "https://openrouter.ai/api/v1".freeze
 VALID_OPTIONS            = ("A".."D").freeze
 ANSWER_RETRIES           = 2
@@ -32,30 +31,25 @@ RESULTS_CSV = "results.csv".freeze
 NUM_AREAS   = 4
 
 class Responder
-  attr_reader :model, :effort, :provider
+  attr_reader :model, :effort, :provider, :api_base, :api_key
 
-  def initialize(model:, provider: :ollama, effort: nil)
-    @model    = model
-    @effort   = effort
-    @provider = provider
+  def initialize(**opts)
+    @model    = opts[:model]
+    @effort   = opts[:effort]
+    @provider = opts[:provider]
+    @api_base = opts[:api_base]
+    @api_key  = opts[:api_key]
     configure_ruby_llm!
   end
 
   def configure_ruby_llm!
     RubyLLM.configure do |config|
-      case @provider
-      when :openrouter
-        api_key = ENV["OPENROUTER_API_KEY"]
-        if api_key.nil? || api_key.empty?
-          abort "Error: OPENROUTER_API_KEY is required for provider openrouter"
-        end
-        config.openrouter_api_key  = api_key
+      if @provider == :openrouter
+        config.openrouter_api_key  = ENV["OPENROUTER_API_KEY"]
         config.openrouter_api_base = OPENROUTER_API_BASE
-      when :ollama
-        config.ollama_api_base = OLLAMA_API_BASE
-        config.ollama_api_key  = "dummy-key"
       else
-        abort "Error: unknown provider #{@provider.inspect}"
+        config.openai_api_key  = api_key
+        config.openai_api_base = api_base
       end
       config.default_model = @model
     end
@@ -66,7 +60,7 @@ class Responder
     attempts = 0
     begin
       attempts += 1
-      chat = RubyLLM.chat(model: model, provider: provider).with_temperature(0)
+      chat = RubyLLM.chat(model: model, provider: provider, assume_model_exists: true).with_temperature(0)
       content = chat.ask(prompt).content.to_s.strip
       return extract_answer_letter(content) unless content.empty?
       warn "⚠️  Empty response (attempt #{attempts}) for model #{model}"
@@ -119,13 +113,14 @@ def sanitize_model_name(name, effort)
   model_name + (effort ? "-thinking-#{effort}" : "")
 end
 
-def run_benchmark(model_name, provider: :ollama, effort: nil)
-  sanitized = sanitize_model_name(model_name, effort)
+def run_benchmark(model_name, **options)
+	RubyLLM.models.refresh!
+  sanitized = sanitize_model_name(model_name, options[:effort])
   answers_dir = File.join(ANSWERS_DIR, sanitized)
   FileUtils.mkdir_p(answers_dir)
 
   timestamp = Time.now.strftime("%Y%m%d%H%M%S")
-  responder = Responder.new(model: model_name, provider: provider, effort: effort)
+  responder = Responder.new(**options.merge(model: model_name))
 
   area_files = Dir.glob(File.join(TEST_DIR, "area-*.json")).sort
 
@@ -163,11 +158,11 @@ def run_benchmark(model_name, provider: :ollama, effort: nil)
   run_evaluate(sanitized)
 end
 
-def fetch_local_models
-  body = Net::HTTP.get(URI("#{OLLAMA_API_BASE}/models"))
+def fetch_local_models(api_base)
+  body = Net::HTTP.get(URI("#{api_base}/models"))
   JSON.parse(body, symbolize_names: true)[:data] || []
 rescue StandardError => e
-  warn "Error: could not fetch models from #{OLLAMA_API_BASE}: #{e.message}"
+  warn "Error: could not fetch models from #{OPENAI_API_BASE}: #{e.message}"
   []
 end
 
@@ -343,12 +338,15 @@ def run_evaluate(model_filter = nil)
   end
 end
 
-cli_options = { provider: nil, effort: nil, evaluate_only: false }
+# Default api base set to local ollama instance
+cli_options = { provider: nil, effort: nil, api_base: "http://localhost:1234/v1", api_key: "dummy-key", evaluate_only: false }
 OptionParser.new do |opts|
-  opts.banner = "Usage: ruby benchmark.rb <model> [--provider=ollama|openrouter] [--effort=low|medium|high]\n" \
+  opts.banner = "Usage: ruby benchmark.rb <model> [--provider=openai|openrouter] [--effort=low|medium|high]\n" \
                 "       ruby benchmark.rb --evaluate-only"
-  opts.on("--provider=NAME", %i[ollama openrouter], "Provider to use (auto-detected from model name if omitted)") { |v| cli_options[:provider] = v }
+  opts.on("--provider=NAME", %i[openai openrouter], "Provider to use (auto-detected from model name if omitted)") { |v| cli_options[:provider] = v }
   opts.on("--effort=LEVEL",  "Thinking effort: low|medium|high|none") { |v| cli_options[:effort] = v.to_sym }
+  opts.on("--api_base=URL", "OpenAI-compatible API base URL") { |v| cli_options[:api_base] = v }
+  opts.on("--api_key=KEY", "OpenAI-compatible API key") { |v| cli_options[:api_key] = v }
   opts.on("--evaluate-only", "Skip the benchmark; re-evaluate every model in answers/") { cli_options[:evaluate_only] = true }
   opts.on("-h", "--help", "Show this help") { puts opts; exit }
 end.parse!
@@ -357,17 +355,15 @@ if cli_options[:evaluate_only]
   run_evaluate
 elsif ARGV[0]
   model    = ARGV[0]
-  provider = cli_options[:provider] || :ollama
-  RubyLLM.models.refresh! if provider != :ollama
-  effort   = cli_options[:effort]
-  run_benchmark(model, provider: provider, effort: effort)
+  cli_options[:provider] ||= :openai
+  run_benchmark(model, **cli_options)
 else
-  models = fetch_local_models
+  models = fetch_local_models(cli_options[:api_base])
   if models.empty?
-    puts "No local Ollama models found at #{OLLAMA_API_BASE}."
+    puts "No local Ollama models found at #{cli_options[:api_base]}."
     puts "Start Ollama and pull a model first, e.g.: ollama pull qwen3.5-9b"
   else
-    puts "Available local Ollama models at #{OLLAMA_API_BASE}:"
+    puts "Available local Ollama models at #{cli_options[:api_base]}:"
     models.each do |m|
       model_id = m[:id] || m["id"]
       puts "  - #{model_id}"
