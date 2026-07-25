@@ -71,7 +71,7 @@ class Responder
       chat =
         if effort == "none"
           chat.with_thinking(effort: nil)
-        elsif effort.present?
+        elsif effort != nil || effort != ""
           chat.with_thinking(effort: effort)
         else
           chat
