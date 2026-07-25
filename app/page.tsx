@@ -2,19 +2,34 @@ import Link from "next/link";
 import AreaRankingsChart from "@/components/AreaRankingsChart";
 import EffortBadge from "@/components/EffortBadge";
 import OverviewChart from "@/components/OverviewChart";
+import ScoreVsParamsChart from "@/components/ScoreVsParamsChart";
 import SubjectRankingsChart from "@/components/SubjectRankingsChart";
-import { getAllModels } from "@/lib/data";
+import TabPanel from "@/components/TabPanel";
+import { getAllModels, getModelParams } from "@/lib/data";
 
 export default function HomePage() {
   const models = getAllModels();
+  const params = getModelParams();
 
-  const chartData = models.map((m) => ({
-    model: m.model,
-    effort: m.effort,
-    percentage: m.overallPercentage,
-    correct: m.totalCorrect,
-    questions: m.totalQuestions,
-  }));
+  const scatterData = models
+    .filter((m) => params[m.model] != null)
+    .map((m) => ({
+      model: m.model,
+      effort: m.effort,
+      parameters: params[m.model],
+      percentage: m.overallPercentage,
+    }));
+
+  const chartData = models
+    .slice(0, 20)
+    .map((m) => ({
+      model: m.model,
+      effort: m.effort,
+      percentage: m.overallPercentage,
+      correct: m.totalCorrect,
+      questions: m.totalQuestions,
+    }))
+    .reverse();
 
   const areas = models[0]?.areas ?? [];
   const subjects = Object.keys(models[0]?.subjects ?? {});
@@ -68,6 +83,10 @@ export default function HomePage() {
       </div>
 
       <section className="card">
+        <ScoreVsParamsChart data={scatterData} />
+      </section>
+
+      <section className="card">
         <OverviewChart data={chartData} title="Average score per model" />
       </section>
 
@@ -106,31 +125,30 @@ export default function HomePage() {
       <div className="page-head">
         <h2 className="section-heading">Rankings by area</h2>
       </div>
-      {areaChartData.map(({ area, areaName, rows }) => (
-        <section className="card" key={area}>
-          <AreaRankingsChart
-            data={rows}
-            areaName={areaName}
-            title={`Área ${area}`}
-          />
-        </section>
-      ))}
+      <div className="tabbed-section">
+        <TabPanel
+          tabs={areaChartData.map((a) => `Área ${a.area}`)}
+          children={areaChartData.map(({ area, areaName, rows }) => (
+            <AreaRankingsChart
+              key={area}
+              data={rows}
+              areaName={areaName}
+              title={`Área ${area}`}
+            />
+          ))}
+        />
+      </div>
 
       <div className="page-head">
         <h2 className="section-heading">Rankings by subject</h2>
       </div>
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(420px, 1fr))",
-          gap: 20,
-        }}
-      >
-        {subjectChartData.map(({ subject, rows }) => (
-          <section className="card" key={subject} style={{ marginBottom: 0 }}>
-            <SubjectRankingsChart data={rows} title={subject} />
-          </section>
-        ))}
+      <div className="tabbed-section">
+        <TabPanel
+          tabs={subjectChartData.map((s) => s.subject)}
+          children={subjectChartData.map(({ subject, rows }) => (
+            <SubjectRankingsChart key={subject} data={rows} title={subject} />
+          ))}
+        />
       </div>
     </>
   );

@@ -116,3 +116,17 @@ export function getAllModels(): ModelSummary[] {
 export function getModel(name: string): ModelSummary | null {
   return getModels().find((m) => m.model === name) ?? null;
 }
+
+const MODELS_JSON_PATH = path.join(process.cwd(), "data", "models.json");
+
+export function getModelParams(): Record<string, number> {
+  const raw = JSON.parse(fs.readFileSync(MODELS_JSON_PATH, "utf8"));
+  const result: Record<string, number> = {};
+  for (const entry of raw) {
+    if (entry.parameters == null) continue;
+    const suffix = entry.id.includes("/") ? entry.id.split("/")[1] : entry.id;
+    result[suffix] = entry.parameters;
+    result[entry.name] = entry.parameters;
+  }
+  return result;
+}

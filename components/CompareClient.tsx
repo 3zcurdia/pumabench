@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Suspense, useMemo, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import {
@@ -220,6 +221,13 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                   />
                 )}
                 <span className="checkbox-name">{m.model}</span>
+                <Link
+                  href={`/model/${encodeURIComponent(m.model)}`}
+                  className="checkbox-link"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  ↗
+                </Link>
                 <EffortBadge effort={m.effort} />
                 <span className="muted">{m.overallPercentage.toFixed(1)}%</span>
               </label>

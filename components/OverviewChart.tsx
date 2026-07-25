@@ -29,9 +29,10 @@ function ModelTick({ x, y, payload }: any) {
       x={x}
       y={y}
       dy={4}
-      textAnchor="end"
+      textAnchor="middle"
       fontSize={12}
       fill="#0f172a"
+      transform={`rotate(-35, ${x}, ${y})`}
     >
       {row?.model}
     </text>
@@ -68,18 +69,26 @@ export default function OverviewChart({
   const [mode, setMode] = useState<ViewMode>("percentage");
   const isPoints = mode === "points";
   const maxQuestions = Math.max(1, ...data.map((r) => r.questions));
-  const height = Math.max(240, data.length * 46 + 40);
+  const height = 480;
 
   const chart = (
     <div style={{ width: "100%", height }}>
       <ResponsiveContainer>
         <BarChart
           data={data}
-          layout="vertical"
-          margin={{ top: 8, right: 72, bottom: 8, left: 8 }}
+          margin={{ top: 32, right: 8, bottom: 72, left: 8 }}
         >
-          <CartesianGrid horizontal={false} stroke="#e2e8f0" />
+          <CartesianGrid vertical={false} stroke="#e2e8f0" />
           <XAxis
+            type="category"
+            dataKey="model"
+            fontSize={12}
+            stroke="#0f172a"
+            interval={0}
+            tickLine={false}
+            tick={<ModelTick />}
+          />
+          <YAxis
             type="number"
             domain={isPoints ? [0, maxQuestions] : [0, 100]}
             tickFormatter={
@@ -91,15 +100,6 @@ export default function OverviewChart({
             fontSize={12}
             stroke="#64748b"
           />
-          <YAxis
-            type="category"
-            dataKey="model"
-            width={260}
-            fontSize={12}
-            stroke="#0f172a"
-            interval={0}
-            tickLine={false}
-          />
           <Tooltip
             content={<ChartTooltip />}
             cursor={{ fill: "rgba(37, 99, 235, 0.06)" }}
@@ -107,12 +107,12 @@ export default function OverviewChart({
           <Bar
             dataKey={isPoints ? "correct" : "percentage"}
             fill="#2563eb"
-            radius={[0, 4, 4, 0]}
-            barSize={32}
+            radius={[4, 4, 0, 0]}
+            barSize={40}
           >
             <LabelList
               dataKey={isPoints ? "correct" : "percentage"}
-              position="right"
+              position="top"
               formatter={(v: number, entry: any) =>
                 isPoints
                   ? `${v}`

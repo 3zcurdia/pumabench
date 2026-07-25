@@ -62,6 +62,12 @@ export default async function ModelPage({
             Average score: {summary.overallPercentage.toFixed(1)}%
           </span>
           <span className="chip">Average of {summary.areas.length} areas</span>
+          <Link
+            href={`/compare?models=${encodeURIComponent(summary.model + "::" + summary.effort)}`}
+            className="chip"
+          >
+            Compare →
+          </Link>
         </div>
       </div>
 
