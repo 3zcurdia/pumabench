@@ -486,7 +486,7 @@ def aggregates_to_row(model, agg)
   model_split = model.split("-thinking-", 2)
   row = [agg[:id], model_split[0], model_split[1].nil? ? "none" : model_split[1], score, avg_points]
   row.concat(area_avgs)
-  row.concat(ALL_SUBJECTS.map { |s| pct(agg[:subjects][s][:correct], agg[:subjects][s][:questions]) })
+  row.concat(ALL_SUBJECTS.map { |s| "#{agg[:subjects][s][:correct]}/#{agg[:subjects][s][:questions]}" })
   row
 end
 

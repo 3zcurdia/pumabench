@@ -34,7 +34,7 @@ export interface CompareModel {
   overallCorrect: number;
   overallQuestions: number;
   areas: CompareArea[];
-  subjects: Record<string, number>;
+  subjects: Record<string, { percentage: number; correct: number; questions: number }>;
 }
 
 const PALETTE = [
@@ -184,9 +184,9 @@ function CompareInner({ models }: { models: CompareModel[] }) {
   const subjectChartRows = subjectNames.map((subject) => {
     const row: Record<string, string | number> = { subject };
     selected.forEach((m, i) => {
-      const pct = m.subjects[subject];
-      if (pct !== undefined) {
-        row[`k${i}`] = pct;
+      const s = m.subjects[subject];
+      if (s !== undefined) {
+        row[`k${i}`] = s.percentage;
         row[`e${i}`] = m.effort;
       }
     });
@@ -195,7 +195,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
 
   const subjectRowBest = (subject: string) =>
     Math.max(
-      ...selected.map((m) => m.subjects[subject] ?? -1),
+      ...selected.map((m) => m.subjects[subject]?.percentage ?? -1),
     );
 
   return (
@@ -473,16 +473,16 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                           <strong>{subject}</strong>
                         </td>
                         {selected.map((m) => {
-                          const pct = m.subjects[subject];
-                          if (pct === undefined)
+                          const s = m.subjects[subject];
+                          if (s === undefined)
                             return <td key={m.modelKey} className="num">—</td>;
-                          const isBest = pct === best;
+                          const isBest = s.percentage === best;
                           return (
                             <td
                               key={m.modelKey}
                               className={`num${isBest ? " best" : ""}`}
                             >
-                              {pct.toFixed(1)}%
+                              {s.percentage.toFixed(1)}% ({s.correct}/{s.questions})
                             </td>
                           );
                         })}

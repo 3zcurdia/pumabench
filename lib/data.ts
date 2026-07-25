@@ -19,7 +19,7 @@ interface CsvRow {
   score: number;
   avgPoints: number;
   areaPoints: number[];
-  subjectPercentages: Record<string, number>;
+  subjectScores: Record<string, { correct: number; questions: number }>;
 }
 
 function parseCsv(): CsvRow[] {
@@ -51,11 +51,12 @@ function parseCsv(): CsvRow[] {
       score: parseFloat(cols[scoreIdx]),
       avgPoints: parseFloat(cols[avgPointsIdx]),
       areaPoints: cols.slice(areaStart, areaStart + areaCount).map(Number),
-      subjectPercentages: Object.fromEntries(
-        subjectCols.map((name, i) => [
-          name,
-          parseFloat(cols[areaStart + areaCount + i]),
-        ]),
+      subjectScores: Object.fromEntries(
+        subjectCols.map((name, i) => {
+          const raw = cols[areaStart + areaCount + i];
+          const [correct, questions] = raw.split("/").map(Number);
+          return [name, { correct, questions }];
+        }),
       ),
     };
   });
@@ -77,9 +78,13 @@ function csvRowToModelSummary(row: CsvRow): ModelSummary {
   });
 
   const subjects: Record<string, SubjectScore> = Object.fromEntries(
-    Object.entries(row.subjectPercentages).map(([name, percentage]) => [
+    Object.entries(row.subjectScores).map(([name, { correct, questions }]) => [
       name,
-      { percentage },
+      {
+        correct,
+        questions,
+        percentage: questions === 0 ? 0 : Math.round((correct / questions) * 1000) / 10,
+      },
     ]),
   );
 

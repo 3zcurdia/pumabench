@@ -50,8 +50,8 @@ export default async function ModelPage({
     .map(([subject, s]) => ({
       subject,
       percentage: s.percentage,
-      correct: 0,
-      questions: 0,
+      correct: s.correct,
+      questions: s.questions,
     }))
     .sort((a, b) => b.percentage - a.percentage);
 

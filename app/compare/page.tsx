@@ -24,7 +24,7 @@ export default function ComparePage() {
       questions: a.total.questions,
     })),
     subjects: Object.fromEntries(
-      Object.entries(m.subjects).map(([name, s]) => [name, s.percentage]),
+      Object.entries(m.subjects).map(([name, s]) => [name, { percentage: s.percentage, correct: s.correct, questions: s.questions }]),
     ),
   }));
 

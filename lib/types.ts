@@ -5,6 +5,8 @@ export interface ScoreStats {
 }
 
 export interface SubjectScore {
+  correct: number;
+  questions: number;
   percentage: number;
 }
 
