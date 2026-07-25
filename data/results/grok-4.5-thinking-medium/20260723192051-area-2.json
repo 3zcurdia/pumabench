@@ -73,7 +73,13 @@
         "C": "C) 3.2 kg",
         "D": "D) 4.0 kg"
       },
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "reference": {
+        "type": "image",
+        "path": "area-2-q2.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp2.webp",
+        "alt": "Figura asociada a la pregunta 2."
+      }
     },
     {
       "number": 34,
@@ -85,17 +91,39 @@
         "C": "C) alquino.",
         "D": "D) alcano."
       },
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "reference": {
+        "type": "image",
+        "path": "area-2-q34.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp34.webp",
+        "alt": "Figura asociada a la pregunta 34."
+      }
     },
     {
       "number": 35,
       "subject": "Química",
       "question": "¿Cuál de los siguientes compuestos es un ácido carboxílico?",
       "options": {
-        "A": "A) Opción A",
-        "B": "B) Opción B",
-        "C": "C) Opción C",
-        "D": "D) Opción D"
+        "A": {
+          "label": "A",
+          "image": "area-2-q35-opt-A.webp",
+          "alt": "Opción A para la pregunta 35."
+        },
+        "B": {
+          "label": "B",
+          "image": "area-2-q35-opt-B.webp",
+          "alt": "Opción B para la pregunta 35."
+        },
+        "C": {
+          "label": "C",
+          "image": "area-2-q35-opt-C.webp",
+          "alt": "Opción C para la pregunta 35."
+        },
+        "D": {
+          "label": "D",
+          "image": "area-2-q35-opt-D.webp",
+          "alt": "Opción D para la pregunta 35."
+        }
       },
       "correct_answer": "A"
     },
@@ -133,7 +161,13 @@
         "C": "C) f(x) = -√(-8x + 16)",
         "D": "D) f(x) = +√(-8x + 16)"
       },
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "reference": {
+        "type": "image",
+        "path": "area-2-q52.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp52.webp",
+        "alt": "Figura asociada a la pregunta 52."
+      }
     },
     {
       "number": 58,
@@ -145,7 +179,13 @@
         "C": "C) y = -2x + 5",
         "D": "D) y = -2x + 6"
       },
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "reference": {
+        "type": "image",
+        "path": "area-2-q58.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp58.webp",
+        "alt": "Figura asociada a la pregunta 58."
+      }
     },
     {
       "number": 113,

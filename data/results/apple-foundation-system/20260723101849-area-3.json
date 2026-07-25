@@ -97,7 +97,13 @@
         "C": "C) U_A = 4 m/s; U_B = -2 m/s",
         "D": "D) U_A = 2 m/s; U_B = 4 m/s"
       },
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "reference": {
+        "type": "image",
+        "path": "area-3-q5.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp5.webp",
+        "alt": "Figura asociada a la pregunta 5."
+      }
     },
     {
       "number": 6,
@@ -133,7 +139,13 @@
         "C": "C) I amperes.",
         "D": "D) 2I amperes."
       },
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "reference": {
+        "type": "image",
+        "path": "area-3-q10.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp10.webp",
+        "alt": "Figura asociada a la pregunta 10."
+      }
     },
     {
       "number": 17,
@@ -289,7 +301,13 @@
         "C": "C) 3, 10",
         "D": "D) –10, –12"
       },
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "reference": {
+        "type": "image",
+        "path": "area-3-q50.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp50.webp",
+        "alt": "Figura asociada a la pregunta 50."
+      }
     },
     {
       "number": 58,
@@ -301,7 +319,13 @@
         "C": "C) y = -3/2 x + 1/2",
         "D": "D) y = x/2 - 1"
       },
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "reference": {
+        "type": "image",
+        "path": "area-3-q58.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp58.webp",
+        "alt": "Figura asociada a la pregunta 58."
+      }
     },
     {
       "number": 63,

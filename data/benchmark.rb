@@ -62,8 +62,8 @@ class Responder
     end
   end
 
-  def answer(question)
-    prompt = build_prompt(question)
+  def answer(question, shared_references: nil)
+    prompt = build_prompt(question, shared_references: shared_references)
     attempts = 0
     begin
       attempts += 1
@@ -87,31 +87,93 @@ class Responder
     nil
   end
 
-  def build_prompt(question)
+  def build_prompt(question, shared_references: nil)
+    shared_block  = render_shared_references(shared_references, question["subject"])
+    ref_block     = render_reference(question["reference"])
+    options_block = render_options(question["options"])
+
     <<~PROMPT
     Eres un experto en conocimientos académicos de nivel preparatoria. Tu tarea es responder correctamente la siguiente pregunta de opción múltiple.
 
     Instrucciones:
-    - Analiza cuidadosamente la pregunta y las opciones.
+    - Analiza cuidadosamente la pregunta, sus referencias y las opciones.
     - Selecciona únicamente una opción.
     - Responde exclusivamente con la letra y el texto de la opción correcta.
     - No incluyas explicaciones, razonamientos, comentarios ni información adicional.
     - Haz tu mejor esfuerzo para elegir la respuesta correcta.
-
+    #{shared_block}
     Tema: #{question["subject"]}
 
     Pregunta:
     #{question["question"]}
-
+    #{ref_block}
     Opciones:
-      #{question.dig("options", "A")}
-      #{question.dig("options", "B")}
-      #{question.dig("options", "C")}
-      #{question.dig("options", "D")}
+    #{options_block}
 
     Formato obligatorio de respuesta:
     <letra>
     PROMPT
+  end
+
+  def render_shared_references(refs, subject)
+    return "" if refs.nil? || refs.empty?
+    applicable = refs.select do |r|
+      subjects = r["applies_to_subjects"]
+      subjects.nil? || subjects.empty? || (subject && subjects.include?(subject))
+    end
+    return "" if applicable.empty?
+
+    lines = applicable.map { |r| "  - " + render_reference_line(r) }
+    ["", "Referencias compartidas aplicables:", *lines].join("\n")
+  end
+
+  def render_reference(ref)
+    return "" if ref.nil? || ref.empty?
+    label =
+      case ref["type"]
+      when "text"     then "Referencia"
+      when "image"    then "Referencia (imagen pendiente de descripción)"
+      when "image_set" then "Referencia (#{ref["images"]&.size || "varias"} figuras pendientes de descripción)"
+      else "Referencia"
+      end
+    body = render_reference_line(ref)
+    ["", "#{label}:", "  #{body}"].join("\n")
+  end
+
+  def render_reference_line(ref)
+    case ref["type"]
+    when "text"
+      ref["content"].to_s
+    when "image"
+      "Imagen disponible en: #{ref["path"]} (no multimodal: no se puede usar para responder)"
+    when "image_set"
+      paths = (ref["images"] || []).map { |i| "#{i["label"]}: #{i["path"]}" }
+      "Imágenes disponibles: #{paths.join("; ")} (no multimodal: no se pueden usar para responder)"
+    else
+      ref.to_s
+    end
+  end
+
+  def render_options(options)
+    return "" if options.nil? || options.empty?
+    ("A".."D").map do |letter|
+      value = options[letter] || options[letter.to_sym]
+      "      #{render_option(letter, value)}"
+    end.join("\n")
+  end
+
+  def render_option(letter, value)
+    if value.is_a?(Hash)
+      label = value["label"] || letter
+      fragments = []
+      fragments << "imagen: #{value["image"]}" if value["image"]
+      fragments << "descripción: #{value["image_description"]}" if value["image_description"]
+      text = value["text"].to_s
+      fragments.unshift(text) unless text.empty?
+      "#{label}) #{fragments.join(' | ')}"
+    else
+      value.to_s
+    end
   end
 
   def extract_answer_letter(response)
@@ -191,7 +253,7 @@ def run_benchmark(model_name, **options)
 
     if options[:dry_run]
       questions.each do |q|
-        puts responder.build_prompt(q)
+        puts responder.build_prompt(q, shared_references: data["shared_references"])
         puts "---"
       end
     else
@@ -204,7 +266,7 @@ def run_benchmark(model_name, **options)
           n = q["number"]
           next if already_answered.key?(n)
 
-          option = responder.answer(q)
+          option = responder.answer(q, shared_references: data["shared_references"])
 
           if option.nil? || !VALID_OPTIONS.include?(option)
             warn "Error: empty/invalid response for model #{model_name}, area #{area_number}, question #{n}"

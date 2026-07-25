@@ -85,7 +85,13 @@
         "C": "C) 3.2 kg",
         "D": "D) 4.0 kg"
       },
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "reference": {
+        "type": "image",
+        "path": "area-2-q2.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp2.webp",
+        "alt": "Figura asociada a la pregunta 2."
+      }
     },
     {
       "number": 4,
@@ -97,7 +103,13 @@
         "C": "C) -V",
         "D": "D) (-V)(0.25)"
       },
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "reference": {
+        "type": "image",
+        "path": "area-2-q4.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp4.webp",
+        "alt": "Figura asociada a la pregunta 4."
+      }
     },
     {
       "number": 5,
@@ -133,7 +145,13 @@
         "C": "C) Polarización",
         "D": "D) Refracción"
       },
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "reference": {
+        "type": "image",
+        "path": "area-2-q8.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp8.webp",
+        "alt": "Figura asociada a la pregunta 8."
+      }
     },
     {
       "number": 9,
@@ -236,10 +254,26 @@
       "subject": "Química",
       "question": "¿Cuál de los siguientes compuestos es un ácido carboxílico?",
       "options": {
-        "A": "A) Opción A",
-        "B": "B) Opción B",
-        "C": "C) Opción C",
-        "D": "D) Opción D"
+        "A": {
+          "label": "A",
+          "image": "area-2-q35-opt-A.webp",
+          "alt": "Opción A para la pregunta 35."
+        },
+        "B": {
+          "label": "B",
+          "image": "area-2-q35-opt-B.webp",
+          "alt": "Opción B para la pregunta 35."
+        },
+        "C": {
+          "label": "C",
+          "image": "area-2-q35-opt-C.webp",
+          "alt": "Opción C para la pregunta 35."
+        },
+        "D": {
+          "label": "D",
+          "image": "area-2-q35-opt-D.webp",
+          "alt": "Opción D para la pregunta 35."
+        }
       },
       "correct_answer": "A"
     },
@@ -409,7 +443,13 @@
         "C": "C) f(x) = -√(-8x + 16)",
         "D": "D) f(x) = +√(-8x + 16)"
       },
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "reference": {
+        "type": "image",
+        "path": "area-2-q52.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp52.webp",
+        "alt": "Figura asociada a la pregunta 52."
+      }
     },
     {
       "number": 55,
@@ -445,7 +485,13 @@
         "C": "C) y = -2x + 5",
         "D": "D) y = -2x + 6"
       },
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "reference": {
+        "type": "image",
+        "path": "area-2-q58.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp58.webp",
+        "alt": "Figura asociada a la pregunta 58."
+      }
     },
     {
       "number": 59,
@@ -589,7 +635,14 @@
         "C": "C) el personaje cayó estrepitosamente.",
         "D": "D) el personaje llamó a las oficinas del periódico."
       },
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "reference": {
+        "type": "text",
+        "content": "Tiempo libre\n\nTodas las mañanas compro el periódico y todas las mañanas, al leerlo, me mancho los dedos con tinta. Nunca me ha importado ensuciármelos con tal de estar al día en las noticias. Pero esta mañana sentí un gran malestar apenas toqué el periódico.\n\nCreí que solamente se trataba de uno de mis acostumbrados mareos. Pagué el importe del diario y regresé a mi casa. Mi esposa había salido de compras. Me acomodé en mi sillón favorito, encendí un cigarro y me puse a leer la primera página. Luego de enterarme de que el jet se había desplomado, volví a sentirme mal; vi mis dedos y las manos con toda la calma y, ya tranquilo, regresé al sillón. Cuando iba a tomar mi cigarro, descubrí que una mancha negra cubría mis dedos.\n\nDe inmediato retorné al baño, me tallé con zacate, piedra pómez y, finalmente, me lavé con blanqueador; pero el intento fue inútil, porque la mancha creció y me invadió hasta los codos. Ahora, más preocupado que molesto, llamé al doctor y me recomendó que lo mejor era que tomara unas vacaciones, o que durmiera. Después, llamé a las oficinas del periódico para elevar mi más rotunda protesta; me contestó una voz de mujer, que solamente me insultó y me trató de loco. En el momento en que hablaba por teléfono, me di cuenta de que, en realidad, no se trataba de una mancha, sino de un número infinito de letras pequeñísimas, apeñuscadas, como una inquieta multitud de hormigas negras. Cuando colgué, las letritas habían avanzado ya hasta mi cintura.\n\nAsustado, corrí hacia la puerta de entrada; pero, antes de poder abrirla. Me flaquearon las piernas y caí estrepitosamente. Tirado bocarriba descubrí que, además de la gran cantidad de letras hormiga que ahora ocupaban todo mi cuerpo, había una que otra fotografía. Así estuve durante varias horas hasta que escuché que abrían la puerta. Me costó trabajo hilar la idea, pero al fin pensé que había llegado a mi salvación. Entró mi esposa, me levantó del suelo, me cargó bajo el brazo, se acomodó en mi sillón favorito, me hojeó despreocupadamente y se puso a leer.\n\nGuillermo Samperio.",
+        "title": "Tiempo libre",
+        "author": "Guillermo Samperio",
+        "source": null
+      }
     },
     {
       "number": 75,
@@ -601,7 +654,14 @@
         "C": "C) eran pequeñas y negra.",
         "D": "D) quedaban amontonadas."
       },
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "reference": {
+        "type": "text",
+        "content": "Tiempo libre\n\nTodas las mañanas compro el periódico y todas las mañanas, al leerlo, me mancho los dedos con tinta. Nunca me ha importado ensuciármelos con tal de estar al día en las noticias. Pero esta mañana sentí un gran malestar apenas toqué el periódico.\n\nCreí que solamente se trataba de uno de mis acostumbrados mareos. Pagué el importe del diario y regresé a mi casa. Mi esposa había salido de compras. Me acomodé en mi sillón favorito, encendí un cigarro y me puse a leer la primera página. Luego de enterarme de que el jet se había desplomado, volví a sentirme mal; vi mis dedos y las manos con toda la calma y, ya tranquilo, regresé al sillón. Cuando iba a tomar mi cigarro, descubrí que una mancha negra cubría mis dedos.\n\nDe inmediato retorné al baño, me tallé con zacate, piedra pómez y, finalmente, me lavé con blanqueador; pero el intento fue inútil, porque la mancha creció y me invadió hasta los codos. Ahora, más preocupado que molesto, llamé al doctor y me recomendó que lo mejor era que tomara unas vacaciones, o que durmiera. Después, llamé a las oficinas del periódico para elevar mi más rotunda protesta; me contestó una voz de mujer, que solamente me insultó y me trató de loco. En el momento en que hablaba por teléfono, me di cuenta de que, en realidad, no se trataba de una mancha, sino de un número infinito de letras pequeñísimas, apeñuscadas, como una inquieta multitud de hormigas negras. Cuando colgué, las letritas habían avanzado ya hasta mi cintura.\n\nAsustado, corrí hacia la puerta de entrada; pero, antes de poder abrirla. Me flaquearon las piernas y caí estrepitosamente. Tirado bocarriba descubrí que, además de la gran cantidad de letras hormiga que ahora ocupaban todo mi cuerpo, había una que otra fotografía. Así estuve durante varias horas hasta que escuché que abrían la puerta. Me costó trabajo hilar la idea, pero al fin pensé que había llegado a mi salvación. Entró mi esposa, me levantó del suelo, me cargó bajo el brazo, se acomodó en mi sillón favorito, me hojeó despreocupadamente y se puso a leer.\n\nGuillermo Samperio.",
+        "title": "Tiempo libre",
+        "author": "Guillermo Samperio",
+        "source": null
+      }
     },
     {
       "number": 79,

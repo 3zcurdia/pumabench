@@ -66,26 +66,38 @@
     {
       "number": 2,
       "subject": "Física",
-      "question": "2. Con base en el siguiente sistema de vectores, indica la magnitud del vector resultante en N. [imagen]",
+      "question": "2. Con base en el siguiente sistema de vectores, indica la magnitud del vector resultante en N.",
       "options": {
         "A": "A) \\(\\sqrt{75.8}\\)",
         "B": "B) \\(\\sqrt{23.8}\\)",
         "C": "C) \\(\\sqrt{650}\\)",
         "D": "D) \\(\\sqrt{101.1}\\)"
       },
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "reference": {
+        "type": "image",
+        "path": "area-1-q2.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp2.webp",
+        "alt": "Figura asociada a la pregunta 2."
+      }
     },
     {
       "number": 13,
       "subject": "Física",
-      "question": "13. Tres recipientes idénticos A, B y C contienen igual cantidad de diferentes líquidos, las densidades de los líquidos son p_A > p_B > p_C, ¿cómo es la presión en las bases de los recipientes? Considera. p_A = presión sobre la base A. p_B​ = presión sobre la base B. p_C​ = presión sobre la base C. [imagen]",
+      "question": "13. Tres recipientes idénticos A, B y C contienen igual cantidad de diferentes líquidos, las densidades de los líquidos son p_A > p_B > p_C, ¿cómo es la presión en las bases de los recipientes? Considera. p_A = presión sobre la base A. p_B​ = presión sobre la base B. p_C​ = presión sobre la base C.",
       "options": {
         "A": "A) P_A = P_B = P_C",
         "B": "B) \\(P_A > P_B > P_C\\)",
         "C": "C) \\(P_B > P_A > P_C\\)",
         "D": "D) \\(P_C > P_B > P_A\\)"
       },
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "reference": {
+        "type": "image",
+        "path": "area-1-q13.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp13.webp",
+        "alt": "Figura asociada a la pregunta 13."
+      }
     },
     {
       "number": 18,
@@ -102,14 +114,20 @@
     {
       "number": 69,
       "subject": "Matemáticas",
-      "question": "69. En la siguiente gráfica de la función f(x). ¿En qué intervalo la derivada de f es negativa? [imagen]",
+      "question": "69. En la siguiente gráfica de la función f(x). ¿En qué intervalo la derivada de f es negativa?",
       "options": {
         "A": "A) (-2, 4)",
         "B": "B) [2, 4)",
         "C": "C) (2, 4]",
         "D": "D) [-2, 4]"
       },
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "reference": {
+        "type": "image",
+        "path": "area-1-q69.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025area1p69.webp",
+        "alt": "Figura asociada a la pregunta 69."
+      }
     },
     {
       "number": 81,
@@ -121,7 +139,14 @@
         "C": "C) Decidida y valiente.",
         "D": "D) Temerosa e indecisa."
       },
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "reference": {
+        "type": "text",
+        "content": "—La mujer salió de su casa, y era una buena mujer. Lo había sido durante toda su vida. Ese día, sin embargo, una fría determinación le roía las entrañas mientras avanzaba, el bolso bien sujeto, camino del lugar donde iban a producirse los hechos.\n\nPor momentos sentía que le temblaban las piernas, pero si su cuerpo flaqueaba, su mente no se permitía vacilar. Pensó en sus hijos. Pensó en su marido, honrado y trabajador, feliz con su fútbol, su tele y su chándal para ir al campo los fines de semana. Pensó en el equipo necesario para las vacaciones, tan inminentes ya.\n\nMás decidida que nunca, atravesó la puerta de los grandes almacenes. El aire procedente del acondicionador le heló la nuca y serpenteó por un momento entre sus muslos, y ésa fue la última sensación humana que iba a experimentar en varias horas.\n\n—¡Reebaaaajaaas! —rugió.\n\nBraceó hacia la horda que bramaba en el interior. Ya no pensaba en su familia. Como el cazador, sólo alimentaba un deseo: conseguir la mejor presa; como el sabueso, únicamente aspiraba a hincar el diente en la carne más tierna. Alargó ambas manos hacia una combinación de seda sintética rebajada, puesta a mitad de precio —previamente se había colgado el bolso en bandolera—, y una manada de tiburones abrió amenazadoramente las fauces frente a ella. La mujer se aferró con todas sus fuerzas a la prenda. Vio que las manos se le habían vuelto peludas, sarmentosas y con las uñas muy largas curvadas hacia dentro, pero no le importó. Arrancó la combinación de entre los colmillos de los escualos y siguió abriéndose paso entre aullidos.\n\nEn la segunda planta tuvo que despedazarle la carótida a una rinoceronta de vestido floreado que trataba de apoderarse de una cesta para pic—nic; en la tercera, se hizo a zarpazos con dos pares de zapatillas de deportes; en la cuarta fue corrida a cornadas por una panda de búfalas que se empeñaban en conseguir una cocinita portátil a butano; en la quinta estuvo a punto de morir picoteada por una nube de avispas venenosas, pero huyó en cuanto se dio cuenta de que no necesitaba un tresillo.\n\nCuando salió a la calle, tardó unos 20 minutos en recuperar su aspecto habitual.\n\nTorres, Maruja (8 de julio de 1986). Metamorfosis. El País.",
+        "title": "Metamorfosis",
+        "author": "Maruja Torres",
+        "source": "El País, 8 de julio de 1986"
+      }
     },
     {
       "number": 85,

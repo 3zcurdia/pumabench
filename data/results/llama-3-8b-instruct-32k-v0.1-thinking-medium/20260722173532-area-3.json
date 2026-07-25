@@ -85,7 +85,13 @@
         "C": "C) 3.2 kg",
         "D": "D) 4.0 kg"
       },
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "reference": {
+        "type": "image",
+        "path": "area-3-q3.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp3.webp",
+        "alt": "Figura asociada a la pregunta 3."
+      }
     },
     {
       "number": 5,
@@ -97,7 +103,13 @@
         "C": "C) U_A = 4 m/s; U_B = -2 m/s",
         "D": "D) U_A = 2 m/s; U_B = 4 m/s"
       },
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "reference": {
+        "type": "image",
+        "path": "area-3-q5.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp5.webp",
+        "alt": "Figura asociada a la pregunta 5."
+      }
     },
     {
       "number": 6,
@@ -121,7 +133,13 @@
         "C": "C) 9 cm/ciclo",
         "D": "D) 18 cm/ciclo"
       },
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "reference": {
+        "type": "image",
+        "path": "area-3-q8.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp8.webp",
+        "alt": "Figura asociada a la pregunta 8."
+      }
     },
     {
       "number": 9,
@@ -145,7 +163,13 @@
         "C": "C) I amperes.",
         "D": "D) 2I amperes."
       },
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "reference": {
+        "type": "image",
+        "path": "area-3-q10.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp10.webp",
+        "alt": "Figura asociada a la pregunta 10."
+      }
     },
     {
       "number": 13,
@@ -313,7 +337,13 @@
         "C": "C) 3, 10",
         "D": "D) –10, –12"
       },
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "reference": {
+        "type": "image",
+        "path": "area-3-q50.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp50.webp",
+        "alt": "Figura asociada a la pregunta 50."
+      }
     },
     {
       "number": 51,
@@ -325,7 +355,34 @@
         "C": "C) II y IV",
         "D": "D) I y III"
       },
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "reference": {
+        "type": "image_set",
+        "title": "Cuatro gráficas etiquetadas I, II, III y IV",
+        "layout": "horizontal",
+        "images": [
+          {
+            "label": "I",
+            "path": "area-3-q51-opt-A.webp",
+            "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp51a.webp"
+          },
+          {
+            "label": "II",
+            "path": "area-3-q51-opt-B.webp",
+            "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp51b.webp"
+          },
+          {
+            "label": "III",
+            "path": "area-3-q51-opt-C.webp",
+            "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp51c.webp"
+          },
+          {
+            "label": "IV",
+            "path": "area-3-q51-opt-D.webp",
+            "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp51d.webp"
+          }
+        ]
+      }
     },
     {
       "number": 52,
@@ -361,7 +418,13 @@
         "C": "C) sen A/c = sen B/a",
         "D": "D) sen B/c = sen A/b"
       },
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "reference": {
+        "type": "image",
+        "path": "area-3-q54.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp54.webp",
+        "alt": "Figura asociada a la pregunta 54."
+      }
     },
     {
       "number": 58,
@@ -373,7 +436,13 @@
         "C": "C) y = -3/2 x + 1/2",
         "D": "D) y = x/2 - 1"
       },
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "reference": {
+        "type": "image",
+        "path": "area-3-q58.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp58.webp",
+        "alt": "Figura asociada a la pregunta 58."
+      }
     },
     {
       "number": 61,
