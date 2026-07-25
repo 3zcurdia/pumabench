@@ -23,7 +23,7 @@
     "id": "google/gemini-2.5-flash-lite",
     "name": "Google: Gemini 2.5 Flash Lite",
     "provider": "google",
-    "type": "dense",
+    "type": "moe",
     "parameters": 10000000000,
     "pricing": {
       "prompt": "0.0000001",
@@ -34,6 +34,24 @@
       "web_search": "0.014",
       "internal_reasoning": "0.0000004",
       "input_cache_read": "0.00000001",
+      "input_cache_write": "0.00000008333333333333334"
+    }
+  },
+  {
+    "id": "google/gemini-3.6-flash",
+    "name": "Google: Gemini 3.6 Flash",
+    "provider": "google",
+    "type": "moe",
+    "parameters": 300000000000,
+    "pricing": {
+      "prompt": "0.0000015",
+      "completion": "0.0000075",
+      "image": "0.0000015",
+      "audio": "0.0000015",
+      "input_audio_cache": "0.00000015",
+      "web_search": "0.014",
+      "internal_reasoning": "0.0000075",
+      "input_cache_read": "0.00000015",
       "input_cache_write": "0.00000008333333333333334"
     }
   },
