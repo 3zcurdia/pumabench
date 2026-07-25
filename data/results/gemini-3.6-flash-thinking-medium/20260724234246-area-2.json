@@ -1,0 +1,65 @@
+{
+  "id": "google/gemini-3.6-flash",
+  "model": "gemini-3.6-flash-thinking-medium",
+  "effort": "medium",
+  "timestamp": "20260724234246",
+  "area": 2,
+  "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+  "total": {
+    "questions": 120,
+    "correct": 111,
+    "percentage": 92.5
+  },
+  "subjects": {
+    "Biología": {
+      "questions": 13,
+      "correct": 13,
+      "percentage": 100.0
+    },
+    "Español": {
+      "questions": 18,
+      "correct": 16,
+      "percentage": 88.89
+    },
+    "Filosofía": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Física": {
+      "questions": 12,
+      "correct": 12,
+      "percentage": 100.0
+    },
+    "Geografía": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Historia Universal": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Historia de México": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Literatura": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Matemáticas": {
+      "questions": 24,
+      "correct": 20,
+      "percentage": 83.33
+    },
+    "Química": {
+      "questions": 13,
+      "correct": 12,
+      "percentage": 92.31
+    }
+  }
+}
