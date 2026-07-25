@@ -61,5 +61,187 @@
       "correct": 9,
       "percentage": 90.0
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 4,
+      "subject": "Física",
+      "question": "Una caja de 50 kg está en un elevador que cae. ¿Fuerza que el piso ejerce sobre la caja? (g=10 m/s²)",
+      "options": {
+        "A": "A) 5,000 N",
+        "B": "B) 50 N",
+        "C": "C) 5 N",
+        "D": "D) 0 N"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 11,
+      "subject": "Literatura",
+      "question": "¿Cómo se denomina el enunciado subrayado en: 'ESTE MIÉRCOLES SE ESPERAN VARIAS MARCHAS EN LA CDMX'?",
+      "options": {
+        "A": "A) Antetítulo o epígrafe.",
+        "B": "B) Encabezado o titular.",
+        "C": "C) Entrada o lead.",
+        "D": "D) Balazo o bajad."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 16,
+      "subject": "Literatura",
+      "question": "Escritor representativo del Realismo español.",
+      "options": {
+        "A": "A) Camilo José Cela.",
+        "B": "B) Miguel de Unamuno.",
+        "C": "C) Juan Valera.",
+        "D": "D) Antonio Machado."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 28,
+      "subject": "Química",
+      "question": "Entre los contaminantes primarios del aire se encuentran los óxidos de",
+      "options": {
+        "A": "A) Ca y Pb",
+        "B": "B) Hg y N",
+        "C": "C) C y N",
+        "D": "D) N y Pb"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 36,
+      "subject": "Geografía",
+      "question": "Estados de la República con baja densidad de población.",
+      "options": {
+        "A": "A) Veracruz y Oaxaca.",
+        "B": "B) Oaxaca y Morelos.",
+        "C": "C) Morelos y Baja California Sur.",
+        "D": "D) Baja California Sur y Quintana Roo."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 51,
+      "subject": "Matemáticas",
+      "question": "El seno del ángulo P en el triángulo rectángulo es igual a",
+      "options": {
+        "A": "A) 3/5",
+        "B": "B) 4/5",
+        "C": "C) 5/3",
+        "D": "D) 5/4"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 68,
+      "subject": "Español",
+      "question": "Idea principal del segundo párrafo del texto 'La mente colectiva'.",
+      "options": {
+        "A": "A) En la naturaleza existen 'organismos colectivos'.",
+        "B": "B) Muchos escritores han soñado que la humanidad podría formar un 'superorganismo'.",
+        "C": "C) Muchos escritores han soñado que la humanidad podría conectarse por telepatía.",
+        "D": "D) Las hormigas y abejas son 'organismos colectivos'."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 70,
+      "subject": "Español",
+      "question": "Son temas que aborda el autor del texto 'La mente colectiva'.",
+      "options": {
+        "A": "A) Lenguaje, industria y literatura de ficción.",
+        "B": "B) Lenguaje, productos culturales y tecnología.",
+        "C": "C) Organismos colectivos, democracia y literatura.",
+        "D": "D) Organismos colectivos, computadoras y productos culturales."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 71,
+      "subject": "Español",
+      "question": "La intención principal del autor del texto 'La mente colectiva' es",
+      "options": {
+        "A": "A) narrar cómo el hombre piensa colectivamente.",
+        "B": "B) informar sobre la cultura y el pensamiento colectivo.",
+        "C": "C) argumentar que el hombre piensa colectivamente.",
+        "D": "D) describir aspectos del pensamiento colectivo."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 103,
+      "subject": "Historia de México",
+      "question": "Primer conflicto externo durante el gobierno de Santa Ana",
+      "options": {
+        "A": "A) Expedición española.",
+        "B": "B) Venta de la Mesilla.",
+        "C": "C) Guerra de los pasteles.",
+        "D": "D) Guerra de Texas."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 104,
+      "subject": "Historia de México",
+      "question": "Proclamó libertad de enseñanza y prensa, prohibió a la Iglesia poseer bienes raíces y decretó régimen republicano federal.",
+      "options": {
+        "A": "A) Constitución de 1824.",
+        "B": "B) Constitución de 1857.",
+        "C": "C) Constitución de 1822.",
+        "D": "D) Constitución de 1814."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 107,
+      "subject": "Historia de México",
+      "question": "Los Acuerdos de Bucareli y la creación de la SEP fueron acciones de",
+      "options": {
+        "A": "A) Álvaro Obregón.",
+        "B": "B) Adolfo de la Huerta.",
+        "C": "C) Plutarco Elías Calles.",
+        "D": "D) Venustiano Carranza."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 109,
+      "subject": "Historia de México",
+      "question": "La principal característica económica del gobierno de Manuel Ávila Camacho fue",
+      "options": {
+        "A": "A) la sustitución de importaciones.",
+        "B": "B) el apoyo a reclamos sindicales.",
+        "C": "C) el equilibrio de la balanza comercial.",
+        "D": "D) la expansión del mercado externo."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 116,
+      "subject": "Filosofía",
+      "question": "¿Qué debe hacer el médico para actuar autónomamente ante un paciente que rechaza transfusión por creencias religiosas?",
+      "options": {
+        "A": "A) No realizar la transfusión para evitar problemas legales.",
+        "B": "B) Realizarla para ser héroe ante colegas.",
+        "C": "C) Realizarla para salvar la vida a pesar de consecuencias.",
+        "D": "D) No realizarla para conservar su trabajo."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 117,
+      "subject": "Filosofía",
+      "question": "¿Qué postura sobre los valores representa: 'El valor de la vida depende de quién está vivo'?",
+      "options": {
+        "A": "A) Objetivista.",
+        "B": "B) Pragmatista.",
+        "C": "C) Subjetivista.",
+        "D": "D) Utilitarista."
+      },
+      "correct_answer": "C"
+    }
+  ]
 }

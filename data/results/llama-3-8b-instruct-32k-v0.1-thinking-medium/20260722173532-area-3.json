@@ -61,5 +61,571 @@
       "correct": 9,
       "percentage": 90.0
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 2,
+      "subject": "Física",
+      "question": "La magnitud de la fuerza resultante de dos fuerzas perpendiculares es ________ que la suma algebraica de las componentes.",
+      "options": {
+        "A": "A) menor",
+        "B": "B) igual",
+        "C": "C) mayor",
+        "D": "D) inversa"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 3,
+      "subject": "Física",
+      "question": "Sobre un cuerpo se aplicaron fuerzas horizontales provocando distintas aceleraciones. ¿Cuál es la masa del objeto?",
+      "options": {
+        "A": "A) 1.6 kg.",
+        "B": "B) 2.5 kg",
+        "C": "C) 3.2 kg",
+        "D": "D) 4.0 kg"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 5,
+      "subject": "Física",
+      "question": "La bola A impacta a 6 m/s a bola B en reposo (el doble de masa). Choque elástico. ¿Velocidades después del impacto?",
+      "options": {
+        "A": "A) U_A = -2 m/s; U_B = 4 m/s",
+        "B": "B) U_A = 4 m/s; U_B = 2 m/s",
+        "C": "C) U_A = 4 m/s; U_B = -2 m/s",
+        "D": "D) U_A = 2 m/s; U_B = 4 m/s"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 6,
+      "subject": "Física",
+      "question": "¿A qué temperatura en °F equivale 220 °C?",
+      "options": {
+        "A": "A) 454 °F",
+        "B": "B) 493 °F",
+        "C": "C) 428 °F",
+        "D": "D) 104 °F"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 8,
+      "subject": "Física",
+      "question": "¿Cuál es la longitud de onda de la onda estacionaria?",
+      "options": {
+        "A": "A) 4.5 cm/ciclo",
+        "B": "B) 90 cm/ciclo",
+        "C": "C) 9 cm/ciclo",
+        "D": "D) 18 cm/ciclo"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 9,
+      "subject": "Física",
+      "question": "Si R y V cambian al doble simultáneamente, el valor de la corriente se",
+      "options": {
+        "A": "A) reduce a la mitad.",
+        "B": "B) mantiene sin cambio.",
+        "C": "C) incrementa al doble.",
+        "D": "D) incrementa al cuádruple."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 10,
+      "subject": "Física",
+      "question": "Circuito con resistores R y 2R. Si circula 3I en una sección, ¿qué corriente circula por 2R?",
+      "options": {
+        "A": "A) 3I amperes.",
+        "B": "B) 0 amperes.",
+        "C": "C) I amperes.",
+        "D": "D) 2I amperes."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 13,
+      "subject": "Literatura",
+      "question": "Selecciona la opción que resume las características de la comedia.",
+      "options": {
+        "A": "A) Forma dramática con temática variada y desenlace alternativo.",
+        "B": "B) Forma dramática cuyos personajes viven adversidades cotidianas; su desenlace es feliz.",
+        "C": "C) Género con origen en rituales dionisíacos, personajes aristócratas, final funesto.",
+        "D": "D) Género que representa conflicto entre dioses y hombres; final puede ser feliz."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 20,
+      "subject": "Literatura",
+      "question": "El fragmento de Fromm es un ejemplo de ficha",
+      "options": {
+        "A": "A) hemerográfica.",
+        "B": "B) de síntesis.",
+        "C": "C) bibliográfica.",
+        "D": "D) de cita textual."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 22,
+      "subject": "Química",
+      "question": "¿Qué postulado de Dalton prevalece en nuestros días?",
+      "options": {
+        "A": "A) Los átomos permanecen indivisibles.",
+        "B": "B) Los elementos están formados por átomos diminutos.",
+        "C": "C) Los átomos de un mismo elemento son iguales en masa.",
+        "D": "D) Los átomos de dos elementos se combinan en distintas proporciones."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 33,
+      "subject": "Geografía",
+      "question": "Al viajar de Morelos a Guerrero, qué sierra se recorre.",
+      "options": {
+        "A": "A) Madre del Sur.",
+        "B": "B) Madre Occidental.",
+        "C": "C) Madre Oriental.",
+        "D": "D) de Guadalupe."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 34,
+      "subject": "Geografía",
+      "question": "Movimiento de agua oceánica que regula temperatura y favorece pesca.",
+      "options": {
+        "A": "A) Olas de oscilación.",
+        "B": "B) Corrientes frías.",
+        "C": "C) Olas de traslación.",
+        "D": "D) Mareas vivas."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 37,
+      "subject": "Geografía",
+      "question": "Región más poblada de México y más atrayente para la migración rural-urbana.",
+      "options": {
+        "A": "A) Centro Occidente.",
+        "B": "B) Noroeste.",
+        "C": "C) Centro Sur.",
+        "D": "D) Sureste."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 38,
+      "subject": "Geografía",
+      "question": "Políticamente la República Mexicana está integrada por",
+      "options": {
+        "A": "A) 28 entidades.",
+        "B": "B) 29 entidades.",
+        "C": "C) 31 entidades.",
+        "D": "D) 32 entidades."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 41,
+      "subject": "Matemáticas",
+      "question": "Un auto viaja 50.4 km con 6.3 litros. ¿Rendimiento en km/L?",
+      "options": {
+        "A": "A) 8 km/L",
+        "B": "B) 9 km/L",
+        "C": "C) 8.5 km/L",
+        "D": "D) 9.5 km/L"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 43,
+      "subject": "Matemáticas",
+      "question": "Resultado de (y – 1)(y + 2)",
+      "options": {
+        "A": "A) y² + y - 2",
+        "B": "B) y² - 2",
+        "C": "C) y² + 1",
+        "D": "D) y² + 2y - 1"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 44,
+      "subject": "Matemáticas",
+      "question": "Factoriza (x² - 7x + 12) / [(x² - 16)(x - 3)]",
+      "options": {
+        "A": "A) 1/(x - 3)",
+        "B": "B) 1/(x + 4)",
+        "C": "C) (x - 3)/(x + 4)",
+        "D": "D) (x - 4)/(x - 3)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 45,
+      "subject": "Matemáticas",
+      "question": "Resuelve: 2x - 4 = (5x + 6)/2",
+      "options": {
+        "A": "A) x = 14",
+        "B": "B) x = -14/9",
+        "C": "C) x = 14/9",
+        "D": "D) x = -14"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 46,
+      "subject": "Matemáticas",
+      "question": "Resuelve: 3 - x/(x + 2) = 7",
+      "options": {
+        "A": "A) – 8/5",
+        "B": "B) – 5/8",
+        "C": "C) 5/8",
+        "D": "D) 8/5"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 49,
+      "subject": "Matemáticas",
+      "question": "Soluciones de: y = x – 3 / 4x + y = 32",
+      "options": {
+        "A": "A) x = 5; y = 12",
+        "B": "B) x = 4; y = 16",
+        "C": "C) x = 8; y = 5",
+        "D": "D) x = 7; y = 4"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 50,
+      "subject": "Matemáticas",
+      "question": "Utiliza y = 3x² + 4x - 10 para determinar los valores de la tabla.",
+      "options": {
+        "A": "A) 3, 4",
+        "B": "B) –10, –3",
+        "C": "C) 3, 10",
+        "D": "D) –10, –12"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 51,
+      "subject": "Matemáticas",
+      "question": "¿Cuáles gráficas son crecientes en todo su dominio?",
+      "options": {
+        "A": "A) I y II",
+        "B": "B) I y IV",
+        "C": "C) II y IV",
+        "D": "D) I y III"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 52,
+      "subject": "Matemáticas",
+      "question": "¿Cuál es el valor de y en x = 1 si y = 5x⁴ + 3x?",
+      "options": {
+        "A": "A) 23",
+        "B": "B) 9",
+        "C": "C) 12",
+        "D": "D) 8"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 53,
+      "subject": "Matemáticas",
+      "question": "Si 2π rad = 360°, ¿cuánto equivale 7/8π rad?",
+      "options": {
+        "A": "A) 315°",
+        "B": "B) 145.5°",
+        "C": "C) 270°",
+        "D": "D) 157.5°"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 54,
+      "subject": "Matemáticas",
+      "question": "¿Cuál expresión representa la ley de senos?",
+      "options": {
+        "A": "A) sen A/a = sen B/b",
+        "B": "B) sen A/b = sen B/a",
+        "C": "C) sen A/c = sen B/a",
+        "D": "D) sen B/c = sen A/b"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "¿Qué ecuación describe la siguiente gráfica?",
+      "options": {
+        "A": "A) y = x - 1/2",
+        "B": "B) y = 3/2 x - 1/2",
+        "C": "C) y = -3/2 x + 1/2",
+        "D": "D) y = x/2 - 1"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 61,
+      "subject": "Matemáticas",
+      "question": "La expresión x = 4y² + 8y + 2 geométricamente representa una",
+      "options": {
+        "A": "A) circunferencia.",
+        "B": "B) hipérbola.",
+        "C": "C) elipse.",
+        "D": "D) parábola."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 63,
+      "subject": "Matemáticas",
+      "question": "Calcula la excentricidad de (x - 1)²/25 - (y + 4)²/9 = 1",
+      "options": {
+        "A": "A) √34/5",
+        "B": "B) √34/3",
+        "C": "C) 4/3",
+        "D": "D) 4/5"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 64,
+      "subject": "Matemáticas",
+      "question": "¿Cuáles opciones cumplen las condiciones de ecuación general de segundo grado? I. Línea recta. II. Triángulo. III. Cono. IV. Parábola.",
+      "options": {
+        "A": "A) I y II",
+        "B": "B) II y III",
+        "C": "C) II y IV",
+        "D": "D) I y IV"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 65,
+      "subject": "Español",
+      "question": "Elige la función de la lengua: 'Nuestras madres eran muy amigas. Nos llevaban juntas a la Alameda y a Chapultepec.'",
+      "options": {
+        "A": "A) Fática.",
+        "B": "B) Apelativa.",
+        "C": "C) Poética.",
+        "D": "D) Referencial."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 67,
+      "subject": "Español",
+      "question": "Identifica la forma del discurso: 'En verdad, el aspecto externo de Momo era un poco extraño...'",
+      "options": {
+        "A": "A) Argumentativa.",
+        "B": "B) Descriptiva.",
+        "C": "C) Narrativa.",
+        "D": "D) Expositiva."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 74,
+      "subject": "Español",
+      "question": "Identifica la oración principal: 'Aquella noche, en la hora de la rata, el emperador soñó que había salido de su palacio...'",
+      "options": {
+        "A": "A) Aquella noche, en la hora de la rata, el emperador soñó que había salido de su palacio.",
+        "B": "B) El emperador soñó que había salido de su palacio y caminaba por el jardín.",
+        "C": "C) En la hora de la rata, el emperador soñó.",
+        "D": "D) El emperador soñó que había salido de su palacio."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 75,
+      "subject": "Español",
+      "question": "Identifica los objetos circunstanciales: 'Anoche, la luna llena brillaba esplendorosamente.'",
+      "options": {
+        "A": "A) anoche — llena.",
+        "B": "B) anoche — esplendorosamente.",
+        "C": "C) llena — esplendorosamente.",
+        "D": "D) luna — llena."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "¿Cuál párrafo está escrito correctamente?",
+      "options": {
+        "A": "A) Los personajes de la jarcha son principalmente la muchacha...",
+        "B": "B) Los personajes de la jarcha son: principalmente la muchacha...",
+        "C": "C) Los personajes de la jarcha son: principalmente la muchacha y el habib o amigo, —cómo se denomina al amante—; también aparece...",
+        "D": "D) Los personajes de la jarcha son, principalmente, la muchacha y el habib o amigo (cómo se denomina al amante)..."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 82,
+      "subject": "Español",
+      "question": "¿Cuál enunciado está escrito correctamente?",
+      "options": {
+        "A": "A) Cubre el prerequisito y llegarás al puesto de vicerrector.",
+        "B": "B) Cubre el prerrequisito y llegarás al puesto de vicerrector.",
+        "C": "C) Cubre el prerrequisito y llegarás al puesto de vicerector.",
+        "D": "D) Cubre el prerequisito y llegarás al puesto de vicerector."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 87,
+      "subject": "Biología",
+      "question": "Saccharomyces cerevisiae es una levadura cuya reproducción asexual se efectúa por medio de",
+      "options": {
+        "A": "A) gemación.",
+        "B": "B) conjugación.",
+        "C": "C) bipartición.",
+        "D": "D) esporulación."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 90,
+      "subject": "Biología",
+      "question": "En la actualidad, es la teoría más aceptada sobre el origen de los seres vivos.",
+      "options": {
+        "A": "A) Creacionista.",
+        "B": "B) Endosimbiótica.",
+        "C": "C) Vitalista.",
+        "D": "D) Quimiosintética."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 92,
+      "subject": "Biología",
+      "question": "El primer paso del flujo de energía en un ecosistema lo realizan organismos como",
+      "options": {
+        "A": "A) bacterias y hongos.",
+        "B": "B) hongos y algas.",
+        "C": "C) pastos y hongos.",
+        "D": "D) pastos y algas."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 94,
+      "subject": "Historia Universal",
+      "question": "Los impuestos al té y la Guerra de los Siete Años fueron causas externas de la",
+      "options": {
+        "A": "A) Revolución Gloriosa.",
+        "B": "B) Revolución Francesa.",
+        "C": "C) Guerra de Secesión.",
+        "D": "D) Independencia de las Trece Colonias."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 107,
+      "subject": "Historia de México",
+      "question": "La conquista militar culminó con la captura del tlatoani llamado",
+      "options": {
+        "A": "A) Netzahualcóyotl.",
+        "B": "B) Cuauhtémoc.",
+        "C": "C) Cuitláhuac.",
+        "D": "D) Moctezuma."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 108,
+      "subject": "Historia de México",
+      "question": "Son dos causas externas de la Independencia de la Nueva España.",
+      "options": {
+        "A": "A) Invasión napoleónica y difusión de revoluciones liberales.",
+        "B": "B) Reformas Borbónicas y abolición de la esclavitud.",
+        "C": "C) Invasión napoleónica e Independencia de las Trece Colonias.",
+        "D": "D) Difusión de revoluciones liberales y abolición de la esclavitud."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 109,
+      "subject": "Historia de México",
+      "question": "Acontecimientos importantes de la Independencia en Guadalajara.",
+      "options": {
+        "A": "A) El sitio de Cuautla y el estandarte de Guadalupe.",
+        "B": "B) El grito de Dolores y la Constitución de Apatzingán.",
+        "C": "C) La abolición de la esclavitud y el 'Despertador Americano'.",
+        "D": "D) La organización en Querétaro y la toma del Cerro de los Remedios."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 115,
+      "subject": "Historia de México",
+      "question": "La creación de la SEP y los Acuerdos de Bucareli fueron acciones de",
+      "options": {
+        "A": "A) Adolfo de la Huerta.",
+        "B": "B) Abelardo L. Rodríguez.",
+        "C": "C) Venustiano Carranza.",
+        "D": "D) Álvaro Obregón."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 116,
+      "subject": "Historia de México",
+      "question": "Una acción del periodo conocido como el Maximato fue la",
+      "options": {
+        "A": "A) Universidad obtuvo su autonomía.",
+        "B": "B) creación del PRI.",
+        "C": "C) creación del Banco de México.",
+        "D": "D) concesión del voto a la mujer."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 117,
+      "subject": "Historia de México",
+      "question": "Documento que proyectó apoyo a los ejidos y respeto al salario mínimo.",
+      "options": {
+        "A": "A) Acuerdos de Bucareli.",
+        "B": "B) Pacto de la Ciudadela.",
+        "C": "C) Plan Sexenal.",
+        "D": "D) Plan de la Acción Campesina."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 119,
+      "subject": "Historia de México",
+      "question": "Al crecimiento económico después de la Segunda Guerra Mundial se le conoce como el",
+      "options": {
+        "A": "A) liberalismo económico.",
+        "B": "B) estado de bienestar.",
+        "C": "C) desarrollo compartido.",
+        "D": "D) milagro mexicano."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 120,
+      "subject": "Historia de México",
+      "question": "Política económica de 1970 a 1982.",
+      "options": {
+        "A": "A) Sustitución de importaciones.",
+        "B": "B) Estado de Bienestar.",
+        "C": "C) Desarrollo estabilizador.",
+        "D": "D) Desarrollo compartido."
+      },
+      "correct_answer": "D"
+    }
+  ]
 }

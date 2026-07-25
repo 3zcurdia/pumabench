@@ -61,5 +61,175 @@
       "correct": 9,
       "percentage": 90.0
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 7,
+      "subject": "Física",
+      "question": "Las olas de mayor tamaño en la playa se deben a que las olas se",
+      "options": {
+        "A": "A) refractan.",
+        "B": "B) polarizan.",
+        "C": "C) reflejan.",
+        "D": "D) superponen."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 8,
+      "subject": "Física",
+      "question": "¿Cuál es la longitud de onda de la onda estacionaria?",
+      "options": {
+        "A": "A) 4.5 cm/ciclo",
+        "B": "B) 90 cm/ciclo",
+        "C": "C) 9 cm/ciclo",
+        "D": "D) 18 cm/ciclo"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 10,
+      "subject": "Física",
+      "question": "Circuito con resistores R y 2R. Si circula 3I en una sección, ¿qué corriente circula por 2R?",
+      "options": {
+        "A": "A) 3I amperes.",
+        "B": "B) 0 amperes.",
+        "C": "C) I amperes.",
+        "D": "D) 2I amperes."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 22,
+      "subject": "Química",
+      "question": "¿Qué postulado de Dalton prevalece en nuestros días?",
+      "options": {
+        "A": "A) Los átomos permanecen indivisibles.",
+        "B": "B) Los elementos están formados por átomos diminutos.",
+        "C": "C) Los átomos de un mismo elemento son iguales en masa.",
+        "D": "D) Los átomos de dos elementos se combinan en distintas proporciones."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 36,
+      "subject": "Geografía",
+      "question": "Es una causa principal de la contaminación del agua.",
+      "options": {
+        "A": "A) Los desechos orgánicos.",
+        "B": "B) La polución agroquímica.",
+        "C": "C) Los derrames de petróleo.",
+        "D": "D) La deforestación."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 51,
+      "subject": "Matemáticas",
+      "question": "¿Cuáles gráficas son crecientes en todo su dominio?",
+      "options": {
+        "A": "A) I y II",
+        "B": "B) I y IV",
+        "C": "C) II y IV",
+        "D": "D) I y III"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "¿Qué ecuación describe la siguiente gráfica?",
+      "options": {
+        "A": "A) y = x - 1/2",
+        "B": "B) y = 3/2 x - 1/2",
+        "C": "C) y = -3/2 x + 1/2",
+        "D": "D) y = x/2 - 1"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 71,
+      "subject": "Español",
+      "question": "A partir del texto se infiere que la concha de mar tiene las siguientes características.",
+      "options": {
+        "A": "A) Moldeables y duraderas.",
+        "B": "B) Maleables y efímeras.",
+        "C": "C) Lujosas y endebles.",
+        "D": "D) Exóticas e inefables."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 72,
+      "subject": "Español",
+      "question": "¿Cuál es el interés del arqueólogo Adrián Velázquez Castro al crear el taller?",
+      "options": {
+        "A": "A) Dar a conocer los oficios prehispánicos.",
+        "B": "B) Continuar con la tradición mexica.",
+        "C": "C) Perfeccionar el trabajo manual indígena.",
+        "D": "D) Rescatar la manufactura precolombina."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 74,
+      "subject": "Español",
+      "question": "Identifica la oración principal: 'Aquella noche, en la hora de la rata, el emperador soñó que había salido de su palacio...'",
+      "options": {
+        "A": "A) Aquella noche, en la hora de la rata, el emperador soñó que había salido de su palacio.",
+        "B": "B) El emperador soñó que había salido de su palacio y caminaba por el jardín.",
+        "C": "C) En la hora de la rata, el emperador soñó.",
+        "D": "D) El emperador soñó que había salido de su palacio."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "¿Cuál párrafo está escrito correctamente?",
+      "options": {
+        "A": "A) Los personajes de la jarcha son principalmente la muchacha...",
+        "B": "B) Los personajes de la jarcha son: principalmente la muchacha...",
+        "C": "C) Los personajes de la jarcha son: principalmente la muchacha y el habib o amigo, —cómo se denomina al amante—; también aparece...",
+        "D": "D) Los personajes de la jarcha son, principalmente, la muchacha y el habib o amigo (cómo se denomina al amante)..."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 80,
+      "subject": "Español",
+      "question": "Selecciona la opción que contenga HOMÓFONOS.",
+      "options": {
+        "A": "A) Sebo — cebo",
+        "B": "B) Copiar — copear",
+        "C": "C) Arriar — arrear",
+        "D": "D) Trivial — tribal"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 108,
+      "subject": "Historia de México",
+      "question": "Son dos causas externas de la Independencia de la Nueva España.",
+      "options": {
+        "A": "A) Invasión napoleónica y difusión de revoluciones liberales.",
+        "B": "B) Reformas Borbónicas y abolición de la esclavitud.",
+        "C": "C) Invasión napoleónica e Independencia de las Trece Colonias.",
+        "D": "D) Difusión de revoluciones liberales y abolición de la esclavitud."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 116,
+      "subject": "Historia de México",
+      "question": "Una acción del periodo conocido como el Maximato fue la",
+      "options": {
+        "A": "A) Universidad obtuvo su autonomía.",
+        "B": "B) creación del PRI.",
+        "C": "C) creación del Banco de México.",
+        "D": "D) concesión del voto a la mujer."
+      },
+      "correct_answer": "A"
+    }
+  ]
 }

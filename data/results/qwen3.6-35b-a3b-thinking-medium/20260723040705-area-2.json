@@ -61,5 +61,103 @@
       "correct": 12,
       "percentage": 92.31
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 34,
+      "subject": "Química",
+      "question": "La siguiente estructura representa a un",
+      "options": {
+        "A": "A) alqueno.",
+        "B": "B) aromático.",
+        "C": "C) alquino.",
+        "D": "D) alcano."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 42,
+      "subject": "Geografía",
+      "question": "Las dos áreas de mayor concentración de población en el mundo son",
+      "options": {
+        "A": "A) Asia Oriental y Europa Occidental.",
+        "B": "B) Asia Occidental y Europa Occidental.",
+        "C": "C) Asia Meridional y Europa Occidental.",
+        "D": "D) Asia Meridional y Europa Meridional."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 50,
+      "subject": "Matemáticas",
+      "question": "Selecciona la desigualdad que tiene por solución [1/3, ∞)",
+      "options": {
+        "A": "A) 3x - 1 ≥ 0",
+        "B": "B) 3x - 1 ≤ 0",
+        "C": "C) -3x + 1 ≥ 0",
+        "D": "D) -3x + 1 ≤ 0"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 52,
+      "subject": "Matemáticas",
+      "question": "La función de la gráfica es",
+      "options": {
+        "A": "A) f(x) = -√(8x - 16)",
+        "B": "B) f(x) = +√(8x - 16)",
+        "C": "C) f(x) = -√(-8x + 16)",
+        "D": "D) f(x) = +√(-8x + 16)"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "La ecuación ordinaria de la mediatriz del triángulo trazada desde el lado AB es",
+      "options": {
+        "A": "A) y = -3x + 6",
+        "B": "B) y = -3x + 7",
+        "C": "C) y = -2x + 5",
+        "D": "D) y = -2x + 6"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "El personaje sintió un gran alivio al",
+      "options": {
+        "A": "A) escuchar que su mujer abría la puerta.",
+        "B": "B) regresar al sillón.",
+        "C": "C) llamar a su médico.",
+        "D": "D) sentir que su mujer lo levantaba."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 85,
+      "subject": "Español",
+      "question": "Selecciona la opción con palabras homófonas.",
+      "options": {
+        "A": "A) ay – hay – ahí.",
+        "B": "B) este – esté.",
+        "C": "C) hacía – Asia.",
+        "D": "D) a – ha – ah."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 118,
+      "subject": "Historia de México",
+      "question": "La trascendencia histórica del Plan Sexenal se debe a que",
+      "options": {
+        "A": "A) suscribió la paz entre facciones.",
+        "B": "B) dio voz a obreros y campesinos.",
+        "C": "C) estableció un modelo de desarrollo económico.",
+        "D": "D) permitió la reelección de Obregón."
+      },
+      "correct_answer": "C"
+    }
+  ]
 }

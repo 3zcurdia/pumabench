@@ -61,5 +61,235 @@
       "correct": 10,
       "percentage": 100.0
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 3,
+      "subject": "Física",
+      "question": "3. La siguiente figura ilustra el momento preciso en el que un bate golpea una pelota. ¿Cuál de las imágenes muestra los vectores que representan la Tercera Ley de Newton? Considera: \\(F_{\\frac{P}{B}}\\) = Fuerza de la pelota sobre el bate. \\(F_{\\frac{B}{P}}\\) = Fuerza del bate sobre la pelota. [imagen]",
+      "options": {
+        "A": "A) [imagen]",
+        "B": "B) [imagen]",
+        "C": "C) [imagen]",
+        "D": "D) [imagen]"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 8,
+      "subject": "Física",
+      "question": "8. La interferencia de dos ondas mecánicas puede generar franjas claras y obscuras. Lo anterior se debe a la conservación de la",
+      "options": {
+        "A": "A) polarización.",
+        "B": "B) difracción.",
+        "C": "C) energía",
+        "D": "D) longitud de onda."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 12,
+      "subject": "Física",
+      "question": "12. Determina la resistencia total del circuito que se representa en la imagen. [imagen]",
+      "options": {
+        "A": "A) \\(2.41 \\, \\Omega\\)",
+        "B": "B) \\(4.4 \\, \\Omega\\)",
+        "C": "C) \\(12 \\, \\Omega\\)",
+        "D": "D) \\(1.90 \\, \\Omega\\)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 22,
+      "subject": "Literatura",
+      "question": "22. Los autores que conforman una corriente literaria",
+      "options": {
+        "A": "A) comparten características en cuanto a su forma de escribir y el interés por desarrollar temas similares; además, viven en una misma época.",
+        "B": "B) heredan el estilo de quienes los precedieron, comparten una forma de escribir y abordan un género determinado, como la dramaturgia o la novela.",
+        "C": "C) heredan el estilo de quienes los precedieron, comparten una forma de escribir y muestran interés por desarrollar temas similares.",
+        "D": "D) abordan un género determinado, como la dramaturgia o la novela, comparten el interés por desarrollar temas similares y viven en una misma época."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 26,
+      "subject": "Literatura",
+      "question": "26. ¿De qué tipo es la siguiente ficha? Agustín López Murguía, \"No pegues tu chicle. Plaga contaminante\", ¿Cómo ves?, año 7, no. 81, Revista de Divulgación de la Ciencia de la UNAM, pp. 10–14.",
+      "options": {
+        "A": "A) Bibliográfica.",
+        "B": "B) Hemerográfica.",
+        "C": "C) De cita textual.",
+        "D": "D) De síntesis."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 42,
+      "subject": "Geografía",
+      "question": "42. La marea negra afecta principalmente a la vida en los",
+      "options": {
+        "A": "A) lagos.",
+        "B": "B) rios.",
+        "C": "C) manantiales.",
+        "D": "D) océanos."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 54,
+      "subject": "Matemáticas",
+      "question": "54. Soluciona el sistema de ecuaciones. \\[ \\left\\{ \\begin{aligned} 5x + 2y - z &= -7 \\\\ x - 2y + 2z &= 0 \\\\ 3y + z &= 17 \\end{aligned} \\right. \\]",
+      "options": {
+        "A": "A) \\(x = -1,\\ y = 5,\\ z = 2\\)",
+        "B": "B) \\(x = 1,\\ y = 5,\\ z = 2\\)",
+        "C": "C) \\(x = -1,\\ y = 2,\\ z = 5\\)",
+        "D": "D) \\(x = 1,\\ y = 2,\\ z = 5\\)"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 60,
+      "subject": "Matemáticas",
+      "question": "60. Determina los puntos por donde pasa una recta perpendicular a la gráfica siguiente. [imagen]",
+      "options": {
+        "A": "A) (0, 0) y (-2, -3)",
+        "B": "B) (0, 0) y (-2, 1)",
+        "C": "C) (0, 0) y (1, -3)",
+        "D": "D) (0, 0) y (1, 3)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 69,
+      "subject": "Matemáticas",
+      "question": "69. En la siguiente gráfica de la función f(x). ¿En qué intervalo la derivada de f es negativa? [imagen]",
+      "options": {
+        "A": "A) (-2, 4)",
+        "B": "B) [2, 4)",
+        "C": "C) (2, 4]",
+        "D": "D) [-2, 4]"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 79,
+      "subject": "Español",
+      "question": "79. La frase: Como el cazador, sólo alimentaba un deseo: conseguir la mejor presa; como el sabueso, únicamente aspiraba a hincar el diente en la carne más tierna. Se refiere a que algunas personas",
+      "options": {
+        "A": "A) Aparentan tener una buena educación, pero son capaces de comportarse como bestias feroces e inclusive consumar un crimen si así fuera necesario.",
+        "B": "B) Están desesperadas por salir de sus casas, ir a los almacenes de prestigio y gastar lo que han ahorrado para la ocasión.",
+        "C": "C) Asisten a los almacenes y, en otras ocasiones, recorren el zoológico para observar el comportamiento de diferentes especies salvajes.",
+        "D": "D) Pierden la noción de los códigos de conducta para conseguir el mejor artículo rebajado antes que alguien más lo obtenga."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 80,
+      "subject": "Español",
+      "question": "80. El texto se titula Metamorfosis porque",
+      "options": {
+        "A": "A) detalla el cambio de niña a mujer.",
+        "B": "B) una mujer transforma su conducta.",
+        "C": "C) habla del origen de las transformaciones.",
+        "D": "D) la protagonista cambia de parecer."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 85,
+      "subject": "Español",
+      "question": "85. Selecciona el enunciado que está redactado apropiadamente.",
+      "options": {
+        "A": "A) Se observa el patio techado. No es como el de las otras escuelas, al contrario, la luz del sol no entra, sólo se refleja y el calor irradia.",
+        "B": "B) Se puede observar el patio, no es como el de otras escuelas porque está techado y el sol ni entra directamente, sólo irradia calor.",
+        "C": "C) Se puede apreciar que el patio no es como el de otras escuelas, pues está techado debido a que la luz del sol sólo es reflejada en las aulas que lo rodean.",
+        "D": "D) Se puede apreciar el patio que no es como el de las otras escuelas, pues del sol no se conoce más que la luz y el calor que irradia."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 88,
+      "subject": "Español",
+      "question": "88. Sinónimo de AVATAR",
+      "options": {
+        "A": "A) Destino.",
+        "B": "B) Cambio.",
+        "C": "C) Conflicto.",
+        "D": "D) Aflicción."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 99,
+      "subject": "Biología",
+      "question": "99. En la actualidad, es la teoría más aceptada sobre el origen de los seres vivos.",
+      "options": {
+        "A": "A) Creacionista.",
+        "B": "B) Endosimbiótica.",
+        "C": "C) Vitalista.",
+        "D": "D) Quimiosíntetica."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 105,
+      "subject": "Historia Universal",
+      "question": "105. Una consecuencia de la Primera Guerra Mundial fue la",
+      "options": {
+        "A": "A) creación de la Organización de las Naciones Unidas.",
+        "B": "B) formación de dos bloques: capitalista y socialista.",
+        "C": "C) desintegración del Imperio austrohúngaro.",
+        "D": "D) desintegración del bloque soviético."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 110,
+      "subject": "Historia Universal",
+      "question": "110. Los enormes presupuestos militares por la Guerra Fría y el predominio de Estados burocráticos con gasto excesivo fueron causas de la",
+      "options": {
+        "A": "A) invasión a Medio Oriente.",
+        "B": "B) caída del Bloque Soviético.",
+        "C": "C) formación de la OTAN.",
+        "D": "D) formación del Pacto de Varsovia."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 112,
+      "subject": "Historia de México",
+      "question": "112. Durante la etapa de iniciación de la Independencia de la Nueva España, Miguel Hidalgo promulgó la ________, y José María Morelos la ________, durante la organización del movimiento armado.",
+      "options": {
+        "A": "A) Constitución de Apatzingán — abolición de la esclavitud",
+        "B": "B) abolición de las castas — Constitución de Apatzingán",
+        "C": "C) Constitución de Apatzingán — abolición de las castas",
+        "D": "D) abolición de la esclavitud — Constitución de Apatzingán"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 113,
+      "subject": "Historia de México",
+      "question": "113. Ordena cronológicamente los siguientes acontecimientos. I. Primera intervención francesa. II. Guerra con Estados Unidos. III. Independencia de Texas. IV. Intento de reconquista española.",
+      "options": {
+        "A": "A) IV, I, III y II",
+        "B": "B) I, IV, II y III",
+        "C": "C) IV, III, I y II",
+        "D": "D) I, II, IV y III"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 119,
+      "subject": "Historia de México",
+      "question": "119. La posición de México ante la Segunda Guerra Mundial fue",
+      "options": {
+        "A": "A) romper relaciones diplomáticas con los Aliados.",
+        "B": "B) no intervenir en ningún bando.",
+        "C": "C) vender petróleo a ambos contendientes.",
+        "D": "D) romper relaciones con las potencias del Eje."
+      },
+      "correct_answer": "D"
+    }
+  ]
 }

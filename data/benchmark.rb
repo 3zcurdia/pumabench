@@ -375,6 +375,7 @@ def pct(c, t) = t.zero? ? 0.0 : (100.0 * c / t).round(2)
 
 def score_csv(q_by_number, csv_path)
   correct = total = 0
+  failed_question = []
   subjects = Hash.new { |h, k| h[k] = { questions: 0, correct: 0 } }
   CSV.foreach(csv_path, headers: true) do |row|
     q = q_by_number[row["number"].to_i]
@@ -385,9 +386,11 @@ def score_csv(q_by_number, csv_path)
     if row["answer"] == q["correct_answer"]
       subjects[s][:correct] += 1
       correct += 1
+    else
+      failed_question << q
     end
   end
-  [correct, total, subjects]
+  [correct, total, subjects, failed_question]
 end
 
 def write_json(path, payload)
@@ -397,20 +400,21 @@ def write_json(path, payload)
   File.write(path, "#{JSON.pretty_generate(payload)}\n")
 end
 
-def build_area_payload(area_data, model, timestamp, correct, total, subjects, effort, id: nil, timestamp_override: nil)
+def build_area_payload(area_data, model, timestamp, correct, total, subjects, effort, model_id, failed_questions, timestamp_override: nil)
   subjects_out = ALL_SUBJECTS.to_h do |name|
     st = subjects[name] || { questions: 0, correct: 0 }
     [name, st.merge(percentage: pct(st[:correct], st[:questions]))]
   end
   {
-    "id"        => id,
+    "id"        => model_id,
     "model"     => model,
     "effort"    => effort.nil? ? "none" : effort.to_s,
     "timestamp" => timestamp_override || timestamp,
     "area"      => area_data["area"],
     "area_name" => area_data["area_name"],
     "total"     => { "questions" => total, "correct" => correct, "percentage" => pct(correct, total) },
-    "subjects"  => subjects_out
+    "subjects"  => subjects_out,
+    "failed_questions" => failed_questions
   }
 end
 
@@ -439,15 +443,15 @@ def build_aggregates(model_filter: nil, timestamp_override: nil, model_id: nil)
       model     = File.basename(File.dirname(csv_path))
       _, effort = model.split("-thinking-", 2)
       timestamp = File.basename(csv_path, ".csv").sub(/-area-\d+\z/, "")
-      correct, total, subjects = score_csv(q_by_number, csv_path)
+      correct, total, subjects, failed_questions = score_csv(q_by_number, csv_path)
 
       id = model_id
-      if id.nil?
+      if model_id.nil?
         record = find_model_record_by_slug(registry, model.split("-thinking-", 2).first)
         id = record && record["id"]
       end
 
-      payload = build_area_payload(area_data, model, timestamp, correct, total, subjects, effort, id: id, timestamp_override: timestamp_override)
+      payload = build_area_payload(area_data, model, timestamp, correct, total, subjects, effort, id, failed_questions, timestamp_override: timestamp_override)
       out = File.join(RESULTS_DIR, model, "#{timestamp}-area-#{area_number}.json")
       write_json(out, payload)
       puts "Model #{model} area #{area_number} (#{timestamp}): #{correct}/#{total}"

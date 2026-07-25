@@ -61,5 +61,235 @@
       "correct": 11,
       "percentage": 84.62
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 1,
+      "subject": "Física",
+      "question": "Durante 15 segundos un motociclista se desplaza a 20 m/s, después, durante 20 segundos se mueve a 15 m/s, posteriormente se detiene durante 25 segundos y, finalmente, durante 18 segundos se traslada a 10 m/s. Con base en estos datos, la rapidez media es de",
+      "options": {
+        "A": "A) 25 m/s",
+        "B": "B) 15 m/s",
+        "C": "C) 20 m/s",
+        "D": "D) 10 m/s"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 22,
+      "subject": "Literatura",
+      "question": "La paráfrasis es un proceso de carácter",
+      "options": {
+        "A": "A) descriptivo.",
+        "B": "B) argumentativo.",
+        "C": "C) expositivo.",
+        "D": "D) interpretativo."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 23,
+      "subject": "Química",
+      "question": "En general, en la tabla periódica los elementos con mayor carácter metálico se ubican en",
+      "options": {
+        "A": "A) los periodos superiores.",
+        "B": "B) los periodos inferiores.",
+        "C": "C) las columnas de la izquierda.",
+        "D": "D) las columnas de la derecha."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 34,
+      "subject": "Química",
+      "question": "La siguiente estructura representa a un",
+      "options": {
+        "A": "A) alqueno.",
+        "B": "B) aromático.",
+        "C": "C) alquino.",
+        "D": "D) alcano."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 43,
+      "subject": "Geografía",
+      "question": "Una de las principales causas de la separación de Ucrania de la URSS fue",
+      "options": {
+        "A": "A) la explosión de Chernóbil.",
+        "B": "B) el conflicto en Chechenia.",
+        "C": "C) la reestructuración económica de Gorbachov.",
+        "D": "D) el enfrentamiento en la Guerra Fría."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 50,
+      "subject": "Matemáticas",
+      "question": "Selecciona la desigualdad que tiene por solución [1/3, ∞)",
+      "options": {
+        "A": "A) 3x - 1 ≥ 0",
+        "B": "B) 3x - 1 ≤ 0",
+        "C": "C) -3x + 1 ≥ 0",
+        "D": "D) -3x + 1 ≤ 0"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 52,
+      "subject": "Matemáticas",
+      "question": "La función de la gráfica es",
+      "options": {
+        "A": "A) f(x) = -√(8x - 16)",
+        "B": "B) f(x) = +√(8x - 16)",
+        "C": "C) f(x) = -√(-8x + 16)",
+        "D": "D) f(x) = +√(-8x + 16)"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "La ecuación ordinaria de la mediatriz del triángulo trazada desde el lado AB es",
+      "options": {
+        "A": "A) y = -3x + 6",
+        "B": "B) y = -3x + 7",
+        "C": "C) y = -2x + 5",
+        "D": "D) y = -2x + 6"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 74,
+      "subject": "Español",
+      "question": "En el texto 'Tiempo libre' de Guillermo Samperio, el clímax se da cuando",
+      "options": {
+        "A": "A) la esposa toma el periódico.",
+        "B": "B) el personaje corrió hacia la puerta.",
+        "C": "C) el personaje cayó estrepitosamente.",
+        "D": "D) el personaje llamó a las oficinas del periódico."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 78,
+      "subject": "Español",
+      "question": "Con el texto, el autor intenta",
+      "options": {
+        "A": "A) denunciar los efectos nocivos del papel periódico.",
+        "B": "B) narrar la despersonalización de un individuo obsesionado con las noticias.",
+        "C": "C) describir los síntomas de la intoxicación por tinta.",
+        "D": "D) mostrar el malestar de un individuo al leer el periódico."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 84,
+      "subject": "Español",
+      "question": "Relación de analogía: discurso barroco → aburrimiento / bostezo.",
+      "options": {
+        "A": "A) Ira – agresión.",
+        "B": "B) Diversión – sonrisa.",
+        "C": "C) Distracción – error.",
+        "D": "D) Impaciencia – fastidio."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 85,
+      "subject": "Español",
+      "question": "Selecciona la opción con palabras homófonas.",
+      "options": {
+        "A": "A) ay – hay – ahí.",
+        "B": "B) este – esté.",
+        "C": "C) hacía – Asia.",
+        "D": "D) a – ha – ah."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 86,
+      "subject": "Español",
+      "question": "Completa: Recuerda que los ____ plásticos no son ____ fácilmente por las máquinas trituradoras.",
+      "options": {
+        "A": "A) deshechos – deshechos",
+        "B": "B) desechos – desechos",
+        "C": "C) desechos – deshechos",
+        "D": "D) deshechos – desechos"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 87,
+      "subject": "Español",
+      "question": "Selecciona la opción que usa correctamente las letras mayúsculas.",
+      "options": {
+        "A": "A) Ante los Príncipes... la Muestra... la Arquitecta... la Galería.",
+        "B": "B) Ante los príncipes... la muestra... la Arquitecta... la galería.",
+        "C": "C) Ante los príncipes... la muestra... la arquitecta... la Galería.",
+        "D": "D) Ante los Príncipes... la muestra... El Trabajo... la galería."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 107,
+      "subject": "Historia Universal",
+      "question": "Ordena cronológicamente: I. Hitler invade Polonia. II. Desembarco en Normandía. III. Bombas atómicas. IV. Alemanes toman París. V. Ataque a Pearl Harbor.",
+      "options": {
+        "A": "A) I, IV, V, II y III",
+        "B": "B) II, V, I, III y IV",
+        "C": "C) III, I, IV, V y II",
+        "D": "D) IV, III, I, II y V"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 108,
+      "subject": "Historia Universal",
+      "question": "Periodo de enfrentamientos indirectos entre URSS y EUA se conoce como",
+      "options": {
+        "A": "A) Luchas de liberación Nacional.",
+        "B": "B) Guerra Fría.",
+        "C": "C) Era Neoliberal.",
+        "D": "D) Neoimperialismo Nacionalista."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 112,
+      "subject": "Historia de México",
+      "question": "¿En qué momento se promulgó la Constitución de Apatzingán?",
+      "options": {
+        "A": "A) La organización.",
+        "B": "B) El inicio.",
+        "C": "C) La consumación.",
+        "D": "D) La guerrilla insurgente."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 113,
+      "subject": "Historia de México",
+      "question": "El gobierno de Anastasio Bustamante para mejorar la economía",
+      "options": {
+        "A": "A) estableció el impuesto por puertas y ventanas y fraccionó latifundios.",
+        "B": "B) suspendió el diezmo y subastó propiedades del clero.",
+        "C": "C) promulgó el Banco del Avío.",
+        "D": "D) estimuló la agricultura."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 120,
+      "subject": "Historia de México",
+      "question": "La implementación de políticas neoliberales en México inició con el gobierno de",
+      "options": {
+        "A": "A) Luis Echeverría.",
+        "B": "B) José López Portillo.",
+        "C": "C) Miguel de la Madrid.",
+        "D": "D) Ernesto Zedillo."
+      },
+      "correct_answer": "C"
+    }
+  ]
 }

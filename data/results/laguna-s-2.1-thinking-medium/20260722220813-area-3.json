@@ -61,5 +61,223 @@
       "correct": 9,
       "percentage": 90.0
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 3,
+      "subject": "Física",
+      "question": "Sobre un cuerpo se aplicaron fuerzas horizontales provocando distintas aceleraciones. ¿Cuál es la masa del objeto?",
+      "options": {
+        "A": "A) 1.6 kg.",
+        "B": "B) 2.5 kg",
+        "C": "C) 3.2 kg",
+        "D": "D) 4.0 kg"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 4,
+      "subject": "Física",
+      "question": "Una bala de 7.0 kg se dispara a 120 m/s. ¿Cuánta Ec tiene al salir y Ep en el punto más alto?",
+      "options": {
+        "A": "A) Ec = 50,400 J y Ep = 50,400 J",
+        "B": "B) Ec = 420 J y Ep = 420 J",
+        "C": "C) Ec = 50,400 J y Ep = 0 J",
+        "D": "D) Ec = 420 J y Ep = 0 J"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 8,
+      "subject": "Física",
+      "question": "¿Cuál es la longitud de onda de la onda estacionaria?",
+      "options": {
+        "A": "A) 4.5 cm/ciclo",
+        "B": "B) 90 cm/ciclo",
+        "C": "C) 9 cm/ciclo",
+        "D": "D) 18 cm/ciclo"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 10,
+      "subject": "Física",
+      "question": "Circuito con resistores R y 2R. Si circula 3I en una sección, ¿qué corriente circula por 2R?",
+      "options": {
+        "A": "A) 3I amperes.",
+        "B": "B) 0 amperes.",
+        "C": "C) I amperes.",
+        "D": "D) 2I amperes."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 22,
+      "subject": "Química",
+      "question": "¿Qué postulado de Dalton prevalece en nuestros días?",
+      "options": {
+        "A": "A) Los átomos permanecen indivisibles.",
+        "B": "B) Los elementos están formados por átomos diminutos.",
+        "C": "C) Los átomos de un mismo elemento son iguales en masa.",
+        "D": "D) Los átomos de dos elementos se combinan en distintas proporciones."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "¿Qué ecuación describe la siguiente gráfica?",
+      "options": {
+        "A": "A) y = x - 1/2",
+        "B": "B) y = 3/2 x - 1/2",
+        "C": "C) y = -3/2 x + 1/2",
+        "D": "D) y = x/2 - 1"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 70,
+      "subject": "Español",
+      "question": "La frase 'inframundo acuático' se refiere a que ________ en el mundo de los muertos.",
+      "options": {
+        "A": "A) el elemento fuego no es predominante",
+        "B": "B) el ser es sagrado",
+        "C": "C) existe el agua como expresión de vida",
+        "D": "D) hay ríos y lagos"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 72,
+      "subject": "Español",
+      "question": "¿Cuál es el interés del arqueólogo Adrián Velázquez Castro al crear el taller?",
+      "options": {
+        "A": "A) Dar a conocer los oficios prehispánicos.",
+        "B": "B) Continuar con la tradición mexica.",
+        "C": "C) Perfeccionar el trabajo manual indígena.",
+        "D": "D) Rescatar la manufactura precolombina."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 74,
+      "subject": "Español",
+      "question": "Identifica la oración principal: 'Aquella noche, en la hora de la rata, el emperador soñó que había salido de su palacio...'",
+      "options": {
+        "A": "A) Aquella noche, en la hora de la rata, el emperador soñó que había salido de su palacio.",
+        "B": "B) El emperador soñó que había salido de su palacio y caminaba por el jardín.",
+        "C": "C) En la hora de la rata, el emperador soñó.",
+        "D": "D) El emperador soñó que había salido de su palacio."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "¿Cuál párrafo está escrito correctamente?",
+      "options": {
+        "A": "A) Los personajes de la jarcha son principalmente la muchacha...",
+        "B": "B) Los personajes de la jarcha son: principalmente la muchacha...",
+        "C": "C) Los personajes de la jarcha son: principalmente la muchacha y el habib o amigo, —cómo se denomina al amante—; también aparece...",
+        "D": "D) Los personajes de la jarcha son, principalmente, la muchacha y el habib o amigo (cómo se denomina al amante)..."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 81,
+      "subject": "Español",
+      "question": "Completa: Más ________ de la ________ metálica vimos ________.",
+      "options": {
+        "A": "A) ayá — malla — hienas",
+        "B": "B) ayá — malla — yenas",
+        "C": "C) allá — malla — hienas",
+        "D": "D) allá — maya — llenas"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 104,
+      "subject": "Historia Universal",
+      "question": "Países asiáticos que se independizaron a mediados del siglo XX.",
+      "options": {
+        "A": "A) India e Irán.",
+        "B": "B) Timor y Angola.",
+        "C": "C) Kenia e Irak.",
+        "D": "D) Congo y Siria."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 108,
+      "subject": "Historia de México",
+      "question": "Son dos causas externas de la Independencia de la Nueva España.",
+      "options": {
+        "A": "A) Invasión napoleónica y difusión de revoluciones liberales.",
+        "B": "B) Reformas Borbónicas y abolición de la esclavitud.",
+        "C": "C) Invasión napoleónica e Independencia de las Trece Colonias.",
+        "D": "D) Difusión de revoluciones liberales y abolición de la esclavitud."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 109,
+      "subject": "Historia de México",
+      "question": "Acontecimientos importantes de la Independencia en Guadalajara.",
+      "options": {
+        "A": "A) El sitio de Cuautla y el estandarte de Guadalupe.",
+        "B": "B) El grito de Dolores y la Constitución de Apatzingán.",
+        "C": "C) La abolición de la esclavitud y el 'Despertador Americano'.",
+        "D": "D) La organización en Querétaro y la toma del Cerro de los Remedios."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 113,
+      "subject": "Historia de México",
+      "question": "El Círculo Liberal de Camilo Arriaga en 1901 tuvo como finalidad",
+      "options": {
+        "A": "A) fundar oposición a la dictadura de Díaz.",
+        "B": "B) limitar la participación maderista.",
+        "C": "C) impulsar la reelección de Díaz.",
+        "D": "D) construir movimiento favorable a Madero."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 115,
+      "subject": "Historia de México",
+      "question": "La creación de la SEP y los Acuerdos de Bucareli fueron acciones de",
+      "options": {
+        "A": "A) Adolfo de la Huerta.",
+        "B": "B) Abelardo L. Rodríguez.",
+        "C": "C) Venustiano Carranza.",
+        "D": "D) Álvaro Obregón."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 116,
+      "subject": "Historia de México",
+      "question": "Una acción del periodo conocido como el Maximato fue la",
+      "options": {
+        "A": "A) Universidad obtuvo su autonomía.",
+        "B": "B) creación del PRI.",
+        "C": "C) creación del Banco de México.",
+        "D": "D) concesión del voto a la mujer."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 120,
+      "subject": "Historia de México",
+      "question": "Política económica de 1970 a 1982.",
+      "options": {
+        "A": "A) Sustitución de importaciones.",
+        "B": "B) Estado de Bienestar.",
+        "C": "C) Desarrollo estabilizador.",
+        "D": "D) Desarrollo compartido."
+      },
+      "correct_answer": "D"
+    }
+  ]
 }

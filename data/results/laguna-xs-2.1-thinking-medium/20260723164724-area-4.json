@@ -61,5 +61,259 @@
       "correct": 8,
       "percentage": 80.0
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 11,
+      "subject": "Literatura",
+      "question": "¿Cómo se denomina el enunciado subrayado en: 'ESTE MIÉRCOLES SE ESPERAN VARIAS MARCHAS EN LA CDMX'?",
+      "options": {
+        "A": "A) Antetítulo o epígrafe.",
+        "B": "B) Encabezado o titular.",
+        "C": "C) Entrada o lead.",
+        "D": "D) Balazo o bajad."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 14,
+      "subject": "Literatura",
+      "question": "Identifica el metro: 'Yo sé los nombres extraños.'",
+      "options": {
+        "A": "A) Endecasílabo.",
+        "B": "B) Octosílabo.",
+        "C": "C) Decasílabo.",
+        "D": "D) Heptasílabo."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 16,
+      "subject": "Literatura",
+      "question": "Escritor representativo del Realismo español.",
+      "options": {
+        "A": "A) Camilo José Cela.",
+        "B": "B) Miguel de Unamuno.",
+        "C": "C) Juan Valera.",
+        "D": "D) Antonio Machado."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 21,
+      "subject": "Química",
+      "question": "Una medalla de bronce es un ejemplo de",
+      "options": {
+        "A": "A) mezcla heterogénea.",
+        "B": "B) mezcla homogénea.",
+        "C": "C) compuesto.",
+        "D": "D) elemento."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 29,
+      "subject": "Química",
+      "question": "El enlace peptídico se forma al reaccionar un grupo amino con un grupo ________ de otro aminoácido.",
+      "options": {
+        "A": "A) –OH",
+        "B": "B) –OR",
+        "C": "C) –COOH",
+        "D": "D) –CHO"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 34,
+      "subject": "Geografía",
+      "question": "Sonora ocupa el primer lugar en la extracción de",
+      "options": {
+        "A": "A) uranio.",
+        "B": "B) hierro.",
+        "C": "C) cobre.",
+        "D": "D) plata."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 39,
+      "subject": "Geografía",
+      "question": "En México, la zona más propicia para la cría de cerdos es el ________ por ser la primera zona de ________.",
+      "options": {
+        "A": "A) Norte — forrajes",
+        "B": "B) Bajío — cereales",
+        "C": "C) Noroeste — cereales",
+        "D": "D) Balsas — pastos"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 44,
+      "subject": "Matemáticas",
+      "question": "Al simplificar (x² - 5x + 6)/(2ax - 6a) se obtiene",
+      "options": {
+        "A": "A) (x - 2)(x - 3)/2a",
+        "B": "B) (x - 3)/2a",
+        "C": "C) (x - 2)/2a",
+        "D": "D) (x - 2)(x + 3)/2a"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 45,
+      "subject": "Matemáticas",
+      "question": "¿Cuál es la solución de x/2 + 5 = x + 3?",
+      "options": {
+        "A": "A) x = -4",
+        "B": "B) x = -2",
+        "C": "C) x = 2",
+        "D": "D) x = 4"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 51,
+      "subject": "Matemáticas",
+      "question": "El seno del ángulo P en el triángulo rectángulo es igual a",
+      "options": {
+        "A": "A) 3/5",
+        "B": "B) 4/5",
+        "C": "C) 5/3",
+        "D": "D) 5/4"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 56,
+      "subject": "Matemáticas",
+      "question": "Calcula la pendiente de 2y - 4x + 3 = 0",
+      "options": {
+        "A": "A) -2",
+        "B": "B) -1/2",
+        "C": "C) 3/2",
+        "D": "D) 2"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 60,
+      "subject": "Matemáticas",
+      "question": "¿Coordenadas de los focos de 9x² + y² = 9?",
+      "options": {
+        "A": "A) F₁=(-√8,0); F₂=(√8,0)",
+        "B": "B) F₁=(-√10,0); F₂=(√10,0)",
+        "C": "C) F₁=(0,-√8); F₂=(0,√8)",
+        "D": "D) F₁=(0,-√10); F₂=(0,√10)"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 67,
+      "subject": "Español",
+      "question": "La estructura general del texto 'La mente colectiva' comprende",
+      "options": {
+        "A": "A) planteamiento, argumentos, desarrollo y opinión.",
+        "B": "B) introducción, tesis, argumentos y conclusión.",
+        "C": "C) introducción, planteamiento, desarrollo y opinión.",
+        "D": "D) planteamiento, tesis, desarrollo y conclusión."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 68,
+      "subject": "Español",
+      "question": "Idea principal del segundo párrafo del texto 'La mente colectiva'.",
+      "options": {
+        "A": "A) En la naturaleza existen 'organismos colectivos'.",
+        "B": "B) Muchos escritores han soñado que la humanidad podría formar un 'superorganismo'.",
+        "C": "C) Muchos escritores han soñado que la humanidad podría conectarse por telepatía.",
+        "D": "D) Las hormigas y abejas son 'organismos colectivos'."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 69,
+      "subject": "Español",
+      "question": "La expresión 'prótesis mentales y culturales' refiriéndose a innovaciones tecnológicas implica que",
+      "options": {
+        "A": "A) elevan posibilidades de acción y supervivencia.",
+        "B": "B) han permitido elevar la capacidad de comunicar y vivir mejor.",
+        "C": "C) son extensión del cerebro que pueden generar destrucción.",
+        "D": "D) han sido creadas como extensión de capacidades comunicativas para vivir mejor."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 70,
+      "subject": "Español",
+      "question": "Son temas que aborda el autor del texto 'La mente colectiva'.",
+      "options": {
+        "A": "A) Lenguaje, industria y literatura de ficción.",
+        "B": "B) Lenguaje, productos culturales y tecnología.",
+        "C": "C) Organismos colectivos, democracia y literatura.",
+        "D": "D) Organismos colectivos, computadoras y productos culturales."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 93,
+      "subject": "Historia Universal",
+      "question": "Como consecuencia de la Revolución Liberal de 1830, ________ y Víctor Manuel II lideraron una guerra contra ________.",
+      "options": {
+        "A": "A) Carlos Alberto — Prusia",
+        "B": "B) José Garibaldi — Austria",
+        "C": "C) Napoleón III — Inglaterra",
+        "D": "D) Carlos X — Francia"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 103,
+      "subject": "Historia de México",
+      "question": "Primer conflicto externo durante el gobierno de Santa Ana",
+      "options": {
+        "A": "A) Expedición española.",
+        "B": "B) Venta de la Mesilla.",
+        "C": "C) Guerra de los pasteles.",
+        "D": "D) Guerra de Texas."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 107,
+      "subject": "Historia de México",
+      "question": "Los Acuerdos de Bucareli y la creación de la SEP fueron acciones de",
+      "options": {
+        "A": "A) Álvaro Obregón.",
+        "B": "B) Adolfo de la Huerta.",
+        "C": "C) Plutarco Elías Calles.",
+        "D": "D) Venustiano Carranza."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 115,
+      "subject": "Filosofía",
+      "question": "¿Cuál caso implica responsabilidad moral?",
+      "options": {
+        "A": "A) María enfermera cae enferma por contagio.",
+        "B": "B) Juan encuentra billete ganador.",
+        "C": "C) Rocío decide limpiar su armario.",
+        "D": "D) Pedro busca trabajo, se prepara pero no consigue la plaza."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 116,
+      "subject": "Filosofía",
+      "question": "¿Qué debe hacer el médico para actuar autónomamente ante un paciente que rechaza transfusión por creencias religiosas?",
+      "options": {
+        "A": "A) No realizar la transfusión para evitar problemas legales.",
+        "B": "B) Realizarla para ser héroe ante colegas.",
+        "C": "C) Realizarla para salvar la vida a pesar de consecuencias.",
+        "D": "D) No realizarla para conservar su trabajo."
+      },
+      "correct_answer": "C"
+    }
+  ]
 }

@@ -61,5 +61,283 @@
       "correct": 7,
       "percentage": 70.0
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 2,
+      "subject": "Física",
+      "question": "2. Con base en el siguiente sistema de vectores, indica la magnitud del vector resultante en N. [imagen]",
+      "options": {
+        "A": "A) \\(\\sqrt{75.8}\\)",
+        "B": "B) \\(\\sqrt{23.8}\\)",
+        "C": "C) \\(\\sqrt{650}\\)",
+        "D": "D) \\(\\sqrt{101.1}\\)"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 3,
+      "subject": "Física",
+      "question": "3. La siguiente figura ilustra el momento preciso en el que un bate golpea una pelota. ¿Cuál de las imágenes muestra los vectores que representan la Tercera Ley de Newton? Considera: \\(F_{\\frac{P}{B}}\\) = Fuerza de la pelota sobre el bate. \\(F_{\\frac{B}{P}}\\) = Fuerza del bate sobre la pelota. [imagen]",
+      "options": {
+        "A": "A) [imagen]",
+        "B": "B) [imagen]",
+        "C": "C) [imagen]",
+        "D": "D) [imagen]"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 31,
+      "subject": "Química",
+      "question": "31. ¿Qué cantidad de HCl concentrado se necesita para preparar 250 mL de una disolución 1.4 M? Considera: HCl al 37% de pureza \\(d = 1.14 \\, \\frac{g}{mL}\\)",
+      "options": {
+        "A": "A) 34 mL",
+        "B": "B) 30 mL",
+        "C": "C) 14 mL",
+        "D": "D) 12 mL"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 34,
+      "subject": "Química",
+      "question": "34. A partir de la siguiente ecuación química, se puede inferir que x es un \\(C(s) + O_2(g) \\rightarrow \\mathbf{x}\\)",
+      "options": {
+        "A": "A) óxido básico.",
+        "B": "B) oxisal.",
+        "C": "C) hidróxido.",
+        "D": "D) óxido ácido."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 35,
+      "subject": "Química",
+      "question": "35. Biomoléculas que sirven de reserva energética en los organismos.",
+      "options": {
+        "A": "A) Aminoácidos.",
+        "B": "B) Lípidos.",
+        "C": "C) Vitaminas.",
+        "D": "D) Carbohidratos."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 48,
+      "subject": "Matemáticas",
+      "question": "48. Al simplificar la expresión algebraica -3x - [-2(4x - 3) - (9 - x)] se obtiene",
+      "options": {
+        "A": "A) 6x + 3",
+        "B": "B) 4x + 3",
+        "C": "C) 10x + 3",
+        "D": "D) 6x + 12"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 51,
+      "subject": "Matemáticas",
+      "question": "51. La solución de la ecuación \\(\\frac{x}{3} - \\frac{x - 5}{4} = 2\\) es",
+      "options": {
+        "A": "A) x = 8",
+        "B": "B) x = 9",
+        "C": "C) x = 10",
+        "D": "D) x = 12"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 54,
+      "subject": "Matemáticas",
+      "question": "54. Soluciona el sistema de ecuaciones. \\[ \\left\\{ \\begin{aligned} 5x + 2y - z &= -7 \\\\ x - 2y + 2z &= 0 \\\\ 3y + z &= 17 \\end{aligned} \\right. \\]",
+      "options": {
+        "A": "A) \\(x = -1,\\ y = 5,\\ z = 2\\)",
+        "B": "B) \\(x = 1,\\ y = 5,\\ z = 2\\)",
+        "C": "C) \\(x = -1,\\ y = 2,\\ z = 5\\)",
+        "D": "D) \\(x = 1,\\ y = 2,\\ z = 5\\)"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 56,
+      "subject": "Matemáticas",
+      "question": "56. A cuánto equivale 45° en radianes",
+      "options": {
+        "A": "A) \\(\\frac{1}{4} \\pi\\)",
+        "B": "B) \\(\\frac{2}{3} \\pi\\)",
+        "C": "C) \\(\\frac{3}{4} \\pi\\)",
+        "D": "D) \\(\\frac{4}{3} \\pi\\)"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 59,
+      "subject": "Matemáticas",
+      "question": "59. Encuentra las coordenadas del punto medio entre los puntos P (0, 2) y Q (4, 6).",
+      "options": {
+        "A": "A) (2, 3)",
+        "B": "B) (2, 4)",
+        "C": "C) (3, 3)",
+        "D": "D) (3, 4)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 60,
+      "subject": "Matemáticas",
+      "question": "60. Determina los puntos por donde pasa una recta perpendicular a la gráfica siguiente. [imagen]",
+      "options": {
+        "A": "A) (0, 0) y (-2, -3)",
+        "B": "B) (0, 0) y (-2, 1)",
+        "C": "C) (0, 0) y (1, -3)",
+        "D": "D) (0, 0) y (1, 3)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 61,
+      "subject": "Matemáticas",
+      "question": "61. Un triángulo está conformado por los vértices P (−7, 1), Q (9, 3) y R (3, 5) ¿Cuál es la ecuación de la mediana que pasa por el vértice P?",
+      "options": {
+        "A": "A) -x - 8y + 15 = 0",
+        "B": "B) -3x + 13y - 34 = 0",
+        "C": "C) 3x - y + 22 = 0",
+        "D": "D) 2x - 5y + 19 = 0"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 63,
+      "subject": "Matemáticas",
+      "question": "63. Determina la ecuación de la parábola con directriz x + 3 = 0, vértice en el origen y eje focal que coincide con el eje x.",
+      "options": {
+        "A": "A) x^(2) - 12y = 0",
+        "B": "B) x^(2) + 12y = 0",
+        "C": "C) y^(2) + 12y = 0",
+        "D": "D) y^(2) - 12x = 0"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 64,
+      "subject": "Matemáticas",
+      "question": "64. Dada la ecuación de la elipse \\(\\frac{x^2}{100} + \\frac{y^2}{75} = 1\\) determina su excentricidad.",
+      "options": {
+        "A": "A) \\(\\frac{3}{4}\\)",
+        "B": "B) \\(\\frac{2}{3}\\)",
+        "C": "C) \\(\\frac{3}{5}\\)",
+        "D": "D) \\(\\frac{1}{2}\\)"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 69,
+      "subject": "Matemáticas",
+      "question": "69. En la siguiente gráfica de la función f(x). ¿En qué intervalo la derivada de f es negativa? [imagen]",
+      "options": {
+        "A": "A) (-2, 4)",
+        "B": "B) [2, 4)",
+        "C": "C) (2, 4]",
+        "D": "D) [-2, 4]"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 80,
+      "subject": "Español",
+      "question": "80. El texto se titula Metamorfosis porque",
+      "options": {
+        "A": "A) detalla el cambio de niña a mujer.",
+        "B": "B) una mujer transforma su conducta.",
+        "C": "C) habla del origen de las transformaciones.",
+        "D": "D) la protagonista cambia de parecer."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 84,
+      "subject": "Español",
+      "question": "84. Elige la opción con la redacción apropiada.",
+      "options": {
+        "A": "A) Los checoslovacos combatían en las calles y se oponían a la dictadura.",
+        "B": "B) Un sinnúmero de feligreses acudieron a la Villa.",
+        "C": "C) La creación de muchas cosas no se tenían contempladas.",
+        "D": "D) Los constantes flujo y reflujo de divisas provocó alarma."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 85,
+      "subject": "Español",
+      "question": "85. Selecciona el enunciado que está redactado apropiadamente.",
+      "options": {
+        "A": "A) Se observa el patio techado. No es como el de las otras escuelas, al contrario, la luz del sol no entra, sólo se refleja y el calor irradia.",
+        "B": "B) Se puede observar el patio, no es como el de otras escuelas porque está techado y el sol ni entra directamente, sólo irradia calor.",
+        "C": "C) Se puede apreciar que el patio no es como el de otras escuelas, pues está techado debido a que la luz del sol sólo es reflejada en las aulas que lo rodean.",
+        "D": "D) Se puede apreciar el patio que no es como el de las otras escuelas, pues del sol no se conoce más que la luz y el calor que irradia."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 86,
+      "subject": "Español",
+      "question": "86. Identifica el párrafo redactado correctamente.",
+      "options": {
+        "A": "A) Los campos magnéticos solar y terrestre interaccionan hasta que este último se deforma. Como cualquier ente en el universo, la Tierra responde de varias maneras ante el impacto de la actividad solar; en este caso lo hace mediante la actividad geomagnética (perturbaciones en el campo magnético terrestre).",
+        "B": "B) El campo magnético solar y terrestre se encuentran interaccionando hasta que este último (el campo magnético terrestre) termina deformándose. La Tierra, como cualquier ente en el universo, responde de varias maneras ante el impacto de la actividad solar; en este caso lo hace mediante perturbaciones en el campo magnético terrestre (es decir actividad geomagnética).",
+        "C": "C) Ante el impacto de la actividad solar (como cualquier ente en el universo), la Tierra responde de varias maneras; en este caso lo hace mediante la actividad geomagnética (perturbaciones en el campo magnético terrestre). Ello sucede porque los campos magnéticos solar y terrestre interaccionan hasta que el último se deforma.",
+        "D": "D) El campo magnético solar y el campo magnético terrestre interaccionan hasta que éste se deforma. Como cualquier ente en el universo, la Tierra responde de varias maneras ante el impacto de la actividad solar. Haciéndolo mediante la actividad geomagnética (esto es, perturbaciones que acontecen en el campo magnético terrestre)."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 92,
+      "subject": "Biología",
+      "question": "92. La existencia de enzimas del ciclo de Krebs, idénticas en todos los organismos de respiración aerobia, es una prueba del postulado ________ de la teoría celular.",
+      "options": {
+        "A": "A) funcional",
+        "B": "B) bioquímico",
+        "C": "C) evolutivo",
+        "D": "D) estructural"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 99,
+      "subject": "Biología",
+      "question": "99. En la actualidad, es la teoría más aceptada sobre el origen de los seres vivos.",
+      "options": {
+        "A": "A) Creacionista.",
+        "B": "B) Endosimbiótica.",
+        "C": "C) Vitalista.",
+        "D": "D) Quimiosíntetica."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 112,
+      "subject": "Historia de México",
+      "question": "112. Durante la etapa de iniciación de la Independencia de la Nueva España, Miguel Hidalgo promulgó la ________, y José María Morelos la ________, durante la organización del movimiento armado.",
+      "options": {
+        "A": "A) Constitución de Apatzingán — abolición de la esclavitud",
+        "B": "B) abolición de las castas — Constitución de Apatzingán",
+        "C": "C) Constitución de Apatzingán — abolición de las castas",
+        "D": "D) abolición de la esclavitud — Constitución de Apatzingán"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 119,
+      "subject": "Historia de México",
+      "question": "119. La posición de México ante la Segunda Guerra Mundial fue",
+      "options": {
+        "A": "A) romper relaciones diplomáticas con los Aliados.",
+        "B": "B) no intervenir en ningún bando.",
+        "C": "C) vender petróleo a ambos contendientes.",
+        "D": "D) romper relaciones con las potencias del Eje."
+      },
+      "correct_answer": "D"
+    }
+  ]
 }

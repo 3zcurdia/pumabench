@@ -61,5 +61,115 @@
       "correct": 12,
       "percentage": 92.31
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 34,
+      "subject": "Química",
+      "question": "La siguiente estructura representa a un",
+      "options": {
+        "A": "A) alqueno.",
+        "B": "B) aromático.",
+        "C": "C) alquino.",
+        "D": "D) alcano."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 43,
+      "subject": "Geografía",
+      "question": "Una de las principales causas de la separación de Ucrania de la URSS fue",
+      "options": {
+        "A": "A) la explosión de Chernóbil.",
+        "B": "B) el conflicto en Chechenia.",
+        "C": "C) la reestructuración económica de Gorbachov.",
+        "D": "D) el enfrentamiento en la Guerra Fría."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 50,
+      "subject": "Matemáticas",
+      "question": "Selecciona la desigualdad que tiene por solución [1/3, ∞)",
+      "options": {
+        "A": "A) 3x - 1 ≥ 0",
+        "B": "B) 3x - 1 ≤ 0",
+        "C": "C) -3x + 1 ≥ 0",
+        "D": "D) -3x + 1 ≤ 0"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 52,
+      "subject": "Matemáticas",
+      "question": "La función de la gráfica es",
+      "options": {
+        "A": "A) f(x) = -√(8x - 16)",
+        "B": "B) f(x) = +√(8x - 16)",
+        "C": "C) f(x) = -√(-8x + 16)",
+        "D": "D) f(x) = +√(-8x + 16)"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "La ecuación ordinaria de la mediatriz del triángulo trazada desde el lado AB es",
+      "options": {
+        "A": "A) y = -3x + 6",
+        "B": "B) y = -3x + 7",
+        "C": "C) y = -2x + 5",
+        "D": "D) y = -2x + 6"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 60,
+      "subject": "Matemáticas",
+      "question": "Ecuación de parábola con foco F (1, 0), P = 1 y eje focal paralelo al eje Y",
+      "options": {
+        "A": "A) x² + 4y = 0",
+        "B": "B) y² - 4x = 0",
+        "C": "C) x² - 4y = 0",
+        "D": "D) y² + 4x = 0"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 74,
+      "subject": "Español",
+      "question": "En el texto 'Tiempo libre' de Guillermo Samperio, el clímax se da cuando",
+      "options": {
+        "A": "A) la esposa toma el periódico.",
+        "B": "B) el personaje corrió hacia la puerta.",
+        "C": "C) el personaje cayó estrepitosamente.",
+        "D": "D) el personaje llamó a las oficinas del periódico."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 76,
+      "subject": "Español",
+      "question": "El personaje hizo una llamada telefónica para",
+      "options": {
+        "A": "A) protestar porque una mujer fue descortés.",
+        "B": "B) exigir un diagnóstico a su médico.",
+        "C": "C) quejarse de que el periódico le causó daño en la piel.",
+        "D": "D) expresar su preocupación al periódico."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 113,
+      "subject": "Historia de México",
+      "question": "El gobierno de Anastasio Bustamante para mejorar la economía",
+      "options": {
+        "A": "A) estableció el impuesto por puertas y ventanas y fraccionó latifundios.",
+        "B": "B) suspendió el diezmo y subastó propiedades del clero.",
+        "C": "C) promulgó el Banco del Avío.",
+        "D": "D) estimuló la agricultura."
+      },
+      "correct_answer": "A"
+    }
+  ]
 }

@@ -61,5 +61,211 @@
       "correct": 12,
       "percentage": 92.31
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 2,
+      "subject": "Física",
+      "question": "Sobre un cuerpo se aplicaron diferentes fuerzas en dirección horizontal y con el mismo sentido provocando que el objeto experimentara distintas aceleraciones. ¿Cuál es la masa del objeto?",
+      "options": {
+        "A": "A) 1.6 kg",
+        "B": "B) 2.5 kg",
+        "C": "C) 3.2 kg",
+        "D": "D) 4.0 kg"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 22,
+      "subject": "Literatura",
+      "question": "La paráfrasis es un proceso de carácter",
+      "options": {
+        "A": "A) descriptivo.",
+        "B": "B) argumentativo.",
+        "C": "C) expositivo.",
+        "D": "D) interpretativo."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 23,
+      "subject": "Química",
+      "question": "En general, en la tabla periódica los elementos con mayor carácter metálico se ubican en",
+      "options": {
+        "A": "A) los periodos superiores.",
+        "B": "B) los periodos inferiores.",
+        "C": "C) las columnas de la izquierda.",
+        "D": "D) las columnas de la derecha."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 42,
+      "subject": "Geografía",
+      "question": "Las dos áreas de mayor concentración de población en el mundo son",
+      "options": {
+        "A": "A) Asia Oriental y Europa Occidental.",
+        "B": "B) Asia Occidental y Europa Occidental.",
+        "C": "C) Asia Meridional y Europa Occidental.",
+        "D": "D) Asia Meridional y Europa Meridional."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 48,
+      "subject": "Matemáticas",
+      "question": "Selecciona la expresión que corresponde a una ecuación",
+      "options": {
+        "A": "A) sen(x) = 1/2",
+        "B": "B) sen(x)csc(x) = 1",
+        "C": "C) sen²(x) + cos²(x) = 1",
+        "D": "D) sec²(x) - tan²(x) = 1"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 50,
+      "subject": "Matemáticas",
+      "question": "Selecciona la desigualdad que tiene por solución [1/3, ∞)",
+      "options": {
+        "A": "A) 3x - 1 ≥ 0",
+        "B": "B) 3x - 1 ≤ 0",
+        "C": "C) -3x + 1 ≥ 0",
+        "D": "D) -3x + 1 ≤ 0"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 52,
+      "subject": "Matemáticas",
+      "question": "La función de la gráfica es",
+      "options": {
+        "A": "A) f(x) = -√(8x - 16)",
+        "B": "B) f(x) = +√(8x - 16)",
+        "C": "C) f(x) = -√(-8x + 16)",
+        "D": "D) f(x) = +√(-8x + 16)"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "La ecuación ordinaria de la mediatriz del triángulo trazada desde el lado AB es",
+      "options": {
+        "A": "A) y = -3x + 6",
+        "B": "B) y = -3x + 7",
+        "C": "C) y = -2x + 5",
+        "D": "D) y = -2x + 6"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 76,
+      "subject": "Español",
+      "question": "El personaje hizo una llamada telefónica para",
+      "options": {
+        "A": "A) protestar porque una mujer fue descortés.",
+        "B": "B) exigir un diagnóstico a su médico.",
+        "C": "C) quejarse de que el periódico le causó daño en la piel.",
+        "D": "D) expresar su preocupación al periódico."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "El personaje sintió un gran alivio al",
+      "options": {
+        "A": "A) escuchar que su mujer abría la puerta.",
+        "B": "B) regresar al sillón.",
+        "C": "C) llamar a su médico.",
+        "D": "D) sentir que su mujer lo levantaba."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 84,
+      "subject": "Español",
+      "question": "Relación de analogía: discurso barroco → aburrimiento / bostezo.",
+      "options": {
+        "A": "A) Ira – agresión.",
+        "B": "B) Diversión – sonrisa.",
+        "C": "C) Distracción – error.",
+        "D": "D) Impaciencia – fastidio."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 85,
+      "subject": "Español",
+      "question": "Selecciona la opción con palabras homófonas.",
+      "options": {
+        "A": "A) ay – hay – ahí.",
+        "B": "B) este – esté.",
+        "C": "C) hacía – Asia.",
+        "D": "D) a – ha – ah."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 87,
+      "subject": "Español",
+      "question": "Selecciona la opción que usa correctamente las letras mayúsculas.",
+      "options": {
+        "A": "A) Ante los Príncipes... la Muestra... la Arquitecta... la Galería.",
+        "B": "B) Ante los príncipes... la muestra... la Arquitecta... la galería.",
+        "C": "C) Ante los príncipes... la muestra... la arquitecta... la Galería.",
+        "D": "D) Ante los Príncipes... la muestra... El Trabajo... la galería."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 113,
+      "subject": "Historia de México",
+      "question": "El gobierno de Anastasio Bustamante para mejorar la economía",
+      "options": {
+        "A": "A) estableció el impuesto por puertas y ventanas y fraccionó latifundios.",
+        "B": "B) suspendió el diezmo y subastó propiedades del clero.",
+        "C": "C) promulgó el Banco del Avío.",
+        "D": "D) estimuló la agricultura."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 114,
+      "subject": "Historia de México",
+      "question": "El objetivo principal del gobierno juarista durante la Restauración de la República fue",
+      "options": {
+        "A": "A) limitar la democracia.",
+        "B": "B) evitar la ruptura con Francia.",
+        "C": "C) reorganizar al país bajo el positivismo.",
+        "D": "D) establecer una oligarquía."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 117,
+      "subject": "Historia de México",
+      "question": "La inauguración de Bellas Artes, el PNR y la autonomía universitaria fueron acciones del periodo",
+      "options": {
+        "A": "A) Maximato.",
+        "B": "B) Unidad Nacional.",
+        "C": "C) Desarrollo Compartido.",
+        "D": "D) Cardenismo."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 119,
+      "subject": "Historia de México",
+      "question": "El impulso a la petrolización y apertura turística a capitales privados fueron acciones de",
+      "options": {
+        "A": "A) Luis Echeverría.",
+        "B": "B) José López Portillo.",
+        "C": "C) Miguel de la Madrid.",
+        "D": "D) Carlos Salinas de Gortari."
+      },
+      "correct_answer": "B"
+    }
+  ]
 }

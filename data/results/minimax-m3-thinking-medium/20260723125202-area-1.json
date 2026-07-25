@@ -61,5 +61,187 @@
       "correct": 9,
       "percentage": 90.0
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 3,
+      "subject": "Física",
+      "question": "3. La siguiente figura ilustra el momento preciso en el que un bate golpea una pelota. ¿Cuál de las imágenes muestra los vectores que representan la Tercera Ley de Newton? Considera: \\(F_{\\frac{P}{B}}\\) = Fuerza de la pelota sobre el bate. \\(F_{\\frac{B}{P}}\\) = Fuerza del bate sobre la pelota. [imagen]",
+      "options": {
+        "A": "A) [imagen]",
+        "B": "B) [imagen]",
+        "C": "C) [imagen]",
+        "D": "D) [imagen]"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 5,
+      "subject": "Física",
+      "question": "5. Un sistema está en equilibrio térmico cuando",
+      "options": {
+        "A": "A) en un proceso su temperatura no varía.",
+        "B": "B) su temperatura es igual a la de otro sistema con el que está en contacto térmico.",
+        "C": "C) se calienta por medio de trabajo.",
+        "D": "D) su presión y su masa permanecen constantes."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 11,
+      "subject": "Física",
+      "question": "11. De acuerdo a la imagen, la corriente que circula por el resistor de resistencia \\(\\frac{R}{2}\\) es [imagen]",
+      "options": {
+        "A": "A) \\(\\frac{V}{2R}\\)",
+        "B": "B) \\(\\frac{2V}{R}\\)",
+        "C": "C) \\(\\frac{V}{3R}\\)",
+        "D": "D) \\(\\frac{3V}{R}\\)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 13,
+      "subject": "Física",
+      "question": "13. Tres recipientes idénticos A, B y C contienen igual cantidad de diferentes líquidos, las densidades de los líquidos son p_A > p_B > p_C, ¿cómo es la presión en las bases de los recipientes? Considera. p_A = presión sobre la base A. p_B​ = presión sobre la base B. p_C​ = presión sobre la base C. [imagen]",
+      "options": {
+        "A": "A) P_A = P_B = P_C",
+        "B": "B) \\(P_A > P_B > P_C\\)",
+        "C": "C) \\(P_B > P_A > P_C\\)",
+        "D": "D) \\(P_C > P_B > P_A\\)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 22,
+      "subject": "Literatura",
+      "question": "22. Los autores que conforman una corriente literaria",
+      "options": {
+        "A": "A) comparten características en cuanto a su forma de escribir y el interés por desarrollar temas similares; además, viven en una misma época.",
+        "B": "B) heredan el estilo de quienes los precedieron, comparten una forma de escribir y abordan un género determinado, como la dramaturgia o la novela.",
+        "C": "C) heredan el estilo de quienes los precedieron, comparten una forma de escribir y muestran interés por desarrollar temas similares.",
+        "D": "D) abordan un género determinado, como la dramaturgia o la novela, comparten el interés por desarrollar temas similares y viven en una misma época."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 35,
+      "subject": "Química",
+      "question": "35. Biomoléculas que sirven de reserva energética en los organismos.",
+      "options": {
+        "A": "A) Aminoácidos.",
+        "B": "B) Lípidos.",
+        "C": "C) Vitaminas.",
+        "D": "D) Carbohidratos."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 43,
+      "subject": "Geografía",
+      "question": "43. Son países que funcionan como puntos de acceso para que los migrantes que provienen del norte de África logren integrarse al territorio europeo.",
+      "options": {
+        "A": "A) España, Malta, Italia y Grecia.",
+        "B": "B) España, Francia, Alemania e Italia.",
+        "C": "C) Malta, Francia, Grecia y Portugal.",
+        "D": "D) Reino Unido, Croacia, Francia y Alemania."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 54,
+      "subject": "Matemáticas",
+      "question": "54. Soluciona el sistema de ecuaciones. \\[ \\left\\{ \\begin{aligned} 5x + 2y - z &= -7 \\\\ x - 2y + 2z &= 0 \\\\ 3y + z &= 17 \\end{aligned} \\right. \\]",
+      "options": {
+        "A": "A) \\(x = -1,\\ y = 5,\\ z = 2\\)",
+        "B": "B) \\(x = 1,\\ y = 5,\\ z = 2\\)",
+        "C": "C) \\(x = -1,\\ y = 2,\\ z = 5\\)",
+        "D": "D) \\(x = 1,\\ y = 2,\\ z = 5\\)"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 60,
+      "subject": "Matemáticas",
+      "question": "60. Determina los puntos por donde pasa una recta perpendicular a la gráfica siguiente. [imagen]",
+      "options": {
+        "A": "A) (0, 0) y (-2, -3)",
+        "B": "B) (0, 0) y (-2, 1)",
+        "C": "C) (0, 0) y (1, -3)",
+        "D": "D) (0, 0) y (1, 3)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 64,
+      "subject": "Matemáticas",
+      "question": "64. Dada la ecuación de la elipse \\(\\frac{x^2}{100} + \\frac{y^2}{75} = 1\\) determina su excentricidad.",
+      "options": {
+        "A": "A) \\(\\frac{3}{4}\\)",
+        "B": "B) \\(\\frac{2}{3}\\)",
+        "C": "C) \\(\\frac{3}{5}\\)",
+        "D": "D) \\(\\frac{1}{2}\\)"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 69,
+      "subject": "Matemáticas",
+      "question": "69. En la siguiente gráfica de la función f(x). ¿En qué intervalo la derivada de f es negativa? [imagen]",
+      "options": {
+        "A": "A) (-2, 4)",
+        "B": "B) [2, 4)",
+        "C": "C) (2, 4]",
+        "D": "D) [-2, 4]"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "77. ¿Cuál es el nudo del texto?",
+      "options": {
+        "A": "A) Más decidida que nunca, atravesó la puerta de los grandes almacenes.",
+        "B": "B) Ese día, sin embargo, una fría determinación le roía las entrañas mientras avanzaba.",
+        "C": "C) Pero huyó en cuanto se dio cuenta de que no necesitaba un tresillo.",
+        "D": "D) Cuando salió a la calle, tardó unos 20 minutos en recuperar su aspecto habitual."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 85,
+      "subject": "Español",
+      "question": "85. Selecciona el enunciado que está redactado apropiadamente.",
+      "options": {
+        "A": "A) Se observa el patio techado. No es como el de las otras escuelas, al contrario, la luz del sol no entra, sólo se refleja y el calor irradia.",
+        "B": "B) Se puede observar el patio, no es como el de otras escuelas porque está techado y el sol ni entra directamente, sólo irradia calor.",
+        "C": "C) Se puede apreciar que el patio no es como el de otras escuelas, pues está techado debido a que la luz del sol sólo es reflejada en las aulas que lo rodean.",
+        "D": "D) Se puede apreciar el patio que no es como el de las otras escuelas, pues del sol no se conoce más que la luz y el calor que irradia."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 86,
+      "subject": "Español",
+      "question": "86. Identifica el párrafo redactado correctamente.",
+      "options": {
+        "A": "A) Los campos magnéticos solar y terrestre interaccionan hasta que este último se deforma. Como cualquier ente en el universo, la Tierra responde de varias maneras ante el impacto de la actividad solar; en este caso lo hace mediante la actividad geomagnética (perturbaciones en el campo magnético terrestre).",
+        "B": "B) El campo magnético solar y terrestre se encuentran interaccionando hasta que este último (el campo magnético terrestre) termina deformándose. La Tierra, como cualquier ente en el universo, responde de varias maneras ante el impacto de la actividad solar; en este caso lo hace mediante perturbaciones en el campo magnético terrestre (es decir actividad geomagnética).",
+        "C": "C) Ante el impacto de la actividad solar (como cualquier ente en el universo), la Tierra responde de varias maneras; en este caso lo hace mediante la actividad geomagnética (perturbaciones en el campo magnético terrestre). Ello sucede porque los campos magnéticos solar y terrestre interaccionan hasta que el último se deforma.",
+        "D": "D) El campo magnético solar y el campo magnético terrestre interaccionan hasta que éste se deforma. Como cualquier ente en el universo, la Tierra responde de varias maneras ante el impacto de la actividad solar. Haciéndolo mediante la actividad geomagnética (esto es, perturbaciones que acontecen en el campo magnético terrestre)."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 92,
+      "subject": "Biología",
+      "question": "92. La existencia de enzimas del ciclo de Krebs, idénticas en todos los organismos de respiración aerobia, es una prueba del postulado ________ de la teoría celular.",
+      "options": {
+        "A": "A) funcional",
+        "B": "B) bioquímico",
+        "C": "C) evolutivo",
+        "D": "D) estructural"
+      },
+      "correct_answer": "A"
+    }
+  ]
 }

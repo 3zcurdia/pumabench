@@ -61,5 +61,139 @@
       "correct": 10,
       "percentage": 100.0
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 1,
+      "subject": "Física",
+      "question": "¿Qué representa la siguiente gráfica?",
+      "options": {
+        "A": "A) La caída libre de un cuerpo desde el reposo.",
+        "B": "B) Un lanzamiento vertical hacia abajo.",
+        "C": "C) Un movimiento con aceleración positiva.",
+        "D": "D) Un movimiento con aceleración negativa."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 6,
+      "subject": "Física",
+      "question": "¿A qué temperatura en °F equivale 220 °C?",
+      "options": {
+        "A": "A) 454 °F",
+        "B": "B) 493 °F",
+        "C": "C) 428 °F",
+        "D": "D) 104 °F"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 10,
+      "subject": "Física",
+      "question": "Circuito con resistores R y 2R. Si circula 3I en una sección, ¿qué corriente circula por 2R?",
+      "options": {
+        "A": "A) 3I amperes.",
+        "B": "B) 0 amperes.",
+        "C": "C) I amperes.",
+        "D": "D) 2I amperes."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 37,
+      "subject": "Geografía",
+      "question": "Región más poblada de México y más atrayente para la migración rural-urbana.",
+      "options": {
+        "A": "A) Centro Occidente.",
+        "B": "B) Noroeste.",
+        "C": "C) Centro Sur.",
+        "D": "D) Sureste."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 41,
+      "subject": "Matemáticas",
+      "question": "Un auto viaja 50.4 km con 6.3 litros. ¿Rendimiento en km/L?",
+      "options": {
+        "A": "A) 8 km/L",
+        "B": "B) 9 km/L",
+        "C": "C) 8.5 km/L",
+        "D": "D) 9.5 km/L"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 51,
+      "subject": "Matemáticas",
+      "question": "¿Cuáles gráficas son crecientes en todo su dominio?",
+      "options": {
+        "A": "A) I y II",
+        "B": "B) I y IV",
+        "C": "C) II y IV",
+        "D": "D) I y III"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "¿Qué ecuación describe la siguiente gráfica?",
+      "options": {
+        "A": "A) y = x - 1/2",
+        "B": "B) y = 3/2 x - 1/2",
+        "C": "C) y = -3/2 x + 1/2",
+        "D": "D) y = x/2 - 1"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 70,
+      "subject": "Español",
+      "question": "La frase 'inframundo acuático' se refiere a que ________ en el mundo de los muertos.",
+      "options": {
+        "A": "A) el elemento fuego no es predominante",
+        "B": "B) el ser es sagrado",
+        "C": "C) existe el agua como expresión de vida",
+        "D": "D) hay ríos y lagos"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 74,
+      "subject": "Español",
+      "question": "Identifica la oración principal: 'Aquella noche, en la hora de la rata, el emperador soñó que había salido de su palacio...'",
+      "options": {
+        "A": "A) Aquella noche, en la hora de la rata, el emperador soñó que había salido de su palacio.",
+        "B": "B) El emperador soñó que había salido de su palacio y caminaba por el jardín.",
+        "C": "C) En la hora de la rata, el emperador soñó.",
+        "D": "D) El emperador soñó que había salido de su palacio."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "¿Cuál párrafo está escrito correctamente?",
+      "options": {
+        "A": "A) Los personajes de la jarcha son principalmente la muchacha...",
+        "B": "B) Los personajes de la jarcha son: principalmente la muchacha...",
+        "C": "C) Los personajes de la jarcha son: principalmente la muchacha y el habib o amigo, —cómo se denomina al amante—; también aparece...",
+        "D": "D) Los personajes de la jarcha son, principalmente, la muchacha y el habib o amigo (cómo se denomina al amante)..."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 102,
+      "subject": "Historia Universal",
+      "question": "La economía planificada, partido único y control de medios de producción son características del bloque",
+      "options": {
+        "A": "A) capitalista.",
+        "B": "B) neoliberal.",
+        "C": "C) socialista.",
+        "D": "D) anarquista."
+      },
+      "correct_answer": "C"
+    }
+  ]
 }

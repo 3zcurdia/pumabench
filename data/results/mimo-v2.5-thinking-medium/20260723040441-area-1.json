@@ -61,5 +61,139 @@
       "correct": 10,
       "percentage": 100.0
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 3,
+      "subject": "Física",
+      "question": "3. La siguiente figura ilustra el momento preciso en el que un bate golpea una pelota. ¿Cuál de las imágenes muestra los vectores que representan la Tercera Ley de Newton? Considera: \\(F_{\\frac{P}{B}}\\) = Fuerza de la pelota sobre el bate. \\(F_{\\frac{B}{P}}\\) = Fuerza del bate sobre la pelota. [imagen]",
+      "options": {
+        "A": "A) [imagen]",
+        "B": "B) [imagen]",
+        "C": "C) [imagen]",
+        "D": "D) [imagen]"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 11,
+      "subject": "Física",
+      "question": "11. De acuerdo a la imagen, la corriente que circula por el resistor de resistencia \\(\\frac{R}{2}\\) es [imagen]",
+      "options": {
+        "A": "A) \\(\\frac{V}{2R}\\)",
+        "B": "B) \\(\\frac{2V}{R}\\)",
+        "C": "C) \\(\\frac{V}{3R}\\)",
+        "D": "D) \\(\\frac{3V}{R}\\)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 12,
+      "subject": "Física",
+      "question": "12. Determina la resistencia total del circuito que se representa en la imagen. [imagen]",
+      "options": {
+        "A": "A) \\(2.41 \\, \\Omega\\)",
+        "B": "B) \\(4.4 \\, \\Omega\\)",
+        "C": "C) \\(12 \\, \\Omega\\)",
+        "D": "D) \\(1.90 \\, \\Omega\\)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 48,
+      "subject": "Matemáticas",
+      "question": "48. Al simplificar la expresión algebraica -3x - [-2(4x - 3) - (9 - x)] se obtiene",
+      "options": {
+        "A": "A) 6x + 3",
+        "B": "B) 4x + 3",
+        "C": "C) 10x + 3",
+        "D": "D) 6x + 12"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 69,
+      "subject": "Matemáticas",
+      "question": "69. En la siguiente gráfica de la función f(x). ¿En qué intervalo la derivada de f es negativa? [imagen]",
+      "options": {
+        "A": "A) (-2, 4)",
+        "B": "B) [2, 4)",
+        "C": "C) (2, 4]",
+        "D": "D) [-2, 4]"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 80,
+      "subject": "Español",
+      "question": "80. El texto se titula Metamorfosis porque",
+      "options": {
+        "A": "A) detalla el cambio de niña a mujer.",
+        "B": "B) una mujer transforma su conducta.",
+        "C": "C) habla del origen de las transformaciones.",
+        "D": "D) la protagonista cambia de parecer."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 85,
+      "subject": "Español",
+      "question": "85. Selecciona el enunciado que está redactado apropiadamente.",
+      "options": {
+        "A": "A) Se observa el patio techado. No es como el de las otras escuelas, al contrario, la luz del sol no entra, sólo se refleja y el calor irradia.",
+        "B": "B) Se puede observar el patio, no es como el de otras escuelas porque está techado y el sol ni entra directamente, sólo irradia calor.",
+        "C": "C) Se puede apreciar que el patio no es como el de otras escuelas, pues está techado debido a que la luz del sol sólo es reflejada en las aulas que lo rodean.",
+        "D": "D) Se puede apreciar el patio que no es como el de las otras escuelas, pues del sol no se conoce más que la luz y el calor que irradia."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 86,
+      "subject": "Español",
+      "question": "86. Identifica el párrafo redactado correctamente.",
+      "options": {
+        "A": "A) Los campos magnéticos solar y terrestre interaccionan hasta que este último se deforma. Como cualquier ente en el universo, la Tierra responde de varias maneras ante el impacto de la actividad solar; en este caso lo hace mediante la actividad geomagnética (perturbaciones en el campo magnético terrestre).",
+        "B": "B) El campo magnético solar y terrestre se encuentran interaccionando hasta que este último (el campo magnético terrestre) termina deformándose. La Tierra, como cualquier ente en el universo, responde de varias maneras ante el impacto de la actividad solar; en este caso lo hace mediante perturbaciones en el campo magnético terrestre (es decir actividad geomagnética).",
+        "C": "C) Ante el impacto de la actividad solar (como cualquier ente en el universo), la Tierra responde de varias maneras; en este caso lo hace mediante la actividad geomagnética (perturbaciones en el campo magnético terrestre). Ello sucede porque los campos magnéticos solar y terrestre interaccionan hasta que el último se deforma.",
+        "D": "D) El campo magnético solar y el campo magnético terrestre interaccionan hasta que éste se deforma. Como cualquier ente en el universo, la Tierra responde de varias maneras ante el impacto de la actividad solar. Haciéndolo mediante la actividad geomagnética (esto es, perturbaciones que acontecen en el campo magnético terrestre)."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 88,
+      "subject": "Español",
+      "question": "88. Sinónimo de AVATAR",
+      "options": {
+        "A": "A) Destino.",
+        "B": "B) Cambio.",
+        "C": "C) Conflicto.",
+        "D": "D) Aflicción."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 92,
+      "subject": "Biología",
+      "question": "92. La existencia de enzimas del ciclo de Krebs, idénticas en todos los organismos de respiración aerobia, es una prueba del postulado ________ de la teoría celular.",
+      "options": {
+        "A": "A) funcional",
+        "B": "B) bioquímico",
+        "C": "C) evolutivo",
+        "D": "D) estructural"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 99,
+      "subject": "Biología",
+      "question": "99. En la actualidad, es la teoría más aceptada sobre el origen de los seres vivos.",
+      "options": {
+        "A": "A) Creacionista.",
+        "B": "B) Endosimbiótica.",
+        "C": "C) Vitalista.",
+        "D": "D) Quimiosíntetica."
+      },
+      "correct_answer": "D"
+    }
+  ]
 }

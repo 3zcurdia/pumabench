@@ -61,5 +61,91 @@
       "correct": 9,
       "percentage": 90.0
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 1,
+      "subject": "Física",
+      "question": "¿Qué representa la siguiente gráfica?",
+      "options": {
+        "A": "A) La caída libre de un cuerpo desde el reposo.",
+        "B": "B) Un lanzamiento vertical hacia abajo.",
+        "C": "C) Un movimiento con aceleración positiva.",
+        "D": "D) Un movimiento con aceleración negativa."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 7,
+      "subject": "Física",
+      "question": "Las olas de mayor tamaño en la playa se deben a que las olas se",
+      "options": {
+        "A": "A) refractan.",
+        "B": "B) polarizan.",
+        "C": "C) reflejan.",
+        "D": "D) superponen."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 10,
+      "subject": "Física",
+      "question": "Circuito con resistores R y 2R. Si circula 3I en una sección, ¿qué corriente circula por 2R?",
+      "options": {
+        "A": "A) 3I amperes.",
+        "B": "B) 0 amperes.",
+        "C": "C) I amperes.",
+        "D": "D) 2I amperes."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 22,
+      "subject": "Química",
+      "question": "¿Qué postulado de Dalton prevalece en nuestros días?",
+      "options": {
+        "A": "A) Los átomos permanecen indivisibles.",
+        "B": "B) Los elementos están formados por átomos diminutos.",
+        "C": "C) Los átomos de un mismo elemento son iguales en masa.",
+        "D": "D) Los átomos de dos elementos se combinan en distintas proporciones."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "¿Qué ecuación describe la siguiente gráfica?",
+      "options": {
+        "A": "A) y = x - 1/2",
+        "B": "B) y = 3/2 x - 1/2",
+        "C": "C) y = -3/2 x + 1/2",
+        "D": "D) y = x/2 - 1"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 70,
+      "subject": "Español",
+      "question": "La frase 'inframundo acuático' se refiere a que ________ en el mundo de los muertos.",
+      "options": {
+        "A": "A) el elemento fuego no es predominante",
+        "B": "B) el ser es sagrado",
+        "C": "C) existe el agua como expresión de vida",
+        "D": "D) hay ríos y lagos"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "¿Cuál párrafo está escrito correctamente?",
+      "options": {
+        "A": "A) Los personajes de la jarcha son principalmente la muchacha...",
+        "B": "B) Los personajes de la jarcha son: principalmente la muchacha...",
+        "C": "C) Los personajes de la jarcha son: principalmente la muchacha y el habib o amigo, —cómo se denomina al amante—; también aparece...",
+        "D": "D) Los personajes de la jarcha son, principalmente, la muchacha y el habib o amigo (cómo se denomina al amante)..."
+      },
+      "correct_answer": "A"
+    }
+  ]
 }

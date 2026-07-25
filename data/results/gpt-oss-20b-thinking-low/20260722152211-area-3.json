@@ -61,5 +61,175 @@
       "correct": 9,
       "percentage": 90.0
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 10,
+      "subject": "Física",
+      "question": "Circuito con resistores R y 2R. Si circula 3I en una sección, ¿qué corriente circula por 2R?",
+      "options": {
+        "A": "A) 3I amperes.",
+        "B": "B) 0 amperes.",
+        "C": "C) I amperes.",
+        "D": "D) 2I amperes."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 22,
+      "subject": "Química",
+      "question": "¿Qué postulado de Dalton prevalece en nuestros días?",
+      "options": {
+        "A": "A) Los átomos permanecen indivisibles.",
+        "B": "B) Los elementos están formados por átomos diminutos.",
+        "C": "C) Los átomos de un mismo elemento son iguales en masa.",
+        "D": "D) Los átomos de dos elementos se combinan en distintas proporciones."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 37,
+      "subject": "Geografía",
+      "question": "Región más poblada de México y más atrayente para la migración rural-urbana.",
+      "options": {
+        "A": "A) Centro Occidente.",
+        "B": "B) Noroeste.",
+        "C": "C) Centro Sur.",
+        "D": "D) Sureste."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 51,
+      "subject": "Matemáticas",
+      "question": "¿Cuáles gráficas son crecientes en todo su dominio?",
+      "options": {
+        "A": "A) I y II",
+        "B": "B) I y IV",
+        "C": "C) II y IV",
+        "D": "D) I y III"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "¿Qué ecuación describe la siguiente gráfica?",
+      "options": {
+        "A": "A) y = x - 1/2",
+        "B": "B) y = 3/2 x - 1/2",
+        "C": "C) y = -3/2 x + 1/2",
+        "D": "D) y = x/2 - 1"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 70,
+      "subject": "Español",
+      "question": "La frase 'inframundo acuático' se refiere a que ________ en el mundo de los muertos.",
+      "options": {
+        "A": "A) el elemento fuego no es predominante",
+        "B": "B) el ser es sagrado",
+        "C": "C) existe el agua como expresión de vida",
+        "D": "D) hay ríos y lagos"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 73,
+      "subject": "Español",
+      "question": "¿Cuál es la intención del autor al escribir este texto?",
+      "options": {
+        "A": "A) Comparar los materiales usados por las culturas prehispánicas.",
+        "B": "B) Crear un taller para la fabricación de la concha.",
+        "C": "C) Divulgar los avances arqueológicos sobre las culturas prehispánicas.",
+        "D": "D) Revelar el misterio de las joyas de la concha de mar."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "¿Cuál párrafo está escrito correctamente?",
+      "options": {
+        "A": "A) Los personajes de la jarcha son principalmente la muchacha...",
+        "B": "B) Los personajes de la jarcha son: principalmente la muchacha...",
+        "C": "C) Los personajes de la jarcha son: principalmente la muchacha y el habib o amigo, —cómo se denomina al amante—; también aparece...",
+        "D": "D) Los personajes de la jarcha son, principalmente, la muchacha y el habib o amigo (cómo se denomina al amante)..."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 107,
+      "subject": "Historia de México",
+      "question": "La conquista militar culminó con la captura del tlatoani llamado",
+      "options": {
+        "A": "A) Netzahualcóyotl.",
+        "B": "B) Cuauhtémoc.",
+        "C": "C) Cuitláhuac.",
+        "D": "D) Moctezuma."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 108,
+      "subject": "Historia de México",
+      "question": "Son dos causas externas de la Independencia de la Nueva España.",
+      "options": {
+        "A": "A) Invasión napoleónica y difusión de revoluciones liberales.",
+        "B": "B) Reformas Borbónicas y abolición de la esclavitud.",
+        "C": "C) Invasión napoleónica e Independencia de las Trece Colonias.",
+        "D": "D) Difusión de revoluciones liberales y abolición de la esclavitud."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 109,
+      "subject": "Historia de México",
+      "question": "Acontecimientos importantes de la Independencia en Guadalajara.",
+      "options": {
+        "A": "A) El sitio de Cuautla y el estandarte de Guadalupe.",
+        "B": "B) El grito de Dolores y la Constitución de Apatzingán.",
+        "C": "C) La abolición de la esclavitud y el 'Despertador Americano'.",
+        "D": "D) La organización en Querétaro y la toma del Cerro de los Remedios."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 115,
+      "subject": "Historia de México",
+      "question": "La creación de la SEP y los Acuerdos de Bucareli fueron acciones de",
+      "options": {
+        "A": "A) Adolfo de la Huerta.",
+        "B": "B) Abelardo L. Rodríguez.",
+        "C": "C) Venustiano Carranza.",
+        "D": "D) Álvaro Obregón."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 117,
+      "subject": "Historia de México",
+      "question": "Documento que proyectó apoyo a los ejidos y respeto al salario mínimo.",
+      "options": {
+        "A": "A) Acuerdos de Bucareli.",
+        "B": "B) Pacto de la Ciudadela.",
+        "C": "C) Plan Sexenal.",
+        "D": "D) Plan de la Acción Campesina."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 120,
+      "subject": "Historia de México",
+      "question": "Política económica de 1970 a 1982.",
+      "options": {
+        "A": "A) Sustitución de importaciones.",
+        "B": "B) Estado de Bienestar.",
+        "C": "C) Desarrollo estabilizador.",
+        "D": "D) Desarrollo compartido."
+      },
+      "correct_answer": "D"
+    }
+  ]
 }

@@ -61,5 +61,115 @@
       "correct": 11,
       "percentage": 84.62
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 23,
+      "subject": "Química",
+      "question": "En general, en la tabla periódica los elementos con mayor carácter metálico se ubican en",
+      "options": {
+        "A": "A) los periodos superiores.",
+        "B": "B) los periodos inferiores.",
+        "C": "C) las columnas de la izquierda.",
+        "D": "D) las columnas de la derecha."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 35,
+      "subject": "Química",
+      "question": "¿Cuál de los siguientes compuestos es un ácido carboxílico?",
+      "options": {
+        "A": "A) Opción A",
+        "B": "B) Opción B",
+        "C": "C) Opción C",
+        "D": "D) Opción D"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 50,
+      "subject": "Matemáticas",
+      "question": "Selecciona la desigualdad que tiene por solución [1/3, ∞)",
+      "options": {
+        "A": "A) 3x - 1 ≥ 0",
+        "B": "B) 3x - 1 ≤ 0",
+        "C": "C) -3x + 1 ≥ 0",
+        "D": "D) -3x + 1 ≤ 0"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 52,
+      "subject": "Matemáticas",
+      "question": "La función de la gráfica es",
+      "options": {
+        "A": "A) f(x) = -√(8x - 16)",
+        "B": "B) f(x) = +√(8x - 16)",
+        "C": "C) f(x) = -√(-8x + 16)",
+        "D": "D) f(x) = +√(-8x + 16)"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "La ecuación ordinaria de la mediatriz del triángulo trazada desde el lado AB es",
+      "options": {
+        "A": "A) y = -3x + 6",
+        "B": "B) y = -3x + 7",
+        "C": "C) y = -2x + 5",
+        "D": "D) y = -2x + 6"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 60,
+      "subject": "Matemáticas",
+      "question": "Ecuación de parábola con foco F (1, 0), P = 1 y eje focal paralelo al eje Y",
+      "options": {
+        "A": "A) x² + 4y = 0",
+        "B": "B) y² - 4x = 0",
+        "C": "C) x² - 4y = 0",
+        "D": "D) y² + 4x = 0"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 81,
+      "subject": "Español",
+      "question": "Elige el párrafo con la mejor redacción.",
+      "options": {
+        "A": "A) En este orden, la posibilidad y el origen del conocimiento...",
+        "B": "B) Así, la posibilidad y el origen del conocimiento...",
+        "C": "C) El conocimiento, en el inicio, ofrece una vertiente filosófica...",
+        "D": "D) El conocimiento, en principio, ofrece una vertiente filosófica... En este orden, la posibilidad y el origen del conocimiento son algunos problemas clave."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 113,
+      "subject": "Historia de México",
+      "question": "El gobierno de Anastasio Bustamante para mejorar la economía",
+      "options": {
+        "A": "A) estableció el impuesto por puertas y ventanas y fraccionó latifundios.",
+        "B": "B) suspendió el diezmo y subastó propiedades del clero.",
+        "C": "C) promulgó el Banco del Avío.",
+        "D": "D) estimuló la agricultura."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 119,
+      "subject": "Historia de México",
+      "question": "El impulso a la petrolización y apertura turística a capitales privados fueron acciones de",
+      "options": {
+        "A": "A) Luis Echeverría.",
+        "B": "B) José López Portillo.",
+        "C": "C) Miguel de la Madrid.",
+        "D": "D) Carlos Salinas de Gortari."
+      },
+      "correct_answer": "B"
+    }
+  ]
 }

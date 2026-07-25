@@ -61,5 +61,103 @@
       "correct": 10,
       "percentage": 100.0
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 2,
+      "subject": "Física",
+      "question": "2. Con base en el siguiente sistema de vectores, indica la magnitud del vector resultante en N. [imagen]",
+      "options": {
+        "A": "A) \\(\\sqrt{75.8}\\)",
+        "B": "B) \\(\\sqrt{23.8}\\)",
+        "C": "C) \\(\\sqrt{650}\\)",
+        "D": "D) \\(\\sqrt{101.1}\\)"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 13,
+      "subject": "Física",
+      "question": "13. Tres recipientes idénticos A, B y C contienen igual cantidad de diferentes líquidos, las densidades de los líquidos son p_A > p_B > p_C, ¿cómo es la presión en las bases de los recipientes? Considera. p_A = presión sobre la base A. p_B​ = presión sobre la base B. p_C​ = presión sobre la base C. [imagen]",
+      "options": {
+        "A": "A) P_A = P_B = P_C",
+        "B": "B) \\(P_A > P_B > P_C\\)",
+        "C": "C) \\(P_B > P_A > P_C\\)",
+        "D": "D) \\(P_C > P_B > P_A\\)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 18,
+      "subject": "Literatura",
+      "question": "18. En el siguiente texto predomina la función referencial de la lengua porque Donají Monserrat Ortiz Ortiz y Luis Donaldo Martínez Torres, alumnos de la licenciatura en Geohistoria de la ENES Morelia, obtuvieron el primer lugar en el concurso de cartel organizado en el marco del Encuentro Nacional de Estudiantes de Geografía, que se celebró en las instalaciones de la Universidad Autónoma de San Luis Potosí. Gaceta UNAM, 17 de octubre de 2016",
+      "options": {
+        "A": "A) se transmite un mensaje en forma directa y clara.",
+        "B": "B) intenta mantener despierta la atención del lector.",
+        "C": "C) expresa la emotividad y los sentimientos de quien escribe.",
+        "D": "D) se dan los nombres y apellidos de los participantes."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 69,
+      "subject": "Matemáticas",
+      "question": "69. En la siguiente gráfica de la función f(x). ¿En qué intervalo la derivada de f es negativa? [imagen]",
+      "options": {
+        "A": "A) (-2, 4)",
+        "B": "B) [2, 4)",
+        "C": "C) (2, 4]",
+        "D": "D) [-2, 4]"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 81,
+      "subject": "Español",
+      "question": "81. En la frase \"por momentos sentía que le temblaban las piernas, pero si su cuerpo flaqueaba, su mente no se permitía vacilar\", se infiere que la mujer se sentía",
+      "options": {
+        "A": "A) Valiente e indecisa.",
+        "B": "B) Temerosa y decidida.",
+        "C": "C) Decidida y valiente.",
+        "D": "D) Temerosa e indecisa."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 85,
+      "subject": "Español",
+      "question": "85. Selecciona el enunciado que está redactado apropiadamente.",
+      "options": {
+        "A": "A) Se observa el patio techado. No es como el de las otras escuelas, al contrario, la luz del sol no entra, sólo se refleja y el calor irradia.",
+        "B": "B) Se puede observar el patio, no es como el de otras escuelas porque está techado y el sol ni entra directamente, sólo irradia calor.",
+        "C": "C) Se puede apreciar que el patio no es como el de otras escuelas, pues está techado debido a que la luz del sol sólo es reflejada en las aulas que lo rodean.",
+        "D": "D) Se puede apreciar el patio que no es como el de las otras escuelas, pues del sol no se conoce más que la luz y el calor que irradia."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 86,
+      "subject": "Español",
+      "question": "86. Identifica el párrafo redactado correctamente.",
+      "options": {
+        "A": "A) Los campos magnéticos solar y terrestre interaccionan hasta que este último se deforma. Como cualquier ente en el universo, la Tierra responde de varias maneras ante el impacto de la actividad solar; en este caso lo hace mediante la actividad geomagnética (perturbaciones en el campo magnético terrestre).",
+        "B": "B) El campo magnético solar y terrestre se encuentran interaccionando hasta que este último (el campo magnético terrestre) termina deformándose. La Tierra, como cualquier ente en el universo, responde de varias maneras ante el impacto de la actividad solar; en este caso lo hace mediante perturbaciones en el campo magnético terrestre (es decir actividad geomagnética).",
+        "C": "C) Ante el impacto de la actividad solar (como cualquier ente en el universo), la Tierra responde de varias maneras; en este caso lo hace mediante la actividad geomagnética (perturbaciones en el campo magnético terrestre). Ello sucede porque los campos magnéticos solar y terrestre interaccionan hasta que el último se deforma.",
+        "D": "D) El campo magnético solar y el campo magnético terrestre interaccionan hasta que éste se deforma. Como cualquier ente en el universo, la Tierra responde de varias maneras ante el impacto de la actividad solar. Haciéndolo mediante la actividad geomagnética (esto es, perturbaciones que acontecen en el campo magnético terrestre)."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 92,
+      "subject": "Biología",
+      "question": "92. La existencia de enzimas del ciclo de Krebs, idénticas en todos los organismos de respiración aerobia, es una prueba del postulado ________ de la teoría celular.",
+      "options": {
+        "A": "A) funcional",
+        "B": "B) bioquímico",
+        "C": "C) evolutivo",
+        "D": "D) estructural"
+      },
+      "correct_answer": "A"
+    }
+  ]
 }

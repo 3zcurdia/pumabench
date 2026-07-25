@@ -61,5 +61,235 @@
       "correct": 10,
       "percentage": 100.0
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 1,
+      "subject": "Física",
+      "question": "La tripulación del Apolo XI recorrió 3.8 × 10¹⁵ km en tres días. ¿Rapidez promedio?",
+      "options": {
+        "A": "A) 53 × 10¹³ km/día",
+        "B": "B) 53 × 10¹³ km/h",
+        "C": "C) 53 × 10¹¹ km/h",
+        "D": "D) 53 × 10¹³ km/min"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 3,
+      "subject": "Física",
+      "question": "Sobre un objeto de 100 kg se aplican fuerzas de 20 N y 30 N en sentidos contrarios. ¿Aceleración?",
+      "options": {
+        "A": "A) 0.1 m/s²",
+        "B": "B) 0.2 m/s²",
+        "C": "C) 0.3 m/s²",
+        "D": "D) 0.5 m/s²"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 5,
+      "subject": "Física",
+      "question": "Un niño de 30 kg salta a 2 m/s y el carrito sale a 12 m/s. ¿Masa del carrito?",
+      "options": {
+        "A": "A) 6.0 kg",
+        "B": "B) 5.0 kg",
+        "C": "C) 2.5 kg",
+        "D": "D) 0.8 kg"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 11,
+      "subject": "Literatura",
+      "question": "¿Cómo se denomina el enunciado subrayado en: 'ESTE MIÉRCOLES SE ESPERAN VARIAS MARCHAS EN LA CDMX'?",
+      "options": {
+        "A": "A) Antetítulo o epígrafe.",
+        "B": "B) Encabezado o titular.",
+        "C": "C) Entrada o lead.",
+        "D": "D) Balazo o bajad."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 41,
+      "subject": "Matemáticas",
+      "question": "Un estudiante tiene 7.2, 8.5 y 7.9. ¿Qué calificación mínima necesita para promedio 8?",
+      "options": {
+        "A": "A) 8.1",
+        "B": "B) 8.2",
+        "C": "C) 8.4",
+        "D": "D) 8.9"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 44,
+      "subject": "Matemáticas",
+      "question": "Al simplificar (x² - 5x + 6)/(2ax - 6a) se obtiene",
+      "options": {
+        "A": "A) (x - 2)(x - 3)/2a",
+        "B": "B) (x - 3)/2a",
+        "C": "C) (x - 2)/2a",
+        "D": "D) (x - 2)(x + 3)/2a"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 48,
+      "subject": "Matemáticas",
+      "question": "¿Cuál es el dominio de f(x) = x³ + 2x² - 3x + 1?",
+      "options": {
+        "A": "A) [-∞, ∞]",
+        "B": "B) (-∞, 1)",
+        "C": "C) (-∞, ∞)",
+        "D": "D) (-1, ∞)"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 50,
+      "subject": "Matemáticas",
+      "question": "Si f(x) = 1/(x² - 1) y g(x) = x + 2, entonces (f o g)(x) es",
+      "options": {
+        "A": "A) 1/(x² + 2)",
+        "B": "B) 1/(x² + 4x + 5)",
+        "C": "C) 1/(x² + 5)",
+        "D": "D) 1/(x² + 4x + 3)"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 60,
+      "subject": "Matemáticas",
+      "question": "¿Coordenadas de los focos de 9x² + y² = 9?",
+      "options": {
+        "A": "A) F₁=(-√8,0); F₂=(√8,0)",
+        "B": "B) F₁=(-√10,0); F₂=(√10,0)",
+        "C": "C) F₁=(0,-√8); F₂=(0,√8)",
+        "D": "D) F₁=(0,-√10); F₂=(0,√10)"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 67,
+      "subject": "Español",
+      "question": "La estructura general del texto 'La mente colectiva' comprende",
+      "options": {
+        "A": "A) planteamiento, argumentos, desarrollo y opinión.",
+        "B": "B) introducción, tesis, argumentos y conclusión.",
+        "C": "C) introducción, planteamiento, desarrollo y opinión.",
+        "D": "D) planteamiento, tesis, desarrollo y conclusión."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 69,
+      "subject": "Español",
+      "question": "La expresión 'prótesis mentales y culturales' refiriéndose a innovaciones tecnológicas implica que",
+      "options": {
+        "A": "A) elevan posibilidades de acción y supervivencia.",
+        "B": "B) han permitido elevar la capacidad de comunicar y vivir mejor.",
+        "C": "C) son extensión del cerebro que pueden generar destrucción.",
+        "D": "D) han sido creadas como extensión de capacidades comunicativas para vivir mejor."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 71,
+      "subject": "Español",
+      "question": "La intención principal del autor del texto 'La mente colectiva' es",
+      "options": {
+        "A": "A) narrar cómo el hombre piensa colectivamente.",
+        "B": "B) informar sobre la cultura y el pensamiento colectivo.",
+        "C": "C) argumentar que el hombre piensa colectivamente.",
+        "D": "D) describir aspectos del pensamiento colectivo."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 73,
+      "subject": "Español",
+      "question": "Elige el objeto directo del predicado.",
+      "options": {
+        "A": "A) Compró la computadora.",
+        "B": "B) Las pirámides de Teotihuacán.",
+        "C": "C) Hoy, mañana y siempre.",
+        "D": "D) Las cuentas del gran capitán."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 75,
+      "subject": "Español",
+      "question": "Completa: Quisieron colaborar con una obra magistral, ________ no guardaban los requisitos; ________, tuvieron que resignarse ________ la realización de una presentación más sencilla.",
+      "options": {
+        "A": "A) sin embargo — no obstante — a",
+        "B": "B) mas — por tanto — a",
+        "C": "C) más — en conclusión — con",
+        "D": "D) pero — en consecuencia — con"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 102,
+      "subject": "Historia de México",
+      "question": "Causa interna de la independencia de la Nueva España",
+      "options": {
+        "A": "A) Invasión francesa a España.",
+        "B": "B) Independencia de las Trece Colonias.",
+        "C": "C) Consolidación de Vales Reales.",
+        "D": "D) Adopción de las ideas de la Ilustración."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 103,
+      "subject": "Historia de México",
+      "question": "Primer conflicto externo durante el gobierno de Santa Ana",
+      "options": {
+        "A": "A) Expedición española.",
+        "B": "B) Venta de la Mesilla.",
+        "C": "C) Guerra de los pasteles.",
+        "D": "D) Guerra de Texas."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 109,
+      "subject": "Historia de México",
+      "question": "La principal característica económica del gobierno de Manuel Ávila Camacho fue",
+      "options": {
+        "A": "A) la sustitución de importaciones.",
+        "B": "B) el apoyo a reclamos sindicales.",
+        "C": "C) el equilibrio de la balanza comercial.",
+        "D": "D) la expansión del mercado externo."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 110,
+      "subject": "Historia de México",
+      "question": "Fue una acción del gobierno de Luis Echeverría como parte del Desarrollo Compartido.",
+      "options": {
+        "A": "A) Disminución de importaciones.",
+        "B": "B) Nacionalización de la banca.",
+        "C": "C) Privatización de la educación.",
+        "D": "D) Fomento a la participación de empresas privadas."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 116,
+      "subject": "Filosofía",
+      "question": "¿Qué debe hacer el médico para actuar autónomamente ante un paciente que rechaza transfusión por creencias religiosas?",
+      "options": {
+        "A": "A) No realizar la transfusión para evitar problemas legales.",
+        "B": "B) Realizarla para ser héroe ante colegas.",
+        "C": "C) Realizarla para salvar la vida a pesar de consecuencias.",
+        "D": "D) No realizarla para conservar su trabajo."
+      },
+      "correct_answer": "C"
+    }
+  ]
 }

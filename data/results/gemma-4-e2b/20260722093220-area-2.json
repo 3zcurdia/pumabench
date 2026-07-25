@@ -61,5 +61,283 @@
       "correct": 11,
       "percentage": 84.62
     }
-  }
+  },
+  "failed_questions": [
+    {
+      "number": 2,
+      "subject": "Física",
+      "question": "Sobre un cuerpo se aplicaron diferentes fuerzas en dirección horizontal y con el mismo sentido provocando que el objeto experimentara distintas aceleraciones. ¿Cuál es la masa del objeto?",
+      "options": {
+        "A": "A) 1.6 kg",
+        "B": "B) 2.5 kg",
+        "C": "C) 3.2 kg",
+        "D": "D) 4.0 kg"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 20,
+      "subject": "Literatura",
+      "question": "El siguiente fragmento solo utiliza un espacio narrativo y pocos personajes, esto es característico de:",
+      "options": {
+        "A": "A) del mito.",
+        "B": "B) del cuento.",
+        "C": "C) de la leyenda.",
+        "D": "D) de la fábula."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 22,
+      "subject": "Literatura",
+      "question": "La paráfrasis es un proceso de carácter",
+      "options": {
+        "A": "A) descriptivo.",
+        "B": "B) argumentativo.",
+        "C": "C) expositivo.",
+        "D": "D) interpretativo."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 34,
+      "subject": "Química",
+      "question": "La siguiente estructura representa a un",
+      "options": {
+        "A": "A) alqueno.",
+        "B": "B) aromático.",
+        "C": "C) alquino.",
+        "D": "D) alcano."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 35,
+      "subject": "Química",
+      "question": "¿Cuál de los siguientes compuestos es un ácido carboxílico?",
+      "options": {
+        "A": "A) Opción A",
+        "B": "B) Opción B",
+        "C": "C) Opción C",
+        "D": "D) Opción D"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 45,
+      "subject": "Geografía",
+      "question": "La cría de ganado bovino en el estado de ____ tiene como objetivo principal su exportación.",
+      "options": {
+        "A": "A) Sonora.",
+        "B": "B) Tlaxcala.",
+        "C": "C) Veracruz.",
+        "D": "D) Tabasco."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 48,
+      "subject": "Matemáticas",
+      "question": "Selecciona la expresión que corresponde a una ecuación",
+      "options": {
+        "A": "A) sen(x) = 1/2",
+        "B": "B) sen(x)csc(x) = 1",
+        "C": "C) sen²(x) + cos²(x) = 1",
+        "D": "D) sec²(x) - tan²(x) = 1"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 50,
+      "subject": "Matemáticas",
+      "question": "Selecciona la desigualdad que tiene por solución [1/3, ∞)",
+      "options": {
+        "A": "A) 3x - 1 ≥ 0",
+        "B": "B) 3x - 1 ≤ 0",
+        "C": "C) -3x + 1 ≥ 0",
+        "D": "D) -3x + 1 ≤ 0"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 52,
+      "subject": "Matemáticas",
+      "question": "La función de la gráfica es",
+      "options": {
+        "A": "A) f(x) = -√(8x - 16)",
+        "B": "B) f(x) = +√(8x - 16)",
+        "C": "C) f(x) = -√(-8x + 16)",
+        "D": "D) f(x) = +√(-8x + 16)"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "La ecuación ordinaria de la mediatriz del triángulo trazada desde el lado AB es",
+      "options": {
+        "A": "A) y = -3x + 6",
+        "B": "B) y = -3x + 7",
+        "C": "C) y = -2x + 5",
+        "D": "D) y = -2x + 6"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 71,
+      "subject": "Español",
+      "question": "Selecciona el enunciado con predominio de la función poética.",
+      "options": {
+        "A": "A) Ese verso muestra su vocación de poeta.",
+        "B": "B) La literatura incluye al género poético.",
+        "C": "C) Manifestación de la belleza o del sentimiento estético.",
+        "D": "D) ¿Qué es poesía? ¿Y tú me lo Preguntas? / Poesía… eres tú."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 75,
+      "subject": "Español",
+      "question": "El término apeñuscadas se refiere a que las letras",
+      "options": {
+        "A": "A) eran muchas y muy pequeñas.",
+        "B": "B) tenían color muy oscuro.",
+        "C": "C) eran pequeñas y negra.",
+        "D": "D) quedaban amontonadas."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 76,
+      "subject": "Español",
+      "question": "El personaje hizo una llamada telefónica para",
+      "options": {
+        "A": "A) protestar porque una mujer fue descortés.",
+        "B": "B) exigir un diagnóstico a su médico.",
+        "C": "C) quejarse de que el periódico le causó daño en la piel.",
+        "D": "D) expresar su preocupación al periódico."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "El personaje sintió un gran alivio al",
+      "options": {
+        "A": "A) escuchar que su mujer abría la puerta.",
+        "B": "B) regresar al sillón.",
+        "C": "C) llamar a su médico.",
+        "D": "D) sentir que su mujer lo levantaba."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 78,
+      "subject": "Español",
+      "question": "Con el texto, el autor intenta",
+      "options": {
+        "A": "A) denunciar los efectos nocivos del papel periódico.",
+        "B": "B) narrar la despersonalización de un individuo obsesionado con las noticias.",
+        "C": "C) describir los síntomas de la intoxicación por tinta.",
+        "D": "D) mostrar el malestar de un individuo al leer el periódico."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 84,
+      "subject": "Español",
+      "question": "Relación de analogía: discurso barroco → aburrimiento / bostezo.",
+      "options": {
+        "A": "A) Ira – agresión.",
+        "B": "B) Diversión – sonrisa.",
+        "C": "C) Distracción – error.",
+        "D": "D) Impaciencia – fastidio."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 87,
+      "subject": "Español",
+      "question": "Selecciona la opción que usa correctamente las letras mayúsculas.",
+      "options": {
+        "A": "A) Ante los Príncipes... la Muestra... la Arquitecta... la Galería.",
+        "B": "B) Ante los príncipes... la muestra... la Arquitecta... la galería.",
+        "C": "C) Ante los príncipes... la muestra... la arquitecta... la Galería.",
+        "D": "D) Ante los Príncipes... la muestra... El Trabajo... la galería."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 105,
+      "subject": "Historia Universal",
+      "question": "La crisis en los Balcanes, alianzas diplomáticas y competencia económica fueron causas de la",
+      "options": {
+        "A": "A) Primera Guerra Mundial.",
+        "B": "B) Guerra de los Balcanes.",
+        "C": "C) Guerra de Crimea.",
+        "D": "D) Segunda Guerra Mundial."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 110,
+      "subject": "Historia Universal",
+      "question": "Una característica del mundo unipolar es",
+      "options": {
+        "A": "A) el establecimiento del sistema socialista.",
+        "B": "B) la globalización de los sectores productivos.",
+        "C": "C) la estabilidad económica en el mundo.",
+        "D": "D) el fortalecimiento de las identidades nacionales."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 112,
+      "subject": "Historia de México",
+      "question": "¿En qué momento se promulgó la Constitución de Apatzingán?",
+      "options": {
+        "A": "A) La organización.",
+        "B": "B) El inicio.",
+        "C": "C) La consumación.",
+        "D": "D) La guerrilla insurgente."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 117,
+      "subject": "Historia de México",
+      "question": "La inauguración de Bellas Artes, el PNR y la autonomía universitaria fueron acciones del periodo",
+      "options": {
+        "A": "A) Maximato.",
+        "B": "B) Unidad Nacional.",
+        "C": "C) Desarrollo Compartido.",
+        "D": "D) Cardenismo."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 118,
+      "subject": "Historia de México",
+      "question": "La trascendencia histórica del Plan Sexenal se debe a que",
+      "options": {
+        "A": "A) suscribió la paz entre facciones.",
+        "B": "B) dio voz a obreros y campesinos.",
+        "C": "C) estableció un modelo de desarrollo económico.",
+        "D": "D) permitió la reelección de Obregón."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 119,
+      "subject": "Historia de México",
+      "question": "El impulso a la petrolización y apertura turística a capitales privados fueron acciones de",
+      "options": {
+        "A": "A) Luis Echeverría.",
+        "B": "B) José López Portillo.",
+        "C": "C) Miguel de la Madrid.",
+        "D": "D) Carlos Salinas de Gortari."
+      },
+      "correct_answer": "B"
+    }
+  ]
 }
