@@ -83,8 +83,8 @@ function csvRowToModelSummary(row: CsvRow): ModelSummary {
     ]),
   );
 
-  const totalCorrect = row.avgPoints * areas.length;
-  const totalQuestions = QUESTIONS_PER_AREA * areas.length;
+  const totalCorrect = row.avgPoints;
+  const totalQuestions = QUESTIONS_PER_AREA;
 
   return {
     model: row.model,

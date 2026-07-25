@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import AreasChart from "@/components/AreasChart";
+import AreasRadarChart from "@/components/AreasRadarChart";
 import EffortBadge from "@/components/EffortBadge";
 import SubjectsChart from "@/components/SubjectsChart";
+import SubjectsRadarChart from "@/components/SubjectsRadarChart";
 import { getAllModels, getModel } from "@/lib/data";
 
 export function generateStaticParams() {
@@ -32,6 +34,13 @@ export default async function ModelPage({
   const areaRows = summary.areas.map((a) => ({
     label: `Área ${a.area}`,
     areaName: a.area_name,
+    percentage: a.total.percentage,
+    correct: a.total.correct,
+    questions: a.total.questions,
+  }));
+
+  const radarRows = summary.areas.map((a) => ({
+    area: `Área ${a.area}`,
     percentage: a.total.percentage,
     correct: a.total.correct,
     questions: a.total.questions,
@@ -71,16 +80,23 @@ export default async function ModelPage({
         </div>
       </div>
 
-      <section className="card">
-        <AreasChart data={areaRows} title="Score per area" />
-        <ul className="area-legend muted">
-          {summary.areas.map((a) => (
-            <li key={a.area}>
-              <strong>Área {a.area}:</strong> {a.area_name}
-            </li>
-          ))}
-        </ul>
-      </section>
+      <div className="card-duo">
+        <section className="card">
+          <AreasChart data={areaRows} title="Score per area" />
+          <ul className="area-legend muted">
+            {summary.areas.map((a) => (
+              <li key={a.area}>
+                <strong>Área {a.area}:</strong> {a.area_name}
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="card">
+          <h2 className="card-title">Area overview</h2>
+          <AreasRadarChart data={radarRows} />
+        </section>
+      </div>
 
       <section className="card">
         <h2 className="card-title">Area breakdown</h2>
@@ -113,9 +129,16 @@ export default async function ModelPage({
         </div>
       </section>
 
-      <section className="card">
-        <SubjectsChart data={subjectRows} title="Score per subject" />
-      </section>
+      <div className="card-duo">
+        <section className="card">
+          <SubjectsChart data={subjectRows} title="Score per subject" />
+        </section>
+
+        <section className="card">
+          <h2 className="card-title">Subject overview</h2>
+          <SubjectsRadarChart data={subjectRows} />
+        </section>
+      </div>
     </>
   );
 }

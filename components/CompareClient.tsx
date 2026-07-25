@@ -15,6 +15,8 @@ import {
 } from "recharts";
 import EffortBadge from "./EffortBadge";
 import ViewToggle, { type ViewMode } from "./ViewToggle";
+import CompareAreasRadarChart from "./CompareAreasRadarChart";
+import CompareSubjectsRadarChart from "./CompareSubjectsRadarChart";
 
 export interface CompareArea {
   area: number;
@@ -240,59 +242,69 @@ function CompareInner({ models }: { models: CompareModel[] }) {
         <p className="muted">Select at least 2 models to compare.</p>
       ) : (
         <>
-          <section className="card">
-            <div className="chart-card-head">
-              <h2 className="card-title">Average score per area</h2>
-              <ViewToggle value={mode} onChange={setMode} />
-            </div>
-            <div style={{ width: "100%", height: 340 }}>
-              <ResponsiveContainer>
-                <BarChart
-                  data={chartRows}
-                  margin={{ top: 16, right: 16, bottom: 8, left: 0 }}
-                  barCategoryGap="24%"
-                  barGap={3}
-                >
-                  <CartesianGrid vertical={false} stroke="#e2e8f0" />
-                  <XAxis
-                    dataKey="areaLabel"
-                    fontSize={12}
-                    stroke="#0f172a"
-                    tickLine={false}
-                  />
-                  <YAxis
-                    domain={isPoints ? [0, maxCorrect] : [0, 100]}
-                    tickFormatter={
-                      isPoints
-                        ? (v: number) => `${Math.round(v)}`
-                        : (v: number) => `${v}%`
-                    }
-                    allowDecimals={!isPoints}
-                    fontSize={12}
-                    stroke="#64748b"
-                    width={48}
-                  />
-                  <Tooltip
-                    content={<CompareTooltip />}
-                    cursor={{ fill: "rgba(15, 23, 42, 0.04)" }}
-                  />
-                  <Legend
-                    verticalAlign="bottom"
-                    wrapperStyle={{ fontSize: 12, paddingTop: 12 }}
-                  />
-                  {selected.map((m, i) => (
-                    <Bar
-                      key={m.modelKey}
-                      dataKey={isPoints ? `p${i}` : `k${i}`}
-                      name={`${m.model} [${m.effort}]`}
-                      fill={PALETTE[i % PALETTE.length]}
-                      radius={[3, 3, 0, 0]}
+          <div className="card-duo">
+            <section className="card">
+              <div className="chart-card-head">
+                <h2 className="card-title">Average score per area</h2>
+                <ViewToggle value={mode} onChange={setMode} />
+              </div>
+              <div style={{ width: "100%", height: 340 }}>
+                <ResponsiveContainer>
+                  <BarChart
+                    data={chartRows}
+                    margin={{ top: 16, right: 16, bottom: 8, left: 0 }}
+                    barCategoryGap="24%"
+                    barGap={3}
+                  >
+                    <CartesianGrid vertical={false} stroke="#e2e8f0" />
+                    <XAxis
+                      dataKey="areaLabel"
+                      fontSize={12}
+                      stroke="#0f172a"
+                      tickLine={false}
                     />
-                  ))}
-                </BarChart>
-              </ResponsiveContainer>
-            </div>
-          </section>
+                    <YAxis
+                      domain={isPoints ? [0, maxCorrect] : [0, 100]}
+                      tickFormatter={
+                        isPoints
+                          ? (v: number) => `${Math.round(v)}`
+                          : (v: number) => `${v}%`
+                      }
+                      allowDecimals={!isPoints}
+                      fontSize={12}
+                      stroke="#64748b"
+                      width={48}
+                    />
+                    <Tooltip
+                      content={<CompareTooltip />}
+                      cursor={{ fill: "rgba(15, 23, 42, 0.04)" }}
+                    />
+                    <Legend
+                      verticalAlign="bottom"
+                      wrapperStyle={{ fontSize: 12, paddingTop: 12 }}
+                    />
+                    {selected.map((m, i) => (
+                      <Bar
+                        key={m.modelKey}
+                        dataKey={isPoints ? `p${i}` : `k${i}`}
+                        name={`${m.model} [${m.effort}]`}
+                        fill={PALETTE[i % PALETTE.length]}
+                        radius={[3, 3, 0, 0]}
+                      />
+                    ))}
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+            </section>
+
+            <section className="card">
+              <h2 className="card-title">Area overview</h2>
+              <CompareAreasRadarChart
+                chartRows={chartRows}
+                selected={selected}
+              />
+            </section>
+          </div>
 
           <section className="card">
             <h2 className="card-title">Side-by-side table</h2>
@@ -371,55 +383,65 @@ function CompareInner({ models }: { models: CompareModel[] }) {
             </div>
           </section>
 
-          <section className="card">
-            <h2 className="card-title">Score per subject</h2>
-            <div style={{ width: "100%", height: 380 }}>
-              <ResponsiveContainer>
-                <BarChart
-                  data={subjectChartRows}
-                  margin={{ top: 16, right: 16, bottom: 8, left: 0 }}
-                  barCategoryGap="24%"
-                  barGap={3}
-                >
-                  <CartesianGrid vertical={false} stroke="#e2e8f0" />
-                  <XAxis
-                    dataKey="subject"
-                    fontSize={12}
-                    stroke="#0f172a"
-                    tickLine={false}
-                    interval={0}
-                    angle={-20}
-                    textAnchor="end"
-                    height={70}
-                  />
-                  <YAxis
-                    domain={[0, 100]}
-                    tickFormatter={(v: number) => `${v}%`}
-                    fontSize={12}
-                    stroke="#64748b"
-                    width={48}
-                  />
-                  <Tooltip
-                    content={<SubjectCompareTooltip />}
-                    cursor={{ fill: "rgba(15, 23, 42, 0.04)" }}
-                  />
-                  <Legend
-                    verticalAlign="bottom"
-                    wrapperStyle={{ fontSize: 12, paddingTop: 12 }}
-                  />
-                  {selected.map((m, i) => (
-                    <Bar
-                      key={m.modelKey}
-                      dataKey={`k${i}`}
-                      name={`${m.model} [${m.effort}]`}
-                      fill={PALETTE[i % PALETTE.length]}
-                      radius={[3, 3, 0, 0]}
+          <div className="card-duo">
+            <section className="card">
+              <h2 className="card-title">Score per subject</h2>
+              <div style={{ width: "100%", height: 380 }}>
+                <ResponsiveContainer>
+                  <BarChart
+                    data={subjectChartRows}
+                    margin={{ top: 16, right: 16, bottom: 8, left: 0 }}
+                    barCategoryGap="24%"
+                    barGap={3}
+                  >
+                    <CartesianGrid vertical={false} stroke="#e2e8f0" />
+                    <XAxis
+                      dataKey="subject"
+                      fontSize={12}
+                      stroke="#0f172a"
+                      tickLine={false}
+                      interval={0}
+                      angle={-20}
+                      textAnchor="end"
+                      height={70}
                     />
-                  ))}
-                </BarChart>
-              </ResponsiveContainer>
-            </div>
-          </section>
+                    <YAxis
+                      domain={[0, 100]}
+                      tickFormatter={(v: number) => `${v}%`}
+                      fontSize={12}
+                      stroke="#64748b"
+                      width={48}
+                    />
+                    <Tooltip
+                      content={<SubjectCompareTooltip />}
+                      cursor={{ fill: "rgba(15, 23, 42, 0.04)" }}
+                    />
+                    <Legend
+                      verticalAlign="bottom"
+                      wrapperStyle={{ fontSize: 12, paddingTop: 12 }}
+                    />
+                    {selected.map((m, i) => (
+                      <Bar
+                        key={m.modelKey}
+                        dataKey={`k${i}`}
+                        name={`${m.model} [${m.effort}]`}
+                        fill={PALETTE[i % PALETTE.length]}
+                        radius={[3, 3, 0, 0]}
+                      />
+                    ))}
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+            </section>
+
+            <section className="card">
+              <h2 className="card-title">Subject overview</h2>
+              <CompareSubjectsRadarChart
+                subjectChartRows={subjectChartRows}
+                selected={selected}
+              />
+            </section>
+          </div>
 
           <section className="card">
             <h2 className="card-title">Side-by-side table (per subject)</h2>
