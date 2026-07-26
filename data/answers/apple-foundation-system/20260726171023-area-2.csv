@@ -1,6 +1,6 @@
 number,answer
 1,A
-2,B
+2,D
 3,A
 4,A
 5,A
@@ -32,8 +32,8 @@ number,answer
 31,B
 32,A
 33,C
-34,B
-35,D
+34,D
+35,A
 36,C
 37,A
 38,D
@@ -55,7 +55,7 @@ number,answer
 54,A
 55,A
 56,A
-57,A
+57,D
 58,D
 59,B
 60,D
@@ -69,13 +69,13 @@ number,answer
 68,D
 69,B
 70,D
-71,A
+71,C
 72,D
-73,A
+73,D
 74,C
-75,D
-76,ERROR
-77,A
+75,A
+76,A
+77,B
 78,B
 79,C
 80,A
