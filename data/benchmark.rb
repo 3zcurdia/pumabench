@@ -67,7 +67,7 @@ class Responder
     attempts = 0
     begin
       attempts += 1
-      chat = RubyLLM.chat(model: model, provider: provider).with_temperature(0)
+      chat = RubyLLM.chat(model: model, provider: provider, assume_model_exists: true).with_temperature(0)
       chat =
         if effort == "none"
           chat.with_thinking(effort: nil)
@@ -195,6 +195,16 @@ def run_benchmark(model_name, **options)
   record   = register_model(model_name) unless options[:dry_run]
   model_id = record && record["id"]
   sanitized = model_answers_path_name(model_name, options[:effort])
+
+  if options[:rebuild]
+    model_answers = File.join(ANSWERS_DIR, sanitized)
+    model_results = File.join(RESULTS_DIR, sanitized)
+    FileUtils.rm_rf(model_answers) if File.exist?(model_answers)
+    FileUtils.rm_rf(model_results) if File.exist?(model_results)
+    puts "Rebuild: deleted #{model_answers} and #{model_results}"
+    options[:resume] = false
+  end
+
   answers_dir = File.join(ANSWERS_DIR, sanitized)
   FileUtils.mkdir_p(answers_dir)
 
@@ -614,9 +624,9 @@ def run_evaluate(model_filter: nil, resume_ts: nil, model_id: nil)
 end
 
 # Default api base set to local ollama instance
-cli_options = { provider: nil, effort: nil, api_base: "http://localhost:1234/v1", api_key: "dummy-key", evaluate_only: false, resume: false, dry_run: false }
+cli_options = { provider: nil, effort: nil, api_base: "http://localhost:11434/v1", api_key: "dummy-key", evaluate_only: false, resume: false, dry_run: false, rebuild: false }
 OptionParser.new do |opts|
-  opts.banner = "Usage: ruby benchmark.rb <model> [--provider=openai|openrouter] [--effort=low|medium|high] [--resume] [--dry-run]\n" \
+  opts.banner = "Usage: ruby benchmark.rb <model> [--provider=openai|openrouter] [--effort=low|medium|high] [--resume] [--rebuild] [--dry-run]\n" \
                 "       ruby benchmark.rb --evaluate-only\n" \
                 "       ruby benchmark.rb -h, --help"
   opts.on("--provider=NAME", %i[openai openrouter], "Provider to use (auto-detected from model name if omitted)") { |v| cli_options[:provider] = v }
@@ -625,6 +635,7 @@ OptionParser.new do |opts|
   opts.on("--api_key=KEY", "OpenAI-compatible API key") { |v| cli_options[:api_key] = v }
   opts.on("--evaluate-only", "Skip the benchmark; re-evaluate every model in answers/") { cli_options[:evaluate_only] = true }
   opts.on("--resume", "Continue the latest in-progress run for this model instead of starting a new one") { cli_options[:resume] = true }
+  opts.on("--rebuild", "Delete previous answers/results for this model and re-run from scratch") { cli_options[:rebuild] = true }
   opts.on("--dry-run", "Print prompts without calling the LLM or writing files") { cli_options[:dry_run] = true }
   opts.on("-h", "--help", "Show this help") { puts opts; exit }
 end.parse!
