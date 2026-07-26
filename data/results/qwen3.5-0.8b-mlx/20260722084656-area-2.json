@@ -87,10 +87,12 @@
       },
       "correct_answer": "B",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-2-q2.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp2.webp",
-        "alt": "Figura asociada a la pregunta 2."
+        "alt": "Figura asociada a la pregunta 2.",
+        "content": "El gráfico presenta un sistema de coordenadas cartesianas donde el eje vertical representa la fuerza en Newtons (N) y el eje horizontal representa la aceleración en metros por segundo al cuadrado (m/s²). En el eje de la fuerza, se marcan las siguientes divisiones: 1.00 N, 2.00 N, 3.00 N y 4.00 N, con líneas horizontales que indican los valores intermedios. En el eje de la aceleración, se marcan las divisiones en 0.50 m/s², 1.00 m/s², 1.50 m/s² y 2.00 m/s², con líneas verticales que también indican los valores intermedios.\n\nLos puntos en el gráfico están conectados por una línea recta que comienza en el origen (0,0) y se extiende hasta el punto (2.00, 4.00). Esta línea indica una relación lineal entre la fuerza y la aceleración, sugiriendo que a medida que la aceleración aumenta, la fuerza también lo hace de manera proporcional. La pendiente de la línea representa la relación entre fuerza y aceleración, de acuerdo con la segunda ley de Newton.",
+        "derived_from": "area-2-q2.webp"
       }
     },
     {
@@ -105,10 +107,12 @@
       },
       "correct_answer": "C",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-2-q4.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp4.webp",
-        "alt": "Figura asociada a la pregunta 4."
+        "alt": "Figura asociada a la pregunta 4.",
+        "content": "En la figura se observan dos círculos, etiquetados como \"X\" y \"Y\", situados en una línea horizontal. Ambos círculos están alineados uno al lado del otro, con \"X\" a la izquierda y \"Y\" a la derecha. Encima de cada círculo hay una etiqueta que indica \"Dirección de desplazamiento\". La flecha que acompaña a \"X\" apunta hacia la izquierda, mientras que la flecha que acompaña a \"Y\" apunta hacia la izquierda también. Esto sugiere que ambos círculos se están desplazando en la misma dirección, que es hacia la izquierda. La línea horizontal sobre la que están los círculos representa el camino o la trayectoria de desplazamiento.",
+        "derived_from": "area-2-q4.webp"
       }
     },
     {
@@ -147,10 +151,12 @@
       },
       "correct_answer": "B",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-2-q8.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp8.webp",
-        "alt": "Figura asociada a la pregunta 8."
+        "alt": "Figura asociada a la pregunta 8.",
+        "content": "En la figura se observa un plano vertical representado en color gris, que parece ser una pared. Frente a esta pared, hay un personaje de pie a la izquierda, que está mirando hacia la pared. Desde el personaje, se extienden líneas onduladas que representan ondas, las cuales se propagan en círculos concéntricos alrededor de él. Estas ondas se acercan a la pared y se reflejan en ella.\n\nA la derecha de la pared, hay dos personajes que parecen estar interactuando entre sí, uno de ellos está levantando un brazo hacia el otro. Las ondas que se reflejan en la pared parecen estar afectando la interacción entre estos dos personajes, sugiriendo que la presencia de la pared y las ondas son relevantes para la situación que se está representando. Las líneas que representan las ondas son continuas y se extienden hacia el fondo, indicando la propagación de las mismas. Además, hay flechas que indican la dirección de las ondas, apuntando hacia la pared y hacia los personajes a la derecha.",
+        "derived_from": "area-2-q8.webp"
       }
     },
     {
@@ -257,22 +263,26 @@
         "A": {
           "label": "A",
           "image": "area-2-q35-opt-A.webp",
-          "alt": "Opción A para la pregunta 35."
+          "alt": "Opción A para la pregunta 35.",
+          "image_description": "La opción A presenta la estructura química de un compuesto orgánico. Se observa un grupo funcional que incluye un carbono central (C) unido a un grupo hidroxilo (–OH) y a un grupo carbonilo (C=O). A la izquierda del carbono central, hay un grupo metilo (–CH₃). La disposición de los átomos sugiere que el compuesto es un alcohol con un grupo carbonilo, lo que indica que podría ser un compuesto de tipo cetona o un alcohol secundario. La fórmula general se puede interpretar como un alcohol que tiene un grupo carbonilo en la misma cadena de carbonos."
         },
         "B": {
           "label": "B",
           "image": "area-2-q35-opt-B.webp",
-          "alt": "Opción B para la pregunta 35."
+          "alt": "Opción B para la pregunta 35.",
+          "image_description": "La opción B presenta la estructura química de un compuesto orgánico. Se observa un grupo funcional amida, que se identifica por la presencia de un carbono (C) unido a un grupo carbonilo (C=O) y a un grupo amino (NH2). La cadena principal está formada por un carbono que está unido a un grupo metilo (CH3) y al grupo amino. La representación muestra la disposición de los átomos y los enlaces entre ellos, donde el carbono del grupo carbonilo está en el centro, con el grupo metilo a la izquierda y el grupo amino a la derecha. Esta estructura corresponde a la acetamida, un compuesto que se utiliza en diversas aplicaciones químicas."
         },
         "C": {
           "label": "C",
           "image": "area-2-q35-opt-C.webp",
-          "alt": "Opción C para la pregunta 35."
+          "alt": "Opción C para la pregunta 35.",
+          "image_description": "La opción C presenta la fórmula estructural de un hidrocarburo lineal. Se observa que está compuesta por tres grupos metilo (CH₃) y un grupo metileno (CH₂) en el medio, formando una cadena de tres átomos de carbono. La representación es la siguiente: CH₃-CH₂-CH₃. Este compuesto es el propano, un alcano que pertenece a la serie de los hidrocarburos saturados. La estructura indica que cada carbono está unido a suficientes átomos de hidrógeno para cumplir con la tetravalencia del carbono."
         },
         "D": {
           "label": "D",
           "image": "area-2-q35-opt-D.webp",
-          "alt": "Opción D para la pregunta 35."
+          "alt": "Opción D para la pregunta 35.",
+          "image_description": "La opción D presenta la estructura química de un compuesto orgánico. En la parte izquierda de la imagen se observa un grupo metilo (CH₃) unido a un carbono central (C) que también está conectado a un grupo etóxido (OCH₂CH₃). Este carbono central está unido a un grupo carbonilo (C=O), lo que indica que se trata de un compuesto que contiene un enlace doble entre el carbono y el oxígeno. La disposición de los grupos sugiere que el compuesto es un éster o un cetona, dependiendo del contexto de la pregunta. La estructura se puede describir como un carbono central que tiene un grupo metilo, un grupo etóxido y un grupo carbonilo, lo que le confiere características específicas en reacciones químicas."
         }
       },
       "correct_answer": "A"
@@ -457,10 +467,12 @@
       },
       "correct_answer": "A",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-2-q52.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp52.webp",
-        "alt": "Figura asociada a la pregunta 52."
+        "alt": "Figura asociada a la pregunta 52.",
+        "content": "El gráfico presenta un sistema de coordenadas cartesianas con el eje vertical etiquetado como \\( f(x) \\) y el eje horizontal como \\( x \\). El eje \\( f(x) \\) tiene marcas en 1, 2 y 3 hacia arriba desde el origen, mientras que el eje \\( x \\) tiene marcas en 0, 1, 2 y 3 hacia la derecha desde el origen.\n\nLa curva representada es una función que se aproxima a un valor en el eje \\( f(x) \\) a medida que \\( x \\) se acerca a 2 desde la izquierda, pero no toca el punto \\( (2, f(2)) \\). La curva desciende hacia el eje \\( x \\) y se aproxima a un valor negativo a medida que \\( x \\) se aleja de 2 hacia la derecha. No hay intersección con el eje \\( x \\) en el intervalo \\( (2, 3) \\). La curva es continua en el intervalo \\( (0, 2) \\) y presenta un comportamiento asintótico en \\( x = 2 \\).",
+        "derived_from": "area-2-q52.webp"
       }
     },
     {

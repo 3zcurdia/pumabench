@@ -1,0 +1,222 @@
+{
+  "id": "openai/gpt-oss-20b",
+  "model": "gpt-oss-20b-thinking-medium",
+  "effort": "medium",
+  "timestamp": "20260726101906",
+  "area": 3,
+  "area_name": "Ciencias Sociales",
+  "total": {
+    "questions": 120,
+    "correct": 109,
+    "percentage": 90.83
+  },
+  "subjects": {
+    "Biología": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Español": {
+      "questions": 18,
+      "correct": 16,
+      "percentage": 88.89
+    },
+    "Filosofía": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Física": {
+      "questions": 10,
+      "correct": 7,
+      "percentage": 70.0
+    },
+    "Geografía": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Historia Universal": {
+      "questions": 14,
+      "correct": 14,
+      "percentage": 100.0
+    },
+    "Historia de México": {
+      "questions": 14,
+      "correct": 10,
+      "percentage": 71.43
+    },
+    "Literatura": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Matemáticas": {
+      "questions": 24,
+      "correct": 23,
+      "percentage": 95.83
+    },
+    "Química": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    }
+  },
+  "failed_questions": [
+    {
+      "number": 4,
+      "subject": "Física",
+      "question": "Una bala de 7.0 kg se dispara a 120 m/s. ¿Cuánta Ec tiene al salir y Ep en el punto más alto?",
+      "options": {
+        "A": "A) Ec = 50,400 J y Ep = 50,400 J",
+        "B": "B) Ec = 420 J y Ep = 420 J",
+        "C": "C) Ec = 50,400 J y Ep = 0 J",
+        "D": "D) Ec = 420 J y Ep = 0 J"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 7,
+      "subject": "Física",
+      "question": "Las olas de mayor tamaño en la playa se deben a que las olas se",
+      "options": {
+        "A": "A) refractan.",
+        "B": "B) polarizan.",
+        "C": "C) reflejan.",
+        "D": "D) superponen."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 10,
+      "subject": "Física",
+      "question": "Circuito con resistores R y 2R. Si circula 3I en una sección, ¿qué corriente circula por 2R?",
+      "options": {
+        "A": "A) 3I amperes.",
+        "B": "B) 0 amperes.",
+        "C": "C) I amperes.",
+        "D": "D) 2I amperes."
+      },
+      "correct_answer": "B",
+      "reference": {
+        "type": "text",
+        "path": "area-3-q10.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp10.webp",
+        "alt": "Figura asociada a la pregunta 10.",
+        "content": "En la figura se presenta un circuito eléctrico. A la izquierda, hay una fuente de voltaje representada por el símbolo \"V\". Desde esta fuente, sale una corriente de 3I. A continuación, se encuentran dos resistencias conectadas en paralelo. La primera resistencia tiene un valor de R y está situada en la parte superior. La segunda resistencia, ubicada en la parte inferior, tiene un valor de 2R. Ambas resistencias están conectadas a los mismos nodos, lo que indica que comparten el mismo voltaje. La disposición de las resistencias en paralelo sugiere que la corriente total que sale de la fuente se divide entre las dos resistencias.",
+        "derived_from": "area-3-q10.webp"
+      }
+    },
+    {
+      "number": 11,
+      "subject": "Literatura",
+      "question": "Los textos periodísticos que informan son, además de la noticia,",
+      "options": {
+        "A": "A) el artículo y la crónica.",
+        "B": "B) la caricatura y la entrevista.",
+        "C": "C) el reportaje y la entrevista.",
+        "D": "D) la crónica y la editorial."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "¿Qué ecuación describe la siguiente gráfica?",
+      "options": {
+        "A": "A) y = x - 1/2",
+        "B": "B) y = 3/2 x - 1/2",
+        "C": "C) y = -3/2 x + 1/2",
+        "D": "D) y = x/2 - 1"
+      },
+      "correct_answer": "D",
+      "reference": {
+        "type": "text",
+        "path": "area-3-q58.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp58.webp",
+        "alt": "Figura asociada a la pregunta 58.",
+        "content": "En la figura se presenta un sistema de coordenadas cartesianas, donde se observan los ejes x e y. El eje x es horizontal y se extiende hacia la derecha, marcando valores positivos, mientras que el eje y es vertical y se extiende hacia arriba, también marcando valores positivos. Ambos ejes se cruzan en el origen, que está etiquetado como \"0\". \n\nLa línea que se dibuja en la figura es una recta que tiene una pendiente positiva, comenzando en el cuadrante inferior izquierdo y extendiéndose hacia el cuadrante superior derecho. Esta recta no intersecta el eje y en el origen, lo que indica que su intersección con el eje y se encuentra en un valor positivo. La recta se extiende indefinidamente en ambas direcciones, pero no se muestra su ecuación ni puntos específicos en la gráfica.",
+        "derived_from": "area-3-q58.webp"
+      }
+    },
+    {
+      "number": 71,
+      "subject": "Español",
+      "question": "A partir del texto se infiere que la concha de mar tiene las siguientes características.",
+      "options": {
+        "A": "A) Moldeables y duraderas.",
+        "B": "B) Maleables y efímeras.",
+        "C": "C) Lujosas y endebles.",
+        "D": "D) Exóticas e inefables."
+      },
+      "correct_answer": "A",
+      "reference": {
+        "type": "text",
+        "content": "El misterio de las joyas de concha\n\nAl igual que la turquesa, las plumas de aves exóticas y el oro, la concha (lo que conocemos como concha de mar) era un material precioso en el México prehispánico (anterior a la conquista y colonización españolas). Así lo prueban los cientos de piezas elaboradas con diversos tipos de conchas recuperadas en las distintas excavaciones a lo largo de todo el país: solo en las excavaciones que se realizan desde 1978 en la zona arqueológica del Templo Mayor de Tenochtitlan se han recuperado más de 2,300 objetos hechos con concha. Las piezas, que han ido apareciendo en diferentes excavaciones, eran depositadas en las tumbas como ofrendas funerarias para recrear el inframundo acuático.\n\nPara los mexicas, así como para las diversas culturas de Mesoamérica, la concha tenía una connotación sagrada, pues al ser un elemento acuático se asociaba con ese líquido esencial en el desarrollo de la vida. Además, por lo difícil que resultaba su obtención, era considerada un material de lujo, al que, por ejemplo, en Tenochtitlan, solo tenía acceso la clase gobernante.\n\nEl arqueólogo Adrián Velázquez Castro busca desde hace quince años las huellas de las herramientas empleadas por los artesanos prehispánicos en la elaboración de los objetos de concha. Y es que, a pesar de la gran cantidad de piezas recuperadas, no se han encontrado hasta ahora en la zona del Templo Mayor de Tenochtitlan restos de ningún taller o del área de producción de estos adornos.\n\nVelázquez empezó a trabajar en la clasificación de la colección de objetos de concha del Templo Mayor, pero su interés por conocer las formas de elaboración de estas piezas lo llevó a crear un proyecto de arqueología experimental que se convertiría, con el tiempo, en un taller de fabricación de la concha. Con este taller se pretende conocer, mediante la reconstrucción de las piezas antiguas con conchas modernas, las técnicas con las que se trabajó este material en la época prehispánica. Gracias al taller se ha podido saber, por ejemplo, que la producción del Templo Mayor fue muy estandarizada (se utilizaron la misma técnica y los mismos materiales), fue controlada por la clase gobernante y estuvo enfocada, casi exclusivamente, a la creación de objetos ornamentales.\n\nAl principio el taller se limitó a estudiar la colección de objetos de concha del Templo Mayor, pero poco a poco se extendió, y ya lleva realizados más de setecientos experimentos con otros objetos de concha del México prehispánico. «En gran parte gracias al trabajo de estudiantes de arqueología, tenemos ya un buen número de colecciones estudiadas, que van desde el norte de México hasta la zona maya, desde las etapas más tempranas, durante el período formativo, hasta el posclásico tardío, con la conquista española», comenta Adrián Velázquez Castro.\n\nEl Universal",
+        "title": "El misterio de las joyas de concha",
+        "author": null,
+        "source": "El Universal"
+      }
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "¿Cuál párrafo está escrito correctamente?",
+      "options": {
+        "A": "A) Los personajes de la jarcha son principalmente la muchacha...",
+        "B": "B) Los personajes de la jarcha son: principalmente la muchacha...",
+        "C": "C) Los personajes de la jarcha son: principalmente la muchacha y el habib o amigo, —cómo se denomina al amante—; también aparece...",
+        "D": "D) Los personajes de la jarcha son, principalmente, la muchacha y el habib o amigo (cómo se denomina al amante)..."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 109,
+      "subject": "Historia de México",
+      "question": "Acontecimientos importantes de la Independencia en Guadalajara.",
+      "options": {
+        "A": "A) El sitio de Cuautla y el estandarte de Guadalupe.",
+        "B": "B) El grito de Dolores y la Constitución de Apatzingán.",
+        "C": "C) La abolición de la esclavitud y el 'Despertador Americano'.",
+        "D": "D) La organización en Querétaro y la toma del Cerro de los Remedios."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 115,
+      "subject": "Historia de México",
+      "question": "La creación de la SEP y los Acuerdos de Bucareli fueron acciones de",
+      "options": {
+        "A": "A) Adolfo de la Huerta.",
+        "B": "B) Abelardo L. Rodríguez.",
+        "C": "C) Venustiano Carranza.",
+        "D": "D) Álvaro Obregón."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 117,
+      "subject": "Historia de México",
+      "question": "Documento que proyectó apoyo a los ejidos y respeto al salario mínimo.",
+      "options": {
+        "A": "A) Acuerdos de Bucareli.",
+        "B": "B) Pacto de la Ciudadela.",
+        "C": "C) Plan Sexenal.",
+        "D": "D) Plan de la Acción Campesina."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 120,
+      "subject": "Historia de México",
+      "question": "Política económica de 1970 a 1982.",
+      "options": {
+        "A": "A) Sustitución de importaciones.",
+        "B": "B) Estado de Bienestar.",
+        "C": "C) Desarrollo estabilizador.",
+        "D": "D) Desarrollo compartido."
+      },
+      "correct_answer": "D"
+    }
+  ]
+}

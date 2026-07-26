@@ -75,10 +75,12 @@
       },
       "correct_answer": "B",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-3-q3.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp3.webp",
-        "alt": "Figura asociada a la pregunta 3."
+        "alt": "Figura asociada a la pregunta 3.",
+        "content": "El gráfico presenta un sistema de coordenadas cartesianas donde el eje vertical representa la fuerza en Newtons (N) y el eje horizontal representa la aceleración en metros por segundo al cuadrado (m/s²). En el eje de la fuerza, se marcan los valores desde 0 hasta 4.00 N, con divisiones en 1.00 N. En el eje de la aceleración, se marcan los valores desde 0 hasta 2.00 m/s², con divisiones en 0.50 m/s².\n\nSe observa una línea recta que conecta los puntos (0, 0) y (2.00, 4.00), indicando una relación lineal entre la fuerza y la aceleración. Los puntos en la línea están representados por círculos negros. La pendiente de la línea sugiere que a medida que la aceleración aumenta, la fuerza también lo hace de manera proporcional. Además, hay líneas de referencia horizontales y verticales que ayudan a visualizar los valores de fuerza y aceleración correspondientes.",
+        "derived_from": "area-3-q3.webp"
       }
     },
     {
@@ -105,10 +107,12 @@
       },
       "correct_answer": "D",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-3-q8.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp8.webp",
-        "alt": "Figura asociada a la pregunta 8."
+        "alt": "Figura asociada a la pregunta 8.",
+        "content": "La figura presenta una línea ondulada que representa una onda. La parte izquierda de la figura tiene un extremo que se muestra en forma de punta negra, mientras que el extremo derecho termina en una línea vertical con un patrón de rayas, que puede indicar un punto de reflexión o un medio diferente. Debajo de la onda, hay una línea horizontal discontinua que mide 90 cm, indicando la longitud total de la onda representada. La onda parece tener varias crestas y valles, sugiriendo un movimiento oscilatorio. No se observan etiquetas adicionales ni símbolos en la figura.",
+        "derived_from": "area-3-q8.webp"
       }
     },
     {
@@ -123,10 +127,12 @@
       },
       "correct_answer": "B",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-3-q10.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp10.webp",
-        "alt": "Figura asociada a la pregunta 10."
+        "alt": "Figura asociada a la pregunta 10.",
+        "content": "En la figura se presenta un circuito eléctrico. A la izquierda, hay una fuente de voltaje representada por el símbolo \"V\". Desde esta fuente, sale una corriente de 3I. A continuación, se encuentran dos resistencias conectadas en paralelo. La primera resistencia tiene un valor de R y está situada en la parte superior. La segunda resistencia, ubicada en la parte inferior, tiene un valor de 2R. Ambas resistencias están conectadas a los mismos nodos, lo que indica que comparten el mismo voltaje. La disposición de las resistencias en paralelo sugiere que la corriente total que sale de la fuente se divide entre las dos resistencias.",
+        "derived_from": "area-3-q10.webp"
       }
     },
     {
@@ -153,10 +159,12 @@
       },
       "correct_answer": "D",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-3-q58.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp58.webp",
-        "alt": "Figura asociada a la pregunta 58."
+        "alt": "Figura asociada a la pregunta 58.",
+        "content": "En la figura se presenta un sistema de coordenadas cartesianas, donde se observan los ejes x e y. El eje x es horizontal y se extiende hacia la derecha, marcando valores positivos, mientras que el eje y es vertical y se extiende hacia arriba, también marcando valores positivos. Ambos ejes se cruzan en el origen, que está etiquetado como \"0\". \n\nLa línea que se dibuja en la figura es una recta que tiene una pendiente positiva, comenzando en el cuadrante inferior izquierdo y extendiéndose hacia el cuadrante superior derecho. Esta recta no intersecta el eje y en el origen, lo que indica que su intersección con el eje y se encuentra en un valor positivo. La recta se extiende indefinidamente en ambas direcciones, pero no se muestra su ecuación ni puntos específicos en la gráfica.",
+        "derived_from": "area-3-q58.webp"
       }
     },
     {

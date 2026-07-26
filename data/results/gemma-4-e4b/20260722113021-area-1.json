@@ -87,10 +87,12 @@
       },
       "correct_answer": "C",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-1-q69.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025area1p69.webp",
-        "alt": "Figura asociada a la pregunta 69."
+        "alt": "Figura asociada a la pregunta 69.",
+        "content": "El gráfico presenta un sistema de coordenadas cartesianas con el eje vertical etiquetado como \"y\" y el eje horizontal como \"x\". El eje \"y\" se extiende hacia arriba desde el origen (0,0) y el eje \"x\" se extiende hacia la derecha. La curva representada es una función continua que oscila, comenzando en el punto (0,0) y subiendo hasta alcanzar un máximo local antes de descender. \n\nEn el eje \"x\", se observan líneas punteadas verticales en las posiciones x = 2 y x = 4. La curva cruza el eje \"x\" en dos puntos: uno entre x = 0 y x = 2, y otro entre x = 4 y x = 6. La parte de la curva entre x = 0 y x = 2 es ascendente, alcanzando un máximo en algún punto antes de descender hacia x = 2. Desde x = 2, la curva desciende hasta un mínimo local antes de volver a ascender hacia x = 4, donde nuevamente alcanza un máximo. Posteriormente, la curva desciende hacia x = 6, pero no llega a cruzar el eje \"x\" en este tramo. \n\nEl gráfico no presenta etiquetas numéricas en el eje \"y\", pero se puede inferir que la función tiene valores positivos y negativos en diferentes intervalos. La forma de la curva sugiere que es una función polinómica de grado al menos 3, dado que presenta al menos dos máximos y un mínimo.",
+        "derived_from": "area-1-q69.webp"
       }
     },
     {

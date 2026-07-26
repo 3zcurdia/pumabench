@@ -1,0 +1,66 @@
+{
+  "id": "google/gemma-4-e2b",
+  "model": "gemma-4-e2b-thinking-low",
+  "effort": "low",
+  "timestamp": "20260726134056",
+  "area": 1,
+  "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+  "total": {
+    "questions": 0,
+    "correct": 0,
+    "percentage": 0.0
+  },
+  "subjects": {
+    "Biología": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Español": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Filosofía": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Física": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Geografía": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Historia Universal": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Historia de México": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Literatura": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Matemáticas": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Química": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    }
+  },
+  "failed_questions": []
+}

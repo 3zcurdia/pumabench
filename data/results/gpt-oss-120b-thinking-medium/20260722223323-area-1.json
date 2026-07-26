@@ -75,10 +75,12 @@
       },
       "correct_answer": "D",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-1-q2.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp2.webp",
-        "alt": "Figura asociada a la pregunta 2."
+        "alt": "Figura asociada a la pregunta 2.",
+        "content": "En la figura se observa un sistema de coordenadas cartesianas con los ejes x e y. El eje y está orientado hacia arriba y el eje x hacia la derecha. Se presentan tres vectores de fuerza representados por flechas:\n\n1. Un vector de 10 N que se extiende verticalmente hacia arriba, alineado con el eje y.\n2. Un vector de 8 N que forma un ángulo de 30° con el eje x, apuntando hacia la derecha y hacia arriba.\n3. Un vector de 9 N que forma un ángulo de 75° con el eje x, también apuntando hacia la derecha y hacia arriba.\n\nAdemás, se incluye una tabla en la parte superior de la figura que muestra los valores del seno y coseno para los ángulos de 30°, 45° y 75°. La tabla tiene tres columnas: \"Ángulo\", \"Seno\" y \"Coseno\". Los valores son los siguientes:\n\n- Para 30°: Seno = 0.5, Coseno = 0.8\n- Para 45°: Seno = 0.7, Coseno = 0.7\n- Para 75°: Seno = 0.9, Coseno = 0.3\n\nLos vectores están etiquetados con sus respectivas magnitudes en Newtons (N) y los ángulos están indicados en grados.",
+        "derived_from": "area-1-q2.webp"
       }
     },
     {
@@ -93,10 +95,12 @@
       },
       "correct_answer": "B",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-1-q13.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp13.webp",
-        "alt": "Figura asociada a la pregunta 13."
+        "alt": "Figura asociada a la pregunta 13.",
+        "content": "La figura presenta tres cubos etiquetados como A, B y C. Cada cubo está representado en una perspectiva tridimensional, mostrando sus aristas y caras. \n\nEl cubo A tiene líneas punteadas que indican las aristas ocultas en la parte superior y lateral, sugiriendo que la cara superior está vista desde un ángulo. Las líneas punteadas en el cubo A son visibles en la parte superior izquierda y en la parte trasera.\n\nEl cubo B también tiene líneas punteadas, pero estas se encuentran en la parte superior y en la cara lateral derecha, lo que indica que la vista es diferente a la del cubo A. La cara frontal del cubo B es más prominente, y las líneas punteadas sugieren que hay aristas ocultas en la parte superior y lateral.\n\nEl cubo C presenta una disposición similar, con líneas punteadas que indican aristas ocultas, pero en este caso, las líneas están en la parte superior y en la cara lateral izquierda. La cara frontal del cubo C es visible, y las líneas punteadas sugieren que hay aristas que no son completamente visibles.\n\nCada cubo tiene un diseño similar, pero las posiciones de las líneas punteadas y la orientación de las caras visibles son diferentes entre ellos.",
+        "derived_from": "area-1-q13.webp"
       }
     },
     {
@@ -123,10 +127,12 @@
       },
       "correct_answer": "C",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-1-q69.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025area1p69.webp",
-        "alt": "Figura asociada a la pregunta 69."
+        "alt": "Figura asociada a la pregunta 69.",
+        "content": "El gráfico presenta un sistema de coordenadas cartesianas con el eje vertical etiquetado como \"y\" y el eje horizontal como \"x\". El eje \"y\" se extiende hacia arriba desde el origen (0,0) y el eje \"x\" se extiende hacia la derecha. La curva representada es una función continua que oscila, comenzando en el punto (0,0) y subiendo hasta alcanzar un máximo local antes de descender. \n\nEn el eje \"x\", se observan líneas punteadas verticales en las posiciones x = 2 y x = 4. La curva cruza el eje \"x\" en dos puntos: uno entre x = 0 y x = 2, y otro entre x = 4 y x = 6. La parte de la curva entre x = 0 y x = 2 es ascendente, alcanzando un máximo en algún punto antes de descender hacia x = 2. Desde x = 2, la curva desciende hasta un mínimo local antes de volver a ascender hacia x = 4, donde nuevamente alcanza un máximo. Posteriormente, la curva desciende hacia x = 6, pero no llega a cruzar el eje \"x\" en este tramo. \n\nEl gráfico no presenta etiquetas numéricas en el eje \"y\", pero se puede inferir que la función tiene valores positivos y negativos en diferentes intervalos. La forma de la curva sugiere que es una función polinómica de grado al menos 3, dado que presenta al menos dos máximos y un mínimo.",
+        "derived_from": "area-1-q69.webp"
       }
     },
     {

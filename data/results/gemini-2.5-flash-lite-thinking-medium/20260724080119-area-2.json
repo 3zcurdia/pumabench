@@ -87,10 +87,12 @@
       },
       "correct_answer": "B",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-2-q2.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp2.webp",
-        "alt": "Figura asociada a la pregunta 2."
+        "alt": "Figura asociada a la pregunta 2.",
+        "content": "El gráfico presenta un sistema de coordenadas cartesianas donde el eje vertical representa la fuerza en Newtons (N) y el eje horizontal representa la aceleración en metros por segundo al cuadrado (m/s²). En el eje de la fuerza, se marcan las siguientes divisiones: 1.00 N, 2.00 N, 3.00 N y 4.00 N, con líneas horizontales que indican los valores intermedios. En el eje de la aceleración, se marcan las divisiones en 0.50 m/s², 1.00 m/s², 1.50 m/s² y 2.00 m/s², con líneas verticales que también indican los valores intermedios.\n\nLos puntos en el gráfico están conectados por una línea recta que comienza en el origen (0,0) y se extiende hasta el punto (2.00, 4.00). Esta línea indica una relación lineal entre la fuerza y la aceleración, sugiriendo que a medida que la aceleración aumenta, la fuerza también lo hace de manera proporcional. La pendiente de la línea representa la relación entre fuerza y aceleración, de acuerdo con la segunda ley de Newton.",
+        "derived_from": "area-2-q2.webp"
       }
     },
     {
@@ -105,10 +107,12 @@
       },
       "correct_answer": "C",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-2-q4.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp4.webp",
-        "alt": "Figura asociada a la pregunta 4."
+        "alt": "Figura asociada a la pregunta 4.",
+        "content": "En la figura se observan dos círculos, etiquetados como \"X\" y \"Y\", situados en una línea horizontal. Ambos círculos están alineados uno al lado del otro, con \"X\" a la izquierda y \"Y\" a la derecha. Encima de cada círculo hay una etiqueta que indica \"Dirección de desplazamiento\". La flecha que acompaña a \"X\" apunta hacia la izquierda, mientras que la flecha que acompaña a \"Y\" apunta hacia la izquierda también. Esto sugiere que ambos círculos se están desplazando en la misma dirección, que es hacia la izquierda. La línea horizontal sobre la que están los círculos representa el camino o la trayectoria de desplazamiento.",
+        "derived_from": "area-2-q4.webp"
       }
     },
     {
@@ -183,10 +187,12 @@
       },
       "correct_answer": "A",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-2-q52.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp52.webp",
-        "alt": "Figura asociada a la pregunta 52."
+        "alt": "Figura asociada a la pregunta 52.",
+        "content": "El gráfico presenta un sistema de coordenadas cartesianas con el eje vertical etiquetado como \\( f(x) \\) y el eje horizontal como \\( x \\). El eje \\( f(x) \\) tiene marcas en 1, 2 y 3 hacia arriba desde el origen, mientras que el eje \\( x \\) tiene marcas en 0, 1, 2 y 3 hacia la derecha desde el origen.\n\nLa curva representada es una función que se aproxima a un valor en el eje \\( f(x) \\) a medida que \\( x \\) se acerca a 2 desde la izquierda, pero no toca el punto \\( (2, f(2)) \\). La curva desciende hacia el eje \\( x \\) y se aproxima a un valor negativo a medida que \\( x \\) se aleja de 2 hacia la derecha. No hay intersección con el eje \\( x \\) en el intervalo \\( (2, 3) \\). La curva es continua en el intervalo \\( (0, 2) \\) y presenta un comportamiento asintótico en \\( x = 2 \\).",
+        "derived_from": "area-2-q52.webp"
       }
     },
     {
@@ -213,10 +219,12 @@
       },
       "correct_answer": "C",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-2-q58.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp58.webp",
-        "alt": "Figura asociada a la pregunta 58."
+        "alt": "Figura asociada a la pregunta 58.",
+        "content": "En la figura se presenta un sistema de coordenadas cartesianas con los ejes x e y. El eje y es vertical y el eje x es horizontal. Se observa un triángulo formado por los puntos A, B y un tercer punto que no está etiquetado, pero se puede deducir que es el origen (0,0). \n\nEl punto A se encuentra en el eje x, en la posición (0,0), que es el origen. El punto B está ubicado en el cuadrante I, en la posición (3,2). Desde el punto A, se traza una línea vertical hacia arriba hasta el punto B, formando un lado del triángulo. Luego, desde el punto B, se traza una línea horizontal hacia la izquierda que se encuentra con el eje y en el punto (3,0). Finalmente, se conecta este punto con el punto A, completando así el triángulo.\n\nLas líneas que forman el triángulo son rectas y están marcadas con un grosor notable. La cuadrícula del fondo está compuesta por líneas horizontales y verticales que facilitan la visualización de las coordenadas. El triángulo es un triángulo rectángulo, con el ángulo recto en el punto A. Las coordenadas de los puntos son: A(0,0), B(3,2) y el tercer punto en (3,0).",
+        "derived_from": "area-2-q58.webp"
       }
     },
     {

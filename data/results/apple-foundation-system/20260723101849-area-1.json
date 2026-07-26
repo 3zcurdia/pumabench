@@ -75,10 +75,12 @@
       },
       "correct_answer": "D",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-1-q2.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp2.webp",
-        "alt": "Figura asociada a la pregunta 2."
+        "alt": "Figura asociada a la pregunta 2.",
+        "content": "En la figura se observa un sistema de coordenadas cartesianas con los ejes x e y. El eje y está orientado hacia arriba y el eje x hacia la derecha. Se presentan tres vectores de fuerza representados por flechas:\n\n1. Un vector de 10 N que se extiende verticalmente hacia arriba, alineado con el eje y.\n2. Un vector de 8 N que forma un ángulo de 30° con el eje x, apuntando hacia la derecha y hacia arriba.\n3. Un vector de 9 N que forma un ángulo de 75° con el eje x, también apuntando hacia la derecha y hacia arriba.\n\nAdemás, se incluye una tabla en la parte superior de la figura que muestra los valores del seno y coseno para los ángulos de 30°, 45° y 75°. La tabla tiene tres columnas: \"Ángulo\", \"Seno\" y \"Coseno\". Los valores son los siguientes:\n\n- Para 30°: Seno = 0.5, Coseno = 0.8\n- Para 45°: Seno = 0.7, Coseno = 0.7\n- Para 75°: Seno = 0.9, Coseno = 0.3\n\nLos vectores están etiquetados con sus respectivas magnitudes en Newtons (N) y los ángulos están indicados en grados.",
+        "derived_from": "area-1-q2.webp"
       }
     },
     {
@@ -117,10 +119,12 @@
       },
       "correct_answer": "A",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-1-q9.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp9.webp",
-        "alt": "Figura asociada a la pregunta 9."
+        "alt": "Figura asociada a la pregunta 9.",
+        "content": "En la figura se observa un círculo en el que están distribuidas de manera uniforme varias cargas eléctricas positivas, cada una representada por el símbolo \"+q\". Estas cargas están ubicadas en la circunferencia del círculo. En el centro del círculo se encuentra una carga positiva mayor, representada por el símbolo \"+Q\". \n\nDesde el centro de la figura, se traza una línea recta que se extiende hacia el borde del círculo, indicando la distancia \"R\" desde la carga \"+Q\" hasta la circunferencia donde están las cargas \"+q\". La disposición de las cargas \"+q\" es simétrica y equidistante entre sí a lo largo de la circunferencia. La figura no presenta otras marcas o anotaciones adicionales.",
+        "derived_from": "area-1-q9.webp"
       }
     },
     {
@@ -147,10 +151,12 @@
       },
       "correct_answer": "B",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-1-q11.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp11.webp",
-        "alt": "Figura asociada a la pregunta 11."
+        "alt": "Figura asociada a la pregunta 11.",
+        "content": "En la figura se presenta un circuito eléctrico simple. A la izquierda, hay una fuente de voltaje representada por un símbolo de batería, donde el terminal positivo está indicado con un signo más (+) y el terminal negativo no tiene símbolo. La fuente de voltaje está conectada a un resistor que se encuentra a la derecha. Este resistor está etiquetado como \\( R/2 \\), lo que indica que su resistencia es la mitad de un valor \\( R \\) que no se especifica en la figura. Las conexiones entre la fuente de voltaje y el resistor son líneas rectas que representan los conductores del circuito. No hay otros componentes en el circuito, y la disposición es lineal, con la fuente de voltaje a la izquierda y el resistor a la derecha.",
+        "derived_from": "area-1-q11.webp"
       }
     },
     {
@@ -165,10 +171,12 @@
       },
       "correct_answer": "B",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-1-q12.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp12.webp",
-        "alt": "Figura asociada a la pregunta 12."
+        "alt": "Figura asociada a la pregunta 12.",
+        "content": "En la figura se presenta un circuito eléctrico alimentado por una fuente de voltaje de 6 voltios. El circuito contiene tres resistencias: R1, R2 y un conjunto de resistencias R3. La resistencia R1 tiene un valor de 2 ohmios y está conectada en serie con la resistencia R2, que tiene un valor de 4 ohmios. A la derecha de R2, se encuentra un grupo de resistencias que incluye R3, la cual tiene un valor de 6 ohmios. R3 está conectada en paralelo con R2. \n\nEl esquema muestra claramente las conexiones: la corriente fluye desde la fuente de 6V hacia R1, luego hacia R2, y finalmente se divide entre R2 y R3. Las resistencias están etiquetadas con sus respectivos valores en ohmios. La disposición de las resistencias y la fuente de voltaje es fundamental para el análisis del circuito.",
+        "derived_from": "area-1-q12.webp"
       }
     },
     {
@@ -363,10 +371,12 @@
       },
       "correct_answer": "B",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-1-q60.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025area1p60.webp",
-        "alt": "Figura asociada a la pregunta 60."
+        "alt": "Figura asociada a la pregunta 60.",
+        "content": "En la figura se presenta un sistema de coordenadas cartesianas con ejes x e y. El eje y se extiende verticalmente desde -10 hasta 10, mientras que el eje x se extiende horizontalmente desde -8 hasta 8. Se marcan dos puntos en el plano: el punto P en la posición (4, 9) y otro punto P en la posición (-4, -7). \n\nEl punto (4, 9) se encuentra en el primer cuadrante, a la derecha del origen, a 4 unidades en el eje x y a 9 unidades en el eje y. El punto (-4, -7) se localiza en el tercer cuadrante, a la izquierda del origen, a 4 unidades en el eje x negativo y a 7 unidades en el eje y negativo. Ambos puntos están representados por círculos sólidos y están etiquetados con sus respectivas coordenadas. La línea que conecta ambos puntos es diagonal, ascendiendo desde el punto (-4, -7) hasta el punto (4, 9).",
+        "derived_from": "area-1-q60.webp"
       }
     },
     {

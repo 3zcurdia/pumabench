@@ -71,30 +71,36 @@
         "A": {
           "label": "A",
           "image": "area-1-q3-opt-A.webp",
-          "alt": "Opción A para la pregunta 3."
+          "alt": "Opción A para la pregunta 3.",
+          "image_description": "En la opción A se presenta un diagrama que ilustra dos fuerzas representadas por las letras F. La primera fuerza, etiquetada como \\( F_{B/P} \\), está situada en la parte superior izquierda del diagrama, junto a un círculo. Esta fuerza parece estar orientada horizontalmente hacia la izquierda. La segunda fuerza, etiquetada como \\( F_{P/B} \\), se encuentra en la parte derecha del diagrama, en un contorno que se asemeja a un cuerpo alargado o una figura en forma de gota, y está orientada hacia la derecha. Ambas fuerzas están conectadas por una línea horizontal que indica una relación entre ellas. El diagrama no incluye más detalles, como valores numéricos o unidades, y se centra en la representación de estas dos fuerzas y su interacción."
         },
         "B": {
           "label": "B",
           "image": "area-1-q3-opt-B.webp",
-          "alt": "Opción B para la pregunta 3."
+          "alt": "Opción B para la pregunta 3.",
+          "image_description": "En la opción B se presenta un diagrama que ilustra dos fuerzas. A la izquierda, hay un círculo que representa un objeto, del cual se extiende una línea horizontal hacia la derecha. Sobre esta línea se encuentra la etiqueta \"FB/P\", que indica una fuerza, probablemente relacionada con la fuerza de flotación o una fuerza de presión. \n\nA la derecha del círculo, se muestra una forma alargada que se asemeja a un cuerpo en movimiento, con una etiqueta \"FP/B\" que también representa una fuerza. Esta fuerza parece estar orientada hacia abajo, sugiriendo que podría estar relacionada con la gravedad o una fuerza de presión en un fluido. \n\nAmbas fuerzas están conectadas por una línea que sugiere una relación entre ellas, posiblemente en el contexto de un problema de física que involucra fluidos o dinámica de cuerpos. La disposición de las fuerzas y sus etiquetas sugiere que se está analizando un equilibrio o una interacción entre fuerzas en un sistema."
         },
         "C": {
           "label": "C",
           "image": "area-1-q3-opt-C.webp",
-          "alt": "Opción C para la pregunta 3."
+          "alt": "Opción C para la pregunta 3.",
+          "image_description": "En la opción C se presenta un diagrama que ilustra dos fuerzas, etiquetadas como \\( F_B \\) y \\( F_P \\), que actúan sobre un objeto. La fuerza \\( F_B \\) está representada en la parte superior del diagrama, con una flecha que indica su dirección horizontal hacia la izquierda, y está acompañada por una etiqueta que indica que es una fuerza de presión. La fuerza \\( F_P \\) se encuentra en la parte inferior del diagrama, con una flecha que apunta hacia abajo, y está etiquetada como una fuerza de presión también. \n\nEl diagrama incluye un contorno ovalado en la parte superior, que podría representar un objeto en un fluido, y una forma alargada en la parte inferior que sugiere un cuerpo en movimiento o en interacción con el fluido. Las fuerzas están claramente delineadas y etiquetadas, lo que sugiere que se está analizando un fenómeno relacionado con la dinámica de fluidos o la presión en un medio."
         },
         "D": {
           "label": "D",
           "image": "area-1-q3-opt-D.webp",
-          "alt": "Opción D para la pregunta 3."
+          "alt": "Opción D para la pregunta 3.",
+          "image_description": "En la opción D se presenta un diagrama que ilustra un sistema de fuerzas. A la izquierda, hay un círculo que representa un objeto, posiblemente un cuerpo en movimiento o en equilibrio. Desde este círculo, se extiende una línea horizontal hacia la derecha, que indica la dirección de una fuerza. Esta fuerza está etiquetada como \\( F_{B/P} \\), lo que sugiere que es la fuerza ejercida por el cuerpo B sobre el cuerpo P.\n\nA la derecha del círculo, se encuentra una forma alargada que se asemeja a un cono invertido, con una base más ancha en la parte inferior y un vértice en la parte superior. Esta figura también tiene una fuerza representada, etiquetada como \\( F_{P/B} \\), que indica la fuerza ejercida por el cuerpo P sobre el cuerpo B. Ambas fuerzas están orientadas horizontalmente, lo que sugiere que están en equilibrio o en interacción directa.\n\nEl diagrama no incluye valores numéricos ni ecuaciones, pero la disposición de las fuerzas y sus etiquetas son clave para entender la relación entre los cuerpos representados."
         }
       },
       "correct_answer": "A",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-1-q3.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp3.webp",
-        "alt": "Figura asociada a la pregunta 3."
+        "alt": "Figura asociada a la pregunta 3.",
+        "content": "La figura presenta un diseño que consiste en un círculo en la parte superior izquierda, que representa un objeto esférico. Este círculo está conectado a una forma alargada que se asemeja a un cono invertido o un embudo, que se extiende hacia abajo y hacia la derecha. La parte superior de esta forma alargada es más ancha y se estrecha a medida que desciende, terminando en una base que es un óvalo horizontal en la parte inferior. La figura está delineada con un trazo negro y no contiene relleno ni detalles adicionales. La conexión entre el círculo y la forma alargada es continua, sugiriendo que ambos elementos están relacionados de alguna manera.",
+        "derived_from": "area-1-q3.webp"
       }
     },
     {
@@ -109,10 +115,12 @@
       },
       "correct_answer": "B",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-1-q11.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp11.webp",
-        "alt": "Figura asociada a la pregunta 11."
+        "alt": "Figura asociada a la pregunta 11.",
+        "content": "En la figura se presenta un circuito eléctrico simple. A la izquierda, hay una fuente de voltaje representada por un símbolo de batería, donde el terminal positivo está indicado con un signo más (+) y el terminal negativo no tiene símbolo. La fuente de voltaje está conectada a un resistor que se encuentra a la derecha. Este resistor está etiquetado como \\( R/2 \\), lo que indica que su resistencia es la mitad de un valor \\( R \\) que no se especifica en la figura. Las conexiones entre la fuente de voltaje y el resistor son líneas rectas que representan los conductores del circuito. No hay otros componentes en el circuito, y la disposición es lineal, con la fuente de voltaje a la izquierda y el resistor a la derecha.",
+        "derived_from": "area-1-q11.webp"
       }
     },
     {
@@ -139,10 +147,12 @@
       },
       "correct_answer": "B",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-1-q60.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025area1p60.webp",
-        "alt": "Figura asociada a la pregunta 60."
+        "alt": "Figura asociada a la pregunta 60.",
+        "content": "En la figura se presenta un sistema de coordenadas cartesianas con ejes x e y. El eje y se extiende verticalmente desde -10 hasta 10, mientras que el eje x se extiende horizontalmente desde -8 hasta 8. Se marcan dos puntos en el plano: el punto P en la posición (4, 9) y otro punto P en la posición (-4, -7). \n\nEl punto (4, 9) se encuentra en el primer cuadrante, a la derecha del origen, a 4 unidades en el eje x y a 9 unidades en el eje y. El punto (-4, -7) se localiza en el tercer cuadrante, a la izquierda del origen, a 4 unidades en el eje x negativo y a 7 unidades en el eje y negativo. Ambos puntos están representados por círculos sólidos y están etiquetados con sus respectivas coordenadas. La línea que conecta ambos puntos es diagonal, ascendiendo desde el punto (-4, -7) hasta el punto (4, 9).",
+        "derived_from": "area-1-q60.webp"
       }
     },
     {

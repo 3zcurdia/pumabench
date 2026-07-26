@@ -75,10 +75,12 @@
       },
       "correct_answer": "D",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-3-q1.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp1.webp",
-        "alt": "Figura asociada a la pregunta 1."
+        "alt": "Figura asociada a la pregunta 1.",
+        "content": "La figura presenta un gráfico de velocidad (v) en función del tiempo (t). El eje vertical representa la velocidad, medida en metros por segundo (m/s), y está etiquetado con la unidad correspondiente. El eje horizontal representa el tiempo, medido en segundos (s). \n\nLa línea del gráfico es una diagonal que desciende desde un punto en el eje vertical, donde la velocidad es positiva, hasta el eje horizontal, donde la velocidad se vuelve cero. La línea forma un ángulo recto con el eje horizontal en el punto donde la velocidad es cero, indicando que el objeto se detiene en ese instante. La pendiente de la línea es negativa, lo que sugiere que la velocidad disminuye de manera uniforme a medida que avanza el tiempo. No hay valores numéricos específicos indicados en los ejes, pero la forma del gráfico sugiere un movimiento de desaceleración.",
+        "derived_from": "area-3-q1.webp"
       }
     },
     {
@@ -105,10 +107,12 @@
       },
       "correct_answer": "B",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-3-q10.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp10.webp",
-        "alt": "Figura asociada a la pregunta 10."
+        "alt": "Figura asociada a la pregunta 10.",
+        "content": "En la figura se presenta un circuito eléctrico. A la izquierda, hay una fuente de voltaje representada por el símbolo \"V\". Desde esta fuente, sale una corriente de 3I. A continuación, se encuentran dos resistencias conectadas en paralelo. La primera resistencia tiene un valor de R y está situada en la parte superior. La segunda resistencia, ubicada en la parte inferior, tiene un valor de 2R. Ambas resistencias están conectadas a los mismos nodos, lo que indica que comparten el mismo voltaje. La disposición de las resistencias en paralelo sugiere que la corriente total que sale de la fuente se divide entre las dos resistencias.",
+        "derived_from": "area-3-q10.webp"
       }
     },
     {
@@ -135,10 +139,12 @@
       },
       "correct_answer": "D",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-3-q58.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp58.webp",
-        "alt": "Figura asociada a la pregunta 58."
+        "alt": "Figura asociada a la pregunta 58.",
+        "content": "En la figura se presenta un sistema de coordenadas cartesianas, donde se observan los ejes x e y. El eje x es horizontal y se extiende hacia la derecha, marcando valores positivos, mientras que el eje y es vertical y se extiende hacia arriba, también marcando valores positivos. Ambos ejes se cruzan en el origen, que está etiquetado como \"0\". \n\nLa línea que se dibuja en la figura es una recta que tiene una pendiente positiva, comenzando en el cuadrante inferior izquierdo y extendiéndose hacia el cuadrante superior derecho. Esta recta no intersecta el eje y en el origen, lo que indica que su intersección con el eje y se encuentra en un valor positivo. La recta se extiende indefinidamente en ambas direcciones, pero no se muestra su ecuación ni puntos específicos en la gráfica.",
+        "derived_from": "area-3-q58.webp"
       }
     },
     {

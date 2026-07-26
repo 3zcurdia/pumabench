@@ -1,0 +1,66 @@
+{
+  "id": "openai/gpt-oss-20b",
+  "model": "gpt-oss-20b-thinking-high",
+  "effort": "high",
+  "timestamp": "20260726105407",
+  "area": 1,
+  "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+  "total": {
+    "questions": 1,
+    "correct": 1,
+    "percentage": 100.0
+  },
+  "subjects": {
+    "Biología": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Español": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Filosofía": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Física": {
+      "questions": 1,
+      "correct": 1,
+      "percentage": 100.0
+    },
+    "Geografía": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Historia Universal": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Historia de México": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Literatura": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Matemáticas": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Química": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    }
+  },
+  "failed_questions": []
+}

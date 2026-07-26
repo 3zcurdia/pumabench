@@ -22,6 +22,7 @@ No lint, typecheck, test, or formatter scripts are configured. After changes, ve
 ```bash
 ruby benchmark.rb <model-id> --provider=openrouter [--effort=low|medium|high]
 ruby benchmark.rb <model-id> --provider=openrouter --effort=high --resume   # continue interrupted run
+ruby benchmark.rb <model-id> --provider=openrouter --rebuild               # delete previous data and re-run
 ruby benchmark.rb --evaluate-only                                            # re-score existing CSVs, no LLM calls
 ```
 

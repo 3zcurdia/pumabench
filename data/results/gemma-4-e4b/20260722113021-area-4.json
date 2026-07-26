@@ -123,10 +123,12 @@
       },
       "correct_answer": "A",
       "reference": {
-        "type": "image",
+        "type": "text",
         "path": "area-4-q51.webp",
         "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/unam2025areaVp51.webp",
-        "alt": "Figura asociada a la pregunta 51."
+        "alt": "Figura asociada a la pregunta 51.",
+        "content": "La figura es un triángulo rectángulo, donde el vértice Q es el ángulo recto. Los vértices del triángulo son P, Q y R. La base PQ mide 4 unidades y la altura QR mide 3 unidades. La hipotenusa PR mide 5 unidades. \n\nEl ángulo en el vértice R es un ángulo agudo, mientras que el ángulo en el vértice P también es agudo. Se observa que el triángulo está orientado de tal manera que la base PQ está en la parte inferior, extendiéndose horizontalmente hacia la derecha, y la altura QR se extiende verticalmente hacia arriba desde el punto Q. \n\nLas etiquetas de los vértices son visibles: R está en la parte superior izquierda, Q en la parte inferior izquierda y P en la parte inferior derecha. La figura incluye un símbolo de ángulo recto en el vértice Q, indicando que este es un triángulo rectángulo.",
+        "derived_from": "area-4-q51.webp"
       }
     },
     {
