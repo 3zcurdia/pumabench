@@ -56,6 +56,14 @@
     }
   },
   {
+    "id": "google/gemma-4-12b",
+    "name": "gemma-4-12b",
+    "provider": "google",
+    "type": "dense",
+    "parameters": 11959730224,
+    "pricing": null
+  },
+  {
     "id": "google/gemma-4-e2b",
     "name": "gemma-4-e2b",
     "provider": "google",
@@ -69,6 +77,26 @@
     "provider": "google",
     "type": "dense",
     "parameters": 7996156490,
+    "pricing": null
+  },
+  {
+    "id": "laguna-xs-2.1",
+    "name": "Poolside: Laguna XS 2.1",
+    "provider": "laguna-xs-2.1",
+    "type": "moe",
+    "parameters": 33442617088,
+    "pricing": {
+      "prompt": "0.00000006",
+      "completion": "0.00000012",
+      "input_cache_read": "0.00000003"
+    }
+  },
+  {
+    "id": "llama-3-8b-instruct-32k-v0.1",
+    "name": "llama-3-8b-instruct-32k-v0.1",
+    "provider": "llama-3-8b-instruct-32k-v0.1",
+    "type": "dense",
+    "parameters": null,
     "pricing": null
   },
   {
@@ -171,6 +199,25 @@
       "completion": "0.00000012",
       "input_cache_read": "0.00000003"
     }
+  },
+  {
+    "id": "qwen/qwen3.5-9b",
+    "name": "Qwen: Qwen3.5-9B",
+    "provider": "qwen",
+    "type": "dense",
+    "parameters": 9000000000,
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.00000015"
+    }
+  },
+  {
+    "id": "qwen3.5-0.8b",
+    "name": "qwen3.5-0.8b",
+    "provider": "qwen3.5-0.8b",
+    "type": "dense",
+    "parameters": 800000000,
+    "pricing": null
   },
   {
     "id": "qwen3/qwen3.5-0.8b",
