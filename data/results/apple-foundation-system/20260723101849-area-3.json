@@ -97,7 +97,15 @@
         "C": "C) U_A = 4 m/s; U_B = -2 m/s",
         "D": "D) U_A = 2 m/s; U_B = 4 m/s"
       },
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "reference": {
+        "type": "text",
+        "path": "area-3-q5.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp5.webp",
+        "alt": "Figura asociada a la pregunta 5.",
+        "content": "En la figura se observa una línea horizontal que representa una superficie. A la izquierda, hay una esfera pequeña etiquetada como \"A\", que se mueve hacia la derecha con una velocidad indicada por la flecha \"vA\". A la derecha, hay una esfera más grande etiquetada como \"B\", que está en reposo sobre la misma línea horizontal. No hay otros elementos visibles en la imagen, y las esferas son de color negro, lo que resalta su forma y posición en relación con la línea. La distancia entre las esferas no se especifica, pero se puede inferir que \"A\" se dirige hacia \"B\".",
+        "derived_from": "area-3-q5.webp"
+      }
     },
     {
       "number": 6,
@@ -133,7 +141,15 @@
         "C": "C) I amperes.",
         "D": "D) 2I amperes."
       },
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "reference": {
+        "type": "text",
+        "path": "area-3-q10.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp10.webp",
+        "alt": "Figura asociada a la pregunta 10.",
+        "content": "En la figura se presenta un circuito eléctrico. A la izquierda, hay una fuente de voltaje representada por el símbolo \"V\". Desde esta fuente, sale una corriente de 3I. A continuación, se encuentran dos resistencias conectadas en paralelo. La primera resistencia tiene un valor de R y está situada en la parte superior. La segunda resistencia, ubicada en la parte inferior, tiene un valor de 2R. Ambas resistencias están conectadas a los mismos nodos, lo que indica que comparten el mismo voltaje. La disposición de las resistencias en paralelo sugiere que la corriente total que sale de la fuente se divide entre las dos resistencias.",
+        "derived_from": "area-3-q10.webp"
+      }
     },
     {
       "number": 17,
@@ -289,7 +305,15 @@
         "C": "C) 3, 10",
         "D": "D) –10, –12"
       },
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "reference": {
+        "type": "text",
+        "path": "area-3-q50.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp50.webp",
+        "alt": "Figura asociada a la pregunta 50.",
+        "content": "Se presenta una tabla con dos filas y cuatro columnas. La primera fila contiene la etiqueta \"X\" y los valores -1, 0 y 1, que corresponden a las coordenadas en el eje X. La segunda fila tiene la etiqueta \"Y\" y el valor -11, que se asocia a cada uno de los valores de X. La tabla se encuentra en un marco rectangular, con líneas que delimitan claramente cada celda. La disposición de los datos indica que para cada valor de X (-1, 0, 1), el valor de Y es constante y es -11.",
+        "derived_from": "area-3-q50.webp"
+      }
     },
     {
       "number": 58,
@@ -301,7 +325,15 @@
         "C": "C) y = -3/2 x + 1/2",
         "D": "D) y = x/2 - 1"
       },
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "reference": {
+        "type": "text",
+        "path": "area-3-q58.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp58.webp",
+        "alt": "Figura asociada a la pregunta 58.",
+        "content": "En la figura se presenta un sistema de coordenadas cartesianas, donde se observan los ejes x e y. El eje x es horizontal y se extiende hacia la derecha, marcando valores positivos, mientras que el eje y es vertical y se extiende hacia arriba, también marcando valores positivos. Ambos ejes se cruzan en el origen, que está etiquetado como \"0\". \n\nLa línea que se dibuja en la figura es una recta que tiene una pendiente positiva, comenzando en el cuadrante inferior izquierdo y extendiéndose hacia el cuadrante superior derecho. Esta recta no intersecta el eje y en el origen, lo que indica que su intersección con el eje y se encuentra en un valor positivo. La recta se extiende indefinidamente en ambas direcciones, pero no se muestra su ecuación ni puntos específicos en la gráfica.",
+        "derived_from": "area-3-q58.webp"
+      }
     },
     {
       "number": 63,

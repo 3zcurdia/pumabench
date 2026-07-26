@@ -66,50 +66,102 @@
     {
       "number": 2,
       "subject": "Física",
-      "question": "2. Con base en el siguiente sistema de vectores, indica la magnitud del vector resultante en N. [imagen]",
+      "question": "2. Con base en el siguiente sistema de vectores, indica la magnitud del vector resultante en N.",
       "options": {
         "A": "A) \\(\\sqrt{75.8}\\)",
         "B": "B) \\(\\sqrt{23.8}\\)",
         "C": "C) \\(\\sqrt{650}\\)",
         "D": "D) \\(\\sqrt{101.1}\\)"
       },
-      "correct_answer": "D"
+      "correct_answer": "D",
+      "reference": {
+        "type": "text",
+        "path": "area-1-q2.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp2.webp",
+        "alt": "Figura asociada a la pregunta 2.",
+        "content": "En la figura se observa un sistema de coordenadas cartesianas con los ejes x e y. El eje y está orientado hacia arriba y el eje x hacia la derecha. Se presentan tres vectores de fuerza representados por flechas:\n\n1. Un vector de 10 N que se extiende verticalmente hacia arriba, alineado con el eje y.\n2. Un vector de 8 N que forma un ángulo de 30° con el eje x, apuntando hacia la derecha y hacia arriba.\n3. Un vector de 9 N que forma un ángulo de 75° con el eje x, también apuntando hacia la derecha y hacia arriba.\n\nAdemás, se incluye una tabla en la parte superior de la figura que muestra los valores del seno y coseno para los ángulos de 30°, 45° y 75°. La tabla tiene tres columnas: \"Ángulo\", \"Seno\" y \"Coseno\". Los valores son los siguientes:\n\n- Para 30°: Seno = 0.5, Coseno = 0.8\n- Para 45°: Seno = 0.7, Coseno = 0.7\n- Para 75°: Seno = 0.9, Coseno = 0.3\n\nLos vectores están etiquetados con sus respectivas magnitudes en Newtons (N) y los ángulos están indicados en grados.",
+        "derived_from": "area-1-q2.webp"
+      }
     },
     {
       "number": 3,
       "subject": "Física",
-      "question": "3. La siguiente figura ilustra el momento preciso en el que un bate golpea una pelota. ¿Cuál de las imágenes muestra los vectores que representan la Tercera Ley de Newton? Considera: \\(F_{\\frac{P}{B}}\\) = Fuerza de la pelota sobre el bate. \\(F_{\\frac{B}{P}}\\) = Fuerza del bate sobre la pelota. [imagen]",
+      "question": "3. La siguiente figura ilustra el momento preciso en el que un bate golpea una pelota. ¿Cuál de las imágenes muestra los vectores que representan la Tercera Ley de Newton? Considera: \\(F_{\\frac{P}{B}}\\) = Fuerza de la pelota sobre el bate. \\(F_{\\frac{B}{P}}\\) = Fuerza del bate sobre la pelota.",
       "options": {
-        "A": "A) [imagen]",
-        "B": "B) [imagen]",
-        "C": "C) [imagen]",
-        "D": "D) [imagen]"
+        "A": {
+          "label": "A",
+          "image": "area-1-q3-opt-A.webp",
+          "alt": "Opción A para la pregunta 3.",
+          "image_description": "En la opción A se presenta un diagrama que ilustra dos fuerzas representadas por las letras F. La primera fuerza, etiquetada como \\( F_{B/P} \\), está situada en la parte superior izquierda del diagrama, junto a un círculo. Esta fuerza parece estar orientada horizontalmente hacia la izquierda. La segunda fuerza, etiquetada como \\( F_{P/B} \\), se encuentra en la parte derecha del diagrama, en un contorno que se asemeja a un cuerpo alargado o una figura en forma de gota, y está orientada hacia la derecha. Ambas fuerzas están conectadas por una línea horizontal que indica una relación entre ellas. El diagrama no incluye más detalles, como valores numéricos o unidades, y se centra en la representación de estas dos fuerzas y su interacción."
+        },
+        "B": {
+          "label": "B",
+          "image": "area-1-q3-opt-B.webp",
+          "alt": "Opción B para la pregunta 3.",
+          "image_description": "En la opción B se presenta un diagrama que ilustra dos fuerzas. A la izquierda, hay un círculo que representa un objeto, del cual se extiende una línea horizontal hacia la derecha. Sobre esta línea se encuentra la etiqueta \"FB/P\", que indica una fuerza, probablemente relacionada con la fuerza de flotación o una fuerza de presión. \n\nA la derecha del círculo, se muestra una forma alargada que se asemeja a un cuerpo en movimiento, con una etiqueta \"FP/B\" que también representa una fuerza. Esta fuerza parece estar orientada hacia abajo, sugiriendo que podría estar relacionada con la gravedad o una fuerza de presión en un fluido. \n\nAmbas fuerzas están conectadas por una línea que sugiere una relación entre ellas, posiblemente en el contexto de un problema de física que involucra fluidos o dinámica de cuerpos. La disposición de las fuerzas y sus etiquetas sugiere que se está analizando un equilibrio o una interacción entre fuerzas en un sistema."
+        },
+        "C": {
+          "label": "C",
+          "image": "area-1-q3-opt-C.webp",
+          "alt": "Opción C para la pregunta 3.",
+          "image_description": "En la opción C se presenta un diagrama que ilustra dos fuerzas, etiquetadas como \\( F_B \\) y \\( F_P \\), que actúan sobre un objeto. La fuerza \\( F_B \\) está representada en la parte superior del diagrama, con una flecha que indica su dirección horizontal hacia la izquierda, y está acompañada por una etiqueta que indica que es una fuerza de presión. La fuerza \\( F_P \\) se encuentra en la parte inferior del diagrama, con una flecha que apunta hacia abajo, y está etiquetada como una fuerza de presión también. \n\nEl diagrama incluye un contorno ovalado en la parte superior, que podría representar un objeto en un fluido, y una forma alargada en la parte inferior que sugiere un cuerpo en movimiento o en interacción con el fluido. Las fuerzas están claramente delineadas y etiquetadas, lo que sugiere que se está analizando un fenómeno relacionado con la dinámica de fluidos o la presión en un medio."
+        },
+        "D": {
+          "label": "D",
+          "image": "area-1-q3-opt-D.webp",
+          "alt": "Opción D para la pregunta 3.",
+          "image_description": "En la opción D se presenta un diagrama que ilustra un sistema de fuerzas. A la izquierda, hay un círculo que representa un objeto, posiblemente un cuerpo en movimiento o en equilibrio. Desde este círculo, se extiende una línea horizontal hacia la derecha, que indica la dirección de una fuerza. Esta fuerza está etiquetada como \\( F_{B/P} \\), lo que sugiere que es la fuerza ejercida por el cuerpo B sobre el cuerpo P.\n\nA la derecha del círculo, se encuentra una forma alargada que se asemeja a un cono invertido, con una base más ancha en la parte inferior y un vértice en la parte superior. Esta figura también tiene una fuerza representada, etiquetada como \\( F_{P/B} \\), que indica la fuerza ejercida por el cuerpo P sobre el cuerpo B. Ambas fuerzas están orientadas horizontalmente, lo que sugiere que están en equilibrio o en interacción directa.\n\nEl diagrama no incluye valores numéricos ni ecuaciones, pero la disposición de las fuerzas y sus etiquetas son clave para entender la relación entre los cuerpos representados."
+        }
       },
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "reference": {
+        "type": "text",
+        "path": "area-1-q3.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp3.webp",
+        "alt": "Figura asociada a la pregunta 3.",
+        "content": "La figura presenta un diseño que consiste en un círculo en la parte superior izquierda, que representa un objeto esférico. Este círculo está conectado a una forma alargada que se asemeja a un cono invertido o un embudo, que se extiende hacia abajo y hacia la derecha. La parte superior de esta forma alargada es más ancha y se estrecha a medida que desciende, terminando en una base que es un óvalo horizontal en la parte inferior. La figura está delineada con un trazo negro y no contiene relleno ni detalles adicionales. La conexión entre el círculo y la forma alargada es continua, sugiriendo que ambos elementos están relacionados de alguna manera.",
+        "derived_from": "area-1-q3.webp"
+      }
     },
     {
       "number": 11,
       "subject": "Física",
-      "question": "11. De acuerdo a la imagen, la corriente que circula por el resistor de resistencia \\(\\frac{R}{2}\\) es [imagen]",
+      "question": "11. De acuerdo a la imagen, la corriente que circula por el resistor de resistencia \\(\\frac{R}{2}\\) es",
       "options": {
         "A": "A) \\(\\frac{V}{2R}\\)",
         "B": "B) \\(\\frac{2V}{R}\\)",
         "C": "C) \\(\\frac{V}{3R}\\)",
         "D": "D) \\(\\frac{3V}{R}\\)"
       },
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "reference": {
+        "type": "text",
+        "path": "area-1-q11.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp11.webp",
+        "alt": "Figura asociada a la pregunta 11.",
+        "content": "En la figura se presenta un circuito eléctrico simple. A la izquierda, hay una fuente de voltaje representada por un símbolo de batería, donde el terminal positivo está indicado con un signo más (+) y el terminal negativo no tiene símbolo. La fuente de voltaje está conectada a un resistor que se encuentra a la derecha. Este resistor está etiquetado como \\( R/2 \\), lo que indica que su resistencia es la mitad de un valor \\( R \\) que no se especifica en la figura. Las conexiones entre la fuente de voltaje y el resistor son líneas rectas que representan los conductores del circuito. No hay otros componentes en el circuito, y la disposición es lineal, con la fuente de voltaje a la izquierda y el resistor a la derecha.",
+        "derived_from": "area-1-q11.webp"
+      }
     },
     {
       "number": 12,
       "subject": "Física",
-      "question": "12. Determina la resistencia total del circuito que se representa en la imagen. [imagen]",
+      "question": "12. Determina la resistencia total del circuito que se representa en la imagen.",
       "options": {
         "A": "A) \\(2.41 \\, \\Omega\\)",
         "B": "B) \\(4.4 \\, \\Omega\\)",
         "C": "C) \\(12 \\, \\Omega\\)",
         "D": "D) \\(1.90 \\, \\Omega\\)"
       },
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "reference": {
+        "type": "text",
+        "path": "area-1-q12.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp12.webp",
+        "alt": "Figura asociada a la pregunta 12.",
+        "content": "En la figura se presenta un circuito eléctrico alimentado por una fuente de voltaje de 6 voltios. El circuito contiene tres resistencias: R1, R2 y un conjunto de resistencias R3. La resistencia R1 tiene un valor de 2 ohmios y está conectada en serie con la resistencia R2, que tiene un valor de 4 ohmios. A la derecha de R2, se encuentra un grupo de resistencias que incluye R3, la cual tiene un valor de 6 ohmios. R3 está conectada en paralelo con R2. \n\nEl esquema muestra claramente las conexiones: la corriente fluye desde la fuente de 6V hacia R1, luego hacia R2, y finalmente se divide entre R2 y R3. Las resistencias están etiquetadas con sus respectivos valores en ohmios. La disposición de las resistencias y la fuente de voltaje es fundamental para el análisis del circuito.",
+        "derived_from": "area-1-q12.webp"
+      }
     },
     {
       "number": 35,
@@ -126,14 +178,22 @@
     {
       "number": 69,
       "subject": "Matemáticas",
-      "question": "69. En la siguiente gráfica de la función f(x). ¿En qué intervalo la derivada de f es negativa? [imagen]",
+      "question": "69. En la siguiente gráfica de la función f(x). ¿En qué intervalo la derivada de f es negativa?",
       "options": {
         "A": "A) (-2, 4)",
         "B": "B) [2, 4)",
         "C": "C) (2, 4]",
         "D": "D) [-2, 4]"
       },
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "reference": {
+        "type": "text",
+        "path": "area-1-q69.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025area1p69.webp",
+        "alt": "Figura asociada a la pregunta 69.",
+        "content": "El gráfico presenta un sistema de coordenadas cartesianas con el eje vertical etiquetado como \"y\" y el eje horizontal como \"x\". El eje \"y\" se extiende hacia arriba desde el origen (0,0) y el eje \"x\" se extiende hacia la derecha. La curva representada es una función continua que oscila, comenzando en el punto (0,0) y subiendo hasta alcanzar un máximo local antes de descender. \n\nEn el eje \"x\", se observan líneas punteadas verticales en las posiciones x = 2 y x = 4. La curva cruza el eje \"x\" en dos puntos: uno entre x = 0 y x = 2, y otro entre x = 4 y x = 6. La parte de la curva entre x = 0 y x = 2 es ascendente, alcanzando un máximo en algún punto antes de descender hacia x = 2. Desde x = 2, la curva desciende hasta un mínimo local antes de volver a ascender hacia x = 4, donde nuevamente alcanza un máximo. Posteriormente, la curva desciende hacia x = 6, pero no llega a cruzar el eje \"x\" en este tramo. \n\nEl gráfico no presenta etiquetas numéricas en el eje \"y\", pero se puede inferir que la función tiene valores positivos y negativos en diferentes intervalos. La forma de la curva sugiere que es una función polinómica de grado al menos 3, dado que presenta al menos dos máximos y un mínimo.",
+        "derived_from": "area-1-q69.webp"
+      }
     },
     {
       "number": 77,
@@ -145,7 +205,14 @@
         "C": "C) Pero huyó en cuanto se dio cuenta de que no necesitaba un tresillo.",
         "D": "D) Cuando salió a la calle, tardó unos 20 minutos en recuperar su aspecto habitual."
       },
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "reference": {
+        "type": "text",
+        "content": "—La mujer salió de su casa, y era una buena mujer. Lo había sido durante toda su vida. Ese día, sin embargo, una fría determinación le roía las entrañas mientras avanzaba, el bolso bien sujeto, camino del lugar donde iban a producirse los hechos.\n\nPor momentos sentía que le temblaban las piernas, pero si su cuerpo flaqueaba, su mente no se permitía vacilar. Pensó en sus hijos. Pensó en su marido, honrado y trabajador, feliz con su fútbol, su tele y su chándal para ir al campo los fines de semana. Pensó en el equipo necesario para las vacaciones, tan inminentes ya.\n\nMás decidida que nunca, atravesó la puerta de los grandes almacenes. El aire procedente del acondicionador le heló la nuca y serpenteó por un momento entre sus muslos, y ésa fue la última sensación humana que iba a experimentar en varias horas.\n\n—¡Reebaaaajaaas! —rugió.\n\nBraceó hacia la horda que bramaba en el interior. Ya no pensaba en su familia. Como el cazador, sólo alimentaba un deseo: conseguir la mejor presa; como el sabueso, únicamente aspiraba a hincar el diente en la carne más tierna. Alargó ambas manos hacia una combinación de seda sintética rebajada, puesta a mitad de precio —previamente se había colgado el bolso en bandolera—, y una manada de tiburones abrió amenazadoramente las fauces frente a ella. La mujer se aferró con todas sus fuerzas a la prenda. Vio que las manos se le habían vuelto peludas, sarmentosas y con las uñas muy largas curvadas hacia dentro, pero no le importó. Arrancó la combinación de entre los colmillos de los escualos y siguió abriéndose paso entre aullidos.\n\nEn la segunda planta tuvo que despedazarle la carótida a una rinoceronta de vestido floreado que trataba de apoderarse de una cesta para pic—nic; en la tercera, se hizo a zarpazos con dos pares de zapatillas de deportes; en la cuarta fue corrida a cornadas por una panda de búfalas que se empeñaban en conseguir una cocinita portátil a butano; en la quinta estuvo a punto de morir picoteada por una nube de avispas venenosas, pero huyó en cuanto se dio cuenta de que no necesitaba un tresillo.\n\nCuando salió a la calle, tardó unos 20 minutos en recuperar su aspecto habitual.\n\nTorres, Maruja (8 de julio de 1986). Metamorfosis. El País.",
+        "title": "Metamorfosis",
+        "author": "Maruja Torres",
+        "source": "El País, 8 de julio de 1986"
+      }
     },
     {
       "number": 80,
@@ -157,7 +224,14 @@
         "C": "C) habla del origen de las transformaciones.",
         "D": "D) la protagonista cambia de parecer."
       },
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "reference": {
+        "type": "text",
+        "content": "—La mujer salió de su casa, y era una buena mujer. Lo había sido durante toda su vida. Ese día, sin embargo, una fría determinación le roía las entrañas mientras avanzaba, el bolso bien sujeto, camino del lugar donde iban a producirse los hechos.\n\nPor momentos sentía que le temblaban las piernas, pero si su cuerpo flaqueaba, su mente no se permitía vacilar. Pensó en sus hijos. Pensó en su marido, honrado y trabajador, feliz con su fútbol, su tele y su chándal para ir al campo los fines de semana. Pensó en el equipo necesario para las vacaciones, tan inminentes ya.\n\nMás decidida que nunca, atravesó la puerta de los grandes almacenes. El aire procedente del acondicionador le heló la nuca y serpenteó por un momento entre sus muslos, y ésa fue la última sensación humana que iba a experimentar en varias horas.\n\n—¡Reebaaaajaaas! —rugió.\n\nBraceó hacia la horda que bramaba en el interior. Ya no pensaba en su familia. Como el cazador, sólo alimentaba un deseo: conseguir la mejor presa; como el sabueso, únicamente aspiraba a hincar el diente en la carne más tierna. Alargó ambas manos hacia una combinación de seda sintética rebajada, puesta a mitad de precio —previamente se había colgado el bolso en bandolera—, y una manada de tiburones abrió amenazadoramente las fauces frente a ella. La mujer se aferró con todas sus fuerzas a la prenda. Vio que las manos se le habían vuelto peludas, sarmentosas y con las uñas muy largas curvadas hacia dentro, pero no le importó. Arrancó la combinación de entre los colmillos de los escualos y siguió abriéndose paso entre aullidos.\n\nEn la segunda planta tuvo que despedazarle la carótida a una rinoceronta de vestido floreado que trataba de apoderarse de una cesta para pic—nic; en la tercera, se hizo a zarpazos con dos pares de zapatillas de deportes; en la cuarta fue corrida a cornadas por una panda de búfalas que se empeñaban en conseguir una cocinita portátil a butano; en la quinta estuvo a punto de morir picoteada por una nube de avispas venenosas, pero huyó en cuanto se dio cuenta de que no necesitaba un tresillo.\n\nCuando salió a la calle, tardó unos 20 minutos en recuperar su aspecto habitual.\n\nTorres, Maruja (8 de julio de 1986). Metamorfosis. El País.",
+        "title": "Metamorfosis",
+        "author": "Maruja Torres",
+        "source": "El País, 8 de julio de 1986"
+      }
     },
     {
       "number": 85,

@@ -1,0 +1,470 @@
+{
+  "id": "laguna-xs-2.1",
+  "model": "laguna-xs-2.1-thinking-medium",
+  "effort": "medium",
+  "timestamp": "20260726002224",
+  "area": 2,
+  "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+  "total": {
+    "questions": 120,
+    "correct": 91,
+    "percentage": 75.83
+  },
+  "subjects": {
+    "Biología": {
+      "questions": 13,
+      "correct": 13,
+      "percentage": 100.0
+    },
+    "Español": {
+      "questions": 18,
+      "correct": 12,
+      "percentage": 66.67
+    },
+    "Filosofía": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Física": {
+      "questions": 12,
+      "correct": 8,
+      "percentage": 66.67
+    },
+    "Geografía": {
+      "questions": 10,
+      "correct": 8,
+      "percentage": 80.0
+    },
+    "Historia Universal": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Historia de México": {
+      "questions": 10,
+      "correct": 5,
+      "percentage": 50.0
+    },
+    "Literatura": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Matemáticas": {
+      "questions": 24,
+      "correct": 17,
+      "percentage": 70.83
+    },
+    "Química": {
+      "questions": 13,
+      "correct": 10,
+      "percentage": 76.92
+    }
+  },
+  "failed_questions": [
+    {
+      "number": 1,
+      "subject": "Física",
+      "question": "Durante 15 segundos un motociclista se desplaza a 20 m/s, después, durante 20 segundos se mueve a 15 m/s, posteriormente se detiene durante 25 segundos y, finalmente, durante 18 segundos se traslada a 10 m/s. Con base en estos datos, la rapidez media es de",
+      "options": {
+        "A": "A) 25 m/s",
+        "B": "B) 15 m/s",
+        "C": "C) 20 m/s",
+        "D": "D) 10 m/s"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 2,
+      "subject": "Física",
+      "question": "Sobre un cuerpo se aplicaron diferentes fuerzas en dirección horizontal y con el mismo sentido provocando que el objeto experimentara distintas aceleraciones. ¿Cuál es la masa del objeto?",
+      "options": {
+        "A": "A) 1.6 kg",
+        "B": "B) 2.5 kg",
+        "C": "C) 3.2 kg",
+        "D": "D) 4.0 kg"
+      },
+      "correct_answer": "B",
+      "reference": {
+        "type": "text",
+        "path": "area-2-q2.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp2.webp",
+        "alt": "Figura asociada a la pregunta 2.",
+        "content": "El gráfico presenta un sistema de coordenadas cartesianas donde el eje vertical representa la fuerza en Newtons (N) y el eje horizontal representa la aceleración en metros por segundo al cuadrado (m/s²). En el eje de la fuerza, se marcan las siguientes divisiones: 1.00 N, 2.00 N, 3.00 N y 4.00 N, con líneas horizontales que indican los valores intermedios. En el eje de la aceleración, se marcan las divisiones en 0.50 m/s², 1.00 m/s², 1.50 m/s² y 2.00 m/s², con líneas verticales que también indican los valores intermedios.\n\nLos puntos en el gráfico están conectados por una línea recta que comienza en el origen (0,0) y se extiende hasta el punto (2.00, 4.00). Esta línea indica una relación lineal entre la fuerza y la aceleración, sugiriendo que a medida que la aceleración aumenta, la fuerza también lo hace de manera proporcional. La pendiente de la línea representa la relación entre fuerza y aceleración, de acuerdo con la segunda ley de Newton.",
+        "derived_from": "area-2-q2.webp"
+      }
+    },
+    {
+      "number": 4,
+      "subject": "Física",
+      "question": "Un balín (x) de 200 g rueda con velocidad (V) sobre un riel recto. Otro balín (y) de 400 g rueda con velocidad (-V) en sentido contrario. Después de chocar el balín (y) queda inmóvil. ¿Cuál será la velocidad del balín (x) después del choque totalmente elástico?",
+      "options": {
+        "A": "A) 0",
+        "B": "B) (-V)(0.5)",
+        "C": "C) -V",
+        "D": "D) (-V)(0.25)"
+      },
+      "correct_answer": "C",
+      "reference": {
+        "type": "text",
+        "path": "area-2-q4.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp4.webp",
+        "alt": "Figura asociada a la pregunta 4.",
+        "content": "En la figura se observan dos círculos, etiquetados como \"X\" y \"Y\", situados en una línea horizontal. Ambos círculos están alineados uno al lado del otro, con \"X\" a la izquierda y \"Y\" a la derecha. Encima de cada círculo hay una etiqueta que indica \"Dirección de desplazamiento\". La flecha que acompaña a \"X\" apunta hacia la izquierda, mientras que la flecha que acompaña a \"Y\" apunta hacia la izquierda también. Esto sugiere que ambos círculos se están desplazando en la misma dirección, que es hacia la izquierda. La línea horizontal sobre la que están los círculos representa el camino o la trayectoria de desplazamiento.",
+        "derived_from": "area-2-q4.webp"
+      }
+    },
+    {
+      "number": 7,
+      "subject": "Física",
+      "question": "Una onda formada en una cuerda tiene una longitud de onda de 10 cm y un periodo de 2 s, ¿con qué velocidad se propaga?",
+      "options": {
+        "A": "A) 20.00 cm/s",
+        "B": "B) 0.25 cm/s",
+        "C": "C) 5.00 cm/s",
+        "D": "D) 2.00 cm/s"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 20,
+      "subject": "Literatura",
+      "question": "El siguiente fragmento solo utiliza un espacio narrativo y pocos personajes, esto es característico de:",
+      "options": {
+        "A": "A) del mito.",
+        "B": "B) del cuento.",
+        "C": "C) de la leyenda.",
+        "D": "D) de la fábula."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 24,
+      "subject": "Química",
+      "question": "¿Cuántos gramos equivalen a 0.5 mol de ácido fosfórico, H3PO4?",
+      "options": {
+        "A": "A) 49",
+        "B": "B) 96",
+        "C": "C) 98",
+        "D": "D) 48"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 27,
+      "subject": "Química",
+      "question": "Una botella de brandy de 946 mL tiene 38% en volumen de alcohol. Los mL de alcohol presentes son",
+      "options": {
+        "A": "A) 24.84",
+        "B": "B) 38.00",
+        "C": "C) 359.48",
+        "D": "D) 586.52"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 34,
+      "subject": "Química",
+      "question": "La siguiente estructura representa a un",
+      "options": {
+        "A": "A) alqueno.",
+        "B": "B) aromático.",
+        "C": "C) alquino.",
+        "D": "D) alcano."
+      },
+      "correct_answer": "A",
+      "reference": {
+        "type": "text",
+        "path": "area-2-q34.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp34.webp",
+        "alt": "Figura asociada a la pregunta 34.",
+        "content": "La figura presenta una estructura química que consiste en un esqueleto de carbono. Se observan varias líneas que representan enlaces entre átomos de carbono. En la parte izquierda, hay un carbono que se conecta verticalmente a otro carbono, formando un ángulo. Este carbono está unido a un tercer carbono que se extiende horizontalmente hacia la derecha. \n\nA la derecha de este tercer carbono, hay un enlace que se dirige hacia abajo, formando un ángulo agudo con el carbono anterior. Luego, se observa un cuarto carbono que se conecta a este último, formando una cadena que se extiende hacia la derecha. Este carbono final tiene un enlace que se dirige hacia arriba, formando un ángulo con el carbono anterior. \n\nNo hay grupos funcionales visibles en la estructura, y todos los enlaces son simples. La figura no presenta ningún tipo de sustituyentes o ramificaciones adicionales.",
+        "derived_from": "area-2-q34.webp"
+      }
+    },
+    {
+      "number": 36,
+      "subject": "Geografía",
+      "question": "Es un ejemplo de la relación hombre – naturaleza como objeto de estudio de la Geografía.",
+      "options": {
+        "A": "A) Los husos horarios son divisiones de la Tierra.",
+        "B": "B) El clima se define por el promedio de condiciones medias.",
+        "C": "C) La corriente de Humboldt tiene relación con la riqueza pesquera de Perú.",
+        "D": "D) Las migraciones de especies por cambio climático."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 38,
+      "subject": "Geografía",
+      "question": "Es el río que ocupa el cuarto lugar en extensión en el mundo y se localiza en uno de los países económicamente más poderosos.",
+      "options": {
+        "A": "A) Misisipi – Estados Unidos.",
+        "B": "B) Yangtsé – China.",
+        "C": "C) Rin – Alemania.",
+        "D": "D) Volga – Rusia."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 46,
+      "subject": "Matemáticas",
+      "question": "Simplifica la expresión (a² + b)^(3/2) / (a² + b)",
+      "options": {
+        "A": "A) √((a² + b)⁶)",
+        "B": "B) (a² + b)^(-1/2)",
+        "C": "C) √(a² + b)",
+        "D": "D) (a² + b)³"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 48,
+      "subject": "Matemáticas",
+      "question": "Selecciona la expresión que corresponde a una ecuación",
+      "options": {
+        "A": "A) sen(x) = 1/2",
+        "B": "B) sen(x)csc(x) = 1",
+        "C": "C) sen²(x) + cos²(x) = 1",
+        "D": "D) sec²(x) - tan²(x) = 1"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 50,
+      "subject": "Matemáticas",
+      "question": "Selecciona la desigualdad que tiene por solución [1/3, ∞)",
+      "options": {
+        "A": "A) 3x - 1 ≥ 0",
+        "B": "B) 3x - 1 ≤ 0",
+        "C": "C) -3x + 1 ≥ 0",
+        "D": "D) -3x + 1 ≤ 0"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 52,
+      "subject": "Matemáticas",
+      "question": "La función de la gráfica es",
+      "options": {
+        "A": "A) f(x) = -√(8x - 16)",
+        "B": "B) f(x) = +√(8x - 16)",
+        "C": "C) f(x) = -√(-8x + 16)",
+        "D": "D) f(x) = +√(-8x + 16)"
+      },
+      "correct_answer": "A",
+      "reference": {
+        "type": "text",
+        "path": "area-2-q52.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp52.webp",
+        "alt": "Figura asociada a la pregunta 52.",
+        "content": "El gráfico presenta un sistema de coordenadas cartesianas con el eje vertical etiquetado como \\( f(x) \\) y el eje horizontal como \\( x \\). El eje \\( f(x) \\) tiene marcas en 1, 2 y 3 hacia arriba desde el origen, mientras que el eje \\( x \\) tiene marcas en 0, 1, 2 y 3 hacia la derecha desde el origen.\n\nLa curva representada es una función que se aproxima a un valor en el eje \\( f(x) \\) a medida que \\( x \\) se acerca a 2 desde la izquierda, pero no toca el punto \\( (2, f(2)) \\). La curva desciende hacia el eje \\( x \\) y se aproxima a un valor negativo a medida que \\( x \\) se aleja de 2 hacia la derecha. No hay intersección con el eje \\( x \\) en el intervalo \\( (2, 3) \\). La curva es continua en el intervalo \\( (0, 2) \\) y presenta un comportamiento asintótico en \\( x = 2 \\).",
+        "derived_from": "area-2-q52.webp"
+      }
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "La ecuación ordinaria de la mediatriz del triángulo trazada desde el lado AB es",
+      "options": {
+        "A": "A) y = -3x + 6",
+        "B": "B) y = -3x + 7",
+        "C": "C) y = -2x + 5",
+        "D": "D) y = -2x + 6"
+      },
+      "correct_answer": "C",
+      "reference": {
+        "type": "text",
+        "path": "area-2-q58.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp58.webp",
+        "alt": "Figura asociada a la pregunta 58.",
+        "content": "En la figura se presenta un sistema de coordenadas cartesianas con los ejes x e y. El eje y es vertical y el eje x es horizontal. Se observa un triángulo formado por los puntos A, B y un tercer punto que no está etiquetado, pero se puede deducir que es el origen (0,0). \n\nEl punto A se encuentra en el eje x, en la posición (0,0), que es el origen. El punto B está ubicado en el cuadrante I, en la posición (3,2). Desde el punto A, se traza una línea vertical hacia arriba hasta el punto B, formando un lado del triángulo. Luego, desde el punto B, se traza una línea horizontal hacia la izquierda que se encuentra con el eje y en el punto (3,0). Finalmente, se conecta este punto con el punto A, completando así el triángulo.\n\nLas líneas que forman el triángulo son rectas y están marcadas con un grosor notable. La cuadrícula del fondo está compuesta por líneas horizontales y verticales que facilitan la visualización de las coordenadas. El triángulo es un triángulo rectángulo, con el ángulo recto en el punto A. Las coordenadas de los puntos son: A(0,0), B(3,2) y el tercer punto en (3,0).",
+        "derived_from": "area-2-q58.webp"
+      }
+    },
+    {
+      "number": 61,
+      "subject": "Matemáticas",
+      "question": "Ecuación general de x²/16 + y²/4 = 1",
+      "options": {
+        "A": "A) 4x² + y² - 16 = 0",
+        "B": "B) x² + 4y² + 16 = 0",
+        "C": "C) x² + 4y² - 16 = 0",
+        "D": "D) 4x² + 4y² + 16 = 0"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 68,
+      "subject": "Matemáticas",
+      "question": "¿Qué características determinan si una función es integrable?",
+      "options": {
+        "A": "A) No es integrable porque tiene discontinuidades infinitas.",
+        "B": "B) Sí es integrable porque tiene discontinuidades infinitas.",
+        "C": "C) Sí es integrable porque está acotada y tiene discontinuidades finitas.",
+        "D": "D) No es integrable porque no está acotada."
+      },
+      "correct_answer": "C",
+      "reference": {
+        "type": "text",
+        "path": "area-2-q68.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp68.webp",
+        "alt": "Figura asociada a la pregunta 68.",
+        "content": "En la figura se presenta un plano cartesiano con ejes x e y. El eje x es horizontal y el eje y es vertical. Ambos ejes están marcados con líneas discontinuas y se cruzan en el origen, que está etiquetado como \"0\". En el eje x, hay dos puntos negros que están alineados horizontalmente. El punto más a la izquierda está en la posición -1 y el punto más a la derecha está en la posición 1. No hay otros puntos o líneas visibles en la figura, y el fondo es blanco con una cuadrícula de líneas punteadas que forman un patrón de cuadrados.",
+        "derived_from": "area-2-q68.webp"
+      }
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "El personaje sintió un gran alivio al",
+      "options": {
+        "A": "A) escuchar que su mujer abría la puerta.",
+        "B": "B) regresar al sillón.",
+        "C": "C) llamar a su médico.",
+        "D": "D) sentir que su mujer lo levantaba."
+      },
+      "correct_answer": "A",
+      "reference": {
+        "type": "text",
+        "content": "Tiempo libre\n\nTodas las mañanas compro el periódico y todas las mañanas, al leerlo, me mancho los dedos con tinta. Nunca me ha importado ensuciármelos con tal de estar al día en las noticias. Pero esta mañana sentí un gran malestar apenas toqué el periódico.\n\nCreí que solamente se trataba de uno de mis acostumbrados mareos. Pagué el importe del diario y regresé a mi casa. Mi esposa había salido de compras. Me acomodé en mi sillón favorito, encendí un cigarro y me puse a leer la primera página. Luego de enterarme de que el jet se había desplomado, volví a sentirme mal; vi mis dedos y las manos con toda la calma y, ya tranquilo, regresé al sillón. Cuando iba a tomar mi cigarro, descubrí que una mancha negra cubría mis dedos.\n\nDe inmediato retorné al baño, me tallé con zacate, piedra pómez y, finalmente, me lavé con blanqueador; pero el intento fue inútil, porque la mancha creció y me invadió hasta los codos. Ahora, más preocupado que molesto, llamé al doctor y me recomendó que lo mejor era que tomara unas vacaciones, o que durmiera. Después, llamé a las oficinas del periódico para elevar mi más rotunda protesta; me contestó una voz de mujer, que solamente me insultó y me trató de loco. En el momento en que hablaba por teléfono, me di cuenta de que, en realidad, no se trataba de una mancha, sino de un número infinito de letras pequeñísimas, apeñuscadas, como una inquieta multitud de hormigas negras. Cuando colgué, las letritas habían avanzado ya hasta mi cintura.\n\nAsustado, corrí hacia la puerta de entrada; pero, antes de poder abrirla. Me flaquearon las piernas y caí estrepitosamente. Tirado bocarriba descubrí que, además de la gran cantidad de letras hormiga que ahora ocupaban todo mi cuerpo, había una que otra fotografía. Así estuve durante varias horas hasta que escuché que abrían la puerta. Me costó trabajo hilar la idea, pero al fin pensé que había llegado a mi salvación. Entró mi esposa, me levantó del suelo, me cargó bajo el brazo, se acomodó en mi sillón favorito, me hojeó despreocupadamente y se puso a leer.\n\nGuillermo Samperio.",
+        "title": "Tiempo libre",
+        "author": "Guillermo Samperio",
+        "source": null
+      }
+    },
+    {
+      "number": 80,
+      "subject": "Español",
+      "question": "Selecciona la opción que contenga sujeto tácito.",
+      "options": {
+        "A": "A) No hay posibilidades de cambio.",
+        "B": "B) Un rincón cerca del cielo.",
+        "C": "C) Así es todos los días.",
+        "D": "D) Cada noche camina dormida."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 82,
+      "subject": "Español",
+      "question": "Elige el párrafo con la redacción adecuada.",
+      "options": {
+        "A": "A) Cuentan que en este año hubieron muchos damnificados...",
+        "B": "B) Afirmaron que este año habían muchos damnificados...",
+        "C": "C) Se afirmó que en este año hubieron muchos damnificados...",
+        "D": "D) Según los últimos datos, en este año ha habido muchos damnificados..."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 84,
+      "subject": "Español",
+      "question": "Relación de analogía: discurso barroco → aburrimiento / bostezo.",
+      "options": {
+        "A": "A) Ira – agresión.",
+        "B": "B) Diversión – sonrisa.",
+        "C": "C) Distracción – error.",
+        "D": "D) Impaciencia – fastidio."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 86,
+      "subject": "Español",
+      "question": "Completa: Recuerda que los ____ plásticos no son ____ fácilmente por las máquinas trituradoras.",
+      "options": {
+        "A": "A) deshechos – deshechos",
+        "B": "B) desechos – desechos",
+        "C": "C) desechos – deshechos",
+        "D": "D) deshechos – desechos"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 87,
+      "subject": "Español",
+      "question": "Selecciona la opción que usa correctamente las letras mayúsculas.",
+      "options": {
+        "A": "A) Ante los Príncipes... la Muestra... la Arquitecta... la Galería.",
+        "B": "B) Ante los príncipes... la muestra... la Arquitecta... la galería.",
+        "C": "C) Ante los príncipes... la muestra... la arquitecta... la Galería.",
+        "D": "D) Ante los Príncipes... la muestra... El Trabajo... la galería."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 110,
+      "subject": "Historia Universal",
+      "question": "Una característica del mundo unipolar es",
+      "options": {
+        "A": "A) el establecimiento del sistema socialista.",
+        "B": "B) la globalización de los sectores productivos.",
+        "C": "C) la estabilidad económica en el mundo.",
+        "D": "D) el fortalecimiento de las identidades nacionales."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 112,
+      "subject": "Historia de México",
+      "question": "¿En qué momento se promulgó la Constitución de Apatzingán?",
+      "options": {
+        "A": "A) La organización.",
+        "B": "B) El inicio.",
+        "C": "C) La consumación.",
+        "D": "D) La guerrilla insurgente."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 113,
+      "subject": "Historia de México",
+      "question": "El gobierno de Anastasio Bustamante para mejorar la economía",
+      "options": {
+        "A": "A) estableció el impuesto por puertas y ventanas y fraccionó latifundios.",
+        "B": "B) suspendió el diezmo y subastó propiedades del clero.",
+        "C": "C) promulgó el Banco del Avío.",
+        "D": "D) estimuló la agricultura."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 117,
+      "subject": "Historia de México",
+      "question": "La inauguración de Bellas Artes, el PNR y la autonomía universitaria fueron acciones del periodo",
+      "options": {
+        "A": "A) Maximato.",
+        "B": "B) Unidad Nacional.",
+        "C": "C) Desarrollo Compartido.",
+        "D": "D) Cardenismo."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 118,
+      "subject": "Historia de México",
+      "question": "La trascendencia histórica del Plan Sexenal se debe a que",
+      "options": {
+        "A": "A) suscribió la paz entre facciones.",
+        "B": "B) dio voz a obreros y campesinos.",
+        "C": "C) estableció un modelo de desarrollo económico.",
+        "D": "D) permitió la reelección de Obregón."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 119,
+      "subject": "Historia de México",
+      "question": "El impulso a la petrolización y apertura turística a capitales privados fueron acciones de",
+      "options": {
+        "A": "A) Luis Echeverría.",
+        "B": "B) José López Portillo.",
+        "C": "C) Miguel de la Madrid.",
+        "D": "D) Carlos Salinas de Gortari."
+      },
+      "correct_answer": "B"
+    }
+  ]
+}

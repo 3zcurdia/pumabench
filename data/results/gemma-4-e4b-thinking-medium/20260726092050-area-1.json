@@ -1,0 +1,111 @@
+{
+  "id": "google/gemma-4-e4b",
+  "model": "gemma-4-e4b-thinking-medium",
+  "effort": "medium",
+  "timestamp": "20260726092050",
+  "area": 1,
+  "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+  "total": {
+    "questions": 55,
+    "correct": 52,
+    "percentage": 94.55
+  },
+  "subjects": {
+    "Biología": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Español": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Filosofía": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Física": {
+      "questions": 16,
+      "correct": 15,
+      "percentage": 93.75
+    },
+    "Geografía": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Historia Universal": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Historia de México": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Literatura": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Matemáticas": {
+      "questions": 9,
+      "correct": 8,
+      "percentage": 88.89
+    },
+    "Química": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    }
+  },
+  "failed_questions": [
+    {
+      "number": 2,
+      "subject": "Física",
+      "question": "2. Con base en el siguiente sistema de vectores, indica la magnitud del vector resultante en N.",
+      "options": {
+        "A": "A) \\(\\sqrt{75.8}\\)",
+        "B": "B) \\(\\sqrt{23.8}\\)",
+        "C": "C) \\(\\sqrt{650}\\)",
+        "D": "D) \\(\\sqrt{101.1}\\)"
+      },
+      "correct_answer": "D",
+      "reference": {
+        "type": "text",
+        "path": "area-1-q2.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp2.webp",
+        "alt": "Figura asociada a la pregunta 2.",
+        "content": "En la figura se observa un sistema de coordenadas cartesianas con los ejes x e y. El eje y está orientado hacia arriba y el eje x hacia la derecha. Se presentan tres vectores de fuerza representados por flechas:\n\n1. Un vector de 10 N que se extiende verticalmente hacia arriba, alineado con el eje y.\n2. Un vector de 8 N que forma un ángulo de 30° con el eje x, apuntando hacia la derecha y hacia arriba.\n3. Un vector de 9 N que forma un ángulo de 75° con el eje x, también apuntando hacia la derecha y hacia arriba.\n\nAdemás, se incluye una tabla en la parte superior de la figura que muestra los valores del seno y coseno para los ángulos de 30°, 45° y 75°. La tabla tiene tres columnas: \"Ángulo\", \"Seno\" y \"Coseno\". Los valores son los siguientes:\n\n- Para 30°: Seno = 0.5, Coseno = 0.8\n- Para 45°: Seno = 0.7, Coseno = 0.7\n- Para 75°: Seno = 0.9, Coseno = 0.3\n\nLos vectores están etiquetados con sus respectivas magnitudes en Newtons (N) y los ángulos están indicados en grados.",
+        "derived_from": "area-1-q2.webp"
+      }
+    },
+    {
+      "number": 39,
+      "subject": "Geografía",
+      "question": "39. Las corrientes de convección del ______ generan el desplazamiento de los continentes.",
+      "options": {
+        "A": "A) manto superior.",
+        "B": "B) manto inferior.",
+        "C": "C) núcleo externo.",
+        "D": "D) núcleo interno."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 54,
+      "subject": "Matemáticas",
+      "question": "54. Soluciona el sistema de ecuaciones. \\[ \\left\\{ \\begin{aligned} 5x + 2y - z &= -7 \\\\ x - 2y + 2z &= 0 \\\\ 3y + z &= 17 \\end{aligned} \\right. \\]",
+      "options": {
+        "A": "A) \\(x = -1,\\ y = 5,\\ z = 2\\)",
+        "B": "B) \\(x = 1,\\ y = 5,\\ z = 2\\)",
+        "C": "C) \\(x = -1,\\ y = 2,\\ z = 5\\)",
+        "D": "D) \\(x = 1,\\ y = 2,\\ z = 5\\)"
+      },
+      "correct_answer": "C"
+    }
+  ]
+}

@@ -73,7 +73,15 @@
         "C": "C) alquino.",
         "D": "D) alcano."
       },
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "reference": {
+        "type": "text",
+        "path": "area-2-q34.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp34.webp",
+        "alt": "Figura asociada a la pregunta 34.",
+        "content": "La figura presenta una estructura química que consiste en un esqueleto de carbono. Se observan varias líneas que representan enlaces entre átomos de carbono. En la parte izquierda, hay un carbono que se conecta verticalmente a otro carbono, formando un ángulo. Este carbono está unido a un tercer carbono que se extiende horizontalmente hacia la derecha. \n\nA la derecha de este tercer carbono, hay un enlace que se dirige hacia abajo, formando un ángulo agudo con el carbono anterior. Luego, se observa un cuarto carbono que se conecta a este último, formando una cadena que se extiende hacia la derecha. Este carbono final tiene un enlace que se dirige hacia arriba, formando un ángulo con el carbono anterior. \n\nNo hay grupos funcionales visibles en la estructura, y todos los enlaces son simples. La figura no presenta ningún tipo de sustituyentes o ramificaciones adicionales.",
+        "derived_from": "area-2-q34.webp"
+      }
     },
     {
       "number": 43,
@@ -109,7 +117,15 @@
         "C": "C) y = -2x + 5",
         "D": "D) y = -2x + 6"
       },
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "reference": {
+        "type": "text",
+        "path": "area-2-q58.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp58.webp",
+        "alt": "Figura asociada a la pregunta 58.",
+        "content": "En la figura se presenta un sistema de coordenadas cartesianas con los ejes x e y. El eje y es vertical y el eje x es horizontal. Se observa un triángulo formado por los puntos A, B y un tercer punto que no está etiquetado, pero se puede deducir que es el origen (0,0). \n\nEl punto A se encuentra en el eje x, en la posición (0,0), que es el origen. El punto B está ubicado en el cuadrante I, en la posición (3,2). Desde el punto A, se traza una línea vertical hacia arriba hasta el punto B, formando un lado del triángulo. Luego, desde el punto B, se traza una línea horizontal hacia la izquierda que se encuentra con el eje y en el punto (3,0). Finalmente, se conecta este punto con el punto A, completando así el triángulo.\n\nLas líneas que forman el triángulo son rectas y están marcadas con un grosor notable. La cuadrícula del fondo está compuesta por líneas horizontales y verticales que facilitan la visualización de las coordenadas. El triángulo es un triángulo rectángulo, con el ángulo recto en el punto A. Las coordenadas de los puntos son: A(0,0), B(3,2) y el tercer punto en (3,0).",
+        "derived_from": "area-2-q58.webp"
+      }
     },
     {
       "number": 60,
@@ -133,7 +149,14 @@
         "C": "C) quejarse de que el periódico le causó daño en la piel.",
         "D": "D) expresar su preocupación al periódico."
       },
-      "correct_answer": "C"
+      "correct_answer": "C",
+      "reference": {
+        "type": "text",
+        "content": "Tiempo libre\n\nTodas las mañanas compro el periódico y todas las mañanas, al leerlo, me mancho los dedos con tinta. Nunca me ha importado ensuciármelos con tal de estar al día en las noticias. Pero esta mañana sentí un gran malestar apenas toqué el periódico.\n\nCreí que solamente se trataba de uno de mis acostumbrados mareos. Pagué el importe del diario y regresé a mi casa. Mi esposa había salido de compras. Me acomodé en mi sillón favorito, encendí un cigarro y me puse a leer la primera página. Luego de enterarme de que el jet se había desplomado, volví a sentirme mal; vi mis dedos y las manos con toda la calma y, ya tranquilo, regresé al sillón. Cuando iba a tomar mi cigarro, descubrí que una mancha negra cubría mis dedos.\n\nDe inmediato retorné al baño, me tallé con zacate, piedra pómez y, finalmente, me lavé con blanqueador; pero el intento fue inútil, porque la mancha creció y me invadió hasta los codos. Ahora, más preocupado que molesto, llamé al doctor y me recomendó que lo mejor era que tomara unas vacaciones, o que durmiera. Después, llamé a las oficinas del periódico para elevar mi más rotunda protesta; me contestó una voz de mujer, que solamente me insultó y me trató de loco. En el momento en que hablaba por teléfono, me di cuenta de que, en realidad, no se trataba de una mancha, sino de un número infinito de letras pequeñísimas, apeñuscadas, como una inquieta multitud de hormigas negras. Cuando colgué, las letritas habían avanzado ya hasta mi cintura.\n\nAsustado, corrí hacia la puerta de entrada; pero, antes de poder abrirla. Me flaquearon las piernas y caí estrepitosamente. Tirado bocarriba descubrí que, además de la gran cantidad de letras hormiga que ahora ocupaban todo mi cuerpo, había una que otra fotografía. Así estuve durante varias horas hasta que escuché que abrían la puerta. Me costó trabajo hilar la idea, pero al fin pensé que había llegado a mi salvación. Entró mi esposa, me levantó del suelo, me cargó bajo el brazo, se acomodó en mi sillón favorito, me hojeó despreocupadamente y se puso a leer.\n\nGuillermo Samperio.",
+        "title": "Tiempo libre",
+        "author": "Guillermo Samperio",
+        "source": null
+      }
     },
     {
       "number": 85,
