@@ -1,7 +1,7 @@
 number,answer
 1,D
-2,A
-3,C
+2,C
+3,A
 4,D
 5,B
 6,D
@@ -52,7 +52,7 @@ number,answer
 51,B
 52,A
 53,C
-54,A
+54,B
 55,A
 56,A
 57,C
@@ -67,7 +67,7 @@ number,answer
 66,B
 67,D
 68,A
-69,A
+69,B
 70,D
 71,C
 72,A
@@ -75,7 +75,7 @@ number,answer
 74,D
 75,B
 76,C
-77,C
+77,A
 78,C
 79,D
 80,B
@@ -110,7 +110,7 @@ number,answer
 109,A
 110,B
 111,C
-112,B
+112,D
 113,C
 114,C
 115,D

@@ -7,8 +7,8 @@
   "area_name": "Humanidades y de las Artes",
   "total": {
     "questions": 120,
-    "correct": 111,
-    "percentage": 92.5
+    "correct": 113,
+    "percentage": 94.17
   },
   "subjects": {
     "Biología": {
@@ -43,13 +43,13 @@
     },
     "Historia de México": {
       "questions": 10,
-      "correct": 6,
-      "percentage": 60.0
+      "correct": 7,
+      "percentage": 70.0
     },
     "Literatura": {
       "questions": 10,
-      "correct": 8,
-      "percentage": 80.0
+      "correct": 9,
+      "percentage": 90.0
     },
     "Matemáticas": {
       "questions": 22,
@@ -74,18 +74,6 @@
         "D": "D) Balazo o bajad."
       },
       "correct_answer": "D"
-    },
-    {
-      "number": 14,
-      "subject": "Literatura",
-      "question": "Identifica el metro: 'Yo sé los nombres extraños.'",
-      "options": {
-        "A": "A) Endecasílabo.",
-        "B": "B) Octosílabo.",
-        "C": "C) Decasílabo.",
-        "D": "D) Heptasílabo."
-      },
-      "correct_answer": "B"
     },
     {
       "number": 75,
@@ -132,18 +120,6 @@
         "B": "B) el apoyo a reclamos sindicales.",
         "C": "C) el equilibrio de la balanza comercial.",
         "D": "D) la expansión del mercado externo."
-      },
-      "correct_answer": "D"
-    },
-    {
-      "number": 110,
-      "subject": "Historia de México",
-      "question": "Fue una acción del gobierno de Luis Echeverría como parte del Desarrollo Compartido.",
-      "options": {
-        "A": "A) Disminución de importaciones.",
-        "B": "B) Nacionalización de la banca.",
-        "C": "C) Privatización de la educación.",
-        "D": "D) Fomento a la participación de empresas privadas."
       },
       "correct_answer": "D"
     },

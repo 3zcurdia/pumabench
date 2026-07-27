@@ -7,8 +7,8 @@
   "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
   "total": {
     "questions": 120,
-    "correct": 105,
-    "percentage": 87.5
+    "correct": 114,
+    "percentage": 95.0
   },
   "subjects": {
     "Biología": {
@@ -28,13 +28,13 @@
     },
     "Física": {
       "questions": 16,
-      "correct": 12,
-      "percentage": 75.0
+      "correct": 15,
+      "percentage": 93.75
     },
     "Geografía": {
       "questions": 10,
-      "correct": 9,
-      "percentage": 90.0
+      "correct": 10,
+      "percentage": 100.0
     },
     "Historia Universal": {
       "questions": 10,
@@ -48,93 +48,21 @@
     },
     "Literatura": {
       "questions": 10,
-      "correct": 9,
-      "percentage": 90.0
+      "correct": 10,
+      "percentage": 100.0
     },
     "Matemáticas": {
       "questions": 26,
-      "correct": 22,
-      "percentage": 84.62
+      "correct": 25,
+      "percentage": 96.15
     },
     "Química": {
       "questions": 10,
-      "correct": 9,
-      "percentage": 90.0
+      "correct": 10,
+      "percentage": 100.0
     }
   },
   "failed_questions": [
-    {
-      "number": 3,
-      "subject": "Física",
-      "question": "3. La siguiente figura ilustra el momento preciso en el que un bate golpea una pelota. ¿Cuál de las imágenes muestra los vectores que representan la Tercera Ley de Newton? Considera: \\(F_{\\frac{P}{B}}\\) = Fuerza de la pelota sobre el bate. \\(F_{\\frac{B}{P}}\\) = Fuerza del bate sobre la pelota.",
-      "options": {
-        "A": {
-          "label": "A",
-          "image": "area-1-q3-opt-A.webp",
-          "alt": "Opción A para la pregunta 3.",
-          "image_description": "En la opción A se presenta un diagrama que ilustra dos fuerzas representadas por las letras F. La primera fuerza, etiquetada como \\( F_{B/P} \\), está situada en la parte superior izquierda del diagrama, junto a un círculo. Esta fuerza parece estar orientada horizontalmente hacia la izquierda. La segunda fuerza, etiquetada como \\( F_{P/B} \\), se encuentra en la parte derecha del diagrama, en un contorno que se asemeja a un cuerpo alargado o una figura en forma de gota, y está orientada hacia la derecha. Ambas fuerzas están conectadas por una línea horizontal que indica una relación entre ellas. El diagrama no incluye más detalles, como valores numéricos o unidades, y se centra en la representación de estas dos fuerzas y su interacción."
-        },
-        "B": {
-          "label": "B",
-          "image": "area-1-q3-opt-B.webp",
-          "alt": "Opción B para la pregunta 3.",
-          "image_description": "En la opción B se presenta un diagrama que ilustra dos fuerzas. A la izquierda, hay un círculo que representa un objeto, del cual se extiende una línea horizontal hacia la derecha. Sobre esta línea se encuentra la etiqueta \"FB/P\", que indica una fuerza, probablemente relacionada con la fuerza de flotación o una fuerza de presión. \n\nA la derecha del círculo, se muestra una forma alargada que se asemeja a un cuerpo en movimiento, con una etiqueta \"FP/B\" que también representa una fuerza. Esta fuerza parece estar orientada hacia abajo, sugiriendo que podría estar relacionada con la gravedad o una fuerza de presión en un fluido. \n\nAmbas fuerzas están conectadas por una línea que sugiere una relación entre ellas, posiblemente en el contexto de un problema de física que involucra fluidos o dinámica de cuerpos. La disposición de las fuerzas y sus etiquetas sugiere que se está analizando un equilibrio o una interacción entre fuerzas en un sistema."
-        },
-        "C": {
-          "label": "C",
-          "image": "area-1-q3-opt-C.webp",
-          "alt": "Opción C para la pregunta 3.",
-          "image_description": "En la opción C se presenta un diagrama que ilustra dos fuerzas, etiquetadas como \\( F_B \\) y \\( F_P \\), que actúan sobre un objeto. La fuerza \\( F_B \\) está representada en la parte superior del diagrama, con una flecha que indica su dirección horizontal hacia la izquierda, y está acompañada por una etiqueta que indica que es una fuerza de presión. La fuerza \\( F_P \\) se encuentra en la parte inferior del diagrama, con una flecha que apunta hacia abajo, y está etiquetada como una fuerza de presión también. \n\nEl diagrama incluye un contorno ovalado en la parte superior, que podría representar un objeto en un fluido, y una forma alargada en la parte inferior que sugiere un cuerpo en movimiento o en interacción con el fluido. Las fuerzas están claramente delineadas y etiquetadas, lo que sugiere que se está analizando un fenómeno relacionado con la dinámica de fluidos o la presión en un medio."
-        },
-        "D": {
-          "label": "D",
-          "image": "area-1-q3-opt-D.webp",
-          "alt": "Opción D para la pregunta 3.",
-          "image_description": "En la opción D se presenta un diagrama que ilustra un sistema de fuerzas. A la izquierda, hay un círculo que representa un objeto, posiblemente un cuerpo en movimiento o en equilibrio. Desde este círculo, se extiende una línea horizontal hacia la derecha, que indica la dirección de una fuerza. Esta fuerza está etiquetada como \\( F_{B/P} \\), lo que sugiere que es la fuerza ejercida por el cuerpo B sobre el cuerpo P.\n\nA la derecha del círculo, se encuentra una forma alargada que se asemeja a un cono invertido, con una base más ancha en la parte inferior y un vértice en la parte superior. Esta figura también tiene una fuerza representada, etiquetada como \\( F_{P/B} \\), que indica la fuerza ejercida por el cuerpo P sobre el cuerpo B. Ambas fuerzas están orientadas horizontalmente, lo que sugiere que están en equilibrio o en interacción directa.\n\nEl diagrama no incluye valores numéricos ni ecuaciones, pero la disposición de las fuerzas y sus etiquetas son clave para entender la relación entre los cuerpos representados."
-        }
-      },
-      "correct_answer": "A",
-      "reference": {
-        "type": "text",
-        "path": "area-1-q3.webp",
-        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp3.webp",
-        "alt": "Figura asociada a la pregunta 3.",
-        "content": "La figura presenta un diseño que consiste en un círculo en la parte superior izquierda, que representa un objeto esférico. Este círculo está conectado a una forma alargada que se asemeja a un cono invertido o un embudo, que se extiende hacia abajo y hacia la derecha. La parte superior de esta forma alargada es más ancha y se estrecha a medida que desciende, terminando en una base que es un óvalo horizontal en la parte inferior. La figura está delineada con un trazo negro y no contiene relleno ni detalles adicionales. La conexión entre el círculo y la forma alargada es continua, sugiriendo que ambos elementos están relacionados de alguna manera.",
-        "derived_from": "area-1-q3.webp"
-      }
-    },
-    {
-      "number": 5,
-      "subject": "Física",
-      "question": "5. Un sistema está en equilibrio térmico cuando",
-      "options": {
-        "A": "A) en un proceso su temperatura no varía.",
-        "B": "B) su temperatura es igual a la de otro sistema con el que está en contacto térmico.",
-        "C": "C) se calienta por medio de trabajo.",
-        "D": "D) su presión y su masa permanecen constantes."
-      },
-      "correct_answer": "B"
-    },
-    {
-      "number": 11,
-      "subject": "Física",
-      "question": "11. De acuerdo a la imagen, la corriente que circula por el resistor de resistencia \\(\\frac{R}{2}\\) es",
-      "options": {
-        "A": "A) \\(\\frac{V}{2R}\\)",
-        "B": "B) \\(\\frac{2V}{R}\\)",
-        "C": "C) \\(\\frac{V}{3R}\\)",
-        "D": "D) \\(\\frac{3V}{R}\\)"
-      },
-      "correct_answer": "B",
-      "reference": {
-        "type": "text",
-        "path": "area-1-q11.webp",
-        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp11.webp",
-        "alt": "Figura asociada a la pregunta 11.",
-        "content": "En la figura se presenta un circuito eléctrico simple. A la izquierda, hay una fuente de voltaje representada por un símbolo de batería, donde el terminal positivo está indicado con un signo más (+) y el terminal negativo no tiene símbolo. La fuente de voltaje está conectada a un resistor que se encuentra a la derecha. Este resistor está etiquetado como \\( R/2 \\), lo que indica que su resistencia es la mitad de un valor \\( R \\) que no se especifica en la figura. Las conexiones entre la fuente de voltaje y el resistor son líneas rectas que representan los conductores del circuito. No hay otros componentes en el circuito, y la disposición es lineal, con la fuente de voltaje a la izquierda y el resistor a la derecha.",
-        "derived_from": "area-1-q11.webp"
-      }
-    },
     {
       "number": 13,
       "subject": "Física",
@@ -154,86 +82,6 @@
         "content": "La figura presenta tres cubos etiquetados como A, B y C. Cada cubo está representado en una perspectiva tridimensional, mostrando sus aristas y caras. \n\nEl cubo A tiene líneas punteadas que indican las aristas ocultas en la parte superior y lateral, sugiriendo que la cara superior está vista desde un ángulo. Las líneas punteadas en el cubo A son visibles en la parte superior izquierda y en la parte trasera.\n\nEl cubo B también tiene líneas punteadas, pero estas se encuentran en la parte superior y en la cara lateral derecha, lo que indica que la vista es diferente a la del cubo A. La cara frontal del cubo B es más prominente, y las líneas punteadas sugieren que hay aristas ocultas en la parte superior y lateral.\n\nEl cubo C presenta una disposición similar, con líneas punteadas que indican aristas ocultas, pero en este caso, las líneas están en la parte superior y en la cara lateral izquierda. La cara frontal del cubo C es visible, y las líneas punteadas sugieren que hay aristas que no son completamente visibles.\n\nCada cubo tiene un diseño similar, pero las posiciones de las líneas punteadas y la orientación de las caras visibles son diferentes entre ellos.",
         "derived_from": "area-1-q13.webp"
       }
-    },
-    {
-      "number": 22,
-      "subject": "Literatura",
-      "question": "22. Los autores que conforman una corriente literaria",
-      "options": {
-        "A": "A) comparten características en cuanto a su forma de escribir y el interés por desarrollar temas similares; además, viven en una misma época.",
-        "B": "B) heredan el estilo de quienes los precedieron, comparten una forma de escribir y abordan un género determinado, como la dramaturgia o la novela.",
-        "C": "C) heredan el estilo de quienes los precedieron, comparten una forma de escribir y muestran interés por desarrollar temas similares.",
-        "D": "D) abordan un género determinado, como la dramaturgia o la novela, comparten el interés por desarrollar temas similares y viven en una misma época."
-      },
-      "correct_answer": "A"
-    },
-    {
-      "number": 35,
-      "subject": "Química",
-      "question": "35. Biomoléculas que sirven de reserva energética en los organismos.",
-      "options": {
-        "A": "A) Aminoácidos.",
-        "B": "B) Lípidos.",
-        "C": "C) Vitaminas.",
-        "D": "D) Carbohidratos."
-      },
-      "correct_answer": "B"
-    },
-    {
-      "number": 43,
-      "subject": "Geografía",
-      "question": "43. Son países que funcionan como puntos de acceso para que los migrantes que provienen del norte de África logren integrarse al territorio europeo.",
-      "options": {
-        "A": "A) España, Malta, Italia y Grecia.",
-        "B": "B) España, Francia, Alemania e Italia.",
-        "C": "C) Malta, Francia, Grecia y Portugal.",
-        "D": "D) Reino Unido, Croacia, Francia y Alemania."
-      },
-      "correct_answer": "A"
-    },
-    {
-      "number": 54,
-      "subject": "Matemáticas",
-      "question": "54. Soluciona el sistema de ecuaciones. \\[ \\left\\{ \\begin{aligned} 5x + 2y - z &= -7 \\\\ x - 2y + 2z &= 0 \\\\ 3y + z &= 17 \\end{aligned} \\right. \\]",
-      "options": {
-        "A": "A) \\(x = -1,\\ y = 5,\\ z = 2\\)",
-        "B": "B) \\(x = 1,\\ y = 5,\\ z = 2\\)",
-        "C": "C) \\(x = -1,\\ y = 2,\\ z = 5\\)",
-        "D": "D) \\(x = 1,\\ y = 2,\\ z = 5\\)"
-      },
-      "correct_answer": "C"
-    },
-    {
-      "number": 60,
-      "subject": "Matemáticas",
-      "question": "60. Determina los puntos por donde pasa una recta perpendicular a la gráfica siguiente.",
-      "options": {
-        "A": "A) (0, 0) y (-2, -3)",
-        "B": "B) (0, 0) y (-2, 1)",
-        "C": "C) (0, 0) y (1, -3)",
-        "D": "D) (0, 0) y (1, 3)"
-      },
-      "correct_answer": "B",
-      "reference": {
-        "type": "text",
-        "path": "area-1-q60.webp",
-        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025area1p60.webp",
-        "alt": "Figura asociada a la pregunta 60.",
-        "content": "En la figura se presenta un sistema de coordenadas cartesianas con ejes x e y. El eje y se extiende verticalmente desde -10 hasta 10, mientras que el eje x se extiende horizontalmente desde -8 hasta 8. Se marcan dos puntos en el plano: el punto P en la posición (4, 9) y otro punto P en la posición (-4, -7). \n\nEl punto (4, 9) se encuentra en el primer cuadrante, a la derecha del origen, a 4 unidades en el eje x y a 9 unidades en el eje y. El punto (-4, -7) se localiza en el tercer cuadrante, a la izquierda del origen, a 4 unidades en el eje x negativo y a 7 unidades en el eje y negativo. Ambos puntos están representados por círculos sólidos y están etiquetados con sus respectivas coordenadas. La línea que conecta ambos puntos es diagonal, ascendiendo desde el punto (-4, -7) hasta el punto (4, 9).",
-        "derived_from": "area-1-q60.webp"
-      }
-    },
-    {
-      "number": 64,
-      "subject": "Matemáticas",
-      "question": "64. Dada la ecuación de la elipse \\(\\frac{x^2}{100} + \\frac{y^2}{75} = 1\\) determina su excentricidad.",
-      "options": {
-        "A": "A) \\(\\frac{3}{4}\\)",
-        "B": "B) \\(\\frac{2}{3}\\)",
-        "C": "C) \\(\\frac{3}{5}\\)",
-        "D": "D) \\(\\frac{1}{2}\\)"
-      },
-      "correct_answer": "D"
     },
     {
       "number": 69,

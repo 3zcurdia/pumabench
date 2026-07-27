@@ -1,14 +1,14 @@
 number,answer
 1,D
 2,A
-3,A
+3,B
 4,A
 5,A
 6,C
 7,D
 8,D
 9,B
-10,D
+10,C
 11,C
 12,A
 13,B
@@ -17,8 +17,8 @@ number,answer
 16,C
 17,A
 18,C
-19,ERROR
-20,C
+19,A
+20,D
 21,B
 22,B
 23,D
@@ -34,7 +34,7 @@ number,answer
 33,A
 34,B
 35,A
-36,ERROR
+36,B
 37,C
 38,D
 39,C
@@ -49,7 +49,7 @@ number,answer
 48,C
 49,D
 50,B
-51,C
+51,D
 52,D
 53,D
 54,A
@@ -68,7 +68,7 @@ number,answer
 67,B
 68,C
 69,A
-70,D
+70,C
 71,C
 72,D
 73,C

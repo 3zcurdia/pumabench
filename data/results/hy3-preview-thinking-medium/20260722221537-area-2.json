@@ -7,8 +7,8 @@
   "area_name": "Ciencias Biológicas, Químicas y de la Salud",
   "total": {
     "questions": 120,
-    "correct": 111,
-    "percentage": 92.5
+    "correct": 115,
+    "percentage": 95.83
   },
   "subjects": {
     "Biología": {
@@ -18,8 +18,8 @@
     },
     "Español": {
       "questions": 18,
-      "correct": 15,
-      "percentage": 83.33
+      "correct": 18,
+      "percentage": 100.0
     },
     "Filosofía": {
       "questions": 0,
@@ -28,8 +28,8 @@
     },
     "Física": {
       "questions": 12,
-      "correct": 11,
-      "percentage": 91.67
+      "correct": 12,
+      "percentage": 100.0
     },
     "Geografía": {
       "questions": 10,
@@ -63,26 +63,6 @@
     }
   },
   "failed_questions": [
-    {
-      "number": 2,
-      "subject": "Física",
-      "question": "Sobre un cuerpo se aplicaron diferentes fuerzas en dirección horizontal y con el mismo sentido provocando que el objeto experimentara distintas aceleraciones. ¿Cuál es la masa del objeto?",
-      "options": {
-        "A": "A) 1.6 kg",
-        "B": "B) 2.5 kg",
-        "C": "C) 3.2 kg",
-        "D": "D) 4.0 kg"
-      },
-      "correct_answer": "B",
-      "reference": {
-        "type": "text",
-        "path": "area-2-q2.webp",
-        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp2.webp",
-        "alt": "Figura asociada a la pregunta 2.",
-        "content": "El gráfico presenta un sistema de coordenadas cartesianas donde el eje vertical representa la fuerza en Newtons (N) y el eje horizontal representa la aceleración en metros por segundo al cuadrado (m/s²). En el eje de la fuerza, se marcan las siguientes divisiones: 1.00 N, 2.00 N, 3.00 N y 4.00 N, con líneas horizontales que indican los valores intermedios. En el eje de la aceleración, se marcan las divisiones en 0.50 m/s², 1.00 m/s², 1.50 m/s² y 2.00 m/s², con líneas verticales que también indican los valores intermedios.\n\nLos puntos en el gráfico están conectados por una línea recta que comienza en el origen (0,0) y se extiende hasta el punto (2.00, 4.00). Esta línea indica una relación lineal entre la fuerza y la aceleración, sugiriendo que a medida que la aceleración aumenta, la fuerza también lo hace de manera proporcional. La pendiente de la línea representa la relación entre fuerza y aceleración, de acuerdo con la segunda ley de Newton.",
-        "derived_from": "area-2-q2.webp"
-      }
-    },
     {
       "number": 34,
       "subject": "Química",
@@ -146,56 +126,6 @@
         "D": "D) y² + 4x = 0"
       },
       "correct_answer": "C"
-    },
-    {
-      "number": 73,
-      "subject": "Español",
-      "question": "Identifica la forma del discurso: 'Hablamos porque tenemos necesidad de nombrarnos, de afirmar nuestra libertad...'",
-      "options": {
-        "A": "A) Argumentación.",
-        "B": "B) Descripción.",
-        "C": "C) Narración.",
-        "D": "D) Exposición."
-      },
-      "correct_answer": "A"
-    },
-    {
-      "number": 74,
-      "subject": "Español",
-      "question": "En el texto 'Tiempo libre' de Guillermo Samperio, el clímax se da cuando",
-      "options": {
-        "A": "A) la esposa toma el periódico.",
-        "B": "B) el personaje corrió hacia la puerta.",
-        "C": "C) el personaje cayó estrepitosamente.",
-        "D": "D) el personaje llamó a las oficinas del periódico."
-      },
-      "correct_answer": "C",
-      "reference": {
-        "type": "text",
-        "content": "Tiempo libre\n\nTodas las mañanas compro el periódico y todas las mañanas, al leerlo, me mancho los dedos con tinta. Nunca me ha importado ensuciármelos con tal de estar al día en las noticias. Pero esta mañana sentí un gran malestar apenas toqué el periódico.\n\nCreí que solamente se trataba de uno de mis acostumbrados mareos. Pagué el importe del diario y regresé a mi casa. Mi esposa había salido de compras. Me acomodé en mi sillón favorito, encendí un cigarro y me puse a leer la primera página. Luego de enterarme de que el jet se había desplomado, volví a sentirme mal; vi mis dedos y las manos con toda la calma y, ya tranquilo, regresé al sillón. Cuando iba a tomar mi cigarro, descubrí que una mancha negra cubría mis dedos.\n\nDe inmediato retorné al baño, me tallé con zacate, piedra pómez y, finalmente, me lavé con blanqueador; pero el intento fue inútil, porque la mancha creció y me invadió hasta los codos. Ahora, más preocupado que molesto, llamé al doctor y me recomendó que lo mejor era que tomara unas vacaciones, o que durmiera. Después, llamé a las oficinas del periódico para elevar mi más rotunda protesta; me contestó una voz de mujer, que solamente me insultó y me trató de loco. En el momento en que hablaba por teléfono, me di cuenta de que, en realidad, no se trataba de una mancha, sino de un número infinito de letras pequeñísimas, apeñuscadas, como una inquieta multitud de hormigas negras. Cuando colgué, las letritas habían avanzado ya hasta mi cintura.\n\nAsustado, corrí hacia la puerta de entrada; pero, antes de poder abrirla. Me flaquearon las piernas y caí estrepitosamente. Tirado bocarriba descubrí que, además de la gran cantidad de letras hormiga que ahora ocupaban todo mi cuerpo, había una que otra fotografía. Así estuve durante varias horas hasta que escuché que abrían la puerta. Me costó trabajo hilar la idea, pero al fin pensé que había llegado a mi salvación. Entró mi esposa, me levantó del suelo, me cargó bajo el brazo, se acomodó en mi sillón favorito, me hojeó despreocupadamente y se puso a leer.\n\nGuillermo Samperio.",
-        "title": "Tiempo libre",
-        "author": "Guillermo Samperio",
-        "source": null
-      }
-    },
-    {
-      "number": 76,
-      "subject": "Español",
-      "question": "El personaje hizo una llamada telefónica para",
-      "options": {
-        "A": "A) protestar porque una mujer fue descortés.",
-        "B": "B) exigir un diagnóstico a su médico.",
-        "C": "C) quejarse de que el periódico le causó daño en la piel.",
-        "D": "D) expresar su preocupación al periódico."
-      },
-      "correct_answer": "C",
-      "reference": {
-        "type": "text",
-        "content": "Tiempo libre\n\nTodas las mañanas compro el periódico y todas las mañanas, al leerlo, me mancho los dedos con tinta. Nunca me ha importado ensuciármelos con tal de estar al día en las noticias. Pero esta mañana sentí un gran malestar apenas toqué el periódico.\n\nCreí que solamente se trataba de uno de mis acostumbrados mareos. Pagué el importe del diario y regresé a mi casa. Mi esposa había salido de compras. Me acomodé en mi sillón favorito, encendí un cigarro y me puse a leer la primera página. Luego de enterarme de que el jet se había desplomado, volví a sentirme mal; vi mis dedos y las manos con toda la calma y, ya tranquilo, regresé al sillón. Cuando iba a tomar mi cigarro, descubrí que una mancha negra cubría mis dedos.\n\nDe inmediato retorné al baño, me tallé con zacate, piedra pómez y, finalmente, me lavé con blanqueador; pero el intento fue inútil, porque la mancha creció y me invadió hasta los codos. Ahora, más preocupado que molesto, llamé al doctor y me recomendó que lo mejor era que tomara unas vacaciones, o que durmiera. Después, llamé a las oficinas del periódico para elevar mi más rotunda protesta; me contestó una voz de mujer, que solamente me insultó y me trató de loco. En el momento en que hablaba por teléfono, me di cuenta de que, en realidad, no se trataba de una mancha, sino de un número infinito de letras pequeñísimas, apeñuscadas, como una inquieta multitud de hormigas negras. Cuando colgué, las letritas habían avanzado ya hasta mi cintura.\n\nAsustado, corrí hacia la puerta de entrada; pero, antes de poder abrirla. Me flaquearon las piernas y caí estrepitosamente. Tirado bocarriba descubrí que, además de la gran cantidad de letras hormiga que ahora ocupaban todo mi cuerpo, había una que otra fotografía. Así estuve durante varias horas hasta que escuché que abrían la puerta. Me costó trabajo hilar la idea, pero al fin pensé que había llegado a mi salvación. Entró mi esposa, me levantó del suelo, me cargó bajo el brazo, se acomodó en mi sillón favorito, me hojeó despreocupadamente y se puso a leer.\n\nGuillermo Samperio.",
-        "title": "Tiempo libre",
-        "author": "Guillermo Samperio",
-        "source": null
-      }
     },
     {
       "number": 118,

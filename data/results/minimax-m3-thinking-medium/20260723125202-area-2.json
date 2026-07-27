@@ -7,8 +7,8 @@
   "area_name": "Ciencias Biológicas, Químicas y de la Salud",
   "total": {
     "questions": 120,
-    "correct": 101,
-    "percentage": 84.17
+    "correct": 115,
+    "percentage": 95.83
   },
   "subjects": {
     "Biología": {
@@ -18,8 +18,8 @@
     },
     "Español": {
       "questions": 18,
-      "correct": 12,
-      "percentage": 66.67
+      "correct": 17,
+      "percentage": 94.44
     },
     "Filosofía": {
       "questions": 0,
@@ -28,77 +28,41 @@
     },
     "Física": {
       "questions": 12,
-      "correct": 11,
-      "percentage": 91.67
+      "correct": 12,
+      "percentage": 100.0
     },
     "Geografía": {
       "questions": 10,
-      "correct": 9,
-      "percentage": 90.0
+      "correct": 10,
+      "percentage": 100.0
     },
     "Historia Universal": {
       "questions": 10,
-      "correct": 8,
-      "percentage": 80.0
+      "correct": 10,
+      "percentage": 100.0
     },
     "Historia de México": {
-      "questions": 10,
-      "correct": 7,
-      "percentage": 70.0
-    },
-    "Literatura": {
       "questions": 10,
       "correct": 9,
       "percentage": 90.0
     },
+    "Literatura": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
     "Matemáticas": {
       "questions": 24,
-      "correct": 21,
-      "percentage": 87.5
+      "correct": 22,
+      "percentage": 91.67
     },
     "Química": {
       "questions": 13,
-      "correct": 11,
-      "percentage": 84.62
+      "correct": 12,
+      "percentage": 92.31
     }
   },
   "failed_questions": [
-    {
-      "number": 1,
-      "subject": "Física",
-      "question": "Durante 15 segundos un motociclista se desplaza a 20 m/s, después, durante 20 segundos se mueve a 15 m/s, posteriormente se detiene durante 25 segundos y, finalmente, durante 18 segundos se traslada a 10 m/s. Con base en estos datos, la rapidez media es de",
-      "options": {
-        "A": "A) 25 m/s",
-        "B": "B) 15 m/s",
-        "C": "C) 20 m/s",
-        "D": "D) 10 m/s"
-      },
-      "correct_answer": "D"
-    },
-    {
-      "number": 22,
-      "subject": "Literatura",
-      "question": "La paráfrasis es un proceso de carácter",
-      "options": {
-        "A": "A) descriptivo.",
-        "B": "B) argumentativo.",
-        "C": "C) expositivo.",
-        "D": "D) interpretativo."
-      },
-      "correct_answer": "D"
-    },
-    {
-      "number": 23,
-      "subject": "Química",
-      "question": "En general, en la tabla periódica los elementos con mayor carácter metálico se ubican en",
-      "options": {
-        "A": "A) los periodos superiores.",
-        "B": "B) los periodos inferiores.",
-        "C": "C) las columnas de la izquierda.",
-        "D": "D) las columnas de la derecha."
-      },
-      "correct_answer": "C"
-    },
     {
       "number": 34,
       "subject": "Química",
@@ -120,18 +84,6 @@
       }
     },
     {
-      "number": 43,
-      "subject": "Geografía",
-      "question": "Una de las principales causas de la separación de Ucrania de la URSS fue",
-      "options": {
-        "A": "A) la explosión de Chernóbil.",
-        "B": "B) el conflicto en Chechenia.",
-        "C": "C) la reestructuración económica de Gorbachov.",
-        "D": "D) el enfrentamiento en la Guerra Fría."
-      },
-      "correct_answer": "C"
-    },
-    {
       "number": 50,
       "subject": "Matemáticas",
       "question": "Selecciona la desigualdad que tiene por solución [1/3, ∞)",
@@ -142,26 +94,6 @@
         "D": "D) -3x + 1 ≤ 0"
       },
       "correct_answer": "C"
-    },
-    {
-      "number": 52,
-      "subject": "Matemáticas",
-      "question": "La función de la gráfica es",
-      "options": {
-        "A": "A) f(x) = -√(8x - 16)",
-        "B": "B) f(x) = +√(8x - 16)",
-        "C": "C) f(x) = -√(-8x + 16)",
-        "D": "D) f(x) = +√(-8x + 16)"
-      },
-      "correct_answer": "A",
-      "reference": {
-        "type": "text",
-        "path": "area-2-q52.webp",
-        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp52.webp",
-        "alt": "Figura asociada a la pregunta 52.",
-        "content": "El gráfico presenta un sistema de coordenadas cartesianas con el eje vertical etiquetado como \\( f(x) \\) y el eje horizontal como \\( x \\). El eje \\( f(x) \\) tiene marcas en 1, 2 y 3 hacia arriba desde el origen, mientras que el eje \\( x \\) tiene marcas en 0, 1, 2 y 3 hacia la derecha desde el origen.\n\nLa curva representada es una función que se aproxima a un valor en el eje \\( f(x) \\) a medida que \\( x \\) se acerca a 2 desde la izquierda, pero no toca el punto \\( (2, f(2)) \\). La curva desciende hacia el eje \\( x \\) y se aproxima a un valor negativo a medida que \\( x \\) se aleja de 2 hacia la derecha. No hay intersección con el eje \\( x \\) en el intervalo \\( (2, 3) \\). La curva es continua en el intervalo \\( (0, 2) \\) y presenta un comportamiento asintótico en \\( x = 2 \\).",
-        "derived_from": "area-2-q52.webp"
-      }
     },
     {
       "number": 58,
@@ -184,56 +116,6 @@
       }
     },
     {
-      "number": 74,
-      "subject": "Español",
-      "question": "En el texto 'Tiempo libre' de Guillermo Samperio, el clímax se da cuando",
-      "options": {
-        "A": "A) la esposa toma el periódico.",
-        "B": "B) el personaje corrió hacia la puerta.",
-        "C": "C) el personaje cayó estrepitosamente.",
-        "D": "D) el personaje llamó a las oficinas del periódico."
-      },
-      "correct_answer": "C",
-      "reference": {
-        "type": "text",
-        "content": "Tiempo libre\n\nTodas las mañanas compro el periódico y todas las mañanas, al leerlo, me mancho los dedos con tinta. Nunca me ha importado ensuciármelos con tal de estar al día en las noticias. Pero esta mañana sentí un gran malestar apenas toqué el periódico.\n\nCreí que solamente se trataba de uno de mis acostumbrados mareos. Pagué el importe del diario y regresé a mi casa. Mi esposa había salido de compras. Me acomodé en mi sillón favorito, encendí un cigarro y me puse a leer la primera página. Luego de enterarme de que el jet se había desplomado, volví a sentirme mal; vi mis dedos y las manos con toda la calma y, ya tranquilo, regresé al sillón. Cuando iba a tomar mi cigarro, descubrí que una mancha negra cubría mis dedos.\n\nDe inmediato retorné al baño, me tallé con zacate, piedra pómez y, finalmente, me lavé con blanqueador; pero el intento fue inútil, porque la mancha creció y me invadió hasta los codos. Ahora, más preocupado que molesto, llamé al doctor y me recomendó que lo mejor era que tomara unas vacaciones, o que durmiera. Después, llamé a las oficinas del periódico para elevar mi más rotunda protesta; me contestó una voz de mujer, que solamente me insultó y me trató de loco. En el momento en que hablaba por teléfono, me di cuenta de que, en realidad, no se trataba de una mancha, sino de un número infinito de letras pequeñísimas, apeñuscadas, como una inquieta multitud de hormigas negras. Cuando colgué, las letritas habían avanzado ya hasta mi cintura.\n\nAsustado, corrí hacia la puerta de entrada; pero, antes de poder abrirla. Me flaquearon las piernas y caí estrepitosamente. Tirado bocarriba descubrí que, además de la gran cantidad de letras hormiga que ahora ocupaban todo mi cuerpo, había una que otra fotografía. Así estuve durante varias horas hasta que escuché que abrían la puerta. Me costó trabajo hilar la idea, pero al fin pensé que había llegado a mi salvación. Entró mi esposa, me levantó del suelo, me cargó bajo el brazo, se acomodó en mi sillón favorito, me hojeó despreocupadamente y se puso a leer.\n\nGuillermo Samperio.",
-        "title": "Tiempo libre",
-        "author": "Guillermo Samperio",
-        "source": null
-      }
-    },
-    {
-      "number": 78,
-      "subject": "Español",
-      "question": "Con el texto, el autor intenta",
-      "options": {
-        "A": "A) denunciar los efectos nocivos del papel periódico.",
-        "B": "B) narrar la despersonalización de un individuo obsesionado con las noticias.",
-        "C": "C) describir los síntomas de la intoxicación por tinta.",
-        "D": "D) mostrar el malestar de un individuo al leer el periódico."
-      },
-      "correct_answer": "B",
-      "reference": {
-        "type": "text",
-        "content": "Tiempo libre\n\nTodas las mañanas compro el periódico y todas las mañanas, al leerlo, me mancho los dedos con tinta. Nunca me ha importado ensuciármelos con tal de estar al día en las noticias. Pero esta mañana sentí un gran malestar apenas toqué el periódico.\n\nCreí que solamente se trataba de uno de mis acostumbrados mareos. Pagué el importe del diario y regresé a mi casa. Mi esposa había salido de compras. Me acomodé en mi sillón favorito, encendí un cigarro y me puse a leer la primera página. Luego de enterarme de que el jet se había desplomado, volví a sentirme mal; vi mis dedos y las manos con toda la calma y, ya tranquilo, regresé al sillón. Cuando iba a tomar mi cigarro, descubrí que una mancha negra cubría mis dedos.\n\nDe inmediato retorné al baño, me tallé con zacate, piedra pómez y, finalmente, me lavé con blanqueador; pero el intento fue inútil, porque la mancha creció y me invadió hasta los codos. Ahora, más preocupado que molesto, llamé al doctor y me recomendó que lo mejor era que tomara unas vacaciones, o que durmiera. Después, llamé a las oficinas del periódico para elevar mi más rotunda protesta; me contestó una voz de mujer, que solamente me insultó y me trató de loco. En el momento en que hablaba por teléfono, me di cuenta de que, en realidad, no se trataba de una mancha, sino de un número infinito de letras pequeñísimas, apeñuscadas, como una inquieta multitud de hormigas negras. Cuando colgué, las letritas habían avanzado ya hasta mi cintura.\n\nAsustado, corrí hacia la puerta de entrada; pero, antes de poder abrirla. Me flaquearon las piernas y caí estrepitosamente. Tirado bocarriba descubrí que, además de la gran cantidad de letras hormiga que ahora ocupaban todo mi cuerpo, había una que otra fotografía. Así estuve durante varias horas hasta que escuché que abrían la puerta. Me costó trabajo hilar la idea, pero al fin pensé que había llegado a mi salvación. Entró mi esposa, me levantó del suelo, me cargó bajo el brazo, se acomodó en mi sillón favorito, me hojeó despreocupadamente y se puso a leer.\n\nGuillermo Samperio.",
-        "title": "Tiempo libre",
-        "author": "Guillermo Samperio",
-        "source": null
-      }
-    },
-    {
-      "number": 84,
-      "subject": "Español",
-      "question": "Relación de analogía: discurso barroco → aburrimiento / bostezo.",
-      "options": {
-        "A": "A) Ira – agresión.",
-        "B": "B) Diversión – sonrisa.",
-        "C": "C) Distracción – error.",
-        "D": "D) Impaciencia – fastidio."
-      },
-      "correct_answer": "B"
-    },
-    {
       "number": 85,
       "subject": "Español",
       "question": "Selecciona la opción con palabras homófonas.",
@@ -246,66 +128,6 @@
       "correct_answer": "D"
     },
     {
-      "number": 86,
-      "subject": "Español",
-      "question": "Completa: Recuerda que los ____ plásticos no son ____ fácilmente por las máquinas trituradoras.",
-      "options": {
-        "A": "A) deshechos – deshechos",
-        "B": "B) desechos – desechos",
-        "C": "C) desechos – deshechos",
-        "D": "D) deshechos – desechos"
-      },
-      "correct_answer": "C"
-    },
-    {
-      "number": 87,
-      "subject": "Español",
-      "question": "Selecciona la opción que usa correctamente las letras mayúsculas.",
-      "options": {
-        "A": "A) Ante los Príncipes... la Muestra... la Arquitecta... la Galería.",
-        "B": "B) Ante los príncipes... la muestra... la Arquitecta... la galería.",
-        "C": "C) Ante los príncipes... la muestra... la arquitecta... la Galería.",
-        "D": "D) Ante los Príncipes... la muestra... El Trabajo... la galería."
-      },
-      "correct_answer": "C"
-    },
-    {
-      "number": 107,
-      "subject": "Historia Universal",
-      "question": "Ordena cronológicamente: I. Hitler invade Polonia. II. Desembarco en Normandía. III. Bombas atómicas. IV. Alemanes toman París. V. Ataque a Pearl Harbor.",
-      "options": {
-        "A": "A) I, IV, V, II y III",
-        "B": "B) II, V, I, III y IV",
-        "C": "C) III, I, IV, V y II",
-        "D": "D) IV, III, I, II y V"
-      },
-      "correct_answer": "A"
-    },
-    {
-      "number": 108,
-      "subject": "Historia Universal",
-      "question": "Periodo de enfrentamientos indirectos entre URSS y EUA se conoce como",
-      "options": {
-        "A": "A) Luchas de liberación Nacional.",
-        "B": "B) Guerra Fría.",
-        "C": "C) Era Neoliberal.",
-        "D": "D) Neoimperialismo Nacionalista."
-      },
-      "correct_answer": "B"
-    },
-    {
-      "number": 112,
-      "subject": "Historia de México",
-      "question": "¿En qué momento se promulgó la Constitución de Apatzingán?",
-      "options": {
-        "A": "A) La organización.",
-        "B": "B) El inicio.",
-        "C": "C) La consumación.",
-        "D": "D) La guerrilla insurgente."
-      },
-      "correct_answer": "A"
-    },
-    {
       "number": 113,
       "subject": "Historia de México",
       "question": "El gobierno de Anastasio Bustamante para mejorar la economía",
@@ -316,18 +138,6 @@
         "D": "D) estimuló la agricultura."
       },
       "correct_answer": "A"
-    },
-    {
-      "number": 120,
-      "subject": "Historia de México",
-      "question": "La implementación de políticas neoliberales en México inició con el gobierno de",
-      "options": {
-        "A": "A) Luis Echeverría.",
-        "B": "B) José López Portillo.",
-        "C": "C) Miguel de la Madrid.",
-        "D": "D) Ernesto Zedillo."
-      },
-      "correct_answer": "C"
     }
   ]
 }

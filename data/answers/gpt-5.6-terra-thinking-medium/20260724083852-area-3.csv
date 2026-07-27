@@ -4,8 +4,8 @@ number,answer
 3,B
 4,A
 5,A
-6,B
-7,A
+6,C
+7,D
 8,D
 9,B
 10,C
@@ -49,9 +49,9 @@ number,answer
 48,C
 49,D
 50,B
-51,B
+51,D
 52,D
-53,A
+53,D
 54,A
 55,D
 56,C
@@ -69,7 +69,7 @@ number,answer
 68,C
 69,A
 70,C
-71,D
+71,A
 72,D
 73,C
 74,C
