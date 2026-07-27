@@ -607,6 +607,32 @@ a {
   white-space: pre-wrap;
 }
 
+.failed-question-context {
+  margin: 0 0 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--card);
+}
+
+.failed-question-context summary {
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+  user-select: none;
+}
+
+.failed-question-context-text {
+  margin: 0;
+  padding: 8px 10px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text);
+  border-top: 1px solid var(--border);
+  white-space: pre-wrap;
+}
+
 .failed-question-options {
   display: flex;
   flex-direction: column;

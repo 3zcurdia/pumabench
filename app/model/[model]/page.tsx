@@ -25,6 +25,12 @@ function FailedQuestionCard({ fq }: { fq: FailedQuestion }) {
         </span>
       </div>
       <p className="failed-question-text">{fq.question}</p>
+      {fq.reference?.content && (
+        <details className="failed-question-context">
+          <summary>Contexto</summary>
+          <p className="failed-question-context-text">{fq.reference.content}</p>
+        </details>
+      )}
       <div className="failed-question-options">
         {optionKeys.map((key) => {
           const isCorrect = key === fq.correctAnswer;

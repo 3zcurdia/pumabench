@@ -10,6 +10,7 @@ interface FailedQuestion {
   question: string;
   options: Record<string, OptionValue>;
   correct_answer: string;
+  reference?: { type: string; content: string };
   area: number;
   area_name: string;
   models: string[];
@@ -77,6 +78,12 @@ function FailedQuestionCard({
       </div>
       <FailureBar count={fq.models.length} />
       <p className="failed-question-text">{fq.question}</p>
+      {fq.reference?.content && (
+        <details className="failed-question-context">
+          <summary>Contexto</summary>
+          <p className="failed-question-context-text">{fq.reference.content}</p>
+        </details>
+      )}
       <div className="failed-question-options">
         {optionKeys.map((key) => {
           const isCorrect = key === fq.correct_answer;
