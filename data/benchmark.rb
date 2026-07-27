@@ -468,6 +468,25 @@ def detect_moe_type(hf_data, or_entry, id)
   "dense"
 end
 
+def fetch_openrouter_endpoints(id, or_entry: nil)
+  or_entry ||= (fetch_openrouter_index.first || {})[id]
+  if or_entry
+    details_path = or_entry.dig("links", "details")
+    if details_path
+      data = http_get_json("https://openrouter.ai#{details_path}")
+      endpoints = data.dig("data", "endpoints") if data.is_a?(Hash)
+      if endpoints.is_a?(Array) && !endpoints.empty?
+        ep = endpoints.first
+        return {
+          "latency_last_30m" => ep["latency_last_30m"],
+          "throughput_last_30m" => ep["throughput_last_30m"]
+        }
+      end
+    end
+  end
+  {}
+end
+
 def build_model_record(id, or_entry)
   org      = id.split("/", 2).first
   name     = id.split("/", 2).last
@@ -480,13 +499,17 @@ def build_model_record(id, or_entry)
   parameters = parameters_from_description(or_entry["description"]) if or_entry
   parameters = parameters_from_tensor_info(hf_data) if parameters.nil? && hf_data
 
+  speed = fetch_openrouter_endpoints(id, or_entry: or_entry)
+
   {
     "id"         => id,
     "name"       => (or_entry && or_entry["name"]) || name,
     "provider"   => org,
     "type"       => detect_moe_type(hf_data, or_entry, id),
     "parameters" => parameters,
-    "pricing"    => or_entry && or_entry["pricing"]
+    "pricing"    => or_entry && or_entry["pricing"],
+    "latency_last_30m" => speed["latency_last_30m"],
+    "throughput_last_30m" => speed["throughput_last_30m"]
   }
 end
 
@@ -509,10 +532,27 @@ def find_model_record_by_slug(records, slug)
     records.find { |r| r["name"] == slug }
 end
 
+def register_models()
+	registry = load_model_registry
+	registry.each do |r|
+		register_model(r["id"])
+	end
+end
+
 def register_model(id)
   registry = load_model_registry
   existing = registry.find { |r| r["id"] == id }
-  return existing if existing
+
+  if existing
+    speed = fetch_openrouter_endpoints(id)
+    unless speed.empty?
+      existing["latency_last_30m"] = speed["latency_last_30m"]
+      existing["throughput_last_30m"] = speed["throughput_last_30m"]
+      save_model_registry(registry)
+      puts "Updated speed for #{id} in #{MODELS_JSON}"
+    end
+    return existing
+  end
 
   or_by_id, or_by_name = fetch_openrouter_index
   or_entry = or_by_id[id] || or_by_name[id.split("/", 2).last]
@@ -759,6 +799,7 @@ if cli_options[:retry_failed]
 end
 
 if cli_options[:evaluate_only]
+  register_models()
   run_evaluate()
 elsif ARGV[0]
   model    = ARGV[0]
