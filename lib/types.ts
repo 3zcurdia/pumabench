@@ -27,3 +27,17 @@ export interface ModelSummary {
   areas: AggregatedArea[];
   subjects: Record<string, SubjectScore>;
 }
+
+export type OptionValue = string | { label: string; image_description?: string };
+
+export interface FailedQuestion {
+  number: number;
+  subject: string;
+  question: string;
+  options: Record<string, OptionValue>;
+  correctAnswer: string;
+  modelAnswer: string;
+  area: number;
+  areaName: string;
+  reference?: { type: string; content: string };
+}

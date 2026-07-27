@@ -109,6 +109,17 @@ main.container {
   text-decoration: none;
 }
 
+.btn-outline {
+  background: var(--card);
+  color: var(--accent);
+  border: 1px solid var(--border);
+}
+
+.btn-outline:hover {
+  background: var(--bg);
+  border-color: #bfdbfe;
+}
+
 /* Compare selector */
 .selector-grid {
   display: grid;
@@ -514,5 +525,247 @@ a {
 
   .card {
     padding: 14px;
+  }
+}
+
+/* Failed questions section */
+.failed-questions-section .card-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.failed-count-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: #fef2f2;
+  color: #dc2626;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.failed-area-group {
+  margin-top: 18px;
+}
+
+.failed-area-group:first-of-type {
+  margin-top: 0;
+}
+
+.failed-area-title {
+  margin: 0 0 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.failed-question-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  background: var(--bg);
+}
+
+.failed-question-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.failed-question-number {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.failed-question-subject {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.failed-question-area {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.failed-question-text {
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+.failed-question-options {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.failed-option {
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  line-height: 1.5;
+  background: var(--card);
+  border: 1px solid var(--border);
+}
+
+.option-label {
+  font-weight: 700;
+}
+
+.option-correct {
+  border-color: #86efac;
+  background: #f0fdf4;
+}
+
+.option-wrong {
+  border-color: #fecaca;
+  background: #fef2f2;
+}
+
+.option-tag {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.tag-correct {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.tag-wrong {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+@media (max-width: 640px) {
+  .failed-question-card {
+    padding: 10px 12px;
+  }
+}
+
+/* Failed questions global page */
+.failed-global-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.failed-global-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.failed-global-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.failed-global-rank {
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--muted);
+  min-width: 36px;
+}
+
+.failed-global-count {
+  margin-left: auto;
+  font-size: 13px;
+  font-weight: 600;
+  color: #dc2626;
+}
+
+.failure-bar-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  height: 20px;
+}
+
+.failure-bar {
+  height: 8px;
+  border-radius: 4px;
+  background: #fecaca;
+  min-width: 4px;
+}
+
+.failure-bar-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.failed-models-details {
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+.failed-models-details summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.failed-models-details summary:hover {
+  color: var(--text);
+}
+
+.failed-models-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.failed-model-link {
+  display: inline-block;
+  padding: 3px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 12px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: var(--accent);
+  text-decoration: none;
+  background: var(--bg);
+}
+
+.failed-model-link:hover {
+  background: #eff6ff;
+  border-color: #bfdbfe;
+}
+
+@media (max-width: 640px) {
+  .failed-global-card {
+    padding: 14px;
+  }
+
+  .failed-global-rank {
+    font-size: 14px;
+    min-width: 28px;
   }
 }

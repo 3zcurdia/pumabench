@@ -5,7 +5,48 @@ import AreasRadarChart from "@/components/AreasRadarChart";
 import EffortBadge from "@/components/EffortBadge";
 import SubjectsChart from "@/components/SubjectsChart";
 import SubjectsRadarChart from "@/components/SubjectsRadarChart";
-import { getAllModels, getModel } from "@/lib/data";
+import { getAllModels, getFailedQuestions, getModel } from "@/lib/data";
+import type { FailedQuestion, OptionValue } from "@/lib/types";
+
+function renderOptionValue(val: OptionValue): string {
+  if (typeof val === "string") return val;
+  return val.image_description ?? `[Imagen: ${val.label}]`;
+}
+
+function FailedQuestionCard({ fq }: { fq: FailedQuestion }) {
+  const optionKeys = Object.keys(fq.options);
+  return (
+    <div className="failed-question-card">
+      <div className="failed-question-header">
+        <span className="failed-question-number">#{fq.number}</span>
+        <span className="failed-question-subject">{fq.subject}</span>
+        <span className="failed-question-area">
+          Área {fq.area}
+        </span>
+      </div>
+      <p className="failed-question-text">{fq.question}</p>
+      <div className="failed-question-options">
+        {optionKeys.map((key) => {
+          const isCorrect = key === fq.correctAnswer;
+          const isModelAnswer = key === fq.modelAnswer;
+          let cls = "failed-option";
+          if (isCorrect) cls += " option-correct";
+          if (isModelAnswer && !isCorrect) cls += " option-wrong";
+          return (
+            <div key={key} className={cls}>
+              <span className="option-label">{key})</span>{" "}
+              {renderOptionValue(fq.options[key])}
+              {isCorrect && <span className="option-tag tag-correct">Correcta</span>}
+              {isModelAnswer && !isCorrect && (
+                <span className="option-tag tag-wrong">Respondida</span>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
 
 export function generateStaticParams() {
   return getAllModels().map((m) => ({ model: m.model }));
@@ -54,6 +95,14 @@ export default async function ModelPage({
       questions: s.questions,
     }))
     .sort((a, b) => b.percentage - a.percentage);
+
+  const failedQuestions = getFailedQuestions(model, summary.effort);
+  const failedByArea = new Map<number, FailedQuestion[]>();
+  for (const fq of failedQuestions) {
+    const list = failedByArea.get(fq.area) ?? [];
+    list.push(fq);
+    failedByArea.set(fq.area, list);
+  }
 
   return (
     <>
@@ -139,6 +188,27 @@ export default async function ModelPage({
           <SubjectsRadarChart data={subjectRows} />
         </section>
       </div>
+
+      {failedQuestions.length > 0 && (
+        <section className="card failed-questions-section">
+          <h2 className="card-title">
+            Preguntas falladas
+            <span className="failed-count-badge">{failedQuestions.length}</span>
+          </h2>
+          {Array.from(failedByArea.entries())
+            .sort(([a], [b]) => a - b)
+            .map(([area, questions]) => (
+              <div key={area} className="failed-area-group">
+                <h3 className="failed-area-title">
+                  Área {area} — {questions[0].areaName}
+                </h3>
+                {questions.map((fq) => (
+                  <FailedQuestionCard key={`${area}-${fq.number}`} fq={fq} />
+                ))}
+              </div>
+            ))}
+        </section>
+      )}
     </>
   );
 }

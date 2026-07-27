@@ -1,6 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { AggregatedArea, ModelSummary, SubjectScore } from "./types";
+import type {
+  AggregatedArea,
+  FailedQuestion,
+  ModelSummary,
+  SubjectScore,
+} from "./types";
 
 const QUESTIONS_PER_AREA = 120;
 
@@ -134,4 +139,139 @@ export function getModelParams(): Record<string, number> {
     result[entry.name] = entry.parameters;
   }
   return result;
+}
+
+const RESULTS_DIR = path.join(process.cwd(), "data", "results");
+const ANSWERS_DIR = path.join(process.cwd(), "data", "answers");
+
+interface RawFailedQuestion {
+  number: number;
+  subject: string;
+  question: string;
+  options: Record<string, unknown>;
+  correct_answer: string;
+  reference?: { type: string; content: string };
+}
+
+interface RawAreaResult {
+  area: number;
+  area_name: string;
+  failed_questions: RawFailedQuestion[];
+}
+
+function findResultDir(modelName: string, effort: string): string | null {
+  const candidates = [
+    path.join(RESULTS_DIR, `${modelName}-thinking-${effort}`),
+    path.join(RESULTS_DIR, `${modelName}-${effort}`),
+    path.join(RESULTS_DIR, modelName),
+  ];
+
+  for (const c of candidates) {
+    if (fs.existsSync(c)) return c;
+  }
+
+  // Fallback: any directory starting with model name
+  if (fs.existsSync(RESULTS_DIR)) {
+    for (const dir of fs.readdirSync(RESULTS_DIR)) {
+      if (dir.startsWith(modelName + "-") || dir === modelName) {
+        return path.join(RESULTS_DIR, dir);
+      }
+    }
+  }
+  return null;
+}
+
+function findAnswersDir(modelName: string, effort: string): string | null {
+  const candidates = [
+    path.join(ANSWERS_DIR, `${modelName}-thinking-${effort}`),
+    path.join(ANSWERS_DIR, `${modelName}-${effort}`),
+    path.join(ANSWERS_DIR, modelName),
+  ];
+
+  for (const c of candidates) {
+    if (fs.existsSync(c)) return c;
+  }
+
+  if (fs.existsSync(ANSWERS_DIR)) {
+    for (const dir of fs.readdirSync(ANSWERS_DIR)) {
+      if (dir.startsWith(modelName + "-") || dir === modelName) {
+        return path.join(ANSWERS_DIR, dir);
+      }
+    }
+  }
+  return null;
+}
+
+function readAnswerCsv(
+  modelName: string,
+  effort: string,
+  timestamp: string,
+  area: number,
+): Map<number, string> {
+  const answersDir = findAnswersDir(modelName, effort);
+  if (!answersDir) return new Map();
+
+  const csvPath = path.join(answersDir, `${timestamp}-area-${area}.csv`);
+  if (!fs.existsSync(csvPath)) return new Map();
+
+  const raw = fs.readFileSync(csvPath, "utf8");
+  const lines = raw.trim().split("\n").slice(1);
+  const map = new Map<number, string>();
+  for (const line of lines) {
+    const [num, ans] = line.split(",");
+    map.set(Number(num), ans.trim());
+  }
+  return map;
+}
+
+function getLatestTimestamp(modelDir: string): string | null {
+  if (!fs.existsSync(modelDir)) return null;
+
+  const files = fs.readdirSync(modelDir).filter((f) => f.endsWith(".json"));
+  if (files.length === 0) return null;
+
+  const timestamps = new Set<string>();
+  for (const f of files) {
+    timestamps.add(f.split("-area-")[0]);
+  }
+  return Array.from(timestamps).sort().pop() ?? null;
+}
+
+export function getFailedQuestions(
+  modelName: string,
+  effort: string,
+): FailedQuestion[] {
+  const resultDir = findResultDir(modelName, effort);
+  if (!resultDir) return [];
+
+  const timestamp = getLatestTimestamp(resultDir);
+  if (!timestamp) return [];
+
+  const results: FailedQuestion[] = [];
+
+  for (let area = 1; area <= 4; area++) {
+    const jsonPath = path.join(resultDir, `${timestamp}-area-${area}.json`);
+    if (!fs.existsSync(jsonPath)) continue;
+
+    const data: RawAreaResult = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
+    if (!data.failed_questions?.length) continue;
+
+    const answers = readAnswerCsv(modelName, effort, timestamp, area);
+
+    for (const fq of data.failed_questions) {
+      results.push({
+        number: fq.number,
+        subject: fq.subject,
+        question: fq.question,
+        options: fq.options as Record<string, string>,
+        correctAnswer: fq.correct_answer,
+        modelAnswer: answers.get(fq.number) ?? "?",
+        area: data.area,
+        areaName: data.area_name,
+        reference: fq.reference,
+      });
+    }
+  }
+
+  return results;
 }

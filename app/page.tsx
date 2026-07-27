@@ -73,6 +73,9 @@ export default function HomePage() {
         <p>
           <Link href="/compare" className="btn">
             Compare models →
+          </Link>{" "}
+          <Link href="/failed" className="btn btn-outline">
+            Most failed questions →
           </Link>
         </p>
       </div>

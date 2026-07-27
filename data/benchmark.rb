@@ -692,6 +692,26 @@ def write_results_csv_single(model, agg)
   end
 end
 
+def aggregate_failed_questions
+  seen = {}
+  Dir.glob(File.join(RESULTS_DIR, "*", "*-area-*.json")).each do |path|
+    data = JSON.parse(File.read(path))
+    (data["failed_questions"] || []).each do |q|
+      key = "#{data["area"]}-#{q["number"]}"
+      seen[key] ||= q.merge("area" => data["area"], "area_name" => data["area_name"], "models" => [])
+      seen[key]["models"] << data["model"] unless seen[key]["models"].include?(data["model"])
+    end
+  end
+  seen.values
+end
+
+def write_failed_questions_json(path: "failed_questions.json")
+  failed = aggregate_failed_questions
+  FileUtils.mkdir_p(File.dirname(path)) if File.dirname(path) != "."
+  File.write(path, "#{JSON.pretty_generate(failed)}\n")
+  puts "Wrote #{path} (#{failed.size} unique failed questions)"
+end
+
 def run_evaluate(model_filter: nil, resume_ts: nil, model_id: nil)
   if model_filter
     aggregates = build_aggregates(model_filter: model_filter, timestamp_override: resume_ts, model_id: model_id)
@@ -705,6 +725,7 @@ def run_evaluate(model_filter: nil, resume_ts: nil, model_id: nil)
     write_results_csv_full(build_aggregates())
     puts "Wrote #{RESULTS_CSV}"
   end
+  write_failed_questions_json
 end
 
 # Default api base set to local ollama instance
