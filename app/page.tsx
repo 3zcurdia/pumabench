@@ -3,13 +3,15 @@ import AreaRankingsChart from "@/components/AreaRankingsChart";
 import EffortBadge from "@/components/EffortBadge";
 import OverviewChart from "@/components/OverviewChart";
 import ScoreVsParamsChart from "@/components/ScoreVsParamsChart";
+import ScoreVsPricingChart from "@/components/ScoreVsPricingChart";
 import SubjectRankingsChart from "@/components/SubjectRankingsChart";
 import TabPanel from "@/components/TabPanel";
-import { getAllModels, getModelParams } from "@/lib/data";
+import { getAllModels, getModelParams, getModelPricing } from "@/lib/data";
 
 export default function HomePage() {
   const models = getAllModels();
   const params = getModelParams();
+  const pricing = getModelPricing();
 
   const scatterData = models
     .filter((m) => params[m.model] != null)
@@ -17,6 +19,15 @@ export default function HomePage() {
       model: m.model,
       effort: m.effort,
       parameters: params[m.model],
+      percentage: m.overallPercentage,
+    }));
+
+  const pricingScatterData = models
+    .filter((m) => pricing[m.model] != null)
+    .map((m) => ({
+      model: m.model,
+      effort: m.effort,
+      pricePer1M: pricing[m.model],
       percentage: m.overallPercentage,
     }));
 
@@ -65,11 +76,8 @@ export default function HomePage() {
           ¿Qué pasaría si un LLM hiciera el examen de admisión de la UNAM?
         </p>
         <p className="muted hero-desc">
-          El examen de admisión cubre cuatro áreas de conocimiento, cada una con
-          diferentes pesos por materia. Las calificaciones a continuación son el
-          <strong>promedio entre áreas</strong> — no un total de puntos. Los
-          modelos con múltiples ejecuciones muestran el promedio entre
-          ejecuciones.
+					El examen de admisión cubre cuatro áreas de conocimiento, cada una con diferentes pesos por materia.
+					Los scores a continuación son el <strong>promedio entre áreas</strong>.
         </p>
         <p>
           <Link href="/compare" className="btn">
@@ -86,11 +94,15 @@ export default function HomePage() {
       </div>
 
       <section className="card">
+        <OverviewChart data={chartData} title="Score promedio por modelo" />
+      </section>
+
+      <section className="card">
         <ScoreVsParamsChart data={scatterData} />
       </section>
 
       <section className="card">
-        <OverviewChart data={chartData} title="Score promedio por modelo" />
+        <ScoreVsPricingChart data={pricingScatterData} />
       </section>
 
       <section className="card">

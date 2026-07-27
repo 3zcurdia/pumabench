@@ -141,6 +141,21 @@ export function getModelParams(): Record<string, number> {
   return result;
 }
 
+export function getModelPricing(): Record<string, number> {
+  const raw = JSON.parse(fs.readFileSync(MODELS_JSON_PATH, "utf8"));
+  const result: Record<string, number> = {};
+  for (const entry of raw) {
+    if (entry.pricing == null || entry.pricing.prompt == null) continue;
+    const promptPrice = parseFloat(entry.pricing.prompt);
+    if (promptPrice <= 0) continue;
+    const suffix = entry.id.includes("/") ? entry.id.split("/")[1] : entry.id;
+    const pricePer1M = promptPrice * 1_000_000;
+    result[suffix] = pricePer1M;
+    result[entry.name] = pricePer1M;
+  }
+  return result;
+}
+
 const RESULTS_DIR = path.join(process.cwd(), "data", "results");
 const ANSWERS_DIR = path.join(process.cwd(), "data", "answers");
 
