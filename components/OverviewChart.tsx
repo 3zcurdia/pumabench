@@ -49,7 +49,7 @@ function ChartTooltip({ active, payload }: any) {
         <EffortBadge effort={row.effort} />
       </div>
       <div>
-        Average score: <strong>{row.percentage.toFixed(1)}%</strong>
+        Average score: <strong>{Math.floor(row.percentage)}%</strong>
       </div>
       <div>
         Points: {row.correct}
@@ -93,7 +93,7 @@ export default function OverviewChart({
             domain={isPoints ? [0, maxQuestions] : [0, 100]}
             tickFormatter={
               isPoints
-                ? (v: number) => `${Math.round(v)}`
+                ? (v: number) => `${Math.floor(v)}`
                 : (v: number) => `${v}%`
             }
             allowDecimals={!isPoints}
@@ -115,8 +115,8 @@ export default function OverviewChart({
               position="top"
               formatter={(v: number, entry: any) =>
                 isPoints
-                  ? `${v}`
-                  : `${v.toFixed(1)}%`
+                  ? `${Math.floor(v)}`
+                  : `${Math.floor(v)}%`
               }
               fontSize={12}
               fill="#0f172a"
