@@ -1,0 +1,351 @@
+{
+  "id": "qwen/qwen3.5-9b",
+  "model": "qwen3.5-9b-thinking-none",
+  "effort": "none",
+  "timestamp": "20260727084622",
+  "area": 1,
+  "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+  "total": {
+    "questions": 120,
+    "correct": 100,
+    "percentage": 83.33
+  },
+  "subjects": {
+    "Biología": {
+      "questions": 10,
+      "correct": 8,
+      "percentage": 80.0
+    },
+    "Español": {
+      "questions": 18,
+      "correct": 15,
+      "percentage": 83.33
+    },
+    "Filosofía": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Física": {
+      "questions": 16,
+      "correct": 14,
+      "percentage": 87.5
+    },
+    "Geografía": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Historia Universal": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Historia de México": {
+      "questions": 10,
+      "correct": 8,
+      "percentage": 80.0
+    },
+    "Literatura": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Matemáticas": {
+      "questions": 26,
+      "correct": 18,
+      "percentage": 69.23
+    },
+    "Química": {
+      "questions": 10,
+      "correct": 7,
+      "percentage": 70.0
+    }
+  },
+  "failed_questions": [
+    {
+      "number": 2,
+      "subject": "Física",
+      "question": "2. Con base en el siguiente sistema de vectores, indica la magnitud del vector resultante en N.",
+      "options": {
+        "A": "A) \\(\\sqrt{75.8}\\)",
+        "B": "B) \\(\\sqrt{23.8}\\)",
+        "C": "C) \\(\\sqrt{650}\\)",
+        "D": "D) \\(\\sqrt{101.1}\\)"
+      },
+      "correct_answer": "D",
+      "reference": {
+        "type": "text",
+        "path": "area-1-q2.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp2.webp",
+        "alt": "Figura asociada a la pregunta 2.",
+        "content": "En la figura se observa un sistema de coordenadas cartesianas con los ejes x e y. El eje y está orientado hacia arriba y el eje x hacia la derecha. Se presentan tres vectores de fuerza representados por flechas:\n\n1. Un vector de 10 N que se extiende verticalmente hacia arriba, alineado con el eje y.\n2. Un vector de 8 N que forma un ángulo de 30° con el eje x, apuntando hacia la derecha y hacia arriba.\n3. Un vector de 9 N que forma un ángulo de 75° con el eje x, también apuntando hacia la derecha y hacia arriba.\n\nAdemás, se incluye una tabla en la parte superior de la figura que muestra los valores del seno y coseno para los ángulos de 30°, 45° y 75°. La tabla tiene tres columnas: \"Ángulo\", \"Seno\" y \"Coseno\". Los valores son los siguientes:\n\n- Para 30°: Seno = 0.5, Coseno = 0.8\n- Para 45°: Seno = 0.7, Coseno = 0.7\n- Para 75°: Seno = 0.9, Coseno = 0.3\n\nLos vectores están etiquetados con sus respectivas magnitudes en Newtons (N) y los ángulos están indicados en grados.",
+        "derived_from": "area-1-q2.webp"
+      }
+    },
+    {
+      "number": 3,
+      "subject": "Física",
+      "question": "3. La siguiente figura ilustra el momento preciso en el que un bate golpea una pelota. ¿Cuál de las imágenes muestra los vectores que representan la Tercera Ley de Newton? Considera: \\(F_{\\frac{P}{B}}\\) = Fuerza de la pelota sobre el bate. \\(F_{\\frac{B}{P}}\\) = Fuerza del bate sobre la pelota.",
+      "options": {
+        "A": {
+          "label": "A",
+          "image": "area-1-q3-opt-A.webp",
+          "alt": "Opción A para la pregunta 3.",
+          "image_description": "En la opción A se presenta un diagrama que ilustra dos fuerzas representadas por las letras F. La primera fuerza, etiquetada como \\( F_{B/P} \\), está situada en la parte superior izquierda del diagrama, junto a un círculo. Esta fuerza parece estar orientada horizontalmente hacia la izquierda. La segunda fuerza, etiquetada como \\( F_{P/B} \\), se encuentra en la parte derecha del diagrama, en un contorno que se asemeja a un cuerpo alargado o una figura en forma de gota, y está orientada hacia la derecha. Ambas fuerzas están conectadas por una línea horizontal que indica una relación entre ellas. El diagrama no incluye más detalles, como valores numéricos o unidades, y se centra en la representación de estas dos fuerzas y su interacción."
+        },
+        "B": {
+          "label": "B",
+          "image": "area-1-q3-opt-B.webp",
+          "alt": "Opción B para la pregunta 3.",
+          "image_description": "En la opción B se presenta un diagrama que ilustra dos fuerzas. A la izquierda, hay un círculo que representa un objeto, del cual se extiende una línea horizontal hacia la derecha. Sobre esta línea se encuentra la etiqueta \"FB/P\", que indica una fuerza, probablemente relacionada con la fuerza de flotación o una fuerza de presión. \n\nA la derecha del círculo, se muestra una forma alargada que se asemeja a un cuerpo en movimiento, con una etiqueta \"FP/B\" que también representa una fuerza. Esta fuerza parece estar orientada hacia abajo, sugiriendo que podría estar relacionada con la gravedad o una fuerza de presión en un fluido. \n\nAmbas fuerzas están conectadas por una línea que sugiere una relación entre ellas, posiblemente en el contexto de un problema de física que involucra fluidos o dinámica de cuerpos. La disposición de las fuerzas y sus etiquetas sugiere que se está analizando un equilibrio o una interacción entre fuerzas en un sistema."
+        },
+        "C": {
+          "label": "C",
+          "image": "area-1-q3-opt-C.webp",
+          "alt": "Opción C para la pregunta 3.",
+          "image_description": "En la opción C se presenta un diagrama que ilustra dos fuerzas, etiquetadas como \\( F_B \\) y \\( F_P \\), que actúan sobre un objeto. La fuerza \\( F_B \\) está representada en la parte superior del diagrama, con una flecha que indica su dirección horizontal hacia la izquierda, y está acompañada por una etiqueta que indica que es una fuerza de presión. La fuerza \\( F_P \\) se encuentra en la parte inferior del diagrama, con una flecha que apunta hacia abajo, y está etiquetada como una fuerza de presión también. \n\nEl diagrama incluye un contorno ovalado en la parte superior, que podría representar un objeto en un fluido, y una forma alargada en la parte inferior que sugiere un cuerpo en movimiento o en interacción con el fluido. Las fuerzas están claramente delineadas y etiquetadas, lo que sugiere que se está analizando un fenómeno relacionado con la dinámica de fluidos o la presión en un medio."
+        },
+        "D": {
+          "label": "D",
+          "image": "area-1-q3-opt-D.webp",
+          "alt": "Opción D para la pregunta 3.",
+          "image_description": "En la opción D se presenta un diagrama que ilustra un sistema de fuerzas. A la izquierda, hay un círculo que representa un objeto, posiblemente un cuerpo en movimiento o en equilibrio. Desde este círculo, se extiende una línea horizontal hacia la derecha, que indica la dirección de una fuerza. Esta fuerza está etiquetada como \\( F_{B/P} \\), lo que sugiere que es la fuerza ejercida por el cuerpo B sobre el cuerpo P.\n\nA la derecha del círculo, se encuentra una forma alargada que se asemeja a un cono invertido, con una base más ancha en la parte inferior y un vértice en la parte superior. Esta figura también tiene una fuerza representada, etiquetada como \\( F_{P/B} \\), que indica la fuerza ejercida por el cuerpo P sobre el cuerpo B. Ambas fuerzas están orientadas horizontalmente, lo que sugiere que están en equilibrio o en interacción directa.\n\nEl diagrama no incluye valores numéricos ni ecuaciones, pero la disposición de las fuerzas y sus etiquetas son clave para entender la relación entre los cuerpos representados."
+        }
+      },
+      "correct_answer": "A",
+      "reference": {
+        "type": "text",
+        "path": "area-1-q3.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp3.webp",
+        "alt": "Figura asociada a la pregunta 3.",
+        "content": "La figura presenta un diseño que consiste en un círculo en la parte superior izquierda, que representa un objeto esférico. Este círculo está conectado a una forma alargada que se asemeja a un cono invertido o un embudo, que se extiende hacia abajo y hacia la derecha. La parte superior de esta forma alargada es más ancha y se estrecha a medida que desciende, terminando en una base que es un óvalo horizontal en la parte inferior. La figura está delineada con un trazo negro y no contiene relleno ni detalles adicionales. La conexión entre el círculo y la forma alargada es continua, sugiriendo que ambos elementos están relacionados de alguna manera.",
+        "derived_from": "area-1-q3.webp"
+      }
+    },
+    {
+      "number": 31,
+      "subject": "Química",
+      "question": "31. ¿Qué cantidad de HCl concentrado se necesita para preparar 250 mL de una disolución 1.4 M? Considera: HCl al 37% de pureza \\(d = 1.14 \\, \\frac{g}{mL}\\)",
+      "options": {
+        "A": "A) 34 mL",
+        "B": "B) 30 mL",
+        "C": "C) 14 mL",
+        "D": "D) 12 mL"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 34,
+      "subject": "Química",
+      "question": "34. A partir de la siguiente ecuación química, se puede inferir que x es un \\(C(s) + O_2(g) \\rightarrow \\mathbf{x}\\)",
+      "options": {
+        "A": "A) óxido básico.",
+        "B": "B) oxisal.",
+        "C": "C) hidróxido.",
+        "D": "D) óxido ácido."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 35,
+      "subject": "Química",
+      "question": "35. Biomoléculas que sirven de reserva energética en los organismos.",
+      "options": {
+        "A": "A) Aminoácidos.",
+        "B": "B) Lípidos.",
+        "C": "C) Vitaminas.",
+        "D": "D) Carbohidratos."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 48,
+      "subject": "Matemáticas",
+      "question": "48. Al simplificar la expresión algebraica -3x - [-2(4x - 3) - (9 - x)] se obtiene",
+      "options": {
+        "A": "A) 6x + 3",
+        "B": "B) 4x + 3",
+        "C": "C) 10x + 3",
+        "D": "D) 6x + 12"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 51,
+      "subject": "Matemáticas",
+      "question": "51. La solución de la ecuación \\(\\frac{x}{3} - \\frac{x - 5}{4} = 2\\) es",
+      "options": {
+        "A": "A) x = 8",
+        "B": "B) x = 9",
+        "C": "C) x = 10",
+        "D": "D) x = 12"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 54,
+      "subject": "Matemáticas",
+      "question": "54. Soluciona el sistema de ecuaciones. \\[ \\left\\{ \\begin{aligned} 5x + 2y - z &= -7 \\\\ x - 2y + 2z &= 0 \\\\ 3y + z &= 17 \\end{aligned} \\right. \\]",
+      "options": {
+        "A": "A) \\(x = -1,\\ y = 5,\\ z = 2\\)",
+        "B": "B) \\(x = 1,\\ y = 5,\\ z = 2\\)",
+        "C": "C) \\(x = -1,\\ y = 2,\\ z = 5\\)",
+        "D": "D) \\(x = 1,\\ y = 2,\\ z = 5\\)"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 56,
+      "subject": "Matemáticas",
+      "question": "56. A cuánto equivale 45° en radianes",
+      "options": {
+        "A": "A) \\(\\frac{1}{4} \\pi\\)",
+        "B": "B) \\(\\frac{2}{3} \\pi\\)",
+        "C": "C) \\(\\frac{3}{4} \\pi\\)",
+        "D": "D) \\(\\frac{4}{3} \\pi\\)"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 59,
+      "subject": "Matemáticas",
+      "question": "59. Encuentra las coordenadas del punto medio entre los puntos P (0, 2) y Q (4, 6).",
+      "options": {
+        "A": "A) (2, 3)",
+        "B": "B) (2, 4)",
+        "C": "C) (3, 3)",
+        "D": "D) (3, 4)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 61,
+      "subject": "Matemáticas",
+      "question": "61. Un triángulo está conformado por los vértices P (−7, 1), Q (9, 3) y R (3, 5) ¿Cuál es la ecuación de la mediana que pasa por el vértice P?",
+      "options": {
+        "A": "A) -x - 8y + 15 = 0",
+        "B": "B) -3x + 13y - 34 = 0",
+        "C": "C) 3x - y + 22 = 0",
+        "D": "D) 2x - 5y + 19 = 0"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 64,
+      "subject": "Matemáticas",
+      "question": "64. Dada la ecuación de la elipse \\(\\frac{x^2}{100} + \\frac{y^2}{75} = 1\\) determina su excentricidad.",
+      "options": {
+        "A": "A) \\(\\frac{3}{4}\\)",
+        "B": "B) \\(\\frac{2}{3}\\)",
+        "C": "C) \\(\\frac{3}{5}\\)",
+        "D": "D) \\(\\frac{1}{2}\\)"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 69,
+      "subject": "Matemáticas",
+      "question": "69. En la siguiente gráfica de la función f(x). ¿En qué intervalo la derivada de f es negativa?",
+      "options": {
+        "A": "A) (-2, 4)",
+        "B": "B) [2, 4)",
+        "C": "C) (2, 4]",
+        "D": "D) [-2, 4]"
+      },
+      "correct_answer": "C",
+      "reference": {
+        "type": "text",
+        "path": "area-1-q69.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025area1p69.webp",
+        "alt": "Figura asociada a la pregunta 69.",
+        "content": "El gráfico presenta un sistema de coordenadas cartesianas con el eje vertical etiquetado como \"y\" y el eje horizontal como \"x\". El eje \"y\" se extiende hacia arriba desde el origen (0,0) y el eje \"x\" se extiende hacia la derecha. La curva representada es una función continua que oscila, comenzando en el punto (0,0) y subiendo hasta alcanzar un máximo local antes de descender. \n\nEn el eje \"x\", se observan líneas punteadas verticales en las posiciones x = 2 y x = 4. La curva cruza el eje \"x\" en dos puntos: uno entre x = 0 y x = 2, y otro entre x = 4 y x = 6. La parte de la curva entre x = 0 y x = 2 es ascendente, alcanzando un máximo en algún punto antes de descender hacia x = 2. Desde x = 2, la curva desciende hasta un mínimo local antes de volver a ascender hacia x = 4, donde nuevamente alcanza un máximo. Posteriormente, la curva desciende hacia x = 6, pero no llega a cruzar el eje \"x\" en este tramo. \n\nEl gráfico no presenta etiquetas numéricas en el eje \"y\", pero se puede inferir que la función tiene valores positivos y negativos en diferentes intervalos. La forma de la curva sugiere que es una función polinómica de grado al menos 3, dado que presenta al menos dos máximos y un mínimo.",
+        "derived_from": "area-1-q69.webp"
+      }
+    },
+    {
+      "number": 84,
+      "subject": "Español",
+      "question": "84. Elige la opción con la redacción apropiada.",
+      "options": {
+        "A": "A) Los checoslovacos combatían en las calles y se oponían a la dictadura.",
+        "B": "B) Un sinnúmero de feligreses acudieron a la Villa.",
+        "C": "C) La creación de muchas cosas no se tenían contempladas.",
+        "D": "D) Los constantes flujo y reflujo de divisas provocó alarma."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 85,
+      "subject": "Español",
+      "question": "85. Selecciona el enunciado que está redactado apropiadamente.",
+      "options": {
+        "A": "A) Se observa el patio techado. No es como el de las otras escuelas, al contrario, la luz del sol no entra, sólo se refleja y el calor irradia.",
+        "B": "B) Se puede observar el patio, no es como el de otras escuelas porque está techado y el sol ni entra directamente, sólo irradia calor.",
+        "C": "C) Se puede apreciar que el patio no es como el de otras escuelas, pues está techado debido a que la luz del sol sólo es reflejada en las aulas que lo rodean.",
+        "D": "D) Se puede apreciar el patio que no es como el de las otras escuelas, pues del sol no se conoce más que la luz y el calor que irradia."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 86,
+      "subject": "Español",
+      "question": "86. Identifica el párrafo redactado correctamente.",
+      "options": {
+        "A": "A) Los campos magnéticos solar y terrestre interaccionan hasta que este último se deforma. Como cualquier ente en el universo, la Tierra responde de varias maneras ante el impacto de la actividad solar; en este caso lo hace mediante la actividad geomagnética (perturbaciones en el campo magnético terrestre).",
+        "B": "B) El campo magnético solar y terrestre se encuentran interaccionando hasta que este último (el campo magnético terrestre) termina deformándose. La Tierra, como cualquier ente en el universo, responde de varias maneras ante el impacto de la actividad solar; en este caso lo hace mediante perturbaciones en el campo magnético terrestre (es decir actividad geomagnética).",
+        "C": "C) Ante el impacto de la actividad solar (como cualquier ente en el universo), la Tierra responde de varias maneras; en este caso lo hace mediante la actividad geomagnética (perturbaciones en el campo magnético terrestre). Ello sucede porque los campos magnéticos solar y terrestre interaccionan hasta que el último se deforma.",
+        "D": "D) El campo magnético solar y el campo magnético terrestre interaccionan hasta que éste se deforma. Como cualquier ente en el universo, la Tierra responde de varias maneras ante el impacto de la actividad solar. Haciéndolo mediante la actividad geomagnética (esto es, perturbaciones que acontecen en el campo magnético terrestre)."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 92,
+      "subject": "Biología",
+      "question": "92. La existencia de enzimas del ciclo de Krebs, idénticas en todos los organismos de respiración aerobia, es una prueba del postulado ________ de la teoría celular.",
+      "options": {
+        "A": "A) funcional",
+        "B": "B) bioquímico",
+        "C": "C) evolutivo",
+        "D": "D) estructural"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 99,
+      "subject": "Biología",
+      "question": "99. En la actualidad, es la teoría más aceptada sobre el origen de los seres vivos.",
+      "options": {
+        "A": "A) Creacionista.",
+        "B": "B) Endosimbiótica.",
+        "C": "C) Vitalista.",
+        "D": "D) Quimiosíntetica."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 112,
+      "subject": "Historia de México",
+      "question": "112. Durante la etapa de iniciación de la Independencia de la Nueva España, Miguel Hidalgo promulgó la ________, y José María Morelos la ________, durante la organización del movimiento armado.",
+      "options": {
+        "A": "A) Constitución de Apatzingán — abolición de la esclavitud",
+        "B": "B) abolición de las castas — Constitución de Apatzingán",
+        "C": "C) Constitución de Apatzingán — abolición de las castas",
+        "D": "D) abolición de la esclavitud — Constitución de Apatzingán"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 119,
+      "subject": "Historia de México",
+      "question": "119. La posición de México ante la Segunda Guerra Mundial fue",
+      "options": {
+        "A": "A) romper relaciones diplomáticas con los Aliados.",
+        "B": "B) no intervenir en ningún bando.",
+        "C": "C) vender petróleo a ambos contendientes.",
+        "D": "D) romper relaciones con las potencias del Eje."
+      },
+      "correct_answer": "D"
+    }
+  ]
+}

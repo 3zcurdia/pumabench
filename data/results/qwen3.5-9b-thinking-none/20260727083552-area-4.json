@@ -2,13 +2,13 @@
   "id": "qwen/qwen3.5-9b",
   "model": "qwen3.5-9b-thinking-none",
   "effort": "none",
-  "timestamp": "20260726152703",
+  "timestamp": "20260727083552",
   "area": 4,
   "area_name": "Humanidades y de las Artes",
   "total": {
     "questions": 120,
-    "correct": 97,
-    "percentage": 80.83
+    "correct": 98,
+    "percentage": 81.67
   },
   "subjects": {
     "Biología": {
@@ -18,8 +18,8 @@
     },
     "Español": {
       "questions": 18,
-      "correct": 15,
-      "percentage": 83.33
+      "correct": 14,
+      "percentage": 77.78
     },
     "Filosofía": {
       "questions": 10,
@@ -38,8 +38,8 @@
     },
     "Historia Universal": {
       "questions": 10,
-      "correct": 8,
-      "percentage": 80.0
+      "correct": 9,
+      "percentage": 90.0
     },
     "Historia de México": {
       "questions": 10,
@@ -58,8 +58,8 @@
     },
     "Química": {
       "questions": 10,
-      "correct": 9,
-      "percentage": 90.0
+      "correct": 10,
+      "percentage": 100.0
     }
   },
   "failed_questions": [
@@ -124,28 +124,16 @@
       "correct_answer": "B"
     },
     {
-      "number": 25,
-      "subject": "Química",
-      "question": "¿Cuántos gramos de KCl hay en 0.1 mol?",
-      "options": {
-        "A": "A) 0.75",
-        "B": "B) 7.5",
-        "C": "C) 75",
-        "D": "D) 0.075"
-      },
-      "correct_answer": "B"
-    },
-    {
-      "number": 39,
+      "number": 34,
       "subject": "Geografía",
-      "question": "En México, la zona más propicia para la cría de cerdos es el ________ por ser la primera zona de ________.",
+      "question": "Sonora ocupa el primer lugar en la extracción de",
       "options": {
-        "A": "A) Norte — forrajes",
-        "B": "B) Bajío — cereales",
-        "C": "C) Noroeste — cereales",
-        "D": "D) Balsas — pastos"
+        "A": "A) uranio.",
+        "B": "B) hierro.",
+        "C": "C) cobre.",
+        "D": "D) plata."
       },
-      "correct_answer": "B"
+      "correct_answer": "C"
     },
     {
       "number": 45,
@@ -278,6 +266,18 @@
       }
     },
     {
+      "number": 73,
+      "subject": "Español",
+      "question": "Elige el objeto directo del predicado.",
+      "options": {
+        "A": "A) Compró la computadora.",
+        "B": "B) Las pirámides de Teotihuacán.",
+        "C": "C) Hoy, mañana y siempre.",
+        "D": "D) Las cuentas del gran capitán."
+      },
+      "correct_answer": "A"
+    },
+    {
       "number": 92,
       "subject": "Historia Universal",
       "question": "Un factor que propició el origen de la Revolución Industrial en Inglaterra fue que",
@@ -288,18 +288,6 @@
         "D": "D) diseñó y construyó el ferrocarril."
       },
       "correct_answer": "A"
-    },
-    {
-      "number": 93,
-      "subject": "Historia Universal",
-      "question": "Como consecuencia de la Revolución Liberal de 1830, ________ y Víctor Manuel II lideraron una guerra contra ________.",
-      "options": {
-        "A": "A) Carlos Alberto — Prusia",
-        "B": "B) José Garibaldi — Austria",
-        "C": "C) Napoleón III — Inglaterra",
-        "D": "D) Carlos X — Francia"
-      },
-      "correct_answer": "B"
     },
     {
       "number": 103,

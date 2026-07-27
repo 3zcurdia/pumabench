@@ -2,13 +2,13 @@
   "id": "qwen/qwen3.5-9b",
   "model": "qwen3.5-9b-thinking-none",
   "effort": "none",
-  "timestamp": "20260726152703",
+  "timestamp": "20260727084622",
   "area": 3,
   "area_name": "Ciencias Sociales",
   "total": {
     "questions": 120,
-    "correct": 94,
-    "percentage": 78.33
+    "correct": 95,
+    "percentage": 79.17
   },
   "subjects": {
     "Biología": {
@@ -48,8 +48,8 @@
     },
     "Literatura": {
       "questions": 10,
-      "correct": 9,
-      "percentage": 90.0
+      "correct": 10,
+      "percentage": 100.0
     },
     "Matemáticas": {
       "questions": 24,
@@ -64,16 +64,24 @@
   },
   "failed_questions": [
     {
-      "number": 4,
+      "number": 5,
       "subject": "Física",
-      "question": "Una bala de 7.0 kg se dispara a 120 m/s. ¿Cuánta Ec tiene al salir y Ep en el punto más alto?",
+      "question": "La bola A impacta a 6 m/s a bola B en reposo (el doble de masa). Choque elástico. ¿Velocidades después del impacto?",
       "options": {
-        "A": "A) Ec = 50,400 J y Ep = 50,400 J",
-        "B": "B) Ec = 420 J y Ep = 420 J",
-        "C": "C) Ec = 50,400 J y Ep = 0 J",
-        "D": "D) Ec = 420 J y Ep = 0 J"
+        "A": "A) U_A = -2 m/s; U_B = 4 m/s",
+        "B": "B) U_A = 4 m/s; U_B = 2 m/s",
+        "C": "C) U_A = 4 m/s; U_B = -2 m/s",
+        "D": "D) U_A = 2 m/s; U_B = 4 m/s"
       },
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "reference": {
+        "type": "text",
+        "path": "area-3-q5.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp5.webp",
+        "alt": "Figura asociada a la pregunta 5.",
+        "content": "En la figura se observa una línea horizontal que representa una superficie. A la izquierda, hay una esfera pequeña etiquetada como \"A\", que se mueve hacia la derecha con una velocidad indicada por la flecha \"vA\". A la derecha, hay una esfera más grande etiquetada como \"B\", que está en reposo sobre la misma línea horizontal. No hay otros elementos visibles en la imagen, y las esferas son de color negro, lo que resalta su forma y posición en relación con la línea. La distancia entre las esferas no se especifica, pero se puede inferir que \"A\" se dirige hacia \"B\".",
+        "derived_from": "area-3-q5.webp"
+      }
     },
     {
       "number": 6,
@@ -128,18 +136,6 @@
       }
     },
     {
-      "number": 20,
-      "subject": "Literatura",
-      "question": "El fragmento de Fromm es un ejemplo de ficha",
-      "options": {
-        "A": "A) hemerográfica.",
-        "B": "B) de síntesis.",
-        "C": "C) bibliográfica.",
-        "D": "D) de cita textual."
-      },
-      "correct_answer": "D"
-    },
-    {
       "number": 22,
       "subject": "Química",
       "question": "¿Qué postulado de Dalton prevalece en nuestros días?",
@@ -174,18 +170,6 @@
         "D": "D) 9.5 km/L"
       },
       "correct_answer": "A"
-    },
-    {
-      "number": 44,
-      "subject": "Matemáticas",
-      "question": "Factoriza (x² - 7x + 12) / [(x² - 16)(x - 3)]",
-      "options": {
-        "A": "A) 1/(x - 3)",
-        "B": "B) 1/(x + 4)",
-        "C": "C) (x - 3)/(x + 4)",
-        "D": "D) (x - 4)/(x - 3)"
-      },
-      "correct_answer": "B"
     },
     {
       "number": 45,
@@ -254,6 +238,18 @@
         "D": "D) 8"
       },
       "correct_answer": "D"
+    },
+    {
+      "number": 57,
+      "subject": "Matemáticas",
+      "question": "¿Cuáles son las coordenadas del punto medio entre P (8, –4) y Q (–9, 7)?",
+      "options": {
+        "A": "A) (–1/2, 3/2)",
+        "B": "B) (1/2, 3/2)",
+        "C": "C) (–3/2, 1/2)",
+        "D": "D) (–3/2, –1/2)"
+      },
+      "correct_answer": "A"
     },
     {
       "number": 58,
