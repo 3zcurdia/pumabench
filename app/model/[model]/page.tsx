@@ -60,7 +60,7 @@ export async function generateMetadata({
   params: Promise<{ model: string }>;
 }) {
   const { model } = await params;
-  return { title: `${model} — Pumabench Results` };
+  return { title: `${model} — Resultados de Pumabench` };
 }
 
 export default async function ModelPage({
@@ -107,7 +107,7 @@ export default async function ModelPage({
   return (
     <>
       <Link href="/" className="back-link">
-        ← All models
+        ← Todos los modelos
       </Link>
 
       <div className="page-head">
@@ -117,21 +117,21 @@ export default async function ModelPage({
         </h1>
         <div className="chips">
           <span className="chip chip-primary">
-            Average score: {summary.overallPercentage.toFixed(1)}%
+            Score promedio: {summary.overallPercentage.toFixed(1)}%
           </span>
-          <span className="chip">Average of {summary.areas.length} areas</span>
+          <span className="chip">Promedio de {summary.areas.length} áreas</span>
           <Link
             href={`/compare?models=${encodeURIComponent(summary.model + "::" + summary.effort)}`}
             className="chip"
           >
-            Compare →
+            Comparar →
           </Link>
         </div>
       </div>
 
       <div className="card-duo">
         <section className="card">
-          <AreasChart data={areaRows} title="Score per area" />
+          <AreasChart data={areaRows} title="Score por área" />
           <ul className="area-legend muted">
             {summary.areas.map((a) => (
               <li key={a.area}>
@@ -142,21 +142,21 @@ export default async function ModelPage({
         </section>
 
         <section className="card">
-          <h2 className="card-title">Area overview</h2>
+          <h2 className="card-title">Resumen por área</h2>
           <AreasRadarChart data={radarRows} />
         </section>
       </div>
 
       <section className="card">
-        <h2 className="card-title">Area breakdown</h2>
+        <h2 className="card-title">Detalle por área</h2>
         <div className="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>Area</th>
-                <th className="num">Questions</th>
-                <th className="num">Correct</th>
-                <th className="num">Score</th>
+                <th>Área</th>
+                <th className="num">Preguntas</th>
+                <th className="num">Correctas</th>
+                <th className="num">Calificación</th>
               </tr>
             </thead>
             <tbody>
@@ -180,11 +180,11 @@ export default async function ModelPage({
 
       <div className="card-duo">
         <section className="card">
-          <SubjectsChart data={subjectRows} title="Score per subject" />
+          <SubjectsChart data={subjectRows} title="Score por materia" />
         </section>
 
         <section className="card">
-          <h2 className="card-title">Subject overview</h2>
+          <h2 className="card-title">Resumen por materia</h2>
           <SubjectsRadarChart data={subjectRows} />
         </section>
       </div>

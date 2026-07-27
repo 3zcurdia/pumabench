@@ -27,7 +27,7 @@ function ChartTooltip({ active, payload }: any) {
         Score: <strong>{row.percentage.toFixed(1)}%</strong>
       </div>
       <div>
-        Points: {row.correct}/{row.questions}
+        Puntos: {row.correct}/{row.questions}
       </div>
     </div>
   );

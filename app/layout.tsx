@@ -4,8 +4,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Pumabench Results",
-  description: "Benchmark results dashboard — model scores by area and subject",
+  title: "Resultados de Pumabench",
+  description: "Panel de resultados del benchmark — calificaciones de modelos por area y tema",
 };
 
 export default function RootLayout({
@@ -14,14 +14,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body>
         <header className="site-header">
           <div className="container header-inner">
             <Link href="/" className="brand">
               PumaBench
             </Link>
-            <span className="tagline">UNAM admission test benchmark</span>
+            <span className="tagline">Benchmark del examen de admisión UNAM</span>
           </div>
         </header>
         <main className="container">{children}</main>

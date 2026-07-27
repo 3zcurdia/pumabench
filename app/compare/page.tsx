@@ -5,7 +5,7 @@ import CompareClient, {
 import { getAllModels } from "@/lib/data";
 
 export const metadata = {
-  title: "Compare models — PumaBench Results",
+  title: "Comparar modelos — Resultados de Pumabench",
 };
 
 export default function ComparePage() {
@@ -31,15 +31,15 @@ export default function ComparePage() {
   return (
     <>
       <Link href="/" className="back-link">
-        ← All models
+        ← Todos los modelos
       </Link>
 
       <div className="page-head">
-        <h1>Compare models</h1>
+        <h1>Comparar modelos</h1>
         <p className="muted">
-          Select two or more models to compare their average score per area and
-          per subject. Each area is a knowledge area of the same test with
-          different subject weights.
+          Selecciona dos o más modelos para comparar su calificación promedio por
+          área y por materia. Cada área es una zona de conocimiento del mismo
+          examen con diferentes pesos por materia.
         </p>
       </div>
 

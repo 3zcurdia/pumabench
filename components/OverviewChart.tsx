@@ -49,12 +49,12 @@ function ChartTooltip({ active, payload }: any) {
         <EffortBadge effort={row.effort} />
       </div>
       <div>
-        Average score: <strong>{Math.floor(row.percentage)}%</strong>
+        Score: <strong>{Math.floor(row.percentage)}%</strong>
       </div>
       <div>
-        Points: {row.correct}
+        Puntos: {row.correct}
       </div>
-      <div className="muted">Mean of the 4 area scores</div>
+      <div className="muted">Promedio de las 4 calificaciones por área</div>
     </div>
   );
 }

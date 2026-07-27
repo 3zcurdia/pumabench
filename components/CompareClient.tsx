@@ -201,7 +201,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
   return (
     <>
       <section className="card">
-        <h2 className="card-title">Models</h2>
+        <h2 className="card-title">Modelos</h2>
         <div className="selector-grid">
           {models.map((m) => {
             const idx = selected.findIndex((s) => s.modelKey === m.modelKey);
@@ -239,13 +239,13 @@ function CompareInner({ models }: { models: CompareModel[] }) {
       </section>
 
       {selected.length < 2 ? (
-        <p className="muted">Select at least 2 models to compare.</p>
+        <p className="muted">Selecciona al menos 2 modelos para comparar.</p>
       ) : (
         <>
           <div className="card-duo">
             <section className="card">
               <div className="chart-card-head">
-                <h2 className="card-title">Average score per area</h2>
+                <h2 className="card-title">Score promedio por área</h2>
                 <ViewToggle value={mode} onChange={setMode} />
               </div>
               <div style={{ width: "100%", height: 340 }}>
@@ -298,7 +298,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
             </section>
 
             <section className="card">
-              <h2 className="card-title">Area overview</h2>
+              <h2 className="card-title">Resumen por área</h2>
               <CompareAreasRadarChart
                 chartRows={chartRows}
                 selected={selected}
@@ -307,12 +307,12 @@ function CompareInner({ models }: { models: CompareModel[] }) {
           </div>
 
           <section className="card">
-            <h2 className="card-title">Side-by-side table</h2>
+            <h2 className="card-title">Tabla comparativa</h2>
             <div className="table-wrap">
               <table className="compare-table">
                 <thead>
                   <tr>
-                    <th>Area</th>
+                    <th>Área</th>
                     {selected.map((m, i) => (
                       <th key={m.modelKey} className="num">
                         <span
@@ -360,7 +360,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                   })}
                   <tr className="avg-row">
                     <td>
-                      <strong>Average</strong>
+                      <strong>Promedio</strong>
                     </td>
                     {selected.map((m) => {
                       const best = Math.max(
@@ -385,7 +385,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
 
           <div className="card-duo">
             <section className="card">
-              <h2 className="card-title">Score per subject</h2>
+              <h2 className="card-title">Score por materia</h2>
               <div style={{ width: "100%", height: 380 }}>
                 <ResponsiveContainer>
                   <BarChart
@@ -435,7 +435,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
             </section>
 
             <section className="card">
-              <h2 className="card-title">Subject overview</h2>
+              <h2 className="card-title">Resumen por materia</h2>
               <CompareSubjectsRadarChart
                 subjectChartRows={subjectChartRows}
                 selected={selected}
@@ -444,12 +444,12 @@ function CompareInner({ models }: { models: CompareModel[] }) {
           </div>
 
           <section className="card">
-            <h2 className="card-title">Side-by-side table (per subject)</h2>
+            <h2 className="card-title">Tabla comparativa (por materia)</h2>
             <div className="table-wrap">
               <table className="compare-table">
                 <thead>
                   <tr>
-                    <th>Subject</th>
+                    <th>Materia</th>
                     {selected.map((m, i) => (
                       <th key={m.modelKey} className="num">
                         <span
@@ -501,7 +501,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
 
 export default function CompareClient({ models }: { models: CompareModel[] }) {
   return (
-    <Suspense fallback={<p className="muted">Loading…</p>}>
+    <Suspense fallback={<p className="muted">Cargando…</p>}>
       <CompareInner models={models} />
     </Suspense>
   );

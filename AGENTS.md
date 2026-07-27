@@ -60,3 +60,4 @@ After running benchmarks or modifying result JSONs, `results.csv` must be regene
 - Model identity in the CSV is `model` + `effort` columns; composite key in UI is `${model}::${effort}`.
 - `QUESTIONS_PER_AREA = 120` is hardcoded in `lib/data.ts`.
 - Result JSON filenames follow `<YYYYMMDDHHMMSS>-area-<n>.json`. Multiple timestamps per model = multiple runs (averaged).
+- **Language policy**: User-facing pages and components (`app/`, `components/`) use **neutral Spanish** for all visible text (headings, labels, descriptions, tooltips, metadata, aria-labels). Exception: proper nouns (PumaBench, UNAM), effort badges (`none`/`low`/`medium`/`high`), and the word `Score` stay in English. Data/backend layers (`data/`, `lib/`) remain in English.

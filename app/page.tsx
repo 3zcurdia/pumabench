@@ -62,26 +62,27 @@ export default function HomePage() {
       <div className="hero">
         <h1 className="hero-title">PumaBench</h1>
         <p className="hero-subtitle">
-          What would happen when an LLM takes the UNAM admission test?
+          ¿Qué pasaría si un LLM hiciera el examen de admisión de la UNAM?
         </p>
         <p className="muted hero-desc">
-          The admission test covers four knowledge areas, each weighting the
-          subjects differently. Scores below are the <strong>average across
-          areas</strong> — not a raw point total. Models with multiple runs
-          show the average across runs.
+          El examen de admisión cubre cuatro áreas de conocimiento, cada una con
+          diferentes pesos por materia. Las calificaciones a continuación son el
+          <strong>promedio entre áreas</strong> — no un total de puntos. Los
+          modelos con múltiples ejecuciones muestran el promedio entre
+          ejecuciones.
         </p>
         <p>
           <Link href="/compare" className="btn">
-            Compare models →
+            Comparar modelos →
           </Link>{" "}
           <Link href="/failed" className="btn btn-outline">
-            Most failed questions →
+            Preguntas más falladas →
           </Link>
         </p>
       </div>
 
       <div className="page-head">
-        <h2 className="section-heading">Model rankings</h2>
+        <h2 className="section-heading">Clasificación de modelos</h2>
       </div>
 
       <section className="card">
@@ -89,18 +90,18 @@ export default function HomePage() {
       </section>
 
       <section className="card">
-        <OverviewChart data={chartData} title="Average score per model" />
+        <OverviewChart data={chartData} title="Score promedio por modelo" />
       </section>
 
       <section className="card">
-        <h2 className="card-title">All models</h2>
+        <h2 className="card-title">Todos los modelos</h2>
         <div className="table-wrap">
           <table>
             <thead>
               <tr>
                 <th>#</th>
-                <th>Model</th>
-                <th className="num">Average score</th>
+                <th>Modelo</th>
+                <th className="num">Score promedio</th>
               </tr>
             </thead>
             <tbody>
@@ -125,7 +126,7 @@ export default function HomePage() {
       </section>
 
       <div className="page-head">
-        <h2 className="section-heading">Rankings by area</h2>
+        <h2 className="section-heading">Clasificación por área</h2>
       </div>
       <div className="tabbed-section">
         <TabPanel
@@ -142,7 +143,7 @@ export default function HomePage() {
       </div>
 
       <div className="page-head">
-        <h2 className="section-heading">Rankings by subject</h2>
+        <h2 className="section-heading">Clasificación por materia</h2>
       </div>
       <div className="tabbed-section">
         <TabPanel

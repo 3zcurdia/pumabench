@@ -37,7 +37,7 @@ function ChartTooltip({ active, payload }: any) {
         <EffortBadge effort={row.effort} />
       </div>
       <div>
-        Parameters: <strong>{formatParams(row.parameters)}</strong>
+        Parámetros: <strong>{formatParams(row.parameters)}</strong>
       </div>
       <div>
         Score: <strong>{row.percentage.toFixed(1)}%</strong>
@@ -108,15 +108,15 @@ export default function ScoreVsParamsChart({ data }: { data: ScatterRow[] }) {
   return (
     <>
       <div className="chart-card-head">
-        <h2 className="card-title">Score vs Parameters</h2>
+        <h2 className="card-title">Score vs Parámetros</h2>
         {zoomed && (
           <button className="zoom-reset" onClick={handleReset}>
-            Reset zoom
+            Restablecer zoom
           </button>
         )}
       </div>
       <p className="muted" style={{ marginTop: -10, marginBottom: 12, fontSize: 13 }}>
-        Click and drag to zoom in
+        Haz clic y arrastra para acercar
       </p>
       <div style={{ width: "100%", height: 360 }}>
         <ResponsiveContainer>
@@ -130,13 +130,13 @@ export default function ScoreVsParamsChart({ data }: { data: ScatterRow[] }) {
             <XAxis
               type="number"
               dataKey="parameters"
-              name="Parameters"
+              name="Parámetros"
               domain={xDomain}
               tickFormatter={formatParams}
               fontSize={12}
               stroke="#64748b"
               label={{
-                value: "Parameters",
+                value: "Parámetros",
                 position: "insideBottom",
                 offset: -2,
                 fontSize: 12,

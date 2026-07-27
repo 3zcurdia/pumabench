@@ -136,7 +136,7 @@ export default function FailedQuestionsPage() {
   return (
     <>
       <Link href="/" className="back-link">
-        ← All models
+        ← Todos los modelos
       </Link>
 
       <div className="page-head">

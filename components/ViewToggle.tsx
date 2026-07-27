@@ -9,14 +9,14 @@ interface ViewToggleProps {
 
 export default function ViewToggle({ value, onChange }: ViewToggleProps) {
   return (
-    <div className="view-toggle" role="group" aria-label="Chart view">
+    <div className="view-toggle" role="group" aria-label="Vista del gráfico">
       <button
         type="button"
         className={value === "percentage" ? "active" : ""}
         aria-pressed={value === "percentage"}
         onClick={() => onChange("percentage")}
       >
-        Percentage
+        Porcentaje
       </button>
       <button
         type="button"
@@ -24,7 +24,7 @@ export default function ViewToggle({ value, onChange }: ViewToggleProps) {
         aria-pressed={value === "points"}
         onClick={() => onChange("points")}
       >
-        Points
+        Puntos
       </button>
     </div>
   );
