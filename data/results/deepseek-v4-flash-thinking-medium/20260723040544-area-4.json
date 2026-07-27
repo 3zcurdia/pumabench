@@ -7,8 +7,8 @@
   "area_name": "Humanidades y de las Artes",
   "total": {
     "questions": 120,
-    "correct": 107,
-    "percentage": 89.17
+    "correct": 110,
+    "percentage": 91.67
   },
   "subjects": {
     "Biología": {
@@ -18,8 +18,8 @@
     },
     "Español": {
       "questions": 18,
-      "correct": 13,
-      "percentage": 72.22
+      "correct": 14,
+      "percentage": 77.78
     },
     "Filosofía": {
       "questions": 10,
@@ -38,13 +38,13 @@
     },
     "Historia Universal": {
       "questions": 10,
-      "correct": 9,
-      "percentage": 90.0
+      "correct": 10,
+      "percentage": 100.0
     },
     "Historia de México": {
       "questions": 10,
-      "correct": 6,
-      "percentage": 60.0
+      "correct": 7,
+      "percentage": 70.0
     },
     "Literatura": {
       "questions": 10,
@@ -114,25 +114,6 @@
       }
     },
     {
-      "number": 70,
-      "subject": "Español",
-      "question": "Son temas que aborda el autor del texto 'La mente colectiva'.",
-      "options": {
-        "A": "A) Lenguaje, industria y literatura de ficción.",
-        "B": "B) Lenguaje, productos culturales y tecnología.",
-        "C": "C) Organismos colectivos, democracia y literatura.",
-        "D": "D) Organismos colectivos, computadoras y productos culturales."
-      },
-      "correct_answer": "B",
-      "reference": {
-        "type": "text",
-        "content": "La mente colectiva\n\nEn su famosa novela *Más que humano* (1953), el escritor estadounidense Theodore Sturgeon plantea el surgimiento del siguiente paso evolutivo del *Homo sapiens*: un colectivo de seis individuos con distintas capacidades que, unidos por telepatía, conforman un organismo múltiple en el que cada uno colabora por el bien de todos.\n\nEn la naturaleza existen realmente estos \"organismos colectivos\", como las colonias de hormigas o de abejas, constituidos por muchos cuerpos con un genoma compartido que trabajan por el bienestar común. Quizá inspirándose en ellas, muchos otros escritores de ciencia ficción han soñado que la humanidad, a través de múltiples mentes conectadas mediante algo semejante a la telepatía, podría llegar a formar un \"superorganismo\".\n\nDesgraciadamente, la transmisión de pensamiento no pasa de ser una fantasía: no hay ningún mecanismo físico o fisiológico que pudiera darle sustento. Sin embargo, quizá la humanidad, en cierta forma, ha dado ya el paso para convertirse en algo más que un simple conjunto de individuos.\n\nEn efecto: desde que nuestra especie desarrolló un lenguaje, y con él una cultura, los humanos comenzamos a intercambiar información cultural que no forma parte de nuestro acervo genético, pero que también aumenta nuestra adaptación al medio y favorece así nuestra supervivencia.\n\nFuego, agricultura, escritura, gobierno, arquitectura e ingeniería, educación, industria, ciencia y tecnología, arte... todos son productos culturales que los humanos compartimos unos con otros —y con nuestras crías— a través de la comunicación. El lenguaje es una especie de \"telepatía\" rudimentaria que nos permite mantener un acervo compartido en los cerebros de toda la población: una cultura. Y la cultura es, asimismo, una forma tosca de \"memoria\" extracerebral.\n\nDiversas innovaciones tecnológicas —alfabeto, papel, libros, imprenta, bibliotecas, y más recientemente computadoras e internet— han sido \"prótesis\" mentales y culturales que, al potenciar la comunicación, aumentan nuestras posibilidades de acción y supervivencia, comparadas con las de otros organismos... y nos dan también un poder de destrucción que nunca había existido sobre el planeta.\n\nEl lenguaje, junto con otros inventos culturales —la educación, la discusión y el debate, la democracia—, ha permitido que los humanos comencemos a funcionar como una verdadera comunidad de organismos que podemos (al menos en teoría) tomar decisiones colectivamente, con miras al bien común.\n\nHoy es en las redes sociales donde se lleva a cabo, de manera cada vez más amplia e intensa, esta constante discusión comunitaria. Y ya está teniendo impacto en las decisiones que tomamos como sociedad.\n\nConectados mediante la red estamos pensando colectivamente, como sociedad, más intensamente que nunca. Y lo hacemos no mediante la transmisión del pensamiento, sino mediante la discusión. Quizá éste sea el embrión de la verdadera \"telepatía\" humana.",
-        "title": "La mente colectiva",
-        "author": null,
-        "source": "Texto sobre la novela *Más que humano* (1953) de Theodore Sturgeon"
-      }
-    },
-    {
       "number": 73,
       "subject": "Español",
       "question": "Elige el objeto directo del predicado.",
@@ -155,18 +136,6 @@
         "D": "D) pero — en consecuencia — con"
       },
       "correct_answer": "D"
-    },
-    {
-      "number": 92,
-      "subject": "Historia Universal",
-      "question": "Un factor que propició el origen de la Revolución Industrial en Inglaterra fue que",
-      "options": {
-        "A": "A) desarrolló la industria textil.",
-        "B": "B) aplicó la 'Riqueza de las Naciones'.",
-        "C": "C) triunfó en la Guerra de Siete Años.",
-        "D": "D) diseñó y construyó el ferrocarril."
-      },
-      "correct_answer": "A"
     },
     {
       "number": 102,
@@ -201,18 +170,6 @@
         "B": "B) el apoyo a reclamos sindicales.",
         "C": "C) el equilibrio de la balanza comercial.",
         "D": "D) la expansión del mercado externo."
-      },
-      "correct_answer": "D"
-    },
-    {
-      "number": 110,
-      "subject": "Historia de México",
-      "question": "Fue una acción del gobierno de Luis Echeverría como parte del Desarrollo Compartido.",
-      "options": {
-        "A": "A) Disminución de importaciones.",
-        "B": "B) Nacionalización de la banca.",
-        "C": "C) Privatización de la educación.",
-        "D": "D) Fomento a la participación de empresas privadas."
       },
       "correct_answer": "D"
     },

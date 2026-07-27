@@ -7,8 +7,8 @@
   "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
   "total": {
     "questions": 120,
-    "correct": 111,
-    "percentage": 92.5
+    "correct": 114,
+    "percentage": 95.0
   },
   "subjects": {
     "Biología": {
@@ -18,8 +18,8 @@
     },
     "Español": {
       "questions": 18,
-      "correct": 12,
-      "percentage": 66.67
+      "correct": 15,
+      "percentage": 83.33
     },
     "Filosofía": {
       "questions": 0,
@@ -143,25 +143,6 @@
       }
     },
     {
-      "number": 80,
-      "subject": "Español",
-      "question": "80. El texto se titula Metamorfosis porque",
-      "options": {
-        "A": "A) detalla el cambio de niña a mujer.",
-        "B": "B) una mujer transforma su conducta.",
-        "C": "C) habla del origen de las transformaciones.",
-        "D": "D) la protagonista cambia de parecer."
-      },
-      "correct_answer": "B",
-      "reference": {
-        "type": "text",
-        "content": "—La mujer salió de su casa, y era una buena mujer. Lo había sido durante toda su vida. Ese día, sin embargo, una fría determinación le roía las entrañas mientras avanzaba, el bolso bien sujeto, camino del lugar donde iban a producirse los hechos.\n\nPor momentos sentía que le temblaban las piernas, pero si su cuerpo flaqueaba, su mente no se permitía vacilar. Pensó en sus hijos. Pensó en su marido, honrado y trabajador, feliz con su fútbol, su tele y su chándal para ir al campo los fines de semana. Pensó en el equipo necesario para las vacaciones, tan inminentes ya.\n\nMás decidida que nunca, atravesó la puerta de los grandes almacenes. El aire procedente del acondicionador le heló la nuca y serpenteó por un momento entre sus muslos, y ésa fue la última sensación humana que iba a experimentar en varias horas.\n\n—¡Reebaaaajaaas! —rugió.\n\nBraceó hacia la horda que bramaba en el interior. Ya no pensaba en su familia. Como el cazador, sólo alimentaba un deseo: conseguir la mejor presa; como el sabueso, únicamente aspiraba a hincar el diente en la carne más tierna. Alargó ambas manos hacia una combinación de seda sintética rebajada, puesta a mitad de precio —previamente se había colgado el bolso en bandolera—, y una manada de tiburones abrió amenazadoramente las fauces frente a ella. La mujer se aferró con todas sus fuerzas a la prenda. Vio que las manos se le habían vuelto peludas, sarmentosas y con las uñas muy largas curvadas hacia dentro, pero no le importó. Arrancó la combinación de entre los colmillos de los escualos y siguió abriéndose paso entre aullidos.\n\nEn la segunda planta tuvo que despedazarle la carótida a una rinoceronta de vestido floreado que trataba de apoderarse de una cesta para pic—nic; en la tercera, se hizo a zarpazos con dos pares de zapatillas de deportes; en la cuarta fue corrida a cornadas por una panda de búfalas que se empeñaban en conseguir una cocinita portátil a butano; en la quinta estuvo a punto de morir picoteada por una nube de avispas venenosas, pero huyó en cuanto se dio cuenta de que no necesitaba un tresillo.\n\nCuando salió a la calle, tardó unos 20 minutos en recuperar su aspecto habitual.\n\nTorres, Maruja (8 de julio de 1986). Metamorfosis. El País.",
-        "title": "Metamorfosis",
-        "author": "Maruja Torres",
-        "source": "El País, 8 de julio de 1986"
-      }
-    },
-    {
       "number": 85,
       "subject": "Español",
       "question": "85. Selecciona el enunciado que está redactado apropiadamente.",
@@ -184,30 +165,6 @@
         "D": "D) El campo magnético solar y el campo magnético terrestre interaccionan hasta que éste se deforma. Como cualquier ente en el universo, la Tierra responde de varias maneras ante el impacto de la actividad solar. Haciéndolo mediante la actividad geomagnética (esto es, perturbaciones que acontecen en el campo magnético terrestre)."
       },
       "correct_answer": "C"
-    },
-    {
-      "number": 88,
-      "subject": "Español",
-      "question": "88. Sinónimo de AVATAR",
-      "options": {
-        "A": "A) Destino.",
-        "B": "B) Cambio.",
-        "C": "C) Conflicto.",
-        "D": "D) Aflicción."
-      },
-      "correct_answer": "B"
-    },
-    {
-      "number": 90,
-      "subject": "Español",
-      "question": "90. Elige el enunciado que está acentuado correctamente.",
-      "options": {
-        "A": "A) Notó que aquel beso era de un extraño.",
-        "B": "B) La abeja se diferencia de la avispa por sus alas.",
-        "C": "C) La practica de física se canceló.",
-        "D": "D) El muchacho vivía cómo un salvaje en la soledad."
-      },
-      "correct_answer": "A"
     },
     {
       "number": 92,

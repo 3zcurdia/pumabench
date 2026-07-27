@@ -7,8 +7,8 @@
   "area_name": "Ciencias Biológicas, Químicas y de la Salud",
   "total": {
     "questions": 120,
-    "correct": 111,
-    "percentage": 92.5
+    "correct": 116,
+    "percentage": 96.67
   },
   "subjects": {
     "Biología": {
@@ -18,8 +18,8 @@
     },
     "Español": {
       "questions": 18,
-      "correct": 17,
-      "percentage": 94.44
+      "correct": 18,
+      "percentage": 100.0
     },
     "Filosofía": {
       "questions": 0,
@@ -43,8 +43,8 @@
     },
     "Historia de México": {
       "questions": 10,
-      "correct": 8,
-      "percentage": 80.0
+      "correct": 9,
+      "percentage": 90.0
     },
     "Literatura": {
       "questions": 10,
@@ -53,60 +53,16 @@
     },
     "Matemáticas": {
       "questions": 24,
-      "correct": 20,
-      "percentage": 83.33
+      "correct": 21,
+      "percentage": 87.5
     },
     "Química": {
       "questions": 13,
-      "correct": 11,
-      "percentage": 84.62
+      "correct": 13,
+      "percentage": 100.0
     }
   },
   "failed_questions": [
-    {
-      "number": 23,
-      "subject": "Química",
-      "question": "En general, en la tabla periódica los elementos con mayor carácter metálico se ubican en",
-      "options": {
-        "A": "A) los periodos superiores.",
-        "B": "B) los periodos inferiores.",
-        "C": "C) las columnas de la izquierda.",
-        "D": "D) las columnas de la derecha."
-      },
-      "correct_answer": "C"
-    },
-    {
-      "number": 35,
-      "subject": "Química",
-      "question": "¿Cuál de los siguientes compuestos es un ácido carboxílico?",
-      "options": {
-        "A": {
-          "label": "A",
-          "image": "area-2-q35-opt-A.webp",
-          "alt": "Opción A para la pregunta 35.",
-          "image_description": "La opción A presenta la estructura química de un compuesto orgánico. Se observa un grupo funcional que incluye un carbono central (C) unido a un grupo hidroxilo (–OH) y a un grupo carbonilo (C=O). A la izquierda del carbono central, hay un grupo metilo (–CH₃). La disposición de los átomos sugiere que el compuesto es un alcohol con un grupo carbonilo, lo que indica que podría ser un compuesto de tipo cetona o un alcohol secundario. La fórmula general se puede interpretar como un alcohol que tiene un grupo carbonilo en la misma cadena de carbonos."
-        },
-        "B": {
-          "label": "B",
-          "image": "area-2-q35-opt-B.webp",
-          "alt": "Opción B para la pregunta 35.",
-          "image_description": "La opción B presenta la estructura química de un compuesto orgánico. Se observa un grupo funcional amida, que se identifica por la presencia de un carbono (C) unido a un grupo carbonilo (C=O) y a un grupo amino (NH2). La cadena principal está formada por un carbono que está unido a un grupo metilo (CH3) y al grupo amino. La representación muestra la disposición de los átomos y los enlaces entre ellos, donde el carbono del grupo carbonilo está en el centro, con el grupo metilo a la izquierda y el grupo amino a la derecha. Esta estructura corresponde a la acetamida, un compuesto que se utiliza en diversas aplicaciones químicas."
-        },
-        "C": {
-          "label": "C",
-          "image": "area-2-q35-opt-C.webp",
-          "alt": "Opción C para la pregunta 35.",
-          "image_description": "La opción C presenta la fórmula estructural de un hidrocarburo lineal. Se observa que está compuesta por tres grupos metilo (CH₃) y un grupo metileno (CH₂) en el medio, formando una cadena de tres átomos de carbono. La representación es la siguiente: CH₃-CH₂-CH₃. Este compuesto es el propano, un alcano que pertenece a la serie de los hidrocarburos saturados. La estructura indica que cada carbono está unido a suficientes átomos de hidrógeno para cumplir con la tetravalencia del carbono."
-        },
-        "D": {
-          "label": "D",
-          "image": "area-2-q35-opt-D.webp",
-          "alt": "Opción D para la pregunta 35.",
-          "image_description": "La opción D presenta la estructura química de un compuesto orgánico. En la parte izquierda de la imagen se observa un grupo metilo (CH₃) unido a un carbono central (C) que también está conectado a un grupo etóxido (OCH₂CH₃). Este carbono central está unido a un grupo carbonilo (C=O), lo que indica que se trata de un compuesto que contiene un enlace doble entre el carbono y el oxígeno. La disposición de los grupos sugiere que el compuesto es un éster o un cetona, dependiendo del contexto de la pregunta. La estructura se puede describir como un carbono central que tiene un grupo metilo, un grupo etóxido y un grupo carbonilo, lo que le confiere características específicas en reacciones químicas."
-        }
-      },
-      "correct_answer": "A"
-    },
     {
       "number": 50,
       "subject": "Matemáticas",
@@ -140,26 +96,6 @@
       }
     },
     {
-      "number": 58,
-      "subject": "Matemáticas",
-      "question": "La ecuación ordinaria de la mediatriz del triángulo trazada desde el lado AB es",
-      "options": {
-        "A": "A) y = -3x + 6",
-        "B": "B) y = -3x + 7",
-        "C": "C) y = -2x + 5",
-        "D": "D) y = -2x + 6"
-      },
-      "correct_answer": "C",
-      "reference": {
-        "type": "text",
-        "path": "area-2-q58.webp",
-        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp58.webp",
-        "alt": "Figura asociada a la pregunta 58.",
-        "content": "En la figura se presenta un sistema de coordenadas cartesianas con los ejes x e y. El eje y es vertical y el eje x es horizontal. Se observa un triángulo formado por los puntos A, B y un tercer punto que no está etiquetado, pero se puede deducir que es el origen (0,0). \n\nEl punto A se encuentra en el eje x, en la posición (0,0), que es el origen. El punto B está ubicado en el cuadrante I, en la posición (3,2). Desde el punto A, se traza una línea vertical hacia arriba hasta el punto B, formando un lado del triángulo. Luego, desde el punto B, se traza una línea horizontal hacia la izquierda que se encuentra con el eje y en el punto (3,0). Finalmente, se conecta este punto con el punto A, completando así el triángulo.\n\nLas líneas que forman el triángulo son rectas y están marcadas con un grosor notable. La cuadrícula del fondo está compuesta por líneas horizontales y verticales que facilitan la visualización de las coordenadas. El triángulo es un triángulo rectángulo, con el ángulo recto en el punto A. Las coordenadas de los puntos son: A(0,0), B(3,2) y el tercer punto en (3,0).",
-        "derived_from": "area-2-q58.webp"
-      }
-    },
-    {
       "number": 60,
       "subject": "Matemáticas",
       "question": "Ecuación de parábola con foco F (1, 0), P = 1 y eje focal paralelo al eje Y",
@@ -172,18 +108,6 @@
       "correct_answer": "C"
     },
     {
-      "number": 81,
-      "subject": "Español",
-      "question": "Elige el párrafo con la mejor redacción.",
-      "options": {
-        "A": "A) En este orden, la posibilidad y el origen del conocimiento...",
-        "B": "B) Así, la posibilidad y el origen del conocimiento...",
-        "C": "C) El conocimiento, en el inicio, ofrece una vertiente filosófica...",
-        "D": "D) El conocimiento, en principio, ofrece una vertiente filosófica... En este orden, la posibilidad y el origen del conocimiento son algunos problemas clave."
-      },
-      "correct_answer": "D"
-    },
-    {
       "number": 113,
       "subject": "Historia de México",
       "question": "El gobierno de Anastasio Bustamante para mejorar la economía",
@@ -194,18 +118,6 @@
         "D": "D) estimuló la agricultura."
       },
       "correct_answer": "A"
-    },
-    {
-      "number": 119,
-      "subject": "Historia de México",
-      "question": "El impulso a la petrolización y apertura turística a capitales privados fueron acciones de",
-      "options": {
-        "A": "A) Luis Echeverría.",
-        "B": "B) José López Portillo.",
-        "C": "C) Miguel de la Madrid.",
-        "D": "D) Carlos Salinas de Gortari."
-      },
-      "correct_answer": "B"
     }
   ]
 }
