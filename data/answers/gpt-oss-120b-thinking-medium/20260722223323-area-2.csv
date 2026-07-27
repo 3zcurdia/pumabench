@@ -32,7 +32,7 @@ number,answer
 31,B
 32,A
 33,C
-34,B
+34,D
 35,A
 36,C
 37,D
@@ -50,7 +50,7 @@ number,answer
 49,C
 50,A
 51,D
-52,B
+52,C
 53,A
 54,A
 55,B
@@ -73,10 +73,10 @@ number,answer
 72,D
 73,A
 74,C
-75,B
+75,A
 76,D
 77,A
-78,D
+78,B
 79,D
 80,D
 81,D
@@ -85,7 +85,7 @@ number,answer
 84,D
 85,D
 86,C
-87,B
+87,A
 88,B
 89,A
 90,B

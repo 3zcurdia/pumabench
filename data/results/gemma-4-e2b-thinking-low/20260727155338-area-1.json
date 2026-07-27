@@ -1,25 +1,25 @@
 {
-  "id": "google/gemma-4-e4b",
-  "model": "gemma-4-e4b",
-  "effort": "none",
-  "timestamp": "20260722113021",
+  "id": "google/gemma-4-e2b",
+  "model": "gemma-4-e2b-thinking-low",
+  "effort": "low",
+  "timestamp": "20260727155338",
   "area": 1,
   "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
   "total": {
     "questions": 120,
-    "correct": 111,
-    "percentage": 92.5
+    "correct": 104,
+    "percentage": 86.67
   },
   "subjects": {
     "Biología": {
       "questions": 10,
-      "correct": 8,
-      "percentage": 80.0
+      "correct": 7,
+      "percentage": 70.0
     },
     "Español": {
       "questions": 18,
-      "correct": 14,
-      "percentage": 77.78
+      "correct": 16,
+      "percentage": 88.89
     },
     "Filosofía": {
       "questions": 0,
@@ -28,28 +28,28 @@
     },
     "Física": {
       "questions": 16,
-      "correct": 16,
-      "percentage": 100.0
+      "correct": 14,
+      "percentage": 87.5
     },
     "Geografía": {
-      "questions": 10,
-      "correct": 10,
-      "percentage": 100.0
-    },
-    "Historia Universal": {
-      "questions": 10,
-      "correct": 10,
-      "percentage": 100.0
-    },
-    "Historia de México": {
       "questions": 10,
       "correct": 9,
       "percentage": 90.0
     },
+    "Historia Universal": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Historia de México": {
+      "questions": 10,
+      "correct": 8,
+      "percentage": 80.0
+    },
     "Literatura": {
       "questions": 10,
-      "correct": 10,
-      "percentage": 100.0
+      "correct": 9,
+      "percentage": 90.0
     },
     "Matemáticas": {
       "questions": 26,
@@ -58,11 +58,91 @@
     },
     "Química": {
       "questions": 10,
-      "correct": 10,
-      "percentage": 100.0
+      "correct": 8,
+      "percentage": 80.0
     }
   },
   "failed_questions": [
+    {
+      "number": 2,
+      "subject": "Física",
+      "question": "2. Con base en el siguiente sistema de vectores, indica la magnitud del vector resultante en N.",
+      "options": {
+        "A": "A) \\(\\sqrt{75.8}\\)",
+        "B": "B) \\(\\sqrt{23.8}\\)",
+        "C": "C) \\(\\sqrt{650}\\)",
+        "D": "D) \\(\\sqrt{101.1}\\)"
+      },
+      "correct_answer": "D",
+      "reference": {
+        "type": "text",
+        "path": "area-1-q2.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp2.webp",
+        "alt": "Figura asociada a la pregunta 2.",
+        "content": "En la figura se observa un sistema de coordenadas cartesianas con los ejes x e y. El eje y está orientado hacia arriba y el eje x hacia la derecha. Se presentan tres vectores de fuerza representados por flechas:\n\n1. Un vector de 10 N que se extiende verticalmente hacia arriba, alineado con el eje y.\n2. Un vector de 8 N que forma un ángulo de 30° con el eje x, apuntando hacia la derecha y hacia arriba.\n3. Un vector de 9 N que forma un ángulo de 75° con el eje x, también apuntando hacia la derecha y hacia arriba.\n\nAdemás, se incluye una tabla en la parte superior de la figura que muestra los valores del seno y coseno para los ángulos de 30°, 45° y 75°. La tabla tiene tres columnas: \"Ángulo\", \"Seno\" y \"Coseno\". Los valores son los siguientes:\n\n- Para 30°: Seno = 0.5, Coseno = 0.8\n- Para 45°: Seno = 0.7, Coseno = 0.7\n- Para 75°: Seno = 0.9, Coseno = 0.3\n\nLos vectores están etiquetados con sus respectivas magnitudes en Newtons (N) y los ángulos están indicados en grados.",
+        "derived_from": "area-1-q2.webp"
+      }
+    },
+    {
+      "number": 8,
+      "subject": "Física",
+      "question": "8. La interferencia de dos ondas mecánicas puede generar franjas claras y obscuras. Lo anterior se debe a la conservación de la",
+      "options": {
+        "A": "A) polarización.",
+        "B": "B) difracción.",
+        "C": "C) energía",
+        "D": "D) longitud de onda."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 26,
+      "subject": "Literatura",
+      "question": "26. ¿De qué tipo es la siguiente ficha? Agustín López Murguía, \"No pegues tu chicle. Plaga contaminante\", ¿Cómo ves?, año 7, no. 81, Revista de Divulgación de la Ciencia de la UNAM, pp. 10–14.",
+      "options": {
+        "A": "A) Bibliográfica.",
+        "B": "B) Hemerográfica.",
+        "C": "C) De cita textual.",
+        "D": "D) De síntesis."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 27,
+      "subject": "Química",
+      "question": "Consulta la tabla periódica para responder. 27. Selecciona la opción que representa sustancias que, químicamente, no pueden descomponerse en otras más simples.",
+      "options": {
+        "A": "A) Na(s), Cl_2(g) y P_4(s)",
+        "B": "B) O_2(g), He(g) y CO(g)",
+        "C": "C) S_8(g), N_2(g) y SO_2(g)",
+        "D": "D) CO(g), Na(s) y S_8(s)"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 35,
+      "subject": "Química",
+      "question": "35. Biomoléculas que sirven de reserva energética en los organismos.",
+      "options": {
+        "A": "A) Aminoácidos.",
+        "B": "B) Lípidos.",
+        "C": "C) Vitaminas.",
+        "D": "D) Carbohidratos."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 42,
+      "subject": "Geografía",
+      "question": "42. La marea negra afecta principalmente a la vida en los",
+      "options": {
+        "A": "A) lagos.",
+        "B": "B) rios.",
+        "C": "C) manantiales.",
+        "D": "D) océanos."
+      },
+      "correct_answer": "D"
+    },
     {
       "number": 54,
       "subject": "Matemáticas",
@@ -96,14 +176,14 @@
       }
     },
     {
-      "number": 77,
+      "number": 81,
       "subject": "Español",
-      "question": "77. ¿Cuál es el nudo del texto?",
+      "question": "81. En la frase \"por momentos sentía que le temblaban las piernas, pero si su cuerpo flaqueaba, su mente no se permitía vacilar\", se infiere que la mujer se sentía",
       "options": {
-        "A": "A) Más decidida que nunca, atravesó la puerta de los grandes almacenes.",
-        "B": "B) Ese día, sin embargo, una fría determinación le roía las entrañas mientras avanzaba.",
-        "C": "C) Pero huyó en cuanto se dio cuenta de que no necesitaba un tresillo.",
-        "D": "D) Cuando salió a la calle, tardó unos 20 minutos en recuperar su aspecto habitual."
+        "A": "A) Valiente e indecisa.",
+        "B": "B) Temerosa y decidida.",
+        "C": "C) Decidida y valiente.",
+        "D": "D) Temerosa e indecisa."
       },
       "correct_answer": "B",
       "reference": {
@@ -127,28 +207,16 @@
       "correct_answer": "A"
     },
     {
-      "number": 86,
-      "subject": "Español",
-      "question": "86. Identifica el párrafo redactado correctamente.",
+      "number": 91,
+      "subject": "Biología",
+      "question": "91. Un postulado de la Teoría celular afirma que",
       "options": {
-        "A": "A) Los campos magnéticos solar y terrestre interaccionan hasta que este último se deforma. Como cualquier ente en el universo, la Tierra responde de varias maneras ante el impacto de la actividad solar; en este caso lo hace mediante la actividad geomagnética (perturbaciones en el campo magnético terrestre).",
-        "B": "B) El campo magnético solar y terrestre se encuentran interaccionando hasta que este último (el campo magnético terrestre) termina deformándose. La Tierra, como cualquier ente en el universo, responde de varias maneras ante el impacto de la actividad solar; en este caso lo hace mediante perturbaciones en el campo magnético terrestre (es decir actividad geomagnética).",
-        "C": "C) Ante el impacto de la actividad solar (como cualquier ente en el universo), la Tierra responde de varias maneras; en este caso lo hace mediante la actividad geomagnética (perturbaciones en el campo magnético terrestre). Ello sucede porque los campos magnéticos solar y terrestre interaccionan hasta que el último se deforma.",
-        "D": "D) El campo magnético solar y el campo magnético terrestre interaccionan hasta que éste se deforma. Como cualquier ente en el universo, la Tierra responde de varias maneras ante el impacto de la actividad solar. Haciéndolo mediante la actividad geomagnética (esto es, perturbaciones que acontecen en el campo magnético terrestre)."
+        "A": "A) los organismos están formados por millones de células.",
+        "B": "B) los organismos se reproducen por células sexuales.",
+        "C": "C) la célula es un sistema biológico.",
+        "D": "D) la célula proviene de otra preexistente e igual."
       },
-      "correct_answer": "C"
-    },
-    {
-      "number": 88,
-      "subject": "Español",
-      "question": "88. Sinónimo de AVATAR",
-      "options": {
-        "A": "A) Destino.",
-        "B": "B) Cambio.",
-        "C": "C) Conflicto.",
-        "D": "D) Aflicción."
-      },
-      "correct_answer": "B"
+      "correct_answer": "D"
     },
     {
       "number": 92,
@@ -175,14 +243,38 @@
       "correct_answer": "D"
     },
     {
-      "number": 118,
-      "subject": "Historia de México",
-      "question": "118. La inauguración de Bellas Artes y el reconocimiento de la Autonomía Universitaria ocurrieron durante el periodo conocido como",
+      "number": 110,
+      "subject": "Historia Universal",
+      "question": "110. Los enormes presupuestos militares por la Guerra Fría y el predominio de Estados burocráticos con gasto excesivo fueron causas de la",
       "options": {
-        "A": "A) Unidad Nacional.",
-        "B": "B) Cardenismo.",
-        "C": "C) Paleontología.",
-        "D": "D) Maximato."
+        "A": "A) invasión a Medio Oriente.",
+        "B": "B) caída del Bloque Soviético.",
+        "C": "C) formación de la OTAN.",
+        "D": "D) formación del Pacto de Varsovia."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 113,
+      "subject": "Historia de México",
+      "question": "113. Ordena cronológicamente los siguientes acontecimientos. I. Primera intervención francesa. II. Guerra con Estados Unidos. III. Independencia de Texas. IV. Intento de reconquista española.",
+      "options": {
+        "A": "A) IV, I, III y II",
+        "B": "B) I, IV, II y III",
+        "C": "C) IV, III, I y II",
+        "D": "D) I, II, IV y III"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 119,
+      "subject": "Historia de México",
+      "question": "119. La posición de México ante la Segunda Guerra Mundial fue",
+      "options": {
+        "A": "A) romper relaciones diplomáticas con los Aliados.",
+        "B": "B) no intervenir en ningún bando.",
+        "C": "C) vender petróleo a ambos contendientes.",
+        "D": "D) romper relaciones con las potencias del Eje."
       },
       "correct_answer": "D"
     }

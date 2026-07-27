@@ -1,7 +1,7 @@
 number,answer
 1,D
 2,A
-3,D
+3,B
 4,C
 5,A
 6,C
@@ -68,9 +68,9 @@ number,answer
 67,B
 68,C
 69,A
-70,D
+70,C
 71,A
-72,ERROR
+72,D
 73,C
 74,D
 75,B
@@ -79,7 +79,7 @@ number,answer
 78,A
 79,B
 80,A
-81,B
+81,C
 82,B
 83,D
 84,D
@@ -102,7 +102,7 @@ number,answer
 101,A
 102,C
 103,B
-104,D
+104,A
 105,B
 106,C
 107,B
@@ -111,9 +111,9 @@ number,answer
 110,A
 111,A
 112,B
-113,D
+113,A
 114,A
-115,C
+115,D
 116,B
 117,C
 118,A

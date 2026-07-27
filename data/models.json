@@ -189,6 +189,17 @@
     }
   },
   {
+    "id": "poolside/laguna-s-2.1:free",
+    "name": "Poolside: Laguna S 2.1 (free)",
+    "provider": "poolside",
+    "type": "moe",
+    "parameters": 117561977600,
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  },
+  {
     "id": "poolside/laguna-xs-2.1",
     "name": "Poolside: Laguna XS 2.1",
     "provider": "poolside",

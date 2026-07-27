@@ -7,8 +7,8 @@
   "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
   "total": {
     "questions": 120,
-    "correct": 112,
-    "percentage": 93.33
+    "correct": 113,
+    "percentage": 94.17
   },
   "subjects": {
     "Biología": {
@@ -28,8 +28,8 @@
     },
     "Física": {
       "questions": 16,
-      "correct": 14,
-      "percentage": 87.5
+      "correct": 15,
+      "percentage": 93.75
     },
     "Geografía": {
       "questions": 10,
@@ -81,26 +81,6 @@
         "alt": "Figura asociada a la pregunta 2.",
         "content": "En la figura se observa un sistema de coordenadas cartesianas con los ejes x e y. El eje y está orientado hacia arriba y el eje x hacia la derecha. Se presentan tres vectores de fuerza representados por flechas:\n\n1. Un vector de 10 N que se extiende verticalmente hacia arriba, alineado con el eje y.\n2. Un vector de 8 N que forma un ángulo de 30° con el eje x, apuntando hacia la derecha y hacia arriba.\n3. Un vector de 9 N que forma un ángulo de 75° con el eje x, también apuntando hacia la derecha y hacia arriba.\n\nAdemás, se incluye una tabla en la parte superior de la figura que muestra los valores del seno y coseno para los ángulos de 30°, 45° y 75°. La tabla tiene tres columnas: \"Ángulo\", \"Seno\" y \"Coseno\". Los valores son los siguientes:\n\n- Para 30°: Seno = 0.5, Coseno = 0.8\n- Para 45°: Seno = 0.7, Coseno = 0.7\n- Para 75°: Seno = 0.9, Coseno = 0.3\n\nLos vectores están etiquetados con sus respectivas magnitudes en Newtons (N) y los ángulos están indicados en grados.",
         "derived_from": "area-1-q2.webp"
-      }
-    },
-    {
-      "number": 13,
-      "subject": "Física",
-      "question": "13. Tres recipientes idénticos A, B y C contienen igual cantidad de diferentes líquidos, las densidades de los líquidos son p_A > p_B > p_C, ¿cómo es la presión en las bases de los recipientes? Considera. p_A = presión sobre la base A. p_B​ = presión sobre la base B. p_C​ = presión sobre la base C.",
-      "options": {
-        "A": "A) P_A = P_B = P_C",
-        "B": "B) \\(P_A > P_B > P_C\\)",
-        "C": "C) \\(P_B > P_A > P_C\\)",
-        "D": "D) \\(P_C > P_B > P_A\\)"
-      },
-      "correct_answer": "B",
-      "reference": {
-        "type": "text",
-        "path": "area-1-q13.webp",
-        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp13.webp",
-        "alt": "Figura asociada a la pregunta 13.",
-        "content": "La figura presenta tres cubos etiquetados como A, B y C. Cada cubo está representado en una perspectiva tridimensional, mostrando sus aristas y caras. \n\nEl cubo A tiene líneas punteadas que indican las aristas ocultas en la parte superior y lateral, sugiriendo que la cara superior está vista desde un ángulo. Las líneas punteadas en el cubo A son visibles en la parte superior izquierda y en la parte trasera.\n\nEl cubo B también tiene líneas punteadas, pero estas se encuentran en la parte superior y en la cara lateral derecha, lo que indica que la vista es diferente a la del cubo A. La cara frontal del cubo B es más prominente, y las líneas punteadas sugieren que hay aristas ocultas en la parte superior y lateral.\n\nEl cubo C presenta una disposición similar, con líneas punteadas que indican aristas ocultas, pero en este caso, las líneas están en la parte superior y en la cara lateral izquierda. La cara frontal del cubo C es visible, y las líneas punteadas sugieren que hay aristas que no son completamente visibles.\n\nCada cubo tiene un diseño similar, pero las posiciones de las líneas punteadas y la orientación de las caras visibles son diferentes entre ellos.",
-        "derived_from": "area-1-q13.webp"
       }
     },
     {

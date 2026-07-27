@@ -43,7 +43,6 @@
     "models": [
       "apple-foundation-system",
       "deepseek-v4-flash-thinking-medium",
-      "gemma-4-e2b",
       "gemma-4-e2b-thinking-medium",
       "gemma-4-e2b-thinking-none",
       "hy3-preview-thinking-medium",
@@ -55,7 +54,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -128,7 +126,6 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -175,10 +172,8 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
-      "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
-      "phi-4-thinking-high",
-      "qwen3.5-0.8b-mlx"
+      "phi-4-thinking-high"
     ]
   },
   {
@@ -204,7 +199,6 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
       "gemma-4-e4b-thinking-none",
       "phi-4-thinking-high",
       "qwen3.5-0.8b-thinking-high",
@@ -229,7 +223,6 @@
       "apple-foundation-system",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -253,7 +246,6 @@
       "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -274,9 +266,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -297,10 +287,9 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -321,6 +310,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-low",
       "gpt-oss-20b-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
@@ -349,7 +339,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -379,7 +368,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -402,6 +390,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-medium",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
@@ -413,7 +402,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -465,7 +453,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -535,10 +522,9 @@
       "apple-foundation-system",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-medium",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
@@ -553,7 +539,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -583,7 +568,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -607,7 +591,6 @@
       "gemma-4-e2b-thinking-medium",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -636,7 +619,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -667,12 +649,9 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
-      "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -719,7 +698,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -748,7 +726,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -779,7 +756,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -854,9 +830,8 @@
       "apple-foundation-system",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
@@ -868,7 +843,6 @@
       "laguna-xs-2.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "minimax-m3-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -893,7 +867,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -972,7 +945,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -1000,10 +972,8 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
       "gemma-4-e4b-thinking-none",
-      "phi-4-thinking-high",
-      "qwen3.5-0.8b-mlx"
+      "phi-4-thinking-high"
     ]
   },
   {
@@ -1028,14 +998,11 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
-      "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
       "phi-4-thinking-high",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-9b"
     ]
   },
@@ -1061,6 +1028,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-low",
@@ -1069,8 +1037,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "phi-4-thinking-high",
       "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx"
+      "phi-4-thinking-medium"
     ]
   },
   {
@@ -1090,9 +1057,8 @@
       "apple-foundation-system",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gpt-5.6-terra-thinking-medium",
       "gpt-oss-120b-thinking-medium",
@@ -1108,7 +1074,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -1131,9 +1096,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
@@ -1193,8 +1156,8 @@
       "apple-foundation-system",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gpt-5.6-terra-thinking-medium",
       "gpt-oss-120b-thinking-medium",
@@ -1212,7 +1175,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -1236,9 +1198,8 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
@@ -1249,7 +1210,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -1310,7 +1270,6 @@
       "apple-foundation-system",
       "gemma-4-e2b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -1331,7 +1290,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none"
     ]
   },
@@ -1374,13 +1333,11 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -1403,7 +1360,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none"
     ]
   },
@@ -1423,7 +1380,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -1453,7 +1409,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -1484,15 +1439,13 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
-      "gemma-4-e4b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
       "phi-4-thinking-high",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -1526,7 +1479,6 @@
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "phi-4-thinking-high",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -1555,7 +1507,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -1584,7 +1535,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -1612,7 +1562,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -1673,7 +1622,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -1703,7 +1651,7 @@
     "models": [
       "apple-foundation-system",
       "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gpt-5.6-terra-thinking-medium",
@@ -1746,7 +1694,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -1774,7 +1721,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -1795,8 +1741,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -1842,12 +1786,10 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gpt-oss-20b-thinking-low",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -1869,7 +1811,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -1893,9 +1834,8 @@
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
@@ -1914,7 +1854,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -1945,7 +1884,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -1967,7 +1905,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -1994,7 +1931,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -2042,9 +1978,8 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
       "gpt-oss-120b-thinking-medium",
@@ -2090,7 +2025,6 @@
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -2177,7 +2111,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -2198,9 +2131,8 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -2252,7 +2184,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-120b-thinking-medium",
@@ -2264,7 +2196,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -2293,11 +2224,9 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
-      "gemma-4-e4b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-120b-thinking-medium",
-      "laguna-s-2.1-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -2329,8 +2258,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
@@ -2356,8 +2283,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx"
+      "gemma-4-e4b-thinking-none"
     ]
   },
   {
@@ -2375,11 +2301,11 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
-      "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
@@ -2387,7 +2313,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -2413,7 +2338,6 @@
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -2434,16 +2358,14 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -2467,7 +2389,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-none",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
@@ -2476,7 +2397,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -2519,13 +2439,11 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
-      "gemma-4-e4b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
-      "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
       "mimo-v2.5-thinking-medium"
     ]
@@ -2546,7 +2464,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -2567,10 +2484,9 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -2592,7 +2508,6 @@
     "models": [
       "apple-foundation-system",
       "gemini-2.5-flash-lite-thinking-medium",
-      "gemma-4-e2b",
       "gemma-4-e2b-thinking-none",
       "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-medium",
@@ -2604,7 +2519,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -2630,7 +2544,6 @@
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gpt-5.6-terra-thinking-medium",
       "gpt-oss-120b-thinking-medium",
@@ -2666,10 +2579,8 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-none",
       "laguna-s-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -2690,9 +2601,8 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gpt-oss-20b-thinking-low",
       "laguna-xs-2.1-thinking-medium",
@@ -2702,7 +2612,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -2725,7 +2634,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-120b-thinking-medium",
@@ -2734,7 +2643,6 @@
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -2765,7 +2673,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -2794,11 +2701,9 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
-      "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-low",
-      "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
@@ -2806,7 +2711,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -2827,6 +2731,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
@@ -2837,7 +2742,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -2867,7 +2771,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e2b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -2899,7 +2802,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -2930,12 +2832,11 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "laguna-s-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -2960,7 +2861,6 @@
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -2992,9 +2892,8 @@
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
@@ -3013,7 +2912,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -3055,7 +2953,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -3076,8 +2973,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
-      "gemma-4-e4b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
@@ -3106,7 +3002,6 @@
       "apple-foundation-system",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
-      "gpt-oss-120b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
@@ -3114,7 +3009,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -3137,7 +3031,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -3166,7 +3059,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -3233,7 +3125,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -3263,7 +3154,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -3286,7 +3176,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -3314,7 +3203,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -3338,7 +3226,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
@@ -3348,7 +3235,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -3416,9 +3302,8 @@
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
@@ -3437,7 +3322,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -3461,7 +3345,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -3483,10 +3366,10 @@
     "models": [
       "apple-foundation-system",
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -3511,7 +3394,6 @@
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -3539,9 +3421,8 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-low",
@@ -3606,9 +3487,8 @@
     "models": [
       "apple-foundation-system",
       "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-120b-thinking-medium",
@@ -3624,7 +3504,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -3651,9 +3530,8 @@
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gpt-5.6-terra-thinking-medium",
       "gpt-oss-120b-thinking-medium",
@@ -3669,7 +3547,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -3711,9 +3588,8 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
@@ -3723,7 +3599,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
@@ -3763,8 +3638,7 @@
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
-      "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx"
+      "laguna-xs-2.1-thinking-medium"
     ]
   },
   {
@@ -3782,9 +3656,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
@@ -3796,7 +3668,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -3820,9 +3691,8 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-120b-thinking-medium",
@@ -3830,7 +3700,6 @@
       "gpt-oss-20b-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -3853,7 +3722,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -3874,14 +3742,12 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
-      "laguna-s-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -3905,9 +3771,8 @@
     "models": [
       "apple-foundation-system",
       "gemini-2.5-flash-lite-thinking-medium",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gpt-oss-20b-thinking-low",
       "laguna-s-2.1-thinking-medium",
@@ -3917,7 +3782,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -3941,10 +3805,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -3965,9 +3826,8 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
@@ -3980,7 +3840,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -4004,7 +3863,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -4032,7 +3890,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -4063,7 +3920,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
@@ -4086,9 +3942,8 @@
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
@@ -4107,7 +3962,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -4140,7 +3994,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -4163,8 +4016,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium"
@@ -4193,7 +4044,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -4234,7 +4084,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -4255,8 +4104,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
-      "gemma-4-e4b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
@@ -4265,7 +4113,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -4287,7 +4134,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -4342,7 +4188,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -4366,7 +4211,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -4387,6 +4231,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none"
     ]
   },
@@ -4413,10 +4258,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -4440,7 +4282,6 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -4461,7 +4302,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -4491,7 +4331,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -4515,7 +4354,6 @@
     "models": [
       "apple-foundation-system",
       "gpt-oss-20b-thinking-low",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -4573,11 +4411,10 @@
     "models": [
       "apple-foundation-system",
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
-      "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-medium",
-      "laguna-s-2.1-thinking-medium",
       "qwen3.5-9b"
     ]
   },
@@ -4605,15 +4442,13 @@
       "apple-foundation-system",
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gpt-5.6-terra-thinking-medium",
       "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-medium",
       "hy3-preview-thinking-medium",
-      "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
@@ -4621,7 +4456,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -4654,8 +4488,8 @@
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
       "gpt-oss-120b-thinking-medium",
@@ -4671,7 +4505,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -4702,11 +4535,8 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
-      "gemma-4-e4b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
-      "gpt-oss-120b-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -4772,9 +4602,8 @@
       "apple-foundation-system",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-medium",
@@ -4783,7 +4612,6 @@
       "laguna-xs-2.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "minimax-m3-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -4807,14 +4635,12 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -4840,9 +4666,8 @@
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
@@ -4860,7 +4685,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -4887,7 +4711,6 @@
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
@@ -4905,7 +4728,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -4938,6 +4760,7 @@
     "models": [
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-medium",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
@@ -4947,7 +4770,6 @@
       "gpt-oss-20b-thinking-medium",
       "grok-4.5-thinking-medium",
       "hy3-preview-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-9b",
       "qwen3.5-9b-thinking-low",
       "qwen3.5-9b-thinking-none",
@@ -4978,7 +4800,6 @@
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
       "gpt-oss-20b-thinking-low",
@@ -5007,7 +4828,6 @@
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
       "gpt-oss-120b-thinking-medium",
@@ -5025,7 +4845,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -5059,9 +4878,7 @@
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e2b",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-low",
@@ -5072,7 +4889,6 @@
       "laguna-xs-2.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "phi-4-thinking-high",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -5097,9 +4913,8 @@
     "models": [
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
       "gpt-oss-120b-thinking-medium",
@@ -5115,7 +4930,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -5141,7 +4955,6 @@
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemma-4-e2b-thinking-none",
-      "laguna-s-2.1-thinking-medium",
       "minimax-m3-thinking-medium",
       "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
@@ -5164,7 +4977,6 @@
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
@@ -5182,7 +4994,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -5206,7 +5017,6 @@
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
       "grok-4.5-thinking-medium",
@@ -5218,7 +5028,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -5240,8 +5049,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "deepseek-v4-flash-thinking-medium",
-      "gemma-4-e2b",
-      "gemma-4-e4b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-120b-thinking-medium",
@@ -5280,7 +5088,6 @@
       "gpt-oss-20b-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
@@ -5305,7 +5112,6 @@
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
       "phi-4-thinking-high",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -5338,7 +5144,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -5363,7 +5168,6 @@
     "models": [
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -5399,7 +5203,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -5432,7 +5235,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -5454,9 +5256,8 @@
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -5476,30 +5277,32 @@
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
-    "number": 105,
-    "subject": "Historia Universal",
-    "question": "105. Una consecuencia de la Primera Guerra Mundial fue la",
+    "number": 91,
+    "subject": "Biología",
+    "question": "91. Un postulado de la Teoría celular afirma que",
     "options": {
-      "A": "A) creación de la Organización de las Naciones Unidas.",
-      "B": "B) formación de dos bloques: capitalista y socialista.",
-      "C": "C) desintegración del Imperio austrohúngaro.",
-      "D": "D) desintegración del bloque soviético."
+      "A": "A) los organismos están formados por millones de células.",
+      "B": "B) los organismos se reproducen por células sexuales.",
+      "C": "C) la célula es un sistema biológico.",
+      "D": "D) la célula proviene de otra preexistente e igual."
     },
-    "correct_answer": "C",
+    "correct_answer": "D",
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
-      "gemma-4-e2b",
-      "gemma-4-e4b-thinking-none"
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -5516,7 +5319,7 @@
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
@@ -5538,7 +5341,7 @@
     "area": 2,
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium"
     ]
@@ -5557,86 +5360,40 @@
     "area": 2,
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
-      "gemma-4-e2b",
-      "gemma-4-e4b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "laguna-s-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
-    "number": 35,
-    "subject": "Química",
-    "question": "¿Cuál de los siguientes compuestos es un ácido carboxílico?",
+    "number": 42,
+    "subject": "Geografía",
+    "question": "Las dos áreas de mayor concentración de población en el mundo son",
     "options": {
-      "A": {
-        "label": "A",
-        "image": "area-2-q35-opt-A.webp",
-        "alt": "Opción A para la pregunta 35.",
-        "image_description": "La opción A presenta la estructura química de un compuesto orgánico. Se observa un grupo funcional que incluye un carbono central (C) unido a un grupo hidroxilo (–OH) y a un grupo carbonilo (C=O). A la izquierda del carbono central, hay un grupo metilo (–CH₃). La disposición de los átomos sugiere que el compuesto es un alcohol con un grupo carbonilo, lo que indica que podría ser un compuesto de tipo cetona o un alcohol secundario. La fórmula general se puede interpretar como un alcohol que tiene un grupo carbonilo en la misma cadena de carbonos."
-      },
-      "B": {
-        "label": "B",
-        "image": "area-2-q35-opt-B.webp",
-        "alt": "Opción B para la pregunta 35.",
-        "image_description": "La opción B presenta la estructura química de un compuesto orgánico. Se observa un grupo funcional amida, que se identifica por la presencia de un carbono (C) unido a un grupo carbonilo (C=O) y a un grupo amino (NH2). La cadena principal está formada por un carbono que está unido a un grupo metilo (CH3) y al grupo amino. La representación muestra la disposición de los átomos y los enlaces entre ellos, donde el carbono del grupo carbonilo está en el centro, con el grupo metilo a la izquierda y el grupo amino a la derecha. Esta estructura corresponde a la acetamida, un compuesto que se utiliza en diversas aplicaciones químicas."
-      },
-      "C": {
-        "label": "C",
-        "image": "area-2-q35-opt-C.webp",
-        "alt": "Opción C para la pregunta 35.",
-        "image_description": "La opción C presenta la fórmula estructural de un hidrocarburo lineal. Se observa que está compuesta por tres grupos metilo (CH₃) y un grupo metileno (CH₂) en el medio, formando una cadena de tres átomos de carbono. La representación es la siguiente: CH₃-CH₂-CH₃. Este compuesto es el propano, un alcano que pertenece a la serie de los hidrocarburos saturados. La estructura indica que cada carbono está unido a suficientes átomos de hidrógeno para cumplir con la tetravalencia del carbono."
-      },
-      "D": {
-        "label": "D",
-        "image": "area-2-q35-opt-D.webp",
-        "alt": "Opción D para la pregunta 35.",
-        "image_description": "La opción D presenta la estructura química de un compuesto orgánico. En la parte izquierda de la imagen se observa un grupo metilo (CH₃) unido a un carbono central (C) que también está conectado a un grupo etóxido (OCH₂CH₃). Este carbono central está unido a un grupo carbonilo (C=O), lo que indica que se trata de un compuesto que contiene un enlace doble entre el carbono y el oxígeno. La disposición de los grupos sugiere que el compuesto es un éster o un cetona, dependiendo del contexto de la pregunta. La estructura se puede describir como un carbono central que tiene un grupo metilo, un grupo etóxido y un grupo carbonilo, lo que le confiere características específicas en reacciones químicas."
-      }
+      "A": "A) Asia Oriental y Europa Occidental.",
+      "B": "B) Asia Occidental y Europa Occidental.",
+      "C": "C) Asia Meridional y Europa Occidental.",
+      "D": "D) Asia Meridional y Europa Meridional."
     },
     "correct_answer": "A",
     "area": 2,
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
+      "gpt-oss-20b-thinking-low",
+      "gpt-oss-20b-thinking-medium",
       "laguna-s-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 78,
-    "subject": "Español",
-    "question": "Con el texto, el autor intenta",
-    "options": {
-      "A": "A) denunciar los efectos nocivos del papel periódico.",
-      "B": "B) narrar la despersonalización de un individuo obsesionado con las noticias.",
-      "C": "C) describir los síntomas de la intoxicación por tinta.",
-      "D": "D) mostrar el malestar de un individuo al leer el periódico."
-    },
-    "correct_answer": "B",
-    "reference": {
-      "type": "text",
-      "content": "Tiempo libre\n\nTodas las mañanas compro el periódico y todas las mañanas, al leerlo, me mancho los dedos con tinta. Nunca me ha importado ensuciármelos con tal de estar al día en las noticias. Pero esta mañana sentí un gran malestar apenas toqué el periódico.\n\nCreí que solamente se trataba de uno de mis acostumbrados mareos. Pagué el importe del diario y regresé a mi casa. Mi esposa había salido de compras. Me acomodé en mi sillón favorito, encendí un cigarro y me puse a leer la primera página. Luego de enterarme de que el jet se había desplomado, volví a sentirme mal; vi mis dedos y las manos con toda la calma y, ya tranquilo, regresé al sillón. Cuando iba a tomar mi cigarro, descubrí que una mancha negra cubría mis dedos.\n\nDe inmediato retorné al baño, me tallé con zacate, piedra pómez y, finalmente, me lavé con blanqueador; pero el intento fue inútil, porque la mancha creció y me invadió hasta los codos. Ahora, más preocupado que molesto, llamé al doctor y me recomendó que lo mejor era que tomara unas vacaciones, o que durmiera. Después, llamé a las oficinas del periódico para elevar mi más rotunda protesta; me contestó una voz de mujer, que solamente me insultó y me trató de loco. En el momento en que hablaba por teléfono, me di cuenta de que, en realidad, no se trataba de una mancha, sino de un número infinito de letras pequeñísimas, apeñuscadas, como una inquieta multitud de hormigas negras. Cuando colgué, las letritas habían avanzado ya hasta mi cintura.\n\nAsustado, corrí hacia la puerta de entrada; pero, antes de poder abrirla. Me flaquearon las piernas y caí estrepitosamente. Tirado bocarriba descubrí que, además de la gran cantidad de letras hormiga que ahora ocupaban todo mi cuerpo, había una que otra fotografía. Así estuve durante varias horas hasta que escuché que abrían la puerta. Me costó trabajo hilar la idea, pero al fin pensé que había llegado a mi salvación. Entró mi esposa, me levantó del suelo, me cargó bajo el brazo, se acomodó en mi sillón favorito, me hojeó despreocupadamente y se puso a leer.\n\nGuillermo Samperio.",
-      "title": "Tiempo libre",
-      "author": "Guillermo Samperio",
-      "source": null
-    },
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "gemma-4-e2b",
-      "gemma-4-e4b-thinking-none",
-      "gpt-oss-120b-thinking-medium"
+      "qwen3.5-9b",
+      "qwen3.5-9b-thinking-none"
     ]
   },
   {
@@ -5653,7 +5410,7 @@
     "area": 2,
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
-      "gemma-4-e2b"
+      "gemma-4-e2b-thinking-low"
     ]
   },
   {
@@ -5670,46 +5427,13 @@
     "area": 2,
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
-      "gemma-4-e2b",
-      "gemma-4-e4b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium"
-    ]
-  },
-  {
-    "number": 1,
-    "subject": "Física",
-    "question": "¿Qué representa la siguiente gráfica?",
-    "options": {
-      "A": "A) La caída libre de un cuerpo desde el reposo.",
-      "B": "B) Un lanzamiento vertical hacia abajo.",
-      "C": "C) Un movimiento con aceleración positiva.",
-      "D": "D) Un movimiento con aceleración negativa."
-    },
-    "correct_answer": "D",
-    "reference": {
-      "type": "text",
-      "path": "area-3-q1.webp",
-      "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp1.webp",
-      "alt": "Figura asociada a la pregunta 1.",
-      "content": "La figura presenta un gráfico de velocidad (v) en función del tiempo (t). El eje vertical representa la velocidad, medida en metros por segundo (m/s), y está etiquetado con la unidad correspondiente. El eje horizontal representa el tiempo, medido en segundos (s). \n\nLa línea del gráfico es una diagonal que desciende desde un punto en el eje vertical, donde la velocidad es positiva, hasta el eje horizontal, donde la velocidad se vuelve cero. La línea forma un ángulo recto con el eje horizontal en el punto donde la velocidad es cero, indicando que el objeto se detiene en ese instante. La pendiente de la línea es negativa, lo que sugiere que la velocidad disminuye de manera uniforme a medida que avanza el tiempo. No hay valores numéricos específicos indicados en los ejes, pero la forma del gráfico sugiere un movimiento de desaceleración.",
-      "derived_from": "area-3-q1.webp"
-    },
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemma-4-e2b",
-      "gemma-4-e4b-thinking-none",
-      "gpt-oss-120b-thinking-medium",
-      "qwen3.5-0.8b-mlx",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b"
     ]
   },
   {
@@ -5726,7 +5450,7 @@
     "area": 3,
     "area_name": "Ciencias Sociales",
     "models": [
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
@@ -5737,7 +5461,44 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 29,
+    "subject": "Química",
+    "question": "Nutrimento antioxidante cuyo exceso ocasiona sangrados.",
+    "options": {
+      "A": "A) Vitamina E.",
+      "B": "B) Vitamina D.",
+      "C": "C) Tirosina.",
+      "D": "D) Triptófano."
+    },
+    "correct_answer": "A",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "gemma-4-e2b-thinking-low"
+    ]
+  },
+  {
+    "number": 33,
+    "subject": "Geografía",
+    "question": "Al viajar de Morelos a Guerrero, qué sierra se recorre.",
+    "options": {
+      "A": "A) Madre del Sur.",
+      "B": "B) Madre Occidental.",
+      "C": "C) Madre Oriental.",
+      "D": "D) de Guadalupe."
+    },
+    "correct_answer": "A",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "gemma-4-e2b-thinking-low",
+      "laguna-xs-2.1-thinking-medium",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -5757,43 +5518,90 @@
     "area": 3,
     "area_name": "Ciencias Sociales",
     "models": [
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium"
     ]
   },
   {
-    "number": 51,
+    "number": 54,
     "subject": "Matemáticas",
-    "question": "¿Cuáles gráficas son crecientes en todo su dominio?",
+    "question": "¿Cuál expresión representa la ley de senos?",
     "options": {
-      "A": "A) I y II",
-      "B": "B) I y IV",
-      "C": "C) II y IV",
-      "D": "D) I y III"
+      "A": "A) sen A/a = sen B/b",
+      "B": "B) sen A/b = sen B/a",
+      "C": "C) sen A/c = sen B/a",
+      "D": "D) sen B/c = sen A/b"
     },
-    "correct_answer": "D",
+    "correct_answer": "A",
     "reference": {
       "type": "text",
-      "title": "Cuatro gráficas etiquetadas I, II, III y IV",
-      "layout": "horizontal",
-      "content": "La primera gráfica (I) presenta una curva que se aproxima al eje x a medida que se desplaza hacia la derecha, pero nunca lo toca, y se eleva hacia el infinito en el eje y. La curva está situada en el primer cuadrante y se extiende hacia el segundo cuadrante, comenzando cerca del origen (0,0) y curvándose hacia arriba.\n\nLa segunda gráfica (II) muestra una curva que se asemeja a una hipérbola. Esta curva se encuentra en el segundo y cuarto cuadrante, cruzando el eje y en el punto (0,0). A medida que se desplaza hacia la izquierda y hacia la derecha, la curva se aproxima a los ejes, pero no los toca, y se extiende hacia el infinito en ambas direcciones.\n\nLa tercera gráfica (III) es una línea recta que pasa por el origen (0,0) y tiene una pendiente positiva. La línea se extiende hacia el primer cuadrante y el tercer cuadrante, formando un ángulo agudo con el eje x.\n\nLa cuarta gráfica (IV) presenta una curva que se asemeja a una parábola invertida. Esta curva se encuentra en el primer y segundo cuadrante, comenzando en el eje y y descendiendo hacia el eje x, acercándose a este último sin tocarlo, y continuando hacia el infinito en el segundo cuadrante.",
-      "derived_from": [
-        "area-3-q51-opt-A.webp",
-        "area-3-q51-opt-B.webp",
-        "area-3-q51-opt-C.webp",
-        "area-3-q51-opt-D.webp"
-      ]
+      "path": "area-3-q54.webp",
+      "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp54.webp",
+      "alt": "Figura asociada a la pregunta 54.",
+      "content": "En la figura se presenta un triángulo etiquetado con los vértices A, B y C. El vértice A está en la parte inferior derecha, el vértice B en la parte inferior izquierda y el vértice C en la parte superior. Los lados del triángulo están marcados con las letras correspondientes: el lado opuesto al vértice A está etiquetado como \"c\", el lado opuesto al vértice B como \"a\" y el lado opuesto al vértice C como \"b\". Las líneas que forman el triángulo son de un grosor uniforme y están dibujadas en negro. No hay otras marcas o anotaciones en la figura.",
+      "derived_from": "area-3-q54.webp"
     },
     "area": 3,
     "area_name": "Ciencias Sociales",
     "models": [
-      "gemma-4-e2b",
-      "gemma-4-e4b",
+      "gemma-4-e2b-thinking-low",
+      "laguna-xs-2.1-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 72,
+    "subject": "Español",
+    "question": "¿Cuál es el interés del arqueólogo Adrián Velázquez Castro al crear el taller?",
+    "options": {
+      "A": "A) Dar a conocer los oficios prehispánicos.",
+      "B": "B) Continuar con la tradición mexica.",
+      "C": "C) Perfeccionar el trabajo manual indígena.",
+      "D": "D) Rescatar la manufactura precolombina."
+    },
+    "correct_answer": "D",
+    "reference": {
+      "type": "text",
+      "content": "El misterio de las joyas de concha\n\nAl igual que la turquesa, las plumas de aves exóticas y el oro, la concha (lo que conocemos como concha de mar) era un material precioso en el México prehispánico (anterior a la conquista y colonización españolas). Así lo prueban los cientos de piezas elaboradas con diversos tipos de conchas recuperadas en las distintas excavaciones a lo largo de todo el país: solo en las excavaciones que se realizan desde 1978 en la zona arqueológica del Templo Mayor de Tenochtitlan se han recuperado más de 2,300 objetos hechos con concha. Las piezas, que han ido apareciendo en diferentes excavaciones, eran depositadas en las tumbas como ofrendas funerarias para recrear el inframundo acuático.\n\nPara los mexicas, así como para las diversas culturas de Mesoamérica, la concha tenía una connotación sagrada, pues al ser un elemento acuático se asociaba con ese líquido esencial en el desarrollo de la vida. Además, por lo difícil que resultaba su obtención, era considerada un material de lujo, al que, por ejemplo, en Tenochtitlan, solo tenía acceso la clase gobernante.\n\nEl arqueólogo Adrián Velázquez Castro busca desde hace quince años las huellas de las herramientas empleadas por los artesanos prehispánicos en la elaboración de los objetos de concha. Y es que, a pesar de la gran cantidad de piezas recuperadas, no se han encontrado hasta ahora en la zona del Templo Mayor de Tenochtitlan restos de ningún taller o del área de producción de estos adornos.\n\nVelázquez empezó a trabajar en la clasificación de la colección de objetos de concha del Templo Mayor, pero su interés por conocer las formas de elaboración de estas piezas lo llevó a crear un proyecto de arqueología experimental que se convertiría, con el tiempo, en un taller de fabricación de la concha. Con este taller se pretende conocer, mediante la reconstrucción de las piezas antiguas con conchas modernas, las técnicas con las que se trabajó este material en la época prehispánica. Gracias al taller se ha podido saber, por ejemplo, que la producción del Templo Mayor fue muy estandarizada (se utilizaron la misma técnica y los mismos materiales), fue controlada por la clase gobernante y estuvo enfocada, casi exclusivamente, a la creación de objetos ornamentales.\n\nAl principio el taller se limitó a estudiar la colección de objetos de concha del Templo Mayor, pero poco a poco se extendió, y ya lleva realizados más de setecientos experimentos con otros objetos de concha del México prehispánico. «En gran parte gracias al trabajo de estudiantes de arqueología, tenemos ya un buen número de colecciones estudiadas, que van desde el norte de México hasta la zona maya, desde las etapas más tempranas, durante el período formativo, hasta el posclásico tardío, con la conquista española», comenta Adrián Velázquez Castro.\n\nEl Universal",
+      "title": "El misterio de las joyas de concha",
+      "author": null,
+      "source": "El Universal"
+    },
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
-      "gpt-oss-120b-thinking-medium",
-      "qwen3.5-0.8b-mlx",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "phi-4-thinking-high",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b"
+    ]
+  },
+  {
+    "number": 80,
+    "subject": "Español",
+    "question": "Selecciona la opción que contenga HOMÓFONOS.",
+    "options": {
+      "A": "A) Sebo — cebo",
+      "B": "B) Copiar — copear",
+      "C": "C) Arriar — arrear",
+      "D": "D) Trivial — tribal"
+    },
+    "correct_answer": "A",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "gemma-4-e2b-thinking-low"
     ]
   },
   {
@@ -5810,7 +5618,7 @@
     "area": 3,
     "area_name": "Ciencias Sociales",
     "models": [
-      "gemma-4-e2b"
+      "gemma-4-e2b-thinking-low"
     ]
   },
   {
@@ -5827,13 +5635,12 @@
     "area": 3,
     "area_name": "Ciencias Sociales",
     "models": [
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -5842,73 +5649,64 @@
     ]
   },
   {
-    "number": 4,
-    "subject": "Física",
-    "question": "Una caja de 50 kg está en un elevador que cae. ¿Fuerza que el piso ejerce sobre la caja? (g=10 m/s²)",
+    "number": 22,
+    "subject": "Química",
+    "question": "¿Qué propiedad utilizó Mendeleev para organizar los elementos?",
     "options": {
-      "A": "A) 5,000 N",
-      "B": "B) 50 N",
-      "C": "C) 5 N",
-      "D": "D) 0 N"
+      "A": "A) Punto de ebullición.",
+      "B": "B) Masa atómica.",
+      "C": "C) Número atómico.",
+      "D": "D) Punto de fusión."
     },
-    "correct_answer": "D",
+    "correct_answer": "B",
     "area": 4,
     "area_name": "Humanidades y de las Artes",
     "models": [
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
-    "number": 28,
-    "subject": "Química",
-    "question": "Entre los contaminantes primarios del aire se encuentran los óxidos de",
+    "number": 63,
+    "subject": "Español",
+    "question": "Enunciado que ejemplifica la función referencial.",
     "options": {
-      "A": "A) Ca y Pb",
-      "B": "B) Hg y N",
-      "C": "C) C y N",
-      "D": "D) N y Pb"
+      "A": "A) ¡Qué lata con esta lluvia!",
+      "B": "B) Seguirán las lluvias en el noreste del país.",
+      "C": "C) Hoy llueve mucho, pareciera que están lavando el mundo.",
+      "D": "D) Los maleantes fueron repelidos por otra lluvia de piedras."
+    },
+    "correct_answer": "B",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e4b-thinking-none"
+    ]
+  },
+  {
+    "number": 64,
+    "subject": "Español",
+    "question": "Identifica la función de la lengua: 'La lengua del amor, a quien no sabe lo que es amor ¡qué bárbara parece!'",
+    "options": {
+      "A": "A) Metalingüística.",
+      "B": "B) Apelativa.",
+      "C": "C) Poética.",
+      "D": "D) Fática."
     },
     "correct_answer": "C",
     "area": 4,
     "area_name": "Humanidades y de las Artes",
     "models": [
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
-      "minimax-m3-thinking-medium",
-      "phi-4-thinking-high"
-    ]
-  },
-  {
-    "number": 70,
-    "subject": "Español",
-    "question": "Son temas que aborda el autor del texto 'La mente colectiva'.",
-    "options": {
-      "A": "A) Lenguaje, industria y literatura de ficción.",
-      "B": "B) Lenguaje, productos culturales y tecnología.",
-      "C": "C) Organismos colectivos, democracia y literatura.",
-      "D": "D) Organismos colectivos, computadoras y productos culturales."
-    },
-    "correct_answer": "B",
-    "reference": {
-      "type": "text",
-      "content": "La mente colectiva\n\nEn su famosa novela *Más que humano* (1953), el escritor estadounidense Theodore Sturgeon plantea el surgimiento del siguiente paso evolutivo del *Homo sapiens*: un colectivo de seis individuos con distintas capacidades que, unidos por telepatía, conforman un organismo múltiple en el que cada uno colabora por el bien de todos.\n\nEn la naturaleza existen realmente estos \"organismos colectivos\", como las colonias de hormigas o de abejas, constituidos por muchos cuerpos con un genoma compartido que trabajan por el bienestar común. Quizá inspirándose en ellas, muchos otros escritores de ciencia ficción han soñado que la humanidad, a través de múltiples mentes conectadas mediante algo semejante a la telepatía, podría llegar a formar un \"superorganismo\".\n\nDesgraciadamente, la transmisión de pensamiento no pasa de ser una fantasía: no hay ningún mecanismo físico o fisiológico que pudiera darle sustento. Sin embargo, quizá la humanidad, en cierta forma, ha dado ya el paso para convertirse en algo más que un simple conjunto de individuos.\n\nEn efecto: desde que nuestra especie desarrolló un lenguaje, y con él una cultura, los humanos comenzamos a intercambiar información cultural que no forma parte de nuestro acervo genético, pero que también aumenta nuestra adaptación al medio y favorece así nuestra supervivencia.\n\nFuego, agricultura, escritura, gobierno, arquitectura e ingeniería, educación, industria, ciencia y tecnología, arte... todos son productos culturales que los humanos compartimos unos con otros —y con nuestras crías— a través de la comunicación. El lenguaje es una especie de \"telepatía\" rudimentaria que nos permite mantener un acervo compartido en los cerebros de toda la población: una cultura. Y la cultura es, asimismo, una forma tosca de \"memoria\" extracerebral.\n\nDiversas innovaciones tecnológicas —alfabeto, papel, libros, imprenta, bibliotecas, y más recientemente computadoras e internet— han sido \"prótesis\" mentales y culturales que, al potenciar la comunicación, aumentan nuestras posibilidades de acción y supervivencia, comparadas con las de otros organismos... y nos dan también un poder de destrucción que nunca había existido sobre el planeta.\n\nEl lenguaje, junto con otros inventos culturales —la educación, la discusión y el debate, la democracia—, ha permitido que los humanos comencemos a funcionar como una verdadera comunidad de organismos que podemos (al menos en teoría) tomar decisiones colectivamente, con miras al bien común.\n\nHoy es en las redes sociales donde se lleva a cabo, de manera cada vez más amplia e intensa, esta constante discusión comunitaria. Y ya está teniendo impacto en las decisiones que tomamos como sociedad.\n\nConectados mediante la red estamos pensando colectivamente, como sociedad, más intensamente que nunca. Y lo hacemos no mediante la transmisión del pensamiento, sino mediante la discusión. Quizá éste sea el embrión de la verdadera \"telepatía\" humana.",
-      "title": "La mente colectiva",
-      "author": null,
-      "source": "Texto sobre la novela *Más que humano* (1953) de Theodore Sturgeon"
-    },
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e2b",
-      "gemma-4-e4b-thinking-none",
-      "gpt-oss-120b-thinking-medium",
-      "laguna-s-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx"
+      "grok-4.5-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -5925,31 +5723,12 @@
     "area": 4,
     "area_name": "Humanidades y de las Artes",
     "models": [
-      "gemma-4-e2b",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 117,
-    "subject": "Filosofía",
-    "question": "¿Qué postura sobre los valores representa: 'El valor de la vida depende de quién está vivo'?",
-    "options": {
-      "A": "A) Objetivista.",
-      "B": "B) Pragmatista.",
-      "C": "C) Subjetivista.",
-      "D": "D) Utilitarista."
-    },
-    "correct_answer": "C",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e2b",
-      "gemma-4-e4b-thinking-none"
     ]
   },
   {
@@ -6004,7 +5783,6 @@
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "phi-4-thinking-high",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -6054,7 +5832,6 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "gemma-4-e2b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -6083,32 +5860,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "phi-4-thinking-high",
       "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx"
-    ]
-  },
-  {
-    "number": 42,
-    "subject": "Geografía",
-    "question": "Las dos áreas de mayor concentración de población en el mundo son",
-    "options": {
-      "A": "A) Asia Oriental y Europa Occidental.",
-      "B": "B) Asia Occidental y Europa Occidental.",
-      "C": "C) Asia Meridional y Europa Occidental.",
-      "D": "D) Asia Meridional y Europa Meridional."
-    },
-    "correct_answer": "A",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b",
-      "gemma-4-e4b-thinking-low",
-      "gpt-oss-20b-thinking-low",
-      "gpt-oss-20b-thinking-medium",
-      "laguna-s-2.1-thinking-medium",
-      "qwen3.5-9b",
-      "qwen3.5-9b-thinking-none"
+      "phi-4-thinking-medium"
     ]
   },
   {
@@ -6126,7 +5878,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e2b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -6154,7 +5905,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -6185,7 +5935,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -6208,7 +5957,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e2b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -6230,8 +5978,7 @@
     "area": 3,
     "area_name": "Ciencias Sociales",
     "models": [
-      "gemma-4-e2b-thinking-none",
-      "laguna-s-2.1-thinking-medium"
+      "gemma-4-e2b-thinking-none"
     ]
   },
   {
@@ -6251,7 +5998,6 @@
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -6279,7 +6025,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -6322,7 +6067,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e2b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -6344,7 +6088,6 @@
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
@@ -6355,28 +6098,9 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 23,
-    "subject": "Química",
-    "question": "En general, en la tabla periódica los elementos con mayor carácter metálico se ubican en",
-    "options": {
-      "A": "A) los periodos superiores.",
-      "B": "B) los periodos inferiores.",
-      "C": "C) las columnas de la izquierda.",
-      "D": "D) las columnas de la derecha."
-    },
-    "correct_answer": "C",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "gemma-4-e4b",
-      "gemma-4-e4b-thinking-none"
     ]
   },
   {
@@ -6393,41 +6117,11 @@
     "area": 3,
     "area_name": "Ciencias Sociales",
     "models": [
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "qwen3.6-35b-a3b-thinking-medium"
-    ]
-  },
-  {
-    "number": 70,
-    "subject": "Español",
-    "question": "La frase 'inframundo acuático' se refiere a que ________ en el mundo de los muertos.",
-    "options": {
-      "A": "A) el elemento fuego no es predominante",
-      "B": "B) el ser es sagrado",
-      "C": "C) existe el agua como expresión de vida",
-      "D": "D) hay ríos y lagos"
-    },
-    "correct_answer": "C",
-    "reference": {
-      "type": "text",
-      "content": "El misterio de las joyas de concha\n\nAl igual que la turquesa, las plumas de aves exóticas y el oro, la concha (lo que conocemos como concha de mar) era un material precioso en el México prehispánico (anterior a la conquista y colonización españolas). Así lo prueban los cientos de piezas elaboradas con diversos tipos de conchas recuperadas en las distintas excavaciones a lo largo de todo el país: solo en las excavaciones que se realizan desde 1978 en la zona arqueológica del Templo Mayor de Tenochtitlan se han recuperado más de 2,300 objetos hechos con concha. Las piezas, que han ido apareciendo en diferentes excavaciones, eran depositadas en las tumbas como ofrendas funerarias para recrear el inframundo acuático.\n\nPara los mexicas, así como para las diversas culturas de Mesoamérica, la concha tenía una connotación sagrada, pues al ser un elemento acuático se asociaba con ese líquido esencial en el desarrollo de la vida. Además, por lo difícil que resultaba su obtención, era considerada un material de lujo, al que, por ejemplo, en Tenochtitlan, solo tenía acceso la clase gobernante.\n\nEl arqueólogo Adrián Velázquez Castro busca desde hace quince años las huellas de las herramientas empleadas por los artesanos prehispánicos en la elaboración de los objetos de concha. Y es que, a pesar de la gran cantidad de piezas recuperadas, no se han encontrado hasta ahora en la zona del Templo Mayor de Tenochtitlan restos de ningún taller o del área de producción de estos adornos.\n\nVelázquez empezó a trabajar en la clasificación de la colección de objetos de concha del Templo Mayor, pero su interés por conocer las formas de elaboración de estas piezas lo llevó a crear un proyecto de arqueología experimental que se convertiría, con el tiempo, en un taller de fabricación de la concha. Con este taller se pretende conocer, mediante la reconstrucción de las piezas antiguas con conchas modernas, las técnicas con las que se trabajó este material en la época prehispánica. Gracias al taller se ha podido saber, por ejemplo, que la producción del Templo Mayor fue muy estandarizada (se utilizaron la misma técnica y los mismos materiales), fue controlada por la clase gobernante y estuvo enfocada, casi exclusivamente, a la creación de objetos ornamentales.\n\nAl principio el taller se limitó a estudiar la colección de objetos de concha del Templo Mayor, pero poco a poco se extendió, y ya lleva realizados más de setecientos experimentos con otros objetos de concha del México prehispánico. «En gran parte gracias al trabajo de estudiantes de arqueología, tenemos ya un buen número de colecciones estudiadas, que van desde el norte de México hasta la zona maya, desde las etapas más tempranas, durante el período formativo, hasta el posclásico tardío, con la conquista española», comenta Adrián Velázquez Castro.\n\nEl Universal",
-      "title": "El misterio de las joyas de concha",
-      "author": null,
-      "source": "El Universal"
-    },
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemma-4-e4b",
-      "gemma-4-e4b-thinking-none",
-      "gpt-oss-120b-thinking-medium",
-      "laguna-s-2.1-thinking-medium",
-      "laguna-xs-2.1-thinking-medium",
-      "phi-4-thinking-high"
     ]
   },
   {
@@ -6444,11 +6138,9 @@
     "area": 4,
     "area_name": "Humanidades y de las Artes",
     "models": [
-      "gemma-4-e4b",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
@@ -6471,7 +6163,6 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -6517,7 +6208,6 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "gpt-oss-120b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
       "minimax-m3-thinking-medium"
     ]
@@ -6655,8 +6345,7 @@
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
-      "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx"
+      "gemma-4-e4b-thinking-none"
     ]
   },
   {
@@ -6674,7 +6363,6 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -6701,7 +6389,6 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "phi-4-thinking-high",
       "phi-4-thinking-low",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -6739,7 +6426,6 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -6777,7 +6463,6 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -6797,8 +6482,7 @@
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
-      "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx"
+      "gemma-4-e4b-thinking-none"
     ]
   },
   {
@@ -6914,28 +6598,6 @@
     "models": [
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-medium",
-      "qwen3.5-0.8b-mlx",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 91,
-    "subject": "Biología",
-    "question": "91. Un postulado de la Teoría celular afirma que",
-    "options": {
-      "A": "A) los organismos están formados por millones de células.",
-      "B": "B) los organismos se reproducen por células sexuales.",
-      "C": "C) la célula es un sistema biológico.",
-      "D": "D) la célula proviene de otra preexistente e igual."
-    },
-    "correct_answer": "D",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7044,6 +6706,23 @@
     ]
   },
   {
+    "number": 105,
+    "subject": "Historia Universal",
+    "question": "105. Una consecuencia de la Primera Guerra Mundial fue la",
+    "options": {
+      "A": "A) creación de la Organización de las Naciones Unidas.",
+      "B": "B) formación de dos bloques: capitalista y socialista.",
+      "C": "C) desintegración del Imperio austrohúngaro.",
+      "D": "D) desintegración del bloque soviético."
+    },
+    "correct_answer": "C",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "gemma-4-e4b-thinking-none"
+    ]
+  },
+  {
     "number": 106,
     "subject": "Historia Universal",
     "question": "106. La sobre emisión de créditos, el exceso en la oferta y la demanda de bienes de consumo y la caída de la bolsa de Nueva York fueron causas de la crisis de",
@@ -7109,7 +6788,6 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7171,7 +6849,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7201,7 +6878,6 @@
     "models": [
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7221,8 +6897,7 @@
     "area": 2,
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
-      "gemma-4-e4b-thinking-none",
-      "laguna-s-2.1-thinking-medium"
+      "gemma-4-e4b-thinking-none"
     ]
   },
   {
@@ -7240,7 +6915,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7349,6 +7023,23 @@
     ]
   },
   {
+    "number": 23,
+    "subject": "Química",
+    "question": "En general, en la tabla periódica los elementos con mayor carácter metálico se ubican en",
+    "options": {
+      "A": "A) los periodos superiores.",
+      "B": "B) los periodos inferiores.",
+      "C": "C) las columnas de la izquierda.",
+      "D": "D) las columnas de la derecha."
+    },
+    "correct_answer": "C",
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "gemma-4-e4b-thinking-none"
+    ]
+  },
+  {
     "number": 25,
     "subject": "Química",
     "question": "Sustancias que al estar en disolución donan protones.",
@@ -7383,7 +7074,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7404,7 +7094,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7500,7 +7189,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7521,7 +7209,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7542,7 +7229,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7563,7 +7249,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7584,7 +7269,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7605,7 +7289,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7626,7 +7309,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7646,8 +7328,7 @@
     "area": 2,
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
-      "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx"
+      "gemma-4-e4b-thinking-none"
     ]
   },
   {
@@ -7691,10 +7372,33 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 78,
+    "subject": "Español",
+    "question": "Con el texto, el autor intenta",
+    "options": {
+      "A": "A) denunciar los efectos nocivos del papel periódico.",
+      "B": "B) narrar la despersonalización de un individuo obsesionado con las noticias.",
+      "C": "C) describir los síntomas de la intoxicación por tinta.",
+      "D": "D) mostrar el malestar de un individuo al leer el periódico."
+    },
+    "correct_answer": "B",
+    "reference": {
+      "type": "text",
+      "content": "Tiempo libre\n\nTodas las mañanas compro el periódico y todas las mañanas, al leerlo, me mancho los dedos con tinta. Nunca me ha importado ensuciármelos con tal de estar al día en las noticias. Pero esta mañana sentí un gran malestar apenas toqué el periódico.\n\nCreí que solamente se trataba de uno de mis acostumbrados mareos. Pagué el importe del diario y regresé a mi casa. Mi esposa había salido de compras. Me acomodé en mi sillón favorito, encendí un cigarro y me puse a leer la primera página. Luego de enterarme de que el jet se había desplomado, volví a sentirme mal; vi mis dedos y las manos con toda la calma y, ya tranquilo, regresé al sillón. Cuando iba a tomar mi cigarro, descubrí que una mancha negra cubría mis dedos.\n\nDe inmediato retorné al baño, me tallé con zacate, piedra pómez y, finalmente, me lavé con blanqueador; pero el intento fue inútil, porque la mancha creció y me invadió hasta los codos. Ahora, más preocupado que molesto, llamé al doctor y me recomendó que lo mejor era que tomara unas vacaciones, o que durmiera. Después, llamé a las oficinas del periódico para elevar mi más rotunda protesta; me contestó una voz de mujer, que solamente me insultó y me trató de loco. En el momento en que hablaba por teléfono, me di cuenta de que, en realidad, no se trataba de una mancha, sino de un número infinito de letras pequeñísimas, apeñuscadas, como una inquieta multitud de hormigas negras. Cuando colgué, las letritas habían avanzado ya hasta mi cintura.\n\nAsustado, corrí hacia la puerta de entrada; pero, antes de poder abrirla. Me flaquearon las piernas y caí estrepitosamente. Tirado bocarriba descubrí que, además de la gran cantidad de letras hormiga que ahora ocupaban todo mi cuerpo, había una que otra fotografía. Así estuve durante varias horas hasta que escuché que abrían la puerta. Me costó trabajo hilar la idea, pero al fin pensé que había llegado a mi salvación. Entró mi esposa, me levantó del suelo, me cargó bajo el brazo, se acomodó en mi sillón favorito, me hojeó despreocupadamente y se puso a leer.\n\nGuillermo Samperio.",
+      "title": "Tiempo libre",
+      "author": "Guillermo Samperio",
+      "source": null
+    },
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "gemma-4-e4b-thinking-none"
     ]
   },
   {
@@ -7712,8 +7416,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "laguna-s-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7734,7 +7436,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7843,7 +7544,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7898,7 +7598,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7936,7 +7635,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8008,7 +7706,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8029,10 +7726,38 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 1,
+    "subject": "Física",
+    "question": "¿Qué representa la siguiente gráfica?",
+    "options": {
+      "A": "A) La caída libre de un cuerpo desde el reposo.",
+      "B": "B) Un lanzamiento vertical hacia abajo.",
+      "C": "C) Un movimiento con aceleración positiva.",
+      "D": "D) Un movimiento con aceleración negativa."
+    },
+    "correct_answer": "D",
+    "reference": {
+      "type": "text",
+      "path": "area-3-q1.webp",
+      "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp1.webp",
+      "alt": "Figura asociada a la pregunta 1.",
+      "content": "La figura presenta un gráfico de velocidad (v) en función del tiempo (t). El eje vertical representa la velocidad, medida en metros por segundo (m/s), y está etiquetado con la unidad correspondiente. El eje horizontal representa el tiempo, medido en segundos (s). \n\nLa línea del gráfico es una diagonal que desciende desde un punto en el eje vertical, donde la velocidad es positiva, hasta el eje horizontal, donde la velocidad se vuelve cero. La línea forma un ángulo recto con el eje horizontal en el punto donde la velocidad es cero, indicando que el objeto se detiene en ese instante. La pendiente de la línea es negativa, lo que sugiere que la velocidad disminuye de manera uniforme a medida que avanza el tiempo. No hay valores numéricos específicos indicados en los ejes, pero la forma del gráfico sugiere un movimiento de desaceleración.",
+      "derived_from": "area-3-q1.webp"
+    },
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "gemma-4-e4b-thinking-none",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium",
+      "qwen3.5-9b"
     ]
   },
   {
@@ -8085,7 +7810,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8105,8 +7829,7 @@
     "area": 3,
     "area_name": "Ciencias Sociales",
     "models": [
-      "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx"
+      "gemma-4-e4b-thinking-none"
     ]
   },
   {
@@ -8124,7 +7847,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8145,8 +7867,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx"
+      "laguna-xs-2.1-thinking-medium"
     ]
   },
   {
@@ -8164,7 +7885,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8301,7 +8021,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8322,7 +8041,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8343,8 +8061,37 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx"
+      "laguna-xs-2.1-thinking-medium"
+    ]
+  },
+  {
+    "number": 51,
+    "subject": "Matemáticas",
+    "question": "¿Cuáles gráficas son crecientes en todo su dominio?",
+    "options": {
+      "A": "A) I y II",
+      "B": "B) I y IV",
+      "C": "C) II y IV",
+      "D": "D) I y III"
+    },
+    "correct_answer": "D",
+    "reference": {
+      "type": "text",
+      "title": "Cuatro gráficas etiquetadas I, II, III y IV",
+      "layout": "horizontal",
+      "content": "La primera gráfica (I) presenta una curva que se aproxima al eje x a medida que se desplaza hacia la derecha, pero nunca lo toca, y se eleva hacia el infinito en el eje y. La curva está situada en el primer cuadrante y se extiende hacia el segundo cuadrante, comenzando cerca del origen (0,0) y curvándose hacia arriba.\n\nLa segunda gráfica (II) muestra una curva que se asemeja a una hipérbola. Esta curva se encuentra en el segundo y cuarto cuadrante, cruzando el eje y en el punto (0,0). A medida que se desplaza hacia la izquierda y hacia la derecha, la curva se aproxima a los ejes, pero no los toca, y se extiende hacia el infinito en ambas direcciones.\n\nLa tercera gráfica (III) es una línea recta que pasa por el origen (0,0) y tiene una pendiente positiva. La línea se extiende hacia el primer cuadrante y el tercer cuadrante, formando un ángulo agudo con el eje x.\n\nLa cuarta gráfica (IV) presenta una curva que se asemeja a una parábola invertida. Esta curva se encuentra en el primer y segundo cuadrante, comenzando en el eje y y descendiendo hacia el eje x, acercándose a este último sin tocarlo, y continuando hacia el infinito en el segundo cuadrante.",
+      "derived_from": [
+        "area-3-q51-opt-A.webp",
+        "area-3-q51-opt-B.webp",
+        "area-3-q51-opt-C.webp",
+        "area-3-q51-opt-D.webp"
+      ]
+    },
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "gemma-4-e4b-thinking-none",
+      "qwen3.5-9b"
     ]
   },
   {
@@ -8379,7 +8126,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8400,7 +8146,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8421,7 +8166,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8441,8 +8185,7 @@
     "area": 3,
     "area_name": "Ciencias Sociales",
     "models": [
-      "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx"
+      "gemma-4-e4b-thinking-none"
     ]
   },
   {
@@ -8460,7 +8203,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8538,16 +8280,16 @@
     ]
   },
   {
-    "number": 72,
+    "number": 70,
     "subject": "Español",
-    "question": "¿Cuál es el interés del arqueólogo Adrián Velázquez Castro al crear el taller?",
+    "question": "La frase 'inframundo acuático' se refiere a que ________ en el mundo de los muertos.",
     "options": {
-      "A": "A) Dar a conocer los oficios prehispánicos.",
-      "B": "B) Continuar con la tradición mexica.",
-      "C": "C) Perfeccionar el trabajo manual indígena.",
-      "D": "D) Rescatar la manufactura precolombina."
+      "A": "A) el elemento fuego no es predominante",
+      "B": "B) el ser es sagrado",
+      "C": "C) existe el agua como expresión de vida",
+      "D": "D) hay ríos y lagos"
     },
-    "correct_answer": "D",
+    "correct_answer": "C",
     "reference": {
       "type": "text",
       "content": "El misterio de las joyas de concha\n\nAl igual que la turquesa, las plumas de aves exóticas y el oro, la concha (lo que conocemos como concha de mar) era un material precioso en el México prehispánico (anterior a la conquista y colonización españolas). Así lo prueban los cientos de piezas elaboradas con diversos tipos de conchas recuperadas en las distintas excavaciones a lo largo de todo el país: solo en las excavaciones que se realizan desde 1978 en la zona arqueológica del Templo Mayor de Tenochtitlan se han recuperado más de 2,300 objetos hechos con concha. Las piezas, que han ido apareciendo en diferentes excavaciones, eran depositadas en las tumbas como ofrendas funerarias para recrear el inframundo acuático.\n\nPara los mexicas, así como para las diversas culturas de Mesoamérica, la concha tenía una connotación sagrada, pues al ser un elemento acuático se asociaba con ese líquido esencial en el desarrollo de la vida. Además, por lo difícil que resultaba su obtención, era considerada un material de lujo, al que, por ejemplo, en Tenochtitlan, solo tenía acceso la clase gobernante.\n\nEl arqueólogo Adrián Velázquez Castro busca desde hace quince años las huellas de las herramientas empleadas por los artesanos prehispánicos en la elaboración de los objetos de concha. Y es que, a pesar de la gran cantidad de piezas recuperadas, no se han encontrado hasta ahora en la zona del Templo Mayor de Tenochtitlan restos de ningún taller o del área de producción de estos adornos.\n\nVelázquez empezó a trabajar en la clasificación de la colección de objetos de concha del Templo Mayor, pero su interés por conocer las formas de elaboración de estas piezas lo llevó a crear un proyecto de arqueología experimental que se convertiría, con el tiempo, en un taller de fabricación de la concha. Con este taller se pretende conocer, mediante la reconstrucción de las piezas antiguas con conchas modernas, las técnicas con las que se trabajó este material en la época prehispánica. Gracias al taller se ha podido saber, por ejemplo, que la producción del Templo Mayor fue muy estandarizada (se utilizaron la misma técnica y los mismos materiales), fue controlada por la clase gobernante y estuvo enfocada, casi exclusivamente, a la creación de objetos ornamentales.\n\nAl principio el taller se limitó a estudiar la colección de objetos de concha del Templo Mayor, pero poco a poco se extendió, y ya lleva realizados más de setecientos experimentos con otros objetos de concha del México prehispánico. «En gran parte gracias al trabajo de estudiantes de arqueología, tenemos ya un buen número de colecciones estudiadas, que van desde el norte de México hasta la zona maya, desde las etapas más tempranas, durante el período formativo, hasta el posclásico tardío, con la conquista española», comenta Adrián Velázquez Castro.\n\nEl Universal",
@@ -8559,18 +8301,8 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "laguna-s-2.1-thinking-medium",
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "phi-4-thinking-high",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b"
+      "laguna-xs-2.1-thinking-medium",
+      "phi-4-thinking-high"
     ]
   },
   {
@@ -8639,8 +8371,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "laguna-s-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8662,7 +8392,6 @@
     "models": [
       "gemma-4-e4b-thinking-none",
       "phi-4-thinking-high",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8768,7 +8497,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8789,7 +8517,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8810,7 +8537,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8831,7 +8557,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8870,7 +8595,6 @@
     "models": [
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8994,6 +8718,26 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none"
+    ]
+  },
+  {
+    "number": 4,
+    "subject": "Física",
+    "question": "Una caja de 50 kg está en un elevador que cae. ¿Fuerza que el piso ejerce sobre la caja? (g=10 m/s²)",
+    "options": {
+      "A": "A) 5,000 N",
+      "B": "B) 50 N",
+      "C": "C) 5 N",
+      "D": "D) 0 N"
+    },
+    "correct_answer": "D",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "gemma-4-e4b-thinking-none",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -9130,7 +8874,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -9171,27 +8914,6 @@
     ]
   },
   {
-    "number": 22,
-    "subject": "Química",
-    "question": "¿Qué propiedad utilizó Mendeleev para organizar los elementos?",
-    "options": {
-      "A": "A) Punto de ebullición.",
-      "B": "B) Masa atómica.",
-      "C": "C) Número atómico.",
-      "D": "D) Punto de fusión."
-    },
-    "correct_answer": "B",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
     "number": 23,
     "subject": "Química",
     "question": "Enlace que se forma entre dos átomos con igual valor de electronegatividad.",
@@ -9223,7 +8945,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -9247,6 +8968,25 @@
     ]
   },
   {
+    "number": 28,
+    "subject": "Química",
+    "question": "Entre los contaminantes primarios del aire se encuentran los óxidos de",
+    "options": {
+      "A": "A) Ca y Pb",
+      "B": "B) Hg y N",
+      "C": "C) C y N",
+      "D": "D) N y Pb"
+    },
+    "correct_answer": "C",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "gemma-4-e4b-thinking-none",
+      "minimax-m3-thinking-medium",
+      "phi-4-thinking-high"
+    ]
+  },
+  {
     "number": 29,
     "subject": "Química",
     "question": "El enlace peptídico se forma al reaccionar un grupo amino con un grupo ________ de otro aminoácido.",
@@ -9261,8 +9001,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx"
+      "laguna-xs-2.1-thinking-medium"
     ]
   },
   {
@@ -9280,7 +9019,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -9324,7 +9062,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -9345,7 +9082,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -9366,7 +9102,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -9387,7 +9122,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -9414,7 +9148,6 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "phi-4-thinking-high",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-medium"
     ]
@@ -9525,45 +9258,6 @@
     ]
   },
   {
-    "number": 63,
-    "subject": "Español",
-    "question": "Enunciado que ejemplifica la función referencial.",
-    "options": {
-      "A": "A) ¡Qué lata con esta lluvia!",
-      "B": "B) Seguirán las lluvias en el noreste del país.",
-      "C": "C) Hoy llueve mucho, pareciera que están lavando el mundo.",
-      "D": "D) Los maleantes fueron repelidos por otra lluvia de piedras."
-    },
-    "correct_answer": "B",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e4b-thinking-none"
-    ]
-  },
-  {
-    "number": 64,
-    "subject": "Español",
-    "question": "Identifica la función de la lengua: 'La lengua del amor, a quien no sabe lo que es amor ¡qué bárbara parece!'",
-    "options": {
-      "A": "A) Metalingüística.",
-      "B": "B) Apelativa.",
-      "C": "C) Poética.",
-      "D": "D) Fática."
-    },
-    "correct_answer": "C",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "grok-4.5-thinking-medium",
-      "qwen3.5-0.8b-mlx",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
     "number": 65,
     "subject": "Español",
     "question": "Identifica la forma del discurso: 'Frisaba la edad de este excelente joven en los treinta y cuatro años...'",
@@ -9574,6 +9268,30 @@
       "D": "D) Argumentativa."
     },
     "correct_answer": "B",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "gemma-4-e4b-thinking-none"
+    ]
+  },
+  {
+    "number": 70,
+    "subject": "Español",
+    "question": "Son temas que aborda el autor del texto 'La mente colectiva'.",
+    "options": {
+      "A": "A) Lenguaje, industria y literatura de ficción.",
+      "B": "B) Lenguaje, productos culturales y tecnología.",
+      "C": "C) Organismos colectivos, democracia y literatura.",
+      "D": "D) Organismos colectivos, computadoras y productos culturales."
+    },
+    "correct_answer": "B",
+    "reference": {
+      "type": "text",
+      "content": "La mente colectiva\n\nEn su famosa novela *Más que humano* (1953), el escritor estadounidense Theodore Sturgeon plantea el surgimiento del siguiente paso evolutivo del *Homo sapiens*: un colectivo de seis individuos con distintas capacidades que, unidos por telepatía, conforman un organismo múltiple en el que cada uno colabora por el bien de todos.\n\nEn la naturaleza existen realmente estos \"organismos colectivos\", como las colonias de hormigas o de abejas, constituidos por muchos cuerpos con un genoma compartido que trabajan por el bienestar común. Quizá inspirándose en ellas, muchos otros escritores de ciencia ficción han soñado que la humanidad, a través de múltiples mentes conectadas mediante algo semejante a la telepatía, podría llegar a formar un \"superorganismo\".\n\nDesgraciadamente, la transmisión de pensamiento no pasa de ser una fantasía: no hay ningún mecanismo físico o fisiológico que pudiera darle sustento. Sin embargo, quizá la humanidad, en cierta forma, ha dado ya el paso para convertirse en algo más que un simple conjunto de individuos.\n\nEn efecto: desde que nuestra especie desarrolló un lenguaje, y con él una cultura, los humanos comenzamos a intercambiar información cultural que no forma parte de nuestro acervo genético, pero que también aumenta nuestra adaptación al medio y favorece así nuestra supervivencia.\n\nFuego, agricultura, escritura, gobierno, arquitectura e ingeniería, educación, industria, ciencia y tecnología, arte... todos son productos culturales que los humanos compartimos unos con otros —y con nuestras crías— a través de la comunicación. El lenguaje es una especie de \"telepatía\" rudimentaria que nos permite mantener un acervo compartido en los cerebros de toda la población: una cultura. Y la cultura es, asimismo, una forma tosca de \"memoria\" extracerebral.\n\nDiversas innovaciones tecnológicas —alfabeto, papel, libros, imprenta, bibliotecas, y más recientemente computadoras e internet— han sido \"prótesis\" mentales y culturales que, al potenciar la comunicación, aumentan nuestras posibilidades de acción y supervivencia, comparadas con las de otros organismos... y nos dan también un poder de destrucción que nunca había existido sobre el planeta.\n\nEl lenguaje, junto con otros inventos culturales —la educación, la discusión y el debate, la democracia—, ha permitido que los humanos comencemos a funcionar como una verdadera comunidad de organismos que podemos (al menos en teoría) tomar decisiones colectivamente, con miras al bien común.\n\nHoy es en las redes sociales donde se lleva a cabo, de manera cada vez más amplia e intensa, esta constante discusión comunitaria. Y ya está teniendo impacto en las decisiones que tomamos como sociedad.\n\nConectados mediante la red estamos pensando colectivamente, como sociedad, más intensamente que nunca. Y lo hacemos no mediante la transmisión del pensamiento, sino mediante la discusión. Quizá éste sea el embrión de la verdadera \"telepatía\" humana.",
+      "title": "La mente colectiva",
+      "author": null,
+      "source": "Texto sobre la novela *Más que humano* (1953) de Theodore Sturgeon"
+    },
     "area": 4,
     "area_name": "Humanidades y de las Artes",
     "models": [
@@ -9595,7 +9313,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -9616,7 +9333,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -9641,7 +9357,6 @@
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "hy3-preview-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -9661,8 +9376,7 @@
     "area": 4,
     "area_name": "Humanidades y de las Artes",
     "models": [
-      "gemma-4-e4b-thinking-none",
-      "laguna-s-2.1-thinking-medium"
+      "gemma-4-e4b-thinking-none"
     ]
   },
   {
@@ -9680,7 +9394,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -9701,7 +9414,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -9841,8 +9553,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "laguna-s-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -9914,7 +9624,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -9952,7 +9661,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -9969,6 +9677,23 @@
       "D": "D) (Q ∨ R) ⋅ P"
     },
     "correct_answer": "B",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "gemma-4-e4b-thinking-none"
+    ]
+  },
+  {
+    "number": 117,
+    "subject": "Filosofía",
+    "question": "¿Qué postura sobre los valores representa: 'El valor de la vida depende de quién está vivo'?",
+    "options": {
+      "A": "A) Objetivista.",
+      "B": "B) Pragmatista.",
+      "C": "C) Subjetivista.",
+      "D": "D) Utilitarista."
+    },
+    "correct_answer": "C",
     "area": 4,
     "area_name": "Humanidades y de las Artes",
     "models": [
@@ -10024,75 +9749,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gpt-oss-20b-thinking-low",
-      "qwen3.5-0.8b-mlx",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 113,
-    "subject": "Historia de México",
-    "question": "El Círculo Liberal de Camilo Arriaga en 1901 tuvo como finalidad",
-    "options": {
-      "A": "A) fundar oposición a la dictadura de Díaz.",
-      "B": "B) limitar la participación maderista.",
-      "C": "C) impulsar la reelección de Díaz.",
-      "D": "D) construir movimiento favorable a Madero."
-    },
-    "correct_answer": "A",
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "laguna-s-2.1-thinking-medium",
-      "laguna-xs-2.1-thinking-medium"
-    ]
-  },
-  {
-    "number": 33,
-    "subject": "Geografía",
-    "question": "Al viajar de Morelos a Guerrero, qué sierra se recorre.",
-    "options": {
-      "A": "A) Madre del Sur.",
-      "B": "B) Madre Occidental.",
-      "C": "C) Madre Oriental.",
-      "D": "D) de Guadalupe."
-    },
-    "correct_answer": "A",
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 54,
-    "subject": "Matemáticas",
-    "question": "¿Cuál expresión representa la ley de senos?",
-    "options": {
-      "A": "A) sen A/a = sen B/b",
-      "B": "B) sen A/b = sen B/a",
-      "C": "C) sen A/c = sen B/a",
-      "D": "D) sen B/c = sen A/b"
-    },
-    "correct_answer": "A",
-    "reference": {
-      "type": "text",
-      "path": "area-3-q54.webp",
-      "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp54.webp",
-      "alt": "Figura asociada a la pregunta 54.",
-      "content": "En la figura se presenta un triángulo etiquetado con los vértices A, B y C. El vértice A está en la parte inferior derecha, el vértice B en la parte inferior izquierda y el vértice C en la parte superior. Los lados del triángulo están marcados con las letras correspondientes: el lado opuesto al vértice A está etiquetado como \"c\", el lado opuesto al vértice B como \"a\" y el lado opuesto al vértice C como \"b\". Las líneas que forman el triángulo son de un grosor uniforme y están dibujadas en negro. No hay otras marcas o anotaciones en la figura.",
-      "derived_from": "area-3-q54.webp"
-    },
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -10130,7 +9786,6 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -10151,10 +9806,26 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "laguna-xs-2.1-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 113,
+    "subject": "Historia de México",
+    "question": "El Círculo Liberal de Camilo Arriaga en 1901 tuvo como finalidad",
+    "options": {
+      "A": "A) fundar oposición a la dictadura de Díaz.",
+      "B": "B) limitar la participación maderista.",
+      "C": "C) impulsar la reelección de Díaz.",
+      "D": "D) construir movimiento favorable a Madero."
+    },
+    "correct_answer": "A",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "laguna-xs-2.1-thinking-medium"
     ]
   },
   {
@@ -10177,7 +9848,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -10203,7 +9873,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -10229,7 +9898,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -10255,7 +9923,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -10275,7 +9942,6 @@
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -10295,7 +9961,6 @@
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -10315,7 +9980,6 @@
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -10335,7 +9999,6 @@
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -10355,7 +10018,6 @@
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -10375,27 +10037,67 @@
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
-    "number": 44,
-    "subject": "Geografía",
-    "question": "Una causa de la formación de nuevos países en Europa es la",
+    "number": 32,
+    "subject": "Química",
+    "question": "Un valor de constante de equilibrio mayor que 1 indica que",
     "options": {
-      "A": "A) caída de La Unión Soviética.",
-      "B": "B) dependencia económica.",
-      "C": "C) regionalización económica.",
-      "D": "D) expansión de la Unión Soviética."
+      "A": "A) hay mayor formación de productos que de reactivos.",
+      "B": "B) hay mayor formación de reactivos que de productos.",
+      "C": "C) el equilibrio se desplaza hacia los reactivos.",
+      "D": "D) la reacción química está en equilibrio."
     },
     "correct_answer": "A",
     "area": 2,
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
-      "qwen3.5-0.8b-mlx"
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 35,
+    "subject": "Química",
+    "question": "¿Cuál de los siguientes compuestos es un ácido carboxílico?",
+    "options": {
+      "A": {
+        "label": "A",
+        "image": "area-2-q35-opt-A.webp",
+        "alt": "Opción A para la pregunta 35.",
+        "image_description": "La opción A presenta la estructura química de un compuesto orgánico. Se observa un grupo funcional que incluye un carbono central (C) unido a un grupo hidroxilo (–OH) y a un grupo carbonilo (C=O). A la izquierda del carbono central, hay un grupo metilo (–CH₃). La disposición de los átomos sugiere que el compuesto es un alcohol con un grupo carbonilo, lo que indica que podría ser un compuesto de tipo cetona o un alcohol secundario. La fórmula general se puede interpretar como un alcohol que tiene un grupo carbonilo en la misma cadena de carbonos."
+      },
+      "B": {
+        "label": "B",
+        "image": "area-2-q35-opt-B.webp",
+        "alt": "Opción B para la pregunta 35.",
+        "image_description": "La opción B presenta la estructura química de un compuesto orgánico. Se observa un grupo funcional amida, que se identifica por la presencia de un carbono (C) unido a un grupo carbonilo (C=O) y a un grupo amino (NH2). La cadena principal está formada por un carbono que está unido a un grupo metilo (CH3) y al grupo amino. La representación muestra la disposición de los átomos y los enlaces entre ellos, donde el carbono del grupo carbonilo está en el centro, con el grupo metilo a la izquierda y el grupo amino a la derecha. Esta estructura corresponde a la acetamida, un compuesto que se utiliza en diversas aplicaciones químicas."
+      },
+      "C": {
+        "label": "C",
+        "image": "area-2-q35-opt-C.webp",
+        "alt": "Opción C para la pregunta 35.",
+        "image_description": "La opción C presenta la fórmula estructural de un hidrocarburo lineal. Se observa que está compuesta por tres grupos metilo (CH₃) y un grupo metileno (CH₂) en el medio, formando una cadena de tres átomos de carbono. La representación es la siguiente: CH₃-CH₂-CH₃. Este compuesto es el propano, un alcano que pertenece a la serie de los hidrocarburos saturados. La estructura indica que cada carbono está unido a suficientes átomos de hidrógeno para cumplir con la tetravalencia del carbono."
+      },
+      "D": {
+        "label": "D",
+        "image": "area-2-q35-opt-D.webp",
+        "alt": "Opción D para la pregunta 35.",
+        "image_description": "La opción D presenta la estructura química de un compuesto orgánico. En la parte izquierda de la imagen se observa un grupo metilo (CH₃) unido a un carbono central (C) que también está conectado a un grupo etóxido (OCH₂CH₃). Este carbono central está unido a un grupo carbonilo (C=O), lo que indica que se trata de un compuesto que contiene un enlace doble entre el carbono y el oxígeno. La disposición de los grupos sugiere que el compuesto es un éster o un cetona, dependiendo del contexto de la pregunta. La estructura se puede describir como un carbono central que tiene un grupo metilo, un grupo etóxido y un grupo carbonilo, lo que le confiere características específicas en reacciones químicas."
+      }
+    },
+    "correct_answer": "A",
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -10412,7 +10114,6 @@
     "area": 2,
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -10432,7 +10133,6 @@
     "area": 2,
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -10452,7 +10152,6 @@
     "area": 2,
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -10472,7 +10171,6 @@
     "area": 2,
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -10492,7 +10190,6 @@
     "area": 2,
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
-      "qwen3.5-0.8b-mlx",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -10511,86 +10208,6 @@
     "correct_answer": "A",
     "area": 3,
     "area_name": "Ciencias Sociales",
-    "models": [
-      "qwen3.5-0.8b-mlx",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 12,
-    "subject": "Literatura",
-    "question": "Además del diálogo, dos características del texto dramático son",
-    "options": {
-      "A": "A) acotaciones y prescindir de narrador.",
-      "B": "B) descripción y escenografías.",
-      "C": "C) actos y necesitar un narrador.",
-      "D": "D) vestuario y personajes."
-    },
-    "correct_answer": "A",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "qwen3.5-0.8b-mlx",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 84,
-    "subject": "Biología",
-    "question": "Según Mendel, los caracteres recesivos se representan en letras",
-    "options": {
-      "A": "A) minúsculas (b).",
-      "B": "B) mayúsculas y minúsculas (Bb).",
-      "C": "C) minúsculas y mayúsculas (bB).",
-      "D": "D) minúsculas, mayúsculas y minúsculas (bBb)."
-    },
-    "correct_answer": "A",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "qwen3.5-0.8b-mlx",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 114,
-    "subject": "Filosofía",
-    "question": "¿Cuáles son actos morales? I. Comprar escultura vs pintura. II. Elegir iniciar trámites de divorcio. III. Elegir denunciar acto ilícito. IV. Decidir plan alimenticio. V. Decidir fecha de examen.",
-    "options": {
-      "A": "A) II y III",
-      "B": "B) I y II",
-      "C": "C) IV y V",
-      "D": "D) III y V"
-    },
-    "correct_answer": "A",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "qwen3.5-0.8b-mlx",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 32,
-    "subject": "Química",
-    "question": "Un valor de constante de equilibrio mayor que 1 indica que",
-    "options": {
-      "A": "A) hay mayor formación de productos que de reactivos.",
-      "B": "B) hay mayor formación de reactivos que de productos.",
-      "C": "C) el equilibrio se desplaza hacia los reactivos.",
-      "D": "D) la reacción química está en equilibrio."
-    },
-    "correct_answer": "A",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -10617,6 +10234,44 @@
     ]
   },
   {
+    "number": 12,
+    "subject": "Literatura",
+    "question": "Además del diálogo, dos características del texto dramático son",
+    "options": {
+      "A": "A) acotaciones y prescindir de narrador.",
+      "B": "B) descripción y escenografías.",
+      "C": "C) actos y necesitar un narrador.",
+      "D": "D) vestuario y personajes."
+    },
+    "correct_answer": "A",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 84,
+    "subject": "Biología",
+    "question": "Según Mendel, los caracteres recesivos se representan en letras",
+    "options": {
+      "A": "A) minúsculas (b).",
+      "B": "B) mayúsculas y minúsculas (Bb).",
+      "C": "C) minúsculas y mayúsculas (bB).",
+      "D": "D) minúsculas, mayúsculas y minúsculas (bBb)."
+    },
+    "correct_answer": "A",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
     "number": 90,
     "subject": "Biología",
     "question": "Conjunto de organismos de la misma especie que comparten un área y se reproducen entre sí.",
@@ -10625,6 +10280,25 @@
       "B": "B) Ecosistema.",
       "C": "C) Bioma.",
       "D": "D) Comunidad."
+    },
+    "correct_answer": "A",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 114,
+    "subject": "Filosofía",
+    "question": "¿Cuáles son actos morales? I. Comprar escultura vs pintura. II. Elegir iniciar trámites de divorcio. III. Elegir denunciar acto ilícito. IV. Decidir plan alimenticio. V. Decidir fecha de examen.",
+    "options": {
+      "A": "A) II y III",
+      "B": "B) I y II",
+      "C": "C) IV y V",
+      "D": "D) III y V"
     },
     "correct_answer": "A",
     "area": 4,
