@@ -190,6 +190,23 @@ def model_answers_path_name(name, effort)
   model_name + (effort ? "-thinking-#{effort}" : "")
 end
 
+def load_latest_failed_questions(sanitized)
+  result_files = Dir.glob(File.join(RESULTS_DIR, sanitized, "*-area-*.json"))
+  return [{}, nil] if result_files.empty?
+
+  by_timestamp = result_files.group_by { |f| File.basename(f).sub(/-area-\d+\.json\z/, "") }
+  latest_ts    = by_timestamp.keys.sort.last
+
+  failed_by_area = {}
+  by_timestamp[latest_ts].each do |f|
+    area_number = File.basename(f, ".json").split("-").last
+    data        = JSON.parse(File.read(f))
+    failed_by_area[area_number] = data["failed_questions"].map { |q| q["number"] }.to_set
+  end
+
+  [failed_by_area, latest_ts]
+end
+
 def run_benchmark(model_name, **options)
 	RubyLLM.models.refresh! unless options[:dry_run]
   record   = register_model(model_name) unless options[:dry_run]
@@ -205,11 +222,30 @@ def run_benchmark(model_name, **options)
     options[:resume] = false
   end
 
+  retry_filter = {}
+  retry_timestamp = nil
+  if options[:retry_failed]
+    retry_filter, retry_timestamp = load_latest_failed_questions(sanitized)
+    if retry_timestamp.nil?
+      warn "No existing results found for model #{sanitized}; nothing to retry."
+      return
+    end
+    if retry_filter.values.all?(&:empty?)
+      puts "No failed questions to retry for model #{sanitized} (timestamp: #{retry_timestamp})."
+      run_evaluate(model_filter: sanitized, model_id: model_id, resume_ts: retry_timestamp) unless options[:dry_run]
+      return
+    end
+    total_failed = retry_filter.values.sum(&:size)
+    puts "Retrying #{total_failed} failed questions across #{retry_filter.size} areas for #{sanitized} (timestamp: #{retry_timestamp})"
+  end
+
   answers_dir = File.join(ANSWERS_DIR, sanitized)
   FileUtils.mkdir_p(answers_dir)
 
   resume_start_time = Time.now
-  if options[:resume]
+  if options[:retry_failed]
+    timestamp = retry_timestamp
+  elsif options[:resume]
     existing = Dir.glob(File.join(answers_dir, "*-area-*.csv"))
     timestamp = if existing.empty?
                   resume_start_time.strftime("%Y%m%d%H%M%S")
@@ -248,6 +284,49 @@ def run_benchmark(model_name, **options)
     end
     questions = data["questions"]
     expected_rows = data["total_questions"] + 1
+
+    if options[:retry_failed]
+      failed_numbers = retry_filter[area_number]
+      if failed_numbers.nil? || failed_numbers.empty?
+        puts "No failed questions for area #{area_number}; skipping"
+        next
+      end
+
+      existing_answers = {}
+      if File.exist?(csv_path)
+        CSV.foreach(csv_path, headers: true) do |row|
+          existing_answers[row["number"].to_i] = row["answer"]
+        end
+      else
+        warn "Warning: missing #{csv_path} for retry; skipping area #{area_number}"
+        next
+      end
+
+      questions_to_retry = questions.select { |q| failed_numbers.include?(q["number"]) }
+      puts "Retrying #{questions_to_retry.size} failed questions for area #{area_number} (csv: #{csv_path})"
+
+      questions_to_retry.each do |q|
+        n = q["number"]
+        option = responder.answer(q, shared_references: data["shared_references"])
+
+        existing_answers[n] = if option.nil? || !VALID_OPTIONS.include?(option)
+                                warn "Error: empty/invalid response for model #{model_name}, area #{area_number}, question #{n}"
+                                "ERROR"
+                              else
+                                option
+                              end
+        print "."
+      end
+
+      File.open(csv_path, "w") do |csv|
+        csv.sync = true
+        csv.puts "number,answer"
+        existing_answers.keys.sort.each { |n| csv.puts "#{n},#{existing_answers[n]}" }
+      end
+
+      puts "\nFinished retrying area #{area_number} for model #{model_name}"
+      next
+    end
 
     if !options[:dry_run] && File.exist?(csv_path) && File.foreach(csv_path).count >= expected_rows
       puts "Skipping area #{area_number} for model #{model_name} (already complete: #{timestamp})"
@@ -292,7 +371,12 @@ def run_benchmark(model_name, **options)
     puts "\nFinished area #{area_number} for model #{model_name}"
   end
 
-  run_evaluate(model_filter: sanitized, model_id: model_id, resume_ts: options[:resume] ? resume_start_time.strftime("%Y%m%d%H%M%S") : nil) unless options[:dry_run]
+  eval_resume_ts = if options[:retry_failed]
+                    timestamp
+                  elsif options[:resume]
+                    resume_start_time.strftime("%Y%m%d%H%M%S")
+                  end
+  run_evaluate(model_filter: sanitized, model_id: model_id, resume_ts: eval_resume_ts) unless options[:dry_run]
 end
 
 def fetch_local_models(api_base)
@@ -624,9 +708,9 @@ def run_evaluate(model_filter: nil, resume_ts: nil, model_id: nil)
 end
 
 # Default api base set to local ollama instance
-cli_options = { provider: nil, effort: nil, api_base: "http://localhost:11434/v1", api_key: "dummy-key", evaluate_only: false, resume: false, dry_run: false, rebuild: false }
+cli_options = { provider: nil, effort: nil, api_base: "http://localhost:11434/v1", api_key: "dummy-key", evaluate_only: false, resume: false, dry_run: false, rebuild: false, retry_failed: false }
 OptionParser.new do |opts|
-  opts.banner = "Usage: ruby benchmark.rb <model> [--provider=openai|openrouter] [--effort=low|medium|high] [--resume] [--rebuild] [--dry-run]\n" \
+  opts.banner = "Usage: ruby benchmark.rb <model> [--provider=openai|openrouter] [--effort=low|medium|high] [--resume] [--rebuild] [--retry-failed] [--dry-run]\n" \
                 "       ruby benchmark.rb --evaluate-only\n" \
                 "       ruby benchmark.rb -h, --help"
   opts.on("--provider=NAME", %i[openai openrouter], "Provider to use (auto-detected from model name if omitted)") { |v| cli_options[:provider] = v }
@@ -636,9 +720,22 @@ OptionParser.new do |opts|
   opts.on("--evaluate-only", "Skip the benchmark; re-evaluate every model in answers/") { cli_options[:evaluate_only] = true }
   opts.on("--resume", "Continue the latest in-progress run for this model instead of starting a new one") { cli_options[:resume] = true }
   opts.on("--rebuild", "Delete previous answers/results for this model and re-run from scratch") { cli_options[:rebuild] = true }
+  opts.on("--retry-failed", "Re-ask only the questions flagged as failures in the latest result JSONs and refresh the answers CSV + results.csv") { cli_options[:retry_failed] = true }
   opts.on("--dry-run", "Print prompts without calling the LLM or writing files") { cli_options[:dry_run] = true }
   opts.on("-h", "--help", "Show this help") { puts opts; exit }
 end.parse!
+
+if cli_options[:retry_failed]
+  conflicts = []
+  conflicts << "--rebuild"        if cli_options[:rebuild]
+  conflicts << "--resume"         if cli_options[:resume]
+  conflicts << "--evaluate-only"  if cli_options[:evaluate_only]
+  conflicts << "--dry-run"        if cli_options[:dry_run]
+  unless conflicts.empty?
+    warn "Error: --retry-failed cannot be combined with #{conflicts.join(', ')}"
+    exit 1
+  end
+end
 
 if cli_options[:evaluate_only]
   run_evaluate()

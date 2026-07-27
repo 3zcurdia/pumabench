@@ -7,8 +7,8 @@
   "area_name": "Humanidades y de las Artes",
   "total": {
     "questions": 120,
-    "correct": 108,
-    "percentage": 90.0
+    "correct": 111,
+    "percentage": 92.5
   },
   "subjects": {
     "Biología": {
@@ -18,8 +18,8 @@
     },
     "Español": {
       "questions": 18,
-      "correct": 12,
-      "percentage": 66.67
+      "correct": 15,
+      "percentage": 83.33
     },
     "Filosofía": {
       "questions": 10,
@@ -88,25 +88,6 @@
       "correct_answer": "C"
     },
     {
-      "number": 68,
-      "subject": "Español",
-      "question": "Idea principal del segundo párrafo del texto 'La mente colectiva'.",
-      "options": {
-        "A": "A) En la naturaleza existen 'organismos colectivos'.",
-        "B": "B) Muchos escritores han soñado que la humanidad podría formar un 'superorganismo'.",
-        "C": "C) Muchos escritores han soñado que la humanidad podría conectarse por telepatía.",
-        "D": "D) Las hormigas y abejas son 'organismos colectivos'."
-      },
-      "correct_answer": "A",
-      "reference": {
-        "type": "text",
-        "content": "La mente colectiva\n\nEn su famosa novela *Más que humano* (1953), el escritor estadounidense Theodore Sturgeon plantea el surgimiento del siguiente paso evolutivo del *Homo sapiens*: un colectivo de seis individuos con distintas capacidades que, unidos por telepatía, conforman un organismo múltiple en el que cada uno colabora por el bien de todos.\n\nEn la naturaleza existen realmente estos \"organismos colectivos\", como las colonias de hormigas o de abejas, constituidos por muchos cuerpos con un genoma compartido que trabajan por el bienestar común. Quizá inspirándose en ellas, muchos otros escritores de ciencia ficción han soñado que la humanidad, a través de múltiples mentes conectadas mediante algo semejante a la telepatía, podría llegar a formar un \"superorganismo\".\n\nDesgraciadamente, la transmisión de pensamiento no pasa de ser una fantasía: no hay ningún mecanismo físico o fisiológico que pudiera darle sustento. Sin embargo, quizá la humanidad, en cierta forma, ha dado ya el paso para convertirse en algo más que un simple conjunto de individuos.\n\nEn efecto: desde que nuestra especie desarrolló un lenguaje, y con él una cultura, los humanos comenzamos a intercambiar información cultural que no forma parte de nuestro acervo genético, pero que también aumenta nuestra adaptación al medio y favorece así nuestra supervivencia.\n\nFuego, agricultura, escritura, gobierno, arquitectura e ingeniería, educación, industria, ciencia y tecnología, arte... todos son productos culturales que los humanos compartimos unos con otros —y con nuestras crías— a través de la comunicación. El lenguaje es una especie de \"telepatía\" rudimentaria que nos permite mantener un acervo compartido en los cerebros de toda la población: una cultura. Y la cultura es, asimismo, una forma tosca de \"memoria\" extracerebral.\n\nDiversas innovaciones tecnológicas —alfabeto, papel, libros, imprenta, bibliotecas, y más recientemente computadoras e internet— han sido \"prótesis\" mentales y culturales que, al potenciar la comunicación, aumentan nuestras posibilidades de acción y supervivencia, comparadas con las de otros organismos... y nos dan también un poder de destrucción que nunca había existido sobre el planeta.\n\nEl lenguaje, junto con otros inventos culturales —la educación, la discusión y el debate, la democracia—, ha permitido que los humanos comencemos a funcionar como una verdadera comunidad de organismos que podemos (al menos en teoría) tomar decisiones colectivamente, con miras al bien común.\n\nHoy es en las redes sociales donde se lleva a cabo, de manera cada vez más amplia e intensa, esta constante discusión comunitaria. Y ya está teniendo impacto en las decisiones que tomamos como sociedad.\n\nConectados mediante la red estamos pensando colectivamente, como sociedad, más intensamente que nunca. Y lo hacemos no mediante la transmisión del pensamiento, sino mediante la discusión. Quizá éste sea el embrión de la verdadera \"telepatía\" humana.",
-        "title": "La mente colectiva",
-        "author": null,
-        "source": "Texto sobre la novela *Más que humano* (1953) de Theodore Sturgeon"
-      }
-    },
-    {
       "number": 69,
       "subject": "Español",
       "question": "La expresión 'prótesis mentales y culturales' refiriéndose a innovaciones tecnológicas implica que",
@@ -124,37 +105,6 @@
         "author": null,
         "source": "Texto sobre la novela *Más que humano* (1953) de Theodore Sturgeon"
       }
-    },
-    {
-      "number": 70,
-      "subject": "Español",
-      "question": "Son temas que aborda el autor del texto 'La mente colectiva'.",
-      "options": {
-        "A": "A) Lenguaje, industria y literatura de ficción.",
-        "B": "B) Lenguaje, productos culturales y tecnología.",
-        "C": "C) Organismos colectivos, democracia y literatura.",
-        "D": "D) Organismos colectivos, computadoras y productos culturales."
-      },
-      "correct_answer": "B",
-      "reference": {
-        "type": "text",
-        "content": "La mente colectiva\n\nEn su famosa novela *Más que humano* (1953), el escritor estadounidense Theodore Sturgeon plantea el surgimiento del siguiente paso evolutivo del *Homo sapiens*: un colectivo de seis individuos con distintas capacidades que, unidos por telepatía, conforman un organismo múltiple en el que cada uno colabora por el bien de todos.\n\nEn la naturaleza existen realmente estos \"organismos colectivos\", como las colonias de hormigas o de abejas, constituidos por muchos cuerpos con un genoma compartido que trabajan por el bienestar común. Quizá inspirándose en ellas, muchos otros escritores de ciencia ficción han soñado que la humanidad, a través de múltiples mentes conectadas mediante algo semejante a la telepatía, podría llegar a formar un \"superorganismo\".\n\nDesgraciadamente, la transmisión de pensamiento no pasa de ser una fantasía: no hay ningún mecanismo físico o fisiológico que pudiera darle sustento. Sin embargo, quizá la humanidad, en cierta forma, ha dado ya el paso para convertirse en algo más que un simple conjunto de individuos.\n\nEn efecto: desde que nuestra especie desarrolló un lenguaje, y con él una cultura, los humanos comenzamos a intercambiar información cultural que no forma parte de nuestro acervo genético, pero que también aumenta nuestra adaptación al medio y favorece así nuestra supervivencia.\n\nFuego, agricultura, escritura, gobierno, arquitectura e ingeniería, educación, industria, ciencia y tecnología, arte... todos son productos culturales que los humanos compartimos unos con otros —y con nuestras crías— a través de la comunicación. El lenguaje es una especie de \"telepatía\" rudimentaria que nos permite mantener un acervo compartido en los cerebros de toda la población: una cultura. Y la cultura es, asimismo, una forma tosca de \"memoria\" extracerebral.\n\nDiversas innovaciones tecnológicas —alfabeto, papel, libros, imprenta, bibliotecas, y más recientemente computadoras e internet— han sido \"prótesis\" mentales y culturales que, al potenciar la comunicación, aumentan nuestras posibilidades de acción y supervivencia, comparadas con las de otros organismos... y nos dan también un poder de destrucción que nunca había existido sobre el planeta.\n\nEl lenguaje, junto con otros inventos culturales —la educación, la discusión y el debate, la democracia—, ha permitido que los humanos comencemos a funcionar como una verdadera comunidad de organismos que podemos (al menos en teoría) tomar decisiones colectivamente, con miras al bien común.\n\nHoy es en las redes sociales donde se lleva a cabo, de manera cada vez más amplia e intensa, esta constante discusión comunitaria. Y ya está teniendo impacto en las decisiones que tomamos como sociedad.\n\nConectados mediante la red estamos pensando colectivamente, como sociedad, más intensamente que nunca. Y lo hacemos no mediante la transmisión del pensamiento, sino mediante la discusión. Quizá éste sea el embrión de la verdadera \"telepatía\" humana.",
-        "title": "La mente colectiva",
-        "author": null,
-        "source": "Texto sobre la novela *Más que humano* (1953) de Theodore Sturgeon"
-      }
-    },
-    {
-      "number": 73,
-      "subject": "Español",
-      "question": "Elige el objeto directo del predicado.",
-      "options": {
-        "A": "A) Compró la computadora.",
-        "B": "B) Las pirámides de Teotihuacán.",
-        "C": "C) Hoy, mañana y siempre.",
-        "D": "D) Las cuentas del gran capitán."
-      },
-      "correct_answer": "A"
     },
     {
       "number": 75,

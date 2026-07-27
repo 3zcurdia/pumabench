@@ -7,8 +7,8 @@
   "area_name": "Ciencias Sociales",
   "total": {
     "questions": 120,
-    "correct": 100,
-    "percentage": 83.33
+    "correct": 115,
+    "percentage": 95.83
   },
   "subjects": {
     "Biología": {
@@ -18,8 +18,8 @@
     },
     "Español": {
       "questions": 18,
-      "correct": 15,
-      "percentage": 83.33
+      "correct": 17,
+      "percentage": 94.44
     },
     "Filosofía": {
       "questions": 0,
@@ -28,8 +28,8 @@
     },
     "Física": {
       "questions": 10,
-      "correct": 4,
-      "percentage": 40.0
+      "correct": 9,
+      "percentage": 90.0
     },
     "Geografía": {
       "questions": 10,
@@ -48,97 +48,21 @@
     },
     "Literatura": {
       "questions": 10,
-      "correct": 9,
-      "percentage": 90.0
+      "correct": 10,
+      "percentage": 100.0
     },
     "Matemáticas": {
       "questions": 24,
-      "correct": 16,
-      "percentage": 66.67
+      "correct": 22,
+      "percentage": 91.67
     },
     "Química": {
       "questions": 10,
-      "correct": 9,
-      "percentage": 90.0
+      "correct": 10,
+      "percentage": 100.0
     }
   },
   "failed_questions": [
-    {
-      "number": 1,
-      "subject": "Física",
-      "question": "¿Qué representa la siguiente gráfica?",
-      "options": {
-        "A": "A) La caída libre de un cuerpo desde el reposo.",
-        "B": "B) Un lanzamiento vertical hacia abajo.",
-        "C": "C) Un movimiento con aceleración positiva.",
-        "D": "D) Un movimiento con aceleración negativa."
-      },
-      "correct_answer": "D",
-      "reference": {
-        "type": "text",
-        "path": "area-3-q1.webp",
-        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp1.webp",
-        "alt": "Figura asociada a la pregunta 1.",
-        "content": "La figura presenta un gráfico de velocidad (v) en función del tiempo (t). El eje vertical representa la velocidad, medida en metros por segundo (m/s), y está etiquetado con la unidad correspondiente. El eje horizontal representa el tiempo, medido en segundos (s). \n\nLa línea del gráfico es una diagonal que desciende desde un punto en el eje vertical, donde la velocidad es positiva, hasta el eje horizontal, donde la velocidad se vuelve cero. La línea forma un ángulo recto con el eje horizontal en el punto donde la velocidad es cero, indicando que el objeto se detiene en ese instante. La pendiente de la línea es negativa, lo que sugiere que la velocidad disminuye de manera uniforme a medida que avanza el tiempo. No hay valores numéricos específicos indicados en los ejes, pero la forma del gráfico sugiere un movimiento de desaceleración.",
-        "derived_from": "area-3-q1.webp"
-      }
-    },
-    {
-      "number": 2,
-      "subject": "Física",
-      "question": "La magnitud de la fuerza resultante de dos fuerzas perpendiculares es ________ que la suma algebraica de las componentes.",
-      "options": {
-        "A": "A) menor",
-        "B": "B) igual",
-        "C": "C) mayor",
-        "D": "D) inversa"
-      },
-      "correct_answer": "A"
-    },
-    {
-      "number": 3,
-      "subject": "Física",
-      "question": "Sobre un cuerpo se aplicaron fuerzas horizontales provocando distintas aceleraciones. ¿Cuál es la masa del objeto?",
-      "options": {
-        "A": "A) 1.6 kg.",
-        "B": "B) 2.5 kg",
-        "C": "C) 3.2 kg",
-        "D": "D) 4.0 kg"
-      },
-      "correct_answer": "B",
-      "reference": {
-        "type": "text",
-        "path": "area-3-q3.webp",
-        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp3.webp",
-        "alt": "Figura asociada a la pregunta 3.",
-        "content": "El gráfico presenta un sistema de coordenadas cartesianas donde el eje vertical representa la fuerza en Newtons (N) y el eje horizontal representa la aceleración en metros por segundo al cuadrado (m/s²). En el eje de la fuerza, se marcan los valores desde 0 hasta 4.00 N, con divisiones en 1.00 N. En el eje de la aceleración, se marcan los valores desde 0 hasta 2.00 m/s², con divisiones en 0.50 m/s².\n\nSe observa una línea recta que conecta los puntos (0, 0) y (2.00, 4.00), indicando una relación lineal entre la fuerza y la aceleración. Los puntos en la línea están representados por círculos negros. La pendiente de la línea sugiere que a medida que la aceleración aumenta, la fuerza también lo hace de manera proporcional. Además, hay líneas de referencia horizontales y verticales que ayudan a visualizar los valores de fuerza y aceleración correspondientes.",
-        "derived_from": "area-3-q3.webp"
-      }
-    },
-    {
-      "number": 6,
-      "subject": "Física",
-      "question": "¿A qué temperatura en °F equivale 220 °C?",
-      "options": {
-        "A": "A) 454 °F",
-        "B": "B) 493 °F",
-        "C": "C) 428 °F",
-        "D": "D) 104 °F"
-      },
-      "correct_answer": "C"
-    },
-    {
-      "number": 9,
-      "subject": "Física",
-      "question": "Si R y V cambian al doble simultáneamente, el valor de la corriente se",
-      "options": {
-        "A": "A) reduce a la mitad.",
-        "B": "B) mantiene sin cambio.",
-        "C": "C) incrementa al doble.",
-        "D": "D) incrementa al cuádruple."
-      },
-      "correct_answer": "B"
-    },
     {
       "number": 10,
       "subject": "Física",
@@ -158,122 +82,6 @@
         "content": "En la figura se presenta un circuito eléctrico. A la izquierda, hay una fuente de voltaje representada por el símbolo \"V\". Desde esta fuente, sale una corriente de 3I. A continuación, se encuentran dos resistencias conectadas en paralelo. La primera resistencia tiene un valor de R y está situada en la parte superior. La segunda resistencia, ubicada en la parte inferior, tiene un valor de 2R. Ambas resistencias están conectadas a los mismos nodos, lo que indica que comparten el mismo voltaje. La disposición de las resistencias en paralelo sugiere que la corriente total que sale de la fuente se divide entre las dos resistencias.",
         "derived_from": "area-3-q10.webp"
       }
-    },
-    {
-      "number": 20,
-      "subject": "Literatura",
-      "question": "El fragmento de Fromm es un ejemplo de ficha",
-      "options": {
-        "A": "A) hemerográfica.",
-        "B": "B) de síntesis.",
-        "C": "C) bibliográfica.",
-        "D": "D) de cita textual."
-      },
-      "correct_answer": "D"
-    },
-    {
-      "number": 22,
-      "subject": "Química",
-      "question": "¿Qué postulado de Dalton prevalece en nuestros días?",
-      "options": {
-        "A": "A) Los átomos permanecen indivisibles.",
-        "B": "B) Los elementos están formados por átomos diminutos.",
-        "C": "C) Los átomos de un mismo elemento son iguales en masa.",
-        "D": "D) Los átomos de dos elementos se combinan en distintas proporciones."
-      },
-      "correct_answer": "D"
-    },
-    {
-      "number": 45,
-      "subject": "Matemáticas",
-      "question": "Resuelve: 2x - 4 = (5x + 6)/2",
-      "options": {
-        "A": "A) x = 14",
-        "B": "B) x = -14/9",
-        "C": "C) x = 14/9",
-        "D": "D) x = -14"
-      },
-      "correct_answer": "D"
-    },
-    {
-      "number": 49,
-      "subject": "Matemáticas",
-      "question": "Soluciones de: y = x – 3 / 4x + y = 32",
-      "options": {
-        "A": "A) x = 5; y = 12",
-        "B": "B) x = 4; y = 16",
-        "C": "C) x = 8; y = 5",
-        "D": "D) x = 7; y = 4"
-      },
-      "correct_answer": "D"
-    },
-    {
-      "number": 50,
-      "subject": "Matemáticas",
-      "question": "Utiliza y = 3x² + 4x - 10 para determinar los valores de la tabla.",
-      "options": {
-        "A": "A) 3, 4",
-        "B": "B) –10, –3",
-        "C": "C) 3, 10",
-        "D": "D) –10, –12"
-      },
-      "correct_answer": "B",
-      "reference": {
-        "type": "text",
-        "path": "area-3-q50.webp",
-        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp50.webp",
-        "alt": "Figura asociada a la pregunta 50.",
-        "content": "Se presenta una tabla con dos filas y cuatro columnas. La primera fila contiene la etiqueta \"X\" y los valores -1, 0 y 1, que corresponden a las coordenadas en el eje X. La segunda fila tiene la etiqueta \"Y\" y el valor -11, que se asocia a cada uno de los valores de X. La tabla se encuentra en un marco rectangular, con líneas que delimitan claramente cada celda. La disposición de los datos indica que para cada valor de X (-1, 0, 1), el valor de Y es constante y es -11.",
-        "derived_from": "area-3-q50.webp"
-      }
-    },
-    {
-      "number": 51,
-      "subject": "Matemáticas",
-      "question": "¿Cuáles gráficas son crecientes en todo su dominio?",
-      "options": {
-        "A": "A) I y II",
-        "B": "B) I y IV",
-        "C": "C) II y IV",
-        "D": "D) I y III"
-      },
-      "correct_answer": "D",
-      "reference": {
-        "type": "text",
-        "title": "Cuatro gráficas etiquetadas I, II, III y IV",
-        "layout": "horizontal",
-        "content": "La primera gráfica (I) presenta una curva que se aproxima al eje x a medida que se desplaza hacia la derecha, pero nunca lo toca, y se eleva hacia el infinito en el eje y. La curva está situada en el primer cuadrante y se extiende hacia el segundo cuadrante, comenzando cerca del origen (0,0) y curvándose hacia arriba.\n\nLa segunda gráfica (II) muestra una curva que se asemeja a una hipérbola. Esta curva se encuentra en el segundo y cuarto cuadrante, cruzando el eje y en el punto (0,0). A medida que se desplaza hacia la izquierda y hacia la derecha, la curva se aproxima a los ejes, pero no los toca, y se extiende hacia el infinito en ambas direcciones.\n\nLa tercera gráfica (III) es una línea recta que pasa por el origen (0,0) y tiene una pendiente positiva. La línea se extiende hacia el primer cuadrante y el tercer cuadrante, formando un ángulo agudo con el eje x.\n\nLa cuarta gráfica (IV) presenta una curva que se asemeja a una parábola invertida. Esta curva se encuentra en el primer y segundo cuadrante, comenzando en el eje y y descendiendo hacia el eje x, acercándose a este último sin tocarlo, y continuando hacia el infinito en el segundo cuadrante.",
-        "derived_from": [
-          "area-3-q51-opt-A.webp",
-          "area-3-q51-opt-B.webp",
-          "area-3-q51-opt-C.webp",
-          "area-3-q51-opt-D.webp"
-        ]
-      }
-    },
-    {
-      "number": 52,
-      "subject": "Matemáticas",
-      "question": "¿Cuál es el valor de y en x = 1 si y = 5x⁴ + 3x?",
-      "options": {
-        "A": "A) 23",
-        "B": "B) 9",
-        "C": "C) 12",
-        "D": "D) 8"
-      },
-      "correct_answer": "D"
-    },
-    {
-      "number": 53,
-      "subject": "Matemáticas",
-      "question": "Si 2π rad = 360°, ¿cuánto equivale 7/8π rad?",
-      "options": {
-        "A": "A) 315°",
-        "B": "B) 145.5°",
-        "C": "C) 270°",
-        "D": "D) 157.5°"
-      },
-      "correct_answer": "D"
     },
     {
       "number": 58,
@@ -306,37 +114,6 @@
         "D": "D) I y IV"
       },
       "correct_answer": "D"
-    },
-    {
-      "number": 70,
-      "subject": "Español",
-      "question": "La frase 'inframundo acuático' se refiere a que ________ en el mundo de los muertos.",
-      "options": {
-        "A": "A) el elemento fuego no es predominante",
-        "B": "B) el ser es sagrado",
-        "C": "C) existe el agua como expresión de vida",
-        "D": "D) hay ríos y lagos"
-      },
-      "correct_answer": "C",
-      "reference": {
-        "type": "text",
-        "content": "El misterio de las joyas de concha\n\nAl igual que la turquesa, las plumas de aves exóticas y el oro, la concha (lo que conocemos como concha de mar) era un material precioso en el México prehispánico (anterior a la conquista y colonización españolas). Así lo prueban los cientos de piezas elaboradas con diversos tipos de conchas recuperadas en las distintas excavaciones a lo largo de todo el país: solo en las excavaciones que se realizan desde 1978 en la zona arqueológica del Templo Mayor de Tenochtitlan se han recuperado más de 2,300 objetos hechos con concha. Las piezas, que han ido apareciendo en diferentes excavaciones, eran depositadas en las tumbas como ofrendas funerarias para recrear el inframundo acuático.\n\nPara los mexicas, así como para las diversas culturas de Mesoamérica, la concha tenía una connotación sagrada, pues al ser un elemento acuático se asociaba con ese líquido esencial en el desarrollo de la vida. Además, por lo difícil que resultaba su obtención, era considerada un material de lujo, al que, por ejemplo, en Tenochtitlan, solo tenía acceso la clase gobernante.\n\nEl arqueólogo Adrián Velázquez Castro busca desde hace quince años las huellas de las herramientas empleadas por los artesanos prehispánicos en la elaboración de los objetos de concha. Y es que, a pesar de la gran cantidad de piezas recuperadas, no se han encontrado hasta ahora en la zona del Templo Mayor de Tenochtitlan restos de ningún taller o del área de producción de estos adornos.\n\nVelázquez empezó a trabajar en la clasificación de la colección de objetos de concha del Templo Mayor, pero su interés por conocer las formas de elaboración de estas piezas lo llevó a crear un proyecto de arqueología experimental que se convertiría, con el tiempo, en un taller de fabricación de la concha. Con este taller se pretende conocer, mediante la reconstrucción de las piezas antiguas con conchas modernas, las técnicas con las que se trabajó este material en la época prehispánica. Gracias al taller se ha podido saber, por ejemplo, que la producción del Templo Mayor fue muy estandarizada (se utilizaron la misma técnica y los mismos materiales), fue controlada por la clase gobernante y estuvo enfocada, casi exclusivamente, a la creación de objetos ornamentales.\n\nAl principio el taller se limitó a estudiar la colección de objetos de concha del Templo Mayor, pero poco a poco se extendió, y ya lleva realizados más de setecientos experimentos con otros objetos de concha del México prehispánico. «En gran parte gracias al trabajo de estudiantes de arqueología, tenemos ya un buen número de colecciones estudiadas, que van desde el norte de México hasta la zona maya, desde las etapas más tempranas, durante el período formativo, hasta el posclásico tardío, con la conquista española», comenta Adrián Velázquez Castro.\n\nEl Universal",
-        "title": "El misterio de las joyas de concha",
-        "author": null,
-        "source": "El Universal"
-      }
-    },
-    {
-      "number": 74,
-      "subject": "Español",
-      "question": "Identifica la oración principal: 'Aquella noche, en la hora de la rata, el emperador soñó que había salido de su palacio...'",
-      "options": {
-        "A": "A) Aquella noche, en la hora de la rata, el emperador soñó que había salido de su palacio.",
-        "B": "B) El emperador soñó que había salido de su palacio y caminaba por el jardín.",
-        "C": "C) En la hora de la rata, el emperador soñó.",
-        "D": "D) El emperador soñó que había salido de su palacio."
-      },
-      "correct_answer": "C"
     },
     {
       "number": 77,

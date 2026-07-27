@@ -2,13 +2,13 @@
   "id": "google/gemma-4-e4b",
   "model": "gemma-4-e4b-thinking-none",
   "effort": "none",
-  "timestamp": "20260726134805",
+  "timestamp": "20260726175335",
   "area": 1,
   "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
   "total": {
     "questions": 120,
-    "correct": 34,
-    "percentage": 28.33
+    "correct": 35,
+    "percentage": 29.17
   },
   "subjects": {
     "Biología": {
@@ -58,8 +58,8 @@
     },
     "Química": {
       "questions": 10,
-      "correct": 2,
-      "percentage": 20.0
+      "correct": 3,
+      "percentage": 30.0
     }
   },
   "failed_questions": [
@@ -322,18 +322,6 @@
         "D": "D) De síntesis."
       },
       "correct_answer": "B"
-    },
-    {
-      "number": 27,
-      "subject": "Química",
-      "question": "Consulta la tabla periódica para responder. 27. Selecciona la opción que representa sustancias que, químicamente, no pueden descomponerse en otras más simples.",
-      "options": {
-        "A": "A) Na(s), Cl_2(g) y P_4(s)",
-        "B": "B) O_2(g), He(g) y CO(g)",
-        "C": "C) S_8(g), N_2(g) y SO_2(g)",
-        "D": "D) CO(g), Na(s) y S_8(s)"
-      },
-      "correct_answer": "A"
     },
     {
       "number": 28,
@@ -656,18 +644,6 @@
       "correct_answer": "B"
     },
     {
-      "number": 66,
-      "subject": "Matemáticas",
-      "question": "66. La ecuación x^(2) + 4xy + 4y^(2) - 74x + 2y + 94 = 0 es una",
-      "options": {
-        "A": "A) circunferencia",
-        "B": "B) parábola",
-        "C": "C) elipse",
-        "D": "D) hipérbola"
-      },
-      "correct_answer": "B"
-    },
-    {
       "number": 67,
       "subject": "Matemáticas",
       "question": "67. El límite de la función f(x) = 4 cuando x tiende a -2, es igual a",
@@ -722,6 +698,18 @@
         "D": "D) 8"
       },
       "correct_answer": "C"
+    },
+    {
+      "number": 72,
+      "subject": "Matemáticas",
+      "question": "72. La \\(\\int (2x - 1)^3 \\,dx\\) es igual a",
+      "options": {
+        "A": "A) \\(\\frac{(2x - 1)^4}{8} + C\\)",
+        "B": "B) \\(\\frac{(2x - 1)^4}{4} + C\\)",
+        "C": "C) \\(\\frac{(2x - 1)^2}{2} + C\\)",
+        "D": "D) \\(\\frac{(2x - 1)^2}{6} + C\\)"
+      },
+      "correct_answer": "A"
     },
     {
       "number": 73,

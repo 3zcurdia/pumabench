@@ -21,7 +21,6 @@ export default function HomePage() {
     }));
 
   const chartData = models
-    .slice(0, 20)
     .map((m) => ({
       model: m.model,
       effort: m.effort,

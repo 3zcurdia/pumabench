@@ -2,7 +2,7 @@
   "id": "google/gemma-4-e4b",
   "model": "gemma-4-e4b-thinking-none",
   "effort": "none",
-  "timestamp": "20260726134805",
+  "timestamp": "20260726175335",
   "area": 3,
   "area_name": "Ciencias Sociales",
   "total": {
@@ -28,8 +28,8 @@
     },
     "Física": {
       "questions": 10,
-      "correct": 2,
-      "percentage": 20.0
+      "correct": 3,
+      "percentage": 30.0
     },
     "Geografía": {
       "questions": 10,
@@ -53,8 +53,8 @@
     },
     "Matemáticas": {
       "questions": 24,
-      "correct": 8,
-      "percentage": 33.33
+      "correct": 7,
+      "percentage": 29.17
     },
     "Química": {
       "questions": 10,
@@ -102,18 +102,6 @@
         "content": "El gráfico presenta un sistema de coordenadas cartesianas donde el eje vertical representa la fuerza en Newtons (N) y el eje horizontal representa la aceleración en metros por segundo al cuadrado (m/s²). En el eje de la fuerza, se marcan los valores desde 0 hasta 4.00 N, con divisiones en 1.00 N. En el eje de la aceleración, se marcan los valores desde 0 hasta 2.00 m/s², con divisiones en 0.50 m/s².\n\nSe observa una línea recta que conecta los puntos (0, 0) y (2.00, 4.00), indicando una relación lineal entre la fuerza y la aceleración. Los puntos en la línea están representados por círculos negros. La pendiente de la línea sugiere que a medida que la aceleración aumenta, la fuerza también lo hace de manera proporcional. Además, hay líneas de referencia horizontales y verticales que ayudan a visualizar los valores de fuerza y aceleración correspondientes.",
         "derived_from": "area-3-q3.webp"
       }
-    },
-    {
-      "number": 4,
-      "subject": "Física",
-      "question": "Una bala de 7.0 kg se dispara a 120 m/s. ¿Cuánta Ec tiene al salir y Ep en el punto más alto?",
-      "options": {
-        "A": "A) Ec = 50,400 J y Ep = 50,400 J",
-        "B": "B) Ec = 420 J y Ep = 420 J",
-        "C": "C) Ec = 50,400 J y Ep = 0 J",
-        "D": "D) Ec = 420 J y Ep = 0 J"
-      },
-      "correct_answer": "A"
     },
     {
       "number": 6,
@@ -626,6 +614,18 @@
         "D": "D) x² + y² = 2"
       },
       "correct_answer": "D"
+    },
+    {
+      "number": 60,
+      "subject": "Matemáticas",
+      "question": "Determina centro y radio de (x + 4)² + (y - 6)² = 49",
+      "options": {
+        "A": "A) C (–4, 6); r = 7",
+        "B": "B) C (4, –6); r = 7",
+        "C": "C) C (–4, 6); r = 49",
+        "D": "D) C (4, –6); r = 49"
+      },
+      "correct_answer": "A"
     },
     {
       "number": 61,
