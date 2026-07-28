@@ -58,7 +58,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -373,7 +372,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -407,7 +405,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -484,7 +481,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -547,7 +543,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -629,7 +624,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -662,8 +656,7 @@
       "nemotron-3-super-120b-a12b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b"
+      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -687,7 +680,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -739,8 +731,7 @@
       "phi-4-thinking-medium",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b"
+      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -772,7 +763,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -864,7 +854,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -1034,8 +1023,7 @@
       "laguna-xs-2.1-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
-      "phi-4-thinking-high",
-      "qwen3.5-9b"
+      "phi-4-thinking-high"
     ]
   },
   {
@@ -1115,7 +1103,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -1227,7 +1214,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -1264,7 +1250,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -1404,7 +1389,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -1481,7 +1465,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -1520,8 +1503,7 @@
       "phi-4-thinking-high",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b"
+      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -1585,8 +1567,7 @@
       "phi-4-thinking-medium",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b"
+      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -1646,7 +1627,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -1679,7 +1659,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -1763,7 +1742,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -1964,7 +1942,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -2066,7 +2043,6 @@
       "apple-foundation-system",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -2115,7 +2091,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -2369,8 +2344,7 @@
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
       "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-9b"
+      "phi-4-thinking-medium"
     ]
   },
   {
@@ -2459,7 +2433,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -2516,7 +2489,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -2549,7 +2521,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -2682,7 +2653,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -2724,7 +2694,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -2783,7 +2752,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -2816,7 +2784,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -2953,7 +2920,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -2986,7 +2952,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -3023,7 +2988,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -3104,7 +3068,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -3209,7 +3172,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -3263,7 +3225,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -3366,7 +3327,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -3419,7 +3379,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -3546,7 +3505,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -3596,7 +3554,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -3694,8 +3651,7 @@
       "phi-4-thinking-medium",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b"
+      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -3738,7 +3694,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -3784,7 +3739,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -3835,7 +3789,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -3913,7 +3866,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -3946,7 +3898,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -3996,7 +3947,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -4031,7 +3981,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -4092,7 +4041,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -4142,7 +4090,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -4170,7 +4117,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -4219,7 +4165,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -4251,7 +4196,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -4446,7 +4390,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -4517,7 +4460,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -4589,7 +4531,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -4639,7 +4580,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -4670,8 +4610,7 @@
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-medium",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "qwen3.5-9b"
+      "nemotron-3-super-120b-a12b-thinking-low"
     ]
   },
   {
@@ -4719,7 +4658,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -4772,7 +4710,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -4883,7 +4820,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -4913,7 +4849,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -4961,7 +4896,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -5008,7 +4942,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -5051,7 +4984,6 @@
       "hy3-preview-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-low",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
@@ -5137,7 +5069,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -5185,7 +5116,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -5230,7 +5160,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -5255,7 +5184,6 @@
       "minimax-m3-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -5400,7 +5328,6 @@
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -5429,7 +5356,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -5463,7 +5389,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
@@ -5521,8 +5446,7 @@
       "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-9b"
+      "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
   },
   {
@@ -5583,7 +5507,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -5795,7 +5718,6 @@
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -5870,7 +5792,6 @@
       "laguna-s-2.1-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -6045,8 +5966,7 @@
       "phi-4-thinking-medium",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b"
+      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -6109,7 +6029,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -6252,7 +6171,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -6279,7 +6197,6 @@
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -6301,7 +6218,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -6380,7 +6296,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -6411,7 +6326,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -6435,7 +6349,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -6505,7 +6418,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -6525,7 +6437,6 @@
     "models": [
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -6548,7 +6459,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -6626,7 +6536,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -8369,8 +8278,7 @@
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b"
+      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
