@@ -38,6 +38,24 @@
     }
   },
   {
+    "id": "google/gemini-3.5-flash-lite",
+    "name": "Google: Gemini 3.5 Flash Lite",
+    "provider": "google",
+    "type": "dense",
+    "parameters": null,
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000025",
+      "image": "0.0000003",
+      "audio": "0.0000003",
+      "input_audio_cache": "0.00000003",
+      "web_search": "0.014",
+      "internal_reasoning": "0.0000025",
+      "input_cache_read": "0.00000003",
+      "input_cache_write": "0.00000008333333333333334"
+    }
+  },
+  {
     "id": "google/gemini-3.6-flash",
     "name": "Google: Gemini 3.6 Flash",
     "provider": "google",

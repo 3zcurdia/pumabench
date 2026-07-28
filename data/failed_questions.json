@@ -359,6 +359,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
@@ -521,6 +522,7 @@
     "models": [
       "apple-foundation-system",
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-medium",
@@ -747,6 +749,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
@@ -1057,6 +1060,7 @@
       "apple-foundation-system",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
@@ -1136,6 +1140,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemini-3.5-flash-lite-thinking-low",
       "laguna-s-2.1-thinking-medium"
     ]
   },
@@ -1156,6 +1161,7 @@
       "apple-foundation-system",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
@@ -1555,6 +1561,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e2b-thinking-none",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
@@ -1584,6 +1591,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e2b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
@@ -1650,6 +1658,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
@@ -1714,6 +1723,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "gemini-3.5-flash-lite-thinking-low",
       "laguna-xs-2.1-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
@@ -1833,6 +1843,7 @@
       "apple-foundation-system",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
@@ -2224,6 +2235,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-120b-thinking-medium",
@@ -2542,6 +2554,7 @@
     "models": [
       "apple-foundation-system",
       "deepseek-v4-flash-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
@@ -2701,6 +2714,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
@@ -2891,6 +2905,7 @@
       "apple-foundation-system",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
@@ -3301,6 +3316,7 @@
       "apple-foundation-system",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
@@ -3486,6 +3502,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
@@ -3656,6 +3673,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
@@ -3912,6 +3930,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
@@ -3941,6 +3960,7 @@
       "apple-foundation-system",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
@@ -4104,6 +4124,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
@@ -4441,6 +4462,7 @@
     "models": [
       "apple-foundation-system",
       "deepseek-v4-flash-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
@@ -4487,6 +4509,7 @@
       "apple-foundation-system",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
@@ -4665,6 +4688,7 @@
       "apple-foundation-system",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
@@ -4709,6 +4733,7 @@
     "models": [
       "apple-foundation-system",
       "deepseek-v4-flash-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
@@ -4759,6 +4784,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "deepseek-v4-flash-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-medium",
@@ -4798,6 +4824,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "deepseek-v4-flash-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
@@ -4826,6 +4853,7 @@
     "models": [
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
@@ -4877,6 +4905,7 @@
     "models": [
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
@@ -4912,6 +4941,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "deepseek-v4-flash-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
@@ -4976,6 +5006,7 @@
     "models": [
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
@@ -5016,6 +5047,7 @@
     "models": [
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
@@ -5049,6 +5081,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "deepseek-v4-flash-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
@@ -5107,6 +5140,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-medium",
@@ -5166,11 +5200,103 @@
     "area": 2,
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
+      "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e4b-thinking-none",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 51,
+    "subject": "Matemáticas",
+    "question": "¿Cuáles gráficas son crecientes en todo su dominio?",
+    "options": {
+      "A": "A) I y II",
+      "B": "B) I y IV",
+      "C": "C) II y IV",
+      "D": "D) I y III"
+    },
+    "correct_answer": "D",
+    "reference": {
+      "type": "text",
+      "title": "Cuatro gráficas etiquetadas I, II, III y IV",
+      "layout": "horizontal",
+      "content": "La primera gráfica (I) presenta una curva que se aproxima al eje x a medida que se desplaza hacia la derecha, pero nunca lo toca, y se eleva hacia el infinito en el eje y. La curva está situada en el primer cuadrante y se extiende hacia el segundo cuadrante, comenzando cerca del origen (0,0) y curvándose hacia arriba.\n\nLa segunda gráfica (II) muestra una curva que se asemeja a una hipérbola. Esta curva se encuentra en el segundo y cuarto cuadrante, cruzando el eje y en el punto (0,0). A medida que se desplaza hacia la izquierda y hacia la derecha, la curva se aproxima a los ejes, pero no los toca, y se extiende hacia el infinito en ambas direcciones.\n\nLa tercera gráfica (III) es una línea recta que pasa por el origen (0,0) y tiene una pendiente positiva. La línea se extiende hacia el primer cuadrante y el tercer cuadrante, formando un ángulo agudo con el eje x.\n\nLa cuarta gráfica (IV) presenta una curva que se asemeja a una parábola invertida. Esta curva se encuentra en el primer y segundo cuadrante, comenzando en el eje y y descendiendo hacia el eje x, acercándose a este último sin tocarlo, y continuando hacia el infinito en el segundo cuadrante.",
+      "derived_from": [
+        "area-3-q51-opt-A.webp",
+        "area-3-q51-opt-B.webp",
+        "area-3-q51-opt-C.webp",
+        "area-3-q51-opt-D.webp"
+      ]
+    },
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "gemini-3.5-flash-lite-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "qwen3.5-9b"
+    ]
+  },
+  {
+    "number": 41,
+    "subject": "Matemáticas",
+    "question": "Un estudiante tiene 7.2, 8.5 y 7.9. ¿Qué calificación mínima necesita para promedio 8?",
+    "options": {
+      "A": "A) 8.1",
+      "B": "B) 8.2",
+      "C": "C) 8.4",
+      "D": "D) 8.9"
+    },
+    "correct_answer": "C",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "gemini-3.5-flash-lite-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "laguna-xs-2.1-thinking-medium",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "phi-4-thinking-high",
+      "phi-4-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 92,
+    "subject": "Historia Universal",
+    "question": "Un factor que propició el origen de la Revolución Industrial en Inglaterra fue que",
+    "options": {
+      "A": "A) desarrolló la industria textil.",
+      "B": "B) aplicó la 'Riqueza de las Naciones'.",
+      "C": "C) triunfó en la Guerra de Siete Años.",
+      "D": "D) diseñó y construyó el ferrocarril."
+    },
+    "correct_answer": "A",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "gemini-3.5-flash-lite-thinking-low",
+      "gemini-3.6-flash-thinking-medium",
+      "gemma-4-e2b-thinking-none",
+      "gpt-5.6-terra-thinking-medium",
+      "grok-4.5-thinking-medium",
+      "hy3-preview-thinking-medium",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "minimax-m3-thinking-medium",
+      "phi-4-thinking-high",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium",
+      "qwen3.5-9b",
+      "qwen3.5-9b-thinking-none"
     ]
   },
   {
@@ -5206,39 +5332,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b-thinking-none"
-    ]
-  },
-  {
-    "number": 92,
-    "subject": "Historia Universal",
-    "question": "Un factor que propició el origen de la Revolución Industrial en Inglaterra fue que",
-    "options": {
-      "A": "A) desarrolló la industria textil.",
-      "B": "B) aplicó la 'Riqueza de las Naciones'.",
-      "C": "C) triunfó en la Guerra de Siete Años.",
-      "D": "D) diseñó y construyó el ferrocarril."
-    },
-    "correct_answer": "A",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e2b-thinking-none",
-      "gpt-5.6-terra-thinking-medium",
-      "grok-4.5-thinking-medium",
-      "hy3-preview-thinking-medium",
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "minimax-m3-thinking-medium",
-      "phi-4-thinking-high",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -8065,36 +8158,6 @@
     ]
   },
   {
-    "number": 51,
-    "subject": "Matemáticas",
-    "question": "¿Cuáles gráficas son crecientes en todo su dominio?",
-    "options": {
-      "A": "A) I y II",
-      "B": "B) I y IV",
-      "C": "C) II y IV",
-      "D": "D) I y III"
-    },
-    "correct_answer": "D",
-    "reference": {
-      "type": "text",
-      "title": "Cuatro gráficas etiquetadas I, II, III y IV",
-      "layout": "horizontal",
-      "content": "La primera gráfica (I) presenta una curva que se aproxima al eje x a medida que se desplaza hacia la derecha, pero nunca lo toca, y se eleva hacia el infinito en el eje y. La curva está situada en el primer cuadrante y se extiende hacia el segundo cuadrante, comenzando cerca del origen (0,0) y curvándose hacia arriba.\n\nLa segunda gráfica (II) muestra una curva que se asemeja a una hipérbola. Esta curva se encuentra en el segundo y cuarto cuadrante, cruzando el eje y en el punto (0,0). A medida que se desplaza hacia la izquierda y hacia la derecha, la curva se aproxima a los ejes, pero no los toca, y se extiende hacia el infinito en ambas direcciones.\n\nLa tercera gráfica (III) es una línea recta que pasa por el origen (0,0) y tiene una pendiente positiva. La línea se extiende hacia el primer cuadrante y el tercer cuadrante, formando un ángulo agudo con el eje x.\n\nLa cuarta gráfica (IV) presenta una curva que se asemeja a una parábola invertida. Esta curva se encuentra en el primer y segundo cuadrante, comenzando en el eje y y descendiendo hacia el eje x, acercándose a este último sin tocarlo, y continuando hacia el infinito en el segundo cuadrante.",
-      "derived_from": [
-        "area-3-q51-opt-A.webp",
-        "area-3-q51-opt-B.webp",
-        "area-3-q51-opt-C.webp",
-        "area-3-q51-opt-D.webp"
-      ]
-    },
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "qwen3.5-9b"
-    ]
-  },
-  {
     "number": 53,
     "subject": "Matemáticas",
     "question": "Si 2π rad = 360°, ¿cuánto equivale 7/8π rad?",
@@ -9124,31 +9187,6 @@
       "gemma-4-e4b-thinking-none",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 41,
-    "subject": "Matemáticas",
-    "question": "Un estudiante tiene 7.2, 8.5 y 7.9. ¿Qué calificación mínima necesita para promedio 8?",
-    "options": {
-      "A": "A) 8.1",
-      "B": "B) 8.2",
-      "C": "C) 8.4",
-      "D": "D) 8.9"
-    },
-    "correct_answer": "C",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "laguna-xs-2.1-thinking-medium",
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "phi-4-thinking-high",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-medium"
     ]
   },
