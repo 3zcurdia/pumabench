@@ -82,6 +82,14 @@
     "pricing": null
   },
   {
+    "id": "google/gemma-4-12b-qat",
+    "name": "gemma-4-12b-qat",
+    "provider": "google",
+    "type": "dense",
+    "parameters": null,
+    "pricing": null
+  },
+  {
     "id": "google/gemma-4-e2b",
     "name": "gemma-4-e2b",
     "provider": "google",
@@ -164,6 +172,14 @@
     "id": "nanbeige.nanbeige4.1-3b",
     "name": "nanbeige.nanbeige4.1-3b",
     "provider": "nanbeige.nanbeige4.1-3b",
+    "type": "dense",
+    "parameters": null,
+    "pricing": null
+  },
+  {
+    "id": "nanbeige4.1-3b",
+    "name": "nanbeige4.1-3b",
+    "provider": "nanbeige4.1-3b",
     "type": "dense",
     "parameters": null,
     "pricing": null

@@ -53,6 +53,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
@@ -247,6 +248,7 @@
       "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -292,6 +294,7 @@
       "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
+      "nanbeige4.1-3b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -402,6 +405,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "phi-4-thinking-high",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
@@ -856,6 +860,7 @@
       "ling-2.6-flash-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -1105,6 +1110,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -1137,6 +1143,7 @@
       "gpt-oss-20b-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -1179,6 +1186,7 @@
       "gemini-3.5-flash-lite-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "ling-2.6-flash-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -1749,6 +1757,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -1805,6 +1814,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -1830,6 +1840,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -1884,6 +1895,7 @@
       "gpt-oss-20b-thinking-low",
       "laguna-xs-2.1-thinking-medium",
       "ling-2.6-flash-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -1952,6 +1964,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -2102,6 +2115,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -2137,6 +2151,7 @@
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -2255,6 +2270,7 @@
       "apple-foundation-system",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -2319,6 +2335,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -2393,6 +2410,7 @@
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
       "ling-2.6-flash-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -2446,6 +2464,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -2506,6 +2525,7 @@
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
       "ling-2.6-flash-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -2536,6 +2556,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -2670,6 +2691,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -2715,6 +2737,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -2770,6 +2793,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -2806,6 +2830,7 @@
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
       "ling-2.6-flash-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -2876,6 +2901,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -3014,6 +3040,7 @@
       "gpt-oss-20b-thinking-low",
       "laguna-s-2.1-thinking-medium",
       "ling-2.6-flash-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -3092,6 +3119,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -3169,6 +3197,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -3224,6 +3253,7 @@
     "models": [
       "apple-foundation-system",
       "ling-2.6-flash-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -3536,6 +3566,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -3589,6 +3620,7 @@
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -3650,6 +3682,7 @@
       "laguna-xs-2.1-thinking-medium",
       "ling-2.6-flash-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -3727,6 +3760,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -3772,6 +3806,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -3901,6 +3936,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -3937,6 +3973,7 @@
       "gpt-oss-20b-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -3959,6 +3996,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -4019,6 +4057,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
       "phi-4-thinking-low",
@@ -4046,6 +4085,7 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-low",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -4078,6 +4118,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -4263,7 +4304,8 @@
       "apple-foundation-system",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
-      "laguna-xs-2.1-thinking-medium"
+      "laguna-xs-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low"
     ]
   },
   {
@@ -4700,6 +4742,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -4753,6 +4796,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -4789,6 +4833,7 @@
       "apple-foundation-system",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
+      "nanbeige4.1-3b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -4831,6 +4876,7 @@
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "laguna-xs-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
       "qwen3.5-0.8b-thinking-high",
@@ -4898,6 +4944,7 @@
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
       "ling-2.6-flash-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -4942,6 +4989,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -4989,6 +5037,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -5038,6 +5087,7 @@
       "grok-4.5-thinking-medium",
       "hy3-preview-thinking-medium",
       "ling-2.6-flash-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-9b-thinking-low",
@@ -5078,6 +5128,7 @@
       "grok-4.5-thinking-medium",
       "hy3-preview-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.6-35b-a3b-thinking-medium"
@@ -5118,6 +5169,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -5168,6 +5220,7 @@
       "laguna-xs-2.1-thinking-medium",
       "ling-2.6-flash-thinking-medium",
       "mimo-v2.5-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -5242,6 +5295,7 @@
       "gemma-4-e2b-thinking-none",
       "ling-2.6-flash-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-9b-thinking-none"
@@ -5318,6 +5372,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
       "phi-4-thinking-low",
@@ -5360,6 +5415,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -5386,6 +5442,7 @@
       "gemma-4-e2b-thinking-none",
       "gpt-oss-20b-thinking-medium",
       "laguna-s-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-medium",
@@ -5692,6 +5749,7 @@
       "gemini-3.5-flash-lite-thinking-medium",
       "gemma-4-e2b-thinking-low",
       "laguna-xs-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -5803,6 +5861,7 @@
       "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -5828,6 +5887,7 @@
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "laguna-s-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -5856,6 +5916,7 @@
       "gpt-oss-20b-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "ling-2.6-flash-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-9b-thinking-none"
@@ -5901,6 +5962,7 @@
       "gpt-oss-20b-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -5972,6 +6034,7 @@
     "models": [
       "gemma-4-e2b-thinking-low",
       "laguna-xs-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -6026,6 +6089,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
       "phi-4-thinking-low",
@@ -6050,6 +6114,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e2b-thinking-low",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
   },
@@ -6068,6 +6133,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e2b-thinking-low",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
   },
@@ -6092,6 +6158,7 @@
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
       "ling-2.6-flash-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -6135,7 +6202,8 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e2b-thinking-low",
-      "gemma-4-e4b-thinking-none"
+      "gemma-4-e4b-thinking-none",
+      "nanbeige4.1-3b-thinking-low"
     ]
   },
   {
@@ -6155,6 +6223,7 @@
       "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "grok-4.5-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -6177,6 +6246,7 @@
       "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -6457,6 +6527,7 @@
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -6807,7 +6878,8 @@
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
-      "gemma-4-e4b-thinking-none"
+      "gemma-4-e4b-thinking-none",
+      "nanbeige4.1-3b-thinking-low"
     ]
   },
   {
@@ -6825,6 +6897,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "gemma-4-e4b-thinking-none",
+      "nanbeige4.1-3b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7261,6 +7334,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "gemma-4-e4b-thinking-none",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -7378,6 +7452,7 @@
     "models": [
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -7460,6 +7535,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -7720,6 +7796,7 @@
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -7745,6 +7822,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -8136,6 +8214,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -8316,6 +8395,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -8472,6 +8552,7 @@
     "models": [
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -8635,6 +8716,7 @@
     "models": [
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -8879,6 +8961,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
   },
@@ -8955,6 +9038,7 @@
     "models": [
       "gemma-4-e4b-thinking-none",
       "ling-2.6-flash-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
       "qwen3.5-0.8b-thinking-high",
@@ -9130,6 +9214,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -9300,6 +9385,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
   },
@@ -9493,7 +9579,8 @@
     "area": 4,
     "area_name": "Humanidades y de las Artes",
     "models": [
-      "gemma-4-e4b-thinking-none"
+      "gemma-4-e4b-thinking-none",
+      "nanbeige4.1-3b-thinking-low"
     ]
   },
   {
@@ -10448,6 +10535,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "ling-2.6-flash-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -10576,6 +10664,84 @@
     ]
   },
   {
+    "number": 96,
+    "subject": "Biología",
+    "question": "96. Etapa de la meiosis en la cual las cromátidas hermanas se separan de forma aleatoria hacia los polos del huso meiótico.",
+    "options": {
+      "A": "A) Anafase II.",
+      "B": "B) Metafase I.",
+      "C": "C) Telofase II.",
+      "D": "D) Anafase I."
+    },
+    "correct_answer": "A",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 44,
+    "subject": "Geografía",
+    "question": "Una causa de la formación de nuevos países en Europa es la",
+    "options": {
+      "A": "A) caída de La Unión Soviética.",
+      "B": "B) dependencia económica.",
+      "C": "C) regionalización económica.",
+      "D": "D) expansión de la Unión Soviética."
+    },
+    "correct_answer": "A",
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low"
+    ]
+  },
+  {
+    "number": 12,
+    "subject": "Literatura",
+    "question": "Además del diálogo, dos características del texto dramático son",
+    "options": {
+      "A": "A) acotaciones y prescindir de narrador.",
+      "B": "B) descripción y escenografías.",
+      "C": "C) actos y necesitar un narrador.",
+      "D": "D) vestuario y personajes."
+    },
+    "correct_answer": "A",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "nanbeige4.1-3b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 79,
+    "subject": "Español",
+    "question": "¿Cuál enunciado tiene la ortografía CORRECTA?",
+    "options": {
+      "A": "A) Notó que aquel beso era de un extraño.",
+      "B": "B) Los animales se detenian allí a contemplarlo.",
+      "C": "C) Pronto adquirio la costumbre de desvelarse.",
+      "D": "D) El muchacho vivía cómo un salvaje en la soledad."
+    },
+    "correct_answer": "A",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "nanbeige4.1-3b-thinking-low"
+    ]
+  },
+  {
     "number": 68,
     "subject": "Matemáticas",
     "question": "68. ¿Cuál de las siguientes expresiones corresponde para obtener la derivada \\(f(x)=x^3\\) en el punto \\(x=3\\)?",
@@ -10622,27 +10788,6 @@
       "B": "B) sus respetos",
       "C": "C) su retiro",
       "D": "D) los nuevos elementos"
-    },
-    "correct_answer": "A",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 96,
-    "subject": "Biología",
-    "question": "96. Etapa de la meiosis en la cual las cromátidas hermanas se separan de forma aleatoria hacia los polos del huso meiótico.",
-    "options": {
-      "A": "A) Anafase II.",
-      "B": "B) Metafase I.",
-      "C": "C) Telofase II.",
-      "D": "D) Anafase I."
     },
     "correct_answer": "A",
     "area": 1,
@@ -10772,24 +10917,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 44,
-    "subject": "Geografía",
-    "question": "Una causa de la formación de nuevos países en Europa es la",
-    "options": {
-      "A": "A) caída de La Unión Soviética.",
-      "B": "B) dependencia económica.",
-      "C": "C) regionalización económica.",
-      "D": "D) expansión de la Unión Soviética."
-    },
-    "correct_answer": "A",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
   },
   {
@@ -11260,25 +11387,6 @@
     "correct_answer": "A",
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 12,
-    "subject": "Literatura",
-    "question": "Además del diálogo, dos características del texto dramático son",
-    "options": {
-      "A": "A) acotaciones y prescindir de narrador.",
-      "B": "B) descripción y escenografías.",
-      "C": "C) actos y necesitar un narrador.",
-      "D": "D) vestuario y personajes."
-    },
-    "correct_answer": "A",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
     "models": [
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
