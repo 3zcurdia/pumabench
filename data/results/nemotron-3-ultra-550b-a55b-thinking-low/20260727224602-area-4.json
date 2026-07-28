@@ -1,0 +1,501 @@
+{
+  "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "model": "nemotron-3-ultra-550b-a55b-thinking-low",
+  "effort": "low",
+  "timestamp": "20260727224602",
+  "area": 4,
+  "area_name": "Humanidades y de las Artes",
+  "total": {
+    "questions": 120,
+    "correct": 85,
+    "percentage": 70.83
+  },
+  "subjects": {
+    "Biología": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Español": {
+      "questions": 18,
+      "correct": 14,
+      "percentage": 77.78
+    },
+    "Filosofía": {
+      "questions": 10,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Física": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Geografía": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Historia Universal": {
+      "questions": 10,
+      "correct": 1,
+      "percentage": 10.0
+    },
+    "Historia de México": {
+      "questions": 10,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Literatura": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Matemáticas": {
+      "questions": 22,
+      "correct": 22,
+      "percentage": 100.0
+    },
+    "Química": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    }
+  },
+  "failed_questions": [
+    {
+      "number": 1,
+      "subject": "Física",
+      "question": "La tripulación del Apolo XI recorrió 3.8 × 10¹⁵ km en tres días. ¿Rapidez promedio?",
+      "options": {
+        "A": "A) 53 × 10¹³ km/día",
+        "B": "B) 53 × 10¹³ km/h",
+        "C": "C) 53 × 10¹¹ km/h",
+        "D": "D) 53 × 10¹³ km/min"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 11,
+      "subject": "Literatura",
+      "question": "¿Cómo se denomina el enunciado subrayado en: 'ESTE MIÉRCOLES SE ESPERAN VARIAS MARCHAS EN LA CDMX'?",
+      "options": {
+        "A": "A) Antetítulo o epígrafe.",
+        "B": "B) Encabezado o titular.",
+        "C": "C) Entrada o lead.",
+        "D": "D) Balazo o bajad."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 68,
+      "subject": "Español",
+      "question": "Idea principal del segundo párrafo del texto 'La mente colectiva'.",
+      "options": {
+        "A": "A) En la naturaleza existen 'organismos colectivos'.",
+        "B": "B) Muchos escritores han soñado que la humanidad podría formar un 'superorganismo'.",
+        "C": "C) Muchos escritores han soñado que la humanidad podría conectarse por telepatía.",
+        "D": "D) Las hormigas y abejas son 'organismos colectivos'."
+      },
+      "correct_answer": "A",
+      "reference": {
+        "type": "text",
+        "content": "La mente colectiva\n\nEn su famosa novela *Más que humano* (1953), el escritor estadounidense Theodore Sturgeon plantea el surgimiento del siguiente paso evolutivo del *Homo sapiens*: un colectivo de seis individuos con distintas capacidades que, unidos por telepatía, conforman un organismo múltiple en el que cada uno colabora por el bien de todos.\n\nEn la naturaleza existen realmente estos \"organismos colectivos\", como las colonias de hormigas o de abejas, constituidos por muchos cuerpos con un genoma compartido que trabajan por el bienestar común. Quizá inspirándose en ellas, muchos otros escritores de ciencia ficción han soñado que la humanidad, a través de múltiples mentes conectadas mediante algo semejante a la telepatía, podría llegar a formar un \"superorganismo\".\n\nDesgraciadamente, la transmisión de pensamiento no pasa de ser una fantasía: no hay ningún mecanismo físico o fisiológico que pudiera darle sustento. Sin embargo, quizá la humanidad, en cierta forma, ha dado ya el paso para convertirse en algo más que un simple conjunto de individuos.\n\nEn efecto: desde que nuestra especie desarrolló un lenguaje, y con él una cultura, los humanos comenzamos a intercambiar información cultural que no forma parte de nuestro acervo genético, pero que también aumenta nuestra adaptación al medio y favorece así nuestra supervivencia.\n\nFuego, agricultura, escritura, gobierno, arquitectura e ingeniería, educación, industria, ciencia y tecnología, arte... todos son productos culturales que los humanos compartimos unos con otros —y con nuestras crías— a través de la comunicación. El lenguaje es una especie de \"telepatía\" rudimentaria que nos permite mantener un acervo compartido en los cerebros de toda la población: una cultura. Y la cultura es, asimismo, una forma tosca de \"memoria\" extracerebral.\n\nDiversas innovaciones tecnológicas —alfabeto, papel, libros, imprenta, bibliotecas, y más recientemente computadoras e internet— han sido \"prótesis\" mentales y culturales que, al potenciar la comunicación, aumentan nuestras posibilidades de acción y supervivencia, comparadas con las de otros organismos... y nos dan también un poder de destrucción que nunca había existido sobre el planeta.\n\nEl lenguaje, junto con otros inventos culturales —la educación, la discusión y el debate, la democracia—, ha permitido que los humanos comencemos a funcionar como una verdadera comunidad de organismos que podemos (al menos en teoría) tomar decisiones colectivamente, con miras al bien común.\n\nHoy es en las redes sociales donde se lleva a cabo, de manera cada vez más amplia e intensa, esta constante discusión comunitaria. Y ya está teniendo impacto en las decisiones que tomamos como sociedad.\n\nConectados mediante la red estamos pensando colectivamente, como sociedad, más intensamente que nunca. Y lo hacemos no mediante la transmisión del pensamiento, sino mediante la discusión. Quizá éste sea el embrión de la verdadera \"telepatía\" humana.",
+        "title": "La mente colectiva",
+        "author": null,
+        "source": "Texto sobre la novela *Más que humano* (1953) de Theodore Sturgeon"
+      }
+    },
+    {
+      "number": 69,
+      "subject": "Español",
+      "question": "La expresión 'prótesis mentales y culturales' refiriéndose a innovaciones tecnológicas implica que",
+      "options": {
+        "A": "A) elevan posibilidades de acción y supervivencia.",
+        "B": "B) han permitido elevar la capacidad de comunicar y vivir mejor.",
+        "C": "C) son extensión del cerebro que pueden generar destrucción.",
+        "D": "D) han sido creadas como extensión de capacidades comunicativas para vivir mejor."
+      },
+      "correct_answer": "D",
+      "reference": {
+        "type": "text",
+        "content": "La mente colectiva\n\nEn su famosa novela *Más que humano* (1953), el escritor estadounidense Theodore Sturgeon plantea el surgimiento del siguiente paso evolutivo del *Homo sapiens*: un colectivo de seis individuos con distintas capacidades que, unidos por telepatía, conforman un organismo múltiple en el que cada uno colabora por el bien de todos.\n\nEn la naturaleza existen realmente estos \"organismos colectivos\", como las colonias de hormigas o de abejas, constituidos por muchos cuerpos con un genoma compartido que trabajan por el bienestar común. Quizá inspirándose en ellas, muchos otros escritores de ciencia ficción han soñado que la humanidad, a través de múltiples mentes conectadas mediante algo semejante a la telepatía, podría llegar a formar un \"superorganismo\".\n\nDesgraciadamente, la transmisión de pensamiento no pasa de ser una fantasía: no hay ningún mecanismo físico o fisiológico que pudiera darle sustento. Sin embargo, quizá la humanidad, en cierta forma, ha dado ya el paso para convertirse en algo más que un simple conjunto de individuos.\n\nEn efecto: desde que nuestra especie desarrolló un lenguaje, y con él una cultura, los humanos comenzamos a intercambiar información cultural que no forma parte de nuestro acervo genético, pero que también aumenta nuestra adaptación al medio y favorece así nuestra supervivencia.\n\nFuego, agricultura, escritura, gobierno, arquitectura e ingeniería, educación, industria, ciencia y tecnología, arte... todos son productos culturales que los humanos compartimos unos con otros —y con nuestras crías— a través de la comunicación. El lenguaje es una especie de \"telepatía\" rudimentaria que nos permite mantener un acervo compartido en los cerebros de toda la población: una cultura. Y la cultura es, asimismo, una forma tosca de \"memoria\" extracerebral.\n\nDiversas innovaciones tecnológicas —alfabeto, papel, libros, imprenta, bibliotecas, y más recientemente computadoras e internet— han sido \"prótesis\" mentales y culturales que, al potenciar la comunicación, aumentan nuestras posibilidades de acción y supervivencia, comparadas con las de otros organismos... y nos dan también un poder de destrucción que nunca había existido sobre el planeta.\n\nEl lenguaje, junto con otros inventos culturales —la educación, la discusión y el debate, la democracia—, ha permitido que los humanos comencemos a funcionar como una verdadera comunidad de organismos que podemos (al menos en teoría) tomar decisiones colectivamente, con miras al bien común.\n\nHoy es en las redes sociales donde se lleva a cabo, de manera cada vez más amplia e intensa, esta constante discusión comunitaria. Y ya está teniendo impacto en las decisiones que tomamos como sociedad.\n\nConectados mediante la red estamos pensando colectivamente, como sociedad, más intensamente que nunca. Y lo hacemos no mediante la transmisión del pensamiento, sino mediante la discusión. Quizá éste sea el embrión de la verdadera \"telepatía\" humana.",
+        "title": "La mente colectiva",
+        "author": null,
+        "source": "Texto sobre la novela *Más que humano* (1953) de Theodore Sturgeon"
+      }
+    },
+    {
+      "number": 73,
+      "subject": "Español",
+      "question": "Elige el objeto directo del predicado.",
+      "options": {
+        "A": "A) Compró la computadora.",
+        "B": "B) Las pirámides de Teotihuacán.",
+        "C": "C) Hoy, mañana y siempre.",
+        "D": "D) Las cuentas del gran capitán."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 75,
+      "subject": "Español",
+      "question": "Completa: Quisieron colaborar con una obra magistral, ________ no guardaban los requisitos; ________, tuvieron que resignarse ________ la realización de una presentación más sencilla.",
+      "options": {
+        "A": "A) sin embargo — no obstante — a",
+        "B": "B) mas — por tanto — a",
+        "C": "C) más — en conclusión — con",
+        "D": "D) pero — en consecuencia — con"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 92,
+      "subject": "Historia Universal",
+      "question": "Un factor que propició el origen de la Revolución Industrial en Inglaterra fue que",
+      "options": {
+        "A": "A) desarrolló la industria textil.",
+        "B": "B) aplicó la 'Riqueza de las Naciones'.",
+        "C": "C) triunfó en la Guerra de Siete Años.",
+        "D": "D) diseñó y construyó el ferrocarril."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 93,
+      "subject": "Historia Universal",
+      "question": "Como consecuencia de la Revolución Liberal de 1830, ________ y Víctor Manuel II lideraron una guerra contra ________.",
+      "options": {
+        "A": "A) Carlos Alberto — Prusia",
+        "B": "B) José Garibaldi — Austria",
+        "C": "C) Napoleón III — Inglaterra",
+        "D": "D) Carlos X — Francia"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 94,
+      "subject": "Historia Universal",
+      "question": "Durante el siglo XIX, la búsqueda de materias primas y expansión del mercado mundial impulsaron",
+      "options": {
+        "A": "A) el imperialismo europeo.",
+        "B": "B) el movimiento obrero.",
+        "C": "C) la Revolución Industrial.",
+        "D": "D) la Revolución Agrícola."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 95,
+      "subject": "Historia Universal",
+      "question": "El incidente que desencadenó la Primera Guerra Mundial fue",
+      "options": {
+        "A": "A) el asesinato del heredero al trono austro-húngaro.",
+        "B": "B) la integración de la Triple Alianza.",
+        "C": "C) la invasión alemana a Francia.",
+        "D": "D) la crisis de 1929."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 96,
+      "subject": "Historia Universal",
+      "question": "La crisis de 1929 en EUA se produjo debido a",
+      "options": {
+        "A": "A) el auge del sistema keynesiano.",
+        "B": "B) la caída de la Bolsa de Valores.",
+        "C": "C) la rivalidad con Alemania.",
+        "D": "D) el surgimiento del fascismo."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 97,
+      "subject": "Historia Universal",
+      "question": "La invasión de Polonia, Dinamarca, Noruega y la Operación Barbarroja fueron acciones de",
+      "options": {
+        "A": "A) la Triple Alianza.",
+        "B": "B) el Eje Berlín—Roma—Tokio.",
+        "C": "C) la Unión Soviética.",
+        "D": "D) Estados Unidos."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 98,
+      "subject": "Historia Universal",
+      "question": "El enfrentamiento indirecto entre URSS y EUA se conoce como la Guerra",
+      "options": {
+        "A": "A) del Golfo Pérsico.",
+        "B": "B) árabe-israelí.",
+        "C": "C) de los Seis Días.",
+        "D": "D) Fría."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 99,
+      "subject": "Historia Universal",
+      "question": "El desembarco de armamento en Cuba provocó la",
+      "options": {
+        "A": "A) Revolución Sandinista.",
+        "B": "B) Crisis de los Misiles.",
+        "C": "C) Dictadura de Duvalier.",
+        "D": "D) Iniciativa de Defensa Estratégica."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 100,
+      "subject": "Historia Universal",
+      "question": "Facilita el comercio mundial, se asocia con crisis económicas y genera cultura unificada.",
+      "options": {
+        "A": "A) Socialismo.",
+        "B": "B) Neoliberalismo.",
+        "C": "C) Globalización.",
+        "D": "D) Comunismo."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 101,
+      "subject": "Historia de México",
+      "question": "La principal actividad económica de los pueblos de Mesoamérica fue la",
+      "options": {
+        "A": "A) caza.",
+        "B": "B) pesca.",
+        "C": "C) agricultura.",
+        "D": "D) recolección."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 102,
+      "subject": "Historia de México",
+      "question": "Causa interna de la independencia de la Nueva España",
+      "options": {
+        "A": "A) Invasión francesa a España.",
+        "B": "B) Independencia de las Trece Colonias.",
+        "C": "C) Consolidación de Vales Reales.",
+        "D": "D) Adopción de las ideas de la Ilustración."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 103,
+      "subject": "Historia de México",
+      "question": "Primer conflicto externo durante el gobierno de Santa Ana",
+      "options": {
+        "A": "A) Expedición española.",
+        "B": "B) Venta de la Mesilla.",
+        "C": "C) Guerra de los pasteles.",
+        "D": "D) Guerra de Texas."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 104,
+      "subject": "Historia de México",
+      "question": "Proclamó libertad de enseñanza y prensa, prohibió a la Iglesia poseer bienes raíces y decretó régimen republicano federal.",
+      "options": {
+        "A": "A) Constitución de 1824.",
+        "B": "B) Constitución de 1857.",
+        "C": "C) Constitución de 1822.",
+        "D": "D) Constitución de 1814."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 105,
+      "subject": "Historia de México",
+      "question": "En materia económica, el gobierno de Porfirio Díaz se caracterizó por",
+      "options": {
+        "A": "A) políticas de nacionalización en la minería.",
+        "B": "B) la crisis que se generó.",
+        "C": "C) la prohibición a la inversión privada.",
+        "D": "D) las concesiones a inversionistas extranjeros."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 106,
+      "subject": "Historia de México",
+      "question": "Las constantes reelecciones de Díaz y la opresión a grupos sociales fueron detonantes de",
+      "options": {
+        "A": "A) el Maximato.",
+        "B": "B) la Revolución Mexicana.",
+        "C": "C) el Milagro Mexicano.",
+        "D": "D) la Unidad Nacional."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 107,
+      "subject": "Historia de México",
+      "question": "Los Acuerdos de Bucareli y la creación de la SEP fueron acciones de",
+      "options": {
+        "A": "A) Álvaro Obregón.",
+        "B": "B) Adolfo de la Huerta.",
+        "C": "C) Plutarco Elías Calles.",
+        "D": "D) Venustiano Carranza."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 108,
+      "subject": "Historia de México",
+      "question": "La creación del IPN, el Plan Sexenal, el reparto ejidal y la nacionalización del petróleo fueron acciones de",
+      "options": {
+        "A": "A) Emilio Portes Gil.",
+        "B": "B) Plutarco Elías Calles.",
+        "C": "C) Álvaro Obregón.",
+        "D": "D) Lázaro Cárdenas."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 109,
+      "subject": "Historia de México",
+      "question": "La principal característica económica del gobierno de Manuel Ávila Camacho fue",
+      "options": {
+        "A": "A) la sustitución de importaciones.",
+        "B": "B) el apoyo a reclamos sindicales.",
+        "C": "C) el equilibrio de la balanza comercial.",
+        "D": "D) la expansión del mercado externo."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 110,
+      "subject": "Historia de México",
+      "question": "Fue una acción del gobierno de Luis Echeverría como parte del Desarrollo Compartido.",
+      "options": {
+        "A": "A) Disminución de importaciones.",
+        "B": "B) Nacionalización de la banca.",
+        "C": "C) Privatización de la educación.",
+        "D": "D) Fomento a la participación de empresas privadas."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 111,
+      "subject": "Filosofía",
+      "question": "¿A qué tipo de función del lenguaje corresponde: 'No debes saquear, vender o maltratar el patrimonio artístico'?",
+      "options": {
+        "A": "A) Directiva.",
+        "B": "B) Expresiva.",
+        "C": "C) Exclamativa.",
+        "D": "D) Declarativa."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 112,
+      "subject": "Filosofía",
+      "question": "¿Cómo se simboliza: 'Si la llevo al cine, entonces, le pago el boleto y la llevo a su casa'?",
+      "options": {
+        "A": "A) R ∨ (P⋅Q)",
+        "B": "B) P→ (Q ⋅ R)",
+        "C": "C) (P→Q) ⋅ R",
+        "D": "D) (Q ∨ R) ⋅ P"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 113,
+      "subject": "Filosofía",
+      "question": "¿Cuál argumento contiene razonamiento deductivo?",
+      "options": {
+        "A": "A) Todos los seres humanos requieren alimentos; si no te alimentas morirás.",
+        "B": "B) En esa zapatería he encontrado calzado excelente, compraré ahí.",
+        "C": "C) Juan está enfermo, seguro por eso no me hizo caso.",
+        "D": "D) La mayoría de votantes tiene entre 18 y 30 años, son los jóvenes los que eligieron."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 114,
+      "subject": "Filosofía",
+      "question": "¿Cuáles son actos morales? I. Comprar escultura vs pintura. II. Elegir iniciar trámites de divorcio. III. Elegir denunciar acto ilícito. IV. Decidir plan alimenticio. V. Decidir fecha de examen.",
+      "options": {
+        "A": "A) II y III",
+        "B": "B) I y II",
+        "C": "C) IV y V",
+        "D": "D) III y V"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 115,
+      "subject": "Filosofía",
+      "question": "¿Cuál caso implica responsabilidad moral?",
+      "options": {
+        "A": "A) María enfermera cae enferma por contagio.",
+        "B": "B) Juan encuentra billete ganador.",
+        "C": "C) Rocío decide limpiar su armario.",
+        "D": "D) Pedro busca trabajo, se prepara pero no consigue la plaza."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 116,
+      "subject": "Filosofía",
+      "question": "¿Qué debe hacer el médico para actuar autónomamente ante un paciente que rechaza transfusión por creencias religiosas?",
+      "options": {
+        "A": "A) No realizar la transfusión para evitar problemas legales.",
+        "B": "B) Realizarla para ser héroe ante colegas.",
+        "C": "C) Realizarla para salvar la vida a pesar de consecuencias.",
+        "D": "D) No realizarla para conservar su trabajo."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 117,
+      "subject": "Filosofía",
+      "question": "¿Qué postura sobre los valores representa: 'El valor de la vida depende de quién está vivo'?",
+      "options": {
+        "A": "A) Objetivista.",
+        "B": "B) Pragmatista.",
+        "C": "C) Subjetivista.",
+        "D": "D) Utilitarista."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 118,
+      "subject": "Filosofía",
+      "question": "¿Con cuál concepto estético puede valorarse contemplar una tormenta en el mar en una noche oscura?",
+      "options": {
+        "A": "A) Bello.",
+        "B": "B) Sublime.",
+        "C": "C) Cómico.",
+        "D": "D) Trágico."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 119,
+      "subject": "Filosofía",
+      "question": "En el fragmento de Sartre, el problema central es de carácter",
+      "options": {
+        "A": "A) estético.",
+        "B": "B) ontológico.",
+        "C": "C) axiológico.",
+        "D": "D) político."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 120,
+      "subject": "Filosofía",
+      "question": "¿Qué disciplina filosófica tiene como objeto de estudio el conocimiento?",
+      "options": {
+        "A": "A) Epistemología.",
+        "B": "B) Lógica.",
+        "C": "C) Ontología.",
+        "D": "D) Metafísica."
+      },
+      "correct_answer": "A"
+    }
+  ]
+}
