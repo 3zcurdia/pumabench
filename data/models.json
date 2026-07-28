@@ -98,6 +98,18 @@
     "pricing": null
   },
   {
+    "id": "inclusionai/ling-2.6-flash",
+    "name": "inclusionAI: Ling-2.6-flash",
+    "provider": "inclusionai",
+    "type": "moe",
+    "parameters": 107494409216,
+    "pricing": {
+      "prompt": "0.00000001",
+      "completion": "0.00000003",
+      "input_cache_read": "0.000000002"
+    }
+  },
+  {
     "id": "laguna-xs-2.1",
     "name": "Poolside: Laguna XS 2.1",
     "provider": "laguna-xs-2.1",
@@ -147,6 +159,14 @@
       "completion": "0.0000012",
       "input_cache_read": "0.00000006"
     }
+  },
+  {
+    "id": "nanbeige.nanbeige4.1-3b",
+    "name": "nanbeige.nanbeige4.1-3b",
+    "provider": "nanbeige.nanbeige4.1-3b",
+    "type": "dense",
+    "parameters": null,
+    "pricing": null
   },
   {
     "id": "nvidia/nemotron-3-super-120b-a12b:free",

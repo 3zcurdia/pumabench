@@ -49,6 +49,7 @@
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -267,6 +268,7 @@
     "models": [
       "apple-foundation-system",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -363,6 +365,7 @@
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -533,6 +536,7 @@
       "grok-4.5-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -676,6 +680,7 @@
       "apple-foundation-system",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -753,6 +758,7 @@
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -847,6 +853,7 @@
       "grok-4.5-thinking-medium",
       "hy3-preview-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "minimax-m3-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
@@ -874,6 +881,7 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -960,6 +968,7 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -1090,6 +1099,7 @@
       "gpt-oss-20b-thinking-medium",
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -1168,6 +1178,7 @@
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
       "laguna-s-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -1201,6 +1212,7 @@
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -1454,6 +1466,7 @@
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -1498,6 +1511,7 @@
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -1729,6 +1743,7 @@
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -1762,6 +1777,7 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -1867,6 +1883,7 @@
       "gemma-4-e2b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -1929,6 +1946,7 @@
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -2079,6 +2097,7 @@
       "grok-4.5-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -2373,6 +2392,7 @@
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
@@ -2422,6 +2442,7 @@
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -2484,6 +2505,7 @@
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -2509,6 +2531,7 @@
       "apple-foundation-system",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -2543,6 +2566,7 @@
       "gemini-3.5-flash-lite-thinking-medium",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -2568,6 +2592,7 @@
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
@@ -2684,6 +2709,7 @@
       "grok-4.5-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -2779,6 +2805,7 @@
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -2845,6 +2872,7 @@
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -2878,6 +2906,7 @@
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "laguna-s-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -2915,6 +2944,7 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e2b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -2983,6 +3013,7 @@
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "laguna-s-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -3055,6 +3086,7 @@
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -3133,6 +3165,7 @@
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -3190,6 +3223,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -3316,6 +3350,7 @@
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -3368,6 +3403,7 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e2b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -3401,6 +3437,7 @@
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -3441,6 +3478,7 @@
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -3492,6 +3530,7 @@
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -3609,6 +3648,7 @@
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "minimax-m3-thinking-medium",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -3681,6 +3721,7 @@
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -3782,6 +3823,7 @@
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -3855,6 +3897,7 @@
       "gpt-oss-20b-thinking-low",
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -3943,6 +3986,7 @@
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -3971,6 +4015,7 @@
       "gemma-4-e4b-thinking-low",
       "gpt-oss-20b-thinking-low",
       "laguna-s-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -4152,6 +4197,7 @@
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -4187,6 +4233,7 @@
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -4236,6 +4283,7 @@
       "apple-foundation-system",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -4381,6 +4429,7 @@
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -4647,6 +4696,7 @@
       "gpt-oss-20b-thinking-medium",
       "hy3-preview-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -4698,6 +4748,7 @@
       "grok-4.5-thinking-medium",
       "hy3-preview-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -4813,6 +4864,7 @@
       "grok-4.5-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "minimax-m3-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
@@ -4845,6 +4897,7 @@
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -4883,6 +4936,7 @@
       "grok-4.5-thinking-medium",
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -4930,6 +4984,7 @@
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -4982,6 +5037,7 @@
       "gpt-oss-20b-thinking-medium",
       "grok-4.5-thinking-medium",
       "hy3-preview-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-9b-thinking-low",
@@ -5056,6 +5112,7 @@
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -5109,6 +5166,7 @@
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "mimo-v2.5-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
@@ -5148,6 +5206,7 @@
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -5181,6 +5240,7 @@
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemma-4-e2b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
       "minimax-m3-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
@@ -5294,6 +5354,7 @@
       "hy3-preview-thinking-medium",
       "laguna-s-2.1-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -5351,6 +5412,7 @@
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
       "qwen3.5-0.8b-thinking-high",
@@ -5378,6 +5440,7 @@
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -5496,6 +5559,7 @@
       "gpt-5.6-terra-thinking-medium",
       "grok-4.5-thinking-medium",
       "hy3-preview-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -5535,6 +5599,7 @@
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -5790,6 +5855,7 @@
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
       "laguna-s-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-9b-thinking-none"
@@ -6025,6 +6091,7 @@
       "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -6316,6 +6383,7 @@
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -6367,6 +6435,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e2b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -6437,6 +6506,7 @@
     "models": [
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
       "qwen3.5-9b-thinking-none"
     ]
   },
@@ -6455,6 +6525,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e2b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -6945,6 +7016,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "gemma-4-e4b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -8297,6 +8369,7 @@
     "models": [
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -8881,6 +8954,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e4b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-high",
       "qwen3.5-0.8b-thinking-high",
@@ -9491,6 +9565,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e4b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
       "minimax-m3-thinking-medium",
       "phi-4-thinking-high"
     ]
@@ -10333,19 +10408,20 @@
     ]
   },
   {
-    "number": 33,
-    "subject": "Química",
-    "question": "33. En una disolución acuosa se determinó que [H^(+)] < [OH^( -)], por lo tanto, el valor de pH será",
+    "number": 47,
+    "subject": "Matemáticas",
+    "question": "47. Una persona pesa 96 kg. Al ingresar a una clínica reductora de peso, comienza a bajar \\(\\frac{1}{32}\\) ​ del peso inicial cada semana. ¿Cuántos kg pesará al término de cada una de las primeras cuatro semanas del tratamiento?",
     "options": {
-      "A": "A) 11",
-      "B": "B) 5",
-      "C": "C) 7",
-      "D": "D) 2"
+      "A": "A) Semana 1: 93 Semana 2: 90 Semana 3: 87 Semana 4: 84",
+      "B": "B) Semana 1: 96 Semana 2: 92 Semana 3: 88 Semana 4: 84",
+      "C": "C) Semana 1: 96 Semana 2: 90 Semana 3: 84 Semana 4: 78",
+      "D": "D) Semana 1: 93 Semana 2: 92 Semana 3: 91 Semana 4: 90"
     },
     "correct_answer": "A",
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
+      "ling-2.6-flash-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -10358,14 +10434,78 @@
     ]
   },
   {
-    "number": 47,
-    "subject": "Matemáticas",
-    "question": "47. Una persona pesa 96 kg. Al ingresar a una clínica reductora de peso, comienza a bajar \\(\\frac{1}{32}\\) ​ del peso inicial cada semana. ¿Cuántos kg pesará al término de cada una de las primeras cuatro semanas del tratamiento?",
+    "number": 116,
+    "subject": "Historia de México",
+    "question": "116. La promulgación de la Constitución de 1917, el asesinato de Emiliano Zapata y la fundación de la Confederación Regional Obrera Mexicana fueron sucesos ocurridos durante el gobierno de",
     "options": {
-      "A": "A) Semana 1: 93 Semana 2: 90 Semana 3: 87 Semana 4: 84",
-      "B": "B) Semana 1: 96 Semana 2: 92 Semana 3: 88 Semana 4: 84",
-      "C": "C) Semana 1: 96 Semana 2: 90 Semana 3: 84 Semana 4: 78",
-      "D": "D) Semana 1: 93 Semana 2: 92 Semana 3: 91 Semana 4: 90"
+      "A": "A) Venustiano Carranza.",
+      "B": "B) Álvaro Obregón.",
+      "C": "C) Plutarco Elías Calles.",
+      "D": "D) Adolfo de la Huerta."
+    },
+    "correct_answer": "A",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "ling-2.6-flash-thinking-medium",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 35,
+    "subject": "Química",
+    "question": "¿Cuál de los siguientes compuestos es un ácido carboxílico?",
+    "options": {
+      "A": {
+        "label": "A",
+        "image": "area-2-q35-opt-A.webp",
+        "alt": "Opción A para la pregunta 35.",
+        "image_description": "La opción A presenta la estructura química de un compuesto orgánico. Se observa un grupo funcional que incluye un carbono central (C) unido a un grupo hidroxilo (–OH) y a un grupo carbonilo (C=O). A la izquierda del carbono central, hay un grupo metilo (–CH₃). La disposición de los átomos sugiere que el compuesto es un alcohol con un grupo carbonilo, lo que indica que podría ser un compuesto de tipo cetona o un alcohol secundario. La fórmula general se puede interpretar como un alcohol que tiene un grupo carbonilo en la misma cadena de carbonos."
+      },
+      "B": {
+        "label": "B",
+        "image": "area-2-q35-opt-B.webp",
+        "alt": "Opción B para la pregunta 35.",
+        "image_description": "La opción B presenta la estructura química de un compuesto orgánico. Se observa un grupo funcional amida, que se identifica por la presencia de un carbono (C) unido a un grupo carbonilo (C=O) y a un grupo amino (NH2). La cadena principal está formada por un carbono que está unido a un grupo metilo (CH3) y al grupo amino. La representación muestra la disposición de los átomos y los enlaces entre ellos, donde el carbono del grupo carbonilo está en el centro, con el grupo metilo a la izquierda y el grupo amino a la derecha. Esta estructura corresponde a la acetamida, un compuesto que se utiliza en diversas aplicaciones químicas."
+      },
+      "C": {
+        "label": "C",
+        "image": "area-2-q35-opt-C.webp",
+        "alt": "Opción C para la pregunta 35.",
+        "image_description": "La opción C presenta la fórmula estructural de un hidrocarburo lineal. Se observa que está compuesta por tres grupos metilo (CH₃) y un grupo metileno (CH₂) en el medio, formando una cadena de tres átomos de carbono. La representación es la siguiente: CH₃-CH₂-CH₃. Este compuesto es el propano, un alcano que pertenece a la serie de los hidrocarburos saturados. La estructura indica que cada carbono está unido a suficientes átomos de hidrógeno para cumplir con la tetravalencia del carbono."
+      },
+      "D": {
+        "label": "D",
+        "image": "area-2-q35-opt-D.webp",
+        "alt": "Opción D para la pregunta 35.",
+        "image_description": "La opción D presenta la estructura química de un compuesto orgánico. En la parte izquierda de la imagen se observa un grupo metilo (CH₃) unido a un carbono central (C) que también está conectado a un grupo etóxido (OCH₂CH₃). Este carbono central está unido a un grupo carbonilo (C=O), lo que indica que se trata de un compuesto que contiene un enlace doble entre el carbono y el oxígeno. La disposición de los grupos sugiere que el compuesto es un éster o un cetona, dependiendo del contexto de la pregunta. La estructura se puede describir como un carbono central que tiene un grupo metilo, un grupo etóxido y un grupo carbonilo, lo que le confiere características específicas en reacciones químicas."
+      }
+    },
+    "correct_answer": "A",
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "ling-2.6-flash-thinking-medium",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 33,
+    "subject": "Química",
+    "question": "33. En una disolución acuosa se determinó que [H^(+)] < [OH^( -)], por lo tanto, el valor de pH será",
+    "options": {
+      "A": "A) 11",
+      "B": "B) 5",
+      "C": "C) 7",
+      "D": "D) 2"
     },
     "correct_answer": "A",
     "area": 1,
@@ -10570,27 +10710,6 @@
     ]
   },
   {
-    "number": 116,
-    "subject": "Historia de México",
-    "question": "116. La promulgación de la Constitución de 1917, el asesinato de Emiliano Zapata y la fundación de la Confederación Regional Obrera Mexicana fueron sucesos ocurridos durante el gobierno de",
-    "options": {
-      "A": "A) Venustiano Carranza.",
-      "B": "B) Álvaro Obregón.",
-      "C": "C) Plutarco Elías Calles.",
-      "D": "D) Adolfo de la Huerta."
-    },
-    "correct_answer": "A",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
     "number": 3,
     "subject": "Física",
     "question": "La Ley de Hooke sobre la relación entre desplazamiento x del resorte y la fuerza F establece que x es",
@@ -10643,47 +10762,6 @@
       "B": "B) hay mayor formación de reactivos que de productos.",
       "C": "C) el equilibrio se desplaza hacia los reactivos.",
       "D": "D) la reacción química está en equilibrio."
-    },
-    "correct_answer": "A",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 35,
-    "subject": "Química",
-    "question": "¿Cuál de los siguientes compuestos es un ácido carboxílico?",
-    "options": {
-      "A": {
-        "label": "A",
-        "image": "area-2-q35-opt-A.webp",
-        "alt": "Opción A para la pregunta 35.",
-        "image_description": "La opción A presenta la estructura química de un compuesto orgánico. Se observa un grupo funcional que incluye un carbono central (C) unido a un grupo hidroxilo (–OH) y a un grupo carbonilo (C=O). A la izquierda del carbono central, hay un grupo metilo (–CH₃). La disposición de los átomos sugiere que el compuesto es un alcohol con un grupo carbonilo, lo que indica que podría ser un compuesto de tipo cetona o un alcohol secundario. La fórmula general se puede interpretar como un alcohol que tiene un grupo carbonilo en la misma cadena de carbonos."
-      },
-      "B": {
-        "label": "B",
-        "image": "area-2-q35-opt-B.webp",
-        "alt": "Opción B para la pregunta 35.",
-        "image_description": "La opción B presenta la estructura química de un compuesto orgánico. Se observa un grupo funcional amida, que se identifica por la presencia de un carbono (C) unido a un grupo carbonilo (C=O) y a un grupo amino (NH2). La cadena principal está formada por un carbono que está unido a un grupo metilo (CH3) y al grupo amino. La representación muestra la disposición de los átomos y los enlaces entre ellos, donde el carbono del grupo carbonilo está en el centro, con el grupo metilo a la izquierda y el grupo amino a la derecha. Esta estructura corresponde a la acetamida, un compuesto que se utiliza en diversas aplicaciones químicas."
-      },
-      "C": {
-        "label": "C",
-        "image": "area-2-q35-opt-C.webp",
-        "alt": "Opción C para la pregunta 35.",
-        "image_description": "La opción C presenta la fórmula estructural de un hidrocarburo lineal. Se observa que está compuesta por tres grupos metilo (CH₃) y un grupo metileno (CH₂) en el medio, formando una cadena de tres átomos de carbono. La representación es la siguiente: CH₃-CH₂-CH₃. Este compuesto es el propano, un alcano que pertenece a la serie de los hidrocarburos saturados. La estructura indica que cada carbono está unido a suficientes átomos de hidrógeno para cumplir con la tetravalencia del carbono."
-      },
-      "D": {
-        "label": "D",
-        "image": "area-2-q35-opt-D.webp",
-        "alt": "Opción D para la pregunta 35.",
-        "image_description": "La opción D presenta la estructura química de un compuesto orgánico. En la parte izquierda de la imagen se observa un grupo metilo (CH₃) unido a un carbono central (C) que también está conectado a un grupo etóxido (OCH₂CH₃). Este carbono central está unido a un grupo carbonilo (C=O), lo que indica que se trata de un compuesto que contiene un enlace doble entre el carbono y el oxígeno. La disposición de los grupos sugiere que el compuesto es un éster o un cetona, dependiendo del contexto de la pregunta. La estructura se puede describir como un carbono central que tiene un grupo metilo, un grupo etóxido y un grupo carbonilo, lo que le confiere características específicas en reacciones químicas."
-      }
     },
     "correct_answer": "A",
     "area": 2,
