@@ -6,6 +6,7 @@ import {
   BarChart,
   CartesianGrid,
   LabelList,
+  ReferenceLine,
   ResponsiveContainer,
   Tooltip,
   XAxis,
@@ -104,6 +105,29 @@ export default function OverviewChart({
             content={<ChartTooltip />}
             cursor={{ fill: "rgba(37, 99, 235, 0.06)" }}
           />
+          {isPoints ? (
+            <ReferenceLine
+              y={114}
+              stroke="#ef4444"
+              strokeDasharray="6 4"
+              label={{ value: "Medicina (114 pts)", position: "right", fill: "#ef4444", fontSize: 12 }}
+            />
+          ) : (
+            <ReferenceLine
+              y={80}
+              stroke="#ef4444"
+              strokeDasharray="6 4"
+              label={{ value: "80%", position: "right", fill: "#ef4444", fontSize: 12 }}
+            />
+          )}
+          {isPoints ? (
+            <ReferenceLine
+              y={89}
+              stroke="#ef4444"
+              strokeDasharray="6 4"
+              label={{ value: "Derecho (89 pts)", position: "right", fill: "#ef4444", fontSize: 12 }}
+            />
+          ) : null}
           <Bar
             dataKey={isPoints ? "correct" : "percentage"}
             fill="#2563eb"

@@ -173,6 +173,7 @@ const MODELS_JSON_PATH = path.join(process.cwd(), "data", "models.json");
 interface ModelRegistryEntry {
   id: string;
   name: string;
+  open?: boolean;
   parameters?: number | null;
   pricing?: { prompt?: string | null } | null;
 }
@@ -194,6 +195,17 @@ export function getModelParams(): Record<string, number> {
     const suffix = entry.id.includes("/") ? entry.id.split("/")[1] : entry.id;
     result[suffix] = entry.parameters;
     result[entry.name] = entry.parameters;
+  }
+  return result;
+}
+
+export function getModelOpen(): Record<string, boolean> {
+  const raw = getModelRegistry();
+  const result: Record<string, boolean> = {};
+  for (const entry of raw) {
+    const suffix = entry.id.includes("/") ? entry.id.split("/")[1] : entry.id;
+    result[suffix] = entry.open ?? false;
+    result[entry.name] = entry.open ?? false;
   }
   return result;
 }

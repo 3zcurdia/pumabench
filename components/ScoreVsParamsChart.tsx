@@ -4,6 +4,7 @@ import { useCallback, useRef, useState } from "react";
 import {
   CartesianGrid,
   ReferenceArea,
+  ReferenceLine,
   ResponsiveContainer,
   Scatter,
   ScatterChart,
@@ -18,6 +19,7 @@ export interface ScatterRow {
   effort: string;
   parameters: number;
   percentage: number;
+  open: boolean;
 }
 
 function formatParams(n: number): string {
@@ -58,6 +60,12 @@ export default function ScoreVsParamsChart({ data }: { data: ScatterRow[] }) {
   const [yDomain, setYDomain] = useState<[number, number]>([0, 100]);
   const [zoomed, setZoomed] = useState(false);
   const dragging = useRef(false);
+
+  const visibleData = zoomed
+    ? data.filter((d) => d.parameters >= xDomain[0] && d.parameters <= xDomain[1])
+    : data;
+  const openData = visibleData.filter((d) => d.open);
+  const closedData = visibleData.filter((d) => !d.open);
 
   const handleMouseDown = useCallback((e: any) => {
     if (e?.activePayload?.[0]) {
@@ -118,6 +126,16 @@ export default function ScoreVsParamsChart({ data }: { data: ScatterRow[] }) {
       <p className="muted" style={{ marginTop: -10, marginBottom: 12, fontSize: 13 }}>
         Haz clic y arrastra para acercar
       </p>
+      <div style={{ display: "flex", gap: 16, marginBottom: 8, fontSize: 13 }}>
+        <span style={{ display: "flex", alignItems: "center", gap: 4 }}>
+          <span style={{ width: 10, height: 10, borderRadius: "50%", background: "#2563eb", display: "inline-block" }} />
+          Abierto
+        </span>
+        <span style={{ display: "flex", alignItems: "center", gap: 4 }}>
+          <span style={{ width: 10, height: 10, borderRadius: "50%", background: "#94a3b8", display: "inline-block" }} />
+          Cerrado
+        </span>
+      </div>
       <div style={{ width: "100%", height: 360 }}>
         <ResponsiveContainer>
           <ScatterChart
@@ -164,7 +182,14 @@ export default function ScoreVsParamsChart({ data }: { data: ScatterRow[] }) {
               content={<ChartTooltip />}
               cursor={{ strokeDasharray: "3 3", stroke: "#94a3b8" }}
             />
-            <Scatter data={data} fill="#2563eb" r={6} />
+            <ReferenceLine
+              x={12e9}
+              stroke="#ef4444"
+              strokeDasharray="6 4"
+              label={{ value: "12B", position: "top", fill: "#ef4444", fontSize: 12 }}
+            />
+            <Scatter data={openData} fill="#2563eb" r={6} name="Abierto" />
+            <Scatter data={closedData} fill="#94a3b8" r={6} name="Cerrado" />
             {refAreaLeft && refAreaRight && (
               <ReferenceArea
                 x1={Number(refAreaLeft)}

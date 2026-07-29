@@ -4,6 +4,7 @@
     "name": "apple-foundation-system",
     "provider": "apple",
     "type": "dense",
+    "open": false,
     "parameters": 3000000000,
     "pricing": null
   },
@@ -13,6 +14,7 @@
     "provider": "deepseek",
     "type": "moe",
     "parameters": 158069433298,
+    "open": true,
     "pricing": {
       "prompt": "0.000000098",
       "completion": "0.000000196",
@@ -25,7 +27,7 @@
     "provider": "google",
     "type": "moe",
     "parameters": 3000000000,
-    "estimated": true,
+    "open": false,
     "pricing": {
       "prompt": "0.0000001",
       "completion": "0.0000004",
@@ -44,7 +46,7 @@
     "provider": "google",
     "type": "dense",
     "parameters": 5000000000,
-    "estimated": true,
+    "open": false,
     "pricing": {
       "prompt": "0.0000003",
       "completion": "0.0000025",
@@ -63,7 +65,7 @@
     "provider": "google",
     "type": "moe",
     "parameters": 100000000000,
-    "estimated": true,
+    "open": false,
     "pricing": {
       "prompt": "0.0000015",
       "completion": "0.0000075",
@@ -82,6 +84,7 @@
     "provider": "google",
     "type": "dense",
     "parameters": 11959730224,
+    "open": true,
     "pricing": null
   },
   {
@@ -89,7 +92,8 @@
     "name": "gemma-4-12b-qat",
     "provider": "google",
     "type": "dense",
-    "parameters": null,
+    "parameters": 120000000000,
+    "open": true,
     "pricing": null
   },
   {
@@ -98,6 +102,7 @@
     "provider": "google",
     "type": "dense",
     "parameters": 5123178051,
+    "open": true,
     "pricing": null
   },
   {
@@ -106,6 +111,7 @@
     "provider": "google",
     "type": "dense",
     "parameters": 7996156490,
+    "open": true,
     "pricing": null
   },
   {
@@ -114,6 +120,7 @@
     "provider": "inclusionai",
     "type": "moe",
     "parameters": 107494409216,
+    "open": true,
     "pricing": {
       "prompt": "0.00000001",
       "completion": "0.00000003",
@@ -126,6 +133,7 @@
     "provider": "laguna-xs-2.1",
     "type": "moe",
     "parameters": 33442617088,
+    "open": true,
     "pricing": {
       "prompt": "0.00000006",
       "completion": "0.00000012",
@@ -137,7 +145,8 @@
     "name": "llama-3-8b-instruct-32k-v0.1",
     "provider": "llama-3-8b-instruct-32k-v0.1",
     "type": "dense",
-    "parameters": null,
+    "parameters": 8000000000,
+    "open": true,
     "pricing": null
   },
   {
@@ -146,6 +155,7 @@
     "provider": "meta",
     "type": "dense",
     "parameters": 8000000000,
+    "open": true,
     "pricing": null
   },
   {
@@ -154,6 +164,7 @@
     "provider": "microsoft",
     "type": "dense",
     "parameters": 14659507200,
+    "open": true,
     "pricing": {
       "prompt": "0.00000007",
       "completion": "0.00000014"
@@ -165,6 +176,7 @@
     "provider": "minimax",
     "type": "dense",
     "parameters": 427040140160,
+    "open": true,
     "pricing": {
       "prompt": "0.0000003",
       "completion": "0.0000012",
@@ -176,7 +188,8 @@
     "name": "nanbeige.nanbeige4.1-3b",
     "provider": "nanbeige.nanbeige4.1-3b",
     "type": "dense",
-    "parameters": null,
+    "parameters": 3000000000,
+    "open": true,
     "pricing": null
   },
   {
@@ -184,7 +197,8 @@
     "name": "nanbeige4.1-3b",
     "provider": "nanbeige4.1-3b",
     "type": "dense",
-    "parameters": null,
+    "parameters": 3000000000,
+    "open": true,
     "pricing": null
   },
   {
@@ -193,6 +207,7 @@
     "provider": "nvidia",
     "type": "moe",
     "parameters": 120000000000,
+    "open": true,
     "pricing": {
       "prompt": "0",
       "completion": "0"
@@ -204,6 +219,7 @@
     "provider": "nvidia",
     "type": "moe",
     "parameters": 560524603904,
+    "open": true,
     "pricing": {
       "prompt": "0",
       "completion": "0"
@@ -215,7 +231,8 @@
     "provider": "openai",
     "type": "moe",
     "parameters": 800000000000,
-    "estimated": true,
+    "open": true,
+    "open": false,
     "pricing": {
       "prompt": "0.0000025",
       "completion": "0.000015",
@@ -239,6 +256,7 @@
     "provider": "openai",
     "type": "moe",
     "parameters": 117000000000,
+    "open": true,
     "pricing": {
       "prompt": "0.000000037",
       "completion": "0.00000017"
@@ -250,6 +268,7 @@
     "provider": "openai",
     "type": "moe",
     "parameters": 21000000000,
+    "open": true,
     "pricing": {
       "prompt": "0.00000003",
       "completion": "0.00000013",
@@ -262,6 +281,7 @@
     "provider": "poolside",
     "type": "moe",
     "parameters": 117561977600,
+    "open": true,
     "pricing": {
       "prompt": "0.0000001",
       "completion": "0.0000002",
@@ -274,6 +294,7 @@
     "provider": "poolside",
     "type": "moe",
     "parameters": 117561977600,
+    "open": true,
     "pricing": {
       "prompt": "0",
       "completion": "0"
@@ -285,6 +306,7 @@
     "provider": "poolside",
     "type": "moe",
     "parameters": 33442617088,
+    "open": true,
     "pricing": {
       "prompt": "0.00000006",
       "completion": "0.00000012",
@@ -297,6 +319,7 @@
     "provider": "qwen",
     "type": "dense",
     "parameters": 9000000000,
+    "open": true,
     "pricing": {
       "prompt": "0.0000001",
       "completion": "0.00000015"
@@ -308,6 +331,7 @@
     "provider": "qwen",
     "type": "moe",
     "parameters": 35951822704,
+    "open": true,
     "pricing": {
       "prompt": "0.00000014",
       "completion": "0.000001"
@@ -319,6 +343,7 @@
     "provider": "qwen3.5-0.8b",
     "type": "dense",
     "parameters": 800000000,
+    "open": true,
     "pricing": null
   },
   {
@@ -327,6 +352,7 @@
     "provider": "qwen3",
     "type": "dense",
     "parameters": 800000000,
+    "open": true,
     "pricing": null
   },
   {
@@ -335,6 +361,7 @@
     "provider": "qwen3",
     "type": "dense",
     "parameters": 9000000000,
+    "open": true,
     "pricing": {
       "prompt": "0.0000001",
       "completion": "0.00000015"
@@ -346,6 +373,7 @@
     "provider": "qwen3",
     "type": "moe",
     "parameters": 35951822704,
+    "open": true,
     "pricing": {
       "prompt": "0.00000014",
       "completion": "0.000001"
@@ -357,6 +385,7 @@
     "provider": "tencent",
     "type": "moe",
     "parameters": 298786155776,
+    "open": true,
     "pricing": {
       "prompt": "0.000000063",
       "completion": "0.00000021",
@@ -369,7 +398,7 @@
     "provider": "x-ai",
     "type": "moe",
     "parameters": 1500000000000,
-    "estimated": true,
+    "open": false,
     "pricing": {
       "prompt": "0.000002",
       "completion": "0.000006",
@@ -391,6 +420,7 @@
     "provider": "xiaomi",
     "type": "moe",
     "parameters": 310775040000,
+    "open": true,
     "pricing": {
       "prompt": "0.00000014",
       "completion": "0.00000028",

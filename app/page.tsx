@@ -6,11 +6,12 @@ import ScoreVsParamsChart from "@/components/ScoreVsParamsChart";
 import ScoreVsPricingChart from "@/components/ScoreVsPricingChart";
 import SubjectRankingsChart from "@/components/SubjectRankingsChart";
 import TabPanel from "@/components/TabPanel";
-import { getAllModels, getModelParams, getModelPricing } from "@/lib/data";
+import { getAllModels, getModelParams, getModelOpen, getModelPricing } from "@/lib/data";
 
 export default function HomePage() {
   const models = getAllModels();
   const params = getModelParams();
+  const openMap = getModelOpen();
   const pricing = getModelPricing();
 
   const scatterData = models
@@ -20,6 +21,7 @@ export default function HomePage() {
       effort: m.effort,
       parameters: params[m.model],
       percentage: m.overallPercentage,
+      open: openMap[m.model] ?? false,
     }));
 
   const pricingScatterData = models
