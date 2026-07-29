@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -25,6 +26,7 @@ export default function RootLayout({
           </div>
         </header>
         <main className="container">{children}</main>
+        <Footer />
         <SpeedInsights />
       </body>
     </html>

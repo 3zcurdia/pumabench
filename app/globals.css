@@ -64,6 +64,38 @@ main.container {
   color: var(--muted);
 }
 
+/* Footer */
+.site-footer {
+  background: var(--card);
+  border-top: 1px solid var(--border);
+  margin-top: 28px;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.footer-credit {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.footer-github {
+  display: flex;
+  align-items: center;
+  color: var(--muted);
+  transition: color 0.2s;
+}
+
+.footer-github:hover {
+  color: var(--text);
+}
+
 /* Hero */
 .hero {
   margin-bottom: 28px;
