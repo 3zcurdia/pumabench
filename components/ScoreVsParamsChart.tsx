@@ -139,7 +139,7 @@ export default function ScoreVsParamsChart({ data }: { data: ScatterRow[] }) {
       <div style={{ width: "100%", height: 360 }}>
         <ResponsiveContainer>
           <ScatterChart
-            margin={{ top: 8, right: 24, bottom: 8, left: 8 }}
+            margin={{ top: 32, right: 24, bottom: 8, left: 8 }}
             onMouseDown={handleMouseDown}
             onMouseMove={handleMouseMove}
             onMouseUp={handleMouseUp}
@@ -183,10 +183,22 @@ export default function ScoreVsParamsChart({ data }: { data: ScatterRow[] }) {
               cursor={{ strokeDasharray: "3 3", stroke: "#94a3b8" }}
             />
             <ReferenceLine
-              x={12e9}
+              x={27e9}
               stroke="#ef4444"
               strokeDasharray="6 4"
-              label={{ value: "12B", position: "top", fill: "#ef4444", fontSize: 12 }}
+              label={{ value: "27B", position: "top", fill: "#ef4444", fontSize: 12 }}
+            />
+            <ReferenceLine
+              x={96e9}
+              stroke="#ef4444"
+              strokeDasharray="6 4"
+              label={{ value: "96B", position: "top", fill: "#ef4444", fontSize: 12 }}
+            />
+            <ReferenceLine
+              x={192e9}
+              stroke="#ef4444"
+              strokeDasharray="6 4"
+              label={{ value: "192B", position: "top", fill: "#ef4444", fontSize: 12 }}
             />
             <Scatter data={openData} fill="#2563eb" r={6} name="Abierto" />
             <Scatter data={closedData} fill="#94a3b8" r={6} name="Cerrado" />

@@ -58,6 +58,10 @@ export default function ScoreVsPricingChart({ data }: { data: PricingRow[] }) {
   const [zoomed, setZoomed] = useState(false);
   const dragging = useRef(false);
 
+  const visibleData = zoomed
+    ? data.filter((d) => d.pricePer1M >= xDomain[0] && d.pricePer1M <= xDomain[1])
+    : data;
+
   const handleMouseDown = useCallback((e: any) => {
     if (e?.activePayload?.[0]) {
       const val = e.activePayload[0].payload.pricePer1M;
@@ -163,7 +167,7 @@ export default function ScoreVsPricingChart({ data }: { data: PricingRow[] }) {
               content={<ChartTooltip />}
               cursor={{ strokeDasharray: "3 3", stroke: "#94a3b8" }}
             />
-            <Scatter data={data} fill="#2563eb" r={6} />
+            <Scatter data={visibleData} fill="#2563eb" r={6} />
             {refAreaLeft && refAreaRight && (
               <ReferenceArea
                 x1={Number(refAreaLeft)}

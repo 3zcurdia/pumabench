@@ -77,7 +77,7 @@ export default function OverviewChart({
       <ResponsiveContainer>
         <BarChart
           data={data}
-          margin={{ top: 32, right: 8, bottom: 72, left: 8 }}
+          margin={{ top: 32, right: 48, bottom: 72, left: 8 }}
         >
           <CartesianGrid vertical={false} stroke="#e2e8f0" />
           <XAxis
