@@ -270,6 +270,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "laguna-xs-2.1-thinking-medium",
       "ling-2.6-flash-thinking-medium",
       "qwen3.5-0.8b-thinking-high",
@@ -292,6 +293,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
@@ -845,6 +847,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
@@ -1095,6 +1098,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -1190,6 +1194,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
@@ -1215,6 +1220,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -1264,6 +1270,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
@@ -1385,6 +1392,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
@@ -1411,6 +1419,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
@@ -1526,6 +1535,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
@@ -1752,6 +1762,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
@@ -1802,6 +1813,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
@@ -1826,6 +1838,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
@@ -1858,6 +1871,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
@@ -1959,6 +1973,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -2120,6 +2135,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
@@ -2164,6 +2180,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e4b-thinking-low",
@@ -2292,6 +2309,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
@@ -2394,6 +2412,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-medium",
@@ -2431,6 +2450,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gpt-oss-20b-thinking-low",
@@ -2461,6 +2481,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
@@ -2481,6 +2502,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
@@ -2543,6 +2565,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
@@ -2578,6 +2601,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-medium",
@@ -2638,6 +2662,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
@@ -2666,6 +2691,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
@@ -2714,6 +2740,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemma-4-e2b-thinking-none",
       "gpt-oss-120b-thinking-medium",
@@ -2750,6 +2777,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -2795,6 +2823,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
       "laguna-s-2.1-thinking-medium",
@@ -2820,6 +2849,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
@@ -2929,6 +2959,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
@@ -3137,6 +3168,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -3190,6 +3222,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -3232,6 +3265,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
@@ -3506,6 +3540,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
@@ -3587,6 +3622,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -3689,6 +3725,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "nemotron-3-ultra-550b-a55b-thinking-low",
@@ -3719,6 +3756,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
@@ -3759,6 +3797,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
@@ -3789,6 +3828,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
@@ -3837,6 +3877,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -3904,6 +3945,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
@@ -4072,6 +4114,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
@@ -4102,6 +4145,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
@@ -4140,6 +4184,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e4b-thinking-low",
       "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
@@ -4278,6 +4323,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -4361,6 +4407,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
@@ -4383,6 +4430,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "ling-2.6-flash-thinking-medium",
@@ -4838,6 +4886,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -4935,6 +4984,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-medium",
@@ -5004,6 +5054,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gpt-oss-120b-thinking-medium",
@@ -5034,6 +5085,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -5086,6 +5138,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "bonsai-27b-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -5142,6 +5195,7 @@
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
+      "bonsai-27b-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -5187,6 +5241,7 @@
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
+      "bonsai-27b-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -5220,6 +5275,7 @@
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
+      "bonsai-27b-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -5252,6 +5308,782 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
+      "qwen3.6-35b-a3b-thinking-medium"
+    ]
+  },
+  {
+    "number": 118,
+    "subject": "Historia de México",
+    "question": "118. La inauguración de Bellas Artes y el reconocimiento de la Autonomía Universitaria ocurrieron durante el periodo conocido como",
+    "options": {
+      "A": "A) Unidad Nacional.",
+      "B": "B) Cardenismo.",
+      "C": "C) Paleontología.",
+      "D": "D) Maximato."
+    },
+    "correct_answer": "D",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-e4b-thinking-low",
+      "gemma-4-e4b-thinking-medium",
+      "gemma-4-e4b-thinking-none",
+      "gpt-oss-20b-thinking-low",
+      "gpt-oss-20b-thinking-medium",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "phi-4-thinking-high",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 119,
+    "subject": "Historia de México",
+    "question": "119. La posición de México ante la Segunda Guerra Mundial fue",
+    "options": {
+      "A": "A) romper relaciones diplomáticas con los Aliados.",
+      "B": "B) no intervenir en ningún bando.",
+      "C": "C) vender petróleo a ambos contendientes.",
+      "D": "D) romper relaciones con las potencias del Eje."
+    },
+    "correct_answer": "D",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
+      "gemma-4-e4b-thinking-medium",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-9b-thinking-none"
+    ]
+  },
+  {
+    "number": 15,
+    "subject": "Literatura",
+    "question": "Personaje del texto dramático que realiza acciones prescindibles, pues sirven para crear ambientes y darle verosimilitud a la trama.",
+    "options": {
+      "A": "A) Principal",
+      "B": "B) Antagonista",
+      "C": "C) Incidental",
+      "D": "D) Secundario"
+    },
+    "correct_answer": "C",
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low"
+    ]
+  },
+  {
+    "number": 20,
+    "subject": "Literatura",
+    "question": "El siguiente fragmento solo utiliza un espacio narrativo y pocos personajes, esto es característico de:",
+    "options": {
+      "A": "A) del mito.",
+      "B": "B) del cuento.",
+      "C": "C) de la leyenda.",
+      "D": "D) de la fábula."
+    },
+    "correct_answer": "B",
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "laguna-xs-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low"
+    ]
+  },
+  {
+    "number": 22,
+    "subject": "Literatura",
+    "question": "La paráfrasis es un proceso de carácter",
+    "options": {
+      "A": "A) descriptivo.",
+      "B": "B) argumentativo.",
+      "C": "C) expositivo.",
+      "D": "D) interpretativo."
+    },
+    "correct_answer": "D",
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e4b-thinking-low",
+      "gemma-4-e4b-thinking-medium",
+      "gemma-4-e4b-thinking-none",
+      "gpt-oss-120b-thinking-medium",
+      "gpt-oss-20b-thinking-low",
+      "gpt-oss-20b-thinking-medium",
+      "laguna-s-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 42,
+    "subject": "Geografía",
+    "question": "Las dos áreas de mayor concentración de población en el mundo son",
+    "options": {
+      "A": "A) Asia Oriental y Europa Occidental.",
+      "B": "B) Asia Occidental y Europa Occidental.",
+      "C": "C) Asia Meridional y Europa Occidental.",
+      "D": "D) Asia Meridional y Europa Meridional."
+    },
+    "correct_answer": "A",
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
+      "gemma-4-e4b-thinking-medium",
+      "gpt-oss-20b-thinking-low",
+      "gpt-oss-20b-thinking-medium",
+      "laguna-s-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-9b-thinking-none"
+    ]
+  },
+  {
+    "number": 72,
+    "subject": "Español",
+    "question": "Identifica la forma del discurso: 'Los primeros prototipos de los platos biodegradables eran de piedra caliza...'",
+    "options": {
+      "A": "A) Argumentativa.",
+      "B": "B) Narrativa.",
+      "C": "C) Demostrativa.",
+      "D": "D) Descriptiva."
+    },
+    "correct_answer": "D",
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "phi-4-thinking-high",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 81,
+    "subject": "Español",
+    "question": "Elige el párrafo con la mejor redacción.",
+    "options": {
+      "A": "A) En este orden, la posibilidad y el origen del conocimiento...",
+      "B": "B) Así, la posibilidad y el origen del conocimiento...",
+      "C": "C) El conocimiento, en el inicio, ofrece una vertiente filosófica...",
+      "D": "D) El conocimiento, en principio, ofrece una vertiente filosófica... En este orden, la posibilidad y el origen del conocimiento son algunos problemas clave."
+    },
+    "correct_answer": "D",
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 20,
+    "subject": "Literatura",
+    "question": "El fragmento de Fromm es un ejemplo de ficha",
+    "options": {
+      "A": "A) hemerográfica.",
+      "B": "B) de síntesis.",
+      "C": "C) bibliográfica.",
+      "D": "D) de cita textual."
+    },
+    "correct_answer": "D",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
+      "gemma-4-e4b-thinking-medium",
+      "gemma-4-e4b-thinking-none",
+      "gpt-oss-20b-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "phi-4-thinking-high",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 22,
+    "subject": "Química",
+    "question": "¿Qué postulado de Dalton prevalece en nuestros días?",
+    "options": {
+      "A": "A) Los átomos permanecen indivisibles.",
+      "B": "B) Los elementos están formados por átomos diminutos.",
+      "C": "C) Los átomos de un mismo elemento son iguales en masa.",
+      "D": "D) Los átomos de dos elementos se combinan en distintas proporciones."
+    },
+    "correct_answer": "D",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
+      "gemini-3.5-flash-lite-thinking-medium",
+      "gemini-3.6-flash-thinking-medium",
+      "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-medium",
+      "gemma-4-e4b-thinking-none",
+      "gpt-5.6-terra-thinking-medium",
+      "gpt-oss-120b-thinking-medium",
+      "gpt-oss-20b-thinking-low",
+      "grok-4.5-thinking-medium",
+      "hy3-preview-thinking-medium",
+      "laguna-s-2.1-thinking-medium",
+      "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "minimax-m3-thinking-medium",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "phi-4-thinking-high",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium",
+      "qwen3.5-9b-thinking-none",
+      "qwen3.6-35b-a3b-thinking-medium"
+    ]
+  },
+  {
+    "number": 33,
+    "subject": "Geografía",
+    "question": "Al viajar de Morelos a Guerrero, qué sierra se recorre.",
+    "options": {
+      "A": "A) Madre del Sur.",
+      "B": "B) Madre Occidental.",
+      "C": "C) Madre Oriental.",
+      "D": "D) de Guadalupe."
+    },
+    "correct_answer": "A",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "laguna-xs-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 36,
+    "subject": "Geografía",
+    "question": "Es una causa principal de la contaminación del agua.",
+    "options": {
+      "A": "A) Los desechos orgánicos.",
+      "B": "B) La polución agroquímica.",
+      "C": "C) Los derrames de petróleo.",
+      "D": "D) La deforestación."
+    },
+    "correct_answer": "B",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemini-3.5-flash-lite-thinking-medium",
+      "gemma-4-e4b-thinking-none",
+      "gpt-5.6-terra-thinking-medium",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "phi-4-thinking-high",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 72,
+    "subject": "Español",
+    "question": "¿Cuál es el interés del arqueólogo Adrián Velázquez Castro al crear el taller?",
+    "options": {
+      "A": "A) Dar a conocer los oficios prehispánicos.",
+      "B": "B) Continuar con la tradición mexica.",
+      "C": "C) Perfeccionar el trabajo manual indígena.",
+      "D": "D) Rescatar la manufactura precolombina."
+    },
+    "correct_answer": "D",
+    "reference": {
+      "type": "text",
+      "content": "El misterio de las joyas de concha\n\nAl igual que la turquesa, las plumas de aves exóticas y el oro, la concha (lo que conocemos como concha de mar) era un material precioso en el México prehispánico (anterior a la conquista y colonización españolas). Así lo prueban los cientos de piezas elaboradas con diversos tipos de conchas recuperadas en las distintas excavaciones a lo largo de todo el país: solo en las excavaciones que se realizan desde 1978 en la zona arqueológica del Templo Mayor de Tenochtitlan se han recuperado más de 2,300 objetos hechos con concha. Las piezas, que han ido apareciendo en diferentes excavaciones, eran depositadas en las tumbas como ofrendas funerarias para recrear el inframundo acuático.\n\nPara los mexicas, así como para las diversas culturas de Mesoamérica, la concha tenía una connotación sagrada, pues al ser un elemento acuático se asociaba con ese líquido esencial en el desarrollo de la vida. Además, por lo difícil que resultaba su obtención, era considerada un material de lujo, al que, por ejemplo, en Tenochtitlan, solo tenía acceso la clase gobernante.\n\nEl arqueólogo Adrián Velázquez Castro busca desde hace quince años las huellas de las herramientas empleadas por los artesanos prehispánicos en la elaboración de los objetos de concha. Y es que, a pesar de la gran cantidad de piezas recuperadas, no se han encontrado hasta ahora en la zona del Templo Mayor de Tenochtitlan restos de ningún taller o del área de producción de estos adornos.\n\nVelázquez empezó a trabajar en la clasificación de la colección de objetos de concha del Templo Mayor, pero su interés por conocer las formas de elaboración de estas piezas lo llevó a crear un proyecto de arqueología experimental que se convertiría, con el tiempo, en un taller de fabricación de la concha. Con este taller se pretende conocer, mediante la reconstrucción de las piezas antiguas con conchas modernas, las técnicas con las que se trabajó este material en la época prehispánica. Gracias al taller se ha podido saber, por ejemplo, que la producción del Templo Mayor fue muy estandarizada (se utilizaron la misma técnica y los mismos materiales), fue controlada por la clase gobernante y estuvo enfocada, casi exclusivamente, a la creación de objetos ornamentales.\n\nAl principio el taller se limitó a estudiar la colección de objetos de concha del Templo Mayor, pero poco a poco se extendió, y ya lleva realizados más de setecientos experimentos con otros objetos de concha del México prehispánico. «En gran parte gracias al trabajo de estudiantes de arqueología, tenemos ya un buen número de colecciones estudiadas, que van desde el norte de México hasta la zona maya, desde las etapas más tempranas, durante el período formativo, hasta el posclásico tardío, con la conquista española», comenta Adrián Velázquez Castro.\n\nEl Universal",
+      "title": "El misterio de las joyas de concha",
+      "author": null,
+      "source": "El Universal"
+    },
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e4b-thinking-medium",
+      "gemma-4-e4b-thinking-none",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "phi-4-thinking-high",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 81,
+    "subject": "Español",
+    "question": "Completa: Más ________ de la ________ metálica vimos ________.",
+    "options": {
+      "A": "A) ayá — malla — hienas",
+      "B": "B) ayá — malla — yenas",
+      "C": "C) allá — malla — hienas",
+      "D": "D) allá — maya — llenas"
+    },
+    "correct_answer": "C",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 82,
+    "subject": "Español",
+    "question": "¿Cuál enunciado está escrito correctamente?",
+    "options": {
+      "A": "A) Cubre el prerequisito y llegarás al puesto de vicerrector.",
+      "B": "B) Cubre el prerrequisito y llegarás al puesto de vicerrector.",
+      "C": "C) Cubre el prerrequisito y llegarás al puesto de vicerector.",
+      "D": "D) Cubre el prerequisito y llegarás al puesto de vicerector."
+    },
+    "correct_answer": "B",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-e4b-thinking-medium",
+      "gemma-4-e4b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "phi-4-thinking-high",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 113,
+    "subject": "Historia de México",
+    "question": "El Círculo Liberal de Camilo Arriaga en 1901 tuvo como finalidad",
+    "options": {
+      "A": "A) fundar oposición a la dictadura de Díaz.",
+      "B": "B) limitar la participación maderista.",
+      "C": "C) impulsar la reelección de Díaz.",
+      "D": "D) construir movimiento favorable a Madero."
+    },
+    "correct_answer": "A",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "laguna-xs-2.1-thinking-medium",
+      "nemotron-3-ultra-550b-a55b-thinking-low"
+    ]
+  },
+  {
+    "number": 117,
+    "subject": "Historia de México",
+    "question": "Documento que proyectó apoyo a los ejidos y respeto al salario mínimo.",
+    "options": {
+      "A": "A) Acuerdos de Bucareli.",
+      "B": "B) Pacto de la Ciudadela.",
+      "C": "C) Plan Sexenal.",
+      "D": "D) Plan de la Acción Campesina."
+    },
+    "correct_answer": "C",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "gpt-oss-120b-thinking-medium",
+      "gpt-oss-20b-thinking-medium",
+      "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium",
+      "qwen3.5-9b-thinking-none"
+    ]
+  },
+  {
+    "number": 32,
+    "subject": "Geografía",
+    "question": "¿Qué proyección cartográfica se utiliza para representar a México?",
+    "options": {
+      "A": "A) Polar.",
+      "B": "B) Cilíndrica.",
+      "C": "C) Cónica.",
+      "D": "D) Azimutal."
+    },
+    "correct_answer": "C",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "phi-4-thinking-high",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 39,
+    "subject": "Geografía",
+    "question": "En México, la zona más propicia para la cría de cerdos es el ________ por ser la primera zona de ________.",
+    "options": {
+      "A": "A) Norte — forrajes",
+      "B": "B) Bajío — cereales",
+      "C": "C) Noroeste — cereales",
+      "D": "D) Balsas — pastos"
+    },
+    "correct_answer": "B",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "laguna-xs-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 63,
+    "subject": "Español",
+    "question": "Enunciado que ejemplifica la función referencial.",
+    "options": {
+      "A": "A) ¡Qué lata con esta lluvia!",
+      "B": "B) Seguirán las lluvias en el noreste del país.",
+      "C": "C) Hoy llueve mucho, pareciera que están lavando el mundo.",
+      "D": "D) Los maleantes fueron repelidos por otra lluvia de piedras."
+    },
+    "correct_answer": "B",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "nanbeige4.1-3b-thinking-low"
+    ]
+  },
+  {
+    "number": 75,
+    "subject": "Español",
+    "question": "Completa: Quisieron colaborar con una obra magistral, ________ no guardaban los requisitos; ________, tuvieron que resignarse ________ la realización de una presentación más sencilla.",
+    "options": {
+      "A": "A) sin embargo — no obstante — a",
+      "B": "B) mas — por tanto — a",
+      "C": "C) más — en conclusión — con",
+      "D": "D) pero — en consecuencia — con"
+    },
+    "correct_answer": "D",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-thinking-medium",
+      "gemini-2.5-flash-lite-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
+      "gemini-3.5-flash-lite-thinking-medium",
+      "gemini-3.6-flash-thinking-medium",
+      "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e4b-thinking-low",
+      "gemma-4-e4b-thinking-medium",
+      "gemma-4-e4b-thinking-none",
+      "gpt-5.6-terra-thinking-medium",
+      "gpt-oss-120b-thinking-medium",
+      "gpt-oss-20b-thinking-medium",
+      "grok-4.5-thinking-medium",
+      "hy3-preview-thinking-medium",
+      "laguna-s-2.1-thinking-medium",
+      "laguna-xs-2.1-thinking-medium",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "mimo-v2.5-thinking-medium",
+      "minimax-m3-thinking-medium",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "phi-4-thinking-high",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium",
+      "qwen3.6-35b-a3b-thinking-medium"
+    ]
+  },
+  {
+    "number": 102,
+    "subject": "Historia de México",
+    "question": "Causa interna de la independencia de la Nueva España",
+    "options": {
+      "A": "A) Invasión francesa a España.",
+      "B": "B) Independencia de las Trece Colonias.",
+      "C": "C) Consolidación de Vales Reales.",
+      "D": "D) Adopción de las ideas de la Ilustración."
+    },
+    "correct_answer": "D",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-thinking-medium",
+      "gemini-2.5-flash-lite-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
+      "gemini-3.5-flash-lite-thinking-medium",
+      "gemini-3.6-flash-thinking-medium",
+      "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "gpt-5.6-terra-thinking-medium",
+      "grok-4.5-thinking-medium",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "mimo-v2.5-thinking-medium",
+      "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "phi-4-thinking-high",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium",
+      "qwen3.6-35b-a3b-thinking-medium"
+    ]
+  },
+  {
+    "number": 104,
+    "subject": "Historia de México",
+    "question": "Proclamó libertad de enseñanza y prensa, prohibió a la Iglesia poseer bienes raíces y decretó régimen republicano federal.",
+    "options": {
+      "A": "A) Constitución de 1824.",
+      "B": "B) Constitución de 1857.",
+      "C": "C) Constitución de 1822.",
+      "D": "D) Constitución de 1814."
+    },
+    "correct_answer": "B",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "gpt-oss-20b-thinking-low",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 105,
+    "subject": "Historia de México",
+    "question": "En materia económica, el gobierno de Porfirio Díaz se caracterizó por",
+    "options": {
+      "A": "A) políticas de nacionalización en la minería.",
+      "B": "B) la crisis que se generó.",
+      "C": "C) la prohibición a la inversión privada.",
+      "D": "D) las concesiones a inversionistas extranjeros."
+    },
+    "correct_answer": "D",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 110,
+    "subject": "Historia de México",
+    "question": "Fue una acción del gobierno de Luis Echeverría como parte del Desarrollo Compartido.",
+    "options": {
+      "A": "A) Disminución de importaciones.",
+      "B": "B) Nacionalización de la banca.",
+      "C": "C) Privatización de la educación.",
+      "D": "D) Fomento a la participación de empresas privadas."
+    },
+    "correct_answer": "D",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "gemini-2.5-flash-lite-thinking-medium",
+      "gemini-3.6-flash-thinking-medium",
+      "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-medium",
+      "gemma-4-e4b-thinking-none",
+      "gpt-oss-20b-thinking-low",
+      "ling-2.6-flash-thinking-medium",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "phi-4-thinking-high",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium",
+      "qwen3.5-9b-thinking-none",
+      "qwen3.6-35b-a3b-thinking-medium"
+    ]
+  },
+  {
+    "number": 116,
+    "subject": "Filosofía",
+    "question": "¿Qué debe hacer el médico para actuar autónomamente ante un paciente que rechaza transfusión por creencias religiosas?",
+    "options": {
+      "A": "A) No realizar la transfusión para evitar problemas legales.",
+      "B": "B) Realizarla para ser héroe ante colegas.",
+      "C": "C) Realizarla para salvar la vida a pesar de consecuencias.",
+      "D": "D) No realizarla para conservar su trabajo."
+    },
+    "correct_answer": "C",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-thinking-medium",
+      "gemini-3.5-flash-lite-thinking-low",
+      "gemini-3.5-flash-lite-thinking-medium",
+      "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e4b-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "gpt-oss-120b-thinking-medium",
+      "gpt-oss-20b-thinking-low",
+      "gpt-oss-20b-thinking-medium",
+      "hy3-preview-thinking-medium",
+      "laguna-s-2.1-thinking-medium",
+      "laguna-xs-2.1-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "mimo-v2.5-thinking-medium",
+      "minimax-m3-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "phi-4-thinking-high",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
   },
@@ -5307,53 +6139,6 @@
     ]
   },
   {
-    "number": 22,
-    "subject": "Química",
-    "question": "¿Qué postulado de Dalton prevalece en nuestros días?",
-    "options": {
-      "A": "A) Los átomos permanecen indivisibles.",
-      "B": "B) Los elementos están formados por átomos diminutos.",
-      "C": "C) Los átomos de un mismo elemento son iguales en masa.",
-      "D": "D) Los átomos de dos elementos se combinan en distintas proporciones."
-    },
-    "correct_answer": "D",
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "deepseek-v4-flash-thinking-medium",
-      "gemini-3.5-flash-lite-thinking-low",
-      "gemini-3.5-flash-lite-thinking-medium",
-      "gemini-3.6-flash-thinking-medium",
-      "gemma-4-12b-qat-thinking-low",
-      "gemma-4-e2b-thinking-low",
-      "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b-thinking-medium",
-      "gemma-4-e4b-thinking-none",
-      "gpt-5.6-terra-thinking-medium",
-      "gpt-oss-120b-thinking-medium",
-      "gpt-oss-20b-thinking-low",
-      "grok-4.5-thinking-medium",
-      "hy3-preview-thinking-medium",
-      "laguna-s-2.1-thinking-medium",
-      "laguna-xs-2.1-thinking-medium",
-      "ling-2.6-flash-thinking-medium",
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "minimax-m3-thinking-medium",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "phi-4-thinking-high",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
-    ]
-  },
-  {
     "number": 73,
     "subject": "Español",
     "question": "Elige el objeto directo del predicado.",
@@ -5376,133 +6161,6 @@
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-9b-thinking-none"
-    ]
-  },
-  {
-    "number": 75,
-    "subject": "Español",
-    "question": "Completa: Quisieron colaborar con una obra magistral, ________ no guardaban los requisitos; ________, tuvieron que resignarse ________ la realización de una presentación más sencilla.",
-    "options": {
-      "A": "A) sin embargo — no obstante — a",
-      "B": "B) mas — por tanto — a",
-      "C": "C) más — en conclusión — con",
-      "D": "D) pero — en consecuencia — con"
-    },
-    "correct_answer": "D",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "deepseek-v4-flash-thinking-medium",
-      "gemini-2.5-flash-lite-thinking-medium",
-      "gemini-3.5-flash-lite-thinking-low",
-      "gemini-3.5-flash-lite-thinking-medium",
-      "gemini-3.6-flash-thinking-medium",
-      "gemma-4-12b-qat-thinking-low",
-      "gemma-4-e4b-thinking-low",
-      "gemma-4-e4b-thinking-medium",
-      "gemma-4-e4b-thinking-none",
-      "gpt-5.6-terra-thinking-medium",
-      "gpt-oss-120b-thinking-medium",
-      "gpt-oss-20b-thinking-medium",
-      "grok-4.5-thinking-medium",
-      "hy3-preview-thinking-medium",
-      "laguna-s-2.1-thinking-medium",
-      "laguna-xs-2.1-thinking-medium",
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "mimo-v2.5-thinking-medium",
-      "minimax-m3-thinking-medium",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "phi-4-thinking-high",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium",
-      "qwen3.6-35b-a3b-thinking-medium"
-    ]
-  },
-  {
-    "number": 102,
-    "subject": "Historia de México",
-    "question": "Causa interna de la independencia de la Nueva España",
-    "options": {
-      "A": "A) Invasión francesa a España.",
-      "B": "B) Independencia de las Trece Colonias.",
-      "C": "C) Consolidación de Vales Reales.",
-      "D": "D) Adopción de las ideas de la Ilustración."
-    },
-    "correct_answer": "D",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "deepseek-v4-flash-thinking-medium",
-      "gemini-2.5-flash-lite-thinking-medium",
-      "gemini-3.5-flash-lite-thinking-low",
-      "gemini-3.5-flash-lite-thinking-medium",
-      "gemini-3.6-flash-thinking-medium",
-      "gemma-4-12b-qat-thinking-low",
-      "gemma-4-e4b-thinking-none",
-      "gpt-5.6-terra-thinking-medium",
-      "grok-4.5-thinking-medium",
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "mimo-v2.5-thinking-medium",
-      "minimax-m3-thinking-medium",
-      "nanbeige4.1-3b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "phi-4-thinking-high",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium",
-      "qwen3.6-35b-a3b-thinking-medium"
-    ]
-  },
-  {
-    "number": 116,
-    "subject": "Filosofía",
-    "question": "¿Qué debe hacer el médico para actuar autónomamente ante un paciente que rechaza transfusión por creencias religiosas?",
-    "options": {
-      "A": "A) No realizar la transfusión para evitar problemas legales.",
-      "B": "B) Realizarla para ser héroe ante colegas.",
-      "C": "C) Realizarla para salvar la vida a pesar de consecuencias.",
-      "D": "D) No realizarla para conservar su trabajo."
-    },
-    "correct_answer": "C",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "deepseek-v4-flash-thinking-medium",
-      "gemini-3.5-flash-lite-thinking-low",
-      "gemini-3.5-flash-lite-thinking-medium",
-      "gemma-4-12b-qat-thinking-low",
-      "gemma-4-e2b-thinking-low",
-      "gemma-4-e4b-thinking-low",
-      "gemma-4-e4b-thinking-none",
-      "gpt-oss-120b-thinking-medium",
-      "gpt-oss-20b-thinking-low",
-      "gpt-oss-20b-thinking-medium",
-      "hy3-preview-thinking-medium",
-      "laguna-s-2.1-thinking-medium",
-      "laguna-xs-2.1-thinking-medium",
-      "ling-2.6-flash-thinking-medium",
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "mimo-v2.5-thinking-medium",
-      "minimax-m3-thinking-medium",
-      "nanbeige4.1-3b-thinking-low",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "phi-4-thinking-high",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.6-35b-a3b-thinking-medium"
     ]
   },
   {
@@ -5558,43 +6216,6 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none"
-    ]
-  },
-  {
-    "number": 110,
-    "subject": "Historia de México",
-    "question": "Fue una acción del gobierno de Luis Echeverría como parte del Desarrollo Compartido.",
-    "options": {
-      "A": "A) Disminución de importaciones.",
-      "B": "B) Nacionalización de la banca.",
-      "C": "C) Privatización de la educación.",
-      "D": "D) Fomento a la participación de empresas privadas."
-    },
-    "correct_answer": "D",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemini-2.5-flash-lite-thinking-medium",
-      "gemini-3.6-flash-thinking-medium",
-      "gemma-4-12b-qat-thinking-low",
-      "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b-thinking-medium",
-      "gemma-4-e4b-thinking-none",
-      "gpt-oss-20b-thinking-low",
-      "ling-2.6-flash-thinking-medium",
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "phi-4-thinking-high",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
     ]
   },
   {
@@ -5779,36 +6400,6 @@
     ]
   },
   {
-    "number": 36,
-    "subject": "Geografía",
-    "question": "Es una causa principal de la contaminación del agua.",
-    "options": {
-      "A": "A) Los desechos orgánicos.",
-      "B": "B) La polución agroquímica.",
-      "C": "C) Los derrames de petróleo.",
-      "D": "D) La deforestación."
-    },
-    "correct_answer": "B",
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemini-3.5-flash-lite-thinking-medium",
-      "gemma-4-e4b-thinking-none",
-      "gpt-5.6-terra-thinking-medium",
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "phi-4-thinking-high",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
     "number": 54,
     "subject": "Matemáticas",
     "question": "¿Cuál expresión representa la ley de senos?",
@@ -5835,37 +6426,6 @@
       "gemma-4-e2b-thinking-low",
       "laguna-xs-2.1-thinking-medium",
       "nanbeige4.1-3b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 22,
-    "subject": "Literatura",
-    "question": "La paráfrasis es un proceso de carácter",
-    "options": {
-      "A": "A) descriptivo.",
-      "B": "B) argumentativo.",
-      "C": "C) expositivo.",
-      "D": "D) interpretativo."
-    },
-    "correct_answer": "D",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "gemma-4-12b-qat-thinking-low",
-      "gemma-4-e2b-thinking-low",
-      "gemma-4-e4b-thinking-low",
-      "gemma-4-e4b-thinking-medium",
-      "gemma-4-e4b-thinking-none",
-      "gpt-oss-120b-thinking-medium",
-      "gpt-oss-20b-thinking-low",
-      "gpt-oss-20b-thinking-medium",
-      "laguna-s-2.1-thinking-medium",
-      "nanbeige4.1-3b-thinking-low",
-      "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -5933,35 +6493,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 42,
-    "subject": "Geografía",
-    "question": "Las dos áreas de mayor concentración de población en el mundo son",
-    "options": {
-      "A": "A) Asia Oriental y Europa Occidental.",
-      "B": "B) Asia Occidental y Europa Occidental.",
-      "C": "C) Asia Meridional y Europa Occidental.",
-      "D": "D) Asia Meridional y Europa Meridional."
-    },
-    "correct_answer": "A",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "gemma-4-12b-qat-thinking-low",
-      "gemma-4-e2b-thinking-low",
-      "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b-thinking-low",
-      "gemma-4-e4b-thinking-medium",
-      "gpt-oss-20b-thinking-low",
-      "gpt-oss-20b-thinking-medium",
-      "laguna-s-2.1-thinking-medium",
-      "ling-2.6-flash-thinking-medium",
-      "nanbeige4.1-3b-thinking-low",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-9b-thinking-none"
     ]
   },
   {
@@ -6033,44 +6564,6 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none"
-    ]
-  },
-  {
-    "number": 72,
-    "subject": "Español",
-    "question": "¿Cuál es el interés del arqueólogo Adrián Velázquez Castro al crear el taller?",
-    "options": {
-      "A": "A) Dar a conocer los oficios prehispánicos.",
-      "B": "B) Continuar con la tradición mexica.",
-      "C": "C) Perfeccionar el trabajo manual indígena.",
-      "D": "D) Rescatar la manufactura precolombina."
-    },
-    "correct_answer": "D",
-    "reference": {
-      "type": "text",
-      "content": "El misterio de las joyas de concha\n\nAl igual que la turquesa, las plumas de aves exóticas y el oro, la concha (lo que conocemos como concha de mar) era un material precioso en el México prehispánico (anterior a la conquista y colonización españolas). Así lo prueban los cientos de piezas elaboradas con diversos tipos de conchas recuperadas en las distintas excavaciones a lo largo de todo el país: solo en las excavaciones que se realizan desde 1978 en la zona arqueológica del Templo Mayor de Tenochtitlan se han recuperado más de 2,300 objetos hechos con concha. Las piezas, que han ido apareciendo en diferentes excavaciones, eran depositadas en las tumbas como ofrendas funerarias para recrear el inframundo acuático.\n\nPara los mexicas, así como para las diversas culturas de Mesoamérica, la concha tenía una connotación sagrada, pues al ser un elemento acuático se asociaba con ese líquido esencial en el desarrollo de la vida. Además, por lo difícil que resultaba su obtención, era considerada un material de lujo, al que, por ejemplo, en Tenochtitlan, solo tenía acceso la clase gobernante.\n\nEl arqueólogo Adrián Velázquez Castro busca desde hace quince años las huellas de las herramientas empleadas por los artesanos prehispánicos en la elaboración de los objetos de concha. Y es que, a pesar de la gran cantidad de piezas recuperadas, no se han encontrado hasta ahora en la zona del Templo Mayor de Tenochtitlan restos de ningún taller o del área de producción de estos adornos.\n\nVelázquez empezó a trabajar en la clasificación de la colección de objetos de concha del Templo Mayor, pero su interés por conocer las formas de elaboración de estas piezas lo llevó a crear un proyecto de arqueología experimental que se convertiría, con el tiempo, en un taller de fabricación de la concha. Con este taller se pretende conocer, mediante la reconstrucción de las piezas antiguas con conchas modernas, las técnicas con las que se trabajó este material en la época prehispánica. Gracias al taller se ha podido saber, por ejemplo, que la producción del Templo Mayor fue muy estandarizada (se utilizaron la misma técnica y los mismos materiales), fue controlada por la clase gobernante y estuvo enfocada, casi exclusivamente, a la creación de objetos ornamentales.\n\nAl principio el taller se limitó a estudiar la colección de objetos de concha del Templo Mayor, pero poco a poco se extendió, y ya lleva realizados más de setecientos experimentos con otros objetos de concha del México prehispánico. «En gran parte gracias al trabajo de estudiantes de arqueología, tenemos ya un buen número de colecciones estudiadas, que van desde el norte de México hasta la zona maya, desde las etapas más tempranas, durante el período formativo, hasta el posclásico tardío, con la conquista española», comenta Adrián Velázquez Castro.\n\nEl Universal",
-      "title": "El misterio de las joyas de concha",
-      "author": null,
-      "source": "El Universal"
-    },
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemma-4-12b-qat-thinking-low",
-      "gemma-4-e2b-thinking-low",
-      "gemma-4-e4b-thinking-medium",
-      "gemma-4-e4b-thinking-none",
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "nanbeige4.1-3b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "phi-4-thinking-high",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -6180,52 +6673,6 @@
     ]
   },
   {
-    "number": 119,
-    "subject": "Historia de México",
-    "question": "119. La posición de México ante la Segunda Guerra Mundial fue",
-    "options": {
-      "A": "A) romper relaciones diplomáticas con los Aliados.",
-      "B": "B) no intervenir en ningún bando.",
-      "C": "C) vender petróleo a ambos contendientes.",
-      "D": "D) romper relaciones con las potencias del Eje."
-    },
-    "correct_answer": "D",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "gemma-4-e2b-thinking-low",
-      "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b-thinking-low",
-      "gemma-4-e4b-thinking-medium",
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-9b-thinking-none"
-    ]
-  },
-  {
-    "number": 20,
-    "subject": "Literatura",
-    "question": "El siguiente fragmento solo utiliza un espacio narrativo y pocos personajes, esto es característico de:",
-    "options": {
-      "A": "A) del mito.",
-      "B": "B) del cuento.",
-      "C": "C) de la leyenda.",
-      "D": "D) de la fábula."
-    },
-    "correct_answer": "B",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "gemma-4-e2b-thinking-low",
-      "gemma-4-e4b-thinking-none",
-      "laguna-xs-2.1-thinking-medium",
-      "nanbeige4.1-3b-thinking-low",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low"
-    ]
-  },
-  {
     "number": 105,
     "subject": "Historia Universal",
     "question": "La crisis en los Balcanes, alianzas diplomáticas y competencia económica fueron causas de la",
@@ -6245,39 +6692,6 @@
     ]
   },
   {
-    "number": 20,
-    "subject": "Literatura",
-    "question": "El fragmento de Fromm es un ejemplo de ficha",
-    "options": {
-      "A": "A) hemerográfica.",
-      "B": "B) de síntesis.",
-      "C": "C) bibliográfica.",
-      "D": "D) de cita textual."
-    },
-    "correct_answer": "D",
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemma-4-e2b-thinking-low",
-      "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b-thinking-low",
-      "gemma-4-e4b-thinking-medium",
-      "gemma-4-e4b-thinking-none",
-      "gpt-oss-20b-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "phi-4-thinking-high",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
     "number": 29,
     "subject": "Química",
     "question": "Nutrimento antioxidante cuyo exceso ocasiona sangrados.",
@@ -6294,30 +6708,6 @@
       "gemma-4-e2b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
-    ]
-  },
-  {
-    "number": 33,
-    "subject": "Geografía",
-    "question": "Al viajar de Morelos a Guerrero, qué sierra se recorre.",
-    "options": {
-      "A": "A) Madre del Sur.",
-      "B": "B) Madre Occidental.",
-      "C": "C) Madre Oriental.",
-      "D": "D) de Guadalupe."
-    },
-    "correct_answer": "A",
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemma-4-e2b-thinking-low",
-      "laguna-xs-2.1-thinking-medium",
-      "nanbeige4.1-3b-thinking-low",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -6361,35 +6751,6 @@
     ]
   },
   {
-    "number": 117,
-    "subject": "Historia de México",
-    "question": "Documento que proyectó apoyo a los ejidos y respeto al salario mínimo.",
-    "options": {
-      "A": "A) Acuerdos de Bucareli.",
-      "B": "B) Pacto de la Ciudadela.",
-      "C": "C) Plan Sexenal.",
-      "D": "D) Plan de la Acción Campesina."
-    },
-    "correct_answer": "C",
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemma-4-e2b-thinking-low",
-      "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b-thinking-none",
-      "gpt-oss-120b-thinking-medium",
-      "gpt-oss-20b-thinking-medium",
-      "laguna-xs-2.1-thinking-medium",
-      "ling-2.6-flash-thinking-medium",
-      "nanbeige4.1-3b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b-thinking-none"
-    ]
-  },
-  {
     "number": 22,
     "subject": "Química",
     "question": "¿Qué propiedad utilizó Mendeleev para organizar los elementos?",
@@ -6411,25 +6772,6 @@
     ]
   },
   {
-    "number": 63,
-    "subject": "Español",
-    "question": "Enunciado que ejemplifica la función referencial.",
-    "options": {
-      "A": "A) ¡Qué lata con esta lluvia!",
-      "B": "B) Seguirán las lluvias en el noreste del país.",
-      "C": "C) Hoy llueve mucho, pareciera que están lavando el mundo.",
-      "D": "D) Los maleantes fueron repelidos por otra lluvia de piedras."
-    },
-    "correct_answer": "B",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e2b-thinking-low",
-      "gemma-4-e4b-thinking-none",
-      "nanbeige4.1-3b-thinking-low"
-    ]
-  },
-  {
     "number": 64,
     "subject": "Español",
     "question": "Identifica la función de la lengua: 'La lengua del amor, a quien no sabe lo que es amor ¡qué bárbara parece!'",
@@ -6447,30 +6789,6 @@
       "gemma-4-e4b-thinking-none",
       "grok-4.5-thinking-medium",
       "nanbeige4.1-3b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 104,
-    "subject": "Historia de México",
-    "question": "Proclamó libertad de enseñanza y prensa, prohibió a la Iglesia poseer bienes raíces y decretó régimen republicano federal.",
-    "options": {
-      "A": "A) Constitución de 1824.",
-      "B": "B) Constitución de 1857.",
-      "C": "C) Constitución de 1822.",
-      "D": "D) Constitución de 1814."
-    },
-    "correct_answer": "B",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e2b-thinking-low",
-      "gemma-4-e4b-thinking-none",
-      "gpt-oss-20b-thinking-low",
-      "nanbeige4.1-3b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -6711,29 +7029,6 @@
     ]
   },
   {
-    "number": 39,
-    "subject": "Geografía",
-    "question": "En México, la zona más propicia para la cría de cerdos es el ________ por ser la primera zona de ________.",
-    "options": {
-      "A": "A) Norte — forrajes",
-      "B": "B) Bajío — cereales",
-      "C": "C) Noroeste — cereales",
-      "D": "D) Balsas — pastos"
-    },
-    "correct_answer": "B",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b-thinking-none",
-      "laguna-xs-2.1-thinking-medium",
-      "nanbeige4.1-3b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
     "number": 47,
     "subject": "Matemáticas",
     "question": "5 cuadernos + 8 lapiceros = $115; 3 cuadernos + 5 lapiceros = $70. ¿Precio de cada cuaderno?",
@@ -6802,38 +7097,6 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none"
-    ]
-  },
-  {
-    "number": 118,
-    "subject": "Historia de México",
-    "question": "118. La inauguración de Bellas Artes y el reconocimiento de la Autonomía Universitaria ocurrieron durante el periodo conocido como",
-    "options": {
-      "A": "A) Unidad Nacional.",
-      "B": "B) Cardenismo.",
-      "C": "C) Paleontología.",
-      "D": "D) Maximato."
-    },
-    "correct_answer": "D",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "gemma-4-e4b-thinking-low",
-      "gemma-4-e4b-thinking-medium",
-      "gemma-4-e4b-thinking-none",
-      "gpt-oss-20b-thinking-low",
-      "gpt-oss-20b-thinking-medium",
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "phi-4-thinking-high",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -6971,31 +7234,6 @@
     "models": [
       "gemma-4-e4b-thinking-medium",
       "nemotron-3-ultra-550b-a55b-thinking-low"
-    ]
-  },
-  {
-    "number": 82,
-    "subject": "Español",
-    "question": "¿Cuál enunciado está escrito correctamente?",
-    "options": {
-      "A": "A) Cubre el prerequisito y llegarás al puesto de vicerrector.",
-      "B": "B) Cubre el prerrequisito y llegarás al puesto de vicerrector.",
-      "C": "C) Cubre el prerrequisito y llegarás al puesto de vicerector.",
-      "D": "D) Cubre el prerequisito y llegarás al puesto de vicerector."
-    },
-    "correct_answer": "B",
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemma-4-e4b-thinking-medium",
-      "gemma-4-e4b-thinking-none",
-      "ling-2.6-flash-thinking-medium",
-      "nanbeige4.1-3b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "phi-4-thinking-high",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -7838,26 +8076,6 @@
     ]
   },
   {
-    "number": 15,
-    "subject": "Literatura",
-    "question": "Personaje del texto dramático que realiza acciones prescindibles, pues sirven para crear ambientes y darle verosimilitud a la trama.",
-    "options": {
-      "A": "A) Principal",
-      "B": "B) Antagonista",
-      "C": "C) Incidental",
-      "D": "D) Secundario"
-    },
-    "correct_answer": "C",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nanbeige4.1-3b-thinking-low",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low"
-    ]
-  },
-  {
     "number": 16,
     "subject": "Literatura",
     "question": "Identifica la idea que transmite el autor en los versos de Manuel Gutiérrez Nájera: 'Quiero morir cuando decline el día, en alta mar y con la cara al cielo...'",
@@ -8261,34 +8479,6 @@
     ]
   },
   {
-    "number": 72,
-    "subject": "Español",
-    "question": "Identifica la forma del discurso: 'Los primeros prototipos de los platos biodegradables eran de piedra caliza...'",
-    "options": {
-      "A": "A) Argumentativa.",
-      "B": "B) Narrativa.",
-      "C": "C) Demostrativa.",
-      "D": "D) Descriptiva."
-    },
-    "correct_answer": "D",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "phi-4-thinking-high",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
     "number": 78,
     "subject": "Español",
     "question": "Con el texto, el autor intenta",
@@ -8312,28 +8502,6 @@
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
-    ]
-  },
-  {
-    "number": 81,
-    "subject": "Español",
-    "question": "Elige el párrafo con la mejor redacción.",
-    "options": {
-      "A": "A) En este orden, la posibilidad y el origen del conocimiento...",
-      "B": "B) Así, la posibilidad y el origen del conocimiento...",
-      "C": "C) El conocimiento, en el inicio, ofrece una vertiente filosófica...",
-      "D": "D) El conocimiento, en principio, ofrece una vertiente filosófica... En este orden, la posibilidad y el origen del conocimiento son algunos problemas clave."
-    },
-    "correct_answer": "D",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -9260,27 +9428,6 @@
     ]
   },
   {
-    "number": 81,
-    "subject": "Español",
-    "question": "Completa: Más ________ de la ________ metálica vimos ________.",
-    "options": {
-      "A": "A) ayá — malla — hienas",
-      "B": "B) ayá — malla — yenas",
-      "C": "C) allá — malla — hienas",
-      "D": "D) allá — maya — llenas"
-    },
-    "correct_answer": "C",
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
     "number": 84,
     "subject": "Biología",
     "question": "Estructura alargada constituida por doble membrana, que interviene en la síntesis del ATP.",
@@ -9927,32 +10074,6 @@
     ]
   },
   {
-    "number": 32,
-    "subject": "Geografía",
-    "question": "¿Qué proyección cartográfica se utiliza para representar a México?",
-    "options": {
-      "A": "A) Polar.",
-      "B": "B) Cilíndrica.",
-      "C": "C) Cónica.",
-      "D": "D) Azimutal."
-    },
-    "correct_answer": "C",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "phi-4-thinking-high",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
     "number": 33,
     "subject": "Geografía",
     "question": "La Sierra Madre del Sur atraviesa las entidades de",
@@ -10477,27 +10598,6 @@
     ]
   },
   {
-    "number": 105,
-    "subject": "Historia de México",
-    "question": "En materia económica, el gobierno de Porfirio Díaz se caracterizó por",
-    "options": {
-      "A": "A) políticas de nacionalización en la minería.",
-      "B": "B) la crisis que se generó.",
-      "C": "C) la prohibición a la inversión privada.",
-      "D": "D) las concesiones a inversionistas extranjeros."
-    },
-    "correct_answer": "D",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
     "number": 106,
     "subject": "Historia de México",
     "question": "Las constantes reelecciones de Díaz y la opresión a grupos sociales fueron detonantes de",
@@ -10688,24 +10788,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 113,
-    "subject": "Historia de México",
-    "question": "El Círculo Liberal de Camilo Arriaga en 1901 tuvo como finalidad",
-    "options": {
-      "A": "A) fundar oposición a la dictadura de Díaz.",
-      "B": "B) limitar la participación maderista.",
-      "C": "C) impulsar la reelección de Díaz.",
-      "D": "D) construir movimiento favorable a Madero."
-    },
-    "correct_answer": "A",
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "laguna-xs-2.1-thinking-medium",
-      "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
   },
   {
