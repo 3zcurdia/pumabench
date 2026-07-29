@@ -141,9 +141,8 @@ export default function HomePage() {
         <h2 className="section-heading">Clasificación por área</h2>
       </div>
       <div className="tabbed-section">
-        <TabPanel
-          tabs={areaChartData.map((a) => `Área ${a.area}`)}
-          children={areaChartData.map(({ area, areaName, rows }) => (
+        <TabPanel tabs={areaChartData.map((a) => `Área ${a.area}`)}>
+          {areaChartData.map(({ area, areaName, rows }) => (
             <AreaRankingsChart
               key={area}
               data={rows}
@@ -151,19 +150,18 @@ export default function HomePage() {
               title={`Área ${area}`}
             />
           ))}
-        />
+        </TabPanel>
       </div>
 
       <div className="page-head">
         <h2 className="section-heading">Clasificación por materia</h2>
       </div>
       <div className="tabbed-section">
-        <TabPanel
-          tabs={subjectChartData.map((s) => s.subject)}
-          children={subjectChartData.map(({ subject, rows }) => (
+        <TabPanel tabs={subjectChartData.map((s) => s.subject)}>
+          {subjectChartData.map(({ subject, rows }) => (
             <SubjectRankingsChart key={subject} data={rows} title={subject} />
           ))}
-        />
+        </TabPanel>
       </div>
     </>
   );

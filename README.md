@@ -33,7 +33,9 @@ When `--resume` is passed, the script finds the latest in-progress answer CSV fo
 
 ```bash
 npm install
-npm run dev   # http://localhost:3000
+npm run dev         # http://localhost:3000
+npm run lint        # ESLint
+npm run typecheck   # tsc --noEmit
 ```
 
 ## Production build

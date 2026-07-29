@@ -27,10 +27,46 @@ interface CsvRow {
   subjectScores: Record<string, { correct: number; questions: number }>;
 }
 
+/**
+ * Parses a single CSV line, honouring double-quoted fields (which may contain
+ * commas or escaped `""` quotes). A plain `split(",")` silently corrupts every
+ * column after the first field that contains a comma.
+ */
+function parseCsvLine(line: string): string[] {
+  const cols: string[] = [];
+  let field = "";
+  let inQuotes = false;
+
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i];
+    if (inQuotes) {
+      if (ch === '"') {
+        if (line[i + 1] === '"') {
+          field += '"';
+          i++;
+        } else {
+          inQuotes = false;
+        }
+      } else {
+        field += ch;
+      }
+    } else if (ch === '"') {
+      inQuotes = true;
+    } else if (ch === ",") {
+      cols.push(field);
+      field = "";
+    } else {
+      field += ch;
+    }
+  }
+  cols.push(field);
+  return cols;
+}
+
 function parseCsv(): CsvRow[] {
   const raw = fs.readFileSync(CSV_PATH, "utf8");
   const lines = raw.trim().split("\n");
-  const header = lines[0].split(",");
+  const header = parseCsvLine(lines[0]);
 
   const colIndex = (name: string): number => {
     const idx = header.indexOf(name);
@@ -48,8 +84,13 @@ function parseCsv(): CsvRow[] {
   const areaStart = avgPointsIdx + 1;
   const subjectCols = header.slice(areaStart + areaCount);
 
-  return lines.slice(1).map((line) => {
-    const cols = line.split(",");
+  return lines.slice(1).map((line, i) => {
+    const cols = parseCsvLine(line);
+    if (cols.length !== header.length) {
+      throw new Error(
+        `results.csv row ${i + 2} has ${cols.length} columns, expected ${header.length}`,
+      );
+    }
     return {
       model: cols[modelIdx],
       effort: cols[effortIdx],
@@ -129,8 +170,24 @@ export function getModel(name: string): ModelSummary | null {
 
 const MODELS_JSON_PATH = path.join(process.cwd(), "data", "models.json");
 
+interface ModelRegistryEntry {
+  id: string;
+  name: string;
+  parameters?: number | null;
+  pricing?: { prompt?: string | null } | null;
+}
+
+let cachedRegistry: ModelRegistryEntry[] | null = null;
+
+function getModelRegistry(): ModelRegistryEntry[] {
+  if (!cachedRegistry) {
+    cachedRegistry = JSON.parse(fs.readFileSync(MODELS_JSON_PATH, "utf8"));
+  }
+  return cachedRegistry!;
+}
+
 export function getModelParams(): Record<string, number> {
-  const raw = JSON.parse(fs.readFileSync(MODELS_JSON_PATH, "utf8"));
+  const raw = getModelRegistry();
   const result: Record<string, number> = {};
   for (const entry of raw) {
     if (entry.parameters == null) continue;
@@ -142,7 +199,7 @@ export function getModelParams(): Record<string, number> {
 }
 
 export function getModelPricing(): Record<string, number> {
-  const raw = JSON.parse(fs.readFileSync(MODELS_JSON_PATH, "utf8"));
+  const raw = getModelRegistry();
   const result: Record<string, number> = {};
   for (const entry of raw) {
     if (entry.pricing == null || entry.pricing.prompt == null) continue;

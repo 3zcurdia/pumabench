@@ -41,3 +41,20 @@ export interface FailedQuestion {
   areaName: string;
   reference?: { type: string; content: string };
 }
+
+/**
+ * A question aggregated across every model, as stored in
+ * `data/failed_questions.json`. `models` lists the result-dir names of the
+ * models that answered it incorrectly.
+ */
+export interface GlobalFailedQuestion {
+  number: number;
+  subject: string;
+  question: string;
+  options: Record<string, OptionValue>;
+  correct_answer: string;
+  reference?: { type: string; content: string };
+  area: number;
+  area_name: string;
+  models: string[];
+}

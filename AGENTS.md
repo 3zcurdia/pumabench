@@ -13,9 +13,11 @@ PumaBench benchmarks LLMs against the UNAM university admission test. Two distin
 npm install          # install deps (Node 25 via mise)
 npm run dev          # http://localhost:3000
 npm run build        # production build (reads data/results.csv at build time)
+npm run lint         # ESLint (next/core-web-vitals; ignores data/ and build output)
+npm run typecheck    # tsc --noEmit
 ```
 
-No lint, typecheck, test, or formatter scripts are configured. After changes, verify with `npm run build`.
+No test or formatter scripts are configured. After changes, verify with `npm run lint`, `npm run typecheck`, and `npm run build`. CI (`.github/workflows/ci.yml`) runs all three on every push and PR.
 
 ### Benchmark (from `data/` directory)
 
@@ -43,7 +45,7 @@ Benchmark requires `OPENROUTER_API_KEY` in `.env`.
 6. **`data/results.csv`** — aggregated scores; **the single source of truth the dashboard reads**
 7. `data/models.json` — model registry (id → name, provider, type, parameter counts from HuggingFace, pricing); maintained automatically by `benchmark.rb`, which registers new models on first run (enriched from OpenRouter, minimal record when not found) and uses it to fill the `id` column in results
 
-After running benchmarks or modifying result JSONs, `results.csv` must be regenerated (via `--evaluate-only`) for the dashboard to reflect changes. The dashboard does **not** read individual result JSONs.
+After running benchmarks or modifying result JSONs, `results.csv` **and** `data/failed_questions.json` must be regenerated for the dashboard to reflect changes. Both are rewritten by a single `--evaluate-only` run (`write_results_csv_full` + `write_failed_questions_json`). The dashboard does **not** read individual result JSONs — `results.csv` feeds the overview/model pages and `failed_questions.json` feeds `/failed`.
 
 ## Architecture notes
 

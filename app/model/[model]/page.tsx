@@ -6,12 +6,8 @@ import EffortBadge from "@/components/EffortBadge";
 import SubjectsChart from "@/components/SubjectsChart";
 import SubjectsRadarChart from "@/components/SubjectsRadarChart";
 import { getAllModels, getFailedQuestions, getModel } from "@/lib/data";
-import type { FailedQuestion, OptionValue } from "@/lib/types";
-
-function renderOptionValue(val: OptionValue): string {
-  if (typeof val === "string") return val;
-  return val.image_description ?? `[Imagen: ${val.label}]`;
-}
+import { renderOptionValue } from "@/lib/options";
+import type { FailedQuestion } from "@/lib/types";
 
 function FailedQuestionCard({ fq }: { fq: FailedQuestion }) {
   const optionKeys = Object.keys(fq.options);

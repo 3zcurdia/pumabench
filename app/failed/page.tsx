@@ -2,26 +2,10 @@ import fs from "node:fs";
 import path from "node:path";
 import Link from "next/link";
 import { getAllModels } from "@/lib/data";
-import type { OptionValue } from "@/lib/types";
+import { renderOptionValue } from "@/lib/options";
+import type { GlobalFailedQuestion } from "@/lib/types";
 
-interface FailedQuestion {
-  number: number;
-  subject: string;
-  question: string;
-  options: Record<string, OptionValue>;
-  correct_answer: string;
-  reference?: { type: string; content: string };
-  area: number;
-  area_name: string;
-  models: string[];
-}
-
-const TOTAL_MODELS = 32;
-
-function renderOptionValue(val: OptionValue): string {
-  if (typeof val === "string") return val;
-  return val.image_description ?? `[Imagen: ${val.label}]`;
-}
+type FailedQuestion = GlobalFailedQuestion;
 
 function buildDirToSlugMap(): Map<string, string> {
   const models = getAllModels();
@@ -43,13 +27,13 @@ function resolveModelSlug(
   return null;
 }
 
-function FailureBar({ count }: { count: number }) {
-  const pct = Math.round((count / TOTAL_MODELS) * 100);
+function FailureBar({ count, total }: { count: number; total: number }) {
+  const pct = total === 0 ? 0 : Math.round((count / total) * 100);
   return (
     <div className="failure-bar-wrap">
       <div className="failure-bar" style={{ width: `${pct}%` }} />
       <span className="failure-bar-label">
-        {count}/{TOTAL_MODELS}
+        {count}/{total}
       </span>
     </div>
   );
@@ -59,10 +43,12 @@ function FailedQuestionCard({
   fq,
   rank,
   dirToSlug,
+  totalModels,
 }: {
   fq: FailedQuestion;
   rank: number;
   dirToSlug: Map<string, string>;
+  totalModels: number;
 }) {
   const optionKeys = Object.keys(fq.options);
   return (
@@ -76,7 +62,7 @@ function FailedQuestionCard({
           {fq.models.length} modelo{fq.models.length !== 1 ? "s" : ""} fallaron
         </span>
       </div>
-      <FailureBar count={fq.models.length} />
+      <FailureBar count={fq.models.length} total={totalModels} />
       <p className="failed-question-text">{fq.question}</p>
       {fq.reference?.content && (
         <details className="failed-question-context">
@@ -139,6 +125,7 @@ export const metadata = {
 export default function FailedQuestionsPage() {
   const questions = getFailedQuestions();
   const dirToSlug = buildDirToSlugMap();
+  const totalModels = dirToSlug.size;
 
   return (
     <>
@@ -161,6 +148,7 @@ export default function FailedQuestionsPage() {
             fq={fq}
             rank={i + 1}
             dirToSlug={dirToSlug}
+            totalModels={totalModels}
           />
         ))}
       </div>
