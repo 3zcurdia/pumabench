@@ -63,3 +63,13 @@ After running benchmarks or modifying result JSONs, `results.csv` **and** `data/
 - `QUESTIONS_PER_AREA = 120` is hardcoded in `lib/data.ts`.
 - Result JSON filenames follow `<YYYYMMDDHHMMSS>-area-<n>.json`. Multiple timestamps per model = multiple runs (averaged).
 - **Language policy**: User-facing pages and components (`app/`, `components/`) use **neutral Spanish** for all visible text (headings, labels, descriptions, tooltips, metadata, aria-labels). Exception: proper nouns (PumaBench, UNAM), effort badges (`none`/`low`/`medium`/`high`), and the word `Score` stay in English. Data/backend layers (`data/`, `lib/`) remain in English.
+
+## Language rule for reports and chat
+
+Use ASD-STE100 Simplified Technical English for all reports and all chat replies to users. Use these rules:
+- Use short, simple sentences. One idea in each sentence.
+- Use the active voice. Say who does the action.
+- Use approved words in a clear way. Do not use two different words for the same thing.
+- Do not use long noun strings. Add small linking words to make the meaning clear.
+- Write steps as a numbered list, in the order you do them.
+This rule applies to prose for users. It applies to chat replies, PR descriptions, and reports. It does not apply to code, code comments, or commit messages.
