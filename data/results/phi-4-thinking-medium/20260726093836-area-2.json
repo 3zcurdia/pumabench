@@ -1,14 +1,14 @@
 {
   "id": "microsoft/phi-4",
-  "model": "phi-4-thinking-high",
-  "effort": "high",
-  "timestamp": "20260722171755",
+  "model": "phi-4-thinking-none",
+  "effort": "none",
+  "timestamp": "20260726093836",
   "area": 2,
   "area_name": "Ciencias Biológicas, Químicas y de la Salud",
   "total": {
     "questions": 120,
-    "correct": 91,
-    "percentage": 75.83
+    "correct": 92,
+    "percentage": 76.67
   },
   "subjects": {
     "Biología": {
@@ -18,8 +18,8 @@
     },
     "Español": {
       "questions": 18,
-      "correct": 12,
-      "percentage": 66.67
+      "correct": 11,
+      "percentage": 61.11
     },
     "Filosofía": {
       "questions": 0,
@@ -28,8 +28,8 @@
     },
     "Física": {
       "questions": 12,
-      "correct": 4,
-      "percentage": 33.33
+      "correct": 6,
+      "percentage": 50.0
     },
     "Geografía": {
       "questions": 10,
@@ -53,13 +53,13 @@
     },
     "Matemáticas": {
       "questions": 24,
-      "correct": 17,
-      "percentage": 70.83
+      "correct": 18,
+      "percentage": 75.0
     },
     "Química": {
       "questions": 13,
-      "correct": 11,
-      "percentage": 84.62
+      "correct": 10,
+      "percentage": 76.92
     }
   },
   "failed_questions": [
@@ -74,46 +74,6 @@
         "D": "D) 10 m/s"
       },
       "correct_answer": "D"
-    },
-    {
-      "number": 2,
-      "subject": "Física",
-      "question": "Sobre un cuerpo se aplicaron diferentes fuerzas en dirección horizontal y con el mismo sentido provocando que el objeto experimentara distintas aceleraciones. ¿Cuál es la masa del objeto?",
-      "options": {
-        "A": "A) 1.6 kg",
-        "B": "B) 2.5 kg",
-        "C": "C) 3.2 kg",
-        "D": "D) 4.0 kg"
-      },
-      "correct_answer": "B",
-      "reference": {
-        "type": "text",
-        "path": "area-2-q2.webp",
-        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp2.webp",
-        "alt": "Figura asociada a la pregunta 2.",
-        "content": "El gráfico presenta un sistema de coordenadas cartesianas donde el eje vertical representa la fuerza en Newtons (N) y el eje horizontal representa la aceleración en metros por segundo al cuadrado (m/s²). En el eje de la fuerza, se marcan las siguientes divisiones: 1.00 N, 2.00 N, 3.00 N y 4.00 N, con líneas horizontales que indican los valores intermedios. En el eje de la aceleración, se marcan las divisiones en 0.50 m/s², 1.00 m/s², 1.50 m/s² y 2.00 m/s², con líneas verticales que también indican los valores intermedios.\n\nLos puntos en el gráfico están conectados por una línea recta que comienza en el origen (0,0) y se extiende hasta el punto (2.00, 4.00). Esta línea indica una relación lineal entre la fuerza y la aceleración, sugiriendo que a medida que la aceleración aumenta, la fuerza también lo hace de manera proporcional. La pendiente de la línea representa la relación entre fuerza y aceleración, de acuerdo con la segunda ley de Newton.",
-        "derived_from": "area-2-q2.webp"
-      }
-    },
-    {
-      "number": 4,
-      "subject": "Física",
-      "question": "Un balín (x) de 200 g rueda con velocidad (V) sobre un riel recto. Otro balín (y) de 400 g rueda con velocidad (-V) en sentido contrario. Después de chocar el balín (y) queda inmóvil. ¿Cuál será la velocidad del balín (x) después del choque totalmente elástico?",
-      "options": {
-        "A": "A) 0",
-        "B": "B) (-V)(0.5)",
-        "C": "C) -V",
-        "D": "D) (-V)(0.25)"
-      },
-      "correct_answer": "C",
-      "reference": {
-        "type": "text",
-        "path": "area-2-q4.webp",
-        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp4.webp",
-        "alt": "Figura asociada a la pregunta 4.",
-        "content": "En la figura se observan dos círculos, etiquetados como \"X\" y \"Y\", situados en una línea horizontal. Ambos círculos están alineados uno al lado del otro, con \"X\" a la izquierda y \"Y\" a la derecha. Encima de cada círculo hay una etiqueta que indica \"Dirección de desplazamiento\". La flecha que acompaña a \"X\" apunta hacia la izquierda, mientras que la flecha que acompaña a \"Y\" apunta hacia la izquierda también. Esto sugiere que ambos círculos se están desplazando en la misma dirección, que es hacia la izquierda. La línea horizontal sobre la que están los círculos representa el camino o la trayectoria de desplazamiento.",
-        "derived_from": "area-2-q4.webp"
-      }
     },
     {
       "number": 5,
@@ -186,6 +146,18 @@
         "D": "D) 48"
       },
       "correct_answer": "A"
+    },
+    {
+      "number": 27,
+      "subject": "Química",
+      "question": "Una botella de brandy de 946 mL tiene 38% en volumen de alcohol. Los mL de alcohol presentes son",
+      "options": {
+        "A": "A) 24.84",
+        "B": "B) 38.00",
+        "C": "C) 359.48",
+        "D": "D) 586.52"
+      },
+      "correct_answer": "C"
     },
     {
       "number": 34,
@@ -280,26 +252,6 @@
       "correct_answer": "D"
     },
     {
-      "number": 52,
-      "subject": "Matemáticas",
-      "question": "La función de la gráfica es",
-      "options": {
-        "A": "A) f(x) = -√(8x - 16)",
-        "B": "B) f(x) = +√(8x - 16)",
-        "C": "C) f(x) = -√(-8x + 16)",
-        "D": "D) f(x) = +√(-8x + 16)"
-      },
-      "correct_answer": "A",
-      "reference": {
-        "type": "text",
-        "path": "area-2-q52.webp",
-        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp52.webp",
-        "alt": "Figura asociada a la pregunta 52.",
-        "content": "El gráfico presenta un sistema de coordenadas cartesianas con el eje vertical etiquetado como \\( f(x) \\) y el eje horizontal como \\( x \\). El eje \\( f(x) \\) tiene marcas en 1, 2 y 3 hacia arriba desde el origen, mientras que el eje \\( x \\) tiene marcas en 0, 1, 2 y 3 hacia la derecha desde el origen.\n\nLa curva representada es una función que se aproxima a un valor en el eje \\( f(x) \\) a medida que \\( x \\) se acerca a 2 desde la izquierda, pero no toca el punto \\( (2, f(2)) \\). La curva desciende hacia el eje \\( x \\) y se aproxima a un valor negativo a medida que \\( x \\) se aleja de 2 hacia la derecha. No hay intersección con el eje \\( x \\) en el intervalo \\( (2, 3) \\). La curva es continua en el intervalo \\( (0, 2) \\) y presenta un comportamiento asintótico en \\( x = 2 \\).",
-        "derived_from": "area-2-q52.webp"
-      }
-    },
-    {
       "number": 56,
       "subject": "Matemáticas",
       "question": "¿Cuál es la distancia entre P (2, 5) y Q (4, -1)?",
@@ -356,14 +308,14 @@
       "correct_answer": "A"
     },
     {
-      "number": 76,
+      "number": 74,
       "subject": "Español",
-      "question": "El personaje hizo una llamada telefónica para",
+      "question": "En el texto 'Tiempo libre' de Guillermo Samperio, el clímax se da cuando",
       "options": {
-        "A": "A) protestar porque una mujer fue descortés.",
-        "B": "B) exigir un diagnóstico a su médico.",
-        "C": "C) quejarse de que el periódico le causó daño en la piel.",
-        "D": "D) expresar su preocupación al periódico."
+        "A": "A) la esposa toma el periódico.",
+        "B": "B) el personaje corrió hacia la puerta.",
+        "C": "C) el personaje cayó estrepitosamente.",
+        "D": "D) el personaje llamó a las oficinas del periódico."
       },
       "correct_answer": "C",
       "reference": {
@@ -375,16 +327,35 @@
       }
     },
     {
-      "number": 77,
+      "number": 75,
       "subject": "Español",
-      "question": "El personaje sintió un gran alivio al",
+      "question": "El término apeñuscadas se refiere a que las letras",
       "options": {
-        "A": "A) escuchar que su mujer abría la puerta.",
-        "B": "B) regresar al sillón.",
-        "C": "C) llamar a su médico.",
-        "D": "D) sentir que su mujer lo levantaba."
+        "A": "A) eran muchas y muy pequeñas.",
+        "B": "B) tenían color muy oscuro.",
+        "C": "C) eran pequeñas y negra.",
+        "D": "D) quedaban amontonadas."
       },
-      "correct_answer": "A",
+      "correct_answer": "D",
+      "reference": {
+        "type": "text",
+        "content": "Tiempo libre\n\nTodas las mañanas compro el periódico y todas las mañanas, al leerlo, me mancho los dedos con tinta. Nunca me ha importado ensuciármelos con tal de estar al día en las noticias. Pero esta mañana sentí un gran malestar apenas toqué el periódico.\n\nCreí que solamente se trataba de uno de mis acostumbrados mareos. Pagué el importe del diario y regresé a mi casa. Mi esposa había salido de compras. Me acomodé en mi sillón favorito, encendí un cigarro y me puse a leer la primera página. Luego de enterarme de que el jet se había desplomado, volví a sentirme mal; vi mis dedos y las manos con toda la calma y, ya tranquilo, regresé al sillón. Cuando iba a tomar mi cigarro, descubrí que una mancha negra cubría mis dedos.\n\nDe inmediato retorné al baño, me tallé con zacate, piedra pómez y, finalmente, me lavé con blanqueador; pero el intento fue inútil, porque la mancha creció y me invadió hasta los codos. Ahora, más preocupado que molesto, llamé al doctor y me recomendó que lo mejor era que tomara unas vacaciones, o que durmiera. Después, llamé a las oficinas del periódico para elevar mi más rotunda protesta; me contestó una voz de mujer, que solamente me insultó y me trató de loco. En el momento en que hablaba por teléfono, me di cuenta de que, en realidad, no se trataba de una mancha, sino de un número infinito de letras pequeñísimas, apeñuscadas, como una inquieta multitud de hormigas negras. Cuando colgué, las letritas habían avanzado ya hasta mi cintura.\n\nAsustado, corrí hacia la puerta de entrada; pero, antes de poder abrirla. Me flaquearon las piernas y caí estrepitosamente. Tirado bocarriba descubrí que, además de la gran cantidad de letras hormiga que ahora ocupaban todo mi cuerpo, había una que otra fotografía. Así estuve durante varias horas hasta que escuché que abrían la puerta. Me costó trabajo hilar la idea, pero al fin pensé que había llegado a mi salvación. Entró mi esposa, me levantó del suelo, me cargó bajo el brazo, se acomodó en mi sillón favorito, me hojeó despreocupadamente y se puso a leer.\n\nGuillermo Samperio.",
+        "title": "Tiempo libre",
+        "author": "Guillermo Samperio",
+        "source": null
+      }
+    },
+    {
+      "number": 76,
+      "subject": "Español",
+      "question": "El personaje hizo una llamada telefónica para",
+      "options": {
+        "A": "A) protestar porque una mujer fue descortés.",
+        "B": "B) exigir un diagnóstico a su médico.",
+        "C": "C) quejarse de que el periódico le causó daño en la piel.",
+        "D": "D) expresar su preocupación al periódico."
+      },
+      "correct_answer": "C",
       "reference": {
         "type": "text",
         "content": "Tiempo libre\n\nTodas las mañanas compro el periódico y todas las mañanas, al leerlo, me mancho los dedos con tinta. Nunca me ha importado ensuciármelos con tal de estar al día en las noticias. Pero esta mañana sentí un gran malestar apenas toqué el periódico.\n\nCreí que solamente se trataba de uno de mis acostumbrados mareos. Pagué el importe del diario y regresé a mi casa. Mi esposa había salido de compras. Me acomodé en mi sillón favorito, encendí un cigarro y me puse a leer la primera página. Luego de enterarme de que el jet se había desplomado, volví a sentirme mal; vi mis dedos y las manos con toda la calma y, ya tranquilo, regresé al sillón. Cuando iba a tomar mi cigarro, descubrí que una mancha negra cubría mis dedos.\n\nDe inmediato retorné al baño, me tallé con zacate, piedra pómez y, finalmente, me lavé con blanqueador; pero el intento fue inútil, porque la mancha creció y me invadió hasta los codos. Ahora, más preocupado que molesto, llamé al doctor y me recomendó que lo mejor era que tomara unas vacaciones, o que durmiera. Después, llamé a las oficinas del periódico para elevar mi más rotunda protesta; me contestó una voz de mujer, que solamente me insultó y me trató de loco. En el momento en que hablaba por teléfono, me di cuenta de que, en realidad, no se trataba de una mancha, sino de un número infinito de letras pequeñísimas, apeñuscadas, como una inquieta multitud de hormigas negras. Cuando colgué, las letritas habían avanzado ya hasta mi cintura.\n\nAsustado, corrí hacia la puerta de entrada; pero, antes de poder abrirla. Me flaquearon las piernas y caí estrepitosamente. Tirado bocarriba descubrí que, además de la gran cantidad de letras hormiga que ahora ocupaban todo mi cuerpo, había una que otra fotografía. Así estuve durante varias horas hasta que escuché que abrían la puerta. Me costó trabajo hilar la idea, pero al fin pensé que había llegado a mi salvación. Entró mi esposa, me levantó del suelo, me cargó bajo el brazo, se acomodó en mi sillón favorito, me hojeó despreocupadamente y se puso a leer.\n\nGuillermo Samperio.",

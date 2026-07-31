@@ -2,7 +2,7 @@
   "id": "google/gemma-4-12b-qat",
   "model": "gemma-4-12b-qat-thinking-low",
   "effort": "low",
-  "timestamp": "20260728192119",
+  "timestamp": "20260728144957",
   "area": 3,
   "area_name": "Ciencias Sociales",
   "total": {

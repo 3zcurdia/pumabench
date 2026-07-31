@@ -1,8 +1,8 @@
 {
   "id": "microsoft/phi-4",
-  "model": "phi-4-thinking-high",
-  "effort": "high",
-  "timestamp": "20260726093836",
+  "model": "phi-4-thinking-none",
+  "effort": "none",
+  "timestamp": "20260726093450",
   "area": 1,
   "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
   "total": {
@@ -272,18 +272,6 @@
       "correct_answer": "B"
     },
     {
-      "number": 76,
-      "subject": "Español",
-      "question": "76. ¿Qué forma del discurso predomina en el siguiente párrafo? Si bien la educación básica no alcanza una cobertura universal en los estratos de menores ingresos, debe ponerse énfasis en los aspectos de calidad y equidad, otorgando mayores oportunidades educativas a los niños, niñas y adolescentes de los estratos bajos y medios. Ello implica dar continuidad al proceso educativo, mejorar la eficiencia interna del sistema —reduciendo el ingreso tardío y la reprobación—, y llevar a cabo políticas tendientes a aumentar la educación secundaria.",
-      "options": {
-        "A": "A) Narrativa.",
-        "B": "B) Expositiva.",
-        "C": "C) Argumentativa.",
-        "D": "D) Descriptiva."
-      },
-      "correct_answer": "C"
-    },
-    {
       "number": 81,
       "subject": "Español",
       "question": "81. En la frase \"por momentos sentía que le temblaban las piernas, pero si su cuerpo flaqueaba, su mente no se permitía vacilar\", se infiere que la mujer se sentía",
@@ -301,6 +289,18 @@
         "author": "Maruja Torres",
         "source": "El País, 8 de julio de 1986"
       }
+    },
+    {
+      "number": 84,
+      "subject": "Español",
+      "question": "84. Elige la opción con la redacción apropiada.",
+      "options": {
+        "A": "A) Los checoslovacos combatían en las calles y se oponían a la dictadura.",
+        "B": "B) Un sinnúmero de feligreses acudieron a la Villa.",
+        "C": "C) La creación de muchas cosas no se tenían contempladas.",
+        "D": "D) Los constantes flujo y reflujo de divisas provocó alarma."
+      },
+      "correct_answer": "A"
     },
     {
       "number": 85,

@@ -1,14 +1,14 @@
 {
   "id": "microsoft/phi-4",
-  "model": "phi-4-thinking-high",
-  "effort": "high",
-  "timestamp": "20260722171755",
+  "model": "phi-4-thinking-none",
+  "effort": "none",
+  "timestamp": "20260726093836",
   "area": 1,
   "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
   "total": {
     "questions": 120,
-    "correct": 94,
-    "percentage": 78.33
+    "correct": 97,
+    "percentage": 80.83
   },
   "subjects": {
     "Biología": {
@@ -18,8 +18,8 @@
     },
     "Español": {
       "questions": 18,
-      "correct": 13,
-      "percentage": 72.22
+      "correct": 14,
+      "percentage": 77.78
     },
     "Filosofía": {
       "questions": 0,
@@ -28,8 +28,8 @@
     },
     "Física": {
       "questions": 16,
-      "correct": 12,
-      "percentage": 75.0
+      "correct": 14,
+      "percentage": 87.5
     },
     "Geografía": {
       "questions": 10,
@@ -116,44 +116,16 @@
       "correct_answer": "D"
     },
     {
-      "number": 11,
-      "subject": "Física",
-      "question": "11. De acuerdo a la imagen, la corriente que circula por el resistor de resistencia \\(\\frac{R}{2}\\) es",
+      "number": 27,
+      "subject": "Química",
+      "question": "Consulta la tabla periódica para responder. 27. Selecciona la opción que representa sustancias que, químicamente, no pueden descomponerse en otras más simples.",
       "options": {
-        "A": "A) \\(\\frac{V}{2R}\\)",
-        "B": "B) \\(\\frac{2V}{R}\\)",
-        "C": "C) \\(\\frac{V}{3R}\\)",
-        "D": "D) \\(\\frac{3V}{R}\\)"
+        "A": "A) Na(s), Cl_2(g) y P_4(s)",
+        "B": "B) O_2(g), He(g) y CO(g)",
+        "C": "C) S_8(g), N_2(g) y SO_2(g)",
+        "D": "D) CO(g), Na(s) y S_8(s)"
       },
-      "correct_answer": "B",
-      "reference": {
-        "type": "text",
-        "path": "area-1-q11.webp",
-        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp11.webp",
-        "alt": "Figura asociada a la pregunta 11.",
-        "content": "En la figura se presenta un circuito eléctrico simple. A la izquierda, hay una fuente de voltaje representada por un símbolo de batería, donde el terminal positivo está indicado con un signo más (+) y el terminal negativo no tiene símbolo. La fuente de voltaje está conectada a un resistor que se encuentra a la derecha. Este resistor está etiquetado como \\( R/2 \\), lo que indica que su resistencia es la mitad de un valor \\( R \\) que no se especifica en la figura. Las conexiones entre la fuente de voltaje y el resistor son líneas rectas que representan los conductores del circuito. No hay otros componentes en el circuito, y la disposición es lineal, con la fuente de voltaje a la izquierda y el resistor a la derecha.",
-        "derived_from": "area-1-q11.webp"
-      }
-    },
-    {
-      "number": 12,
-      "subject": "Física",
-      "question": "12. Determina la resistencia total del circuito que se representa en la imagen.",
-      "options": {
-        "A": "A) \\(2.41 \\, \\Omega\\)",
-        "B": "B) \\(4.4 \\, \\Omega\\)",
-        "C": "C) \\(12 \\, \\Omega\\)",
-        "D": "D) \\(1.90 \\, \\Omega\\)"
-      },
-      "correct_answer": "B",
-      "reference": {
-        "type": "text",
-        "path": "area-1-q12.webp",
-        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp12.webp",
-        "alt": "Figura asociada a la pregunta 12.",
-        "content": "En la figura se presenta un circuito eléctrico alimentado por una fuente de voltaje de 6 voltios. El circuito contiene tres resistencias: R1, R2 y un conjunto de resistencias R3. La resistencia R1 tiene un valor de 2 ohmios y está conectada en serie con la resistencia R2, que tiene un valor de 4 ohmios. A la derecha de R2, se encuentra un grupo de resistencias que incluye R3, la cual tiene un valor de 6 ohmios. R3 está conectada en paralelo con R2. \n\nEl esquema muestra claramente las conexiones: la corriente fluye desde la fuente de 6V hacia R1, luego hacia R2, y finalmente se divide entre R2 y R3. Las resistencias están etiquetadas con sus respectivos valores en ohmios. La disposición de las resistencias y la fuente de voltaje es fundamental para el análisis del circuito.",
-        "derived_from": "area-1-q12.webp"
-      }
+      "correct_answer": "A"
     },
     {
       "number": 31,
@@ -168,28 +140,16 @@
       "correct_answer": "B"
     },
     {
-      "number": 32,
+      "number": 33,
       "subject": "Química",
-      "question": "32. Los icebergs flotan en el océano debido a fuerzas",
+      "question": "33. En una disolución acuosa se determinó que [H^(+)] < [OH^( -)], por lo tanto, el valor de pH será",
       "options": {
-        "A": "A) intramoleculares denominadas covalentes polares.",
-        "B": "B) intramoleculares denominadas puentes de hidrógeno.",
-        "C": "C) intermoleculares denominadas covalentes polares.",
-        "D": "D) intermoleculares denominadas puentes de hidrógeno."
+        "A": "A) 11",
+        "B": "B) 5",
+        "C": "C) 7",
+        "D": "D) 2"
       },
-      "correct_answer": "D"
-    },
-    {
-      "number": 34,
-      "subject": "Química",
-      "question": "34. A partir de la siguiente ecuación química, se puede inferir que x es un \\(C(s) + O_2(g) \\rightarrow \\mathbf{x}\\)",
-      "options": {
-        "A": "A) óxido básico.",
-        "B": "B) oxisal.",
-        "C": "C) hidróxido.",
-        "D": "D) óxido ácido."
-      },
-      "correct_answer": "D"
+      "correct_answer": "A"
     },
     {
       "number": 35,
@@ -312,42 +272,16 @@
       "correct_answer": "B"
     },
     {
-      "number": 79,
+      "number": 76,
       "subject": "Español",
-      "question": "79. La frase: Como el cazador, sólo alimentaba un deseo: conseguir la mejor presa; como el sabueso, únicamente aspiraba a hincar el diente en la carne más tierna. Se refiere a que algunas personas",
+      "question": "76. ¿Qué forma del discurso predomina en el siguiente párrafo? Si bien la educación básica no alcanza una cobertura universal en los estratos de menores ingresos, debe ponerse énfasis en los aspectos de calidad y equidad, otorgando mayores oportunidades educativas a los niños, niñas y adolescentes de los estratos bajos y medios. Ello implica dar continuidad al proceso educativo, mejorar la eficiencia interna del sistema —reduciendo el ingreso tardío y la reprobación—, y llevar a cabo políticas tendientes a aumentar la educación secundaria.",
       "options": {
-        "A": "A) Aparentan tener una buena educación, pero son capaces de comportarse como bestias feroces e inclusive consumar un crimen si así fuera necesario.",
-        "B": "B) Están desesperadas por salir de sus casas, ir a los almacenes de prestigio y gastar lo que han ahorrado para la ocasión.",
-        "C": "C) Asisten a los almacenes y, en otras ocasiones, recorren el zoológico para observar el comportamiento de diferentes especies salvajes.",
-        "D": "D) Pierden la noción de los códigos de conducta para conseguir el mejor artículo rebajado antes que alguien más lo obtenga."
+        "A": "A) Narrativa.",
+        "B": "B) Expositiva.",
+        "C": "C) Argumentativa.",
+        "D": "D) Descriptiva."
       },
-      "correct_answer": "D",
-      "reference": {
-        "type": "text",
-        "content": "—La mujer salió de su casa, y era una buena mujer. Lo había sido durante toda su vida. Ese día, sin embargo, una fría determinación le roía las entrañas mientras avanzaba, el bolso bien sujeto, camino del lugar donde iban a producirse los hechos.\n\nPor momentos sentía que le temblaban las piernas, pero si su cuerpo flaqueaba, su mente no se permitía vacilar. Pensó en sus hijos. Pensó en su marido, honrado y trabajador, feliz con su fútbol, su tele y su chándal para ir al campo los fines de semana. Pensó en el equipo necesario para las vacaciones, tan inminentes ya.\n\nMás decidida que nunca, atravesó la puerta de los grandes almacenes. El aire procedente del acondicionador le heló la nuca y serpenteó por un momento entre sus muslos, y ésa fue la última sensación humana que iba a experimentar en varias horas.\n\n—¡Reebaaaajaaas! —rugió.\n\nBraceó hacia la horda que bramaba en el interior. Ya no pensaba en su familia. Como el cazador, sólo alimentaba un deseo: conseguir la mejor presa; como el sabueso, únicamente aspiraba a hincar el diente en la carne más tierna. Alargó ambas manos hacia una combinación de seda sintética rebajada, puesta a mitad de precio —previamente se había colgado el bolso en bandolera—, y una manada de tiburones abrió amenazadoramente las fauces frente a ella. La mujer se aferró con todas sus fuerzas a la prenda. Vio que las manos se le habían vuelto peludas, sarmentosas y con las uñas muy largas curvadas hacia dentro, pero no le importó. Arrancó la combinación de entre los colmillos de los escualos y siguió abriéndose paso entre aullidos.\n\nEn la segunda planta tuvo que despedazarle la carótida a una rinoceronta de vestido floreado que trataba de apoderarse de una cesta para pic—nic; en la tercera, se hizo a zarpazos con dos pares de zapatillas de deportes; en la cuarta fue corrida a cornadas por una panda de búfalas que se empeñaban en conseguir una cocinita portátil a butano; en la quinta estuvo a punto de morir picoteada por una nube de avispas venenosas, pero huyó en cuanto se dio cuenta de que no necesitaba un tresillo.\n\nCuando salió a la calle, tardó unos 20 minutos en recuperar su aspecto habitual.\n\nTorres, Maruja (8 de julio de 1986). Metamorfosis. El País.",
-        "title": "Metamorfosis",
-        "author": "Maruja Torres",
-        "source": "El País, 8 de julio de 1986"
-      }
-    },
-    {
-      "number": 80,
-      "subject": "Español",
-      "question": "80. El texto se titula Metamorfosis porque",
-      "options": {
-        "A": "A) detalla el cambio de niña a mujer.",
-        "B": "B) una mujer transforma su conducta.",
-        "C": "C) habla del origen de las transformaciones.",
-        "D": "D) la protagonista cambia de parecer."
-      },
-      "correct_answer": "B",
-      "reference": {
-        "type": "text",
-        "content": "—La mujer salió de su casa, y era una buena mujer. Lo había sido durante toda su vida. Ese día, sin embargo, una fría determinación le roía las entrañas mientras avanzaba, el bolso bien sujeto, camino del lugar donde iban a producirse los hechos.\n\nPor momentos sentía que le temblaban las piernas, pero si su cuerpo flaqueaba, su mente no se permitía vacilar. Pensó en sus hijos. Pensó en su marido, honrado y trabajador, feliz con su fútbol, su tele y su chándal para ir al campo los fines de semana. Pensó en el equipo necesario para las vacaciones, tan inminentes ya.\n\nMás decidida que nunca, atravesó la puerta de los grandes almacenes. El aire procedente del acondicionador le heló la nuca y serpenteó por un momento entre sus muslos, y ésa fue la última sensación humana que iba a experimentar en varias horas.\n\n—¡Reebaaaajaaas! —rugió.\n\nBraceó hacia la horda que bramaba en el interior. Ya no pensaba en su familia. Como el cazador, sólo alimentaba un deseo: conseguir la mejor presa; como el sabueso, únicamente aspiraba a hincar el diente en la carne más tierna. Alargó ambas manos hacia una combinación de seda sintética rebajada, puesta a mitad de precio —previamente se había colgado el bolso en bandolera—, y una manada de tiburones abrió amenazadoramente las fauces frente a ella. La mujer se aferró con todas sus fuerzas a la prenda. Vio que las manos se le habían vuelto peludas, sarmentosas y con las uñas muy largas curvadas hacia dentro, pero no le importó. Arrancó la combinación de entre los colmillos de los escualos y siguió abriéndose paso entre aullidos.\n\nEn la segunda planta tuvo que despedazarle la carótida a una rinoceronta de vestido floreado que trataba de apoderarse de una cesta para pic—nic; en la tercera, se hizo a zarpazos con dos pares de zapatillas de deportes; en la cuarta fue corrida a cornadas por una panda de búfalas que se empeñaban en conseguir una cocinita portátil a butano; en la quinta estuvo a punto de morir picoteada por una nube de avispas venenosas, pero huyó en cuanto se dio cuenta de que no necesitaba un tresillo.\n\nCuando salió a la calle, tardó unos 20 minutos en recuperar su aspecto habitual.\n\nTorres, Maruja (8 de julio de 1986). Metamorfosis. El País.",
-        "title": "Metamorfosis",
-        "author": "Maruja Torres",
-        "source": "El País, 8 de julio de 1986"
-      }
+      "correct_answer": "C"
     },
     {
       "number": 81,

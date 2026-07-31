@@ -1,14 +1,14 @@
 {
   "id": "microsoft/phi-4",
-  "model": "phi-4-thinking-high",
-  "effort": "high",
-  "timestamp": "20260722171755",
+  "model": "phi-4-thinking-none",
+  "effort": "none",
+  "timestamp": "20260726093450",
   "area": 4,
   "area_name": "Humanidades y de las Artes",
   "total": {
     "questions": 120,
-    "correct": 95,
-    "percentage": 79.17
+    "correct": 97,
+    "percentage": 80.83
   },
   "subjects": {
     "Biología": {
@@ -18,8 +18,8 @@
     },
     "Español": {
       "questions": 18,
-      "correct": 16,
-      "percentage": 88.89
+      "correct": 15,
+      "percentage": 83.33
     },
     "Filosofía": {
       "questions": 10,
@@ -28,8 +28,8 @@
     },
     "Física": {
       "questions": 10,
-      "correct": 7,
-      "percentage": 70.0
+      "correct": 8,
+      "percentage": 80.0
     },
     "Geografía": {
       "questions": 10,
@@ -38,8 +38,8 @@
     },
     "Historia Universal": {
       "questions": 10,
-      "correct": 8,
-      "percentage": 80.0
+      "correct": 9,
+      "percentage": 90.0
     },
     "Historia de México": {
       "questions": 10,
@@ -58,23 +58,11 @@
     },
     "Química": {
       "questions": 10,
-      "correct": 8,
-      "percentage": 80.0
+      "correct": 9,
+      "percentage": 90.0
     }
   },
   "failed_questions": [
-    {
-      "number": 1,
-      "subject": "Física",
-      "question": "La tripulación del Apolo XI recorrió 3.8 × 10¹⁵ km en tres días. ¿Rapidez promedio?",
-      "options": {
-        "A": "A) 53 × 10¹³ km/día",
-        "B": "B) 53 × 10¹³ km/h",
-        "C": "C) 53 × 10¹¹ km/h",
-        "D": "D) 53 × 10¹³ km/min"
-      },
-      "correct_answer": "B"
-    },
     {
       "number": 3,
       "subject": "Física",
@@ -134,18 +122,6 @@
         "D": "D) elemento."
       },
       "correct_answer": "B"
-    },
-    {
-      "number": 28,
-      "subject": "Química",
-      "question": "Entre los contaminantes primarios del aire se encuentran los óxidos de",
-      "options": {
-        "A": "A) Ca y Pb",
-        "B": "B) Hg y N",
-        "C": "C) C y N",
-        "D": "D) N y Pb"
-      },
-      "correct_answer": "C"
     },
     {
       "number": 32,
@@ -282,6 +258,18 @@
       }
     },
     {
+      "number": 75,
+      "subject": "Español",
+      "question": "Completa: Quisieron colaborar con una obra magistral, ________ no guardaban los requisitos; ________, tuvieron que resignarse ________ la realización de una presentación más sencilla.",
+      "options": {
+        "A": "A) sin embargo — no obstante — a",
+        "B": "B) mas — por tanto — a",
+        "C": "C) más — en conclusión — con",
+        "D": "D) pero — en consecuencia — con"
+      },
+      "correct_answer": "D"
+    },
+    {
       "number": 92,
       "subject": "Historia Universal",
       "question": "Un factor que propició el origen de la Revolución Industrial en Inglaterra fue que",
@@ -292,18 +280,6 @@
         "D": "D) diseñó y construyó el ferrocarril."
       },
       "correct_answer": "A"
-    },
-    {
-      "number": 93,
-      "subject": "Historia Universal",
-      "question": "Como consecuencia de la Revolución Liberal de 1830, ________ y Víctor Manuel II lideraron una guerra contra ________.",
-      "options": {
-        "A": "A) Carlos Alberto — Prusia",
-        "B": "B) José Garibaldi — Austria",
-        "C": "C) Napoleón III — Inglaterra",
-        "D": "D) Carlos X — Francia"
-      },
-      "correct_answer": "B"
     },
     {
       "number": 102,
