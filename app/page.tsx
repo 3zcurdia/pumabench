@@ -2,6 +2,7 @@ import Link from "next/link";
 import AreaRankingsChart from "@/components/AreaRankingsChart";
 import EffortBadge from "@/components/EffortBadge";
 import OverviewChart from "@/components/OverviewChart";
+import ScoreHistogramChart from "@/components/ScoreHistogramChart";
 import ScoreVsParamsChart from "@/components/ScoreVsParamsChart";
 import ScoreVsPricingChart from "@/components/ScoreVsPricingChart";
 import SubjectRankingsChart from "@/components/SubjectRankingsChart";
@@ -96,7 +97,11 @@ export default function HomePage() {
       </div>
 
       <section className="card">
-        <OverviewChart data={chartData} title="Score promedio por modelo" />
+        <h2 className="card-title">Resultados por modelo</h2>
+        <TabPanel tabs={["Score promedio por modelo", "Histograma"]}>
+          <OverviewChart data={chartData} />
+          <ScoreHistogramChart data={chartData} />
+        </TabPanel>
       </section>
 
       <section className="card">
