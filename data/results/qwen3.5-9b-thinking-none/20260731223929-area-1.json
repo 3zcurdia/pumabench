@@ -2,13 +2,13 @@
   "id": "qwen/qwen3.5-9b",
   "model": "qwen3.5-9b-thinking-none",
   "effort": "none",
-  "timestamp": "20260727083552",
+  "timestamp": "20260731223929",
   "area": 1,
   "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
   "total": {
     "questions": 120,
-    "correct": 100,
-    "percentage": 83.33
+    "correct": 96,
+    "percentage": 80.0
   },
   "subjects": {
     "Biología": {
@@ -18,8 +18,8 @@
     },
     "Español": {
       "questions": 18,
-      "correct": 15,
-      "percentage": 83.33
+      "correct": 13,
+      "percentage": 72.22
     },
     "Filosofía": {
       "questions": 0,
@@ -38,8 +38,8 @@
     },
     "Historia Universal": {
       "questions": 10,
-      "correct": 10,
-      "percentage": 100.0
+      "correct": 9,
+      "percentage": 90.0
     },
     "Historia de México": {
       "questions": 10,
@@ -53,8 +53,8 @@
     },
     "Matemáticas": {
       "questions": 26,
-      "correct": 18,
-      "percentage": 69.23
+      "correct": 17,
+      "percentage": 65.38
     },
     "Química": {
       "questions": 10,
@@ -63,26 +63,6 @@
     }
   },
   "failed_questions": [
-    {
-      "number": 2,
-      "subject": "Física",
-      "question": "2. Con base en el siguiente sistema de vectores, indica la magnitud del vector resultante en N.",
-      "options": {
-        "A": "A) \\(\\sqrt{75.8}\\)",
-        "B": "B) \\(\\sqrt{23.8}\\)",
-        "C": "C) \\(\\sqrt{650}\\)",
-        "D": "D) \\(\\sqrt{101.1}\\)"
-      },
-      "correct_answer": "D",
-      "reference": {
-        "type": "text",
-        "path": "area-1-q2.webp",
-        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp2.webp",
-        "alt": "Figura asociada a la pregunta 2.",
-        "content": "En la figura se observa un sistema de coordenadas cartesianas con los ejes x e y. El eje y está orientado hacia arriba y el eje x hacia la derecha. Se presentan tres vectores de fuerza representados por flechas:\n\n1. Un vector de 10 N que se extiende verticalmente hacia arriba, alineado con el eje y.\n2. Un vector de 8 N que forma un ángulo de 30° con el eje x, apuntando hacia la derecha y hacia arriba.\n3. Un vector de 9 N que forma un ángulo de 75° con el eje x, también apuntando hacia la derecha y hacia arriba.\n\nAdemás, se incluye una tabla en la parte superior de la figura que muestra los valores del seno y coseno para los ángulos de 30°, 45° y 75°. La tabla tiene tres columnas: \"Ángulo\", \"Seno\" y \"Coseno\". Los valores son los siguientes:\n\n- Para 30°: Seno = 0.5, Coseno = 0.8\n- Para 45°: Seno = 0.7, Coseno = 0.7\n- Para 75°: Seno = 0.9, Coseno = 0.3\n\nLos vectores están etiquetados con sus respectivas magnitudes en Newtons (N) y los ángulos están indicados en grados.",
-        "derived_from": "area-1-q2.webp"
-      }
-    },
     {
       "number": 3,
       "subject": "Física",
@@ -121,6 +101,26 @@
         "alt": "Figura asociada a la pregunta 3.",
         "content": "La figura presenta un diseño que consiste en un círculo en la parte superior izquierda, que representa un objeto esférico. Este círculo está conectado a una forma alargada que se asemeja a un cono invertido o un embudo, que se extiende hacia abajo y hacia la derecha. La parte superior de esta forma alargada es más ancha y se estrecha a medida que desciende, terminando en una base que es un óvalo horizontal en la parte inferior. La figura está delineada con un trazo negro y no contiene relleno ni detalles adicionales. La conexión entre el círculo y la forma alargada es continua, sugiriendo que ambos elementos están relacionados de alguna manera.",
         "derived_from": "area-1-q3.webp"
+      }
+    },
+    {
+      "number": 11,
+      "subject": "Física",
+      "question": "11. De acuerdo a la imagen, la corriente que circula por el resistor de resistencia \\(\\frac{R}{2}\\) es",
+      "options": {
+        "A": "A) \\(\\frac{V}{2R}\\)",
+        "B": "B) \\(\\frac{2V}{R}\\)",
+        "C": "C) \\(\\frac{V}{3R}\\)",
+        "D": "D) \\(\\frac{3V}{R}\\)"
+      },
+      "correct_answer": "B",
+      "reference": {
+        "type": "text",
+        "path": "area-1-q11.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp11.webp",
+        "alt": "Figura asociada a la pregunta 11.",
+        "content": "En la figura se presenta un circuito eléctrico simple. A la izquierda, hay una fuente de voltaje representada por un símbolo de batería, donde el terminal positivo está indicado con un signo más (+) y el terminal negativo no tiene símbolo. La fuente de voltaje está conectada a un resistor que se encuentra a la derecha. Este resistor está etiquetado como \\( R/2 \\), lo que indica que su resistencia es la mitad de un valor \\( R \\) que no se especifica en la figura. Las conexiones entre la fuente de voltaje y el resistor son líneas rectas que representan los conductores del circuito. No hay otros componentes en el circuito, y la disposición es lineal, con la fuente de voltaje a la izquierda y el resistor a la derecha.",
+        "derived_from": "area-1-q11.webp"
       }
     },
     {
@@ -196,18 +196,6 @@
       "correct_answer": "C"
     },
     {
-      "number": 56,
-      "subject": "Matemáticas",
-      "question": "56. A cuánto equivale 45° en radianes",
-      "options": {
-        "A": "A) \\(\\frac{1}{4} \\pi\\)",
-        "B": "B) \\(\\frac{2}{3} \\pi\\)",
-        "C": "C) \\(\\frac{3}{4} \\pi\\)",
-        "D": "D) \\(\\frac{4}{3} \\pi\\)"
-      },
-      "correct_answer": "A"
-    },
-    {
       "number": 59,
       "subject": "Matemáticas",
       "question": "59. Encuentra las coordenadas del punto medio entre los puntos P (0, 2) y Q (4, 6).",
@@ -220,6 +208,26 @@
       "correct_answer": "B"
     },
     {
+      "number": 60,
+      "subject": "Matemáticas",
+      "question": "60. Determina los puntos por donde pasa una recta perpendicular a la gráfica siguiente.",
+      "options": {
+        "A": "A) (0, 0) y (-2, -3)",
+        "B": "B) (0, 0) y (-2, 1)",
+        "C": "C) (0, 0) y (1, -3)",
+        "D": "D) (0, 0) y (1, 3)"
+      },
+      "correct_answer": "B",
+      "reference": {
+        "type": "text",
+        "path": "area-1-q60.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025area1p60.webp",
+        "alt": "Figura asociada a la pregunta 60.",
+        "content": "En la figura se presenta un sistema de coordenadas cartesianas con ejes x e y. El eje y se extiende verticalmente desde -10 hasta 10, mientras que el eje x se extiende horizontalmente desde -8 hasta 8. Se marcan dos puntos en el plano: el punto P en la posición (4, 9) y otro punto P en la posición (-4, -7). \n\nEl punto (4, 9) se encuentra en el primer cuadrante, a la derecha del origen, a 4 unidades en el eje x y a 9 unidades en el eje y. El punto (-4, -7) se localiza en el tercer cuadrante, a la izquierda del origen, a 4 unidades en el eje x negativo y a 7 unidades en el eje y negativo. Ambos puntos están representados por círculos sólidos y están etiquetados con sus respectivas coordenadas. La línea que conecta ambos puntos es diagonal, ascendiendo desde el punto (-4, -7) hasta el punto (4, 9).",
+        "derived_from": "area-1-q60.webp"
+      }
+    },
+    {
       "number": 61,
       "subject": "Matemáticas",
       "question": "61. Un triángulo está conformado por los vértices P (−7, 1), Q (9, 3) y R (3, 5) ¿Cuál es la ecuación de la mediana que pasa por el vértice P?",
@@ -230,6 +238,18 @@
         "D": "D) 2x - 5y + 19 = 0"
       },
       "correct_answer": "B"
+    },
+    {
+      "number": 63,
+      "subject": "Matemáticas",
+      "question": "63. Determina la ecuación de la parábola con directriz x + 3 = 0, vértice en el origen y eje focal que coincide con el eje x.",
+      "options": {
+        "A": "A) x^(2) - 12y = 0",
+        "B": "B) x^(2) + 12y = 0",
+        "C": "C) y^(2) + 12y = 0",
+        "D": "D) y^(2) - 12x = 0"
+      },
+      "correct_answer": "D"
     },
     {
       "number": 64,
@@ -261,6 +281,25 @@
         "alt": "Figura asociada a la pregunta 69.",
         "content": "El gráfico presenta un sistema de coordenadas cartesianas con el eje vertical etiquetado como \"y\" y el eje horizontal como \"x\". El eje \"y\" se extiende hacia arriba desde el origen (0,0) y el eje \"x\" se extiende hacia la derecha. La curva representada es una función continua que oscila, comenzando en el punto (0,0) y subiendo hasta alcanzar un máximo local antes de descender. \n\nEn el eje \"x\", se observan líneas punteadas verticales en las posiciones x = 2 y x = 4. La curva cruza el eje \"x\" en dos puntos: uno entre x = 0 y x = 2, y otro entre x = 4 y x = 6. La parte de la curva entre x = 0 y x = 2 es ascendente, alcanzando un máximo en algún punto antes de descender hacia x = 2. Desde x = 2, la curva desciende hasta un mínimo local antes de volver a ascender hacia x = 4, donde nuevamente alcanza un máximo. Posteriormente, la curva desciende hacia x = 6, pero no llega a cruzar el eje \"x\" en este tramo. \n\nEl gráfico no presenta etiquetas numéricas en el eje \"y\", pero se puede inferir que la función tiene valores positivos y negativos en diferentes intervalos. La forma de la curva sugiere que es una función polinómica de grado al menos 3, dado que presenta al menos dos máximos y un mínimo.",
         "derived_from": "area-1-q69.webp"
+      }
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "77. ¿Cuál es el nudo del texto?",
+      "options": {
+        "A": "A) Más decidida que nunca, atravesó la puerta de los grandes almacenes.",
+        "B": "B) Ese día, sin embargo, una fría determinación le roía las entrañas mientras avanzaba.",
+        "C": "C) Pero huyó en cuanto se dio cuenta de que no necesitaba un tresillo.",
+        "D": "D) Cuando salió a la calle, tardó unos 20 minutos en recuperar su aspecto habitual."
+      },
+      "correct_answer": "B",
+      "reference": {
+        "type": "text",
+        "content": "—La mujer salió de su casa, y era una buena mujer. Lo había sido durante toda su vida. Ese día, sin embargo, una fría determinación le roía las entrañas mientras avanzaba, el bolso bien sujeto, camino del lugar donde iban a producirse los hechos.\n\nPor momentos sentía que le temblaban las piernas, pero si su cuerpo flaqueaba, su mente no se permitía vacilar. Pensó en sus hijos. Pensó en su marido, honrado y trabajador, feliz con su fútbol, su tele y su chándal para ir al campo los fines de semana. Pensó en el equipo necesario para las vacaciones, tan inminentes ya.\n\nMás decidida que nunca, atravesó la puerta de los grandes almacenes. El aire procedente del acondicionador le heló la nuca y serpenteó por un momento entre sus muslos, y ésa fue la última sensación humana que iba a experimentar en varias horas.\n\n—¡Reebaaaajaaas! —rugió.\n\nBraceó hacia la horda que bramaba en el interior. Ya no pensaba en su familia. Como el cazador, sólo alimentaba un deseo: conseguir la mejor presa; como el sabueso, únicamente aspiraba a hincar el diente en la carne más tierna. Alargó ambas manos hacia una combinación de seda sintética rebajada, puesta a mitad de precio —previamente se había colgado el bolso en bandolera—, y una manada de tiburones abrió amenazadoramente las fauces frente a ella. La mujer se aferró con todas sus fuerzas a la prenda. Vio que las manos se le habían vuelto peludas, sarmentosas y con las uñas muy largas curvadas hacia dentro, pero no le importó. Arrancó la combinación de entre los colmillos de los escualos y siguió abriéndose paso entre aullidos.\n\nEn la segunda planta tuvo que despedazarle la carótida a una rinoceronta de vestido floreado que trataba de apoderarse de una cesta para pic—nic; en la tercera, se hizo a zarpazos con dos pares de zapatillas de deportes; en la cuarta fue corrida a cornadas por una panda de búfalas que se empeñaban en conseguir una cocinita portátil a butano; en la quinta estuvo a punto de morir picoteada por una nube de avispas venenosas, pero huyó en cuanto se dio cuenta de que no necesitaba un tresillo.\n\nCuando salió a la calle, tardó unos 20 minutos en recuperar su aspecto habitual.\n\nTorres, Maruja (8 de julio de 1986). Metamorfosis. El País.",
+        "title": "Metamorfosis",
+        "author": "Maruja Torres",
+        "source": "El País, 8 de julio de 1986"
       }
     },
     {
@@ -300,6 +339,18 @@
       "correct_answer": "C"
     },
     {
+      "number": 88,
+      "subject": "Español",
+      "question": "88. Sinónimo de AVATAR",
+      "options": {
+        "A": "A) Destino.",
+        "B": "B) Cambio.",
+        "C": "C) Conflicto.",
+        "D": "D) Aflicción."
+      },
+      "correct_answer": "B"
+    },
+    {
       "number": 92,
       "subject": "Biología",
       "question": "92. La existencia de enzimas del ciclo de Krebs, idénticas en todos los organismos de respiración aerobia, es una prueba del postulado ________ de la teoría celular.",
@@ -322,6 +373,18 @@
         "D": "D) Quimiosíntetica."
       },
       "correct_answer": "D"
+    },
+    {
+      "number": 109,
+      "subject": "Historia Universal",
+      "question": "109. ¿Qué país africano logró su independencia en 1951, después de haber estado bajo el yugo italiano, francés y británico?",
+      "options": {
+        "A": "A) Libia.",
+        "B": "B) Etiopía.",
+        "C": "C) Sudáfrica.",
+        "D": "D) Marruecos."
+      },
+      "correct_answer": "A"
     },
     {
       "number": 112,

@@ -23,7 +23,7 @@ number,answer
 22,B
 23,D
 24,D
-25,B
+25,C
 26,C
 27,D
 28,C
@@ -32,12 +32,12 @@ number,answer
 31,C
 32,C
 33,D
-34,D
+34,C
 35,A
 36,D
 37,A
 38,C
-39,B
+39,D
 40,D
 41,C
 42,B
@@ -71,7 +71,7 @@ number,answer
 70,B
 71,C
 72,B
-73,B
+73,A
 74,B
 75,D
 76,D
@@ -91,7 +91,7 @@ number,answer
 90,A
 91,A
 92,C
-93,B
+93,D
 94,A
 95,A
 96,B
@@ -107,7 +107,7 @@ number,answer
 106,B
 107,C
 108,D
-109,C
+109,A
 110,B
 111,A
 112,B
