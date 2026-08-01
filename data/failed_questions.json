@@ -79,6 +79,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
@@ -103,6 +104,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none"
     ]
   },
@@ -129,6 +131,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -148,7 +151,8 @@
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
-      "apple-foundation-system"
+      "apple-foundation-system",
+      "gemma-4-e2b-thinking-none"
     ]
   },
   {
@@ -174,6 +178,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "phi-4-thinking-none"
@@ -202,6 +207,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "phi-4-thinking-none",
       "qwen3.5-0.8b-thinking-high",
@@ -271,6 +277,8 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
       "laguna-xs-2.1-thinking-medium",
       "ling-2.6-flash-thinking-medium",
       "qwen3.5-0.8b-thinking-high",
@@ -295,6 +303,7 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "nanbeige4.1-3b-thinking-low",
@@ -319,6 +328,7 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
@@ -346,6 +356,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -461,6 +472,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -510,6 +522,7 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e2b-thinking-medium",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none"
     ]
   },
@@ -574,6 +587,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -601,6 +615,7 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e2b-thinking-medium",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
@@ -711,6 +726,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -795,6 +811,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low"
     ]
@@ -814,6 +831,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
@@ -978,6 +996,8 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
@@ -1009,6 +1029,8 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
@@ -1038,6 +1060,8 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
@@ -1070,6 +1094,7 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-low",
@@ -1148,6 +1173,7 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
@@ -1421,6 +1447,7 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
@@ -1539,6 +1566,7 @@
       "gemini-3.5-flash-lite-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
@@ -1632,6 +1660,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
@@ -1840,6 +1869,8 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "gemini-3.5-flash-lite-thinking-low",
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "laguna-xs-2.1-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
@@ -1895,6 +1926,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
@@ -1924,6 +1956,7 @@
       "apple-foundation-system",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
       "gpt-oss-20b-thinking-low",
       "laguna-xs-2.1-thinking-medium",
       "ling-2.6-flash-thinking-medium",
@@ -1950,6 +1983,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
@@ -2027,6 +2061,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
@@ -2056,6 +2091,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
@@ -2079,6 +2115,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
       "llama-3-8b-instruct-32k-v0.1-thinking-medium",
@@ -2107,6 +2144,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-9b-thinking-none"
@@ -2140,6 +2178,7 @@
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
@@ -2236,6 +2275,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
@@ -2286,6 +2326,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
@@ -2415,6 +2456,7 @@
       "bonsai-27b-thinking-low",
       "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-120b-thinking-medium",
@@ -2451,6 +2493,8 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gpt-oss-20b-thinking-low",
@@ -2603,7 +2647,9 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
       "ling-2.6-flash-thinking-medium",
@@ -2640,6 +2686,7 @@
     "models": [
       "apple-foundation-system",
       "gemini-3.5-flash-lite-thinking-medium",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "ling-2.6-flash-thinking-medium",
@@ -2692,6 +2739,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
@@ -2716,6 +2764,7 @@
     "models": [
       "apple-foundation-system",
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
@@ -2742,6 +2791,7 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "gemini-2.5-flash-lite-thinking-medium",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-medium",
@@ -2783,6 +2833,7 @@
       "gemini-3.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
@@ -2824,6 +2875,8 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
       "laguna-s-2.1-thinking-medium",
@@ -2922,6 +2975,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
@@ -2963,6 +3017,8 @@
       "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
@@ -3107,6 +3163,7 @@
       "apple-foundation-system",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
@@ -3136,6 +3193,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
@@ -3223,6 +3281,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -3242,6 +3301,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
@@ -3267,6 +3327,7 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
@@ -3384,6 +3445,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
@@ -3487,6 +3549,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -3798,6 +3861,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
@@ -4020,6 +4084,7 @@
       "apple-foundation-system",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
@@ -4185,6 +4250,8 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
@@ -4247,6 +4314,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -4431,6 +4499,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "ling-2.6-flash-thinking-medium",
@@ -4479,6 +4548,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -4502,6 +4572,7 @@
       "apple-foundation-system",
       "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
@@ -4551,6 +4622,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
@@ -4607,6 +4679,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -4748,6 +4821,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "gemma-4-e2b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -4806,6 +4880,7 @@
       "apple-foundation-system",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-medium",
@@ -4895,6 +4970,7 @@
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
       "gpt-oss-120b-thinking-medium",
@@ -5057,6 +5133,7 @@
       "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
       "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-low",
       "gpt-oss-20b-thinking-medium",
@@ -5144,6 +5221,7 @@
       "gemini-3.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
@@ -5247,7 +5325,9 @@
       "gemini-3.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
       "gpt-oss-20b-thinking-low",
@@ -5282,6 +5362,7 @@
       "gemini-3.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "gpt-5.6-terra-thinking-medium",
@@ -5326,6 +5407,8 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
@@ -5430,6 +5513,7 @@
       "bonsai-27b-thinking-low",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
@@ -5625,6 +5709,7 @@
     "models": [
       "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
@@ -5689,6 +5774,7 @@
       "bonsai-27b-thinking-low",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
@@ -5741,6 +5827,8 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
       "ling-2.6-flash-thinking-medium",
@@ -5816,6 +5904,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "bonsai-27b-thinking-low",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
       "llama-3-8b-instruct-32k-v0.1-thinking-low",
@@ -5893,6 +5982,8 @@
       "gemini-3.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
@@ -5975,6 +6066,7 @@
     "models": [
       "bonsai-27b-thinking-low",
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-low",
       "nanbeige4.1-3b-thinking-low",
@@ -6206,6 +6298,7 @@
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-20b-thinking-medium",
@@ -6235,6 +6328,7 @@
     "models": [
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.6-flash-thinking-medium",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
@@ -6270,6 +6364,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemini-3.5-flash-lite-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
@@ -6290,6 +6385,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemini-3.5-flash-lite-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "llama-3-8b-instruct-32k-v0.1-thinking-high",
@@ -6360,6 +6456,7 @@
     "models": [
       "gemini-3.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
+      "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "ling-2.6-flash-thinking-medium",
@@ -6392,6 +6489,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemini-3.5-flash-lite-thinking-medium",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
@@ -6425,6 +6523,7 @@
       "gemini-3.5-flash-lite-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
@@ -6488,6 +6587,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
@@ -6583,6 +6683,7 @@
     "models": [
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e4b-thinking-low",
       "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -6602,6 +6703,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-none",
       "ling-2.6-flash-thinking-medium",
       "minimax-m3-thinking-medium",
@@ -6665,6 +6767,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
@@ -6688,6 +6791,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -6707,6 +6811,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -6726,6 +6831,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
@@ -6747,6 +6853,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
       "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -6790,6 +6897,115 @@
       "gemma-4-e4b-thinking-none",
       "grok-4.5-thinking-medium",
       "nanbeige4.1-3b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 105,
+    "subject": "Historia Universal",
+    "question": "105. Una consecuencia de la Primera Guerra Mundial fue la",
+    "options": {
+      "A": "A) creación de la Organización de las Naciones Unidas.",
+      "B": "B) formación de dos bloques: capitalista y socialista.",
+      "C": "C) desintegración del Imperio austrohúngaro.",
+      "D": "D) desintegración del bloque soviético."
+    },
+    "correct_answer": "C",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low"
+    ]
+  },
+  {
+    "number": 116,
+    "subject": "Historia de México",
+    "question": "116. La promulgación de la Constitución de 1917, el asesinato de Emiliano Zapata y la fundación de la Confederación Regional Obrera Mexicana fueron sucesos ocurridos durante el gobierno de",
+    "options": {
+      "A": "A) Venustiano Carranza.",
+      "B": "B) Álvaro Obregón.",
+      "C": "C) Plutarco Elías Calles.",
+      "D": "D) Adolfo de la Huerta."
+    },
+    "correct_answer": "A",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 44,
+    "subject": "Geografía",
+    "question": "Una causa de la formación de nuevos países en Europa es la",
+    "options": {
+      "A": "A) caída de La Unión Soviética.",
+      "B": "B) dependencia económica.",
+      "C": "C) regionalización económica.",
+      "D": "D) expansión de la Unión Soviética."
+    },
+    "correct_answer": "A",
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "gemma-4-e2b-thinking-low",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low"
+    ]
+  },
+  {
+    "number": 21,
+    "subject": "Química",
+    "question": "La estructura interna de la materia se encuentra constituida por",
+    "options": {
+      "A": "A) mezclas, elementos y compuestos.",
+      "B": "B) iones, moléculas y átomos.",
+      "C": "C) mezclas, átomos y compuestos.",
+      "D": "D) átomos, moléculas y coloides."
+    },
+    "correct_answer": "B",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "laguna-xs-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low"
+    ]
+  },
+  {
+    "number": 4,
+    "subject": "Física",
+    "question": "Una caja de 50 kg está en un elevador que cae. ¿Fuerza que el piso ejerce sobre la caja? (g=10 m/s²)",
+    "options": {
+      "A": "A) 5,000 N",
+      "B": "B) 50 N",
+      "C": "C) 5 N",
+      "D": "D) 0 N"
+    },
+    "correct_answer": "D",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -7101,6 +7317,414 @@
     ]
   },
   {
+    "number": 5,
+    "subject": "Física",
+    "question": "5. Un sistema está en equilibrio térmico cuando",
+    "options": {
+      "A": "A) en un proceso su temperatura no varía.",
+      "B": "B) su temperatura es igual a la de otro sistema con el que está en contacto térmico.",
+      "C": "C) se calienta por medio de trabajo.",
+      "D": "D) su presión y su masa permanecen constantes."
+    },
+    "correct_answer": "B",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none"
+    ]
+  },
+  {
+    "number": 20,
+    "subject": "Literatura",
+    "question": "20. Identifica el recurso poético presente en la siguiente expresión. La lluvia, como finísimas flechas afiladas, caía chorreando la vidriera.",
+    "options": {
+      "A": "A) Ironía.",
+      "B": "B) Símil.",
+      "C": "C) Metonimia.",
+      "D": "D) Metáfora."
+    },
+    "correct_answer": "B",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none"
+    ]
+  },
+  {
+    "number": 33,
+    "subject": "Química",
+    "question": "33. En una disolución acuosa se determinó que [H^(+)] < [OH^( -)], por lo tanto, el valor de pH será",
+    "options": {
+      "A": "A) 11",
+      "B": "B) 5",
+      "C": "C) 7",
+      "D": "D) 2"
+    },
+    "correct_answer": "A",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "phi-4-thinking-none",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 43,
+    "subject": "Geografía",
+    "question": "43. Son países que funcionan como puntos de acceso para que los migrantes que provienen del norte de África logren integrarse al territorio europeo.",
+    "options": {
+      "A": "A) España, Malta, Italia y Grecia.",
+      "B": "B) España, Francia, Alemania e Italia.",
+      "C": "C) Malta, Francia, Grecia y Portugal.",
+      "D": "D) Reino Unido, Croacia, Francia y Alemania."
+    },
+    "correct_answer": "A",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 47,
+    "subject": "Matemáticas",
+    "question": "47. Una persona pesa 96 kg. Al ingresar a una clínica reductora de peso, comienza a bajar \\(\\frac{1}{32}\\) ​ del peso inicial cada semana. ¿Cuántos kg pesará al término de cada una de las primeras cuatro semanas del tratamiento?",
+    "options": {
+      "A": "A) Semana 1: 93 Semana 2: 90 Semana 3: 87 Semana 4: 84",
+      "B": "B) Semana 1: 96 Semana 2: 92 Semana 3: 88 Semana 4: 84",
+      "C": "C) Semana 1: 96 Semana 2: 90 Semana 3: 84 Semana 4: 78",
+      "D": "D) Semana 1: 93 Semana 2: 92 Semana 3: 91 Semana 4: 90"
+    },
+    "correct_answer": "A",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "phi-4-thinking-none",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 49,
+    "subject": "Matemáticas",
+    "question": "49. Al desarrollar (x^(2) - 3y)^(3) se obtiene",
+    "options": {
+      "A": "A) x^(6) - 9x^(4)y + 27x^(2)y^(2) + 27y^(3)",
+      "B": "B) x^(6) + 9x^(4)y - 27x^(2)y^(2) + 27y^(3)",
+      "C": "C) x^(6) - 9x^(4)y + 27x^(2)y^(2) - 27y^(3)",
+      "D": "D) x^(6) + 9x^(4)y - 27x^(2)y^(2) - 27y^(3)"
+    },
+    "correct_answer": "C",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 50,
+    "subject": "Matemáticas",
+    "question": "50. Simplifica la siguiente fracción. \\(\\frac{-x^2 - 3x + 40}{x + 8}\\)",
+    "options": {
+      "A": "A) x - 5",
+      "B": "B) -x + 5",
+      "C": "C) -x + 8",
+      "D": "D) x - 8"
+    },
+    "correct_answer": "B",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none"
+    ]
+  },
+  {
+    "number": 58,
+    "subject": "Matemáticas",
+    "question": "58. ¿Cuál es el dominio de la siguiente función? f(x) = log(x - 1)",
+    "options": {
+      "A": "A) \\(x \\leq 1\\)",
+      "B": "B) x < 1",
+      "C": "C) x > 1",
+      "D": "D) \\(x \\geq 1\\)"
+    },
+    "correct_answer": "C",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-super-120b-a12b-thinking-low"
+    ]
+  },
+  {
+    "number": 67,
+    "subject": "Matemáticas",
+    "question": "67. El límite de la función f(x) = 4 cuando x tiende a -2, es igual a",
+    "options": {
+      "A": "A) -2",
+      "B": "B) -4",
+      "C": "C) 2",
+      "D": "D) 4"
+    },
+    "correct_answer": "D",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-super-120b-a12b-thinking-low"
+    ]
+  },
+  {
+    "number": 68,
+    "subject": "Matemáticas",
+    "question": "68. ¿Cuál de las siguientes expresiones corresponde para obtener la derivada \\(f(x)=x^3\\) en el punto \\(x=3\\)?",
+    "options": {
+      "A": "A) \\[ f'(3)=\\lim_{h\\to 0}\\frac{f(3+h)-f(3)}{h} =\\lim_{h\\to 0}\\frac{(3+h)^3-3^3}{h} \\] \\[ f'(3)=\\lim_{h\\to 0} \\frac{3^3+3\\cdot3^2h+3\\cdot3h^2+h^3-3^3}{h} \\]",
+      "B": "B) \\[ f'(3)=\\lim_{h\\to 0}\\frac{f(3)-f(3+h)}{h} =\\lim_{h\\to 0}\\frac{3^3-(3+h)^3}{h} \\] \\[ f'(3)=\\lim_{h\\to 0} \\frac{3^3-3^3-3\\cdot3^2h-3\\cdot3h^2-h^3}{h} \\]",
+      "C": "C) \\[ f'(3)=\\lim_{h\\to 0}\\frac{f(3+h)+f(3)}{h} =\\lim_{h\\to 0}\\frac{(3+h)^3+3^3}{h} \\] \\[ f'(3)=\\lim_{h\\to 0} \\frac{3^3+3\\cdot3^2h+3\\cdot3h^2+h^3+3^3}{h} \\]",
+      "D": "D) \\[ f'(3)=\\lim_{h\\to 0}\\frac{f(3)-f(3-h)}{h} =\\lim_{h\\to 0}\\frac{3^3-(3-h)^3}{h} \\] \\[ f'(3)=\\lim_{h\\to 0} \\frac{3^3-3^3+3\\cdot3^2h-3\\cdot3h^2+h^3}{h} \\]"
+    },
+    "correct_answer": "A",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 96,
+    "subject": "Biología",
+    "question": "96. Etapa de la meiosis en la cual las cromátidas hermanas se separan de forma aleatoria hacia los polos del huso meiótico.",
+    "options": {
+      "A": "A) Anafase II.",
+      "B": "B) Metafase I.",
+      "C": "C) Telofase II.",
+      "D": "D) Anafase I."
+    },
+    "correct_answer": "A",
+    "area": 1,
+    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 8,
+    "subject": "Física",
+    "question": "En uno de los lados de una esquina, dos personas tienen una conversación, una tercera la escucha a la vuelta de la misma. ¿Cómo se llama este fenómeno ondulatorio?",
+    "options": {
+      "A": "A) Interferencia",
+      "B": "B) Difracción",
+      "C": "C) Polarización",
+      "D": "D) Refracción"
+    },
+    "correct_answer": "B",
+    "reference": {
+      "type": "text",
+      "path": "area-2-q8.webp",
+      "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp8.webp",
+      "alt": "Figura asociada a la pregunta 8.",
+      "content": "En la figura se observa un plano vertical representado en color gris, que parece ser una pared. Frente a esta pared, hay un personaje de pie a la izquierda, que está mirando hacia la pared. Desde el personaje, se extienden líneas onduladas que representan ondas, las cuales se propagan en círculos concéntricos alrededor de él. Estas ondas se acercan a la pared y se reflejan en ella.\n\nA la derecha de la pared, hay dos personajes que parecen estar interactuando entre sí, uno de ellos está levantando un brazo hacia el otro. Las ondas que se reflejan en la pared parecen estar afectando la interacción entre estos dos personajes, sugiriendo que la presencia de la pared y las ondas son relevantes para la situación que se está representando. Las líneas que representan las ondas son continuas y se extienden hacia el fondo, indicando la propagación de las mismas. Además, hay flechas que indican la dirección de las ondas, apuntando hacia la pared y hacia los personajes a la derecha.",
+      "derived_from": "area-2-q8.webp"
+    },
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "gpt-oss-20b-thinking-low",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 47,
+    "subject": "Matemáticas",
+    "question": "Factoriza: n⁶ - 3n³ - 18",
+    "options": {
+      "A": "A) (n³ + 3)(n³ - 6)",
+      "B": "B) (n³ - 3)(n³ + 6)",
+      "C": "C) (n³ - 3)(n³ - 6)",
+      "D": "D) (n³ + 3)(n³ + 6)"
+    },
+    "correct_answer": "A",
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "phi-4-thinking-none",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 78,
+    "subject": "Español",
+    "question": "Con el texto, el autor intenta",
+    "options": {
+      "A": "A) denunciar los efectos nocivos del papel periódico.",
+      "B": "B) narrar la despersonalización de un individuo obsesionado con las noticias.",
+      "C": "C) describir los síntomas de la intoxicación por tinta.",
+      "D": "D) mostrar el malestar de un individuo al leer el periódico."
+    },
+    "correct_answer": "B",
+    "reference": {
+      "type": "text",
+      "content": "Tiempo libre\n\nTodas las mañanas compro el periódico y todas las mañanas, al leerlo, me mancho los dedos con tinta. Nunca me ha importado ensuciármelos con tal de estar al día en las noticias. Pero esta mañana sentí un gran malestar apenas toqué el periódico.\n\nCreí que solamente se trataba de uno de mis acostumbrados mareos. Pagué el importe del diario y regresé a mi casa. Mi esposa había salido de compras. Me acomodé en mi sillón favorito, encendí un cigarro y me puse a leer la primera página. Luego de enterarme de que el jet se había desplomado, volví a sentirme mal; vi mis dedos y las manos con toda la calma y, ya tranquilo, regresé al sillón. Cuando iba a tomar mi cigarro, descubrí que una mancha negra cubría mis dedos.\n\nDe inmediato retorné al baño, me tallé con zacate, piedra pómez y, finalmente, me lavé con blanqueador; pero el intento fue inútil, porque la mancha creció y me invadió hasta los codos. Ahora, más preocupado que molesto, llamé al doctor y me recomendó que lo mejor era que tomara unas vacaciones, o que durmiera. Después, llamé a las oficinas del periódico para elevar mi más rotunda protesta; me contestó una voz de mujer, que solamente me insultó y me trató de loco. En el momento en que hablaba por teléfono, me di cuenta de que, en realidad, no se trataba de una mancha, sino de un número infinito de letras pequeñísimas, apeñuscadas, como una inquieta multitud de hormigas negras. Cuando colgué, las letritas habían avanzado ya hasta mi cintura.\n\nAsustado, corrí hacia la puerta de entrada; pero, antes de poder abrirla. Me flaquearon las piernas y caí estrepitosamente. Tirado bocarriba descubrí que, además de la gran cantidad de letras hormiga que ahora ocupaban todo mi cuerpo, había una que otra fotografía. Así estuve durante varias horas hasta que escuché que abrían la puerta. Me costó trabajo hilar la idea, pero al fin pensé que había llegado a mi salvación. Entró mi esposa, me levantó del suelo, me cargó bajo el brazo, se acomodó en mi sillón favorito, me hojeó despreocupadamente y se puso a leer.\n\nGuillermo Samperio.",
+      "title": "Tiempo libre",
+      "author": "Guillermo Samperio",
+      "source": null
+    },
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low"
+    ]
+  },
+  {
+    "number": 93,
+    "subject": "Biología",
+    "question": "Tipos de gametos producidos por un progenitor con genotipo Aa Bb.",
+    "options": {
+      "A": "A) AA – BB – aa – bb",
+      "B": "B) AB – Ab – aB – ab",
+      "C": "C) AA – Aa – BB – Bb",
+      "D": "D) Aa – Bb – aa – bb"
+    },
+    "correct_answer": "B",
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 104,
+    "subject": "Historia Universal",
+    "question": "El automóvil, el aeroplano, el teléfono y la comida enlatada fueron inventos de la",
+    "options": {
+      "A": "A) Primera Revolución Industrial.",
+      "B": "B) Segunda Revolución Industrial.",
+      "C": "C) Primera Guerra Mundial.",
+      "D": "D) Segunda Guerra Mundial."
+    },
+    "correct_answer": "B",
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low"
+    ]
+  },
+  {
+    "number": 115,
+    "subject": "Historia de México",
+    "question": "El Partido Liberal Mexicano fue encabezado por",
+    "options": {
+      "A": "A) Ricardo Flores Magón.",
+      "B": "B) Gustavo Madero.",
+      "C": "C) Emiliano Zapata.",
+      "D": "D) Pascual Orozco Vázquez."
+    },
+    "correct_answer": "A",
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-medium",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 120,
+    "subject": "Historia de México",
+    "question": "La implementación de políticas neoliberales en México inició con el gobierno de",
+    "options": {
+      "A": "A) Luis Echeverría.",
+      "B": "B) José López Portillo.",
+      "C": "C) Miguel de la Madrid.",
+      "D": "D) Ernesto Zedillo."
+    },
+    "correct_answer": "C",
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
     "number": 7,
     "subject": "Física",
     "question": "Las olas de mayor tamaño en la playa se deben a que las olas se",
@@ -7114,6 +7738,7 @@
     "area": 3,
     "area_name": "Ciencias Sociales",
     "models": [
+      "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-low",
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
@@ -7122,6 +7747,237 @@
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.6-35b-a3b-thinking-medium"
+    ]
+  },
+  {
+    "number": 11,
+    "subject": "Literatura",
+    "question": "Los textos periodísticos que informan son, además de la noticia,",
+    "options": {
+      "A": "A) el artículo y la crónica.",
+      "B": "B) la caricatura y la entrevista.",
+      "C": "C) el reportaje y la entrevista.",
+      "D": "D) la crónica y la editorial."
+    },
+    "correct_answer": "C",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-medium",
+      "gemma-4-e4b-thinking-none",
+      "gpt-oss-20b-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low"
+    ]
+  },
+  {
+    "number": 28,
+    "subject": "Química",
+    "question": "Cuando un átomo pierde electrones se ________ su número de oxidación.",
+    "options": {
+      "A": "A) oxida y disminuye",
+      "B": "B) reduce y disminuye",
+      "C": "C) oxida y aumenta",
+      "D": "D) reduce y aumenta"
+    },
+    "correct_answer": "C",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low"
+    ]
+  },
+  {
+    "number": 55,
+    "subject": "Matemáticas",
+    "question": "¿Qué número pertenece al dominio de f(x) = log(x)?",
+    "options": {
+      "A": "A) 0",
+      "B": "B) –log2",
+      "C": "C) –2⁻¹",
+      "D": "D) 2"
+    },
+    "correct_answer": "D",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 59,
+    "subject": "Matemáticas",
+    "question": "¿Cuál ecuación corresponde a circunferencia de radio √2 y centro C (0, 0)?",
+    "options": {
+      "A": "A) x² - y² = 2√2",
+      "B": "B) x² + y² = √2",
+      "C": "C) x² + y² = 4",
+      "D": "D) x² + y² = 2"
+    },
+    "correct_answer": "D",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 86,
+    "subject": "Biología",
+    "question": "Función biológica que permite la transformación de materia inorgánica en orgánica:",
+    "options": {
+      "A": "A) Fotólisis.",
+      "B": "B) Fotosíntesis.",
+      "C": "C) Digestión.",
+      "D": "D) Absorción."
+    },
+    "correct_answer": "B",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-ultra-550b-a55b-thinking-low"
+    ]
+  },
+  {
+    "number": 24,
+    "subject": "Química",
+    "question": "¿Cuál óxido al reaccionar con agua da un producto con características ácidas?",
+    "options": {
+      "A": "A) Na2O.",
+      "B": "B) MgO.",
+      "C": "C) FeO.",
+      "D": "D) CO2."
+    },
+    "correct_answer": "D",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 57,
+    "subject": "Matemáticas",
+    "question": "¿Cuál es la ecuación de circunferencia con centro en origen y radio 4?",
+    "options": {
+      "A": "A) x² + y² + 16 = 0",
+      "B": "B) x² + y² - 16 = 0",
+      "C": "C) x² + y² - 4 = 0",
+      "D": "D) x² + y² + 4 = 0"
+    },
+    "correct_answer": "B",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none"
+    ]
+  },
+  {
+    "number": 62,
+    "subject": "Matemáticas",
+    "question": "Al trasladar x² + y² - 36 = 0 al centro C (-2, 4), ¿cuál es su ecuación?",
+    "options": {
+      "A": "A) (x - 4)² + (y + 16)² = 36",
+      "B": "B) (x + 4)² + (y - 16)² = 36",
+      "C": "C) (x + 2)² + (y - 4)² = 36",
+      "D": "D) (x - 2)² + (y + 4)² = 36"
+    },
+    "correct_answer": "C",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none"
+    ]
+  },
+  {
+    "number": 74,
+    "subject": "Español",
+    "question": "¿Cuál párrafo está redactado correctamente?",
+    "options": {
+      "A": "A) En la reunión se abordarán tres asuntos: el diseño... el seguimiento... buscar proveedores... también se harán propuestas...",
+      "B": "B) En la reunión se abordarán tres asuntos: el diseño... el seguimiento... y la búsqueda... También se harán propuestas...",
+      "C": "C) En la reunión se abordarán tres asuntos: diseñar... el seguimiento... y buscar... También se harán propuestas...",
+      "D": "D) En la reunión se abordarán tres asuntos: cómo diseñar... el seguimiento... y la búsqueda... Finalmente, se harán propuestas..."
+    },
+    "correct_answer": "B",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 99,
+    "subject": "Historia Universal",
+    "question": "El desembarco de armamento en Cuba provocó la",
+    "options": {
+      "A": "A) Revolución Sandinista.",
+      "B": "B) Crisis de los Misiles.",
+      "C": "C) Dictadura de Duvalier.",
+      "D": "D) Iniciativa de Defensa Estratégica."
+    },
+    "correct_answer": "B",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-ultra-550b-a55b-thinking-low"
+    ]
+  },
+  {
+    "number": 111,
+    "subject": "Filosofía",
+    "question": "¿A qué tipo de función del lenguaje corresponde: 'No debes saquear, vender o maltratar el patrimonio artístico'?",
+    "options": {
+      "A": "A) Directiva.",
+      "B": "B) Expresiva.",
+      "C": "C) Exclamativa.",
+      "D": "D) Declarativa."
+    },
+    "correct_answer": "A",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "gemma-4-e2b-thinking-none",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "phi-4-thinking-none",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -7149,6 +8005,25 @@
     ]
   },
   {
+    "number": 117,
+    "subject": "Filosofía",
+    "question": "¿Qué postura sobre los valores representa: 'El valor de la vida depende de quién está vivo'?",
+    "options": {
+      "A": "A) Objetivista.",
+      "B": "B) Pragmatista.",
+      "C": "C) Subjetivista.",
+      "D": "D) Utilitarista."
+    },
+    "correct_answer": "C",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "gemma-4-e4b-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-ultra-550b-a55b-thinking-low"
+    ]
+  },
+  {
     "number": 23,
     "subject": "Química",
     "question": "En general, en la tabla periódica los elementos con mayor carácter metálico se ubican en",
@@ -7164,50 +8039,6 @@
     "models": [
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low"
-    ]
-  },
-  {
-    "number": 115,
-    "subject": "Historia de México",
-    "question": "El Partido Liberal Mexicano fue encabezado por",
-    "options": {
-      "A": "A) Ricardo Flores Magón.",
-      "B": "B) Gustavo Madero.",
-      "C": "C) Emiliano Zapata.",
-      "D": "D) Pascual Orozco Vázquez."
-    },
-    "correct_answer": "A",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "gemma-4-e4b-thinking-medium",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 11,
-    "subject": "Literatura",
-    "question": "Los textos periodísticos que informan son, además de la noticia,",
-    "options": {
-      "A": "A) el artículo y la crónica.",
-      "B": "B) la caricatura y la entrevista.",
-      "C": "C) el reportaje y la entrevista.",
-      "D": "D) la crónica y la editorial."
-    },
-    "correct_answer": "C",
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemma-4-e4b-thinking-medium",
-      "gemma-4-e4b-thinking-none",
-      "gpt-oss-20b-thinking-medium",
-      "ling-2.6-flash-thinking-medium",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
@@ -7255,23 +8086,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 5,
-    "subject": "Física",
-    "question": "5. Un sistema está en equilibrio térmico cuando",
-    "options": {
-      "A": "A) en un proceso su temperatura no varía.",
-      "B": "B) su temperatura es igual a la de otro sistema con el que está en contacto térmico.",
-      "C": "C) se calienta por medio de trabajo.",
-      "D": "D) su presión y su masa permanecen constantes."
-    },
-    "correct_answer": "B",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "gemma-4-e4b-thinking-none"
     ]
   },
   {
@@ -7329,23 +8143,6 @@
       "D": "D) Farsa."
     },
     "correct_answer": "C",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "gemma-4-e4b-thinking-none"
-    ]
-  },
-  {
-    "number": 20,
-    "subject": "Literatura",
-    "question": "20. Identifica el recurso poético presente en la siguiente expresión. La lluvia, como finísimas flechas afiladas, caía chorreando la vidriera.",
-    "options": {
-      "A": "A) Ironía.",
-      "B": "B) Símil.",
-      "C": "C) Metonimia.",
-      "D": "D) Metáfora."
-    },
-    "correct_answer": "B",
     "area": 1,
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
@@ -7537,79 +8334,6 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "gemma-4-e4b-thinking-none"
-    ]
-  },
-  {
-    "number": 49,
-    "subject": "Matemáticas",
-    "question": "49. Al desarrollar (x^(2) - 3y)^(3) se obtiene",
-    "options": {
-      "A": "A) x^(6) - 9x^(4)y + 27x^(2)y^(2) + 27y^(3)",
-      "B": "B) x^(6) + 9x^(4)y - 27x^(2)y^(2) + 27y^(3)",
-      "C": "C) x^(6) - 9x^(4)y + 27x^(2)y^(2) - 27y^(3)",
-      "D": "D) x^(6) + 9x^(4)y - 27x^(2)y^(2) - 27y^(3)"
-    },
-    "correct_answer": "C",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 50,
-    "subject": "Matemáticas",
-    "question": "50. Simplifica la siguiente fracción. \\(\\frac{-x^2 - 3x + 40}{x + 8}\\)",
-    "options": {
-      "A": "A) x - 5",
-      "B": "B) -x + 5",
-      "C": "C) -x + 8",
-      "D": "D) x - 8"
-    },
-    "correct_answer": "B",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "gemma-4-e4b-thinking-none"
-    ]
-  },
-  {
-    "number": 58,
-    "subject": "Matemáticas",
-    "question": "58. ¿Cuál es el dominio de la siguiente función? f(x) = log(x - 1)",
-    "options": {
-      "A": "A) \\(x \\leq 1\\)",
-      "B": "B) x < 1",
-      "C": "C) x > 1",
-      "D": "D) \\(x \\geq 1\\)"
-    },
-    "correct_answer": "C",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-super-120b-a12b-thinking-low"
-    ]
-  },
-  {
-    "number": 67,
-    "subject": "Matemáticas",
-    "question": "67. El límite de la función f(x) = 4 cuando x tiende a -2, es igual a",
-    "options": {
-      "A": "A) -2",
-      "B": "B) -4",
-      "C": "C) 2",
-      "D": "D) 4"
-    },
-    "correct_answer": "D",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-super-120b-a12b-thinking-low"
     ]
   },
   {
@@ -7819,25 +8543,6 @@
     ]
   },
   {
-    "number": 105,
-    "subject": "Historia Universal",
-    "question": "105. Una consecuencia de la Primera Guerra Mundial fue la",
-    "options": {
-      "A": "A) creación de la Organización de las Naciones Unidas.",
-      "B": "B) formación de dos bloques: capitalista y socialista.",
-      "C": "C) desintegración del Imperio austrohúngaro.",
-      "D": "D) desintegración del bloque soviético."
-    },
-    "correct_answer": "C",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low"
-    ]
-  },
-  {
     "number": 106,
     "subject": "Historia Universal",
     "question": "106. La sobre emisión de créditos, el exceso en la oferta y la demanda de bienes de consumo y la caída de la bolsa de Nueva York fueron causas de la crisis de",
@@ -7979,38 +8684,6 @@
       "phi-4-thinking-none",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 8,
-    "subject": "Física",
-    "question": "En uno de los lados de una esquina, dos personas tienen una conversación, una tercera la escucha a la vuelta de la misma. ¿Cómo se llama este fenómeno ondulatorio?",
-    "options": {
-      "A": "A) Interferencia",
-      "B": "B) Difracción",
-      "C": "C) Polarización",
-      "D": "D) Refracción"
-    },
-    "correct_answer": "B",
-    "reference": {
-      "type": "text",
-      "path": "area-2-q8.webp",
-      "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp8.webp",
-      "alt": "Figura asociada a la pregunta 8.",
-      "content": "En la figura se observa un plano vertical representado en color gris, que parece ser una pared. Frente a esta pared, hay un personaje de pie a la izquierda, que está mirando hacia la pared. Desde el personaje, se extienden líneas onduladas que representan ondas, las cuales se propagan en círculos concéntricos alrededor de él. Estas ondas se acercan a la pared y se reflejan en ella.\n\nA la derecha de la pared, hay dos personajes que parecen estar interactuando entre sí, uno de ellos está levantando un brazo hacia el otro. Las ondas que se reflejan en la pared parecen estar afectando la interacción entre estos dos personajes, sugiriendo que la presencia de la pared y las ondas son relevantes para la situación que se está representando. Las líneas que representan las ondas son continuas y se extienden hacia el fondo, indicando la propagación de las mismas. Además, hay flechas que indican la dirección de las ondas, apuntando hacia la pared y hacia los personajes a la derecha.",
-      "derived_from": "area-2-q8.webp"
-    },
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "gpt-oss-20b-thinking-low",
-      "nanbeige4.1-3b-thinking-low",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
@@ -8480,32 +9153,6 @@
     ]
   },
   {
-    "number": 78,
-    "subject": "Español",
-    "question": "Con el texto, el autor intenta",
-    "options": {
-      "A": "A) denunciar los efectos nocivos del papel periódico.",
-      "B": "B) narrar la despersonalización de un individuo obsesionado con las noticias.",
-      "C": "C) describir los síntomas de la intoxicación por tinta.",
-      "D": "D) mostrar el malestar de un individuo al leer el periódico."
-    },
-    "correct_answer": "B",
-    "reference": {
-      "type": "text",
-      "content": "Tiempo libre\n\nTodas las mañanas compro el periódico y todas las mañanas, al leerlo, me mancho los dedos con tinta. Nunca me ha importado ensuciármelos con tal de estar al día en las noticias. Pero esta mañana sentí un gran malestar apenas toqué el periódico.\n\nCreí que solamente se trataba de uno de mis acostumbrados mareos. Pagué el importe del diario y regresé a mi casa. Mi esposa había salido de compras. Me acomodé en mi sillón favorito, encendí un cigarro y me puse a leer la primera página. Luego de enterarme de que el jet se había desplomado, volví a sentirme mal; vi mis dedos y las manos con toda la calma y, ya tranquilo, regresé al sillón. Cuando iba a tomar mi cigarro, descubrí que una mancha negra cubría mis dedos.\n\nDe inmediato retorné al baño, me tallé con zacate, piedra pómez y, finalmente, me lavé con blanqueador; pero el intento fue inútil, porque la mancha creció y me invadió hasta los codos. Ahora, más preocupado que molesto, llamé al doctor y me recomendó que lo mejor era que tomara unas vacaciones, o que durmiera. Después, llamé a las oficinas del periódico para elevar mi más rotunda protesta; me contestó una voz de mujer, que solamente me insultó y me trató de loco. En el momento en que hablaba por teléfono, me di cuenta de que, en realidad, no se trataba de una mancha, sino de un número infinito de letras pequeñísimas, apeñuscadas, como una inquieta multitud de hormigas negras. Cuando colgué, las letritas habían avanzado ya hasta mi cintura.\n\nAsustado, corrí hacia la puerta de entrada; pero, antes de poder abrirla. Me flaquearon las piernas y caí estrepitosamente. Tirado bocarriba descubrí que, además de la gran cantidad de letras hormiga que ahora ocupaban todo mi cuerpo, había una que otra fotografía. Así estuve durante varias horas hasta que escuché que abrían la puerta. Me costó trabajo hilar la idea, pero al fin pensé que había llegado a mi salvación. Entró mi esposa, me levantó del suelo, me cargó bajo el brazo, se acomodó en mi sillón favorito, me hojeó despreocupadamente y se puso a leer.\n\nGuillermo Samperio.",
-      "title": "Tiempo libre",
-      "author": "Guillermo Samperio",
-      "source": null
-    },
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low"
-    ]
-  },
-  {
     "number": 83,
     "subject": "Español",
     "question": "Son las propiedades textuales de un párrafo.",
@@ -8601,28 +9248,6 @@
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
-    ]
-  },
-  {
-    "number": 93,
-    "subject": "Biología",
-    "question": "Tipos de gametos producidos por un progenitor con genotipo Aa Bb.",
-    "options": {
-      "A": "A) AA – BB – aa – bb",
-      "B": "B) AB – Ab – aB – ab",
-      "C": "C) AA – Aa – BB – Bb",
-      "D": "D) Aa – Bb – aa – bb"
-    },
-    "correct_answer": "B",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -8750,25 +9375,6 @@
     ]
   },
   {
-    "number": 104,
-    "subject": "Historia Universal",
-    "question": "El automóvil, el aeroplano, el teléfono y la comida enlatada fueron inventos de la",
-    "options": {
-      "A": "A) Primera Revolución Industrial.",
-      "B": "B) Segunda Revolución Industrial.",
-      "C": "C) Primera Guerra Mundial.",
-      "D": "D) Segunda Guerra Mundial."
-    },
-    "correct_answer": "B",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low"
-    ]
-  },
-  {
     "number": 106,
     "subject": "Historia Universal",
     "question": "La sobreproducción y el liberalismo económico fueron causas de la crisis de",
@@ -8821,29 +9427,6 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 120,
-    "subject": "Historia de México",
-    "question": "La implementación de políticas neoliberales en México inició con el gobierno de",
-    "options": {
-      "A": "A) Luis Echeverría.",
-      "B": "B) José López Portillo.",
-      "C": "C) Miguel de la Madrid.",
-      "D": "D) Ernesto Zedillo."
-    },
-    "correct_answer": "C",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
@@ -8964,27 +9547,6 @@
     ]
   },
   {
-    "number": 21,
-    "subject": "Química",
-    "question": "La estructura interna de la materia se encuentra constituida por",
-    "options": {
-      "A": "A) mezclas, elementos y compuestos.",
-      "B": "B) iones, moléculas y átomos.",
-      "C": "C) mezclas, átomos y compuestos.",
-      "D": "D) átomos, moléculas y coloides."
-    },
-    "correct_answer": "B",
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "laguna-xs-2.1-thinking-medium",
-      "nanbeige4.1-3b-thinking-low",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low"
-    ]
-  },
-  {
     "number": 23,
     "subject": "Química",
     "question": "La clasificación de Mendeleev se basó en",
@@ -9046,25 +9608,6 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 28,
-    "subject": "Química",
-    "question": "Cuando un átomo pierde electrones se ________ su número de oxidación.",
-    "options": {
-      "A": "A) oxida y disminuye",
-      "B": "B) reduce y disminuye",
-      "C": "C) oxida y aumenta",
-      "D": "D) reduce y aumenta"
-    },
-    "correct_answer": "C",
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
   },
   {
@@ -9167,27 +9710,6 @@
     ]
   },
   {
-    "number": 55,
-    "subject": "Matemáticas",
-    "question": "¿Qué número pertenece al dominio de f(x) = log(x)?",
-    "options": {
-      "A": "A) 0",
-      "B": "B) –log2",
-      "C": "C) –2⁻¹",
-      "D": "D) 2"
-    },
-    "correct_answer": "D",
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
     "number": 56,
     "subject": "Matemáticas",
     "question": "¿Cuál es la distancia entre A (–7, –2) y B (2, 7)?",
@@ -9198,28 +9720,6 @@
       "D": "D) 50"
     },
     "correct_answer": "C",
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 59,
-    "subject": "Matemáticas",
-    "question": "¿Cuál ecuación corresponde a circunferencia de radio √2 y centro C (0, 0)?",
-    "options": {
-      "A": "A) x² - y² = 2√2",
-      "B": "B) x² + y² = √2",
-      "C": "C) x² + y² = 4",
-      "D": "D) x² + y² = 2"
-    },
-    "correct_answer": "D",
     "area": 3,
     "area_name": "Ciencias Sociales",
     "models": [
@@ -9455,24 +9955,6 @@
       "B": "B) Glucosa.",
       "C": "C) Luz.",
       "D": "D) CO2."
-    },
-    "correct_answer": "B",
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-ultra-550b-a55b-thinking-low"
-    ]
-  },
-  {
-    "number": 86,
-    "subject": "Biología",
-    "question": "Función biológica que permite la transformación de materia inorgánica en orgánica:",
-    "options": {
-      "A": "A) Fotólisis.",
-      "B": "B) Fotosíntesis.",
-      "C": "C) Digestión.",
-      "D": "D) Absorción."
     },
     "correct_answer": "B",
     "area": 3,
@@ -9772,26 +10254,6 @@
     ]
   },
   {
-    "number": 4,
-    "subject": "Física",
-    "question": "Una caja de 50 kg está en un elevador que cae. ¿Fuerza que el piso ejerce sobre la caja? (g=10 m/s²)",
-    "options": {
-      "A": "A) 5,000 N",
-      "B": "B) 50 N",
-      "C": "C) 5 N",
-      "D": "D) 0 N"
-    },
-    "correct_answer": "D",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
     "number": 6,
     "subject": "Física",
     "question": "Para convertir Celsius a Kelvin se usa la expresión",
@@ -9983,26 +10445,6 @@
     ]
   },
   {
-    "number": 24,
-    "subject": "Química",
-    "question": "¿Cuál óxido al reaccionar con agua da un producto con características ácidas?",
-    "options": {
-      "A": "A) Na2O.",
-      "B": "B) MgO.",
-      "C": "C) FeO.",
-      "D": "D) CO2."
-    },
-    "correct_answer": "D",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
     "number": 26,
     "subject": "Química",
     "question": "El poder disolvente del agua se debe a los",
@@ -10169,23 +10611,6 @@
     ]
   },
   {
-    "number": 57,
-    "subject": "Matemáticas",
-    "question": "¿Cuál es la ecuación de circunferencia con centro en origen y radio 4?",
-    "options": {
-      "A": "A) x² + y² + 16 = 0",
-      "B": "B) x² + y² - 16 = 0",
-      "C": "C) x² + y² - 4 = 0",
-      "D": "D) x² + y² + 4 = 0"
-    },
-    "correct_answer": "B",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e4b-thinking-none"
-    ]
-  },
-  {
     "number": 59,
     "subject": "Matemáticas",
     "question": "Parábola (x - 4)² = 12(y - 3). ¿Coordenadas de vértice y foco?",
@@ -10216,23 +10641,6 @@
       "D": "D) diferencia de distancias a dos puntos fijos es variable."
     },
     "correct_answer": "B",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e4b-thinking-none"
-    ]
-  },
-  {
-    "number": 62,
-    "subject": "Matemáticas",
-    "question": "Al trasladar x² + y² - 36 = 0 al centro C (-2, 4), ¿cuál es su ecuación?",
-    "options": {
-      "A": "A) (x - 4)² + (y + 16)² = 36",
-      "B": "B) (x + 4)² + (y - 16)² = 36",
-      "C": "C) (x + 2)² + (y - 4)² = 36",
-      "D": "D) (x - 2)² + (y + 4)² = 36"
-    },
-    "correct_answer": "C",
     "area": 4,
     "area_name": "Humanidades y de las Artes",
     "models": [
@@ -10289,26 +10697,6 @@
       "B": "B) Los científicos.",
       "C": "C) Los restos.",
       "D": "D) El dinosaurio."
-    },
-    "correct_answer": "B",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 74,
-    "subject": "Español",
-    "question": "¿Cuál párrafo está redactado correctamente?",
-    "options": {
-      "A": "A) En la reunión se abordarán tres asuntos: el diseño... el seguimiento... buscar proveedores... también se harán propuestas...",
-      "B": "B) En la reunión se abordarán tres asuntos: el diseño... el seguimiento... y la búsqueda... También se harán propuestas...",
-      "C": "C) En la reunión se abordarán tres asuntos: diseñar... el seguimiento... y buscar... También se harán propuestas...",
-      "D": "D) En la reunión se abordarán tres asuntos: cómo diseñar... el seguimiento... y la búsqueda... Finalmente, se harán propuestas..."
     },
     "correct_answer": "B",
     "area": 4,
@@ -10545,24 +10933,6 @@
     ]
   },
   {
-    "number": 99,
-    "subject": "Historia Universal",
-    "question": "El desembarco de armamento en Cuba provocó la",
-    "options": {
-      "A": "A) Revolución Sandinista.",
-      "B": "B) Crisis de los Misiles.",
-      "C": "C) Dictadura de Duvalier.",
-      "D": "D) Iniciativa de Defensa Estratégica."
-    },
-    "correct_answer": "B",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-ultra-550b-a55b-thinking-low"
-    ]
-  },
-  {
     "number": 100,
     "subject": "Historia Universal",
     "question": "Facilita el comercio mundial, se asocia con crisis económicas y genera cultura unificada.",
@@ -10648,24 +11018,6 @@
       "D": "D) (Q ∨ R) ⋅ P"
     },
     "correct_answer": "B",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-ultra-550b-a55b-thinking-low"
-    ]
-  },
-  {
-    "number": 117,
-    "subject": "Filosofía",
-    "question": "¿Qué postura sobre los valores representa: 'El valor de la vida depende de quién está vivo'?",
-    "options": {
-      "A": "A) Objetivista.",
-      "B": "B) Pragmatista.",
-      "C": "C) Subjetivista.",
-      "D": "D) Utilitarista."
-    },
-    "correct_answer": "C",
     "area": 4,
     "area_name": "Humanidades y de las Artes",
     "models": [
@@ -10792,174 +11144,6 @@
     ]
   },
   {
-    "number": 47,
-    "subject": "Matemáticas",
-    "question": "47. Una persona pesa 96 kg. Al ingresar a una clínica reductora de peso, comienza a bajar \\(\\frac{1}{32}\\) ​ del peso inicial cada semana. ¿Cuántos kg pesará al término de cada una de las primeras cuatro semanas del tratamiento?",
-    "options": {
-      "A": "A) Semana 1: 93 Semana 2: 90 Semana 3: 87 Semana 4: 84",
-      "B": "B) Semana 1: 96 Semana 2: 92 Semana 3: 88 Semana 4: 84",
-      "C": "C) Semana 1: 96 Semana 2: 90 Semana 3: 84 Semana 4: 78",
-      "D": "D) Semana 1: 93 Semana 2: 92 Semana 3: 91 Semana 4: 90"
-    },
-    "correct_answer": "A",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "ling-2.6-flash-thinking-medium",
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "phi-4-thinking-none",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 116,
-    "subject": "Historia de México",
-    "question": "116. La promulgación de la Constitución de 1917, el asesinato de Emiliano Zapata y la fundación de la Confederación Regional Obrera Mexicana fueron sucesos ocurridos durante el gobierno de",
-    "options": {
-      "A": "A) Venustiano Carranza.",
-      "B": "B) Álvaro Obregón.",
-      "C": "C) Plutarco Elías Calles.",
-      "D": "D) Adolfo de la Huerta."
-    },
-    "correct_answer": "A",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "ling-2.6-flash-thinking-medium",
-      "nanbeige4.1-3b-thinking-low",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 33,
-    "subject": "Química",
-    "question": "33. En una disolución acuosa se determinó que [H^(+)] < [OH^( -)], por lo tanto, el valor de pH será",
-    "options": {
-      "A": "A) 11",
-      "B": "B) 5",
-      "C": "C) 7",
-      "D": "D) 2"
-    },
-    "correct_answer": "A",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "phi-4-thinking-none",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 47,
-    "subject": "Matemáticas",
-    "question": "Factoriza: n⁶ - 3n³ - 18",
-    "options": {
-      "A": "A) (n³ + 3)(n³ - 6)",
-      "B": "B) (n³ - 3)(n³ + 6)",
-      "C": "C) (n³ - 3)(n³ - 6)",
-      "D": "D) (n³ + 3)(n³ + 6)"
-    },
-    "correct_answer": "A",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "phi-4-thinking-none",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 111,
-    "subject": "Filosofía",
-    "question": "¿A qué tipo de función del lenguaje corresponde: 'No debes saquear, vender o maltratar el patrimonio artístico'?",
-    "options": {
-      "A": "A) Directiva.",
-      "B": "B) Expresiva.",
-      "C": "C) Exclamativa.",
-      "D": "D) Declarativa."
-    },
-    "correct_answer": "A",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "phi-4-thinking-none",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 96,
-    "subject": "Biología",
-    "question": "96. Etapa de la meiosis en la cual las cromátidas hermanas se separan de forma aleatoria hacia los polos del huso meiótico.",
-    "options": {
-      "A": "A) Anafase II.",
-      "B": "B) Metafase I.",
-      "C": "C) Telofase II.",
-      "D": "D) Anafase I."
-    },
-    "correct_answer": "A",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "nanbeige4.1-3b-thinking-low",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 44,
-    "subject": "Geografía",
-    "question": "Una causa de la formación de nuevos países en Europa es la",
-    "options": {
-      "A": "A) caída de La Unión Soviética.",
-      "B": "B) dependencia económica.",
-      "C": "C) regionalización económica.",
-      "D": "D) expansión de la Unión Soviética."
-    },
-    "correct_answer": "A",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "nanbeige4.1-3b-thinking-low",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low"
-    ]
-  },
-  {
     "number": 12,
     "subject": "Literatura",
     "question": "Además del diálogo, dos características del texto dramático son",
@@ -10994,26 +11178,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "nanbeige4.1-3b-thinking-low"
-    ]
-  },
-  {
-    "number": 68,
-    "subject": "Matemáticas",
-    "question": "68. ¿Cuál de las siguientes expresiones corresponde para obtener la derivada \\(f(x)=x^3\\) en el punto \\(x=3\\)?",
-    "options": {
-      "A": "A) \\[ f'(3)=\\lim_{h\\to 0}\\frac{f(3+h)-f(3)}{h} =\\lim_{h\\to 0}\\frac{(3+h)^3-3^3}{h} \\] \\[ f'(3)=\\lim_{h\\to 0} \\frac{3^3+3\\cdot3^2h+3\\cdot3h^2+h^3-3^3}{h} \\]",
-      "B": "B) \\[ f'(3)=\\lim_{h\\to 0}\\frac{f(3)-f(3+h)}{h} =\\lim_{h\\to 0}\\frac{3^3-(3+h)^3}{h} \\] \\[ f'(3)=\\lim_{h\\to 0} \\frac{3^3-3^3-3\\cdot3^2h-3\\cdot3h^2-h^3}{h} \\]",
-      "C": "C) \\[ f'(3)=\\lim_{h\\to 0}\\frac{f(3+h)+f(3)}{h} =\\lim_{h\\to 0}\\frac{(3+h)^3+3^3}{h} \\] \\[ f'(3)=\\lim_{h\\to 0} \\frac{3^3+3\\cdot3^2h+3\\cdot3h^2+h^3+3^3}{h} \\]",
-      "D": "D) \\[ f'(3)=\\lim_{h\\to 0}\\frac{f(3)-f(3-h)}{h} =\\lim_{h\\to 0}\\frac{3^3-(3-h)^3}{h} \\] \\[ f'(3)=\\lim_{h\\to 0} \\frac{3^3-3^3+3\\cdot3^2h-3\\cdot3h^2+h^3}{h} \\]"
-    },
-    "correct_answer": "A",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -11556,25 +11720,6 @@
       "B": "B) De la Breña.",
       "C": "C) Madre Oriental.",
       "D": "D) Volcánica Transversal."
-    },
-    "correct_answer": "A",
-    "area": 1,
-    "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
-    "models": [
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 43,
-    "subject": "Geografía",
-    "question": "43. Son países que funcionan como puntos de acceso para que los migrantes que provienen del norte de África logren integrarse al territorio europeo.",
-    "options": {
-      "A": "A) España, Malta, Italia y Grecia.",
-      "B": "B) España, Francia, Alemania e Italia.",
-      "C": "C) Malta, Francia, Grecia y Portugal.",
-      "D": "D) Reino Unido, Croacia, Francia y Alemania."
     },
     "correct_answer": "A",
     "area": 1,
