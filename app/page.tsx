@@ -97,8 +97,7 @@ export default function HomePage() {
       </div>
 
       <section className="card">
-        <h2 className="card-title">Score promedio por modelo</h2>
-        <OverviewChart data={chartData} />
+        <OverviewChart data={chartData} title="Score promedio por modelo" />
       </section>
 
       <section className="card">
