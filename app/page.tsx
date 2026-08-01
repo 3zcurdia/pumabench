@@ -97,18 +97,22 @@ export default function HomePage() {
       </div>
 
       <section className="card">
-        <h2 className="card-title">Resultados por modelo</h2>
-        <TabPanel tabs={["Score promedio por modelo", "Histograma"]}>
-          <OverviewChart data={chartData} />
-          <ScoreHistogramChart data={chartData} />
-        </TabPanel>
+        <h2 className="card-title">Score promedio por modelo</h2>
+        <OverviewChart data={chartData} />
       </section>
 
       <section className="card">
+        <h2 className="card-title">Histograma de resultados</h2>
+        <ScoreHistogramChart data={chartData} />
+      </section>
+
+      <section className="card">
+        <h2 className="card-title">Score vs Parámetros</h2>
         <ScoreVsParamsChart data={scatterData} />
       </section>
 
       <section className="card">
+        <h2 className="card-title">Score vs Precio</h2>
         <ScoreVsPricingChart data={pricingScatterData} />
       </section>
 
