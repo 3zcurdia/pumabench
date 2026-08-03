@@ -542,6 +542,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "apple-foundation-system",
+      "deepseek-v4-flash-0731-thinking-low",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -869,6 +870,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
@@ -1251,6 +1253,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -1568,6 +1571,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
@@ -1798,6 +1802,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
@@ -2015,6 +2020,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -2180,6 +2186,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
@@ -2226,6 +2233,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e4b-thinking-low",
@@ -3021,6 +3029,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
@@ -3234,6 +3243,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -3694,6 +3704,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -3901,6 +3912,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
@@ -3950,6 +3962,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -4090,6 +4103,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "apple-foundation-system",
+      "deepseek-v4-flash-0731-thinking-low",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemma-4-e2b-thinking-low",
@@ -4400,6 +4414,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -4918,6 +4933,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "deepseek-v4-flash-0731-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -4971,6 +4987,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -5284,6 +5301,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -5303,7 +5321,6 @@
       "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-9b-thinking-low",
       "qwen3.6-35b-a3b-thinking-medium"
     ]
   },
@@ -5329,6 +5346,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -5366,6 +5384,7 @@
     "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
     "models": [
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -5671,6 +5690,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -5988,6 +6008,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -6163,6 +6184,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -6213,6 +6235,7 @@
     "area": 2,
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
+      "deepseek-v4-flash-0731-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -6243,6 +6266,83 @@
     ]
   },
   {
+    "number": 74,
+    "subject": "Español",
+    "question": "En el texto 'Tiempo libre' de Guillermo Samperio, el clímax se da cuando",
+    "options": {
+      "A": "A) la esposa toma el periódico.",
+      "B": "B) el personaje corrió hacia la puerta.",
+      "C": "C) el personaje cayó estrepitosamente.",
+      "D": "D) el personaje llamó a las oficinas del periódico."
+    },
+    "correct_answer": "C",
+    "reference": {
+      "type": "text",
+      "content": "Tiempo libre\n\nTodas las mañanas compro el periódico y todas las mañanas, al leerlo, me mancho los dedos con tinta. Nunca me ha importado ensuciármelos con tal de estar al día en las noticias. Pero esta mañana sentí un gran malestar apenas toqué el periódico.\n\nCreí que solamente se trataba de uno de mis acostumbrados mareos. Pagué el importe del diario y regresé a mi casa. Mi esposa había salido de compras. Me acomodé en mi sillón favorito, encendí un cigarro y me puse a leer la primera página. Luego de enterarme de que el jet se había desplomado, volví a sentirme mal; vi mis dedos y las manos con toda la calma y, ya tranquilo, regresé al sillón. Cuando iba a tomar mi cigarro, descubrí que una mancha negra cubría mis dedos.\n\nDe inmediato retorné al baño, me tallé con zacate, piedra pómez y, finalmente, me lavé con blanqueador; pero el intento fue inútil, porque la mancha creció y me invadió hasta los codos. Ahora, más preocupado que molesto, llamé al doctor y me recomendó que lo mejor era que tomara unas vacaciones, o que durmiera. Después, llamé a las oficinas del periódico para elevar mi más rotunda protesta; me contestó una voz de mujer, que solamente me insultó y me trató de loco. En el momento en que hablaba por teléfono, me di cuenta de que, en realidad, no se trataba de una mancha, sino de un número infinito de letras pequeñísimas, apeñuscadas, como una inquieta multitud de hormigas negras. Cuando colgué, las letritas habían avanzado ya hasta mi cintura.\n\nAsustado, corrí hacia la puerta de entrada; pero, antes de poder abrirla. Me flaquearon las piernas y caí estrepitosamente. Tirado bocarriba descubrí que, además de la gran cantidad de letras hormiga que ahora ocupaban todo mi cuerpo, había una que otra fotografía. Así estuve durante varias horas hasta que escuché que abrían la puerta. Me costó trabajo hilar la idea, pero al fin pensé que había llegado a mi salvación. Entró mi esposa, me levantó del suelo, me cargó bajo el brazo, se acomodó en mi sillón favorito, me hojeó despreocupadamente y se puso a leer.\n\nGuillermo Samperio.",
+      "title": "Tiempo libre",
+      "author": "Guillermo Samperio",
+      "source": null
+    },
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "deepseek-v4-flash-0731-thinking-low",
+      "gemini-3.5-flash-lite-thinking-medium",
+      "gemini-3.6-flash-thinking-medium",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-none",
+      "ling-2.6-flash-thinking-medium",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "phi-4-thinking-none",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium",
+      "qwen3.5-9b-thinking-none"
+    ]
+  },
+  {
+    "number": 54,
+    "subject": "Matemáticas",
+    "question": "¿Cuál expresión representa la ley de senos?",
+    "options": {
+      "A": "A) sen A/a = sen B/b",
+      "B": "B) sen A/b = sen B/a",
+      "C": "C) sen A/c = sen B/a",
+      "D": "D) sen B/c = sen A/b"
+    },
+    "correct_answer": "A",
+    "reference": {
+      "type": "text",
+      "path": "area-3-q54.webp",
+      "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp54.webp",
+      "alt": "Figura asociada a la pregunta 54.",
+      "content": "En la figura se presenta un triángulo etiquetado con los vértices A, B y C. El vértice A está en la parte inferior derecha, el vértice B en la parte inferior izquierda y el vértice C en la parte superior. Los lados del triángulo están marcados con las letras correspondientes: el lado opuesto al vértice A está etiquetado como \"c\", el lado opuesto al vértice B como \"a\" y el lado opuesto al vértice C como \"b\". Las líneas que forman el triángulo son de un grosor uniforme y están dibujadas en negro. No hay otras marcas o anotaciones en la figura.",
+      "derived_from": "area-3-q54.webp"
+    },
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "deepseek-v4-flash-0731-thinking-low",
+      "gemini-3.5-flash-lite-thinking-medium",
+      "gemma-4-12b-qat-thinking-low",
+      "gemma-4-e2b-thinking-low",
+      "gemma-4-e2b-thinking-none",
+      "laguna-xs-2.1-thinking-medium",
+      "nanbeige4.1-3b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
     "number": 73,
     "subject": "Español",
     "question": "Elige el objeto directo del predicado.",
@@ -6256,6 +6356,7 @@
     "area": 4,
     "area_name": "Humanidades y de las Artes",
     "models": [
+      "deepseek-v4-flash-0731-thinking-low",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemma-4-e2b-thinking-none",
@@ -6264,6 +6365,69 @@
       "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
+    ]
+  },
+  {
+    "number": 76,
+    "subject": "Español",
+    "question": "Identifica el párrafo con redacción adecuada.",
+    "options": {
+      "A": "A) El inca extranjero apresó a Inkarri su igual no sabemos dónde...",
+      "B": "B) Dicen que ahora Inkarri está en el Cuzco. Ignoramos quién lo habrá llevado...",
+      "C": "C) Todo fue puesto por nuestro señor Inkarri: las montañas, los animales...",
+      "D": "D) La carretera convirtió a Puquio, de una pequeña ciudad de terratenientes e indios, en un centro comercial activo."
+    },
+    "correct_answer": "C",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "deepseek-v4-flash-0731-thinking-low",
+      "gemma-4-e4b-thinking-none",
+      "gpt-oss-120b-thinking-medium",
+      "gpt-oss-20b-thinking-low",
+      "gpt-oss-20b-thinking-medium",
+      "hy3-preview-thinking-medium",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 92,
+    "subject": "Historia Universal",
+    "question": "Un factor que propició el origen de la Revolución Industrial en Inglaterra fue que",
+    "options": {
+      "A": "A) desarrolló la industria textil.",
+      "B": "B) aplicó la 'Riqueza de las Naciones'.",
+      "C": "C) triunfó en la Guerra de Siete Años.",
+      "D": "D) diseñó y construyó el ferrocarril."
+    },
+    "correct_answer": "A",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "deepseek-v4-flash-0731-thinking-low",
+      "gemini-3.5-flash-lite-thinking-low",
+      "gemini-3.5-flash-lite-thinking-medium",
+      "gemini-3.6-flash-thinking-medium",
+      "gemma-4-e2b-thinking-none",
+      "gpt-5.6-terra-thinking-medium",
+      "grok-4.5-thinking-medium",
+      "hy3-preview-thinking-medium",
+      "ling-2.6-flash-thinking-medium",
+      "llama-3-8b-instruct-32k-v0.1-thinking-high",
+      "llama-3-8b-instruct-32k-v0.1-thinking-low",
+      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
+      "minimax-m3-thinking-medium",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "phi-4-thinking-none",
+      "phi-4-thinking-low",
+      "phi-4-thinking-medium",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium",
+      "qwen3.5-9b-thinking-none"
     ]
   },
   {
@@ -6409,83 +6573,6 @@
     ]
   },
   {
-    "number": 92,
-    "subject": "Historia Universal",
-    "question": "Un factor que propició el origen de la Revolución Industrial en Inglaterra fue que",
-    "options": {
-      "A": "A) desarrolló la industria textil.",
-      "B": "B) aplicó la 'Riqueza de las Naciones'.",
-      "C": "C) triunfó en la Guerra de Siete Años.",
-      "D": "D) diseñó y construyó el ferrocarril."
-    },
-    "correct_answer": "A",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemini-3.5-flash-lite-thinking-low",
-      "gemini-3.5-flash-lite-thinking-medium",
-      "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e2b-thinking-none",
-      "gpt-5.6-terra-thinking-medium",
-      "grok-4.5-thinking-medium",
-      "hy3-preview-thinking-medium",
-      "ling-2.6-flash-thinking-medium",
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "minimax-m3-thinking-medium",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "phi-4-thinking-none",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b-thinking-none"
-    ]
-  },
-  {
-    "number": 74,
-    "subject": "Español",
-    "question": "En el texto 'Tiempo libre' de Guillermo Samperio, el clímax se da cuando",
-    "options": {
-      "A": "A) la esposa toma el periódico.",
-      "B": "B) el personaje corrió hacia la puerta.",
-      "C": "C) el personaje cayó estrepitosamente.",
-      "D": "D) el personaje llamó a las oficinas del periódico."
-    },
-    "correct_answer": "C",
-    "reference": {
-      "type": "text",
-      "content": "Tiempo libre\n\nTodas las mañanas compro el periódico y todas las mañanas, al leerlo, me mancho los dedos con tinta. Nunca me ha importado ensuciármelos con tal de estar al día en las noticias. Pero esta mañana sentí un gran malestar apenas toqué el periódico.\n\nCreí que solamente se trataba de uno de mis acostumbrados mareos. Pagué el importe del diario y regresé a mi casa. Mi esposa había salido de compras. Me acomodé en mi sillón favorito, encendí un cigarro y me puse a leer la primera página. Luego de enterarme de que el jet se había desplomado, volví a sentirme mal; vi mis dedos y las manos con toda la calma y, ya tranquilo, regresé al sillón. Cuando iba a tomar mi cigarro, descubrí que una mancha negra cubría mis dedos.\n\nDe inmediato retorné al baño, me tallé con zacate, piedra pómez y, finalmente, me lavé con blanqueador; pero el intento fue inútil, porque la mancha creció y me invadió hasta los codos. Ahora, más preocupado que molesto, llamé al doctor y me recomendó que lo mejor era que tomara unas vacaciones, o que durmiera. Después, llamé a las oficinas del periódico para elevar mi más rotunda protesta; me contestó una voz de mujer, que solamente me insultó y me trató de loco. En el momento en que hablaba por teléfono, me di cuenta de que, en realidad, no se trataba de una mancha, sino de un número infinito de letras pequeñísimas, apeñuscadas, como una inquieta multitud de hormigas negras. Cuando colgué, las letritas habían avanzado ya hasta mi cintura.\n\nAsustado, corrí hacia la puerta de entrada; pero, antes de poder abrirla. Me flaquearon las piernas y caí estrepitosamente. Tirado bocarriba descubrí que, además de la gran cantidad de letras hormiga que ahora ocupaban todo mi cuerpo, había una que otra fotografía. Así estuve durante varias horas hasta que escuché que abrían la puerta. Me costó trabajo hilar la idea, pero al fin pensé que había llegado a mi salvación. Entró mi esposa, me levantó del suelo, me cargó bajo el brazo, se acomodó en mi sillón favorito, me hojeó despreocupadamente y se puso a leer.\n\nGuillermo Samperio.",
-      "title": "Tiempo libre",
-      "author": "Guillermo Samperio",
-      "source": null
-    },
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "gemini-3.5-flash-lite-thinking-medium",
-      "gemini-3.6-flash-thinking-medium",
-      "gemma-4-e2b-thinking-low",
-      "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b-thinking-none",
-      "ling-2.6-flash-thinking-medium",
-      "llama-3-8b-instruct-32k-v0.1-thinking-high",
-      "llama-3-8b-instruct-32k-v0.1-thinking-low",
-      "llama-3-8b-instruct-32k-v0.1-thinking-medium",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "phi-4-thinking-low",
-      "phi-4-thinking-medium",
-      "phi-4-thinking-none",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b-thinking-none"
-    ]
-  },
-  {
     "number": 24,
     "subject": "Química",
     "question": "¿Qué familia de elementos es menos reactiva?",
@@ -6503,40 +6590,6 @@
       "gemma-4-e2b-thinking-none",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 54,
-    "subject": "Matemáticas",
-    "question": "¿Cuál expresión representa la ley de senos?",
-    "options": {
-      "A": "A) sen A/a = sen B/b",
-      "B": "B) sen A/b = sen B/a",
-      "C": "C) sen A/c = sen B/a",
-      "D": "D) sen B/c = sen A/b"
-    },
-    "correct_answer": "A",
-    "reference": {
-      "type": "text",
-      "path": "area-3-q54.webp",
-      "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp54.webp",
-      "alt": "Figura asociada a la pregunta 54.",
-      "content": "En la figura se presenta un triángulo etiquetado con los vértices A, B y C. El vértice A está en la parte inferior derecha, el vértice B en la parte inferior izquierda y el vértice C en la parte superior. Los lados del triángulo están marcados con las letras correspondientes: el lado opuesto al vértice A está etiquetado como \"c\", el lado opuesto al vértice B como \"a\" y el lado opuesto al vértice C como \"b\". Las líneas que forman el triángulo son de un grosor uniforme y están dibujadas en negro. No hay otras marcas o anotaciones en la figura.",
-      "derived_from": "area-3-q54.webp"
-    },
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemini-3.5-flash-lite-thinking-medium",
-      "gemma-4-12b-qat-thinking-low",
-      "gemma-4-e2b-thinking-low",
-      "gemma-4-e2b-thinking-none",
-      "laguna-xs-2.1-thinking-medium",
-      "nanbeige4.1-3b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
@@ -10714,31 +10767,6 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "gemma-4-e4b-thinking-none",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
-    ]
-  },
-  {
-    "number": 76,
-    "subject": "Español",
-    "question": "Identifica el párrafo con redacción adecuada.",
-    "options": {
-      "A": "A) El inca extranjero apresó a Inkarri su igual no sabemos dónde...",
-      "B": "B) Dicen que ahora Inkarri está en el Cuzco. Ignoramos quién lo habrá llevado...",
-      "C": "C) Todo fue puesto por nuestro señor Inkarri: las montañas, los animales...",
-      "D": "D) La carretera convirtió a Puquio, de una pequeña ciudad de terratenientes e indios, en un centro comercial activo."
-    },
-    "correct_answer": "D",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "gpt-oss-120b-thinking-medium",
-      "gpt-oss-20b-thinking-low",
-      "gpt-oss-20b-thinking-medium",
-      "hy3-preview-thinking-medium",
-      "nemotron-3-super-120b-a12b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium"
