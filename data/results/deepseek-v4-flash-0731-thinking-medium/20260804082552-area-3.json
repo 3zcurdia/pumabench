@@ -1,0 +1,195 @@
+{
+  "id": "deepseek/deepseek-v4-flash-0731",
+  "model": "deepseek-v4-flash-0731-thinking-medium",
+  "effort": "medium",
+  "timestamp": "20260804082552",
+  "area": 3,
+  "area_name": "Ciencias Sociales",
+  "total": {
+    "questions": 120,
+    "correct": 112,
+    "percentage": 93.33
+  },
+  "subjects": {
+    "Biología": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Español": {
+      "questions": 18,
+      "correct": 16,
+      "percentage": 88.89
+    },
+    "Filosofía": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Física": {
+      "questions": 10,
+      "correct": 7,
+      "percentage": 70.0
+    },
+    "Geografía": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Historia Universal": {
+      "questions": 14,
+      "correct": 14,
+      "percentage": 100.0
+    },
+    "Historia de México": {
+      "questions": 14,
+      "correct": 14,
+      "percentage": 100.0
+    },
+    "Literatura": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Matemáticas": {
+      "questions": 24,
+      "correct": 22,
+      "percentage": 91.67
+    },
+    "Química": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    }
+  },
+  "failed_questions": [
+    {
+      "number": 3,
+      "subject": "Física",
+      "question": "Sobre un cuerpo se aplicaron fuerzas horizontales provocando distintas aceleraciones. ¿Cuál es la masa del objeto?",
+      "options": {
+        "A": "A) 1.6 kg.",
+        "B": "B) 2.5 kg",
+        "C": "C) 3.2 kg",
+        "D": "D) 4.0 kg"
+      },
+      "correct_answer": "B",
+      "reference": {
+        "type": "text",
+        "path": "area-3-q3.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp3.webp",
+        "alt": "Figura asociada a la pregunta 3.",
+        "content": "El gráfico presenta un sistema de coordenadas cartesianas donde el eje vertical representa la fuerza en Newtons (N) y el eje horizontal representa la aceleración en metros por segundo al cuadrado (m/s²). En el eje de la fuerza, se marcan los valores desde 0 hasta 4.00 N, con divisiones en 1.00 N. En el eje de la aceleración, se marcan los valores desde 0 hasta 2.00 m/s², con divisiones en 0.50 m/s².\n\nSe observa una línea recta que conecta los puntos (0, 0) y (2.00, 4.00), indicando una relación lineal entre la fuerza y la aceleración. Los puntos en la línea están representados por círculos negros. La pendiente de la línea sugiere que a medida que la aceleración aumenta, la fuerza también lo hace de manera proporcional. Además, hay líneas de referencia horizontales y verticales que ayudan a visualizar los valores de fuerza y aceleración correspondientes.",
+        "derived_from": "area-3-q3.webp"
+      }
+    },
+    {
+      "number": 7,
+      "subject": "Física",
+      "question": "Las olas de mayor tamaño en la playa se deben a que las olas se",
+      "options": {
+        "A": "A) refractan.",
+        "B": "B) polarizan.",
+        "C": "C) reflejan.",
+        "D": "D) superponen."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 10,
+      "subject": "Física",
+      "question": "Circuito con resistores R y 2R. Si circula 3I en una sección, ¿qué corriente circula por 2R?",
+      "options": {
+        "A": "A) 3I amperes.",
+        "B": "B) 0 amperes.",
+        "C": "C) I amperes.",
+        "D": "D) 2I amperes."
+      },
+      "correct_answer": "B",
+      "reference": {
+        "type": "text",
+        "path": "area-3-q10.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp10.webp",
+        "alt": "Figura asociada a la pregunta 10.",
+        "content": "En la figura se presenta un circuito eléctrico. A la izquierda, hay una fuente de voltaje representada por el símbolo \"V\". Desde esta fuente, sale una corriente de 3I. A continuación, se encuentran dos resistencias conectadas en paralelo. La primera resistencia tiene un valor de R y está situada en la parte superior. La segunda resistencia, ubicada en la parte inferior, tiene un valor de 2R. Ambas resistencias están conectadas a los mismos nodos, lo que indica que comparten el mismo voltaje. La disposición de las resistencias en paralelo sugiere que la corriente total que sale de la fuente se divide entre las dos resistencias.",
+        "derived_from": "area-3-q10.webp"
+      }
+    },
+    {
+      "number": 22,
+      "subject": "Química",
+      "question": "¿Qué postulado de Dalton prevalece en nuestros días?",
+      "options": {
+        "A": "A) Los átomos permanecen indivisibles.",
+        "B": "B) Los elementos están formados por átomos diminutos.",
+        "C": "C) Los átomos de un mismo elemento son iguales en masa.",
+        "D": "D) Los átomos de dos elementos se combinan en distintas proporciones."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 54,
+      "subject": "Matemáticas",
+      "question": "¿Cuál expresión representa la ley de senos?",
+      "options": {
+        "A": "A) sen A/a = sen B/b",
+        "B": "B) sen A/b = sen B/a",
+        "C": "C) sen A/c = sen B/a",
+        "D": "D) sen B/c = sen A/b"
+      },
+      "correct_answer": "A",
+      "reference": {
+        "type": "text",
+        "path": "area-3-q54.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp54.webp",
+        "alt": "Figura asociada a la pregunta 54.",
+        "content": "En la figura se presenta un triángulo etiquetado con los vértices A, B y C. El vértice A está en la parte inferior derecha, el vértice B en la parte inferior izquierda y el vértice C en la parte superior. Los lados del triángulo están marcados con las letras correspondientes: el lado opuesto al vértice A está etiquetado como \"c\", el lado opuesto al vértice B como \"a\" y el lado opuesto al vértice C como \"b\". Las líneas que forman el triángulo son de un grosor uniforme y están dibujadas en negro. No hay otras marcas o anotaciones en la figura.",
+        "derived_from": "area-3-q54.webp"
+      }
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "¿Qué ecuación describe la siguiente gráfica?",
+      "options": {
+        "A": "A) y = x - 1/2",
+        "B": "B) y = 3/2 x - 1/2",
+        "C": "C) y = -3/2 x + 1/2",
+        "D": "D) y = x/2 - 1"
+      },
+      "correct_answer": "D",
+      "reference": {
+        "type": "text",
+        "path": "area-3-q58.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp58.webp",
+        "alt": "Figura asociada a la pregunta 58.",
+        "content": "En la figura se presenta un sistema de coordenadas cartesianas, donde se observan los ejes x e y. El eje x es horizontal y se extiende hacia la derecha, marcando valores positivos, mientras que el eje y es vertical y se extiende hacia arriba, también marcando valores positivos. Ambos ejes se cruzan en el origen, que está etiquetado como \"0\". \n\nLa línea que se dibuja en la figura es una recta que tiene una pendiente positiva, comenzando en el cuadrante inferior izquierdo y extendiéndose hacia el cuadrante superior derecho. Esta recta no intersecta el eje y en el origen, lo que indica que su intersección con el eje y se encuentra en un valor positivo. La recta se extiende indefinidamente en ambas direcciones, pero no se muestra su ecuación ni puntos específicos en la gráfica.",
+        "derived_from": "area-3-q58.webp"
+      }
+    },
+    {
+      "number": 74,
+      "subject": "Español",
+      "question": "Identifica la oración principal: 'Aquella noche, en la hora de la rata, el emperador soñó que había salido de su palacio...'",
+      "options": {
+        "A": "A) Aquella noche, en la hora de la rata, el emperador soñó que había salido de su palacio.",
+        "B": "B) El emperador soñó que había salido de su palacio y caminaba por el jardín.",
+        "C": "C) En la hora de la rata, el emperador soñó.",
+        "D": "D) El emperador soñó que había salido de su palacio."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "¿Cuál párrafo está escrito correctamente?",
+      "options": {
+        "A": "A) Los personajes de la jarcha son principalmente la muchacha...",
+        "B": "B) Los personajes de la jarcha son: principalmente la muchacha...",
+        "C": "C) Los personajes de la jarcha son: principalmente la muchacha y el habib o amigo, —cómo se denomina al amante—; también aparece...",
+        "D": "D) Los personajes de la jarcha son, principalmente, la muchacha y el habib o amigo (cómo se denomina al amante)..."
+      },
+      "correct_answer": "A"
+    }
+  ]
+}

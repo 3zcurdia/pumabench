@@ -1,0 +1,162 @@
+{
+  "id": "deepseek/deepseek-v4-flash-0731",
+  "model": "deepseek-v4-flash-0731-thinking-medium",
+  "effort": "medium",
+  "timestamp": "20260804082552",
+  "area": 1,
+  "area_name": "Ciencias Físico-Matemáticas y de las Ingenierías",
+  "total": {
+    "questions": 120,
+    "correct": 114,
+    "percentage": 95.0
+  },
+  "subjects": {
+    "Biología": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Español": {
+      "questions": 18,
+      "correct": 16,
+      "percentage": 88.89
+    },
+    "Filosofía": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Física": {
+      "questions": 16,
+      "correct": 15,
+      "percentage": 93.75
+    },
+    "Geografía": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Historia Universal": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Historia de México": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Literatura": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Matemáticas": {
+      "questions": 26,
+      "correct": 24,
+      "percentage": 92.31
+    },
+    "Química": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    }
+  },
+  "failed_questions": [
+    {
+      "number": 2,
+      "subject": "Física",
+      "question": "2. Con base en el siguiente sistema de vectores, indica la magnitud del vector resultante en N.",
+      "options": {
+        "A": "A) \\(\\sqrt{75.8}\\)",
+        "B": "B) \\(\\sqrt{23.8}\\)",
+        "C": "C) \\(\\sqrt{650}\\)",
+        "D": "D) \\(\\sqrt{101.1}\\)"
+      },
+      "correct_answer": "D",
+      "reference": {
+        "type": "text",
+        "path": "area-1-q2.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025areaIp2.webp",
+        "alt": "Figura asociada a la pregunta 2.",
+        "content": "En la figura se observa un sistema de coordenadas cartesianas con los ejes x e y. El eje y está orientado hacia arriba y el eje x hacia la derecha. Se presentan tres vectores de fuerza representados por flechas:\n\n1. Un vector de 10 N que se extiende verticalmente hacia arriba, alineado con el eje y.\n2. Un vector de 8 N que forma un ángulo de 30° con el eje x, apuntando hacia la derecha y hacia arriba.\n3. Un vector de 9 N que forma un ángulo de 75° con el eje x, también apuntando hacia la derecha y hacia arriba.\n\nAdemás, se incluye una tabla en la parte superior de la figura que muestra los valores del seno y coseno para los ángulos de 30°, 45° y 75°. La tabla tiene tres columnas: \"Ángulo\", \"Seno\" y \"Coseno\". Los valores son los siguientes:\n\n- Para 30°: Seno = 0.5, Coseno = 0.8\n- Para 45°: Seno = 0.7, Coseno = 0.7\n- Para 75°: Seno = 0.9, Coseno = 0.3\n\nLos vectores están etiquetados con sus respectivas magnitudes en Newtons (N) y los ángulos están indicados en grados.",
+        "derived_from": "area-1-q2.webp"
+      }
+    },
+    {
+      "number": 54,
+      "subject": "Matemáticas",
+      "question": "54. Soluciona el sistema de ecuaciones. \\[ \\left\\{ \\begin{aligned} 5x + 2y - z &= -7 \\\\ x - 2y + 2z &= 0 \\\\ 3y + z &= 17 \\end{aligned} \\right. \\]",
+      "options": {
+        "A": "A) \\(x = -1,\\ y = 5,\\ z = 2\\)",
+        "B": "B) \\(x = 1,\\ y = 5,\\ z = 2\\)",
+        "C": "C) \\(x = -1,\\ y = 2,\\ z = 5\\)",
+        "D": "D) \\(x = 1,\\ y = 2,\\ z = 5\\)"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 69,
+      "subject": "Matemáticas",
+      "question": "69. En la siguiente gráfica de la función f(x). ¿En qué intervalo la derivada de f es negativa?",
+      "options": {
+        "A": "A) (-2, 4)",
+        "B": "B) [2, 4)",
+        "C": "C) (2, 4]",
+        "D": "D) [-2, 4]"
+      },
+      "correct_answer": "C",
+      "reference": {
+        "type": "text",
+        "path": "area-1-q69.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/unam2025area1p69.webp",
+        "alt": "Figura asociada a la pregunta 69.",
+        "content": "El gráfico presenta un sistema de coordenadas cartesianas con el eje vertical etiquetado como \"y\" y el eje horizontal como \"x\". El eje \"y\" se extiende hacia arriba desde el origen (0,0) y el eje \"x\" se extiende hacia la derecha. La curva representada es una función continua que oscila, comenzando en el punto (0,0) y subiendo hasta alcanzar un máximo local antes de descender. \n\nEn el eje \"x\", se observan líneas punteadas verticales en las posiciones x = 2 y x = 4. La curva cruza el eje \"x\" en dos puntos: uno entre x = 0 y x = 2, y otro entre x = 4 y x = 6. La parte de la curva entre x = 0 y x = 2 es ascendente, alcanzando un máximo en algún punto antes de descender hacia x = 2. Desde x = 2, la curva desciende hasta un mínimo local antes de volver a ascender hacia x = 4, donde nuevamente alcanza un máximo. Posteriormente, la curva desciende hacia x = 6, pero no llega a cruzar el eje \"x\" en este tramo. \n\nEl gráfico no presenta etiquetas numéricas en el eje \"y\", pero se puede inferir que la función tiene valores positivos y negativos en diferentes intervalos. La forma de la curva sugiere que es una función polinómica de grado al menos 3, dado que presenta al menos dos máximos y un mínimo.",
+        "derived_from": "area-1-q69.webp"
+      }
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "77. ¿Cuál es el nudo del texto?",
+      "options": {
+        "A": "A) Más decidida que nunca, atravesó la puerta de los grandes almacenes.",
+        "B": "B) Ese día, sin embargo, una fría determinación le roía las entrañas mientras avanzaba.",
+        "C": "C) Pero huyó en cuanto se dio cuenta de que no necesitaba un tresillo.",
+        "D": "D) Cuando salió a la calle, tardó unos 20 minutos en recuperar su aspecto habitual."
+      },
+      "correct_answer": "B",
+      "reference": {
+        "type": "text",
+        "content": "—La mujer salió de su casa, y era una buena mujer. Lo había sido durante toda su vida. Ese día, sin embargo, una fría determinación le roía las entrañas mientras avanzaba, el bolso bien sujeto, camino del lugar donde iban a producirse los hechos.\n\nPor momentos sentía que le temblaban las piernas, pero si su cuerpo flaqueaba, su mente no se permitía vacilar. Pensó en sus hijos. Pensó en su marido, honrado y trabajador, feliz con su fútbol, su tele y su chándal para ir al campo los fines de semana. Pensó en el equipo necesario para las vacaciones, tan inminentes ya.\n\nMás decidida que nunca, atravesó la puerta de los grandes almacenes. El aire procedente del acondicionador le heló la nuca y serpenteó por un momento entre sus muslos, y ésa fue la última sensación humana que iba a experimentar en varias horas.\n\n—¡Reebaaaajaaas! —rugió.\n\nBraceó hacia la horda que bramaba en el interior. Ya no pensaba en su familia. Como el cazador, sólo alimentaba un deseo: conseguir la mejor presa; como el sabueso, únicamente aspiraba a hincar el diente en la carne más tierna. Alargó ambas manos hacia una combinación de seda sintética rebajada, puesta a mitad de precio —previamente se había colgado el bolso en bandolera—, y una manada de tiburones abrió amenazadoramente las fauces frente a ella. La mujer se aferró con todas sus fuerzas a la prenda. Vio que las manos se le habían vuelto peludas, sarmentosas y con las uñas muy largas curvadas hacia dentro, pero no le importó. Arrancó la combinación de entre los colmillos de los escualos y siguió abriéndose paso entre aullidos.\n\nEn la segunda planta tuvo que despedazarle la carótida a una rinoceronta de vestido floreado que trataba de apoderarse de una cesta para pic—nic; en la tercera, se hizo a zarpazos con dos pares de zapatillas de deportes; en la cuarta fue corrida a cornadas por una panda de búfalas que se empeñaban en conseguir una cocinita portátil a butano; en la quinta estuvo a punto de morir picoteada por una nube de avispas venenosas, pero huyó en cuanto se dio cuenta de que no necesitaba un tresillo.\n\nCuando salió a la calle, tardó unos 20 minutos en recuperar su aspecto habitual.\n\nTorres, Maruja (8 de julio de 1986). Metamorfosis. El País.",
+        "title": "Metamorfosis",
+        "author": "Maruja Torres",
+        "source": "El País, 8 de julio de 1986"
+      }
+    },
+    {
+      "number": 86,
+      "subject": "Español",
+      "question": "86. Identifica el párrafo redactado correctamente.",
+      "options": {
+        "A": "A) Los campos magnéticos solar y terrestre interaccionan hasta que este último se deforma. Como cualquier ente en el universo, la Tierra responde de varias maneras ante el impacto de la actividad solar; en este caso lo hace mediante la actividad geomagnética (perturbaciones en el campo magnético terrestre).",
+        "B": "B) El campo magnético solar y terrestre se encuentran interaccionando hasta que este último (el campo magnético terrestre) termina deformándose. La Tierra, como cualquier ente en el universo, responde de varias maneras ante el impacto de la actividad solar; en este caso lo hace mediante perturbaciones en el campo magnético terrestre (es decir actividad geomagnética).",
+        "C": "C) Ante el impacto de la actividad solar (como cualquier ente en el universo), la Tierra responde de varias maneras; en este caso lo hace mediante la actividad geomagnética (perturbaciones en el campo magnético terrestre). Ello sucede porque los campos magnéticos solar y terrestre interaccionan hasta que el último se deforma.",
+        "D": "D) El campo magnético solar y el campo magnético terrestre interaccionan hasta que éste se deforma. Como cualquier ente en el universo, la Tierra responde de varias maneras ante el impacto de la actividad solar. Haciéndolo mediante la actividad geomagnética (esto es, perturbaciones que acontecen en el campo magnético terrestre)."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 92,
+      "subject": "Biología",
+      "question": "92. La existencia de enzimas del ciclo de Krebs, idénticas en todos los organismos de respiración aerobia, es una prueba del postulado ________ de la teoría celular.",
+      "options": {
+        "A": "A) funcional",
+        "B": "B) bioquímico",
+        "C": "C) evolutivo",
+        "D": "D) estructural"
+      },
+      "correct_answer": "A"
+    }
+  ]
+}

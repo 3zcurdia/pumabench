@@ -543,6 +543,7 @@
     "models": [
       "apple-foundation-system",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -571,7 +572,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -871,6 +873,7 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
@@ -896,7 +899,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -1189,7 +1193,8 @@
       "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-9b-thinking-none"
+      "qwen3.5-9b-thinking-none",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -1234,7 +1239,8 @@
       "ling-2.6-flash-thinking-medium",
       "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low"
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -1254,6 +1260,7 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -1285,7 +1292,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -1466,7 +1474,8 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b-thinking-none"
+      "qwen3.5-9b-thinking-none",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -1572,6 +1581,7 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
@@ -1803,6 +1813,7 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
@@ -1835,7 +1846,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -2021,6 +2033,7 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -2056,7 +2069,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -2234,6 +2248,7 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e4b-thinking-low",
@@ -2250,7 +2265,8 @@
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
+      "qwen3.5-0.8b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -2481,7 +2497,8 @@
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "phi-4-thinking-none",
       "phi-4-thinking-low",
-      "phi-4-thinking-medium"
+      "phi-4-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -2660,6 +2677,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
       "gemma-4-e2b-thinking-none",
@@ -2681,7 +2699,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -2843,6 +2862,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -2871,7 +2891,8 @@
       "phi-4-thinking-none",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.5-9b-thinking-none"
+      "qwen3.5-9b-thinking-none",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -2936,7 +2957,8 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b-thinking-none"
+      "qwen3.5-9b-thinking-none",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -2972,7 +2994,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -3030,6 +3053,7 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
@@ -3244,6 +3268,7 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -3279,7 +3304,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -3705,6 +3731,7 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -3740,7 +3767,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -3913,6 +3941,7 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
@@ -3943,7 +3972,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -3963,6 +3993,7 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -3993,7 +4024,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -4127,7 +4159,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -4415,6 +4448,7 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -4449,7 +4483,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -4934,6 +4969,7 @@
     "models": [
       "apple-foundation-system",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -4988,6 +5024,7 @@
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -5020,7 +5057,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -5117,6 +5155,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "apple-foundation-system",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -5139,7 +5178,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -5190,6 +5230,7 @@
     "models": [
       "apple-foundation-system",
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -5224,7 +5265,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -5275,7 +5317,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -5302,6 +5345,7 @@
     "models": [
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -5321,7 +5365,8 @@
       "nanbeige4.1-3b-thinking-low",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -5347,6 +5392,7 @@
     "models": [
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -5366,7 +5412,8 @@
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -5385,6 +5432,7 @@
     "models": [
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -5418,7 +5466,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -5453,7 +5502,8 @@
       "phi-4-thinking-medium",
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
+      "qwen3.5-0.8b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -5691,6 +5741,7 @@
     "models": [
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -5721,7 +5772,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -6009,6 +6061,7 @@
     "models": [
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -6040,7 +6093,8 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -6058,6 +6112,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "bonsai-27b-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -6080,7 +6135,8 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -6166,7 +6222,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -6185,6 +6242,7 @@
     "models": [
       "bonsai-27b-thinking-low",
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
@@ -6210,7 +6268,8 @@
       "phi-4-thinking-none",
       "phi-4-thinking-low",
       "phi-4-thinking-medium",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -6236,6 +6295,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
@@ -6262,7 +6322,8 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none",
-      "qwen3.6-35b-a3b-thinking-medium"
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -6287,6 +6348,7 @@
     "area_name": "Ciencias Biológicas, Químicas y de la Salud",
     "models": [
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
       "gemma-4-e2b-thinking-low",
@@ -6304,7 +6366,8 @@
       "qwen3.5-0.8b-thinking-high",
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
-      "qwen3.5-9b-thinking-none"
+      "qwen3.5-9b-thinking-none",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -6330,6 +6393,7 @@
     "area_name": "Ciencias Sociales",
     "models": [
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemma-4-12b-qat-thinking-low",
       "gemma-4-e2b-thinking-low",
@@ -6357,6 +6421,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "deepseek-v4-flash-thinking-medium",
       "gemini-2.5-flash-lite-thinking-medium",
       "gemma-4-e2b-thinking-none",
@@ -6382,6 +6447,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "gemma-4-e4b-thinking-none",
       "gpt-oss-120b-thinking-medium",
       "gpt-oss-20b-thinking-low",
@@ -6408,6 +6474,7 @@
     "area_name": "Humanidades y de las Artes",
     "models": [
       "deepseek-v4-flash-0731-thinking-low",
+      "deepseek-v4-flash-0731-thinking-medium",
       "gemini-3.5-flash-lite-thinking-low",
       "gemini-3.5-flash-lite-thinking-medium",
       "gemini-3.6-flash-thinking-medium",
@@ -6428,6 +6495,75 @@
       "qwen3.5-0.8b-thinking-low",
       "qwen3.5-0.8b-thinking-medium",
       "qwen3.5-9b-thinking-none"
+    ]
+  },
+  {
+    "number": 95,
+    "subject": "Biología",
+    "question": "Primera proteína humana realizada con la tecnología del ADN recombinante.",
+    "options": {
+      "A": "A) Miosina.",
+      "B": "B) Hemoglobina.",
+      "C": "C) Queratina.",
+      "D": "D) Insulina."
+    },
+    "correct_answer": "D",
+    "area": 2,
+    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+    "models": [
+      "deepseek-v4-flash-0731-thinking-medium",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.5-0.8b-thinking-high",
+      "qwen3.5-0.8b-thinking-low",
+      "qwen3.5-0.8b-thinking-medium"
+    ]
+  },
+  {
+    "number": 7,
+    "subject": "Física",
+    "question": "Las olas de mayor tamaño en la playa se deben a que las olas se",
+    "options": {
+      "A": "A) refractan.",
+      "B": "B) polarizan.",
+      "C": "C) reflejan.",
+      "D": "D) superponen."
+    },
+    "correct_answer": "D",
+    "area": 3,
+    "area_name": "Ciencias Sociales",
+    "models": [
+      "deepseek-v4-flash-0731-thinking-medium",
+      "gemma-4-e2b-thinking-none",
+      "gemma-4-e4b-thinking-low",
+      "gemma-4-e4b-thinking-medium",
+      "gemma-4-e4b-thinking-none",
+      "gpt-oss-20b-thinking-low",
+      "gpt-oss-20b-thinking-medium",
+      "nemotron-3-super-120b-a12b-thinking-low",
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.6-35b-a3b-thinking-medium",
+      "qwen3.7-flash-thinking-low"
+    ]
+  },
+  {
+    "number": 106,
+    "subject": "Historia de México",
+    "question": "Las constantes reelecciones de Díaz y la opresión a grupos sociales fueron detonantes de",
+    "options": {
+      "A": "A) el Maximato.",
+      "B": "B) la Revolución Mexicana.",
+      "C": "C) el Milagro Mexicano.",
+      "D": "D) la Unidad Nacional."
+    },
+    "correct_answer": "B",
+    "area": 4,
+    "area_name": "Humanidades y de las Artes",
+    "models": [
+      "deepseek-v4-flash-0731-thinking-medium",
+      "gemma-4-e4b-thinking-none",
+      "nemotron-3-ultra-550b-a55b-thinking-low"
     ]
   },
   {
@@ -7790,31 +7926,6 @@
     ]
   },
   {
-    "number": 7,
-    "subject": "Física",
-    "question": "Las olas de mayor tamaño en la playa se deben a que las olas se",
-    "options": {
-      "A": "A) refractan.",
-      "B": "B) polarizan.",
-      "C": "C) reflejan.",
-      "D": "D) superponen."
-    },
-    "correct_answer": "D",
-    "area": 3,
-    "area_name": "Ciencias Sociales",
-    "models": [
-      "gemma-4-e2b-thinking-none",
-      "gemma-4-e4b-thinking-low",
-      "gemma-4-e4b-thinking-medium",
-      "gemma-4-e4b-thinking-none",
-      "gpt-oss-20b-thinking-low",
-      "gpt-oss-20b-thinking-medium",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.6-35b-a3b-thinking-medium"
-    ]
-  },
-  {
     "number": 11,
     "subject": "Literatura",
     "question": "Los textos periodísticos que informan son, además de la noticia,",
@@ -8104,7 +8215,8 @@
       "gemma-4-e4b-thinking-medium",
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low"
+      "nemotron-3-ultra-550b-a55b-thinking-low",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -8176,7 +8288,8 @@
     "models": [
       "gemma-4-e4b-thinking-none",
       "laguna-xs-2.1-thinking-medium",
-      "minimax-m3-thinking-medium"
+      "minimax-m3-thinking-medium",
+      "qwen3.7-flash-thinking-low"
     ]
   },
   {
@@ -9312,28 +9425,6 @@
       "gemma-4-e4b-thinking-none",
       "nemotron-3-super-120b-a12b-thinking-low",
       "nemotron-3-ultra-550b-a55b-thinking-low"
-    ]
-  },
-  {
-    "number": 95,
-    "subject": "Biología",
-    "question": "Primera proteína humana realizada con la tecnología del ADN recombinante.",
-    "options": {
-      "A": "A) Miosina.",
-      "B": "B) Hemoglobina.",
-      "C": "C) Queratina.",
-      "D": "D) Insulina."
-    },
-    "correct_answer": "D",
-    "area": 2,
-    "area_name": "Ciencias Biológicas, Químicas y de la Salud",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-super-120b-a12b-thinking-low",
-      "nemotron-3-ultra-550b-a55b-thinking-low",
-      "qwen3.5-0.8b-thinking-high",
-      "qwen3.5-0.8b-thinking-low",
-      "qwen3.5-0.8b-thinking-medium"
     ]
   },
   {
@@ -11000,24 +11091,6 @@
       "D": "D) recolección."
     },
     "correct_answer": "C",
-    "area": 4,
-    "area_name": "Humanidades y de las Artes",
-    "models": [
-      "gemma-4-e4b-thinking-none",
-      "nemotron-3-ultra-550b-a55b-thinking-low"
-    ]
-  },
-  {
-    "number": 106,
-    "subject": "Historia de México",
-    "question": "Las constantes reelecciones de Díaz y la opresión a grupos sociales fueron detonantes de",
-    "options": {
-      "A": "A) el Maximato.",
-      "B": "B) la Revolución Mexicana.",
-      "C": "C) el Milagro Mexicano.",
-      "D": "D) la Unidad Nacional."
-    },
-    "correct_answer": "B",
     "area": 4,
     "area_name": "Humanidades y de las Artes",
     "models": [
