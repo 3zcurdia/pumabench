@@ -36,6 +36,7 @@
     "provider": "deepseek",
     "type": "moe",
     "parameters": 304180418494,
+    "open": true,
     "pricing": {
       "prompt": "0.00000009",
       "completion": "0.00000018",
@@ -123,6 +124,7 @@
     "provider": "google",
     "type": "dense",
     "parameters": 31273088876,
+    "open": true,
     "pricing": {
       "prompt": "0",
       "completion": "0"
@@ -374,6 +376,7 @@
     "provider": "qwen",
     "type": "dense",
     "parameters": null,
+    "open": true,
     "pricing": {
       "prompt": "0.00000003",
       "completion": "0.00000013",
@@ -485,6 +488,19 @@
       "prompt": "0.00000014",
       "completion": "0.00000028",
       "input_cache_read": "0.0000000028"
+    }
+  },
+  {
+    "id": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "provider": "z-ai",
+    "type": "moe",
+    "parameters": 753329940480,
+    "open": true,
+    "pricing": {
+      "prompt": "0.00000076",
+      "completion": "0.00000242",
+      "input_cache_read": "0.00000014"
     }
   }
 ]
