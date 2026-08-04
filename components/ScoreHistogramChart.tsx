@@ -49,9 +49,9 @@ function BucketTooltip({ active, payload }: any) {
 export default function ScoreHistogramChart({ data }: Props) {
   const chartData: HistogramRow[] = useMemo(() => {
     const effortOrder: Record<string, number> = {
-      low: 0,
-      medium: 1,
-      none: 2,
+      none: 0,
+      low: 1,
+      medium: 2,
       high: 3,
     };
 

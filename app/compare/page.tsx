@@ -2,17 +2,16 @@ import Link from "next/link";
 import CompareClient, {
   type CompareModel,
 } from "@/components/CompareClient";
-import { getAllModels } from "@/lib/data";
+import { getAllModelsBest } from "@/lib/data";
 
 export const metadata = {
   title: "Comparar modelos — Resultados de Pumabench",
 };
 
 export default function ComparePage() {
-  const models: CompareModel[] = getAllModels().map((m) => ({
-    modelKey: `${m.model}::${m.effort}`,
+  const models: CompareModel[] = getAllModelsBest().map((m) => ({
+    modelKey: m.model,
     model: m.model,
-    effort: m.effort,
     overallPercentage: m.overallPercentage,
     overallCorrect: m.totalCorrect,
     overallQuestions: m.totalQuestions,

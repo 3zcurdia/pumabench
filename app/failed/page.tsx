@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import Link from "next/link";
 import FailedQuestionsList from "@/components/FailedQuestionsList";
-import { getAllModels } from "@/lib/data";
+import { getAllModelsBest } from "@/lib/data";
 import type { GlobalFailedQuestion } from "@/lib/types";
 
 function getFailedQuestions(): GlobalFailedQuestion[] {
@@ -18,7 +18,7 @@ export const metadata = {
 
 export default function FailedQuestionsPage() {
   const questions = getFailedQuestions();
-  const models = getAllModels().map((m) => ({ model: m.model }));
+  const models = getAllModelsBest().map((m) => ({ model: m.model }));
 
   return (
     <>

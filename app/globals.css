@@ -326,6 +326,18 @@ td.best {
   border: 1px solid #fecaca;
 }
 
+.effort-badge.effort-best {
+  outline: 1.5px solid currentColor;
+  outline-offset: 1px;
+}
+
+.model-name-efforts {
+  display: inline-flex;
+  gap: 4px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
 /* Cards */
 .card {
   background: var(--card);

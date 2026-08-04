@@ -1,66 +1,126 @@
 "use client";
 
-import { type ReactNode } from "react";
+import { type ReactNode, useState } from "react";
 import {
   Bar,
   BarChart,
   CartesianGrid,
   LabelList,
+  Legend,
   ResponsiveContainer,
   Tooltip,
   XAxis,
   YAxis,
 } from "recharts";
+import { effortColor } from "@/lib/effort-colors";
+import ViewToggle, { type ViewMode } from "./ViewToggle";
 
-export interface SubjectRow {
-  subject: string;
+export interface SubjectChartValue {
   percentage: number;
   correct: number;
   questions: number;
 }
 
-function ChartTooltip({ active, payload }: any) {
+export interface SubjectChartRow {
+  subject: string;
+  values: Record<string, SubjectChartValue>;
+}
+
+interface ChartRow {
+  subject: string;
+  values: Record<string, SubjectChartValue>;
+  [effortKey: string]: string | number | Record<string, SubjectChartValue>;
+}
+
+function ChartTooltip({ active, payload, label }: any) {
   if (!active || !payload?.length) return null;
-  const row: SubjectRow = payload[0].payload;
+  const row: ChartRow = payload[0].payload;
+  const entries: {
+    effort: string;
+    pct: number;
+    fill: string;
+    meta?: { percentage: number; correct: number; questions: number };
+  }[] = payload
+    .map((p: any) => ({
+      effort: p.name as string,
+      pct: Number(p.value),
+      fill: p.fill,
+      meta: row.values[p.name],
+    }))
+    .filter(
+      (e: { pct: number }) => Number.isFinite(e.pct),
+    )
+    .sort(
+      (a: { pct: number }, b: { pct: number }) => b.pct - a.pct,
+    );
   return (
     <div className="chart-tooltip">
-      <div className="chart-tooltip-title">{row.subject}</div>
-      <div>
-        Score: <strong>{row.percentage.toFixed(1)}%</strong>
-      </div>
-      <div>
-        Puntos: {row.correct}
-      </div>
+      <div className="chart-tooltip-title">{label}</div>
+      {entries.map((e) => (
+        <div key={e.effort} style={{ color: e.fill }}>
+          {e.effort}: <strong>{e.pct.toFixed(1)}%</strong>
+          {e.meta ? ` (${e.meta.correct}/${e.meta.questions})` : ""}
+        </div>
+      ))}
     </div>
   );
 }
 
 export default function SubjectsChart({
   data,
+  efforts,
   title,
 }: {
-  data: SubjectRow[];
+  data: SubjectChartRow[];
+  efforts: string[];
   title?: ReactNode;
 }) {
-  const safeData = data.filter(
-    (r) => Number.isFinite(r.correct) && Number.isFinite(r.questions) && Number.isFinite(r.percentage),
+  const [mode, setMode] = useState<ViewMode>("percentage");
+  const isPoints = mode === "points";
+
+  const chartData: ChartRow[] = data
+    .filter((r) =>
+      efforts.some((e) => {
+        const v = r.values[e];
+        return v && Number.isFinite(v.correct) && Number.isFinite(v.questions) && Number.isFinite(v.percentage);
+      }),
+    )
+    .map((row) => {
+      const flat: ChartRow = { subject: row.subject, values: row.values };
+      for (const effort of efforts) {
+        const v = row.values[effort];
+        flat[effort] = v ? (isPoints ? v.correct : v.percentage) : 0;
+      }
+      return flat;
+    });
+
+  const maxQuestions = Math.max(
+    1,
+    ...data.flatMap((r) =>
+      efforts.map((e) => r.values[e]?.questions ?? 0),
+    ),
   );
-  const height = Math.max(200, safeData.length * 38 + 40);
+
+  const height = Math.max(200, chartData.length * 44 + 40);
 
   const chart = (
     <div style={{ width: "100%", height }}>
       <ResponsiveContainer>
         <BarChart
-          data={safeData}
+          data={chartData}
           layout="vertical"
           margin={{ top: 8, right: 64, bottom: 8, left: 8 }}
+          barCategoryGap="20%"
+          barGap={2}
         >
           <CartesianGrid horizontal={false} stroke="#e2e8f0" />
           <XAxis
             type="number"
-            domain={[0, 100]}
-            tickFormatter={(v: number) => `${v}%`}
-            allowDecimals={false}
+            domain={isPoints ? [0, maxQuestions] : [0, 100]}
+            tickFormatter={
+              isPoints ? (v: number) => `${Math.round(v)}` : (v: number) => `${v}%`
+            }
+            allowDecimals={!isPoints}
             fontSize={12}
             stroke="#64748b"
           />
@@ -75,22 +135,38 @@ export default function SubjectsChart({
           />
           <Tooltip
             content={<ChartTooltip />}
-            cursor={{ fill: "rgba(124, 58, 237, 0.06)" }}
+            cursor={{ fill: "rgba(15, 23, 42, 0.04)" }}
           />
-          <Bar
-            dataKey="percentage"
-            fill="#7c3aed"
-            radius={[0, 4, 4, 0]}
-            barSize={28}
-          >
-            <LabelList
-              dataKey="percentage"
-              position="right"
-              formatter={(v: number) => `${v.toFixed(1)}%`}
-              fontSize={12}
-              fill="#0f172a"
+          {efforts.length > 1 && (
+            <Legend
+              wrapperStyle={{ fontSize: 12, paddingTop: 8 }}
+              iconType="circle"
+              formatter={(value: string) => (
+                <span style={{ color: "#0f172a" }}>{value}</span>
+              )}
             />
-          </Bar>
+          )}
+          {efforts.map((effort) => (
+            <Bar
+              key={effort}
+              dataKey={effort}
+              name={effort}
+              fill={effortColor(effort)}
+              radius={[0, 4, 4, 0]}
+            >
+              {efforts.length === 1 && (
+                <LabelList
+                  dataKey={effort}
+                  position="right"
+                  formatter={(v: number) =>
+                    isPoints ? `${Math.round(v)}` : `${v.toFixed(1)}%`
+                  }
+                  fontSize={12}
+                  fill="#0f172a"
+                />
+              )}
+            </Bar>
+          ))}
         </BarChart>
       </ResponsiveContainer>
     </div>
@@ -102,6 +178,7 @@ export default function SubjectsChart({
     <>
       <div className="chart-card-head">
         <h2 className="card-title">{title}</h2>
+        <ViewToggle value={mode} onChange={setMode} />
       </div>
       {chart}
     </>

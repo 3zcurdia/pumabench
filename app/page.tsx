@@ -1,16 +1,15 @@
 import Link from "next/link";
 import AreaRankingsChart from "@/components/AreaRankingsChart";
-import EffortBadge from "@/components/EffortBadge";
 import OverviewChart from "@/components/OverviewChart";
 import ScoreHistogramChart from "@/components/ScoreHistogramChart";
 import ScoreVsParamsChart from "@/components/ScoreVsParamsChart";
 import ScoreVsPricingChart from "@/components/ScoreVsPricingChart";
 import SubjectRankingsChart from "@/components/SubjectRankingsChart";
 import TabPanel from "@/components/TabPanel";
-import { getAllModels, getModelParams, getModelOpen, getModelPricing } from "@/lib/data";
+import { getAllModelsBest, getModelParams, getModelOpen, getModelPricing } from "@/lib/data";
 
 export default function HomePage() {
-  const models = getAllModels();
+  const models = getAllModelsBest();
   const params = getModelParams();
   const openMap = getModelOpen();
   const pricing = getModelPricing();
@@ -128,13 +127,12 @@ export default function HomePage() {
             </thead>
             <tbody>
               {models.map((m, i) => (
-                <tr key={`${m.model}::${m.effort}`}>
+                <tr key={m.model}>
                   <td className="muted">{i + 1}</td>
                   <td>
                     <Link href={`/model/${encodeURIComponent(m.model)}`}>
                       {m.model}
                     </Link>
-                    <EffortBadge effort={m.effort} />
                   </td>
                   <td className="num">
                     <strong>{m.overallPercentage.toFixed(1)}%</strong> (

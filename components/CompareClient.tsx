@@ -13,7 +13,6 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import EffortBadge from "./EffortBadge";
 import ViewToggle, { type ViewMode } from "./ViewToggle";
 import CompareAreasRadarChart from "./CompareAreasRadarChart";
 import CompareSubjectsRadarChart from "./CompareSubjectsRadarChart";
@@ -29,7 +28,6 @@ export interface CompareArea {
 export interface CompareModel {
   modelKey: string;
   model: string;
-  effort: string;
   overallPercentage: number;
   overallCorrect: number;
   overallQuestions: number;
@@ -58,8 +56,7 @@ function CompareTooltip({ active, payload, label }: any) {
       const pct = row[`k${idx}`];
       const correct = row[`p${idx}`];
       const questions = row[`q${idx}`];
-      const effort = row[`e${idx}`];
-      return { p, pct, correct, questions, effort };
+      return { p, pct, correct, questions };
     })
     .filter((e: any) => e.pct !== undefined)
     .sort((a: any, b: any) => Number(b.pct) - Number(a.pct));
@@ -71,9 +68,7 @@ function CompareTooltip({ active, payload, label }: any) {
       </div>
       {entries.map((e: any) => (
         <div key={String(e.p.dataKey)} style={{ color: e.p.fill }}>
-          {e.p.name}
-          {e.effort ? <EffortBadge effort={e.effort} /> : null}:{" "}
-          <strong>{Number(e.pct).toFixed(1)}%</strong> (
+          {e.p.name}: <strong>{Number(e.pct).toFixed(1)}%</strong> (
           {e.correct}/{e.questions})
         </div>
       ))}
@@ -86,7 +81,7 @@ function SubjectCompareTooltip({ active, payload, label }: any) {
   const entries = [...payload]
     .map((p: any) => {
       const idx = Number(String(p.dataKey).slice(1));
-      return { p, pct: Number(p.value), effort: payload[0]?.payload?.[`e${idx}`] };
+      return { p, pct: Number(p.value) };
     })
     .filter((e: any) => !Number.isNaN(e.pct))
     .sort((a: any, b: any) => b.pct - a.pct);
@@ -95,9 +90,7 @@ function SubjectCompareTooltip({ active, payload, label }: any) {
       <div className="chart-tooltip-title">{label}</div>
       {entries.map((e: any) => (
         <div key={String(e.p.dataKey)} style={{ color: e.p.fill }}>
-          {e.p.name}
-          {e.effort ? <EffortBadge effort={e.effort} /> : null}:{" "}
-          <strong>{e.pct.toFixed(1)}%</strong>
+          {e.p.name}: <strong>{e.pct.toFixed(1)}%</strong>
         </div>
       ))}
     </div>
@@ -154,7 +147,6 @@ function CompareInner({ models }: { models: CompareModel[] }) {
         row[`k${i}`] = a.percentage;
         row[`p${i}`] = a.correct;
         row[`q${i}`] = a.questions;
-        row[`e${i}`] = m.effort;
       }
     });
     return row;
@@ -187,7 +179,6 @@ function CompareInner({ models }: { models: CompareModel[] }) {
       const s = m.subjects[subject];
       if (s !== undefined) {
         row[`k${i}`] = s.percentage;
-        row[`e${i}`] = m.effort;
       }
     });
     return row;
@@ -230,7 +221,6 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                 >
                   ↗
                 </Link>
-                <EffortBadge effort={m.effort} />
                 <span className="muted">{m.overallPercentage.toFixed(1)}%</span>
               </label>
             );
@@ -287,7 +277,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                       <Bar
                         key={m.modelKey}
                         dataKey={isPoints ? `p${i}` : `k${i}`}
-                        name={`${m.model} [${m.effort}]`}
+                        name={m.model}
                         fill={PALETTE[i % PALETTE.length]}
                         radius={[3, 3, 0, 0]}
                       />
@@ -322,7 +312,6 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                           }}
                         />
                         {m.model}
-                        <EffortBadge effort={m.effort} />
                       </th>
                     ))}
                   </tr>
@@ -424,7 +413,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                       <Bar
                         key={m.modelKey}
                         dataKey={`k${i}`}
-                        name={`${m.model} [${m.effort}]`}
+                        name={m.model}
                         fill={PALETTE[i % PALETTE.length]}
                         radius={[3, 3, 0, 0]}
                       />
@@ -459,7 +448,6 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                           }}
                         />
                         {m.model}
-                        <EffortBadge effort={m.effort} />
                       </th>
                     ))}
                   </tr>

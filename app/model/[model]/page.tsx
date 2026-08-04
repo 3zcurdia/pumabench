@@ -1,57 +1,26 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import AreasChart from "@/components/AreasChart";
-import AreasRadarChart from "@/components/AreasRadarChart";
+import AreasRadarChart, {
+  type AreaRadarSeries,
+} from "@/components/AreasRadarChart";
 import EffortBadge from "@/components/EffortBadge";
+import ModelFailedQuestions from "@/components/ModelFailedQuestions";
 import SubjectsChart from "@/components/SubjectsChart";
-import SubjectsRadarChart from "@/components/SubjectsRadarChart";
-import { getAllModels, getFailedQuestions, getModel } from "@/lib/data";
-import { renderOptionValue } from "@/lib/options";
+import SubjectsRadarChart, {
+  type SubjectRadarSeries,
+} from "@/components/SubjectsRadarChart";
+import {
+  getAllModelsBest,
+  getFailedQuestions,
+  getModelBest,
+  getModelEfforts,
+  getModelSummaries,
+} from "@/lib/data";
 import type { FailedQuestion } from "@/lib/types";
 
-function FailedQuestionCard({ fq }: { fq: FailedQuestion }) {
-  const optionKeys = Object.keys(fq.options);
-  return (
-    <div className="failed-question-card">
-      <div className="failed-question-header">
-        <span className="failed-question-number">#{fq.number}</span>
-        <span className="failed-question-subject">{fq.subject}</span>
-        <span className="failed-question-area">
-          Área {fq.area}
-        </span>
-      </div>
-      <p className="failed-question-text">{fq.question}</p>
-      {fq.reference?.content && (
-        <details className="failed-question-context">
-          <summary>Contexto</summary>
-          <p className="failed-question-context-text">{fq.reference.content}</p>
-        </details>
-      )}
-      <div className="failed-question-options">
-        {optionKeys.map((key) => {
-          const isCorrect = key === fq.correctAnswer;
-          const isModelAnswer = key === fq.modelAnswer;
-          let cls = "failed-option";
-          if (isCorrect) cls += " option-correct";
-          if (isModelAnswer && !isCorrect) cls += " option-wrong";
-          return (
-            <div key={key} className={cls}>
-              <span className="option-label">{key})</span>{" "}
-              {renderOptionValue(fq.options[key])}
-              {isCorrect && <span className="option-tag tag-correct">Correcta</span>}
-              {isModelAnswer && !isCorrect && (
-                <span className="option-tag tag-wrong">Respondida</span>
-              )}
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
-}
-
 export function generateStaticParams() {
-  return getAllModels().map((m) => ({ model: m.model }));
+  return getAllModelsBest().map((m) => ({ model: m.model }));
 }
 
 export const dynamicParams = false;
@@ -71,39 +40,85 @@ export default async function ModelPage({
   params: Promise<{ model: string }>;
 }) {
   const { model } = await params;
-  const summary = getModel(model);
-  if (!summary) notFound();
+  const summaries = getModelSummaries(model);
+  if (summaries.length === 0) notFound();
 
-  const areaRows = summary.areas.map((a) => ({
-    label: `Área ${a.area}`,
-    areaName: a.area_name,
-    percentage: a.total.percentage,
-    correct: a.total.correct,
-    questions: a.total.questions,
+  const best = getModelBest(model)!;
+  const efforts = getModelEfforts(model);
+  const multi = summaries.length > 1;
+  const base = summaries[0];
+
+  const areaRows = base.areas.map((a) => {
+    const values: Record<
+      string,
+      { percentage: number; correct: number; questions: number }
+    > = {};
+    for (const s of summaries) {
+      const ad = s.areas.find((x) => x.area === a.area);
+      if (ad) {
+        values[s.effort] = {
+          percentage: ad.total.percentage,
+          correct: ad.total.correct,
+          questions: ad.total.questions,
+        };
+      }
+    }
+    return {
+      area: `Área ${a.area}`,
+      areaName: a.area_name,
+      values,
+    };
+  });
+
+  const areaRadarSeries: AreaRadarSeries[] = summaries.map((s) => ({
+    effort: s.effort,
+    points: base.areas.map((a) => {
+      const ad = s.areas.find((x) => x.area === a.area);
+      return {
+        area: `Área ${a.area}`,
+        percentage: ad?.total.percentage ?? 0,
+        correct: ad?.total.correct ?? 0,
+        questions: ad?.total.questions ?? 0,
+      };
+    }),
   }));
 
-  const radarRows = summary.areas.map((a) => ({
-    area: `Área ${a.area}`,
-    percentage: a.total.percentage,
-    correct: a.total.correct,
-    questions: a.total.questions,
-  }));
+  const subjectNames = Object.keys(base.subjects).sort((a, b) =>
+    a.localeCompare(b, "es"),
+  );
 
-  const subjectRows = Object.entries(summary.subjects)
-    .map(([subject, s]) => ({
+  const subjectRows = subjectNames.map((subject) => {
+    const values: Record<
+      string,
+      { percentage: number; correct: number; questions: number }
+    > = {};
+    for (const s of summaries) {
+      const sub = s.subjects[subject];
+      if (sub) {
+        values[s.effort] = {
+          percentage: sub.percentage,
+          correct: sub.correct,
+          questions: sub.questions,
+        };
+      }
+    }
+    return { subject, values };
+  });
+
+  const subjectRadarSeries: SubjectRadarSeries[] = summaries.map((s) => ({
+    effort: s.effort,
+    points: subjectNames.map((subject) => ({
       subject,
-      percentage: s.percentage,
-      correct: s.correct,
-      questions: s.questions,
-    }))
-    .sort((a, b) => b.percentage - a.percentage);
+      percentage: s.subjects[subject]?.percentage ?? 0,
+    })),
+  }));
 
-  const failedQuestions = getFailedQuestions(model, summary.effort);
-  const failedByArea = new Map<number, FailedQuestion[]>();
-  for (const fq of failedQuestions) {
-    const list = failedByArea.get(fq.area) ?? [];
-    list.push(fq);
-    failedByArea.set(fq.area, list);
+  const byEffort: Record<string, FailedQuestion[]> = {};
+  let anyFailed = false;
+  for (const s of summaries) {
+    const fq = getFailedQuestions(model, s.effort);
+    byEffort[s.effort] = fq;
+    if (fq.length > 0) anyFailed = true;
   }
 
   return (
@@ -114,16 +129,32 @@ export default async function ModelPage({
 
       <div className="page-head">
         <h1 className="model-name">
-          {summary.model}
-          <EffortBadge effort={summary.effort} />
+          {best.model}
+          <span className="model-name-efforts">
+            {efforts.map((e) => (
+              <EffortBadge
+                key={e}
+                effort={e}
+                className={e === best.effort ? "effort-best" : undefined}
+              />
+            ))}
+          </span>
         </h1>
         <div className="chips">
           <span className="chip chip-primary">
-            Score promedio: {summary.overallPercentage.toFixed(1)}%
+            Mejor score: {best.overallPercentage.toFixed(1)}% ({best.effort})
           </span>
-          <span className="chip">Promedio de {summary.areas.length} áreas</span>
+          {multi &&
+            summaries
+              .filter((s) => s.effort !== best.effort)
+              .map((s) => (
+                <span key={s.effort} className="chip">
+                  {s.effort}: {s.overallPercentage.toFixed(1)}%
+                </span>
+              ))}
+          <span className="chip">Promedio de {base.areas.length} áreas</span>
           <Link
-            href={`/compare?models=${encodeURIComponent(summary.model + "::" + summary.effort)}`}
+            href={`/compare?models=${encodeURIComponent(best.model)}`}
             className="chip"
           >
             Comparar →
@@ -133,9 +164,9 @@ export default async function ModelPage({
 
       <div className="card-duo">
         <section className="card">
-          <AreasChart data={areaRows} title="Score por área" />
+          <AreasChart data={areaRows} efforts={efforts} title="Score por área" />
           <ul className="area-legend muted">
-            {summary.areas.map((a) => (
+            {base.areas.map((a) => (
               <li key={a.area}>
                 <strong>Área {a.area}:</strong> {a.area_name}
               </li>
@@ -145,7 +176,7 @@ export default async function ModelPage({
 
         <section className="card">
           <h2 className="card-title">Resumen por área</h2>
-          <AreasRadarChart data={radarRows} />
+          <AreasRadarChart series={areaRadarSeries} />
         </section>
       </div>
 
@@ -156,23 +187,39 @@ export default async function ModelPage({
             <thead>
               <tr>
                 <th>Área</th>
-                <th className="num">Preguntas</th>
-                <th className="num">Correctas</th>
-                <th className="num">Calificación</th>
+                {efforts.map((e) => (
+                  <th key={e} className="num">
+                    {e}
+                  </th>
+                ))}
               </tr>
             </thead>
             <tbody>
-              {summary.areas.map((a) => (
+              {base.areas.map((a) => (
                 <tr key={a.area}>
                   <td>
                     Área {a.area} — {a.area_name}
                   </td>
-                  <td className="num">{a.total.questions}</td>
-                  <td className="num">{a.total.correct}</td>
-                  <td className="num">
-                    <strong>{a.total.percentage.toFixed(1)}%</strong> (
-                    {a.total.correct}/{a.total.questions})
-                  </td>
+                  {efforts.map((e) => {
+                    const s = summaries.find((x) => x.effort === e);
+                    const ad = s?.areas.find((x) => x.area === a.area);
+                    if (!ad)
+                      return (
+                        <td key={e} className="num">
+                          —
+                        </td>
+                      );
+                    const isBest = e === best.effort;
+                    return (
+                      <td
+                        key={e}
+                        className={`num${isBest ? " best" : ""}`}
+                      >
+                        {ad.total.percentage.toFixed(1)}% (
+                        {ad.total.correct}/{ad.total.questions})
+                      </td>
+                    );
+                  })}
                 </tr>
               ))}
             </tbody>
@@ -182,34 +229,75 @@ export default async function ModelPage({
 
       <div className="card-duo">
         <section className="card">
-          <SubjectsChart data={subjectRows} title="Score por materia" />
+          <SubjectsChart
+            data={subjectRows}
+            efforts={efforts}
+            title="Score por materia"
+          />
         </section>
 
         <section className="card">
           <h2 className="card-title">Resumen por materia</h2>
-          <SubjectsRadarChart data={subjectRows} />
+          <SubjectsRadarChart
+            series={subjectRadarSeries}
+            subjects={subjectNames}
+          />
         </section>
       </div>
 
-      {failedQuestions.length > 0 && (
-        <section className="card failed-questions-section">
-          <h2 className="card-title">
-            Preguntas falladas
-            <span className="failed-count-badge">{failedQuestions.length}</span>
-          </h2>
-          {Array.from(failedByArea.entries())
-            .sort(([a], [b]) => a - b)
-            .map(([area, questions]) => (
-              <div key={area} className="failed-area-group">
-                <h3 className="failed-area-title">
-                  Área {area} — {questions[0].areaName}
-                </h3>
-                {questions.map((fq) => (
-                  <FailedQuestionCard key={`${area}-${fq.number}`} fq={fq} />
+      {multi && subjectNames.length > 0 && (
+        <section className="card">
+          <h2 className="card-title">Detalle por materia</h2>
+          <div className="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Materia</th>
+                  {efforts.map((e) => (
+                    <th key={e} className="num">
+                      {e}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {subjectNames.map((subject) => (
+                  <tr key={subject}>
+                    <td>{subject}</td>
+                    {efforts.map((e) => {
+                      const s = summaries.find((x) => x.effort === e);
+                      const sub = s?.subjects[subject];
+                      if (!sub)
+                        return (
+                          <td key={e} className="num">
+                            —
+                          </td>
+                        );
+                      const isBest = e === best.effort;
+                      return (
+                        <td
+                          key={e}
+                          className={`num${isBest ? " best" : ""}`}
+                        >
+                          {sub.percentage.toFixed(1)}% ({sub.correct}/
+                          {sub.questions})
+                        </td>
+                      );
+                    })}
+                  </tr>
                 ))}
-              </div>
-            ))}
+              </tbody>
+            </table>
+          </div>
         </section>
+      )}
+
+      {anyFailed && (
+        <ModelFailedQuestions
+          efforts={efforts}
+          byEffort={byEffort}
+          defaultEffort={best.effort}
+        />
       )}
     </>
   );

@@ -78,7 +78,7 @@ export default function CompareSubjectsRadarChart({
           {selected.map((m, i) => (
             <Radar
               key={m.modelKey}
-              name={`${m.model} [${m.effort}]`}
+              name={m.model}
               dataKey={`k${i}`}
               stroke={PALETTE[i % PALETTE.length]}
               fill={PALETTE[i % PALETTE.length]}

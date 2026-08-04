@@ -9,6 +9,13 @@ import type {
 
 const QUESTIONS_PER_AREA = 120;
 
+const EFFORT_ORDER: Record<string, number> = {
+  none: 0,
+  low: 1,
+  medium: 2,
+  high: 3,
+};
+
 const AREA_NAMES: Record<number, string> = {
   1: "Ciencias Físico-Matemáticas y de las Ingenierías",
   2: "Ciencias Biológicas, Químicas y de la Salud",
@@ -160,12 +167,50 @@ function getModels(): ModelSummary[] {
   return cachedModels;
 }
 
-export function getAllModels(): ModelSummary[] {
-  return getModels();
+function pickBest(rows: ModelSummary[]): ModelSummary {
+  return rows.reduce((best, row) => {
+    if (row.overallPercentage > best.overallPercentage) return row;
+    if (row.overallPercentage < best.overallPercentage) return best;
+    const rowOrder = EFFORT_ORDER[row.effort] ?? 99;
+    const bestOrder = EFFORT_ORDER[best.effort] ?? 99;
+    return rowOrder < bestOrder ? row : best;
+  });
 }
 
-export function getModel(name: string): ModelSummary | null {
-  return getModels().find((m) => m.model === name) ?? null;
+export function getAllModelsBest(): ModelSummary[] {
+  const groups = new Map<string, ModelSummary[]>();
+  for (const m of getModels()) {
+    const list = groups.get(m.model) ?? [];
+    list.push(m);
+    groups.set(m.model, list);
+  }
+  return Array.from(groups.values())
+    .map(pickBest)
+    .sort((a, b) => b.overallPercentage - a.overallPercentage);
+}
+
+export function getModelBest(name: string): ModelSummary | null {
+  const rows = getModels().filter((m) => m.model === name);
+  if (rows.length === 0) return null;
+  return pickBest(rows);
+}
+
+export function getModelEfforts(name: string): string[] {
+  const seen = new Set<string>();
+  for (const m of getModels()) {
+    if (m.model === name) seen.add(m.effort);
+  }
+  return Array.from(seen).sort(
+    (a, b) => (EFFORT_ORDER[a] ?? 99) - (EFFORT_ORDER[b] ?? 99),
+  );
+}
+
+export function getModelSummaries(name: string): ModelSummary[] {
+  return getModels()
+    .filter((m) => m.model === name)
+    .sort(
+      (a, b) => (EFFORT_ORDER[a.effort] ?? 99) - (EFFORT_ORDER[b.effort] ?? 99),
+    );
 }
 
 const MODELS_JSON_PATH = path.join(process.cwd(), "data", "models.json");
