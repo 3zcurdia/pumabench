@@ -17,6 +17,7 @@ import {
   getModelEfforts,
   getModelSummaries,
 } from "@/lib/data";
+import { sortSubjects } from "@/lib/subjects-order";
 import type { FailedQuestion } from "@/lib/types";
 
 export function generateStaticParams() {
@@ -83,9 +84,7 @@ export default async function ModelPage({
     }),
   }));
 
-  const subjectNames = Object.keys(base.subjects).sort((a, b) =>
-    a.localeCompare(b, "es"),
-  );
+  const subjectNames = sortSubjects(Object.keys(base.subjects));
 
   const subjectRows = subjectNames.map((subject) => {
     const values: Record<

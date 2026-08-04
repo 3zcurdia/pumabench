@@ -7,6 +7,7 @@ import ScoreVsPricingChart from "@/components/ScoreVsPricingChart";
 import SubjectRankingsChart from "@/components/SubjectRankingsChart";
 import TabPanel from "@/components/TabPanel";
 import { getAllModelsBest, getModelParams, getModelOpen, getModelPricing } from "@/lib/data";
+import { sortSubjects } from "@/lib/subjects-order";
 
 export default function HomePage() {
   const models = getAllModelsBest();
@@ -44,7 +45,7 @@ export default function HomePage() {
     .reverse();
 
   const areas = models[0]?.areas ?? [];
-  const subjects = Object.keys(models[0]?.subjects ?? {});
+  const subjects = sortSubjects(Object.keys(models[0]?.subjects ?? {}));
 
   const areaChartData = areas.map((a) => ({
     area: a.area,

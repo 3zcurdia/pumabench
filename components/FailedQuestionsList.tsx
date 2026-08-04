@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { renderOptionValue } from "@/lib/options";
+import { sortSubjects } from "@/lib/subjects-order";
 import type { GlobalFailedQuestion } from "@/lib/types";
 
 interface FailedQuestion extends GlobalFailedQuestion {}
@@ -128,7 +129,7 @@ export default function FailedQuestionsList({
   const subjects = useMemo(() => {
     const set = new Set<string>();
     for (const q of questions) set.add(q.subject);
-    return Array.from(set).sort();
+    return sortSubjects(set);
   }, [questions]);
 
   const filtered = useMemo(() => {

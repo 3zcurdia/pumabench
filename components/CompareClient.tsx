@@ -16,6 +16,7 @@ import {
 import ViewToggle, { type ViewMode } from "./ViewToggle";
 import CompareAreasRadarChart from "./CompareAreasRadarChart";
 import CompareSubjectsRadarChart from "./CompareSubjectsRadarChart";
+import { sortSubjects } from "@/lib/subjects-order";
 
 export interface CompareArea {
   area: number;
@@ -169,9 +170,9 @@ function CompareInner({ models }: { models: CompareModel[] }) {
       ),
     );
 
-  const subjectNames = [
-    ...new Set(selected.flatMap((m) => Object.keys(m.subjects))),
-  ];
+  const subjectNames = sortSubjects(
+    new Set(selected.flatMap((m) => Object.keys(m.subjects))),
+  );
 
   const subjectChartRows = subjectNames.map((subject) => {
     const row: Record<string, string | number> = { subject };
