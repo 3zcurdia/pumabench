@@ -7,8 +7,8 @@
   "area_name": "Ciencias Biológicas, Químicas y de la Salud",
   "total": {
     "questions": 120,
-    "correct": 99,
-    "percentage": 82.5
+    "correct": 100,
+    "percentage": 83.33
   },
   "subjects": {
     "Biología": {
@@ -43,8 +43,8 @@
     },
     "Historia de México": {
       "questions": 10,
-      "correct": 4,
-      "percentage": 40.0
+      "correct": 5,
+      "percentage": 50.0
     },
     "Literatura": {
       "questions": 10,
@@ -280,18 +280,6 @@
         "D": "D) Ante los Príncipes... la muestra... El Trabajo... la galería."
       },
       "correct_answer": "C"
-    },
-    {
-      "number": 113,
-      "subject": "Historia de México",
-      "question": "El gobierno de Anastasio Bustamante para mejorar la economía",
-      "options": {
-        "A": "A) estableció el impuesto por puertas y ventanas y fraccionó latifundios.",
-        "B": "B) suspendió el diezmo y subastó propiedades del clero.",
-        "C": "C) promulgó el Banco del Avío.",
-        "D": "D) estimuló la agricultura."
-      },
-      "correct_answer": "A"
     },
     {
       "number": 114,

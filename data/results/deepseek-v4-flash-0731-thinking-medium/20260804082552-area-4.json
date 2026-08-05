@@ -7,8 +7,8 @@
   "area_name": "Humanidades y de las Artes",
   "total": {
     "questions": 120,
-    "correct": 108,
-    "percentage": 90.0
+    "correct": 111,
+    "percentage": 92.5
   },
   "subjects": {
     "Biología": {
@@ -43,8 +43,8 @@
     },
     "Historia de México": {
       "questions": 10,
-      "correct": 6,
-      "percentage": 60.0
+      "correct": 9,
+      "percentage": 90.0
     },
     "Literatura": {
       "questions": 10,
@@ -147,7 +147,7 @@
         "C": "C) Todo fue puesto por nuestro señor Inkarri: las montañas, los animales...",
         "D": "D) La carretera convirtió a Puquio, de una pequeña ciudad de terratenientes e indios, en un centro comercial activo."
       },
-      "correct_answer": "D"
+      "correct_answer": "C"
     },
     {
       "number": 92,
@@ -162,30 +162,6 @@
       "correct_answer": "A"
     },
     {
-      "number": 102,
-      "subject": "Historia de México",
-      "question": "Causa interna de la independencia de la Nueva España",
-      "options": {
-        "A": "A) Invasión francesa a España.",
-        "B": "B) Independencia de las Trece Colonias.",
-        "C": "C) Consolidación de Vales Reales.",
-        "D": "D) Adopción de las ideas de la Ilustración."
-      },
-      "correct_answer": "D"
-    },
-    {
-      "number": 103,
-      "subject": "Historia de México",
-      "question": "Primer conflicto externo durante el gobierno de Santa Ana",
-      "options": {
-        "A": "A) Expedición española.",
-        "B": "B) Venta de la Mesilla.",
-        "C": "C) Guerra de los pasteles.",
-        "D": "D) Guerra de Texas."
-      },
-      "correct_answer": "C"
-    },
-    {
       "number": 106,
       "subject": "Historia de México",
       "question": "Las constantes reelecciones de Díaz y la opresión a grupos sociales fueron detonantes de",
@@ -196,18 +172,6 @@
         "D": "D) la Unidad Nacional."
       },
       "correct_answer": "B"
-    },
-    {
-      "number": 109,
-      "subject": "Historia de México",
-      "question": "La principal característica económica del gobierno de Manuel Ávila Camacho fue",
-      "options": {
-        "A": "A) la sustitución de importaciones.",
-        "B": "B) el apoyo a reclamos sindicales.",
-        "C": "C) el equilibrio de la balanza comercial.",
-        "D": "D) la expansión del mercado externo."
-      },
-      "correct_answer": "D"
     },
     {
       "number": 116,

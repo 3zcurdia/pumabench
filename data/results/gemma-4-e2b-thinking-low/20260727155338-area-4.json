@@ -7,8 +7,8 @@
   "area_name": "Humanidades y de las Artes",
   "total": {
     "questions": 120,
-    "correct": 105,
-    "percentage": 87.5
+    "correct": 103,
+    "percentage": 85.83
   },
   "subjects": {
     "Biología": {
@@ -18,8 +18,8 @@
     },
     "Español": {
       "questions": 18,
-      "correct": 12,
-      "percentage": 66.67
+      "correct": 11,
+      "percentage": 61.11
     },
     "Filosofía": {
       "questions": 10,
@@ -43,8 +43,8 @@
     },
     "Historia de México": {
       "questions": 10,
-      "correct": 6,
-      "percentage": 60.0
+      "correct": 5,
+      "percentage": 50.0
     },
     "Literatura": {
       "questions": 10,
@@ -212,6 +212,30 @@
       }
     },
     {
+      "number": 76,
+      "subject": "Español",
+      "question": "Identifica el párrafo con redacción adecuada.",
+      "options": {
+        "A": "A) El inca extranjero apresó a Inkarri su igual no sabemos dónde...",
+        "B": "B) Dicen que ahora Inkarri está en el Cuzco. Ignoramos quién lo habrá llevado...",
+        "C": "C) Todo fue puesto por nuestro señor Inkarri: las montañas, los animales...",
+        "D": "D) La carretera convirtió a Puquio, de una pequeña ciudad de terratenientes e indios, en un centro comercial activo."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 102,
+      "subject": "Historia de México",
+      "question": "Causa interna de la independencia de la Nueva España",
+      "options": {
+        "A": "A) Invasión francesa a España.",
+        "B": "B) Independencia de las Trece Colonias.",
+        "C": "C) Consolidación de Vales Reales.",
+        "D": "D) Adopción de las ideas de la Ilustración."
+      },
+      "correct_answer": "C"
+    },
+    {
       "number": 103,
       "subject": "Historia de México",
       "question": "Primer conflicto externo durante el gobierno de Santa Ana",
@@ -221,7 +245,7 @@
         "C": "C) Guerra de los pasteles.",
         "D": "D) Guerra de Texas."
       },
-      "correct_answer": "C"
+      "correct_answer": "D"
     },
     {
       "number": 104,
@@ -257,7 +281,7 @@
         "C": "C) el equilibrio de la balanza comercial.",
         "D": "D) la expansión del mercado externo."
       },
-      "correct_answer": "D"
+      "correct_answer": "A"
     },
     {
       "number": 116,
