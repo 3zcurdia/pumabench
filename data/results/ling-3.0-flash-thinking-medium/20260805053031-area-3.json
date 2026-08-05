@@ -1,0 +1,259 @@
+{
+  "id": "inclusionai/ling-3.0-flash:free",
+  "model": "ling-3.0-flash-thinking-medium",
+  "effort": "medium",
+  "timestamp": "20260805053031",
+  "area": 3,
+  "area_name": "Ciencias Sociales",
+  "total": {
+    "questions": 120,
+    "correct": 106,
+    "percentage": 88.33
+  },
+  "subjects": {
+    "Biología": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Español": {
+      "questions": 18,
+      "correct": 16,
+      "percentage": 88.89
+    },
+    "Filosofía": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Física": {
+      "questions": 10,
+      "correct": 8,
+      "percentage": 80.0
+    },
+    "Geografía": {
+      "questions": 10,
+      "correct": 8,
+      "percentage": 80.0
+    },
+    "Historia Universal": {
+      "questions": 14,
+      "correct": 14,
+      "percentage": 100.0
+    },
+    "Historia de México": {
+      "questions": 14,
+      "correct": 10,
+      "percentage": 71.43
+    },
+    "Literatura": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    },
+    "Matemáticas": {
+      "questions": 24,
+      "correct": 22,
+      "percentage": 91.67
+    },
+    "Química": {
+      "questions": 10,
+      "correct": 9,
+      "percentage": 90.0
+    }
+  },
+  "failed_questions": [
+    {
+      "number": 4,
+      "subject": "Física",
+      "question": "Una bala de 7.0 kg se dispara a 120 m/s. ¿Cuánta Ec tiene al salir y Ep en el punto más alto?",
+      "options": {
+        "A": "A) Ec = 50,400 J y Ep = 50,400 J",
+        "B": "B) Ec = 420 J y Ep = 420 J",
+        "C": "C) Ec = 50,400 J y Ep = 0 J",
+        "D": "D) Ec = 420 J y Ep = 0 J"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 10,
+      "subject": "Física",
+      "question": "Circuito con resistores R y 2R. Si circula 3I en una sección, ¿qué corriente circula por 2R?",
+      "options": {
+        "A": "A) 3I amperes.",
+        "B": "B) 0 amperes.",
+        "C": "C) I amperes.",
+        "D": "D) 2I amperes."
+      },
+      "correct_answer": "B",
+      "reference": {
+        "type": "text",
+        "path": "area-3-q10.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp10.webp",
+        "alt": "Figura asociada a la pregunta 10.",
+        "content": "En la figura se presenta un circuito eléctrico. A la izquierda, hay una fuente de voltaje representada por el símbolo \"V\". Desde esta fuente, sale una corriente de 3I. A continuación, se encuentran dos resistencias conectadas en paralelo. La primera resistencia tiene un valor de R y está situada en la parte superior. La segunda resistencia, ubicada en la parte inferior, tiene un valor de 2R. Ambas resistencias están conectadas a los mismos nodos, lo que indica que comparten el mismo voltaje. La disposición de las resistencias en paralelo sugiere que la corriente total que sale de la fuente se divide entre las dos resistencias.",
+        "derived_from": "area-3-q10.webp"
+      }
+    },
+    {
+      "number": 20,
+      "subject": "Literatura",
+      "question": "El fragmento de Fromm es un ejemplo de ficha",
+      "options": {
+        "A": "A) hemerográfica.",
+        "B": "B) de síntesis.",
+        "C": "C) bibliográfica.",
+        "D": "D) de cita textual."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 22,
+      "subject": "Química",
+      "question": "¿Qué postulado de Dalton prevalece en nuestros días?",
+      "options": {
+        "A": "A) Los átomos permanecen indivisibles.",
+        "B": "B) Los elementos están formados por átomos diminutos.",
+        "C": "C) Los átomos de un mismo elemento son iguales en masa.",
+        "D": "D) Los átomos de dos elementos se combinan en distintas proporciones."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "number": 36,
+      "subject": "Geografía",
+      "question": "Es una causa principal de la contaminación del agua.",
+      "options": {
+        "A": "A) Los desechos orgánicos.",
+        "B": "B) La polución agroquímica.",
+        "C": "C) Los derrames de petróleo.",
+        "D": "D) La deforestación."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "number": 37,
+      "subject": "Geografía",
+      "question": "Región más poblada de México y más atrayente para la migración rural-urbana.",
+      "options": {
+        "A": "A) Centro Occidente.",
+        "B": "B) Noroeste.",
+        "C": "C) Centro Sur.",
+        "D": "D) Sureste."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 54,
+      "subject": "Matemáticas",
+      "question": "¿Cuál expresión representa la ley de senos?",
+      "options": {
+        "A": "A) sen A/a = sen B/b",
+        "B": "B) sen A/b = sen B/a",
+        "C": "C) sen A/c = sen B/a",
+        "D": "D) sen B/c = sen A/b"
+      },
+      "correct_answer": "A",
+      "reference": {
+        "type": "text",
+        "path": "area-3-q54.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp54.webp",
+        "alt": "Figura asociada a la pregunta 54.",
+        "content": "En la figura se presenta un triángulo etiquetado con los vértices A, B y C. El vértice A está en la parte inferior derecha, el vértice B en la parte inferior izquierda y el vértice C en la parte superior. Los lados del triángulo están marcados con las letras correspondientes: el lado opuesto al vértice A está etiquetado como \"c\", el lado opuesto al vértice B como \"a\" y el lado opuesto al vértice C como \"b\". Las líneas que forman el triángulo son de un grosor uniforme y están dibujadas en negro. No hay otras marcas o anotaciones en la figura.",
+        "derived_from": "area-3-q54.webp"
+      }
+    },
+    {
+      "number": 58,
+      "subject": "Matemáticas",
+      "question": "¿Qué ecuación describe la siguiente gráfica?",
+      "options": {
+        "A": "A) y = x - 1/2",
+        "B": "B) y = 3/2 x - 1/2",
+        "C": "C) y = -3/2 x + 1/2",
+        "D": "D) y = x/2 - 1"
+      },
+      "correct_answer": "D",
+      "reference": {
+        "type": "text",
+        "path": "area-3-q58.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/02/UNAM2025areaIIIp58.webp",
+        "alt": "Figura asociada a la pregunta 58.",
+        "content": "En la figura se presenta un sistema de coordenadas cartesianas, donde se observan los ejes x e y. El eje x es horizontal y se extiende hacia la derecha, marcando valores positivos, mientras que el eje y es vertical y se extiende hacia arriba, también marcando valores positivos. Ambos ejes se cruzan en el origen, que está etiquetado como \"0\". \n\nLa línea que se dibuja en la figura es una recta que tiene una pendiente positiva, comenzando en el cuadrante inferior izquierdo y extendiéndose hacia el cuadrante superior derecho. Esta recta no intersecta el eje y en el origen, lo que indica que su intersección con el eje y se encuentra en un valor positivo. La recta se extiende indefinidamente en ambas direcciones, pero no se muestra su ecuación ni puntos específicos en la gráfica.",
+        "derived_from": "area-3-q58.webp"
+      }
+    },
+    {
+      "number": 77,
+      "subject": "Español",
+      "question": "¿Cuál párrafo está escrito correctamente?",
+      "options": {
+        "A": "A) Los personajes de la jarcha son principalmente la muchacha...",
+        "B": "B) Los personajes de la jarcha son: principalmente la muchacha...",
+        "C": "C) Los personajes de la jarcha son: principalmente la muchacha y el habib o amigo, —cómo se denomina al amante—; también aparece...",
+        "D": "D) Los personajes de la jarcha son, principalmente, la muchacha y el habib o amigo (cómo se denomina al amante)..."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 80,
+      "subject": "Español",
+      "question": "Selecciona la opción que contenga HOMÓFONOS.",
+      "options": {
+        "A": "A) Sebo — cebo",
+        "B": "B) Copiar — copear",
+        "C": "C) Arriar — arrear",
+        "D": "D) Trivial — tribal"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 108,
+      "subject": "Historia de México",
+      "question": "Son dos causas externas de la Independencia de la Nueva España.",
+      "options": {
+        "A": "A) Invasión napoleónica y difusión de revoluciones liberales.",
+        "B": "B) Reformas Borbónicas y abolición de la esclavitud.",
+        "C": "C) Invasión napoleónica e Independencia de las Trece Colonias.",
+        "D": "D) Difusión de revoluciones liberales y abolición de la esclavitud."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 116,
+      "subject": "Historia de México",
+      "question": "Una acción del periodo conocido como el Maximato fue la",
+      "options": {
+        "A": "A) Universidad obtuvo su autonomía.",
+        "B": "B) creación del PRI.",
+        "C": "C) creación del Banco de México.",
+        "D": "D) concesión del voto a la mujer."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 117,
+      "subject": "Historia de México",
+      "question": "Documento que proyectó apoyo a los ejidos y respeto al salario mínimo.",
+      "options": {
+        "A": "A) Acuerdos de Bucareli.",
+        "B": "B) Pacto de la Ciudadela.",
+        "C": "C) Plan Sexenal.",
+        "D": "D) Plan de la Acción Campesina."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 118,
+      "subject": "Historia de México",
+      "question": "La construcción de Ciudad Universitaria y carreteras a Acapulco fueron acciones de",
+      "options": {
+        "A": "A) Miguel Alemán Valdés.",
+        "B": "B) Manuel Ávila Camacho.",
+        "C": "C) Adolfo Ruiz Cortines.",
+        "D": "D) Adolfo López Mateos."
+      },
+      "correct_answer": "A"
+    }
+  ]
+}

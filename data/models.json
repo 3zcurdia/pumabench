@@ -162,6 +162,17 @@
     }
   },
   {
+    "id": "inclusionai/ling-3.0-flash:free",
+    "name": "Ling-3.0-flash (free)",
+    "provider": "inclusionai",
+    "type": "moe",
+    "parameters": 124000000000,
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  },
+  {
     "id": "laguna-xs-2.1",
     "name": "Poolside: Laguna XS 2.1",
     "provider": "laguna-xs-2.1",
