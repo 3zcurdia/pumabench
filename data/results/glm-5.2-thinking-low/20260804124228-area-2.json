@@ -1,0 +1,187 @@
+{
+  "id": "z-ai/glm-5.2",
+  "model": "glm-5.2-thinking-low",
+  "effort": "low",
+  "timestamp": "20260804124228",
+  "area": 2,
+  "area_name": "Ciencias Biológicas, Químicas y de la Salud",
+  "total": {
+    "questions": 120,
+    "correct": 112,
+    "percentage": 93.33
+  },
+  "subjects": {
+    "Biología": {
+      "questions": 13,
+      "correct": 13,
+      "percentage": 100.0
+    },
+    "Español": {
+      "questions": 18,
+      "correct": 18,
+      "percentage": 100.0
+    },
+    "Filosofía": {
+      "questions": 0,
+      "correct": 0,
+      "percentage": 0.0
+    },
+    "Física": {
+      "questions": 12,
+      "correct": 11,
+      "percentage": 91.67
+    },
+    "Geografía": {
+      "questions": 10,
+      "correct": 8,
+      "percentage": 80.0
+    },
+    "Historia Universal": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Historia de México": {
+      "questions": 10,
+      "correct": 8,
+      "percentage": 80.0
+    },
+    "Literatura": {
+      "questions": 10,
+      "correct": 10,
+      "percentage": 100.0
+    },
+    "Matemáticas": {
+      "questions": 24,
+      "correct": 22,
+      "percentage": 91.67
+    },
+    "Química": {
+      "questions": 13,
+      "correct": 12,
+      "percentage": 92.31
+    }
+  },
+  "failed_questions": [
+    {
+      "number": 2,
+      "subject": "Física",
+      "question": "Sobre un cuerpo se aplicaron diferentes fuerzas en dirección horizontal y con el mismo sentido provocando que el objeto experimentara distintas aceleraciones. ¿Cuál es la masa del objeto?",
+      "options": {
+        "A": "A) 1.6 kg",
+        "B": "B) 2.5 kg",
+        "C": "C) 3.2 kg",
+        "D": "D) 4.0 kg"
+      },
+      "correct_answer": "B",
+      "reference": {
+        "type": "text",
+        "path": "area-2-q2.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp2.webp",
+        "alt": "Figura asociada a la pregunta 2.",
+        "content": "El gráfico presenta un sistema de coordenadas cartesianas donde el eje vertical representa la fuerza en Newtons (N) y el eje horizontal representa la aceleración en metros por segundo al cuadrado (m/s²). En el eje de la fuerza, se marcan las siguientes divisiones: 1.00 N, 2.00 N, 3.00 N y 4.00 N, con líneas horizontales que indican los valores intermedios. En el eje de la aceleración, se marcan las divisiones en 0.50 m/s², 1.00 m/s², 1.50 m/s² y 2.00 m/s², con líneas verticales que también indican los valores intermedios.\n\nLos puntos en el gráfico están conectados por una línea recta que comienza en el origen (0,0) y se extiende hasta el punto (2.00, 4.00). Esta línea indica una relación lineal entre la fuerza y la aceleración, sugiriendo que a medida que la aceleración aumenta, la fuerza también lo hace de manera proporcional. La pendiente de la línea representa la relación entre fuerza y aceleración, de acuerdo con la segunda ley de Newton.",
+        "derived_from": "area-2-q2.webp"
+      }
+    },
+    {
+      "number": 34,
+      "subject": "Química",
+      "question": "La siguiente estructura representa a un",
+      "options": {
+        "A": "A) alqueno.",
+        "B": "B) aromático.",
+        "C": "C) alquino.",
+        "D": "D) alcano."
+      },
+      "correct_answer": "A",
+      "reference": {
+        "type": "text",
+        "path": "area-2-q34.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp34.webp",
+        "alt": "Figura asociada a la pregunta 34.",
+        "content": "La figura presenta una estructura química que consiste en un esqueleto de carbono. Se observan varias líneas que representan enlaces entre átomos de carbono. En la parte izquierda, hay un carbono que se conecta verticalmente a otro carbono, formando un ángulo. Este carbono está unido a un tercer carbono que se extiende horizontalmente hacia la derecha. \n\nA la derecha de este tercer carbono, hay un enlace que se dirige hacia abajo, formando un ángulo agudo con el carbono anterior. Luego, se observa un cuarto carbono que se conecta a este último, formando una cadena que se extiende hacia la derecha. Este carbono final tiene un enlace que se dirige hacia arriba, formando un ángulo con el carbono anterior. \n\nNo hay grupos funcionales visibles en la estructura, y todos los enlaces son simples. La figura no presenta ningún tipo de sustituyentes o ramificaciones adicionales.",
+        "derived_from": "area-2-q34.webp"
+      }
+    },
+    {
+      "number": 42,
+      "subject": "Geografía",
+      "question": "Las dos áreas de mayor concentración de población en el mundo son",
+      "options": {
+        "A": "A) Asia Oriental y Europa Occidental.",
+        "B": "B) Asia Occidental y Europa Occidental.",
+        "C": "C) Asia Meridional y Europa Occidental.",
+        "D": "D) Asia Meridional y Europa Meridional."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 43,
+      "subject": "Geografía",
+      "question": "Una de las principales causas de la separación de Ucrania de la URSS fue",
+      "options": {
+        "A": "A) la explosión de Chernóbil.",
+        "B": "B) el conflicto en Chechenia.",
+        "C": "C) la reestructuración económica de Gorbachov.",
+        "D": "D) el enfrentamiento en la Guerra Fría."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 50,
+      "subject": "Matemáticas",
+      "question": "Selecciona la desigualdad que tiene por solución [1/3, ∞)",
+      "options": {
+        "A": "A) 3x - 1 ≥ 0",
+        "B": "B) 3x - 1 ≤ 0",
+        "C": "C) -3x + 1 ≥ 0",
+        "D": "D) -3x + 1 ≤ 0"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "number": 52,
+      "subject": "Matemáticas",
+      "question": "La función de la gráfica es",
+      "options": {
+        "A": "A) f(x) = -√(8x - 16)",
+        "B": "B) f(x) = +√(8x - 16)",
+        "C": "C) f(x) = -√(-8x + 16)",
+        "D": "D) f(x) = +√(-8x + 16)"
+      },
+      "correct_answer": "A",
+      "reference": {
+        "type": "text",
+        "path": "area-2-q52.webp",
+        "source_url": "https://pumabecas.com/wp-content/uploads/2025/01/UNAM2025areaIIp52.webp",
+        "alt": "Figura asociada a la pregunta 52.",
+        "content": "El gráfico presenta un sistema de coordenadas cartesianas con el eje vertical etiquetado como \\( f(x) \\) y el eje horizontal como \\( x \\). El eje \\( f(x) \\) tiene marcas en 1, 2 y 3 hacia arriba desde el origen, mientras que el eje \\( x \\) tiene marcas en 0, 1, 2 y 3 hacia la derecha desde el origen.\n\nLa curva representada es una función que se aproxima a un valor en el eje \\( f(x) \\) a medida que \\( x \\) se acerca a 2 desde la izquierda, pero no toca el punto \\( (2, f(2)) \\). La curva desciende hacia el eje \\( x \\) y se aproxima a un valor negativo a medida que \\( x \\) se aleja de 2 hacia la derecha. No hay intersección con el eje \\( x \\) en el intervalo \\( (2, 3) \\). La curva es continua en el intervalo \\( (0, 2) \\) y presenta un comportamiento asintótico en \\( x = 2 \\).",
+        "derived_from": "area-2-q52.webp"
+      }
+    },
+    {
+      "number": 112,
+      "subject": "Historia de México",
+      "question": "¿En qué momento se promulgó la Constitución de Apatzingán?",
+      "options": {
+        "A": "A) La organización.",
+        "B": "B) El inicio.",
+        "C": "C) La consumación.",
+        "D": "D) La guerrilla insurgente."
+      },
+      "correct_answer": "A"
+    },
+    {
+      "number": 113,
+      "subject": "Historia de México",
+      "question": "El gobierno de Anastasio Bustamante para mejorar la economía",
+      "options": {
+        "A": "A) estableció el impuesto por puertas y ventanas y fraccionó latifundios.",
+        "B": "B) suspendió el diezmo y subastó propiedades del clero.",
+        "C": "C) promulgó el Banco del Avío.",
+        "D": "D) estimuló la agricultura."
+      },
+      "correct_answer": "A"
+    }
+  ]
+}
