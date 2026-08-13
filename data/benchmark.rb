@@ -729,7 +729,7 @@ def run_evaluate(model_filter: nil, resume_ts: nil, model_id: nil)
 end
 
 # Default api base set to local ollama instance
-cli_options = { provider: nil, effort: nil, api_base: "http://localhost:11434/v1", api_key: "dummy-key", evaluate_only: false, resume: false, dry_run: false, rebuild: false, retry_failed: false }
+cli_options = { provider: nil, effort: nil, api_base: "http://localhost:1234/v1", api_key: "dummy-key", evaluate_only: false, resume: false, dry_run: false, rebuild: false, retry_failed: false }
 OptionParser.new do |opts|
   opts.banner = "Usage: ruby benchmark.rb <model> [--provider=openai|openrouter] [--effort=low|medium|high] [--resume] [--rebuild] [--retry-failed] [--dry-run]\n" \
                 "       ruby benchmark.rb --evaluate-only\n" \
