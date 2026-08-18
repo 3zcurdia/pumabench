@@ -412,6 +412,18 @@
     }
   },
   {
+    "id": "qwen/qwen3.8-27b",
+    "name": "Qwen: Qwen3.8 27B",
+    "provider": "qwen",
+    "type": "dense",
+    "parameters": 27781427952,
+    "pricing": {
+      "prompt": "0.00000045",
+      "completion": "0.0000032",
+      "input_cache_read": "0.00000005"
+    }
+  },
+  {
     "id": "qwen3.5-0.8b",
     "name": "qwen3.5-0.8b",
     "provider": "qwen3.5-0.8b",
