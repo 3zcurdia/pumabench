@@ -128,11 +128,11 @@ export default function ScoreVsParamsChart({ data }: { data: ScatterRow[] }) {
       </p>
       <div style={{ display: "flex", gap: 16, marginBottom: 8, fontSize: 13 }}>
         <span style={{ display: "flex", alignItems: "center", gap: 4 }}>
-          <span style={{ width: 10, height: 10, borderRadius: "50%", background: "#2563eb", display: "inline-block" }} />
+          <span style={{ width: 10, height: 10, borderRadius: "50%", background: "var(--accent)", display: "inline-block" }} />
           Abierto
         </span>
         <span style={{ display: "flex", alignItems: "center", gap: 4 }}>
-          <span style={{ width: 10, height: 10, borderRadius: "50%", background: "#94a3b8", display: "inline-block" }} />
+          <span style={{ width: 10, height: 10, borderRadius: "50%", background: "var(--chart-axis)", display: "inline-block" }} />
           Cerrado
         </span>
       </div>
@@ -144,7 +144,7 @@ export default function ScoreVsParamsChart({ data }: { data: ScatterRow[] }) {
             onMouseMove={handleMouseMove}
             onMouseUp={handleMouseUp}
           >
-            <CartesianGrid stroke="#e2e8f0" />
+            <CartesianGrid stroke="var(--chart-grid)" />
             <XAxis
               type="number"
               dataKey="parameters"
@@ -152,13 +152,13 @@ export default function ScoreVsParamsChart({ data }: { data: ScatterRow[] }) {
               domain={xDomain}
               tickFormatter={formatParams}
               fontSize={12}
-              stroke="#64748b"
+              stroke="var(--chart-axis)"
               label={{
                 value: "Parámetros",
                 position: "insideBottom",
                 offset: -2,
                 fontSize: 12,
-                fill: "#64748b",
+                fill: "var(--chart-axis)",
               }}
             />
             <YAxis
@@ -168,19 +168,19 @@ export default function ScoreVsParamsChart({ data }: { data: ScatterRow[] }) {
               domain={yDomain}
               tickFormatter={(v: number) => `${v}%`}
               fontSize={12}
-              stroke="#64748b"
+              stroke="var(--chart-axis)"
               label={{
                 value: "Score %",
                 angle: -90,
                 position: "insideLeft",
                 offset: 10,
                 fontSize: 12,
-                fill: "#64748b",
+                fill: "var(--chart-axis)",
               }}
             />
             <Tooltip
               content={<ChartTooltip />}
-              cursor={{ strokeDasharray: "3 3", stroke: "#94a3b8" }}
+              cursor={{ strokeDasharray: "3 3", stroke: "var(--chart-axis)" }}
             />
             <ReferenceLine
               x={27e9}
@@ -200,14 +200,14 @@ export default function ScoreVsParamsChart({ data }: { data: ScatterRow[] }) {
               strokeDasharray="6 4"
               label={{ value: "192B", position: "top", fill: "#ef4444", fontSize: 12 }}
             />
-            <Scatter data={openData} fill="#2563eb" r={6} name="Abierto" />
-            <Scatter data={closedData} fill="#94a3b8" r={6} name="Cerrado" />
+            <Scatter data={openData} fill="var(--accent)" r={6} name="Abierto" />
+            <Scatter data={closedData} fill="var(--chart-axis)" r={6} name="Cerrado" />
             {refAreaLeft && refAreaRight && (
               <ReferenceArea
                 x1={Number(refAreaLeft)}
                 x2={Number(refAreaRight)}
                 strokeOpacity={0.3}
-                fill="#2563eb"
+                fill="var(--accent)"
                 fillOpacity={0.15}
               />
             )}

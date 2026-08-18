@@ -247,11 +247,11 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                     barCategoryGap="24%"
                     barGap={3}
                   >
-                    <CartesianGrid vertical={false} stroke="#e2e8f0" />
+                    <CartesianGrid vertical={false} stroke="var(--chart-grid)" />
                     <XAxis
                       dataKey="areaLabel"
                       fontSize={12}
-                      stroke="#0f172a"
+                      stroke="var(--chart-text)"
                       tickLine={false}
                     />
                     <YAxis
@@ -263,7 +263,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                       }
                       allowDecimals={!isPoints}
                       fontSize={12}
-                      stroke="#64748b"
+                      stroke="var(--chart-axis)"
                       width={48}
                     />
                     <Tooltip
@@ -384,11 +384,11 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                     barCategoryGap="24%"
                     barGap={3}
                   >
-                    <CartesianGrid vertical={false} stroke="#e2e8f0" />
+                    <CartesianGrid vertical={false} stroke="var(--chart-grid)" />
                     <XAxis
                       dataKey="subject"
                       fontSize={12}
-                      stroke="#0f172a"
+                      stroke="var(--chart-text)"
                       tickLine={false}
                       interval={0}
                       angle={-20}
@@ -399,7 +399,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                       domain={[0, 100]}
                       tickFormatter={(v: number) => `${v}%`}
                       fontSize={12}
-                      stroke="#64748b"
+                      stroke="var(--chart-axis)"
                       width={48}
                     />
                     <Tooltip

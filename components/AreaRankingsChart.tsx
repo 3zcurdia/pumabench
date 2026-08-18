@@ -75,20 +75,20 @@ export default function AreaRankingsChart({
             layout="vertical"
             margin={{ top: 8, right: 64, bottom: 8, left: 8 }}
           >
-            <CartesianGrid horizontal={false} stroke="#e2e8f0" />
+            <CartesianGrid horizontal={false} stroke="var(--chart-grid)" />
             <XAxis
               type="number"
               domain={[0, 100]}
               tickFormatter={(v: number) => `${v}%`}
               fontSize={12}
-              stroke="#64748b"
+              stroke="var(--chart-axis)"
             />
             <YAxis
               type="category"
               dataKey="model"
               width={240}
               fontSize={12}
-              stroke="#0f172a"
+              stroke="var(--chart-text)"
               interval={0}
               tickLine={false}
             />
@@ -107,7 +107,7 @@ export default function AreaRankingsChart({
                 position="right"
                 formatter={(v: number) => `${v.toFixed(1)}%`}
                 fontSize={12}
-                fill="#0f172a"
+                fill="var(--chart-text)"
               />
             </Bar>
           </BarChart>

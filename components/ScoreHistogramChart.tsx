@@ -89,7 +89,7 @@ export default function ScoreHistogramChart({ data }: Props) {
           data={chartData}
           margin={{ top: 32, right: 48, bottom: 48, left: 8 }}
         >
-          <CartesianGrid vertical={false} stroke="#e2e8f0" />
+          <CartesianGrid vertical={false} stroke="var(--chart-grid)" />
           <XAxis
             type="number"
             dataKey="bucket"
@@ -97,13 +97,13 @@ export default function ScoreHistogramChart({ data }: Props) {
             ticks={[0, 20, 40, 60, 80, 100, 120]}
             tickFormatter={(v: number) => `${v}`}
             fontSize={12}
-            stroke="#0f172a"
+            stroke="var(--chart-text)"
             tickLine={false}
           />
           <YAxis
             type="number"
             fontSize={12}
-            stroke="#64748b"
+            stroke="var(--chart-axis)"
             allowDecimals={false}
           />
           <Tooltip
@@ -120,7 +120,7 @@ export default function ScoreHistogramChart({ data }: Props) {
               dataKey="count"
               position="top"
               fontSize={11}
-              fill="#0f172a"
+              fill="var(--chart-text)"
             />
           </Bar>
         </BarChart>

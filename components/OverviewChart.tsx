@@ -32,7 +32,7 @@ function ModelTick({ x, y, payload }: any) {
       dy={4}
       textAnchor="middle"
       fontSize={12}
-      fill="#0f172a"
+      fill="var(--chart-text)"
       transform={`rotate(-35, ${x}, ${y})`}
     >
       {row?.model}
@@ -79,12 +79,12 @@ export default function OverviewChart({
           data={data}
           margin={{ top: 32, right: 48, bottom: 72, left: 8 }}
         >
-          <CartesianGrid vertical={false} stroke="#e2e8f0" />
+          <CartesianGrid vertical={false} stroke="var(--chart-grid)" />
           <XAxis
             type="category"
             dataKey="model"
             fontSize={12}
-            stroke="#0f172a"
+            stroke="var(--chart-text)"
             interval={0}
             tickLine={false}
             tick={<ModelTick />}
@@ -99,7 +99,7 @@ export default function OverviewChart({
             }
             allowDecimals={!isPoints}
             fontSize={12}
-            stroke="#64748b"
+            stroke="var(--chart-axis)"
           />
           <Tooltip
             content={<ChartTooltip />}
@@ -130,7 +130,7 @@ export default function OverviewChart({
           ) : null}
           <Bar
             dataKey={isPoints ? "correct" : "percentage"}
-            fill="#2563eb"
+            fill="var(--accent)"
             radius={[4, 4, 0, 0]}
             barSize={40}
           >
@@ -143,7 +143,7 @@ export default function OverviewChart({
                   : `${Math.floor(v)}%`
               }
               fontSize={12}
-              fill="#0f172a"
+              fill="var(--chart-text)"
             />
           </Bar>
         </BarChart>

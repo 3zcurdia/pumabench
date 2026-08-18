@@ -109,7 +109,7 @@ export default function AreasChart({
           barCategoryGap="20%"
           barGap={2}
         >
-          <CartesianGrid horizontal={false} stroke="#e2e8f0" />
+          <CartesianGrid horizontal={false} stroke="var(--chart-grid)" />
           <XAxis
             type="number"
             domain={isPoints ? [0, maxQuestions] : [0, 100]}
@@ -118,14 +118,14 @@ export default function AreasChart({
             }
             allowDecimals={!isPoints}
             fontSize={12}
-            stroke="#64748b"
+            stroke="var(--chart-axis)"
           />
           <YAxis
             type="category"
             dataKey="area"
             width={80}
             fontSize={12}
-            stroke="#0f172a"
+            stroke="var(--chart-text)"
             interval={0}
             tickLine={false}
           />
@@ -138,7 +138,7 @@ export default function AreasChart({
               wrapperStyle={{ fontSize: 12, paddingTop: 8 }}
               iconType="circle"
               formatter={(value: string) => (
-                <span style={{ color: "#0f172a" }}>{value}</span>
+                <span style={{ color: "var(--chart-text)" }}>{value}</span>
               )}
             />
           )}

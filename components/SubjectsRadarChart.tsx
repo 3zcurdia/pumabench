@@ -71,15 +71,15 @@ export default function SubjectsRadarChart({
     <div style={{ width: "100%", height: 340 }}>
       <ResponsiveContainer>
         <RechartsRadarChart cx="50%" cy="50%" outerRadius="70%" data={data}>
-          <PolarGrid stroke="#e2e8f0" />
+          <PolarGrid stroke="var(--chart-grid)" />
           <PolarAngleAxis
             dataKey="subject"
-            tick={{ fontSize: 11, fill: "#0f172a" }}
+            tick={{ fontSize: 11, fill: "var(--chart-text)" }}
           />
           <PolarRadiusAxis
             angle={90}
             domain={[0, 100]}
-            tick={{ fontSize: 11, fill: "#64748b" }}
+            tick={{ fontSize: 11, fill: "var(--chart-axis)" }}
             tickFormatter={(v: number) => `${v}%`}
           />
           {series.map((s) => (

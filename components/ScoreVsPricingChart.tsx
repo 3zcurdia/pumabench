@@ -129,7 +129,7 @@ export default function ScoreVsPricingChart({ data }: { data: PricingRow[] }) {
             onMouseMove={handleMouseMove}
             onMouseUp={handleMouseUp}
           >
-            <CartesianGrid stroke="#e2e8f0" />
+            <CartesianGrid stroke="var(--chart-grid)" />
             <XAxis
               type="number"
               dataKey="pricePer1M"
@@ -137,13 +137,13 @@ export default function ScoreVsPricingChart({ data }: { data: PricingRow[] }) {
               domain={xDomain}
               tickFormatter={formatPrice}
               fontSize={12}
-              stroke="#64748b"
+              stroke="var(--chart-axis)"
               label={{
                 value: "Precio (prompt, 1M tokens)",
                 position: "insideBottom",
                 offset: -2,
                 fontSize: 12,
-                fill: "#64748b",
+                fill: "var(--chart-axis)",
               }}
             />
             <YAxis
@@ -153,27 +153,27 @@ export default function ScoreVsPricingChart({ data }: { data: PricingRow[] }) {
               domain={yDomain}
               tickFormatter={(v: number) => `${v}%`}
               fontSize={12}
-              stroke="#64748b"
+              stroke="var(--chart-axis)"
               label={{
                 value: "Score %",
                 angle: -90,
                 position: "insideLeft",
                 offset: 10,
                 fontSize: 12,
-                fill: "#64748b",
+                fill: "var(--chart-axis)",
               }}
             />
             <Tooltip
               content={<ChartTooltip />}
-              cursor={{ strokeDasharray: "3 3", stroke: "#94a3b8" }}
+              cursor={{ strokeDasharray: "3 3", stroke: "var(--chart-axis)" }}
             />
-            <Scatter data={visibleData} fill="#2563eb" r={6} />
+            <Scatter data={visibleData} fill="var(--accent)" r={6} />
             {refAreaLeft && refAreaRight && (
               <ReferenceArea
                 x1={Number(refAreaLeft)}
                 x2={Number(refAreaRight)}
                 strokeOpacity={0.3}
-                fill="#2563eb"
+                fill="var(--accent)"
                 fillOpacity={0.15}
               />
             )}
