@@ -417,6 +417,7 @@
     "provider": "qwen",
     "type": "dense",
     "parameters": 27781427952,
+    "open": true,
     "pricing": {
       "prompt": "0.00000045",
       "completion": "0.0000032",
