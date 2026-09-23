@@ -29,6 +29,24 @@ ruby benchmark.rb --evaluate-only
 
 When `--resume` is passed, the script finds the latest in-progress answer CSV for the model, reuses its timestamp, skips already-answered questions (including `ERROR` rows), and only asks the LLM for the missing ones. The `timestamp` field inside each per-area result JSON is updated to the resume time.
 
+### Run with Jev (TypeSafe)
+
+Jev is a System One decision model: it does not write text. It takes a `state` plus typed questions and returns typed answers. PumaBench maps each exam question to one [TypeSafe `choice` primitive](https://docs.typesafe.ai/primitives/choice):
+
+- `state` holds the subject, the reference text, and the question stem
+- `questions.answer.criteria` holds the four options
+- the returned `choice` (`A`–`D`) is the answer
+
+```bash
+# Requires TYPESAFE_API_KEY in .env
+ruby benchmark.rb typesafe/jev-latest --provider=typesafe
+
+# Inspect the request bodies without calling the API
+ruby benchmark.rb typesafe/jev-latest --provider=typesafe --dry-run
+```
+
+One request per exam question, so the run is comparable with the LLM rows. The native TypeSafe API accepts `jev-latest`, `jev-preview`, and pinned ids like `jev-1.13.0` — it rejects `jev-1.13`. Jev has no thinking knob: `--effort` is rejected (except `none`) and the `results.csv` row is labelled `effort=none`. Alongside each answer CSV, a `<timestamp>-area-<n>.jsonl` sidecar records `choice`, `confidence`, `probabilities`, and `usage` for later calibration analysis.
+
 ## Run locally
 
 ```bash

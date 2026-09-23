@@ -2,13 +2,15 @@
 # frozen_string_literal: true
 
 EVALUATE_ONLY = ARGV.any? { |a| a == "--evaluate-only" || a.start_with?("--evaluate-only=") }
+TYPESAFE_ONLY = ARGV.any? { |a| a.start_with?("--provider=typesafe") } ||
+                ARGV.each_cons(2).any? { |a, b| a == "--provider" && b == "typesafe" }
 
 require "bundler/inline"
 
 gemfile do
   source "https://rubygems.org"
   gem "csv"
-  gem "ruby_llm", "~> 1.0" unless EVALUATE_ONLY
+  gem "ruby_llm", "~> 1.0" unless EVALUATE_ONLY || TYPESAFE_ONLY
 end
 
 require "net/http"
@@ -20,11 +22,62 @@ require "csv"
 require "set"
 
 OPENROUTER_API_BASE      = "https://openrouter.ai/api/v1".freeze
+TYPESAFE_API_BASE        = "https://api.typesafe.ai/v1".freeze
 HF_API                   = "https://huggingface.co/api/models".freeze
 HTTP_TIMEOUT             = 30
 VALID_OPTIONS            = ("A".."D").freeze
 ANSWER_RETRIES           = 2
 ANSWER_RETRY_BASE_DELAY  = 0.5
+CHOICE_INSTRUCTIONS      = "¿Cuál de estas cuatro opciones es la respuesta correcta?".freeze
+
+def applicable_shared_references(refs, subject)
+  return [] if refs.nil? || refs.empty?
+  refs.select do |r|
+    subjects = r["applies_to_subjects"]
+    subjects.nil? || subjects.empty? || (subject && subjects.include?(subject))
+  end
+end
+
+def strip_option_prefix(text)
+  text.to_s.sub(/\A\s*[A-D]\s*\)\s*/i, "")
+end
+
+def clean_latex(text)
+  s = text.to_s.dup
+  s = s.gsub(/\\[\(\)\[\]]/, "")
+  s = s.gsub(/\$\$/, "")
+  s = s.gsub(/\\sqrt\s*\{([^{}]*)\}/, 'sqrt(\1)')
+  s = s.gsub(/\\(?:text|mathrm|mathbf|operatorname|overline|underline|widehat|mbox|hbox)\s*\{([^{}]*)\}/, '\1')
+  8.times { s = s.gsub(/\\(?:d|t)?frac\s*\{([^{}]*)\}\s*\{([^{}]*)\}/) { "(#{$1})/(#{$2})" } }
+  s = s.gsub(/\\(?:begin|end)\s*\{[^{}]*\}/, "")
+  s = s.gsub(/\\(?:cdot|times)/, "*")
+  s = s.gsub(/\\div/, "/")
+  s = s.gsub(/\\leq/, "<=").gsub(/\\geq/, ">=").gsub(/\\neq/, "!=")
+  s = s.gsub(/\\pm/, "+/-")
+  s = s.gsub(/\\(?:rightarrow|to)/, "->")
+  s = s.gsub(/\\infty/, "infinito")
+  s = s.gsub(/\\pi\b/, "pi")
+  s = s.gsub(/\\,|\\;|\\!|\\quad|\\qquad|\\newline/, " ")
+  s = s.gsub(/\\([a-zA-Z]+)/) { Regexp.last_match(1) }
+  s = s.gsub(/[\\{}]/, "")
+  s = s.gsub(/\s+/, " ").strip
+  s
+end
+
+def option_description(value)
+  if value.is_a?(Hash)
+    text  = value["text"].to_s
+    desc  = value["image_description"].to_s
+    alt   = value["alt"].to_s
+    parts = []
+    parts << text unless text.empty?
+    parts << desc unless desc.empty?
+    parts << alt if parts.empty? && !alt.empty?
+    parts << "imagen sin descripción: #{value["image"]}" if parts.empty? && value["image"]
+    return clean_latex(parts.join(" | "))
+  end
+  clean_latex(strip_option_prefix(value))
+end
 
 TEST_DIR     = "test/2025".freeze
 ANSWERS_DIR  = "answers".freeze
@@ -46,7 +99,7 @@ class Responder
     @api_base = opts[:api_base]
     @api_key  = opts[:api_key]
     @dry_run  = opts[:dry_run]
-    configure_ruby_llm! unless @dry_run
+    configure_ruby_llm! unless @dry_run || @provider == :typesafe
   end
 
   def configure_ruby_llm!
@@ -116,11 +169,7 @@ class Responder
   end
 
   def render_shared_references(refs, subject)
-    return "" if refs.nil? || refs.empty?
-    applicable = refs.select do |r|
-      subjects = r["applies_to_subjects"]
-      subjects.nil? || subjects.empty? || (subject && subjects.include?(subject))
-    end
+    applicable = applicable_shared_references(refs, subject)
     return "" if applicable.empty?
 
     lines = applicable.map { |r| "  - " + render_reference_line(r) }
@@ -185,6 +234,113 @@ class Responder
   end
 end
 
+class TypeSafeResponder < Responder
+  attr_accessor :decisions_path
+
+  def initialize(**opts)
+    @decisions_path = nil
+    super
+  end
+
+  def answer(question, shared_references: nil)
+    attempts = 0
+    begin
+      attempts += 1
+      body = post_systemone(build_decision_request(question, shared_references: shared_references))
+      record_decision(question, body)
+      choice = body.dig("answers", "answer", "choice").to_s
+      return choice if VALID_OPTIONS.include?(choice)
+      warn "⚠️  Invalid choice (attempt #{attempts}) for model #{model}: #{choice.inspect}"
+    rescue StandardError => e
+      warn "⚠️  Could not generate answer (attempt #{attempts}) for model #{model}: #{e.message}"
+      sleep(ANSWER_RETRY_BASE_DELAY * attempts) if attempts <= ANSWER_RETRIES
+    end while attempts <= ANSWER_RETRIES
+
+    nil
+  end
+
+  def build_prompt(question, shared_references: nil)
+    JSON.pretty_generate(build_decision_request(question, shared_references: shared_references))
+  end
+
+  def build_decision_request(question, shared_references: nil)
+    {
+      "model" => typesafe_model_id,
+      "state" => build_state(question, shared_references),
+      "questions" => {
+        "answer" => {
+          "type" => "choice",
+          "instructions" => CHOICE_INSTRUCTIONS,
+          "criteria" => build_criteria(question)
+        }
+      }
+    }
+  end
+
+  def build_state(question, shared_references)
+    parts = applicable_shared_references(shared_references, question["subject"])
+                          .map { |r| render_reference_line(r) }
+    ref = question["reference"]
+    parts << render_reference_line(ref) if ref && !ref.empty?
+    state = { "materia" => clean_latex(question["subject"].to_s) }
+    state["referencias"] = clean_latex(parts.join("\n\n")) unless parts.empty?
+    state["enunciado"] = clean_latex(question["question"].to_s)
+    state
+  end
+
+  def build_criteria(question)
+    options = question["options"] || {}
+    ("A".."D").each_with_object({}) do |letter, criteria|
+      value = options[letter] || options[letter.to_sym]
+      criteria[letter] = option_description(value) unless value.nil?
+    end
+  end
+
+  def typesafe_model_id
+    model.to_s.split("/", 2).last
+  end
+
+  private
+
+  def post_systemone(request_body)
+    api_key = ENV["TYPESAFE_API_KEY"].to_s.strip
+    raise "TYPESAFE_API_KEY is not set" if api_key.empty?
+
+    uri = URI("#{TYPESAFE_API_BASE}/systemone")
+    request = Net::HTTP::Post.new(uri.request_uri)
+    request["Content-Type"]  = "application/json"
+    request["Authorization"] = "Bearer #{api_key}"
+    request.body = JSON.generate(request_body)
+
+    response = Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == "https",
+                               open_timeout: HTTP_TIMEOUT, read_timeout: HTTP_TIMEOUT) do |http|
+      http.request(request)
+    end
+    unless response.is_a?(Net::HTTPSuccess)
+      raise "HTTP #{response.code}: #{response.body.to_s[0, 300]}"
+    end
+    JSON.parse(response.body)
+  end
+
+  def record_decision(question, body)
+    return if decisions_path.nil?
+    answer = body.dig("answers", "answer") || {}
+    record = {
+      "number"        => question["number"],
+      "choice"        => answer["choice"],
+      "confidence"    => answer["confidence"],
+      "probabilities" => answer["probabilities"],
+      "usage"         => body["usage"]
+    }
+    File.open(decisions_path, "a") do |f|
+      f.sync = true
+      f.puts(JSON.generate(record))
+    end
+  rescue StandardError => e
+    warn "⚠️  Could not write decision sidecar: #{e.message}"
+  end
+end
+
 def model_answers_path_name(name, effort)
   model_name = name.to_s.split("/").last.sub(":free", "")
   model_name + (effort ? "-thinking-#{effort}" : "")
@@ -208,7 +364,7 @@ def load_latest_failed_questions(sanitized)
 end
 
 def run_benchmark(model_name, **options)
-	RubyLLM.models.refresh! unless options[:dry_run]
+	RubyLLM.models.refresh! unless options[:dry_run] || options[:provider] == :typesafe
   record   = register_model(model_name) unless options[:dry_run]
   model_id = record && record["id"]
   sanitized = model_answers_path_name(model_name, options[:effort])
@@ -268,13 +424,17 @@ def run_benchmark(model_name, **options)
     end
   end
 
-  responder = Responder.new(**options.merge(model: model_name))
+  responder_class = options[:provider] == :typesafe ? TypeSafeResponder : Responder
+  responder = responder_class.new(**options.merge(model: model_name))
 
   area_files = Dir.glob(File.join(TEST_DIR, "area-*.json")).sort
 
   area_files.each do |area_file|
     area_number = File.basename(area_file, ".json").split("-").last
     csv_path = File.join(answers_dir, "#{timestamp}-area-#{area_number}.csv")
+    if responder.respond_to?(:decisions_path=)
+      responder.decisions_path = File.join(answers_dir, "#{timestamp}-area-#{area_number}.jsonl")
+    end
 
     begin
       data = JSON.parse(File.read(area_file))
@@ -731,10 +891,10 @@ end
 # Default api base set to local ollama instance
 cli_options = { provider: nil, effort: nil, api_base: "http://localhost:1234/v1", api_key: "dummy-key", evaluate_only: false, resume: false, dry_run: false, rebuild: false, retry_failed: false }
 OptionParser.new do |opts|
-  opts.banner = "Usage: ruby benchmark.rb <model> [--provider=openai|openrouter] [--effort=low|medium|high] [--resume] [--rebuild] [--retry-failed] [--dry-run]\n" \
+  opts.banner = "Usage: ruby benchmark.rb <model> [--provider=openai|openrouter|typesafe] [--effort=low|medium|high] [--resume] [--rebuild] [--retry-failed] [--dry-run]\n" \
                 "       ruby benchmark.rb --evaluate-only\n" \
                 "       ruby benchmark.rb -h, --help"
-  opts.on("--provider=NAME", %i[openai openrouter], "Provider to use (auto-detected from model name if omitted)") { |v| cli_options[:provider] = v }
+  opts.on("--provider=NAME", %i[openai openrouter typesafe], "Provider to use (auto-detected from model name if omitted)") { |v| cli_options[:provider] = v }
   opts.on("--effort=LEVEL",  "Thinking effort: low|medium|high|none") { |v| cli_options[:effort] = v.to_sym }
   opts.on("--api_base=URL", "OpenAI-compatible API base URL") { |v| cli_options[:api_base] = v }
   opts.on("--api_key=KEY", "OpenAI-compatible API key") { |v| cli_options[:api_key] = v }
@@ -754,6 +914,18 @@ if cli_options[:retry_failed]
   conflicts << "--dry-run"        if cli_options[:dry_run]
   unless conflicts.empty?
     warn "Error: --retry-failed cannot be combined with #{conflicts.join(', ')}"
+    exit 1
+  end
+end
+
+if cli_options[:provider] == :typesafe
+  if cli_options[:effort] && cli_options[:effort].to_s != "none"
+    warn "Error: Jev (TypeSafe) has no thinking effort. Omit --effort or use --effort=none."
+    exit 1
+  end
+  cli_options[:effort] = nil
+  if ENV["TYPESAFE_API_KEY"].to_s.strip.empty? && !cli_options[:dry_run]
+    warn "Error: TYPESAFE_API_KEY is not set. Add it to .env and reload (mise)."
     exit 1
   end
 end

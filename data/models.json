@@ -480,6 +480,14 @@
     }
   },
   {
+    "id": "typesafe/jev-latest",
+    "name": "jev-latest",
+    "provider": "typesafe",
+    "type": "dense",
+    "parameters": null,
+    "pricing": null
+  },
+  {
     "id": "x-ai/grok-4.5",
     "name": "xAI: Grok 4.5",
     "provider": "x-ai",
