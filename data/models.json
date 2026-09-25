@@ -173,6 +173,15 @@
     }
   },
   {
+    "id": "kev-4b",
+    "name": "kev-4b",
+    "provider": "kev-4b",
+    "type": "dense",
+    "parameters": 4659865088,
+    "pricing": null,
+    "open": true
+  },
+  {
     "id": "laguna-xs-2.1",
     "name": "Poolside: Laguna XS 2.1",
     "provider": "laguna-xs-2.1",
