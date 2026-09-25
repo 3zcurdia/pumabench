@@ -27,11 +27,12 @@ ruby benchmark.rb <model-id> --provider=openrouter --effort=high --resume   # co
 ruby benchmark.rb <model-id> --provider=openrouter --rebuild               # delete previous data and re-run
 ruby benchmark.rb --evaluate-only                                            # re-score existing CSVs, no LLM calls
 ruby benchmark.rb typesafe/jev-latest --provider=typesafe [--dry-run]          # Jev via the TypeSafe choice primitive
+ruby benchmark.rb kev-4b --provider=typesafe --api_base=http://127.0.0.1:8009/v1  # Kev (self-hosted System One)
 ```
 
-Benchmark requires `OPENROUTER_API_KEY` in `.env`. Jev runs additionally require `TYPESAFE_API_KEY`.
+Benchmark requires `OPENROUTER_API_KEY` in `.env`. Jev runs additionally require `TYPESAFE_API_KEY`. Self-hosted Kev servers are open by default and do not need a key unless you set one on the server.
 
-Jev is not an LLM. `--provider=typesafe` sends one `POST https://api.typesafe.ai/v1/systemone` call per exam question with a `choice` primitive (see `TypeSafeResponder` in `data/benchmark.rb`). The native API accepts `jev-latest`, `jev-preview`, and pinned ids like `jev-1.13.0`; it rejects `jev-1.13` and OpenRouter-style `typesafe/jev-1.13`. It has no thinking effort, so `--effort` is rejected unless `none`, and the answers dir is the bare model slug (`jev-latest`, no `-thinking-` suffix). Each run also writes `<timestamp>-area-<n>.jsonl` next to the answer CSV with `choice`, `confidence`, `probabilities`, and `usage`.
+Jev and Kev are not LLMs. `--provider=typesafe` sends one `POST` call per exam question with a `choice` primitive (see `TypeSafeResponder` in `data/benchmark.rb`). The native TypeSafe cloud endpoint is `https://api.typesafe.ai/v1/systemone`; for Kev you override the base with `--api_base` (include `/v1`). The native API accepts `jev-latest`, `jev-preview`, and pinned ids like `jev-1.13.0`; it rejects `jev-1.13` and OpenRouter-style `typesafe/jev-1.13`. It has no thinking effort, so `--effort` is rejected unless `none`, and the answers dir is the bare model slug (`jev-latest`, no `-thinking-` suffix). Each run also writes `<timestamp>-area-<n>.jsonl` next to the answer CSV with `choice`, `confidence`, `probabilities`, and `usage`.
 
 ## Data flow
 

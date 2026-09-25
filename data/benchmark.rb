@@ -303,13 +303,10 @@ class TypeSafeResponder < Responder
   private
 
   def post_systemone(request_body)
-    api_key = ENV["TYPESAFE_API_KEY"].to_s.strip
-    raise "TYPESAFE_API_KEY is not set" if api_key.empty?
-
-    uri = URI("#{TYPESAFE_API_BASE}/systemone")
+    uri = URI("#{@api_base}/systemone")
     request = Net::HTTP::Post.new(uri.request_uri)
-    request["Content-Type"]  = "application/json"
-    request["Authorization"] = "Bearer #{api_key}"
+    request["Content-Type"] = "application/json"
+    request["Authorization"] = "Bearer #{@api_key}" if @api_key && !@api_key.empty?
     request.body = JSON.generate(request_body)
 
     response = Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == "https",
@@ -585,6 +582,53 @@ def hf_lookup(hf_id)
   http_get_json("#{HF_API}/#{hf_id}")
 end
 
+PERMISSIVE_LICENSES = %w[
+  apache-2.0 apache-2 apache2.0 apache2 apache
+  mit bsd-3-clause bsd-2-clause bsd bsd3 bsd2
+  isc mpl-2.0 unlicense cc0-1.0 cc-by-4.0 cc-by-sa-4.0
+  openrail++ openrail aimp lgpl-2.1 lgpl-3.0 pddl odc-by
+].freeze
+
+def hf_resolve(name)
+  data = hf_lookup(name)
+  return [data, name] if data
+  return [nil, nil] if name.include?("/")
+  results = http_get_json("#{HF_API}?search=#{URI.encode_www_form_component(name)}&limit=20")
+  return [nil, nil] unless results.is_a?(Array)
+  match = results.find { |m| m["id"].to_s.split("/", 2).last == name }
+  match ? [hf_lookup(match["id"]), match["id"]] : [nil, nil]
+end
+
+def base_model_from_hf(hf_data)
+  return nil unless hf_data.is_a?(Hash)
+  card = hf_data["cardData"]
+  if card.is_a?(Hash)
+    base = card["base_model"].to_s.strip
+    return base unless base.empty?
+  end
+  tags = hf_data["tags"] || []
+  plain = tags.find { |t| t.is_a?(String) && t.match?(/\Abase_model:[^:]+\/[^:]+\z/) }
+  return plain.sub(/\Abase_model:/, "") if plain
+  nil
+end
+
+def license_from_hf(hf_data)
+  return nil unless hf_data.is_a?(Hash)
+  card = hf_data["cardData"]
+  if card.is_a?(Hash)
+    lic = card["license"].to_s.strip
+    return lic unless lic.empty?
+  end
+  tags = hf_data["tags"] || []
+  lic_tag = tags.find { |t| t.is_a?(String) && t.start_with?("license:") }
+  lic_tag&.sub(/\Alicense:/, "")
+end
+
+def open_from_license(lic)
+  return nil if lic.nil? || lic.empty?
+  PERMISSIVE_LICENSES.include?(lic.downcase) ? true : false
+end
+
 def parameters_from_description(text)
   return nil unless text.is_a?(String) || text.is_a?(Symbol)
   text = text.to_s
@@ -634,13 +678,31 @@ def build_model_record(id, or_entry)
   hf_id    = or_entry && or_entry["hugging_face_id"]
   hf_id    = nil if hf_id.nil? || hf_id.to_s.strip.empty?
   hf_data  = hf_id ? hf_lookup(hf_id) : nil
-  hf_data ||= hf_lookup(id)
+  unless hf_data
+    hf_data, resolved_id = hf_resolve(id)
+    hf_id = resolved_id if resolved_id
+  end
+
+  # Adapter repos (e.g. kev LoRAs) may have no param counts; follow the base model
+  base_hf = nil
+  if hf_data
+    base_id = base_model_from_hf(hf_data)
+    base_hf = hf_lookup(base_id) if base_id && !base_id.empty?
+  end
 
   parameters = nil
   parameters = parameters_from_description(or_entry["description"]) if or_entry
   parameters = parameters_from_tensor_info(hf_data) if parameters.nil? && hf_data
+  parameters = parameters_from_tensor_info(base_hf) if parameters.nil? && base_hf
 
-  {
+  open = nil
+  if hf_data
+    lic = license_from_hf(hf_data)
+    lic = license_from_hf(base_hf) if (lic.nil? || lic.empty?) && base_hf
+    open = open_from_license(lic) unless lic.nil? || lic.empty?
+  end
+
+  record = {
     "id"         => id,
     "name"       => (or_entry && or_entry["name"]) || name,
     "provider"   => org,
@@ -648,6 +710,8 @@ def build_model_record(id, or_entry)
     "parameters" => parameters,
     "pricing"    => or_entry && or_entry["pricing"]
   }
+  record["open"] = open unless open.nil?
+  record
 end
 
 def load_model_registry
@@ -888,16 +952,15 @@ def run_evaluate(model_filter: nil, resume_ts: nil, model_id: nil)
   write_failed_questions_json
 end
 
-# Default api base set to local ollama instance
-cli_options = { provider: nil, effort: nil, api_base: "http://localhost:1234/v1", api_key: "dummy-key", evaluate_only: false, resume: false, dry_run: false, rebuild: false, retry_failed: false }
+cli_options = { provider: nil, effort: nil, api_base: nil, api_key: nil, evaluate_only: false, resume: false, dry_run: false, rebuild: false, retry_failed: false }
 OptionParser.new do |opts|
   opts.banner = "Usage: ruby benchmark.rb <model> [--provider=openai|openrouter|typesafe] [--effort=low|medium|high] [--resume] [--rebuild] [--retry-failed] [--dry-run]\n" \
                 "       ruby benchmark.rb --evaluate-only\n" \
                 "       ruby benchmark.rb -h, --help"
   opts.on("--provider=NAME", %i[openai openrouter typesafe], "Provider to use (auto-detected from model name if omitted)") { |v| cli_options[:provider] = v }
   opts.on("--effort=LEVEL",  "Thinking effort: low|medium|high|none") { |v| cli_options[:effort] = v.to_sym }
-  opts.on("--api_base=URL", "OpenAI-compatible API base URL") { |v| cli_options[:api_base] = v }
-  opts.on("--api_key=KEY", "OpenAI-compatible API key") { |v| cli_options[:api_key] = v }
+  opts.on("--api_base=URL", "OpenAI or System One API base URL (include /v1 for System One)") { |v| cli_options[:api_base] = v }
+  opts.on("--api_key=KEY", "OpenAI or System One API key") { |v| cli_options[:api_key] = v }
   opts.on("--evaluate-only", "Skip the benchmark; re-evaluate every model in answers/") { cli_options[:evaluate_only] = true }
   opts.on("--resume", "Continue the latest in-progress run for this model instead of starting a new one") { cli_options[:resume] = true }
   opts.on("--rebuild", "Delete previous answers/results for this model and re-run from scratch") { cli_options[:rebuild] = true }
@@ -905,6 +968,16 @@ OptionParser.new do |opts|
   opts.on("--dry-run", "Print prompts without calling the LLM or writing files") { cli_options[:dry_run] = true }
   opts.on("-h", "--help", "Show this help") { puts opts; exit }
 end.parse!
+
+# Resolve provider-specific API defaults after parsing
+if cli_options[:provider] == :typesafe
+  cli_options[:api_base] = (cli_options[:api_base] || TYPESAFE_API_BASE).to_s.sub(%r{/\z}, "")
+  cli_options[:api_key]  = (cli_options[:api_key] || ENV["TYPESAFE_API_KEY"]).to_s.strip
+else
+  cli_options[:provider] ||= :openai
+  cli_options[:api_base] ||= "http://localhost:1234/v1"
+  cli_options[:api_key]  ||= "dummy-key"
+end
 
 if cli_options[:retry_failed]
   conflicts = []
@@ -920,12 +993,12 @@ end
 
 if cli_options[:provider] == :typesafe
   if cli_options[:effort] && cli_options[:effort].to_s != "none"
-    warn "Error: Jev (TypeSafe) has no thinking effort. Omit --effort or use --effort=none."
+    warn "Error: System One decision models (Jev/Kev) have no thinking effort. Omit --effort or use --effort=none."
     exit 1
   end
   cli_options[:effort] = nil
-  if ENV["TYPESAFE_API_KEY"].to_s.strip.empty? && !cli_options[:dry_run]
-    warn "Error: TYPESAFE_API_KEY is not set. Add it to .env and reload (mise)."
+  if cli_options[:api_key].empty? && cli_options[:api_base] == TYPESAFE_API_BASE && !cli_options[:dry_run]
+    warn "Error: TYPESAFE_API_KEY is not set and no --api_key was given for the cloud endpoint. Add it to .env or pass --api_key."
     exit 1
   end
 end
@@ -934,7 +1007,6 @@ if cli_options[:evaluate_only]
   run_evaluate()
 elsif ARGV[0]
   model    = ARGV[0]
-  cli_options[:provider] ||= :openai
   run_benchmark(model, **cli_options)
 else
   models = fetch_local_models(cli_options[:api_base])
@@ -958,6 +1030,9 @@ else
     puts
     puts "Or re-evaluate all existing answer CSVs without running a benchmark:"
     puts "  ruby benchmark.rb --evaluate-only"
+    puts
+    puts "For self-hosted System One servers (e.g. kev):"
+    puts "  ruby benchmark.rb kev-4b --provider=typesafe --api_base=http://127.0.0.1:8009/v1"
     puts
     puts "For OpenRouter models (auth via OPENROUTER_API_KEY env var):"
     puts "  ruby benchmark.rb qwen/qwen-3.6-27b"
